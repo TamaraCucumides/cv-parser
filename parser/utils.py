@@ -1,4 +1,5 @@
 import re
+from .cts import *
 
 
 def retrieve_email(text):
@@ -10,10 +11,14 @@ def retrieve_phone_number(text):
 
 
 def retrieve_skills(text):
-    pass
+    return [skill for skill in skills if skill in text.lower()]
 
 
 def retrieve_education_institution(text):
+    pass
+
+
+def retrieve_higher_degree(text):
     pass
 
 
