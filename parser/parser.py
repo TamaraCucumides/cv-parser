@@ -1,4 +1,4 @@
-from . import utils
+import utils
 
 
 class CvParser:
@@ -12,7 +12,7 @@ class CvParser:
         self.raw_text = cv
 
         self.parse()
-        pass
+        self._sections = dict()
 
     def parse(self):
         nombre = None
@@ -31,6 +31,9 @@ class CvParser:
 
     def get_parsed_resume(self):
         return self.parsed
+
+    def _sectionize(self):
+        return utils.parse_cv_sections(self.raw_text)
 
 
 
