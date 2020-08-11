@@ -25,11 +25,17 @@ def retrieve_past_experience(text):
     pass
 
 
+def retrieve_last_experience_year(text):
+    pass
+
+
 def retrieve_name(text):
     pass
 
+
 def parse_cv_sections(text):
     pass
+
 
 
 
