@@ -41,9 +41,7 @@ class CvParser:
     def _sectionize(self):
         return utils.parse_cv_sections(self.raw_text)
 
-#resume = '/home/erwin/cv-parser/example_1.pdf'
-#parser = CvParser(resume)
-#parser.parse()
+
 
 def resume_result_wrapper(resume):
         parser = CvParser(resume)
@@ -58,15 +56,9 @@ if __name__ == '__main__':
         for filename in filenames:
             file = os.path.join(root, filename)
             resumes.append(file)
-    #print(resumes)
 
     results = [resume_result_wrapper(x) for x in resumes]
-    print(results)
-
-    #results = [p.get_parse for p in results]
-
-    #pprint.pprint(results)
-
+    pprint.pprint(results)
 
 
 
