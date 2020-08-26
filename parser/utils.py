@@ -29,11 +29,25 @@ def retrieve_email(text):
 
 
 def retrieve_phone_number(text):
+    '''
+    Funciona con numero del estilo : +56986634232
+    se cae con +569 86634232, el espacio mata el RegExr
+    '''
     regex = re.compile("\+?\d[\( -]?\d{3}[\) -]?\d{3}[ -]?\d{2}[ -]?\d{2}")
     numbers = re.findall(regex, text)
     #print(numbers)
     return numbers
-
+"""     custom_regex = None
+    if not custom_regex:
+        mob_num_regex = r'''(\d{3}[-\.\s]??\d{3}[-\.\s]??\d{4}|\(\d{3}\)
+                        [-\.\s]*\d{3}[-\.\s]??\d{4}|\d{3}[-\.\s]??\d{4})'''
+        phone = re.findall(re.compile(mob_num_regex), text)
+    else:
+        phone = re.findall(re.compile(custom_regex), text)
+    if phone:
+        number = ''.join(phone[0])
+        return number
+ """
 
 def retrieve_skills(text):
     #return [skill for skill in skills if (' '+skill.lower()+' ') in text.lower()]
@@ -85,31 +99,45 @@ def retrieve_past_experience(text):
     :param resume_text: Plain resume text
     :return: list of experience
     '''
+   
     wordnet_lemmatizer = WordNetLemmatizer()
     stop_words = set(stopwords.words('spanish'))
-    #print(stop_words)
 
-    # word tokenization 
+    # word tokenization
     word_tokens = nltk.word_tokenize(text)
 
-    # remove stop words and lemmatize  
-    filtered_sentence = [w for w in word_tokens if not w in stop_words and wordnet_lemmatizer.lemmatize(w) not in stop_words] 
+    # remove stop words and lemmatize
+    filtered_sentence = [
+            w for w in word_tokens if w not
+            in stop_words and wordnet_lemmatizer.lemmatize(w)
+            not in stop_words
+        ]
     sent = nltk.pos_tag(filtered_sentence)
-    #print(sent)
+
     # parse regex
     cp = nltk.RegexpParser('P: {<NNP>+}')
     cs = cp.parse(sent)
-    #print(cs)
+
     # for i in cs.subtrees(filter=lambda x: x.label() == 'P'):
     #     print(i)
-    
-    test = []
-    
-    for vp in list(cs.subtrees(filter=lambda x: x.label()=='P')):
-        test.append(" ".join([i[0] for i in vp.leaves() if len(vp.leaves()) >= 2]))
 
-    # Search the word 'experience' in the chunk and then print out the text after it
-    x = [x[x.lower().index('laboral') + 10:] for i, x in enumerate(test) if x and 'laboral' in x.lower()]
+    test = []
+
+    for vp in list(
+        cs.subtrees(filter=lambda x: x.label() == 'P')
+    ):
+        test.append(" ".join([
+            i[0] for i in vp.leaves()
+            if len(vp.leaves()) >= 2])
+        )
+
+    # Search the word 'experience' in the chunk and
+    # then print out the text after it
+    x = [
+        x[x.lower().index('experiencia') + 10:]
+        for i, x in enumerate(test)
+        if x and 'experiencia' in x.lower()
+    ]
     return x
     
 
