@@ -11,7 +11,10 @@ sections = {"resumen": ["Resumen"],
             "experiencia": ["Experiencia previa", "Antecedentes Laborales"],
             "educacion": ["Educación", "Formación", "Antecedentes de formación"]}
 
-educacion = ["Universidad de chile", "UChile", "UCV", "PUC", "Pontificia Universidad Católica de Chile",
-                "Universidad de los Lagos", "UTEM"]
+educacion = ["Universidad de chile", "UChile","Pontificia Universidad Católica de Chile",
+                "Universidad de los Lagos"]
+
+
+educacionSiglas = ['UC', 'UTEM', 'UAI', 'PUC', 'UCH', 'UDD', 'UAI']
 
 skills = list(pd.read_csv(os.path.join(sys.path[0], "skills.csv")))

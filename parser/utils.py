@@ -75,20 +75,27 @@ def retrieve_skills(text):
 
 
 def retrieve_education_institution(text):
-    #tokens = word_tokenize(text)
-    #print(tokens)
-   
+    #Solo nouns de 1 palabra, para capturar "UC", "UCH", etc
+    filter_noun = [word for (word, pos) in nltk.pos_tag(nltk.word_tokenize(text)) if pos[0] == 'N']   
     nlp = es_core_news_sm.load()
+    sr = stopwords.words('spanish')
     educacion_list=[]
     nlp_text = nlp(text)
+    #nlp_text = [word for word in nlp_text if not word in sr]
+    #chuncks, para capturar "Univeridad de  ...."
     noun_chunks = list(nlp_text.noun_chunks)
     for item in educacion:
         for noun in noun_chunks:
             if item.lower() in noun.text.lower():
                 educacion_list.append(item)
+                #print(noun.text.lower())
+                
+    for item in educacionSiglas:
+        if item in filter_noun:
+            educacion_list.append(item)
+            #print(item)
     unique_values = set(educacion_list)
     return list(unique_values) 
-   
  
 
 
