@@ -257,7 +257,8 @@ def summarize_cv(text):
             summary.append(sent)
         else:
             continue
-    return summary[0]
+
+    return summary[0].text.replace("\n","")
 
 
 
