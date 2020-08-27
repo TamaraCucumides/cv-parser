@@ -11,6 +11,9 @@ from nltk.corpus import stopwords
 import es_core_news_sm
 from nltk.tokenize import sent_tokenize
 import os
+import spacy
+from sklearn.feature_extraction.text import CountVectorizer
+import es_core_news_sm
 
 def extract_text(path):
     '''
@@ -160,7 +163,7 @@ def retrieve_past_experience(text):
     # parse regex
     cp = nltk.RegexpParser('P: {<NNP>+}')
     cs = cp.parse(sent)
-    
+
     test = []
 
     for vp in list(
@@ -191,15 +194,14 @@ def retrieve_name(text):
     Output: texto plano
     '''
     NAME_PATTERN      = [{'POS': 'PROPN'}, {'POS': 'PROPN'}, {'POS': 'PROPN'}]
-    nlp = en_core_web_sm.load()
+    nlp = es_core_news_sm.load()
     matcher = Matcher(nlp.vocab)
     pattern = [NAME_PATTERN]
     nlp_text = nlp(text)
     matcher.add('NAME', None, *pattern)
     
     matches = matcher(nlp_text)
-    #print(matches)
-    
+   
     for _, start, end in matches:
         span = nlp_text[start:end]
         return span.text
@@ -207,6 +209,55 @@ def retrieve_name(text):
 
 def parse_cv_sections(text):
     pass
+
+
+def summarize_cv(text):
+    '''
+    Funcion que que rankea frases a partir de frecuencia
+    de palabras, es un intento simple/ no muy efectivo de resumir.
+    El problema de los cv es que el texto es reducido, no hablamos de un libro.
+
+    Input: texto plano
+    Output: texto plano
+    '''
+    nlp = es_core_news_sm.load()
+    doc = nlp(text)
+    corpus = [sent.text.lower() for sent in doc.sents ]
+    STOP_WORDS = set(stopwords.words("spanish"))
+    cv = CountVectorizer(stop_words=list(STOP_WORDS))   
+    cv_fit=cv.fit_transform(corpus)    
+    word_list = cv.get_feature_names();    
+    count_list = cv_fit.toarray().sum(axis=0)
+    word_frequency = dict(zip(word_list,count_list))
+    val=sorted(word_frequency.values())
+    #higher_word_frequencies = [word for word,freq in word_frequency.items() if freq in val[-3:]]
+    #print("\nWords with higher frequencies: ", higher_word_frequencies)
+
+    # gets relative frequencies of words
+    higher_frequency = val[-1]
+
+    for word in word_frequency.keys():  
+        word_frequency[word] = (word_frequency[word]/higher_frequency)
+        
+    sentence_rank={}
+    for sent in doc.sents:
+        for word in sent :       
+            if word.text.lower() in word_frequency.keys():            
+                if sent in sentence_rank.keys():
+                    sentence_rank[sent]+=word_frequency[word.text.lower()]
+                else:
+                    sentence_rank[sent]=word_frequency[word.text.lower()]
+    top_sentences=(sorted(sentence_rank.values())[::-1])
+    top_sent=top_sentences[:1]
+
+
+    summary=[]
+    for sent,strength in sentence_rank.items():  
+        if strength in top_sent:
+            summary.append(sent)
+        else:
+            continue
+    return summary[0]
 
 
 

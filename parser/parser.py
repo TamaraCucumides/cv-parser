@@ -10,6 +10,7 @@ class CvParser:
         self.parsed = {"Nombre": None,
                        "Correo": None,
                        "Celular": None,
+                       "Resumen": None,
                        "Skills": None,
                        "Grado": None,
                        "Experiencia Previa": None,
@@ -29,6 +30,7 @@ class CvParser:
         experiencia = utils.retrieve_past_experience(self.raw_text)
         educacion = utils.retrieve_education_institution(self.raw_text)
         grado = utils.retrieve_higher_degree(self.raw_text)
+        resumen = utils.summarize_cv(self.raw_text)
 
         self.parsed["Nombre"] = nombre
         self.parsed["Correo"] = correo
@@ -37,6 +39,7 @@ class CvParser:
         self.parsed["Experiencia Previa"] = experiencia
         self.parsed["Educacion"] = educacion
         self.parsed['Grado']= grado
+        self.parsed['Resumen']= resumen
 
     def get_parsed_resume(self):
         return self.parsed
