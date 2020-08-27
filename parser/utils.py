@@ -76,26 +76,31 @@ def retrieve_skills(text):
 
 
 def retrieve_education_institution(text):
-    #Solo nouns de 1 palabra, para capturar "UC", "UCH", etc
-    filter_noun = [word for (word, pos) in nltk.pos_tag(nltk.word_tokenize(text)) if pos[0] == 'N']   
+    '''
+    Funcion que recupera las universidad o intituciones mencionadas en el CV
+    Hace uso de 2 listas: Educacion y Educacion_siglas.
+    Input: texto plano
+    Output: Lista de strings unicos
+    '''
     nlp = es_core_news_sm.load()
     sr = stopwords.words('spanish')
     educacion_list=[]
     nlp_text = nlp(text)
-    #nlp_text = [word for word in nlp_text if not word in sr]
-    #chuncks, para capturar "Univeridad de  ...."
+    
+    filter_noun = [word for (word, pos) in nltk.pos_tag(nltk.word_tokenize(text)) if pos[0] == 'N']   
     noun_chunks = list(nlp_text.noun_chunks)
+    
     for item in educacion:
         for noun in noun_chunks:
             if item.lower() in noun.text.lower():
                 educacion_list.append(item)
-                #print(noun.text.lower())
                 
     for item in educacionSiglas:
         if item in filter_noun:
             educacion_list.append(item)
-            #print(item)
+
     unique_values = set(educacion_list)
+
     return list(unique_values) 
  
 
@@ -107,7 +112,7 @@ def retrieve_higher_degree(text):
     Funcion que devuelve el grado más alto encontrado, depende de la 
     lista grados_educativos_orden
     Input: Texto Plano
-    Output: Lista de el grado más alto
+    Output: Lista de strings
     '''
     education = []
     frases = sent_tokenize(text)
@@ -155,9 +160,7 @@ def retrieve_past_experience(text):
     # parse regex
     cp = nltk.RegexpParser('P: {<NNP>+}')
     cs = cp.parse(sent)
-    #for i in cs.subtrees(filter=lambda x: x.label() == 'P'):
-    #    print(i)
-
+    
     test = []
 
     for vp in list(
@@ -168,13 +171,6 @@ def retrieve_past_experience(text):
             if len(vp.leaves()) >= 2])
         )
 
-    # Search the word 'experience' in the chunk and
-    # then print out the text after it
-    #x = [
-    #    x[x.lower().index('experiencia') + 10:]
-    #    for i, x in enumerate(test)
-    #    if x and 'experiencia' in x.lower()
-    #]
     x = [x[x.lower().index('experiencia') + 12:]
         for i, x in enumerate(test)
         if x and 'experiencia' in x.lower()
@@ -190,7 +186,9 @@ def retrieve_last_experience_year(text):
 def retrieve_name(text):
 
     '''
-    busca por 3 pronombres seguidos, se cae cuando alguien pone sus cuatro nombres
+    Funcion que busca por 3 pronombres seguidos, se cae cuando alguien pone sus cuatro nombres.
+    Input: texto plano
+    Output: texto plano
     '''
     NAME_PATTERN      = [{'POS': 'PROPN'}, {'POS': 'PROPN'}, {'POS': 'PROPN'}]
     nlp = en_core_web_sm.load()
