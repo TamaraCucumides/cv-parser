@@ -18,6 +18,6 @@ educacion = ["Universidad de chile", "UChile","Pontificia Universidad Católica 
                 "Universidad de los Lagos"]
 
 
-educacionSiglas = ['UC', 'UTEM', 'UAI', 'PUC', 'UCH', 'UDD', 'UAI']
+educacionSiglas = ['UC', 'UTEM', 'UAI', 'PUC', 'UCH', 'UDD', 'UAI', 'ULA']
 
 skills = list(pd.read_csv(os.path.join(sys.path[0], "skills.csv")))

@@ -10,6 +10,7 @@ from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords 
 import es_core_news_sm
 from nltk.tokenize import sent_tokenize
+import os
 
 def extract_text(path):
     '''
@@ -102,6 +103,12 @@ def retrieve_education_institution(text):
 
 
 def retrieve_higher_degree(text):
+    '''
+    Funcion que devuelve el grado más alto encontrado, depende de la 
+    lista grados_educativos_orden
+    Input: Texto Plano
+    Output: Lista de el grado más alto
+    '''
     education = []
     frases = sent_tokenize(text)
     #for frase in frases:
@@ -109,13 +116,12 @@ def retrieve_higher_degree(text):
          for frase in frases:
             if grado.lower() in frase.lower():
                 education.append(grado)
-    
+
     if len(education)>0:
         education = [education[-1]]
     else:
-        educacion = []
-    
-    #return education[-1] if len(education)>0 else []
+        education = []
+
     return education
 
 
@@ -126,7 +132,8 @@ def retrieve_dates(text):
 def retrieve_past_experience(text):
     
     '''
-    Helper function to extract experience from resume text
+    Busca la palabra experiencia y devuelve la frase
+    en la que esta incluida.
     :param resume_text: Plain resume text
     :return: list of experience
     '''
@@ -163,8 +170,12 @@ def retrieve_past_experience(text):
 
     # Search the word 'experience' in the chunk and
     # then print out the text after it
-    x = [
-        x[x.lower().index('experiencia') + 10:]
+    #x = [
+    #    x[x.lower().index('experiencia') + 10:]
+    #    for i, x in enumerate(test)
+    #    if x and 'experiencia' in x.lower()
+    #]
+    x = [x[x.lower().index('experiencia') + 12:]
         for i, x in enumerate(test)
         if x and 'experiencia' in x.lower()
     ]
@@ -191,7 +202,7 @@ def retrieve_name(text):
     matches = matcher(nlp_text)
     #print(matches)
     
-    for match_id, start, end in matches:
+    for _, start, end in matches:
         span = nlp_text[start:end]
         return span.text
 
