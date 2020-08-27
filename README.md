@@ -20,9 +20,18 @@ Ejemplo de salida:
              'in PraguePrague, Czech RepublicExchange Semester '
              '2020-1–Conocimientos & HabilidadesUso de software: Excel, LATEX, '
              'Octave, HFSS, NI AWR Design Environment, Ltspice, OMNeT++, GIT.',
-  'Skills': ['Java', 'C', 'Python', 'Excel', 'Aws', 'Octave', 'Latex']},
-
-
+  'Skills': ['Latex',
+             'Octave',
+             'Pytorch',
+             'C',
+             'Sql',
+             'Git',
+             'Verilog',
+             'Java',
+             'Docker',
+             'Excel',
+             'Aws',
+             'Python']},
  {'Celular': ['+56986634232'],
   'Correo': ['erwinpaillacan@gmail.com'],
   'Educacion': ['Universidad de chile'],
@@ -34,10 +43,16 @@ Ejemplo de salida:
              'Mención Eléctrica2015 – 2018Ingeniería Civil Eléctrica2015 – '
              '2020Conocimientos & HabilidadesUso de software: Excel, LATEX, '
              'Octave, HFSS, NI AWR Design Environment, Ltspice, OMNeT++, GIT.',
-  'Skills': ['Java', 'C', 'Python', 'Excel', 'Octave', 'Latex']},
-
-
-
+  'Skills': ['Latex',
+             'Octave',
+             'Pytorch',
+             'C',
+             'Sql',
+             'Git',
+             'Verilog',
+             'Java',
+             'Excel',
+             'Python']},
  {'Celular': ['+56986634232'],
   'Correo': ['erwinpaillacan@gmail.com'],
   'Educacion': ['Universidad de chile'],
@@ -55,10 +70,18 @@ Ejemplo de salida:
              'in PraguePrague, Czech RepublicExchange Semester '
              '2020-1–Conocimientos & HabilidadesUso de software: Excel, LATEX, '
              'Octave, HFSS, NI AWR Design Environment, Ltspice, OMNeT++, GIT.',
-  'Skills': ['Java', 'C', 'Python', 'Excel', 'Aws', 'Octave', 'Latex']},
-
-
-  
+  'Skills': ['Latex',
+             'Octave',
+             'Pytorch',
+             'C',
+             'Sql',
+             'Git',
+             'Verilog',
+             'Java',
+             'Docker',
+             'Excel',
+             'Aws',
+             'Python']},
  {'Celular': ['+56982655924', '+56982654303'],
   'Correo': ['andrea.garces.97@hotmail.com', 's.muñoz@ulagos.cl'],
   'Educacion': ['Universidad de los Lagos'],
@@ -69,6 +92,6 @@ Ejemplo de salida:
              'de La Costa (2019)Educadora Diferencial a cargo de realizar '
              'apoyos en aula común y derecursos en  asignaturas de Lenguaje y '
              'Matemáticas, cursos 3° y 4°Básico.',
-  'Skills': ['Word']}]
+  'Skills': ['Word', 'Power point', 'Office']}]
 
 ```
