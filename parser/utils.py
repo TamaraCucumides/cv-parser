@@ -8,6 +8,8 @@ from spacy.matcher import Matcher
 import pandas as pd
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords 
+import es_core_news_sm
+from nltk.tokenize import sent_tokenize
 
 def extract_text(path):
     '''
@@ -51,7 +53,7 @@ def retrieve_phone_number(text):
 
 def retrieve_skills(text):
     #return [skill for skill in skills if (' '+skill.lower()+' ') in text.lower()]
-    nlp = en_core_web_sm.load()
+    nlp = es_core_news_sm.load()
     nlp_text = nlp(text)
     tokens = [token.text for token in nlp_text if not token.is_stop]
     data = pd.read_csv(os.path.join(os.getcwd(), 'parser/skills.csv')) 
@@ -75,17 +77,34 @@ def retrieve_skills(text):
 def retrieve_education_institution(text):
     #tokens = word_tokenize(text)
     #print(tokens)
+   
+    nlp = es_core_news_sm.load()
     educacion_list=[]
+    nlp_text = nlp(text)
+    noun_chunks = list(nlp_text.noun_chunks)
     for item in educacion:
-      if item.lower() in text.lower():
-          #print ('found one of em')
-          educacion_list.append(item)
-    return educacion_list
+        for noun in noun_chunks:
+            if item.lower() in noun.text.lower():
+                educacion_list.append(item)
+    unique_values = set(educacion_list)
+    return list(unique_values) 
+   
+ 
+
 
 
 
 def retrieve_higher_degree(text):
-    pass
+    education = []
+    frases = sent_tokenize(text)
+    for frase in frases:
+        for grado in grados_educativos:
+            if grado.lower() in frase.lower():
+                education.append(grado)
+    
+    unique_values = set(education)
+    return list(unique_values)
+    
 
 
 def retrieve_dates(text):
@@ -117,9 +136,8 @@ def retrieve_past_experience(text):
     # parse regex
     cp = nltk.RegexpParser('P: {<NNP>+}')
     cs = cp.parse(sent)
-
-    # for i in cs.subtrees(filter=lambda x: x.label() == 'P'):
-    #     print(i)
+    #for i in cs.subtrees(filter=lambda x: x.label() == 'P'):
+    #    print(i)
 
     test = []
 
