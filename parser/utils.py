@@ -104,14 +104,19 @@ def retrieve_education_institution(text):
 def retrieve_higher_degree(text):
     education = []
     frases = sent_tokenize(text)
-    for frase in frases:
-        for grado in grados_educativos:
+    #for frase in frases:
+    for grado in grados_educativos_orden:
+         for frase in frases:
             if grado.lower() in frase.lower():
                 education.append(grado)
     
-    unique_values = set(education)
-    return list(unique_values)
+    if len(education)>0:
+        education = [education[-1]]
+    else:
+        educacion = []
     
+    #return education[-1] if len(education)>0 else []
+    return education
 
 
 def retrieve_dates(text):
