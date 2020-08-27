@@ -6,7 +6,7 @@ import pprint
 
 class CvParser:
     def __init__(self, cv):
-        nlp = en_core_web_sm.load()
+        #nlp = en_core_web_sm.load()
         self.parsed = {"Nombre": None,
                        "Correo": None,
                        "Celular": None,
