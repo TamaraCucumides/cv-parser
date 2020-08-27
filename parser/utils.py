@@ -36,24 +36,17 @@ def retrieve_email(text):
 
 def retrieve_phone_number(text):
     '''
-    Funciona con numero del estilo : +56986634232
-    se cae con +569 86634232, el espacio mata el RegExr
+    Retorna numero de 12 digitos
+    que parten con +
+    Input: Texto plano
+    Output: Texto plano
     '''
     regex = re.compile("\+?\d[\( -]?\d{3}[\) -]?\d{3}[ -]?\d{2}[ -]?\d{2}")
-    numbers = re.findall(regex, text)
-    #print(numbers)
+    texto_busqueda = "".join(text.split()) 
+    numbers = re.findall(regex, texto_busqueda)
+
     return numbers
-"""     custom_regex = None
-    if not custom_regex:
-        mob_num_regex = r'''(\d{3}[-\.\s]??\d{3}[-\.\s]??\d{4}|\(\d{3}\)
-                        [-\.\s]*\d{3}[-\.\s]??\d{4}|\d{3}[-\.\s]??\d{4})'''
-        phone = re.findall(re.compile(mob_num_regex), text)
-    else:
-        phone = re.findall(re.compile(custom_regex), text)
-    if phone:
-        number = ''.join(phone[0])
-        return number
- """
+
 
 def retrieve_skills(text):
     #return [skill for skill in skills if (' '+skill.lower()+' ') in text.lower()]
