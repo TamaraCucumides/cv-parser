@@ -97,3 +97,16 @@ Ejemplo de salida:
   'Skills': ['Word', 'Power point', 'Office']}]
 
 ```
+### Resumen extraido con BETO
+```
+PERFIL PROFESIONAL Educadora Diferencial, 23 aos de edad, con Especialidad en Dificultades de 
+Aprendizaje, titulada de la Universidad de Los Lagos . profesional responsable, comprometida, con
+capacidad de adaptación y puntual, con conocimientos en el área administrativa y estrategias did
+```
+
+### Resumen extraido con algoritmo simple
+```
+'EXPERIENCIA PROFESIONAL Escuela Rural Bahía Mansa, San Juan de La Costa (2019)
+Educadora Diferencial a cargo de realizar apoyos en aula común y derecursos en  asignaturas de Lenguaje y 
+Matemáticas, cursos 3° y 4°Básico.'
+```
