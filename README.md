@@ -1,6 +1,8 @@
 # cv-parser
 
 ## Para ir probando estoy ejecutando el `parser.py`, y este archivo saca  los pdf que se encuentren en la carpeta /resumes
+# Usando BETO para hacer resumenes, es solo una idea. Al parecer es pesado de correr
+https://colab.research.google.com/drive/11MJSrHQsVDsH1imQ7jGBea9na6m59c7k?usp=sharing
 
 Ejemplo de salida:
 ```
