@@ -56,7 +56,10 @@ def retrieve_phone_number(text):
 
 
 def retrieve_skills(text):
-    #return [skill for skill in skills if (' '+skill.lower()+' ') in text.lower()]
+    '''
+    Funcion que buisca los skill declarados del postulante
+    Se buscan tanto skill de 1 token como de varios.
+    '''
     nlp = es_core_news_sm.load()
     nlp_text = nlp(text)
     tokens = [token.text for token in nlp_text if not token.is_stop]
@@ -64,7 +67,7 @@ def retrieve_skills(text):
     skills = list(data.columns.values)
     skillset = []
     noun_chunks = list(nlp_text.noun_chunks)
-    #print(noun_chunks)
+
     # check for one-grams
     for token in tokens:
         if token.lower() in skills:
@@ -86,7 +89,6 @@ def retrieve_education_institution(text):
     Output: Lista de strings unicos
     '''
     nlp = es_core_news_sm.load()
-    sr = stopwords.words('spanish')
     educacion_list=[]
     nlp_text = nlp(text)
     
@@ -108,6 +110,9 @@ def retrieve_education_institution(text):
  
 
 def retrieve_languages(text):
+    '''
+    Funcion que recupera los idiomas que declara el postulante.
+    '''
     combinaciones = list(itertools.product(idiomas, idiomas_nivel))
     combinaciones_strings = []
     for i in range(1, len(combinaciones)):
@@ -115,21 +120,15 @@ def retrieve_languages(text):
     combinaciones_strings = combinaciones_strings + idiomas
     nlp = es_core_news_sm.load()
     sr = stopwords.words('spanish')
-    #educacion_list=[]
     nlp_text = nlp(text)
-    
-    #filter_noun = [word for (word, pos) in nltk.pos_tag(nltk.word_tokenize(text)) if pos[0] == 'N']   
+
     noun_chunks = list(nlp_text.noun_chunks)
-    #print(noun_chunks)
     
     idiomas_cv = []
     for item in combinaciones_strings:
         for noun in noun_chunks:
-            #print ({item.lower(): noun.text.lower()})
             if item.lower()== noun.text.lower():
                 idiomas_cv.append(noun.text)
-                #print(item)
-
     return idiomas_cv
 
 
@@ -258,8 +257,6 @@ def summarize_cv(text):
     count_list = cv_fit.toarray().sum(axis=0)
     word_frequency = dict(zip(word_list,count_list))
     val=sorted(word_frequency.values())
-    #higher_word_frequencies = [word for word,freq in word_frequency.items() if freq in val[-3:]]
-    #print("\nWords with higher frequencies: ", higher_word_frequencies)
 
     # gets relative frequencies of words
     higher_frequency = val[-1]
@@ -289,8 +286,10 @@ def summarize_cv(text):
     return summary[0].text.replace("\n","")
 
 def extract_linkedin(text):
+    '''
+    Funcion que captura el perfil de Linkedin del postulante
+    '''
     regex = re.compile("(?:https?:)?\/\/(?:[\w]+\.)?linkedin\.com\/in\/(?P<permalink>[\w\-\_À-ÿ%]+)\/?")
-    #texto_busqueda = "".join(text.split()) 
     profile = re.findall(regex, text)
     if profile:
         return 'https://www.linkedin.com/in/' + profile[0]
@@ -299,7 +298,24 @@ def extract_linkedin(text):
 
 
 def busqueda_palabras_claves(text):
-    nlp = es_core_news_sm.load()
+    '''
+    Funcion que busca palabras claves en el CV. Debido
+    a que el candidato puede redactar sus cualidades. El
+    texto se le aplica un stemmer. De forma de capturar variaciones
+    de las palabras, en el contexto de redaccion.
+
+    Ejemplo:
+    proactividad --> proactiv
+    proactivo --> proactiv
+    liderar --> lider
+    liderazgo --> liderazg
+    liderar --> lider
+    liderar --> lider
+    puntual --> puntual
+    puntualidad --> puntual
+    paciencia --> pacienci
+    '''
+    #nlp = es_core_news_sm.load()
     stemmer = SnowballStemmer('spanish')
 
     stemmed_claves = [stemmer.stem(token) for token in palabras_claves]
