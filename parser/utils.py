@@ -15,6 +15,7 @@ import spacy
 from sklearn.feature_extraction.text import CountVectorizer
 import es_core_news_sm
 import itertools
+from nltk.stem import SnowballStemmer
 
 def extract_text(path):
     '''
@@ -287,6 +288,36 @@ def summarize_cv(text):
 
     return summary[0].text.replace("\n","")
 
+def extract_linkedin(text):
+    regex = re.compile("(?:https?:)?\/\/(?:[\w]+\.)?linkedin\.com\/in\/(?P<permalink>[\w\-\_À-ÿ%]+)\/?")
+    #texto_busqueda = "".join(text.split()) 
+    profile = re.findall(regex, text)
+    if profile:
+        return 'https://www.linkedin.com/in/' + profile[0]
+    else:
+        return ''
+
+
+def busqueda_palabras_claves(text):
+    nlp = es_core_news_sm.load()
+    stemmer = SnowballStemmer('spanish')
+
+    stemmed_claves = [stemmer.stem(token) for token in palabras_claves]
+    
+    stop_words = set(stopwords.words('spanish')) 
+    
+    word_tokens = word_tokenize(text) 
+    
+    filtered_text = [w for w in word_tokens if not w in stop_words] 
+
+    encontradas = []
+    for palabra_clave in stemmed_claves:
+        for word in filtered_text:
+            if stemmer.stem(word).lower() == palabra_clave.lower():
+                encontradas.append(word.capitalize())
+    encontradas = set(encontradas)
+
+    return encontradas
 
 
 

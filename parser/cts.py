@@ -25,3 +25,7 @@ idiomas_nivel = [' a1', ' a2', ' b1', ' b2', ' c1', ' c2', ' básico', ' interme
                     ' competencia profesional']
 
 skills = list(pd.read_csv(os.path.join(sys.path[0], "skills.csv")))
+
+palabras_claves = ['proactividad', 'proactivo', 'liderar', 'liderazgo', 'liderado', 'puntual'
+         , 'puntualidad', 'paciencia', 'resiliencia', 'resilisente', 'tolerancia', 'comprometido', 'compromiso', 'empatia', 'responsabilidad',
+         'negociación', 'dialogo', 'escuchar', 'comunicacion','analizar', 'autodidacta', 'autoaprendizaje']

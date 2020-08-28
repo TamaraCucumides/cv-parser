@@ -9,10 +9,12 @@ class CvParser:
         #nlp = en_core_web_sm.load()
         self.parsed = {"Nombre": None,
                        "Correo": None,
+                       "Linkedin": None,
                        "Celular": None,
                        #"Resumen": None,
                        "Skills": None,
                        "Grado": None,
+                       "Palabras Claves": None,
                        "Experiencia Previa": None,
                        "Educacion": None,
                        "Licencias y Certificaciones": None,
@@ -38,6 +40,9 @@ class CvParser:
         grado = utils.retrieve_higher_degree(self.raw_text)
         #resumen = utils.summarize_cv(self.raw_text)
         Lenguajes = utils.retrieve_languages(self.raw_text)
+        Linkedin = utils.extract_linkedin(self.raw_text)
+        palabras_claves = utils.busqueda_palabras_claves(self.raw_text)
+
 
         self.parsed["Nombre"] = nombre
         self.parsed["Correo"] = correo
@@ -48,6 +53,8 @@ class CvParser:
         self.parsed['Grado']= grado
         #self.parsed['Resumen']= resumen
         self.parsed['Lenguajes'] = Lenguajes
+        self.parsed["Linkedin"] = Linkedin
+        self.parsed["Palabras Claves"] = palabras_claves
 
     def get_parsed_resume(self):
         return self.parsed
