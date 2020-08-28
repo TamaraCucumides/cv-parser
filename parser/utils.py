@@ -14,6 +14,7 @@ import os
 import spacy
 from sklearn.feature_extraction.text import CountVectorizer
 import es_core_news_sm
+import itertools
 
 def extract_text(path):
     '''
@@ -31,7 +32,10 @@ def retrieve_email(text):
     Input: Recibe texto plano
     Output: String que representa un mail.
     '''
-    return re.findall('\S+@\S+', text)
+    mails = re.findall('\S+@\S+', text)
+    if len(mails)>1:
+        mails  =mails[0]
+    return mails
 
 
 def retrieve_phone_number(text):
@@ -44,6 +48,8 @@ def retrieve_phone_number(text):
     regex = re.compile("\+?\d[\( -]?\d{3}[\) -]?\d{3}[ -]?\d{2}[ -]?\d{2}")
     texto_busqueda = "".join(text.split()) 
     numbers = re.findall(regex, texto_busqueda)
+    if len(numbers)>1:
+        numbers = numbers[0]
 
     return numbers
 
@@ -100,6 +106,34 @@ def retrieve_education_institution(text):
     return list(unique_values) 
  
 
+def retrieve_languages(text):
+    combinaciones = list(itertools.product(idiomas, idiomas_nivel))
+    combinaciones_strings = []
+    for i in range(1, len(combinaciones)):
+        combinaciones_strings.append(combinaciones[i][0] + combinaciones[i][1])
+    combinaciones_strings = combinaciones_strings + idiomas
+    nlp = es_core_news_sm.load()
+    sr = stopwords.words('spanish')
+    #educacion_list=[]
+    nlp_text = nlp(text)
+    
+    #filter_noun = [word for (word, pos) in nltk.pos_tag(nltk.word_tokenize(text)) if pos[0] == 'N']   
+    noun_chunks = list(nlp_text.noun_chunks)
+    #print(noun_chunks)
+    
+    idiomas_cv = []
+    for item in combinaciones_strings:
+        for noun in noun_chunks:
+            #print ({item.lower(): noun.text.lower()})
+            if item.lower()== noun.text.lower():
+                idiomas_cv.append(noun.text)
+                #print(item)
+
+    return idiomas_cv
+
+
+    
+
 
 
 
@@ -116,12 +150,12 @@ def retrieve_higher_degree(text):
     for grado in grados_educativos_orden:
          for frase in frases:
             if grado.lower() in frase.lower():
-                education.append(grado)
+                education.append(grado.capitalize())
 
     if len(education)>0:
-        education = [education[-1]]
+        education = education[-1]
     else:
-        education = []
+        education = None
 
     return education
 

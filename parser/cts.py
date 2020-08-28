@@ -14,10 +14,14 @@ sections = {"resumen": ["Resumen"],
             "experiencia": ["Experiencia previa", "Antecedentes Laborales"],
             "educacion": ["Educación", "Formación", "Antecedentes de formación"]}
 
-educacion = ["Universidad de chile", "UChile","Pontificia Universidad Católica de Chile",
+educacion = ["Universidad de Chile", "UChile","Pontificia Universidad Católica de Chile",
                 "Universidad de los Lagos"]
 
 
 educacionSiglas = ['UC', 'UTEM', 'UAI', 'PUC', 'UCH', 'UDD', 'UAI', 'ULA']
+
+idiomas = ['inglés', 'alemán', 'portugués', 'francés', 'chino', 'mandarin', 'español']
+idiomas_nivel = [' a1', ' a2', ' b1', ' b2', ' c1', ' c2', ' básico', ' intermedio', ' avanzado', ' nativo', ' competencia básica' 
+                    ' competencia profesional']
 
 skills = list(pd.read_csv(os.path.join(sys.path[0], "skills.csv")))
