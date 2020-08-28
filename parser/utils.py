@@ -119,7 +119,7 @@ def retrieve_languages(text):
         combinaciones_strings.append(combinaciones[i][0] + combinaciones[i][1])
     combinaciones_strings = combinaciones_strings + idiomas
     nlp = es_core_news_sm.load()
-    sr = stopwords.words('spanish')
+    #sr = stopwords.words('spanish')
     nlp_text = nlp(text)
 
     noun_chunks = list(nlp_text.noun_chunks)
@@ -127,8 +127,8 @@ def retrieve_languages(text):
     idiomas_cv = []
     for item in combinaciones_strings:
         for noun in noun_chunks:
-            if item.lower()== noun.text.lower():
-                idiomas_cv.append(noun.text)
+            if item.lower() in noun.text.lower():
+                idiomas_cv.append(item.capitalize())
     return idiomas_cv
 
 
