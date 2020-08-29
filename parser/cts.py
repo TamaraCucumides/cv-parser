@@ -29,4 +29,4 @@ skills = list(pd.read_csv(os.path.join(sys.path[0], "skills.csv")))
 palabras_claves = ['proactividad', 'liderar', 'liderazgo',  'puntual'
          ,  'paciencia', 'resiliencia', 'resilisente', 'tolerancia', 'comprometido', 'compromiso', 'empatia', 'responsabilidad',
          'negociación', 'dialogo', 'escuchar', 'comunicacion','analizar', 'autodidacta', 'autoaprendizaje', 'adaptación'
-         , 'creativo' , 'ética', 'disciplina', 'confianza' , 'motivación', 'colaboración']
+         , 'creativo' , 'ética', 'disciplina', 'confianza' , 'motivación', 'colaboración', 'aprender', 'pasion', 'apasionado']

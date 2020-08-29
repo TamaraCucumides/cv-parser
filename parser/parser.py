@@ -1,6 +1,6 @@
 import utils
 import os
-import en_core_web_sm
+import es_core_news_sm
 
 import pprint
 
@@ -16,6 +16,7 @@ class CvParser:
                        "Grado": None,
                        "Palabras Claves": None,
                        "Experiencia Previa": None,
+                       "Experiencia Previa new": None,
                        "Educacion": None,
                        "Licencias y Certificaciones": None,
                        "Lenguajes": None,
@@ -25,23 +26,25 @@ class CvParser:
                        "Publicaciones": None}
         self.cv = cv
         self.raw_text = utils.extract_text(self.cv)
-        self.text = ' '.join(self.raw_text.split())
-        #self.nlp = nlp(self.text)
+        #self.text = ' '.join(self.raw_text.split())
+        self._nlp = es_core_news_sm.load()
+        self.nlp = self._nlp(self.raw_text)
         self.parse()
         self._sections = dict()
 
     def parse(self):
-        nombre = utils.retrieve_name(self.raw_text)
+        nombre = utils.retrieve_name(self.raw_text, self.nlp)
         correo = utils.retrieve_email(self.raw_text)
         celular = utils.retrieve_phone_number(self.raw_text)
-        skills = utils.retrieve_skills(self.raw_text)
+        skills = utils.retrieve_skills( self.nlp)
         experiencia = utils.retrieve_past_experience(self.raw_text)
-        educacion = utils.retrieve_education_institution(self.raw_text)
+        educacion = utils.retrieve_education_institution(self.raw_text, self.nlp)
         grado = utils.retrieve_higher_degree(self.raw_text)
-        #resumen = utils.summarize_cv(self.raw_text)
-        Lenguajes = utils.retrieve_languages(self.raw_text)
+        #resumen = utils.summarize_cv(self.raw_text, self.nlp)
+        Lenguajes = utils.retrieve_languages(self.raw_text, self.nlp)
         Linkedin = utils.extract_linkedin(self.raw_text)
         palabras_claves = utils.busqueda_palabras_claves(self.raw_text)
+        experiencia_2 = utils.retrieve_experience_2(self.raw_text)
 
 
         self.parsed["Nombre"] = nombre
@@ -55,6 +58,7 @@ class CvParser:
         self.parsed['Lenguajes'] = Lenguajes
         self.parsed["Linkedin"] = Linkedin
         self.parsed["Palabras Claves"] = palabras_claves
+        self.parsed["Experiencia Previa new"] = experiencia_2
 
     def get_parsed_resume(self):
         return self.parsed

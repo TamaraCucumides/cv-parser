@@ -3,7 +3,6 @@ from cts import *
 import fitz
 import nltk
 from nltk.tokenize import sent_tokenize, word_tokenize
-import en_core_web_sm
 from spacy.matcher import Matcher
 import pandas as pd
 from nltk.stem import WordNetLemmatizer
@@ -16,6 +15,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 import es_core_news_sm
 import itertools
 from nltk.stem import SnowballStemmer
+import textacy
 
 def extract_text(path):
     '''
@@ -55,13 +55,12 @@ def retrieve_phone_number(text):
     return numbers
 
 
-def retrieve_skills(text):
+def retrieve_skills(nlp_text):
     '''
     Funcion que buisca los skill declarados del postulante
     Se buscan tanto skill de 1 token como de varios.
     '''
-    nlp = es_core_news_sm.load()
-    nlp_text = nlp(text)
+
     tokens = [token.text for token in nlp_text if not token.is_stop]
     data = pd.read_csv(os.path.join(os.getcwd(), 'parser/skills.csv')) 
     skills = list(data.columns.values)
@@ -81,16 +80,16 @@ def retrieve_skills(text):
     return [i.capitalize() for i in set([i.lower() for i in skillset])]
 
 
-def retrieve_education_institution(text):
+def retrieve_education_institution(text, nlp_text):
     '''
     Funcion que recupera las universidad o intituciones mencionadas en el CV
     Hace uso de 2 listas: Educacion y Educacion_siglas.
     Input: texto plano
     Output: Lista de strings unicos
     '''
-    nlp = es_core_news_sm.load()
+   
     educacion_list=[]
-    nlp_text = nlp(text)
+
     
     filter_noun = [word for (word, pos) in nltk.pos_tag(nltk.word_tokenize(text)) if pos[0] == 'N']   
     noun_chunks = list(nlp_text.noun_chunks)
@@ -109,7 +108,7 @@ def retrieve_education_institution(text):
     return list(unique_values) 
  
 
-def retrieve_languages(text):
+def retrieve_languages(text, nlp_text):
     '''
     Funcion que recupera los idiomas que declara el postulante.
     '''
@@ -118,9 +117,6 @@ def retrieve_languages(text):
     for i in range(1, len(combinaciones)):
         combinaciones_strings.append(combinaciones[i][0] + combinaciones[i][1])
     combinaciones_strings = combinaciones_strings + idiomas
-    nlp = es_core_news_sm.load()
-    #sr = stopwords.words('spanish')
-    nlp_text = nlp(text)
 
     noun_chunks = list(nlp_text.noun_chunks)
     
@@ -205,7 +201,35 @@ def retrieve_past_experience(text):
         for i, x in enumerate(test)
         if x and 'experiencia' in x.lower()
     ]
-    return x
+    return x if len(x)>0 else None
+
+
+
+
+def retrieve_experience_2(text):
+    '''
+    Funcion que busca palabras claves en las
+    frases detectadas en el texto plano. Si es 
+    que se encuentra "experiencia laboral", entonces
+    se busca en que posicion comienza el match.
+    De forma de devolver "experiencia laboral ........"
+    '''
+    nlp = textacy.load_spacy_lang('es_core_news_sm')
+    texto_procesado = nlp(text)
+    word_key = ['experiencia laboral', 'experiencia', 'experiencia profesional']
+    experiencia = []
+    for sent in texto_procesado.sents:
+        for word in word_key:
+            frase = sent.string.replace("\n","").lower().replace(" ", "")        # sin espacios, sin saltos y en minuscula
+            word_search = word.replace(" ", "").lower()
+            if word_search in frase:
+                pos = sent.string.lower().find(word_search)                      # posicion match
+                string_experiencia = sent.string[pos:]
+                if len(string_experiencia)> 1:
+                    experiencia.append(string_experiencia.replace("\n",""))
+            
+            
+    return set(experiencia)
     
 
 
@@ -213,7 +237,7 @@ def retrieve_last_experience_year(text):
     pass
 
 
-def retrieve_name(text):
+def retrieve_name(text, nlp_text):
 
     '''
     Funcion que busca por 3 pronombres seguidos, se cae cuando alguien pone sus cuatro nombres.
@@ -224,7 +248,6 @@ def retrieve_name(text):
     nlp = es_core_news_sm.load()
     matcher = Matcher(nlp.vocab)
     pattern = [NAME_PATTERN]
-    nlp_text = nlp(text)
     matcher.add('NAME', None, *pattern)
     
     matches = matcher(nlp_text)
@@ -238,7 +261,7 @@ def parse_cv_sections(text):
     pass
 
 
-def summarize_cv(text):
+def summarize_cv(text, nlp_text):
     '''
     Funcion que que rankea frases a partir de frecuencia
     de palabras, es un intento simple/ no muy efectivo de resumir.
@@ -247,9 +270,7 @@ def summarize_cv(text):
     Input: texto plano
     Output: texto plano
     '''
-    nlp = es_core_news_sm.load()
-    doc = nlp(text)
-    corpus = [sent.text.lower() for sent in doc.sents ]
+    corpus = [sent.text.lower() for sent in nlp_text.sents ]
     STOP_WORDS = set(stopwords.words("spanish"))
     cv = CountVectorizer(stop_words=list(STOP_WORDS))   
     cv_fit=cv.fit_transform(corpus)    
@@ -265,7 +286,7 @@ def summarize_cv(text):
         word_frequency[word] = (word_frequency[word]/higher_frequency)
         
     sentence_rank={}
-    for sent in doc.sents:
+    for sent in nlp_text.sents:
         for word in sent :       
             if word.text.lower() in word_frequency.keys():            
                 if sent in sentence_rank.keys():
@@ -294,7 +315,7 @@ def extract_linkedin(text):
     if profile:
         return 'https://www.linkedin.com/in/' + profile[0]
     else:
-        return ''
+        return None
 
 
 def busqueda_palabras_claves(text):
@@ -315,11 +336,8 @@ def busqueda_palabras_claves(text):
     puntualidad --> puntual
     paciencia --> pacienci
     '''
-    #nlp = es_core_news_sm.load()
     stemmer = SnowballStemmer('spanish')
-
     stemmed_claves = [stemmer.stem(token) for token in palabras_claves]
-    
     stop_words = set(stopwords.words('spanish')) 
     
     word_tokens = word_tokenize(text) 
@@ -333,7 +351,7 @@ def busqueda_palabras_claves(text):
                 encontradas.append(word.capitalize())
     encontradas = set(encontradas)
 
-    return encontradas
+    return encontradas if len(encontradas)>1 else None
 
 
 
