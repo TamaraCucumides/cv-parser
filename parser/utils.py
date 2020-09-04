@@ -1,5 +1,6 @@
 import re
 from cts import *
+import math
 import fitz
 import nltk
 from nltk.tokenize import sent_tokenize, word_tokenize
@@ -47,6 +48,7 @@ def retrieve_phone_number(text):
     Output: Texto plano
     '''
     regex = re.compile("\+?\d[\( -]?\d{3}[\) -]?\d{3}[ -]?\d{2}[ -]?\d{2}")
+    regex = re.compile("\d{8,11}")
     texto_busqueda = "".join(text.split()) 
     numbers = re.findall(regex, texto_busqueda)
     if len(numbers)>1:
@@ -60,12 +62,16 @@ def retrieve_skills(nlp_text):
     Funcion que buisca los skill declarados del postulante
     Se buscan tanto skill de 1 token como de varios.
     '''
-
+    #print('°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°')
     tokens = [token.text for token in nlp_text if not token.is_stop]
     data = pd.read_csv(os.path.join(os.getcwd(), 'parser/skills.csv')) 
     skills = list(data.columns.values)
+    
+    #print(skills)
+    #print('°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°')
     skillset = []
     noun_chunks = list(nlp_text.noun_chunks)
+    #print(noun_chunks)
 
     # check for one-grams
     for token in tokens:
@@ -75,8 +81,15 @@ def retrieve_skills(nlp_text):
     # check for bi-grams and tri-grams
     for token in noun_chunks:
         token = token.text.lower().strip()
-        if token in skills:
-            skillset.append(token)
+        token.replace("_", "")
+        #print('['+token+']')
+        #if token in skills:
+        for skill in skills:
+                if skill in token:
+                    #print("hola entre y pille esto:" + str(token))
+                    skillset.append(skill.capitalize())
+
+    #print('°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°')
     return [i.capitalize() for i in set([i.lower() for i in skillset])]
 
 
@@ -96,8 +109,16 @@ def retrieve_education_institution(text, nlp_text):
     
     for item in educacion:
         for noun in noun_chunks:
+            #print(noun)
+            #print('-----------------')
             if item.lower() in noun.text.lower():
                 educacion_list.append(item)
+
+    #educacion_min = [item.lower() for item in educacion]
+    #for item in educacion_min:
+    #    if item.lower() in text:
+    #         educacion_list.append(item)
+
                 
     for item in educacionSiglas:
         if item in filter_noun:
@@ -112,6 +133,8 @@ def retrieve_languages(text, nlp_text):
     '''
     Funcion que recupera los idiomas que declara el postulante.
     '''
+    nlp = es_core_news_sm.load()
+    nlp_text = nlp(re.sub(r'[^\w\s]','',text))
     combinaciones = list(itertools.product(idiomas, idiomas_nivel))
     combinaciones_strings = []
     for i in range(1, len(combinaciones)):
@@ -125,7 +148,7 @@ def retrieve_languages(text, nlp_text):
         for noun in noun_chunks:
             if item.lower() in noun.text.lower():
                 idiomas_cv.append(item.capitalize())
-    return idiomas_cv
+    return list(set(idiomas_cv))
 
 
     
@@ -149,9 +172,9 @@ def retrieve_higher_degree(text):
                 education.append(grado.capitalize())
 
     if len(education)>0:
-        education = education[-1]
+        education = [education[-1]]
     else:
-        education = None
+        education = []
 
     return education
 
@@ -214,6 +237,7 @@ def retrieve_experience_2(text):
     se busca en que posicion comienza el match.
     De forma de devolver "experiencia laboral ........"
     '''
+    text = ' '.join(text.split())
     nlp = textacy.load_spacy_lang('es_core_news_sm')
     texto_procesado = nlp(text)
     word_key = ['experiencia laboral', 'experiencia', 'experiencia profesional']
@@ -226,10 +250,14 @@ def retrieve_experience_2(text):
                 pos = sent.string.lower().find(word_search)                      # posicion match
                 string_experiencia = sent.string[pos:]
                 if len(string_experiencia)> 1:
-                    experiencia.append(string_experiencia.replace("\n",""))
+                    text = string_experiencia
+                    text = text.replace("•", "")
+                    text = text.replace("▪", "")
+                    text = text.replace("-", "")
+                    experiencia.append(text.replace("\n"," "))
             
             
-    return set(experiencia)
+    return list(set(experiencia))
     
 
 
@@ -237,24 +265,61 @@ def retrieve_last_experience_year(text):
     pass
 
 
+def delete_words(text):
+
+    text = text.replace('\n', ' ')
+    text = text.replace("pontificia", " ")
+    text = text.replace("Universidad", " ")
+    text = text.replace("Curriculum", " ")
+    text = text.replace("CURRILUM", " ")
+    text = text.replace("Vitae", " ")
+    text = text.replace("VITAE", " ")
+    text = text.replace("Calle", " ")
+    text = text.replace("•", " ")
+    text = text.replace("▪", " ")
+    text = text.replace("-", " ")
+
+    return text
+
+
 def retrieve_name(text, nlp_text):
 
     '''
-    Funcion que busca por 3 pronombres seguidos, se cae cuando alguien pone sus cuatro nombres.
+    Funcion que busca por 3 pronombres seguidos. Se recibe el texto
+    plano y se procesa para sacar simbolos y palabras que complican el analisis
     Input: texto plano
     Output: texto plano
     '''
-    NAME_PATTERN      = [{'POS': 'PROPN'}, {'POS': 'PROPN'}, {'POS': 'PROPN'}]
+    text = text[0:math.floor(len(text)/16)]
+    
+
+    
+    #text = re.sub(r'[^\w\s]',' ',text)
+
+    # El uso de mayusculas es importante para el matcher,
+    # por ejemplo FELIPE no se reconoce, pero Felipe sí
+    string = ''
+    for word in text.split():
+        if word.isupper():
+            string += word.capitalize() +' '  
+        else:
+            string += word +' '  
+    text = string
+    NAME_PATTERN      = [{'POS': 'PROPN'}, {'POS': 'PROPN'},{'POS': 'PROPN'}]
     nlp = es_core_news_sm.load()
+    nlp_text = nlp(text.replace('@', '\n').replace('www','\n'))
     matcher = Matcher(nlp.vocab)
     pattern = [NAME_PATTERN]
     matcher.add('NAME', None, *pattern)
     
     matches = matcher(nlp_text)
-   
+  
+    nombre = ''
     for _, start, end in matches:
         span = nlp_text[start:end]
-        return span.text
+        for pronon in span.text.split():
+            nombre += pronon.capitalize() + ' '
+        return nombre
 
 
 def parse_cv_sections(text):
@@ -337,7 +402,7 @@ def busqueda_palabras_claves(text):
     paciencia --> pacienci
     '''
     stemmer = SnowballStemmer('spanish')
-    stemmed_claves = [stemmer.stem(token) for token in palabras_claves]
+   # stemmed_claves = [stemmer.stem(token) for token in palabras_claves]
     stop_words = set(stopwords.words('spanish')) 
     
     word_tokens = word_tokenize(text) 
@@ -345,11 +410,12 @@ def busqueda_palabras_claves(text):
     filtered_text = [w for w in word_tokens if not w in stop_words] 
 
     encontradas = []
-    for palabra_clave in stemmed_claves:
+    for palabra_clave in palabras_claves:
+        stemmed_clave = stemmer.stem(palabra_clave)
         for word in filtered_text:
-            if stemmer.stem(word).lower() == palabra_clave.lower():
-                encontradas.append(word.capitalize())
-    encontradas = set(encontradas)
+            if stemmer.stem(word).lower() == stemmed_clave.lower():
+                encontradas.append(palabra_clave.capitalize())
+    encontradas = list(set(encontradas))
 
     return encontradas if len(encontradas)>1 else None
 
