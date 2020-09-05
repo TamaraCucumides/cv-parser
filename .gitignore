@@ -56,6 +56,7 @@ coverage.xml
 *.pot
 *.pdf
 *.ipynb
+*.json
 # Django stuff:
 *.log
 local_settings.py
@@ -125,6 +126,9 @@ venv.bak/
 .mypy_cache/
 .dmypy.json
 dmypy.json
-
+!resumes_output/*.json
 # Pyre type checker
 .pyre/
+*.json
+!/*.json
+fasttext-sbwc.vec

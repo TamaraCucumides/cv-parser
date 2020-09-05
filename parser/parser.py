@@ -87,7 +87,7 @@ def resume_result_wrapper(resume):
 if __name__ == '__main__':
     resumes = []
     data = []
-    for root, directories, filenames in os.walk('resumes'):
+    for root, _, filenames in os.walk('resumes'):
         for filename in filenames:
             file = os.path.join(root, filename)
             resumes.append(file)

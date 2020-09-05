@@ -30,15 +30,27 @@ def extract_text(path):
         for page in doc:
             text += page.getText()
 
-
-        text = text.replace('', '')
-        text = text.replace('�', '')
+        
         #text = re.sub(' +', ' ', text)    
-        text = regex.sub("[^\P{P}-.,+@:/]+", "", text)
-        text = text.replace('\r\n', ' ')
+        text = regex.sub("[^\P{P}-.,+@:/]+", "", text) # eliminar todas los simbolos excepto +-.,@:/
+        text = text.replace('\r\n', ' ') # Trata de eliminar multiples saltos de linea.
+        # Teoricamente, estos simbolos ya deberian estar eliminados, a veces aparecen igual, solo se reemplazan por si
+        # aparecen de nuevo
         text = text.replace('✓', '')
         text = text.replace('|',' ')
-        text = " ".join(text.split())
+        text = text.replace('', '')
+        text = text.replace('', '')
+        text = text.replace('�', '')
+        text = " ".join(text.split()) #Eliminacion de varios espacion "hola  como      estas" ---> "hola como estas"
+
+        text_2 = ''
+        # ANTECENTES, PEDRO, estudiando ----> Antecedentes, Pedro, estudiando
+        for word in text.split():
+            if word.isupper():
+                text_2+=word.capitalize()+' '
+            else:
+                text_2 += word+ ' '
+        text = text_2
         return text
 
 def retrieve_email(text):
@@ -74,32 +86,29 @@ def retrieve_skills(nlp_text):
     Funcion que buisca los skill declarados del postulante
     Se buscan tanto skill de 1 token como de varios.
     '''
-    #print('°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°')
     tokens = [token.text for token in nlp_text if not token.is_stop]
     data = pd.read_csv(os.path.join(os.getcwd(), 'parser/skills.csv')) 
     skills = list(data.columns.values)
-    
-    #print(skills)
-    #print('°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°')
+
     skillset = []
     noun_chunks = list(nlp_text.noun_chunks)
-    #print(noun_chunks)
+
 
     # check for one-grams
     for token in tokens:
-        if token.lower() in skills:
+        token_un = unidecode.unidecode(token)
+        if token_un.lower() in skills:
             skillset.append(token)
     
     # check for bi-grams and tri-grams
     for chunk in noun_chunks:
         st = chunk.text
-        #print(st)
         chunk_lower = " ".join(st.split()).lower()       
-        #print(token)
         for skill in skills:
-                if skill in chunk_lower:
+                skill_un = unidecode.unidecode(skill)
+                chunk_un = unidecode.unidecode(chunk_lower)
+                if skill_un in chunk_un:
                     skillset.append(skill.capitalize())
-    #print('°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°')
     return [i.capitalize() for i in set([i.lower() for i in skillset])]
 
 
@@ -153,7 +162,7 @@ def retrieve_languages(text, nlp_text):
         for noun in noun_chunks:
             item_un = unidecode.unidecode(item)
             noun_un = unidecode.unidecode(noun.text)
-            if item_un.lower() in noun_un.lower():
+            if item_un.lower() in noun_un.lower() :
                 idiomas_cv.append(item.capitalize())
     return list(set(idiomas_cv))
 
@@ -176,7 +185,7 @@ def retrieve_higher_degree(text):
     for grado in grados_educativos_orden:
          for frase in frases:
             grado_un = unidecode.unidecode(grado)
-            frase_un = unidecode.unidecode(frase.text)
+            frase_un = unidecode.unidecode(frase)
             if grado_un.lower() in frase_un.lower():
                 education.append(grado.capitalize())
 
@@ -277,16 +286,20 @@ def retrieve_last_experience_year(text):
 def delete_words(text):
 
     text = text.replace('\n', ' ')
-    text = text.replace("pontificia", " ")
+    # Esto es hardcoding, pero he intentado todo y no me resulta sin este trucazo
+    # Siempre se colan estas palabras en la deteccion de nombres
+    text = text.replace("Pontificia", " ")
     text = text.replace("Universidad", " ")
+    #text = text.replace("PONTIFICIA", " ")
+    #text = text.replace("UNIVERSIDAD", " ")
     text = text.replace("Curriculum", " ")
-    text = text.replace("CURRILUM", " ")
+    #text = text.replace("CURRILUM", " ")
     text = text.replace("Vitae", " ")
-    text = text.replace("VITAE", " ")
-    text = text.replace("Calle", " ")
-    text = text.replace("•", " ")
-    text = text.replace("▪", " ")
-    text = text.replace("-", " ")
+    #text = text.replace("VITAE", " ")
+    #text = text.replace("Calle", " ")
+    #text = text.replace("•", " ")
+    #text = text.replace("▪", " ")
+    #text = text.replace("-", " ")
 
     return text
 
@@ -300,23 +313,20 @@ def retrieve_name(text, nlp_text):
     Output: texto plano
     '''
     text = text[0:math.floor(len(text)/16)]
-    
-
-    
-    #text = re.sub(r'[^\w\s]',' ',text)
-
+    text = delete_words(text)
     # El uso de mayusculas es importante para el matcher,
     # por ejemplo FELIPE no se reconoce, pero Felipe sí
-    string = ''
-    for word in text.split():
-        if word.isupper():
-            string += word.capitalize() +' '  
-        else:
-            string += word +' '  
-    text = string
+#    string = ''
+#    for word in text.split(): 
+#        if word.isupper(): #FELIPE ---> Felipe, Paulina ---> Paulina
+#            string += word.capitalize() +' '  
+#        else:
+#            string += word +' '  
+
+ #   text = string
     NAME_PATTERN      = [{'POS': 'PROPN'}, {'POS': 'PROPN'},{'POS': 'PROPN'}]
     nlp = es_core_news_sm.load()
-    nlp_text = nlp(text.replace('@', '\n').replace('www','\n'))
+    #nlp_text = nlp(text.replace('@', '\n').replace('www','\n'))
     matcher = Matcher(nlp.vocab)
     pattern = [NAME_PATTERN]
     matcher.add('NAME', None, *pattern)
@@ -326,6 +336,7 @@ def retrieve_name(text, nlp_text):
     nombre = ''
     for _, start, end in matches:
         span = nlp_text[start:end]
+        # Capitalizar cada uno de los nombre, solo por comodidad al guardar, juan perez ----> Juan Perez
         for pronon in span.text.split():
             nombre += pronon.capitalize() + ' '
         return nombre

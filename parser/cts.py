@@ -7,7 +7,7 @@ grados_educativos = ["técnico", "licenciatura", "enseñanza media", "enseñanza
 ## quizas ordenarlos  y buscar el más alto en el curriculum
 
 grados_educativos_orden = ['enseñanza básica', 'educación básica', 'enseñanza media', 'educacion media', 'técnico', 'tecnico profesional', 'licenciado', 'bachiller','bachillerato','licenciada',
-                            'licenciatura', 'ingeniero', 'ingeniera','ingeniería', 'mba','msc', 'magister', 'doctor', 'doctorado', 'phd', 'postdoc']
+                            'licenciatura', 'ingeniero', 'ingeniera','ingeniería', 'mba','msc', 'magister','maestría', 'magíster', 'máster' ,'doctor', 'doctorado', 'phd','ph.d', 'postdoc']
 
 sections = {"resumen": ["Resumen"],
             "skills": ["Habilidades", "Conocimientos técnicos", "Conocimientos"],
@@ -31,6 +31,6 @@ palabras_claves = ['proactividad', 'liderar', 'liderazgo',  'puntual'
          'negociación', 'dialogo', 'escuchar', 'comunicacion','analizar', 'autodidacta', 'autoaprendizaje'
          , 'creativo' , 'ética', 'disciplina', 'confianza' , 'motivación', 'colaboración', 'aprender', 'pasion', 'apasionado',
          'disposición', 'innovacion',  'gestión', 'empatia', 'alegre','sociable',
-         'adaptable','amigable', 'voluntariado', 'modelamiento', 'análisis',  'ordernado','perfeccionista']
+         'adaptable','amigable', 'voluntariado', 'modelamiento', 'análisis',  'ordernado','perfeccionista', 'negociación', 'estrategia']
 
 licencias = ['comptia security+', 'isc', 'cissp', 'isaca','cism', 'cisa', 'ccsp', 'gsec', 'ccna', 'offensive security']
