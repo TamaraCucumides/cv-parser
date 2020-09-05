@@ -6,7 +6,7 @@ grados_educativos = ["técnico", "licenciatura", "enseñanza media", "enseñanza
                      "msc", "doctorado", "phd", "postdoc", "tecnico profesional", "Ingeniería", "Pedagogía"]
 ## quizas ordenarlos  y buscar el más alto en el curriculum
 
-grados_educativos_orden = ['enseñanza básica', 'educación básica', 'enseñanza media', 'educacion media', 'técnico', 'tecnico profesional'
+grados_educativos_orden = ['enseñanza básica', 'educación básica', 'enseñanza media', 'educacion media', 'técnico', 'tecnico profesional', 'licenciado', 'bachiller','bachillerato','licenciada',
                             'licenciatura', 'ingeniero', 'ingeniera','ingeniería', 'mba','msc', 'magister', 'doctor', 'doctorado', 'phd', 'postdoc']
 
 sections = {"resumen": ["Resumen"],
@@ -18,7 +18,7 @@ educacion = ["Universidad de Chile", "UChile","Universidad Católica de Chile", 
                 "Universidad de los Lagos", "Universidad de Santiago de Chile", "Universidad Tecnológica Metropolitana", "Universidad Diego Portales"
                 , 'Universidad del Desarrollo', 'Universidad Austral de Chile', 'Inacap', 'Universidad Adolfo Ibáñez', 'Universidad de Las Américas','Universidad Santo Tomas']
 
-educacionSiglas = ['UC', 'UTEM', 'UAI', 'PUC', 'UCH', 'UDD', 'UAI', 'ULA', 'USACH', 'UACH', 'DUOC']
+educacionSiglas = ['UC', 'UTEM', 'UAI', 'PUC', 'UCH', 'UDD', 'UAI', 'ULA', 'USACH', 'UACH', 'DUOC','UST', 'UNAB']
 
 idiomas = ['inglés', 'alemán', 'portugués', 'francés', 'chino', 'mandarin', 'español','italiano']
 idiomas_nivel = [' a1', ' a2', ' b1', ' b2', ' c1', ' c2', ' básico', ' intermedio', ' avanzado', ' nativo', ' competencia básica' 

@@ -88,13 +88,9 @@ if __name__ == '__main__':
             file = os.path.join(root, filename)
             resumes.append(file)
 
-    #print(resumes)
     
     results = [resume_result_wrapper(x) for x in resumes]
-    #pprint.pprint(results)
-    #print(type(results[0]))
-    #_, _, filenames = os.walk('resumes')
-    #i= 0
+
     for result in results:
         name = result["Nombre archivo"] 
         with open('resumes_output/'+name+'.json', 'w',encoding='utf-8') as json_file:

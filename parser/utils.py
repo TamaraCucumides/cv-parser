@@ -17,6 +17,7 @@ import es_core_news_sm
 import itertools
 from nltk.stem import SnowballStemmer
 import textacy
+import regex
 
 def extract_text(path):
     '''
@@ -27,6 +28,16 @@ def extract_text(path):
         text = ""
         for page in doc:
             text += page.getText()
+
+
+        text = text.replace('', '')
+        text = text.replace('�', '')
+        #text = re.sub(' +', ' ', text)    
+        text = regex.sub("[^\P{P}-.,+@:/]+", "", text)
+        text = text.replace('\r\n', ' ')
+        text = text.replace('✓', '')
+        text = text.replace('|',' ')
+        text = " ".join(text.split())
         return text
 
 def retrieve_email(text):
@@ -79,16 +90,14 @@ def retrieve_skills(nlp_text):
             skillset.append(token)
     
     # check for bi-grams and tri-grams
-    for token in noun_chunks:
-        token = token.text.lower().strip()
-        token.replace("_", "")
-        #print('['+token+']')
-        #if token in skills:
+    for chunk in noun_chunks:
+        st = chunk.text
+        print(st)
+        chunk_lower = " ".join(st.split()).lower()       
+        #print(token)
         for skill in skills:
-                if skill in token:
-                    #print("hola entre y pille esto:" + str(token))
+                if skill in chunk_lower:
                     skillset.append(skill.capitalize())
-
     #print('°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°')
     return [i.capitalize() for i in set([i.lower() for i in skillset])]
 
@@ -109,9 +118,7 @@ def retrieve_education_institution(text, nlp_text):
     
     for item in educacion:
         for noun in noun_chunks:
-            #print(noun)
-            #print('-----------------')
-            if item.lower() in noun.text.lower():
+            if item.lower() in " ".join(noun.text.lower().split()):
                 educacion_list.append(item)
 
     #educacion_min = [item.lower() for item in educacion]
