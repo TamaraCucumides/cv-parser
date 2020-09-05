@@ -14,30 +14,29 @@ def extract_text(path):
         text = ""
         for page in doc:
             text += page.getText()
-
-        
-        #text = re.sub(' +', ' ', text)    
-        text = regex.sub("[^\P{P}-.,+@:/]+", "", text) # eliminar todas los simbolos excepto +-.,@:/
-        text = text.replace('\r\n', ' ') # Trata de eliminar multiples saltos de linea.
-        # Teoricamente, estos simbolos ya deberian estar eliminados, a veces aparecen igual, solo se reemplazan por si
-        # aparecen de nuevo
-        text = text.replace('✓', '')
-        text = text.replace('|',' ')
-        text = text.replace('', '')
-        text = text.replace('', '')
-        text = text.replace('�', '')
-        text = text.replace('','')
-        text = " ".join(text.split()) #Eliminacion de varios espacion "hola  como      estas" ---> "hola como estas"
-
+        # eliminar estos simbolos
+        simbolos = '•�✓|()&®:'
+        text_clean = ''
+        for char in text:
+            if char not in simbolos:
+                text_clean += char
+    
+        # Limpiar palabras completamente en mayusculas, es importante
+        # para reconocer los nombres
         text_2 = ''
-        # ANTECENTES, PEDRO, estudiando ----> Antecedentes, Pedro, estudiando
-        for word in text.split():
-            if word.isupper():
-                text_2+=word.capitalize()+' '
-            else:
-                text_2 += word+ ' '
+        for line in text_clean.splitlines():
+            if not line.strip(): #si la linea esta vacia, saltar
+                continue
+            line_2=''
+            for word in line.split():
+                if word.isupper():
+                    line_2 += word.capitalize()+' '
+
+                else:
+                    line_2 += word+ ' '
+            text_2 += line_2 +'\n'
         text = text_2
-        return text
+    return text
 
 if __name__ == '__main__':
     resumes = []
