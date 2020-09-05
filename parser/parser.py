@@ -4,9 +4,13 @@ import es_core_news_sm
 import json
 import pprint
 import csv
-
+import nltk
 import os
 os.system('cls' if os.name == 'nt' else 'clear')
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('stopwords')
+
 
 class CvParser:
     def __init__(self, cv):

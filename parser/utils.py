@@ -18,6 +18,7 @@ import itertools
 from nltk.stem import SnowballStemmer
 import textacy
 import regex
+import unidecode
 
 def extract_text(path):
     '''
@@ -92,7 +93,7 @@ def retrieve_skills(nlp_text):
     # check for bi-grams and tri-grams
     for chunk in noun_chunks:
         st = chunk.text
-        print(st)
+        #print(st)
         chunk_lower = " ".join(st.split()).lower()       
         #print(token)
         for skill in skills:
@@ -118,13 +119,10 @@ def retrieve_education_institution(text, nlp_text):
     
     for item in educacion:
         for noun in noun_chunks:
-            if item.lower() in " ".join(noun.text.lower().split()):
+            item_un = unidecode.unidecode(item)
+            noun_un = unidecode.unidecode(noun.text)
+            if item_un.lower() in " ".join(noun_un.lower().split()):
                 educacion_list.append(item)
-
-    #educacion_min = [item.lower() for item in educacion]
-    #for item in educacion_min:
-    #    if item.lower() in text:
-    #         educacion_list.append(item)
 
                 
     for item in educacionSiglas:
@@ -153,7 +151,9 @@ def retrieve_languages(text, nlp_text):
     idiomas_cv = []
     for item in combinaciones_strings:
         for noun in noun_chunks:
-            if item.lower() in noun.text.lower():
+            item_un = unidecode.unidecode(item)
+            noun_un = unidecode.unidecode(noun.text)
+            if item_un.lower() in noun_un.lower():
                 idiomas_cv.append(item.capitalize())
     return list(set(idiomas_cv))
 
@@ -175,7 +175,9 @@ def retrieve_higher_degree(text):
     #for frase in frases:
     for grado in grados_educativos_orden:
          for frase in frases:
-            if grado.lower() in frase.lower():
+            grado_un = unidecode.unidecode(grado)
+            frase_un = unidecode.unidecode(frase.text)
+            if grado_un.lower() in frase_un.lower():
                 education.append(grado.capitalize())
 
     if len(education)>0:
