@@ -132,3 +132,4 @@ dmypy.json
 *.json
 !/*.json
 fasttext-sbwc.vec
+resumes_text_output/

@@ -15,14 +15,8 @@ def extract_text(path):
         for page in doc:
             text += page.getText()
         # eliminar estos simbolos
-        simbolos = '•�✓|()&®:'
-        text_clean = ''
-        for char in text:
-            if char not in simbolos:
-                text_clean += char
-    
-        # Limpiar palabras completamente en mayusculas, es importante
-        # para reconocer los nombres
+        
+        text_clean = text
         text_2 = ''
         for line in text_clean.splitlines():
             if not line.strip(): #si la linea esta vacia, saltar
@@ -35,7 +29,17 @@ def extract_text(path):
                 else:
                     line_2 += word+ ' '
             text_2 += line_2 +'\n'
-        text = text_2
+        
+        simbolos = ' ,\n./:@'
+        text_clean = ''
+        for char in text_2:
+            if (char.isalnum())| (char in simbolos):
+                text_clean += char
+        #print(text_clean)
+        # Limpiar palabras completamente en mayusculas, es importante
+        # para reconocer los nombres
+        
+        text = text_clean
     return text
 
 if __name__ == '__main__':
