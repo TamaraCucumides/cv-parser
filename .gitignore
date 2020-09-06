@@ -55,7 +55,7 @@ coverage.xml
 *.mo
 *.pot
 *.pdf
-*.ipynb
+*.txt
 *.json
 # Django stuff:
 *.log
