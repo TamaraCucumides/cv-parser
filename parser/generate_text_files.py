@@ -44,13 +44,17 @@ def extract_text(path):
 
 if __name__ == '__main__':
     resumes = []
-    for root, _, filenames in os.walk('resumes'):
+    direc = os.getcwd()
+    dir_pdfs = '/parser/resumes_pdf'
+    dir_output = '/parser/Outputs/output_txt/'
+    
+    for root, _, filenames in os.walk(direc + dir_pdfs):
         for filename in filenames:
             file = os.path.join(root, filename)
             resumes.append(file)
     for resume in resumes:
-        name = resume.replace("resumes/", '').replace('.pdf', '')
+        name = resume.replace(dir_pdfs, '').replace('.pdf', '')
         text = extract_text(resume)
-        text_file = open('resumes_text_output/'+name, "wt",encoding='utf-8')
+        text_file = open(direc + dir_output + name, "wt",encoding='utf-8')
         n = text_file.write(text)
         text_file.close()

@@ -26,7 +26,7 @@ import pprint
 pp = pprint.PrettyPrinter(indent=4)
 
 re_c = re.compile(r'\w+')
-wordvectors_file_vec ='/home/erwin/Genoma/cv-parser/fasttext-sbwc.3.6.e20.vec'
+wordvectors_file_vec = os.getcwd() + '/embeddings/fasttext-sbwc.3.6.e20.vec'
 nlp = es_core_news_md.load()
 cantidad = 100000
 
@@ -37,9 +37,10 @@ model = KeyedVectors.load_word2vec_format(wordvectors_file_vec, limit=cantidad)
 
 
 
-seccion_csv = '/home/erwin/Genoma/cv-parser/parser/seccionesCV.csv'
+seccion_csv = os.getcwd() +'/CSVs/seccionesCV.csv'
+#print(seccion_csv)
 secciones = pd.read_csv(seccion_csv, header = 0)
-secciones.columns = secciones.loc[0] 
+#secciones.columns = secciones.loc[0] 
 #secciones.columns
 
 
@@ -197,19 +198,26 @@ def seccionar_cv(path):
 
 
 if __name__ == '__main__':
+
+    direc = os.getcwd()
+    dir_txt = '/Outputs/output_text/'
+    dir_output = '/Outputs/output_seccionado/'
+
+
+    print(direc + dir_txt)
     resumes_seccionado = []
-    for root, _, filenames in os.walk(os. getcwd()+'/resumes_text_output'):
+    for root, _, filenames in os.walk(direc + dir_txt):
         for filename in filenames:
             file = os.path.join(root, filename)
             resumes_seccionado.append(file)
 
     print("Seccionando CVs: "+str(len(resumes_seccionado)))
     for cv in resumes_seccionado:
-        name = cv.replace(os. getcwd()+'/resumes_text_output/', '')
+        name = cv.replace(direc + dir_txt, '')
         
         secciones_data = seccionar_cv(cv)
         secciones_data['nombre archivo'] = name
-        with open(os. getcwd()+'/output_seccionado/'+name+'.json', 'w',encoding='utf-8') as json_file:
+        with open(direc + dir_output + name+'.json', 'w',encoding='utf-8') as json_file:
             json.dump(secciones_data, json_file,ensure_ascii=False, indent=4)  
     print('Finalizado')
 

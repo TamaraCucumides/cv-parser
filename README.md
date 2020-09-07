@@ -1,4 +1,15 @@
-# cv-parser
+# CV parser
+
+
+parser
+├── 
+│   ├── hello
+│   │   └── index.css
+│   └── world
+│       ├── index.css
+│       └── index.js
+└── vendor
+    └── index.js
 
 ## Progreso
 - [x] Reconocimiento de nombres

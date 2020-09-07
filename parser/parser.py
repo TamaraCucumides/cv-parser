@@ -87,7 +87,12 @@ def resume_result_wrapper(resume):
 if __name__ == '__main__':
     resumes = []
     data = []
-    for root, _, filenames in os.walk(os.getcwd()+'/resumes'):
+    direc = os.getcwd()
+    #dir_pdfs = '/parser/resumes_pdf'
+    #dir_output = '/parser/Outputs/output_parser/'
+    dir_pdfs = '/resumes_pdf'
+    dir_output = '/Outputs/output_parser/'
+    for root, _, filenames in os.walk(direc + dir_pdfs):
         for filename in filenames:
             file = os.path.join(root, filename)
             resumes.append(file)
@@ -96,8 +101,8 @@ if __name__ == '__main__':
     results = [resume_result_wrapper(x) for x in resumes]
 
     for result in results:
-        name = result["Nombre archivo"].replace(os.getcwd(),'')
-        with open(os.getcwd()+'/output_parser'+name+'.json', 'w',encoding='utf-8') as json_file:
+        name = result["Nombre archivo"].replace(direc + dir_pdfs,'')
+        with open(direc + dir_output + name +'.json', 'w',encoding='utf-8') as json_file:
             json.dump(result, json_file,ensure_ascii=False)
     print('Finalizado. Se han procesado '+str(len(results)) + ' CVs')
 
