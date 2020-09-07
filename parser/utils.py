@@ -295,16 +295,9 @@ def delete_words(text):
     # Siempre se colan estas palabras en la deteccion de nombres
     text = text.replace("Pontificia", " ")
     text = text.replace("Universidad", " ")
-    #text = text.replace("PONTIFICIA", " ")
-    #text = text.replace("UNIVERSIDAD", " ")
     text = text.replace("Curriculum", " ")
-    #text = text.replace("CURRILUM", " ")
     text = text.replace("Vitae", " ")
-    #text = text.replace("VITAE", " ")
-    #text = text.replace("Calle", " ")
-    #text = text.replace("•", " ")
-    #text = text.replace("▪", " ")
-    #text = text.replace("-", " ")
+
 
     return text
 
@@ -321,14 +314,6 @@ def retrieve_name(text, nlp_text):
     text = delete_words(text)
     # El uso de mayusculas es importante para el matcher,
     # por ejemplo FELIPE no se reconoce, pero Felipe sí
-#    string = ''
-#    for word in text.split(): 
-#        if word.isupper(): #FELIPE ---> Felipe, Paulina ---> Paulina
-#            string += word.capitalize() +' '  
-#        else:
-#            string += word +' '  
-
- #   text = string
     NAME_PATTERN      = [{'POS': 'PROPN'}, {'POS': 'PROPN'},{'POS': 'PROPN'}]
     nlp = es_core_news_sm.load()
     #nlp_text = nlp(text.replace('@', '\n').replace('www','\n'))

@@ -54,9 +54,7 @@ coverage.xml
 # Translations
 *.mo
 *.pot
-*.pdf
-*.txt
-*.json
+
 # Django stuff:
 *.log
 local_settings.py
@@ -129,7 +127,6 @@ dmypy.json
 !resumes_output/*.json
 # Pyre type checker
 .pyre/
-*.json
-!/*.json
+
 fasttext-sbwc.vec
-resumes_text_output/
+

@@ -13,15 +13,15 @@ Datos,internship,Estudios realizados,toefl
 Contacto,ayudante,Estudios y cursos,programación
 actividades,Referencias ,Cursos complementarios,librería
 adicional,metas,Cursos,español
-antecedentes,Referencias,Cursos y seminarios,softwares
+antecedentes,Referencias,Cursos y seminarios,software
 deportes,encargado,Talleres,python
 Interés,responsable,Seminarios,excel
 Datos de interés,analizar,Exposiciones,sql
 Hobbies,manejo,Educación complementaria,office
 Misceláneo,liderar,Docencia,lenguaje
 extraprogramática,realizar,Publicaciones,ingles
-Otros,función,Certificaciones,
-Voluntariados,controlar,universidad,
+Otros,función,Certificaciones,informática
+Voluntariados,controlar,universidad,ofimática
 Emprendimientos,ejecutivo,colegio,
 extracurriculares,organizar,instituto,
 Complementario,asegurar,coursera,
@@ -29,16 +29,24 @@ calle,cliente,edx,
 dpto,desarrollar,magister,
 avenida,coordinar,mba,
 región,kpi,Especialización,
-,asistente,Bachiller,
-,reportes,licenciatura,
-,supervisar,capacitación,
-,redacción,bachillerato,
-,comunicar,título,
+me,asistente,Bachiller,
+soy,reportes,licenciatura,
+RUT,supervisar,capacitación,
+nacionalidad,redacción,bachillerato,
+nacimiento,comunicar,título,
 ,apoyo,titulado,
 ,coordinación,egresado,
 ,Atención,estudiante,
-,administrar,,
-,revisión,,
-,medición,,
-,segumiento,,
-,reporte,,
+,administrar,minor,
+,revisión,máster,
+,medición,postgrado,
+,seguimiento,diplomado,
+,reporte,Especialización,
+,laborales,conocimiento,
+,emprendimiento,,
+,apoyar,,
+,creación,,
+,desempeñar,,
+,mantener,,
+,proponer,,
+,actualizar,,
