@@ -203,7 +203,7 @@ if __name__ == '__main__':
             file = os.path.join(root, filename)
             resumes_seccionado.append(file)
 
-    print(len(resumes_seccionado))
+    print("Seccionando CVs: "+str(len(resumes_seccionado)))
     for cv in resumes_seccionado:
         name = cv.replace(os. getcwd()+'/resumes_text_output/', '')
         

@@ -21,6 +21,7 @@ import unidecode
 import numpy as np
 import json
 from gensim.models.keyedvectors import KeyedVectors
+import pprint
 wordvectors_file_vec ='/home/erwin/Genoma/cv-parser/fasttext-sbwc.3.6.e20.vec'
 
 
@@ -87,8 +88,8 @@ def get_closest(word, n):
 
 # Descripción del trabajo
 
-prc_description = '''ingeniería máster python excel desarrollo gestión comercial experiencia manejo clientes
-emprendimiento liderar equipos planificar organizar '''
+prc_description = '''ingeniería máster python excel desarrollo  experiencia manejo 
+machine learning metodologías ágiles liderar equipos planificar organizar trello electrónica informática java'''
 
 
 # Expandir descripcion
@@ -107,25 +108,18 @@ no_of_cv = len(jsons)
 count = {}
 idf = {}
 for word in word_value.keys():
-    count[word] = 0
+    count[word] = 1
     for i in range(no_of_cv):
         #jsons[i]['skills'] = [x.lower() for x in jsons[i]['skills']]
         try:
             #if word in cvs.loc(0)['skill'][i].split() or word in cvs.loc(0)['exp'][i].split():
-            if word in jsons[i]['skills'] or word in jsons[i]['experiencia'] or word in jsons[i]['educación']:]:
+            if word in jsons[i]['skills'] or word in jsons[i]['experiencia'] or word in jsons[i]['educación']:
                 #print('entre')
                 count[word] += 1
         except:
             pass
-    if (count[word] == 0):
-        count[word] = 1
     idf[word] = math.log(no_of_cv/count[word])
-print(count)
-print('---------------')
-print('---------------')
-print(idf)
-print('---------------')
-print('---------------')
+
 
 
 
@@ -147,7 +141,7 @@ for i in range(no_of_cv):
     
 sorted_list.sort(reverse = True)
 
-print(sorted_list)
+pprint.pprint(sorted_list)
 
 
 
