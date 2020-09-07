@@ -1,3 +1,19 @@
+---
+jupyter:
+  jupytext:
+    formats: ipynb,md
+    text_representation:
+      extension: .md
+      format_name: markdown
+      format_version: '1.2'
+      jupytext_version: 1.6.0
+  kernelspec:
+    display_name: Python [conda env:cv_parser] *
+    language: python
+    name: conda-env-cv_parser-py
+---
+
+```python
 import re
 import math
 import fitz
@@ -17,17 +33,22 @@ import itertools
 from nltk.stem import SnowballStemmer
 import textacy
 import regex
+import json
 import unidecode
 import numpy as np
-import json
 from gensim.models.keyedvectors import KeyedVectors
+
+import yaml
 wordvectors_file_vec ='/home/erwin/Genoma/cv-parser/fasttext-sbwc.3.6.e20.vec'
+```
 
-
+```python
 cantidad = 100000
 
 model = KeyedVectors.load_word2vec_format(wordvectors_file_vec, limit=cantidad)
+```
 
+```python
 path_to_json = 'output_seccionado/'
 json_files = [pos_json for pos_json in os.listdir(path_to_json) if pos_json.endswith('.json')]
 #print(json_files)  # for me this prints ['foo.json']
@@ -35,9 +56,23 @@ jsons = []
 for index, js in enumerate(json_files):
     with open(os.path.join(path_to_json, js)) as json_file:
         jsons.append(json.load(json_file))
+        
 
+```
 
+```python
+#jsons = []
+#for index, js in enumerate(json_files):
+#    with open(os.path.join(path_to_json, js)) as json_file:
+#        jsons.append(yaml.load(json_file, yaml.SafeLoader))
+        
+```
 
+```python
+jsons[0]
+```
+
+```python
 def sent2vec(s):
     '''Generate Vectora for sentences.'''
     M = []
@@ -73,25 +108,43 @@ def get_closest(word, n):
         pass
     
     return words, similar_vals
+```
+
+```python tags=[]
+frase_1 = 'software developer'
+frase_2 = 'web developer'
 
 
+vector_sentence_1 = sent2vec(frase_1)
+vector_sentence_2 = sent2vec(frase_2)
+similitud = cosine_sim(vector_sentence_1,vector_sentence_2)
 
+print(similitud)
+```
 
+```python
+get_closest(word= 'solidaridad', n = 3)
+```
 
+```python
+model.similarity('educación', 'educar')
+```
 
+```python
+import es_core_news_md
+nlp = es_core_news_md.load()
+nlp_text = nlp('educado')
+nlp_text[0].lemma_
+```
 
-
-
-
-
-
-# Descripción del trabajo
-
+```python
 prc_description = '''ingeniería máster python excel desarrollo gestión comercial experiencia manejo clientes
-emprendimiento liderar equipos planificar organizar '''
+emprendimiento liderar equipos planificar organizar dirigir trabajo presión seguimiento KPI machine learning
+telecomunicaciones eléctrica licenciatura pytorch java computación'''
+```
 
-
-# Expandir descripcion
+```python
+# https://github.com/prateekguptaiiitk/Resume_Filtering/blob/develop/Scoring/CV_ranking.ipynb
 word_value = {}
 similar_words_needed = 2
 for word in prc_description.split():
@@ -100,9 +153,32 @@ for word in prc_description.split():
         word_value[similar_words[i]] = word_value.get(similar_words[i], 0)+similarity[i]
         #print(similar_words[i], word_value[similar_words[i]])
         #print('------------------------------------------------')
+```
 
+```python
+word_value.keys()
+```
+
+```python
+#'Licencia' in jsons[1]['skills']
+```
+
+```python
+### ahora veamos si resulta el ranking
+#frecuencia de término – frecuencia inversa de documento 
+#Tf-idf
+#Para calcular este ranking es mejor tener las secciones skills y experiencia
+#con el fin de calcular esta metrica usando la ocurrencia de las palabras
+# Tenemos todos los CV's y una descripción del cargo, a este descripcion del cargo
+# tiene N palabras, le buscamos 2 palabras parecidas, generando una descripcion
+# de N*2
+
+# Usando esta nuevo set de palabras de descripcion, recorremos todos los cvs contando 
+# la ocurrencia de estas palabras en cada documento, y luego se genera un ranking usando Tf-idf
+# La pregunta es: ¿Lo haré sobre el documento entero? o ¿Trataré de seccionar y ocupar ciertas secciones?
 
 no_of_cv = len(jsons)
+print(no_of_cv)
 
 count = {}
 idf = {}
@@ -112,7 +188,7 @@ for word in word_value.keys():
         #jsons[i]['skills'] = [x.lower() for x in jsons[i]['skills']]
         try:
             #if word in cvs.loc(0)['skill'][i].split() or word in cvs.loc(0)['exp'][i].split():
-            if word in jsons[i]['skills'] or word in jsons[i]['experiencia'] or word in jsons[i]['educación']:]:
+            if word in jsons[i]['skills'] or word in jsons[i]['experiencia'] or word in jsons[i]['educación']:
                 #print('entre')
                 count[word] += 1
         except:
@@ -120,40 +196,58 @@ for word in word_value.keys():
     if (count[word] == 0):
         count[word] = 1
     idf[word] = math.log(no_of_cv/count[word])
-print(count)
-print('---------------')
-print('---------------')
-print(idf)
-print('---------------')
-print('---------------')
+    print(idf)
+```
 
-
+```python
 
 score = {}
 for i in range(no_of_cv):
     score[i] = 0
-    try:
-        for word in word_value.keys():
-            #tf = jsons[i]['skills'].count(word) + cvs.loc(0)['exp'][i].split().count(word)
-            tf = jsons[i]['skills'].count(word) + jsons[i]['experiencia'].count(word) + jsons[i]['educación'].count(word)
-            score[i] += word_value[word]*tf*idf[word]
-    except:
-        pass
 
+    for word in word_value.keys():
+        tf = jsons[i]['skills'].count(word) + jsons[i]['experiencia'].count(word) + jsons[i]['educación'].count(word)
+        #print(tf)
+        if (tf == 0):
+            #print(jsons[i]['nombre archivo'])
+            #print(word)
+            tf = 1
+        else:
+            print('Pillé ' + word+ ' en' +jsons[i]['nombre archivo'] )
+            #print(word)
+        score[i] += word_value[word]*tf*idf[word]
 
+print(score)
+```
+
+```python
+jsons[0]['skills']
+```
+
+```python
 sorted_list = []
 for i in range(no_of_cv):
     sorted_list.append((score[i], jsons[i]['nombre archivo']))
     
 sorted_list.sort(reverse = True)
 
-print(sorted_list)
+#for s, i in sorted_list:
+#    if list(cvs)[i] != '.DS_Store':
+#        print(list(cvs)[i], ':', s)
+```
 
+```python
+sorted_list
+```
 
+```python
 
+```
 
+```python
 
+```
 
+```python
 
-
-#if __name__ == '__main__':
+```

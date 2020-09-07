@@ -37,7 +37,7 @@ model = KeyedVectors.load_word2vec_format(wordvectors_file_vec, limit=cantidad)
 
 
 
-seccion_csv = 'parser/seccionesCV.csv'
+seccion_csv = '/home/erwin/Genoma/cv-parser/parser/seccionesCV.csv'
 secciones = pd.read_csv(seccion_csv, header = 0)
 secciones.columns = secciones.loc[0] 
 #secciones.columns
@@ -188,7 +188,7 @@ def seccionar_cv(path):
             if (not token.is_stop):
                 mod_line += token.lemma_ + ' '
 
-        secciones_data[previous_section] += mod_line
+        secciones_data[previous_section] += mod_line.lower()
 
 
     cv_txt.close()
@@ -198,20 +198,20 @@ def seccionar_cv(path):
 
 if __name__ == '__main__':
     resumes_seccionado = []
-    for root, _, filenames in os.walk('resumes_text_output'):
+    for root, _, filenames in os.walk(os. getcwd()+'/resumes_text_output'):
         for filename in filenames:
             file = os.path.join(root, filename)
             resumes_seccionado.append(file)
 
-
+    print(len(resumes_seccionado))
     for cv in resumes_seccionado:
-        name = cv.replace('resumes_text_output/', '')
+        name = cv.replace(os. getcwd()+'/resumes_text_output/', '')
         
         secciones_data = seccionar_cv(cv)
         secciones_data['nombre archivo'] = name
-        with open('output_seccionado/'+name+'.json', 'w',encoding='utf-8') as json_file:
+        with open(os. getcwd()+'/output_seccionado/'+name+'.json', 'w',encoding='utf-8') as json_file:
             json.dump(secciones_data, json_file,ensure_ascii=False, indent=4)  
-
+    print('Finalizado')
 
 
 
