@@ -108,7 +108,7 @@ no_of_cv = len(jsons)
 count = {}
 idf = {}
 for word in word_value.keys():
-    count[word] = 1
+    count[word] = 0
     for i in range(no_of_cv):
         #jsons[i]['skills'] = [x.lower() for x in jsons[i]['skills']]
         try:
@@ -118,7 +118,7 @@ for word in word_value.keys():
                 count[word] += 1
         except:
             pass
-    idf[word] = math.log(no_of_cv/count[word])
+    idf[word] = math.log((no_of_cv + 1)/(count[word]+1))+1
 
 
 
