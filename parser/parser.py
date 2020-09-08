@@ -41,7 +41,7 @@ class CvParser:
         self._sections = dict()
 
     def parse(self):
-        nombre_archivo = self.cv.replace("resumes/", '').replace('.pdf', '')
+        nombre_archivo = self.cv.replace(direc + dir_pdfs, '').replace('.pdf', '')
         nombre = utils.retrieve_name(self.raw_text, self.nlp)
         correo = utils.retrieve_email(self.raw_text)
         celular = utils.retrieve_phone_number(self.raw_text)
@@ -90,18 +90,19 @@ if __name__ == '__main__':
     direc = os.getcwd()
     #dir_pdfs = '/parser/resumes_pdf'
     #dir_output = '/parser/Outputs/output_parser/'
-    dir_pdfs = '/resumes_pdf'
-    dir_output = '/Outputs/output_parser/'
+    dir_pdfs = '/parser/resumes_pdf/'
+    dir_output = '/parser/Outputs/output_parser/'
     for root, _, filenames in os.walk(direc + dir_pdfs):
         for filename in filenames:
             file = os.path.join(root, filename)
             resumes.append(file)
 
-    
+  
     results = [resume_result_wrapper(x) for x in resumes]
 
     for result in results:
-        name = result["Nombre archivo"].replace(direc + dir_pdfs,'')
+        #name = result["Nombre archivo"].replace(direc + dir_pdfs,'')
+        name = result["Nombre archivo"]
         with open(direc + dir_output + name +'.json', 'w',encoding='utf-8') as json_file:
             json.dump(result, json_file,ensure_ascii=False)
     print('Finalizado. Se han procesado '+str(len(results)) + ' CVs')

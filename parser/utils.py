@@ -93,7 +93,7 @@ def retrieve_skills(nlp_text):
     '''
     tokens = [token.text for token in nlp_text if not token.is_stop]
     #####data = pd.read_csv(os.getcwd() +'/parser/CSVs/skills.csv') 
-    data = pd.read_csv(os.getcwd() +'/CSVs/skills.csv') 
+    data = pd.read_csv(os.getcwd() +'/parser/CSVs/skills.csv') 
     skills = list(data.columns.values)
 
     skillset = []
