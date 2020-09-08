@@ -382,7 +382,7 @@ model.similarity('especialista', 'experto')
 ```
 
 ```python
-file = '/home/erwin/Genoma/cv-parser/parser/Descripcion_cargo/descripcion_cargo'
+file = '/home/erwin/Genoma/cv-parser/parser/diccionarios/test'
 cv_txt = open(file, "r")
 print(cv_txt.read())
 ```
@@ -392,12 +392,13 @@ d = cv_txt.read()
 ```
 
 ```python
-" ".join([x.strip() for x in cv_txt]) 
+f
 ```
 
 ```python
 with open(file) as f:
-  descripcion = " ".join([x.strip() for x in f]) 
+    c = [x.strip() for x in f]
+    descripcion = [x for x in c if x != '']
 ```
 
 ```python

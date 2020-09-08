@@ -22,16 +22,16 @@ import json
 from gensim.models.keyedvectors import KeyedVectors
 import pprint
 import string
+from cts import cargar_dict
 
 
 
 
-
-
+newStopWords = cargar_dict(os.getcwd() + '/parser/diccionarios/stop_words')
 wordvectors_file_vec = os.getcwd()+ '/parser/embeddings/fasttext-sbwc.3.6.e20.vec'
 
 
-cantidad = 100000
+cantidad = 200000
 
 model = KeyedVectors.load_word2vec_format(wordvectors_file_vec, limit=cantidad)
 
@@ -52,9 +52,7 @@ def pre_process(corpus):
     corpus = corpus.lower()
     #stopwords_new = stopwords.words('spanish').append('experiencia')
     stopwords = nltk.corpus.stopwords.words('spanish')
-    newStopWords = ['experiencia','conocimiento','desarrollo', 'ingeniero']
     stopwords.extend(newStopWords)
-
     stopset = stopwords+ list(string.punctuation)
 
     corpus = " ".join([i for i in word_tokenize(corpus) if i not in stopset])
