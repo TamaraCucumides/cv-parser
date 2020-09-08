@@ -61,7 +61,21 @@ for index, js in enumerate(json_files):
 ```
 
 ```python
-jsons[0]
+jsons[0]['experiencia']
+```
+
+```python
+sent = pre_process(jsons[0]['experiencia'])
+sent
+```
+
+```python
+sent_lem = lematizar(sent)
+print(sent_lem)
+```
+
+```python
+lematizar('ingles')
 ```
 
 ```python
@@ -228,12 +242,14 @@ idf = {}
 for word in word_value.keys():
     count[word] = 0
     for i in range(no_of_cv):
-        try:
-            if calculo_similitud(word, jsons[i]['skills'].split()) or calculo_similitud(word, jsons[i]['experiencia'].split()) or calculo_similitud(word, jsons[i]['educación'].split()):
-                #print('entre')
-                count[word] += 1
-        except:
-            pass
+        # eliminación de stopwords y quizas lematizacion
+        skill_pro = pre_process(jsons[i]['skills']) 
+        expe_pro = pre_process(jsons[i]['experiencia'])
+        edu_pro = pre_process(jsons[i]['educación'])
+        
+        if calculo_similitud(word, skill_pro.split()) or calculo_similitud(word, expe_pro.split()) or calculo_similitud(word, edu_pro.split()):
+            count[word] += 1
+
 
     idf[word] = math.log((no_of_cv+1)/(1+count[word]))
 ```
@@ -247,9 +263,14 @@ idf
 score = {}
 for i in range(no_of_cv):
     score[i] = 0
-
+    skill_pro = pre_process(jsons[i]['skills']) 
+    expe_pro = pre_process(jsons[i]['experiencia'])
+    edu_pro = pre_process(jsons[i]['educación'])
     for word in word_value.keys():
-        tf = 1 + calculo_similitud(word, jsons[i]['skills'].split()) + calculo_similitud(word, jsons[i]['experiencia'].split()) + calculo_similitud(word, jsons[i]['educación'].split())
+        
+        
+        
+        tf = 1 + calculo_similitud(word, skill_pro.split()) + calculo_similitud(word, expe_pro.split()) + calculo_similitud(word, edu_pro.split())
 
         score[i] += word_value[word]*tf*idf[word]
 
@@ -263,6 +284,10 @@ for i in range(no_of_cv):
     
 sorted_list.sort(reverse = True)
 
+```
+
+```python
+sorted_list
 ```
 
 ```python
@@ -295,6 +320,10 @@ from nltk import word_tokenize
 from nltk.corpus import stopwords
 from unidecode import unidecode
 import string
+import spacy
+import es_core_news_sm
+
+
 def pre_process(corpus):
     corpus = corpus.lower()
 
@@ -305,19 +334,18 @@ def pre_process(corpus):
     corpus = unidecode(corpus)
     return corpus
 
-
-```
-
-```python
-import spacy
-import es_core_news_sm
-
-
 def lematizar(frase):
     nlp = es_core_news_sm.load()
     doc = nlp(frase)
     lemmas = [tok.lemma_.lower() for tok in doc]
     return lemmas
+
+
+```
+
+```python
+
+
 
 
 ```
@@ -351,6 +379,33 @@ sent_lem_2
 
 ```python
 model.similarity('especialista', 'experto')
+```
+
+```python
+file = '/home/erwin/Genoma/cv-parser/parser/Descripcion_cargo/descripcion_cargo'
+cv_txt = open(file, "r")
+print(cv_txt.read())
+```
+
+```python
+d = cv_txt.read()
+```
+
+```python
+" ".join([x.strip() for x in cv_txt]) 
+```
+
+```python
+with open(file) as f:
+  descripcion = " ".join([x.strip() for x in f]) 
+```
+
+```python
+descripcion
+```
+
+```python
+cv_txt
 ```
 
 ```python
