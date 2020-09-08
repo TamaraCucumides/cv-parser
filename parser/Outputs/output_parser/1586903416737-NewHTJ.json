@@ -1,1 +1,30 @@
-{"Nombre": "Universidad Santa María ", "Correo": ["Tovarhansel@gmail.com"], "Linkedin": null, "Celular": "20002005", "Skills": ["Marketing", "Word", "Office", "Excel", "Ventas"], "Grado": [], "Palabras Claves": ["Negociación", "Estrategia", "Gestión", "Proactividad", "Analizar", "Tolerancia", "Adaptable"], "Educacion": [], "Lenguajes": ["Inglés"], "Nombre archivo": "1586903416737-NewHTJ"}
+{
+    "Nombre": "Universidad Santa María ",
+    "Correo": [
+        "Tovarhansel@gmail.com"
+    ],
+    "Linkedin": null,
+    "Celular": "20002005",
+    "Skills": [
+        "Office",
+        "Ventas",
+        "Marketing",
+        "Excel",
+        "Word"
+    ],
+    "Grado": [],
+    "Palabras Claves": [
+        "Analizar",
+        "Estrategia",
+        "Negociación",
+        "Proactividad",
+        "Tolerancia",
+        "Adaptable",
+        "Gestión"
+    ],
+    "Educacion": [],
+    "Lenguajes": [
+        "Inglés"
+    ],
+    "Nombre archivo": "1586903416737-NewHTJ"
+}

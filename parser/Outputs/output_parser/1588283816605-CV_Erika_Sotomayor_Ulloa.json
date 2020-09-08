@@ -1,1 +1,36 @@
-{"Nombre": "Erika Sotomayor Ulloa ", "Correo": ["eesotomayor@uc.cl"], "Linkedin": null, "Celular": "56989999586", "Skills": ["Sql", "Stata", "Marketing", "Power bi", "Machine learning", "Excel", "Python"], "Grado": ["Ingeniería"], "Palabras Claves": ["Análisis", "Estrategia", "Gestión", "Modelamiento", "Aprender"], "Educacion": ["Universidad Santo Tomas", "Pontificia Universidad Catolica de Chile", "Universidad Católica de Chile"], "Lenguajes": ["Inglés"], "Nombre archivo": "1588283816605-CV_Erika_Sotomayor_Ulloa"}
+{
+    "Nombre": "Erika Sotomayor Ulloa ",
+    "Correo": [
+        "eesotomayor@uc.cl"
+    ],
+    "Linkedin": null,
+    "Celular": "56989999586",
+    "Skills": [
+        "Sql",
+        "Stata",
+        "Python",
+        "Power bi",
+        "Marketing",
+        "Excel",
+        "Machine learning"
+    ],
+    "Grado": [
+        "Ingeniería"
+    ],
+    "Palabras Claves": [
+        "Estrategia",
+        "Aprender",
+        "Análisis",
+        "Gestión",
+        "Modelamiento"
+    ],
+    "Educacion": [
+        "Pontificia Universidad Catolica de Chile",
+        "Universidad Católica de Chile",
+        "Universidad Santo Tomas"
+    ],
+    "Lenguajes": [
+        "Inglés"
+    ],
+    "Nombre archivo": "1588283816605-CV_Erika_Sotomayor_Ulloa"
+}

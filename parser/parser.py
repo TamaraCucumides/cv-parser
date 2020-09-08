@@ -104,7 +104,7 @@ if __name__ == '__main__':
         #name = result["Nombre archivo"].replace(direc + dir_pdfs,'')
         name = result["Nombre archivo"]
         with open(direc + dir_output + name +'.json', 'w',encoding='utf-8') as json_file:
-            json.dump(result, json_file,ensure_ascii=False)
+            json.dump(result, json_file,ensure_ascii=False,indent=4)
     print('Finalizado. Se han procesado '+str(len(results)) + ' CVs')
 
 

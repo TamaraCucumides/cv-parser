@@ -1,1 +1,29 @@
-{"Nombre": "Gabriel García Lorca ", "Correo": ["gabogarcia@gmail.com"], "Linkedin": null, "Celular": "20012005", "Skills": ["Ventas", "Word", "Marketing"], "Grado": ["Máster"], "Palabras Claves": ["Liderar", "Análisis", "Estrategia", "Gestión", "Responsabilidad"], "Educacion": ["Inacap", "Universidad de Chile"], "Lenguajes": [], "Nombre archivo": "1580320654107-CV_Gabriel_Garcia_Lorca"}
+{
+    "Nombre": "Gabriel García Lorca ",
+    "Correo": [
+        "gabogarcia@gmail.com"
+    ],
+    "Linkedin": null,
+    "Celular": "20012005",
+    "Skills": [
+        "Marketing",
+        "Word",
+        "Ventas"
+    ],
+    "Grado": [
+        "Máster"
+    ],
+    "Palabras Claves": [
+        "Responsabilidad",
+        "Liderar",
+        "Estrategia",
+        "Análisis",
+        "Gestión"
+    ],
+    "Educacion": [
+        "Inacap",
+        "Universidad de Chile"
+    ],
+    "Lenguajes": [],
+    "Nombre archivo": "1580320654107-CV_Gabriel_Garcia_Lorca"
+}

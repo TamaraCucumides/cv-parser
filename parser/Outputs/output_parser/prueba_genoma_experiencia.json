@@ -1,1 +1,34 @@
-{"Nombre": "Erwin Nicolás Paillacán ", "Correo": ["erwinpaillacan@gmail.com"], "Linkedin": "https://www.linkedin.com/in/erwinpaillacan", "Celular": "56986634232", "Skills": ["Sql", "Verilog", "Aws", "Docker", "Latex", "Java", "Deep learning", "Excel", "Pytorch", "Octave", "Python"], "Grado": ["Ingeniería"], "Palabras Claves": ["Apasionado", "Aprender"], "Educacion": [], "Lenguajes": ["Español", "Inglés"], "Nombre archivo": "prueba_genoma_experiencia"}
+{
+    "Nombre": "Erwin Nicolás Paillacán ",
+    "Correo": [
+        "erwinpaillacan@gmail.com"
+    ],
+    "Linkedin": "https://www.linkedin.com/in/erwinpaillacan",
+    "Celular": "56986634232",
+    "Skills": [
+        "Sql",
+        "Python",
+        "Deep learning",
+        "Latex",
+        "Docker",
+        "Octave",
+        "Excel",
+        "Aws",
+        "Pytorch",
+        "Verilog",
+        "Java"
+    ],
+    "Grado": [
+        "Ingeniería"
+    ],
+    "Palabras Claves": [
+        "Aprender",
+        "Apasionado"
+    ],
+    "Educacion": [],
+    "Lenguajes": [
+        "Inglés",
+        "Español"
+    ],
+    "Nombre archivo": "prueba_genoma_experiencia"
+}

@@ -1,1 +1,31 @@
-{"Nombre": "Gustavo J. Martinez ", "Correo": ["Gmartinezraya@gmail.com"], "Linkedin": null, "Celular": "51965764579", "Skills": ["Marketing", "Oracle", "Coaching", "Office", "Ventas"], "Grado": ["Licenciatura"], "Palabras Claves": ["Análisis", "Estrategia", "Gestión", "Proactividad", "Negociación", "Responsabilidad"], "Educacion": [], "Lenguajes": ["Inglés"], "Nombre archivo": "1581690552715-CV_Gustavo_Martinez_Raya"}
+{
+    "Nombre": "Gustavo J. Martinez ",
+    "Correo": [
+        "Gmartinezraya@gmail.com"
+    ],
+    "Linkedin": null,
+    "Celular": "51965764579",
+    "Skills": [
+        "Oracle",
+        "Coaching",
+        "Office",
+        "Ventas",
+        "Marketing"
+    ],
+    "Grado": [
+        "Licenciatura"
+    ],
+    "Palabras Claves": [
+        "Responsabilidad",
+        "Estrategia",
+        "Negociación",
+        "Proactividad",
+        "Análisis",
+        "Gestión"
+    ],
+    "Educacion": [],
+    "Lenguajes": [
+        "Inglés"
+    ],
+    "Nombre archivo": "1581690552715-CV_Gustavo_Martinez_Raya"
+}

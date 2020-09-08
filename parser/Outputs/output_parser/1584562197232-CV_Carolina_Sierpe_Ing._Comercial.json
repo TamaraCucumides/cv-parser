@@ -1,1 +1,35 @@
-{"Nombre": "Carolina Andrea Sierpe ", "Correo": "casierpe@uc.cl", "Linkedin": null, "Celular": "981921779", "Skills": ["Sql", "Erp", "Stata", "Office", "Excel", "Python"], "Grado": ["Ingeniería"], "Palabras Claves": ["Apasionado", "Adaptable", "Negociación", "Estrategia", "Proactividad", "Creativo", "Aprender", "Responsabilidad"], "Educacion": ["Pontificia Universidad Catolica de Chile", "Universidad Católica de Chile"], "Lenguajes": ["Inglés"], "Nombre archivo": "1584562197232-CV_Carolina_Sierpe_Ing._Comercial"}
+{
+    "Nombre": "Carolina Andrea Sierpe ",
+    "Correo": "casierpe@uc.cl",
+    "Linkedin": null,
+    "Celular": "981921779",
+    "Skills": [
+        "Erp",
+        "Sql",
+        "Stata",
+        "Python",
+        "Office",
+        "Excel"
+    ],
+    "Grado": [
+        "Ingeniería"
+    ],
+    "Palabras Claves": [
+        "Responsabilidad",
+        "Apasionado",
+        "Estrategia",
+        "Negociación",
+        "Proactividad",
+        "Aprender",
+        "Adaptable",
+        "Creativo"
+    ],
+    "Educacion": [
+        "Pontificia Universidad Catolica de Chile",
+        "Universidad Católica de Chile"
+    ],
+    "Lenguajes": [
+        "Inglés"
+    ],
+    "Nombre archivo": "1584562197232-CV_Carolina_Sierpe_Ing._Comercial"
+}

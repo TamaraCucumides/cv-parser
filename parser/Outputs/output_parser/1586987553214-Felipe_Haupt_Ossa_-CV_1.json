@@ -1,1 +1,31 @@
-{"Nombre": "Felipe Germán Haupt ", "Correo": ["fghaupt@miuandes.cl"], "Linkedin": null, "Celular": ["56997458888"], "Skills": ["Ventas", "Sap", "Marketing", "Excel"], "Grado": ["Ingeniería"], "Palabras Claves": ["Estrategia", "Gestión", "Liderazgo", "Negociación", "Responsabilidad"], "Educacion": [], "Lenguajes": ["Inglés"], "Nombre archivo": "1586987553214-Felipe_Haupt_Ossa_-CV_1"}
+{
+    "Nombre": "Felipe Germán Haupt ",
+    "Correo": [
+        "fghaupt@miuandes.cl"
+    ],
+    "Linkedin": null,
+    "Celular": [
+        "56997458888"
+    ],
+    "Skills": [
+        "Marketing",
+        "Excel",
+        "Sap",
+        "Ventas"
+    ],
+    "Grado": [
+        "Ingeniería"
+    ],
+    "Palabras Claves": [
+        "Responsabilidad",
+        "Estrategia",
+        "Negociación",
+        "Liderazgo",
+        "Gestión"
+    ],
+    "Educacion": [],
+    "Lenguajes": [
+        "Inglés"
+    ],
+    "Nombre archivo": "1586987553214-Felipe_Haupt_Ossa_-CV_1"
+}

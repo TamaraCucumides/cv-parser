@@ -1,1 +1,33 @@
-{"Nombre": "Francisco Javier Contador ", "Correo": ["fcocontador@gmail.com"], "Linkedin": null, "Celular": "56994624515", "Skills": ["Sql", "Office", "Excel", "Ventas", "Sap"], "Grado": ["Ingeniería"], "Palabras Claves": ["Voluntariado", "Gestión", "Liderazgo", "Motivación", "Negociación", "Responsabilidad"], "Educacion": ["Universidad de Las Américas"], "Lenguajes": ["Inglés"], "Nombre archivo": "1583796411230-Curriculum__fco_marzo"}
+{
+    "Nombre": "Francisco Javier Contador ",
+    "Correo": [
+        "fcocontador@gmail.com"
+    ],
+    "Linkedin": null,
+    "Celular": "56994624515",
+    "Skills": [
+        "Sql",
+        "Office",
+        "Ventas",
+        "Excel",
+        "Sap"
+    ],
+    "Grado": [
+        "Ingeniería"
+    ],
+    "Palabras Claves": [
+        "Responsabilidad",
+        "Motivación",
+        "Voluntariado",
+        "Negociación",
+        "Liderazgo",
+        "Gestión"
+    ],
+    "Educacion": [
+        "Universidad de Las Américas"
+    ],
+    "Lenguajes": [
+        "Inglés"
+    ],
+    "Nombre archivo": "1583796411230-Curriculum__fco_marzo"
+}

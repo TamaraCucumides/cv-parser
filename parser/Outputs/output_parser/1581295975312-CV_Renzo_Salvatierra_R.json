@@ -1,1 +1,32 @@
-{"Nombre": "Social Media Management ", "Correo": ["rsalvatierrar@gmail.com"], "Linkedin": null, "Celular": "51913918444", "Skills": ["Ventas", "Word", "Marketing", "Excel"], "Grado": ["Máster"], "Palabras Claves": ["Liderar", "Negociación", "Estrategia", "Liderazgo", "Analizar", "Adaptable"], "Educacion": [], "Lenguajes": ["Inglés", "Portugués", "Alemán"], "Nombre archivo": "1581295975312-CV_Renzo_Salvatierra_R"}
+{
+    "Nombre": "Social Media Management ",
+    "Correo": [
+        "rsalvatierrar@gmail.com"
+    ],
+    "Linkedin": null,
+    "Celular": "51913918444",
+    "Skills": [
+        "Marketing",
+        "Excel",
+        "Word",
+        "Ventas"
+    ],
+    "Grado": [
+        "Máster"
+    ],
+    "Palabras Claves": [
+        "Analizar",
+        "Liderar",
+        "Estrategia",
+        "Negociación",
+        "Adaptable",
+        "Liderazgo"
+    ],
+    "Educacion": [],
+    "Lenguajes": [
+        "Portugués",
+        "Inglés",
+        "Alemán"
+    ],
+    "Nombre archivo": "1581295975312-CV_Renzo_Salvatierra_R"
+}

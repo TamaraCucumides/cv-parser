@@ -1,1 +1,36 @@
-{"Nombre": null, "Correo": ["56976821196sergiosoto94@gmail.com"], "Linkedin": null, "Celular": "56976821196", "Skills": ["Power point", "Marketing", "Word", "Trello", "Excel"], "Grado": ["Ingeniería"], "Palabras Claves": ["Voluntariado", "Análisis", "Comprometido", "Aprender", "Responsabilidad", "Adaptable", "Amigable"], "Educacion": ["Universidad Adolfo Ibáñez", "Universidad del Desarrollo"], "Lenguajes": ["Español", "Inglés"], "Nombre archivo": "1580248761709-CV_Sergio_Soto_Valdes"}
+{
+    "Nombre": null,
+    "Correo": [
+        "56976821196sergiosoto94@gmail.com"
+    ],
+    "Linkedin": null,
+    "Celular": "56976821196",
+    "Skills": [
+        "Power point",
+        "Trello",
+        "Marketing",
+        "Excel",
+        "Word"
+    ],
+    "Grado": [
+        "Ingeniería"
+    ],
+    "Palabras Claves": [
+        "Responsabilidad",
+        "Amigable",
+        "Voluntariado",
+        "Aprender",
+        "Adaptable",
+        "Comprometido",
+        "Análisis"
+    ],
+    "Educacion": [
+        "Universidad del Desarrollo",
+        "Universidad Adolfo Ibáñez"
+    ],
+    "Lenguajes": [
+        "Inglés",
+        "Español"
+    ],
+    "Nombre archivo": "1580248761709-CV_Sergio_Soto_Valdes"
+}

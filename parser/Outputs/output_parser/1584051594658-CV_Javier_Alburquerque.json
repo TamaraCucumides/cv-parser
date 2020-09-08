@@ -1,1 +1,33 @@
-{"Nombre": "Javier Andrés Alburquerque ", "Correo": ["Javier.andres1995@outlook.cl"], "Linkedin": null, "Celular": "56974880584", "Skills": ["Stata", "Marketing", "Word", "Excel", "Ventas"], "Grado": ["Magíster"], "Palabras Claves": ["Análisis", "Gestión", "Negociación", "Responsabilidad", "Adaptable"], "Educacion": ["Universidad Adolfo Ibáñez"], "Lenguajes": ["Inglés", "Francés"], "Nombre archivo": "1584051594658-CV_Javier_Alburquerque"}
+{
+    "Nombre": "Javier Andrés Alburquerque ",
+    "Correo": [
+        "Javier.andres1995@outlook.cl"
+    ],
+    "Linkedin": null,
+    "Celular": "56974880584",
+    "Skills": [
+        "Stata",
+        "Ventas",
+        "Marketing",
+        "Excel",
+        "Word"
+    ],
+    "Grado": [
+        "Magíster"
+    ],
+    "Palabras Claves": [
+        "Responsabilidad",
+        "Negociación",
+        "Adaptable",
+        "Análisis",
+        "Gestión"
+    ],
+    "Educacion": [
+        "Universidad Adolfo Ibáñez"
+    ],
+    "Lenguajes": [
+        "Francés",
+        "Inglés"
+    ],
+    "Nombre archivo": "1584051594658-CV_Javier_Alburquerque"
+}

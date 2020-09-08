@@ -1,1 +1,42 @@
-{"Nombre": "Key Account Manager ", "Correo": ["chris.hevia@gmail.com"], "Linkedin": null, "Celular": "56971920517", "Skills": ["Html", "Sql", "Marketing", "Mysql", "Java", "Javascript", "Office", "Trello", "Excel", "Ventas"], "Grado": ["Ingeniería"], "Palabras Claves": ["Liderar", "Análisis", "Confianza", "Negociación", "Disposición", "Estrategia", "Gestión", "Liderazgo", "Modelamiento", "Motivación", "Analizar", "Adaptable"], "Educacion": ["Universidad de Chile"], "Lenguajes": [], "Nombre archivo": "1581023751928-CV"}
+{
+    "Nombre": "Key Account Manager ",
+    "Correo": [
+        "chris.hevia@gmail.com"
+    ],
+    "Linkedin": null,
+    "Celular": "56971920517",
+    "Skills": [
+        "Sql",
+        "Mysql",
+        "Office",
+        "Trello",
+        "Html",
+        "Ventas",
+        "Marketing",
+        "Excel",
+        "Javascript",
+        "Java"
+    ],
+    "Grado": [
+        "Ingeniería"
+    ],
+    "Palabras Claves": [
+        "Analizar",
+        "Motivación",
+        "Liderar",
+        "Estrategia",
+        "Negociación",
+        "Disposición",
+        "Confianza",
+        "Adaptable",
+        "Liderazgo",
+        "Análisis",
+        "Gestión",
+        "Modelamiento"
+    ],
+    "Educacion": [
+        "Universidad de Chile"
+    ],
+    "Lenguajes": [],
+    "Nombre archivo": "1581023751928-CV"
+}

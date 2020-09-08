@@ -1,1 +1,32 @@
-{"Nombre": "Gianfranco Rosales Flores ", "Correo": "gianfrancorf@outlook.com", "Linkedin": null, "Celular": "935175292", "Skills": ["Sql", "Erp", "Iot", "Office", "Ventas", "Jupyter", "Sap", "Python", "Arduino"], "Grado": ["Ingeniería"], "Palabras Claves": ["Análisis", "Gestión", "Liderazgo", "Modelamiento", "Negociación"], "Educacion": [], "Lenguajes": ["Inglés"], "Nombre archivo": "1583336373286-CV_Gf_Rosales_2020"}
+{
+    "Nombre": "Gianfranco Rosales Flores ",
+    "Correo": "gianfrancorf@outlook.com",
+    "Linkedin": null,
+    "Celular": "935175292",
+    "Skills": [
+        "Erp",
+        "Sql",
+        "Iot",
+        "Python",
+        "Office",
+        "Jupyter",
+        "Ventas",
+        "Sap",
+        "Arduino"
+    ],
+    "Grado": [
+        "Ingeniería"
+    ],
+    "Palabras Claves": [
+        "Negociación",
+        "Liderazgo",
+        "Análisis",
+        "Gestión",
+        "Modelamiento"
+    ],
+    "Educacion": [],
+    "Lenguajes": [
+        "Inglés"
+    ],
+    "Nombre archivo": "1583336373286-CV_Gf_Rosales_2020"
+}

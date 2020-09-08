@@ -1,1 +1,27 @@
-{"Nombre": "Universidad Adolfo Ibáñez ", "Correo": ["fecuevasletelier@gmail.com"], "Linkedin": null, "Celular": "56996198431", "Skills": ["Excel"], "Grado": ["Magíster"], "Palabras Claves": ["Negociación", "Liderazgo", "Gestión", "Compromiso"], "Educacion": ["Universidad Adolfo Ibáñez"], "Lenguajes": ["Inglés"], "Nombre archivo": "1588728488694-CV_Fernando_Cuevas"}
+{
+    "Nombre": "Universidad Adolfo Ibáñez ",
+    "Correo": [
+        "fecuevasletelier@gmail.com"
+    ],
+    "Linkedin": null,
+    "Celular": "56996198431",
+    "Skills": [
+        "Excel"
+    ],
+    "Grado": [
+        "Magíster"
+    ],
+    "Palabras Claves": [
+        "Gestión",
+        "Compromiso",
+        "Negociación",
+        "Liderazgo"
+    ],
+    "Educacion": [
+        "Universidad Adolfo Ibáñez"
+    ],
+    "Lenguajes": [
+        "Inglés"
+    ],
+    "Nombre archivo": "1588728488694-CV_Fernando_Cuevas"
+}

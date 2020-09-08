@@ -1,1 +1,33 @@
-{"Nombre": "Alejandra Fetis Carrasco ", "Correo": ["p.fetis@gmail.com"], "Linkedin": null, "Celular": "56998165994", "Skills": ["Power point", "Marketing", "Word", "Office", "Excel", "Ventas"], "Grado": ["Ingeniería"], "Palabras Claves": ["Gestión", "Liderazgo", "Motivación", "Analizar"], "Educacion": ["Universidad del Desarrollo"], "Lenguajes": ["Inglés", "Italiano"], "Nombre archivo": "1574824594718-Ing._Comercial_Paula_Fetis_CV"}
+{
+    "Nombre": "Alejandra Fetis Carrasco ",
+    "Correo": [
+        "p.fetis@gmail.com"
+    ],
+    "Linkedin": null,
+    "Celular": "56998165994",
+    "Skills": [
+        "Power point",
+        "Office",
+        "Ventas",
+        "Marketing",
+        "Excel",
+        "Word"
+    ],
+    "Grado": [
+        "Ingeniería"
+    ],
+    "Palabras Claves": [
+        "Analizar",
+        "Motivación",
+        "Gestión",
+        "Liderazgo"
+    ],
+    "Educacion": [
+        "Universidad del Desarrollo"
+    ],
+    "Lenguajes": [
+        "Italiano",
+        "Inglés"
+    ],
+    "Nombre archivo": "1574824594718-Ing._Comercial_Paula_Fetis_CV"
+}
