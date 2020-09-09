@@ -1,34 +1,61 @@
 # CV parser
-
-
-parser
+## Estructura
+```
+CV parser
 ├── 
-│   ├── hello
-│   │   └── index.css
-│   └── world
-│       ├── index.css
-│       └── index.js
-└── vendor
-    └── index.js
+│   ├── Desarollo
+│   │   └── test_seccionar.ipynb
+|   |   └── test_ranking.ipynb
+│   └── parser
+│       ├── CSVs
+|       |    └── seccionesCV.csv
+│       └── Descricpion_cargo
+|       |    └── descripcion_cargo.txt
+│       └── diccionarios
+|       |    └── grados_educativos_orden.txt
+|       |    └── idiomas.txt
+|       |    └── idiomas_nivel.txt
+|       |    └── licencias_certificaciones.txt
+|       |    └── palabras claves.txt
+|       |    └── skills.txt
+|       |    └── stop_words.txt
+|       |    └── universidades.txt
+|       |    └── universidades_siglas.txt
+|       └── embeddings
+|       |     └──fasttext-sbwc.3.6.e20.vec
+|       └── Outputs
+|       |    └── output_parser
+|       |    └── output_seccionado
+|       |    └── output_text
+|       └── resumes_pdf
+|       └── cts.py
+|       └── generate_text_files.py
+|       └── ranking.py
+|       └── seccioanr.py
+|       └── utils.py
+```
 
-## Progreso
-- [x] Reconocimiento de nombres
-- [x] Match de skill de 1 palabras y más de varias palabras.
-- [x] Match correo
-- [x] Match número telefonico
-- [x] Detectar Idiomas
-- [x] Exportación formato .JSON
-- [x] Detectar licencias y certificaciones
-- [x] Match Instituciones de educación chilena, usando nombres y siglas.
-- [x] Palabras claves que podrian no estar en su forma raiz. Soy proactivo--> Proactividad
-- [x] Detectar el grado académico más alto.
-- [x] Recuperar Linkedin
-- [ ] Detectar secciones y separar el documento. 
-- [ ] Patentes
-- [ ] Publicaciones
-- [ ] Referencias
+La carpeta `/Desarrollo` tiene jupyter notebook que uso para ir probando ideas de forma rápida.
 
-## Para ir probando estoy ejecutando el `parser.py`, y este archivo saca  los pdf que se encuentren en la carpeta /resumes
-https://colab.research.google.com/drive/11MJSrHQsVDsH1imQ7jGBea9na6m59c7k?usp=sharing
+### Dependencias
+Para crear un ambiente llamado cv_parser en conda con todo lo necesario.
+`conda env create --name cv_parser -f cv_parser_export.yml`
+Probablemente tambien pida esto la primera vez: 
+`conda activate cv_parser`
+`python -m spacy download es_core_news_sm`
+`python -m spacy download es_core_news_md`
 
-![diagrama](/home/erwin/Genoma/cv-parser/diagrama.png)
+### FastText embeddings from SBWC
+El archivo `fasttext-sbwc.3.6.e20.vec` se encuentra en el siguiente link (descomprimir):
+http://dcc.uchile.cl/~jperez/word-embeddings/fasttext-sbwc.vec.gz
+
+
+
+
+### ¿Cómo usar?
+
+1. Poner todos los CV en la carpeta `/resumes_pdf`.
+2. Correr `generate_text_files.py`. La salida (`output_text`) de este script es usada en `seccionar.py`
+3. Correr `parser.py`, que usa diccionarios y genera .json con filtros especificos (`output_parser`).
+4. Correr `seccionar.py`, que usa la salida del paso 2 y genera .json con los cvs seccionados (`output_seccionado`).
+5. Correr `ranking.py` que usa la salida de 4 y `descripcion_cargo.txt`.
