@@ -124,6 +124,9 @@ venv.bak/
 .mypy_cache/
 .dmypy.json
 dmypy.json
-
+!resumes_output/*.json
 # Pyre type checker
 .pyre/
+
+fasttext-sbwc.vec
+
