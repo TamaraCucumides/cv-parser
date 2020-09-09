@@ -44,6 +44,7 @@ Para crear un ambiente llamado cv_parser en conda con todo lo necesario.
 
 
 
+
 Probablemente tambien pida esto la primera vez: 
 - `conda activate cv_parser`
 - `python -m spacy download es_core_news_sm`
@@ -62,4 +63,4 @@ http://dcc.uchile.cl/~jperez/word-embeddings/fasttext-sbwc.vec.gz
 2. Correr `generate_text_files.py`. La salida (`output_text`) de este script es usada en `seccionar.py`
 3. Correr `parser.py`, que usa diccionarios y genera .json con filtros especificos (`output_parser`).
 4. Correr `seccionar.py`, que usa la salida del paso 2 y genera .json con los cvs seccionados (`output_seccionado`).
-5. Correr `ranking.py` que usa la salida de 4 y `descripcion_cargo.txt`.
+5. Correr `ranking.py` que usa la salida de 4 y `descripcion_cargo.txt`..
