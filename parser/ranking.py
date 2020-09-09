@@ -7,7 +7,7 @@ from gensim.models.keyedvectors import KeyedVectors
 import pprint
 from cts import cargar_dict
 from utils import calculo_similitud, get_closest, cosine_sim, sent2vec, lematizar, pre_process
-
+import numpy as np
 
 
 # Se agregan STOP_WORDS desde el diccionario stop_words.txt
@@ -114,7 +114,7 @@ for i in range(no_of_cv):
 # Se crea una lista con los puntajes y el respectivo nombre del CV
 sorted_list = []
 for i in range(no_of_cv):
-    sorted_list.append((score[i], cvs_seccionados[i]['nombre archivo']))
+    sorted_list.append((np.around(score[i], decimals=4), cvs_seccionados[i]['nombre archivo']))
 
 # Se ordenan los puntajes de mayor a menor para mostrar los mejores
 sorted_list.sort(reverse = True)
