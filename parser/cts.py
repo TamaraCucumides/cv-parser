@@ -2,6 +2,7 @@ import pandas as pd
 import os
 import sys
 
+
 # Archivo usado para los diccionarios constantes
 
 
@@ -24,5 +25,4 @@ idiomas = cargar_dict(cwd + 'idiomas')
 idiomas_nivel = cargar_dict(cwd + 'idiomas_nivel')
 palabras_claves = cargar_dict(cwd + 'palabras_claves')
 licencias = cargar_dict(cwd + 'licencias_certificaciones')
-
 

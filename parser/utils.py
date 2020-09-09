@@ -121,7 +121,6 @@ def retrieve_skills(nlp_text):
     Funcion que busca los skill declarados del postulante
     Se buscan tanto skill de 1 token como de varios.
     Hace uso del diccionario skills.txt.
-
     '''
     # eliminar stopwords
     tokens = [token.text for token in nlp_text if not token.is_stop]
@@ -383,7 +382,6 @@ def summarize_cv(text, nlp_text): # No usada
     Funcion que que rankea frases a partir de frecuencia
     de palabras, es un intento simple/ no muy efectivo de resumir.
     El problema de los cv es que el texto es reducido, no hablamos de un libro.
-
     Input: texto plano
     Output: texto plano
     '''
@@ -442,7 +440,6 @@ def busqueda_palabras_claves(text):
     a que el candidato puede redactar sus cualidades. El
     texto se le aplica un stemmer. De forma de capturar variaciones
     de las palabras, en el contexto de redaccion.
-
     Ejemplo:
     proactividad --> proactiv
     proactivo --> proactiv
@@ -492,7 +489,6 @@ def pre_process(corpus, stopWords , enminiscula= True):
     además se eliminan stop words especificas tales como: Pontificia, Universidad, Vitae, VITAE
     Notar que stop_words.txt tiene stopwords en minisculas y capitalizada.
     Esta propiedad de mantener la capitalización es útil en la detección de nombres.
-
     '''
     if enminiscula:
         corpus = corpus.lower()
@@ -580,10 +576,3 @@ def calculo_similitud(word1, array_palabras, model, threshold = 0.5):
             pass
         
     return n_veces
-
-
-
-
-
-
-
