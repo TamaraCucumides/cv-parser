@@ -39,11 +39,14 @@ La carpeta `/Desarrollo` tiene jupyter notebook que uso para ir probando ideas d
 
 ### Dependencias
 Para crear un ambiente llamado cv_parser en conda con todo lo necesario.
-`conda env create --name cv_parser -f cv_parser_export.yml`
+* `conda env create --name cv_parser -f cv_parser_export.yml`
+
+
+
 Probablemente tambien pida esto la primera vez: 
-`conda activate cv_parser`
-`python -m spacy download es_core_news_sm`
-`python -m spacy download es_core_news_md`
+- `conda activate cv_parser`
+- `python -m spacy download es_core_news_sm`
+- `python -m spacy download es_core_news_md`
 
 ### FastText embeddings from SBWC
 El archivo `fasttext-sbwc.3.6.e20.vec` se encuentra en el siguiente link (descomprimir):
