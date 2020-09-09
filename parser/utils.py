@@ -356,11 +356,11 @@ def retrieve_name(text, nlp_text):
     '''
     text = text[0:math.floor(len(text)/16)]
     nlp = es_core_news_sm.load()
-    nlp_text = nlp(pre_process(text[0:math.floor(len(text)/4)], False, True))
-    #text = pre_process(text,  False)
-    #print(nlp_text[0:math.floor(len(text)/4)])
+    # Se procesa el 25% superior del texto. Se asume que el nombre deberia estar arriba
+    # De forma empirirca, con mayusculas y con puntuación funciona mejor
+    nlp_text = nlp(pre_process(text[0:math.floor(len(text)/4)], enminiscula= False,  puntuacion= True))
     NAME_PATTERN      = [{'POS': 'PROPN'}, {'POS': 'PROPN'},{'POS': 'PROPN'}]
-    nlp = es_core_news_sm.load()
+    
     matcher = Matcher(nlp.vocab)
     pattern = [NAME_PATTERN]
     matcher.add('NAME', None, *pattern)
@@ -370,7 +370,6 @@ def retrieve_name(text, nlp_text):
     nombre = ''
     for _, start, end in matches:
         span = nlp_text[start:end]
-        print(span.text)
         # Capitalizar cada uno de los nombre, solo por comodidad al guardar, juan perez ----> Juan Perez
         for pronon in span.text.split():
             nombre += pronon.capitalize() + ' '
