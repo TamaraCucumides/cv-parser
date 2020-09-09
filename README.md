@@ -33,6 +33,7 @@ CV parser
 |       └── ranking.py
 |       └── seccioanr.py
 |       └── utils.py
+
 ```
 
 La carpeta `/Desarrollo` tiene jupyter notebook que uso para ir probando ideas de forma rápida.
