@@ -25,9 +25,9 @@ import numpy as np
 import string
 
 # Se agregan STOP_WORDS desde el diccionario stop_words.txt
-newStopWords = cargar_dict(os.getcwd() + '/parser/diccionarios/stop_words')
-stopwords = nltk.corpus.stopwords.words('spanish')
-stopwords.extend(newStopWords)
+#newStopWords = cargar_dict(os.getcwd() + '/parser/diccionarios/stop_words')
+#stopwords = nltk.corpus.stopwords.words('spanish')
+#stopwords.extend(newStopWords)
 
 
 #####################################################
@@ -355,7 +355,10 @@ def retrieve_name(text, nlp_text):
     Output: texto plano
     '''
     text = text[0:math.floor(len(text)/16)]
-    text = pre_process(text, stopwords, False)
+    nlp = es_core_news_sm.load()
+    nlp_text = nlp(pre_process(text[0:math.floor(len(text)/4)], False, True))
+    #text = pre_process(text,  False)
+    #print(nlp_text[0:math.floor(len(text)/4)])
     NAME_PATTERN      = [{'POS': 'PROPN'}, {'POS': 'PROPN'},{'POS': 'PROPN'}]
     nlp = es_core_news_sm.load()
     matcher = Matcher(nlp.vocab)
@@ -367,6 +370,7 @@ def retrieve_name(text, nlp_text):
     nombre = ''
     for _, start, end in matches:
         span = nlp_text[start:end]
+        print(span.text)
         # Capitalizar cada uno de los nombre, solo por comodidad al guardar, juan perez ----> Juan Perez
         for pronon in span.text.split():
             nombre += pronon.capitalize() + ' '
@@ -452,9 +456,12 @@ def busqueda_palabras_claves(text):
     paciencia --> pacienci
     '''
     stemmer = SnowballStemmer('spanish')
-    stop_words = stopwords
+
     word_tokens = word_tokenize(text) 
-    
+    newStopWords = cargar_dict(os.getcwd() + '/parser/diccionarios/stop_words')
+    stopwords = nltk.corpus.stopwords.words('spanish')
+    stopwords.extend(newStopWords)
+    stop_words = stopwords
     filtered_text = [w for w in word_tokens if not w in stop_words] 
 
     encontradas = []
@@ -478,7 +485,7 @@ def busqueda_palabras_claves(text):
 
 
 
-def pre_process(corpus, stopWords , enminiscula= True):
+def pre_process(corpus,  enminiscula= True, puntuacion = False):
     '''
     Entrada: texto, stopwords, enminiscula (opcional)
     Salida:  texto
@@ -490,13 +497,21 @@ def pre_process(corpus, stopWords , enminiscula= True):
     Notar que stop_words.txt tiene stopwords en minisculas y capitalizada.
     Esta propiedad de mantener la capitalización es útil en la detección de nombres.
     '''
+    newStopWords = cargar_dict(os.getcwd() + '/parser/diccionarios/stop_words')
+    stop = nltk.corpus.stopwords.words('spanish')
+    stop.extend(newStopWords)
+
     if enminiscula:
         corpus = corpus.lower()
-    stopset = stopwords+ list(string.punctuation)
+    if not puntuacion:
+        stopset = stop+ list(string.punctuation)
+    else:
+        stopset = stop
 
     corpus = " ".join([i for i in word_tokenize(corpus) if i not in stopset])
     # remove non-ascii characters
     #corpus = unidecode.unidecode(corpus)
+
     return corpus
 
 def lematizar(frase):

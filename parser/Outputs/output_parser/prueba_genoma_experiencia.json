@@ -1,0 +1,34 @@
+{
+    "Nombre": null,
+    "Correo": [
+        "erwinpaillacan@gmail.com"
+    ],
+    "Linkedin": "https://www.linkedin.com/in/erwinpaillacan",
+    "Celular": "56986634232",
+    "Skills": [
+        "Java",
+        "Docker",
+        "Sql",
+        "Verilog",
+        "Pytorch",
+        "Python",
+        "Excel",
+        "Octave",
+        "Aws",
+        "Latex",
+        "Deep learning"
+    ],
+    "Grado": [
+        "Ingeniería"
+    ],
+    "Palabras Claves": [
+        "Apasionado",
+        "Aprender"
+    ],
+    "Educacion": [],
+    "Lenguajes": [
+        "Español",
+        "Inglés"
+    ],
+    "Nombre archivo": "prueba_genoma_experiencia"
+}

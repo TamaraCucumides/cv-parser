@@ -1,15 +1,15 @@
 {
-    "Nombre": "Paula Alejandra Fetis ",
+    "Nombre": "Alejandra Fetis Carrasco ",
     "Correo": [
         "p.fetis@gmail.com"
     ],
     "Linkedin": null,
     "Celular": "56998165994",
     "Skills": [
-        "Ventas",
-        "Office",
         "Word",
+        "Office",
         "Power point",
+        "Ventas",
         "Marketing",
         "Excel"
     ],
@@ -17,10 +17,10 @@
         "Ingeniería"
     ],
     "Palabras Claves": [
-        "Liderazgo",
         "Motivación",
-        "Gestión",
-        "Analizar"
+        "Analizar",
+        "Liderazgo",
+        "Gestión"
     ],
     "Educacion": [
         "Universidad del Desarrollo"
