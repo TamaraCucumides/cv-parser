@@ -1,46 +1,7 @@
-import re
-import fitz
 import os
-import spacy
-import regex
-import unidecode
+from utils import extract_text
 
-def extract_text(path):
-    '''
-    Input: ruta hacia los archivos
-    Salida: Texto plano como string
-    '''
-    with fitz.open(path) as doc:
-        text = ""
-        for page in doc:
-            text += page.getText()
-        # eliminar estos simbolos
-        
-        text_clean = text
-        text_2 = ''
-        for line in text_clean.splitlines():
-            if not line.strip(): #si la linea esta vacia, saltar
-                continue
-            line_2=''
-            for word in line.split():
-                if word.isupper():
-                    line_2 += word.capitalize()+' '
 
-                else:
-                    line_2 += word+ ' '
-            text_2 += line_2 +'\n'
-        
-        simbolos = ' ,\n./:@'
-        text_clean = ''
-        for char in text_2:
-            if (char.isalnum())| (char in simbolos):
-                text_clean += char
-        #print(text_clean)
-        # Limpiar palabras completamente en mayusculas, es importante
-        # para reconocer los nombres
-        
-        text = text_clean
-    return text
 
 if __name__ == '__main__':
     resumes = []
@@ -48,10 +9,14 @@ if __name__ == '__main__':
     dir_pdfs = '/parser/resumes_pdf/'
     dir_output = '/parser/Outputs/output_text/'
     
+
+    # Se guardan en una lista los path a los cv en pdf que se ubican en dir_pdfs
     for root, _, filenames in os.walk(direc + dir_pdfs):
         for filename in filenames:
             file = os.path.join(root, filename)
             resumes.append(file)
+
+    # Cada pdf se transforma a .txt y se guarda en dir_outputs        
     for resume in resumes:
         name = resume.replace(direc+dir_pdfs, '').replace('.pdf', '')
         text = extract_text(resume)

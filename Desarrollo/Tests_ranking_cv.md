@@ -43,7 +43,7 @@ wordvectors_file_vec ='/home/erwin/Genoma/cv-parser/parser/embeddings/fasttext-s
 ```
 
 ```python
-cantidad = 700000
+cantidad = 300000
 
 model = KeyedVectors.load_word2vec_format(wordvectors_file_vec, limit=cantidad)
 ```
@@ -345,68 +345,93 @@ def lematizar(frase):
 
 ```python
 
-
-
-
-```
-
-```python
-sent = pre_process(prc_description)
-sent_lem = lematizar(sent)
-```
-
-```python
-sent
-```
-
-```python
-sent_lem
-```
-
-```python
-sent_2 = pre_process('un ingeniero puntual proactivo con experiencia de manejo de equipos, especialista en redes')
-sent_lem_2 = lematizar(sent_2)
-sent_2
-```
-
-```python
-sent_lem_2
-```
-
-```python
+test = pre_process('educación básica')
+test
 
 ```
 
 ```python
-model.similarity('especialista', 'experto')
+test = lematizar('ingeniero')
+test
 ```
 
 ```python
-file = '/home/erwin/Genoma/cv-parser/parser/diccionarios/test'
-cv_txt = open(file, "r")
-print(cv_txt.read())
+lematizar('ingeniero') in lematizar('ingenieria')
 ```
 
 ```python
-d = cv_txt.read()
+model.similarity('ingeniero', 'ingenieria')
 ```
 
 ```python
-f
+from nltk.stem import SnowballStemmer
+
+stemmer = SnowballStemmer('spanish')
+   # stemmed_claves = [stemmer.stem(token) for token in palabras_claves]
+#stop_words = set(stopwords.words('spanish')) 
+
+[stemmer.stem(x) for x in test] 
+#stemmed_clave
 ```
 
 ```python
-with open(file) as f:
-    c = [x.strip() for x in f]
-    descripcion = [x for x in c if x != '']
+stemmer.stem('ingeniería') in stemmer.stem('ingeniería')
 ```
 
 ```python
-descripcion
+import os
+import nltk
+import string
+from nltk.tokenize import sent_tokenize, word_tokenize
+
+def cargar_dict(path):
+    with open(path) as f:  
+        array = [x.strip() for x in f]
+        c = [x for x in array if x != ''] # '' aparece cuando hay lines vacias
+    return c
 ```
 
 ```python
-cv_txt
+newStopWords = cargar_dict('/home/erwin/Genoma/cv-parser/parser/diccionarios/stop_words')
+stopwords = nltk.corpus.stopwords.words('spanish')
+stopwords.extend(newStopWords)
+```
+
+```python
+
+
+
+def pre_process(corpus, stopWords, enminiscula = True):
+    if enminiscula:
+        corpus = corpus.lower()
+    stopset = stopwords+ list(string.punctuation)
+
+    corpus = " ".join([i for i in word_tokenize(corpus) if i not in stopset])
+    # remove non-ascii characters
+    #corpus = unidecode.unidecode(corpus)
+    return corpus
+```
+
+```python
+pre_process('UNIVERSIDAD Universidad universidad', stopwords, False)
+```
+
+```python
+import es_core_news_sm
+def lematizar(frase):
+    '''
+    Esta función recibe un string y le aplica lematización:
+    ingeniero ---> ingenier
+    ingeniera ----> ingenier
+    '''
+    nlp = es_core_news_sm.load()
+    doc = nlp(frase)
+    lemmas = [tok.lemma_.lower() for tok in doc]
+    return lemmas
+```
+
+```python
+lematizar('correr corrido correrá')
 ```
 
 ```python

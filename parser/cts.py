@@ -2,17 +2,19 @@ import pandas as pd
 import os
 import sys
 
+# Archivo usado para los diccionarios constantes
 
-cwd = os.getcwd() +'/parser/diccionarios/'
 
 def cargar_dict(path):
+    '''
+    Utilidad para cargar los diccionarios
+    '''
     with open(path) as f:  
         array = [x.strip() for x in f]
         c = [x for x in array if x != ''] # '' aparece cuando hay lines vacias
     return c
 
-
-
+cwd = os.getcwd() +'/parser/diccionarios/'
 
 
 grados_educativos_orden = cargar_dict(cwd + 'grados_educativos_orden')

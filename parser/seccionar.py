@@ -1,49 +1,34 @@
 import re
-import math
-import fitz
 import nltk
-from nltk.tokenize import sent_tokenize, word_tokenize
-from spacy.matcher import Matcher
 import pandas as pd
-from nltk.stem import WordNetLemmatizer
-from nltk.corpus import stopwords 
-import es_core_news_sm
-from nltk.tokenize import sent_tokenize
 import os
-import spacy
-from sklearn.feature_extraction.text import CountVectorizer
 import es_core_news_md
 import itertools
-from nltk.stem import SnowballStemmer
-import textacy
-import regex
-import unidecode
-import numpy as np
 from gensim.models.keyedvectors import KeyedVectors
 import re
 import json
 import pprint
 pp = pprint.PrettyPrinter(indent=4)
 
-re_c = re.compile(r'\w+')
-wordvectors_file_vec = os.getcwd() + '/parser/embeddings/fasttext-sbwc.3.6.e20.vec'
-nlp = es_core_news_md.load()
-cantidad = 100000
 
+# Utilidad para borrar simbolos
+re_c = re.compile(r'\w+')
+
+# Se carga el modelo español de spacy
+nlp = es_core_news_md.load()
+
+# Se carga el modelo de embeddings en español
+wordvectors_file_vec = os.getcwd() + '/parser/embeddings/fasttext-sbwc.3.6.e20.vec'
+cantidad = 100000
 model = KeyedVectors.load_word2vec_format(wordvectors_file_vec, limit=cantidad)
 
 
-
-
-
-
+#Se carga la tabla de secciones.
 seccion_csv = os.getcwd() +'/parser/CSVs/seccionesCV.csv'
-#print(seccion_csv)
 secciones = pd.read_csv(seccion_csv, header = 0)
-#secciones.columns = secciones.loc[0] 
-#secciones.columns
 
 
+# Se carga el dccionario de secciones, se considera todas las celdas de seccion_csv que no sean nan.
 secciones_dict = {
     'extras' : [str(x.lower()) for x in secciones.Perfil.values if str(x)!= 'nan'],
     'experiencia' : [str(x.lower()) for x in secciones['Experiencia '].values if str(x)!= 'nan'],
@@ -54,38 +39,38 @@ secciones_dict = {
 
 
 
-# switch for debug
-flag_print = False
-
-# switch to clear existing data
-flag_clear = True
-
-#threshold value for determining section
+#umbral para similitud de secciones.
 threshold = 0.45
+
 
 similar_to = secciones_dict
 
 
-list_of_sections = similar_to.keys()
+
+
+
+lista_secciones = secciones_dict.keys()
 
 # Usando secciones_dict que tiene las secciones a buscar y palabras que describen esas secciones
 # se llevan aquellas palabras a su lema
-for section in list_of_sections:
-    new_list = []
-    
+for section in lista_secciones:
+    new_list = []    
     for word in similar_to[section]:
         docx = nlp(word)
         new_list.append(docx[0].lemma_)
     
         
     similar_to[section] = list(set(new_list)) # se retorna lista de elementos unicos
-#pp.pprint(similar_to)
 
 
-# function to remove unnecessary symbols and stopwords 
-def modify(word):
+
+def modificar(word):
+    '''
+     Retornar el lema de la palabra. 
+   Fijandose que no sean un simbolo raro ni una stopword.
+    '''
     try:
-        symbols = '''~'`!@#$%^&*)(_+-=}{][|\:;",./<>?'''
+        symbols = '''~`!@#$%^&*)(_+-=}{][|\:;",./<>?'''
         mod_word = ''
         
         for char in word:
@@ -104,7 +89,7 @@ def modify(word):
 
     
 
-def is_empty(line):
+def esta_vacia(line):
     '''
     Retorna un booleano correspondiendo a 
     si una linea esta vacia en términos de letras-números
@@ -130,66 +115,64 @@ def seccionar_cv(path):
 
     file = path
     cv_txt = open(file, "r")
-    previous_section  = 'extras'
+    seccion_previa  = 'extras'
 
     for line in cv_txt:
         # si la linea esta vacia, entonces saltar
-        if (len(line.strip()) == 0 or is_empty(line)):
+        if (len(line.strip()) == 0 or esta_vacia(line)):
             continue
 
-        # procesar la siguiente linea
-        list_of_words_in_line = re_c.findall(line)
-        list_of_imp_words_in_line  = []
+        # procesar la linea
+        palabras_en_linea = re_c.findall(line)
+        lista_palabras_utiles  = []
         
         # recorrer todas las palabras de linea actual
-        for i in range(len(list_of_words_in_line)):
-            modified_word = modify(list_of_words_in_line[i])
+        for i in range(len(palabras_en_linea)):
+            palabra_limpia = modificar(palabras_en_linea[i])
 
-            if (modified_word): 
-                list_of_imp_words_in_line.append(modified_word)
+            if (palabra_limpia): 
+                lista_palabras_utiles.append(palabra_limpia)
 
-        curr_line = ' '.join(list_of_imp_words_in_line)
-        doc = nlp(curr_line)
-        #print(doc)
-        section_value = {}
+        linea_actual = ' '.join(lista_palabras_utiles) # crear un string a partir de una lista
+        doc = nlp(linea_actual)
+        valor_seccion = {}
 
-        # initializing section values to zero
-        for section in list_of_sections:
-            section_value[section] = 0.0
-        section_value[None] = 0.0
+        # Inicializar el valor de la seccion a 0
+        for section in lista_secciones:
+            valor_seccion[section] = 0.0
+        valor_seccion[None] = 0.0
 
-        # updating section values    
+        # Actualizar los valores de las secciones   
         for token in doc:
-            for section in list_of_sections:
+            for section in lista_secciones:
                 for word in similar_to[section]:
-                    #word_token = doc.vocab[word]
                     try:
-                        section_value[section] = max(section_value[section], float(model.similarity(token.text, word)))
+                        valor_seccion[section] = max(valor_seccion[section], float(model.similarity(token.text, word)))
                     except: 
                         pass # si es que token.text no esta en el vocabulario
                     
-        # ver la siguiente sección de acuerdo al umbral establecido
-        most_likely_section = None
-        for section in list_of_sections:
-            if (section_value[most_likely_section] < section_value[section] and section_value[section] > threshold):
-                most_likely_section = section
+        # ver la siguiente sección probable de acuerdo al umbral establecido
+        siguiente_seccion_prob = None
+        for section in lista_secciones:
+            if (valor_seccion[siguiente_seccion_prob] < valor_seccion[section] and valor_seccion[section] > threshold):
+                siguiente_seccion_prob = section
 
-        # updating the section
-        if (previous_section != most_likely_section and most_likely_section is not None):
-            previous_section = most_likely_section
+        # Actualizar la seccion previa
+        if (seccion_previa != siguiente_seccion_prob and siguiente_seccion_prob is not None):
+            seccion_previa = siguiente_seccion_prob
 
 
-        # writing data to the pandas series
+        # Concatenar las palabras para formar un linea, las palabras se usan en su lema
         try:
             docx = nlp(line)
         except:
             continue  # si que hay simbolos raros
-        mod_line = ''
+        linea_lematizada = ''
         for token in docx:
             if (not token.is_stop):
-                mod_line += token.lemma_ + ' '
+                linea_lematizada += token.lemma_ + ' '
 
-        secciones_data[previous_section] += mod_line.lower()
+        secciones_data[seccion_previa] += linea_lematizada.lower().replace('\n', '') # se eliman los saltos de linea.
 
 
     cv_txt.close()
@@ -204,7 +187,7 @@ if __name__ == '__main__':
     dir_output = '/parser/Outputs/output_seccionado/'
 
 
-
+    # Se cargan todos los paths a los cv en formato .txt 
     resumes_seccionado = []
     for root, _, filenames in os.walk(direc + dir_txt):
         for filename in filenames:
@@ -212,13 +195,16 @@ if __name__ == '__main__':
             resumes_seccionado.append(file)
 
     print("Seccionando CVs: "+str(len(resumes_seccionado)))
+
+    # Se secciona cada CV
     for cv in resumes_seccionado:
-        name = cv.replace(direc + dir_txt, '')
-        
+        name = cv.replace(direc + dir_txt, '')        
         secciones_data = seccionar_cv(cv)
         secciones_data['nombre archivo'] = name
+
         with open(direc + dir_output + name+'.json', 'w',encoding='utf-8') as json_file:
             json.dump(secciones_data, json_file,ensure_ascii=False, indent=4)  
+
     print('Finalizado')
 
 
