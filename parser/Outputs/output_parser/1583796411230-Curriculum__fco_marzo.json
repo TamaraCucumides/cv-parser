@@ -6,11 +6,12 @@
     "Linkedin": null,
     "Celular": "+56994624515",
     "Skills": [
-        "Ventas",
         "Sql",
-        "Sap",
+        "Ventas",
+        "Qlikview",
         "Office",
-        "Excel"
+        "Excel",
+        "Sap"
     ],
     "Grado": [
         "Ingeniería"
@@ -18,10 +19,10 @@
     "Palabras Claves": [
         "Gestión",
         "Responsabilidad",
-        "Liderazgo",
-        "Negociación",
+        "Voluntariado",
         "Motivación",
-        "Voluntariado"
+        "Negociación",
+        "Liderazgo"
     ],
     "Educacion": [
         "Universidad de Las Américas"

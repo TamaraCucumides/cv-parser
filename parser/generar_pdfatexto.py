@@ -15,7 +15,7 @@ if __name__ == '__main__':
         for filename in filenames:
             file = os.path.join(root, filename)
             resumes.append(file)
-
+    #resumes = [file for file in resumes if file.endswith('.pdf')]
     # Cada pdf se transforma a .txt y se guarda en dir_outputs        
     for resume in resumes:
         name = resume.replace(direc+dir_pdfs, '').replace('.pdf', '')

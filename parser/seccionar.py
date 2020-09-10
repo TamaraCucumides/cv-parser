@@ -174,7 +174,7 @@ def seccionar_cv(path):
             if (not token.is_stop):
                 linea_lematizada += token.lemma_ + ' '
 
-        secciones_data[seccion_previa] += preprocesar_texto(linea_lematizada)+ ' ' # 
+        secciones_data[seccion_previa] += preprocesar_texto(linea_lematizada, stopwords)+ ' ' # 
 
 
     cv_txt.close()
@@ -200,7 +200,9 @@ if __name__ == '__main__':
     direc = os.getcwd()
     dir_txt = '/parser/Outputs/output_text/'
     dir_output = '/parser/Outputs/output_seccionado/'
-
+    #newStopWords = cargar_dict(os.getcwd() + '/parser/diccionarios/stop_words_descripcion_cargo')
+    stopwords = nltk.corpus.stopwords.words('spanish')
+    #stopwords.extend(newStopWords)
 
     # Se cargan todos los paths a los cv en formato .txt 
     resumes_seccionado = []

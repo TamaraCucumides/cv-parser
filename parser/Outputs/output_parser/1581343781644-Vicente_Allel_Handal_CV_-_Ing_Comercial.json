@@ -6,25 +6,26 @@
     "Linkedin": "https://www.linkedin.com/in/vicente-allel-handal-810907125",
     "Celular": "+56991896273",
     "Skills": [
-        "Erp",
         "Access",
-        "Word",
+        "Excel",
         "Powerpoint",
-        "Excel"
+        "Word"
     ],
     "Grado": [
         "Ingeniería"
     ],
     "Palabras Claves": [
-        "Gestión",
-        "Proactividad",
+        "Liderazgo",
         "Responsabilidad",
-        "Liderazgo"
+        "Gestión",
+        "Proactividad"
     ],
-    "Educacion": [],
+    "Educacion": [
+        "Universidad Andrés Bello"
+    ],
     "Lenguajes": [
-        "Inglés",
-        "Español"
+        "Español",
+        "Inglés"
     ],
     "Nombre archivo": "1581343781644-Vicente_Allel_Handal_CV_-_Ing_Comercial"
 }

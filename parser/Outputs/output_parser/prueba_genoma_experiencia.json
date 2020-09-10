@@ -6,29 +6,30 @@
     "Linkedin": "https://www.linkedin.com/in/erwinpaillacan",
     "Celular": "+56986634232",
     "Skills": [
-        "Aws",
-        "Octave",
-        "Latex",
-        "Verilog",
-        "Java",
         "Sql",
-        "Deep learning",
+        "Octave",
+        "Aws",
         "Python",
+        "Java",
+        "Docker",
+        "Latex",
         "Excel",
-        "Pytorch",
-        "Docker"
+        "Git",
+        "Deep learning",
+        "Verilog",
+        "Pytorch"
     ],
     "Grado": [
         "Ingeniería"
     ],
     "Palabras Claves": [
-        "Apasionado",
-        "Aprender"
+        "Aprender",
+        "Apasionado"
     ],
     "Educacion": [],
     "Lenguajes": [
-        "Inglés",
-        "Español"
+        "Español",
+        "Inglés"
     ],
     "Nombre archivo": "prueba_genoma_experiencia"
 }
