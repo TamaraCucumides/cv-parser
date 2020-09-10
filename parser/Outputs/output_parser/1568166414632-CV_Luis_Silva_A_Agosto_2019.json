@@ -4,31 +4,33 @@
     "Linkedin": null,
     "Celular": "+56999184441",
     "Skills": [
-        "Sql",
-        "Microsoft project",
-        "Microsoft sql server",
-        "Visual basic",
-        "Python",
-        "Excel",
-        "Macros",
-        "Mysql",
         "Power point",
+        "Mysql",
+        "Sql",
         "Sharepoint",
         "Vba",
+        "Visual basic",
+        "Microsoft sql server",
         "Sap",
-        "Word"
+        "Excel",
+        "Microsoft project",
+        "Macros",
+        "Word",
+        "Python",
+        "C"
     ],
+    "Licencias-Certificaciones": [],
     "Grado": [
         "Ingeniería"
     ],
     "Palabras Claves": [
-        "Adaptable",
-        "Gestión",
-        "Responsabilidad",
         "Análisis",
-        "Autodidacta",
+        "Responsabilidad",
+        "Adaptable",
+        "Modelamiento",
         "Negociación",
-        "Modelamiento"
+        "Gestión",
+        "Autodidacta"
     ],
     "Educacion": [
         "Universidad Técnica Federico Santa María"

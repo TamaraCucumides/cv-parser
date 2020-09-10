@@ -6,27 +6,28 @@
     "Linkedin": null,
     "Celular": "+56930923361",
     "Skills": [
-        "Office",
         "Excel",
+        "Office",
         "Autocad"
     ],
+    "Licencias-Certificaciones": [],
     "Grado": [
         "Ingeniería"
     ],
     "Palabras Claves": [
-        "Adaptable",
-        "Gestión",
-        "Responsabilidad",
         "Análisis",
+        "Responsabilidad",
+        "Adaptable",
+        "Liderazgo",
         "Motivación",
-        "Liderazgo"
+        "Gestión"
     ],
     "Educacion": [
-        "Universidad Andrés Bello",
-        "Pontificia Universidad Catolica de Chile",
         "Universidad Católica de Chile",
+        "Universidad de Chile",
         "Universidad de Santiago de Chile",
-        "Universidad de Chile"
+        "Pontificia Universidad Catolica de Chile",
+        "Universidad Andrés Bello"
     ],
     "Lenguajes": [
         "Inglés"

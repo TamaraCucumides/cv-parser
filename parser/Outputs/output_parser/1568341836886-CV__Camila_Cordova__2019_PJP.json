@@ -6,28 +6,29 @@
     "Linkedin": null,
     "Celular": "+56952519971",
     "Skills": [
-        "Visual basic",
-        "Licencia de conducir",
-        "Office",
-        "Excel",
-        "Autocad",
-        "Macros",
-        "Matlab",
         "Power point",
-        "Word"
+        "Licencia de conducir",
+        "Excel",
+        "Office",
+        "Macros",
+        "Word",
+        "Visual basic",
+        "Matlab",
+        "Autocad"
     ],
+    "Licencias-Certificaciones": [],
     "Grado": [
         "Ingeniería"
     ],
     "Palabras Claves": [
-        "Voluntariado",
-        "Modelamiento"
+        "Modelamiento",
+        "Voluntariado"
     ],
     "Educacion": [
-        "Universidad Católica del norte",
-        "Universidad Católica del Norte",
         "Universidad de Concepción",
-        "Universidad de Antofagasta"
+        "Universidad de Antofagasta",
+        "Universidad Católica del Norte",
+        "Universidad Católica del norte"
     ],
     "Lenguajes": [],
     "Nombre archivo": "1568341836886-CV__Camila_Cordova__2019_PJP"

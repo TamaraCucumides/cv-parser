@@ -6,34 +6,35 @@
     "Linkedin": null,
     "Celular": "+56945418524",
     "Skills": [
-        "Softland",
-        "Ventas",
-        "Erp",
-        "Defontana",
-        "Visio",
-        "Siebel",
-        "Office",
-        "Excel",
-        "Oracle",
         "Flexline",
         "Power point",
-        "Crm",
+        "Defontana",
+        "Ventas",
+        "Siebel",
+        "Softland",
         "Sap",
-        "Word"
+        "Visio",
+        "Excel",
+        "Crm",
+        "Office",
+        "Word",
+        "Oracle",
+        "Erp"
     ],
+    "Licencias-Certificaciones": [],
     "Grado": [
         "Ingeniería"
     ],
     "Palabras Claves": [
-        "Modelamiento",
-        "Analizar",
-        "Gestión",
-        "Responsabilidad",
-        "Voluntariado",
         "Análisis",
-        "Negociación",
+        "Responsabilidad",
+        "Analizar",
+        "Modelamiento",
         "Liderar",
-        "Proactividad"
+        "Proactividad",
+        "Negociación",
+        "Voluntariado",
+        "Gestión"
     ],
     "Educacion": [
         "Universidad Nacional Andrés Bello",
@@ -41,8 +42,8 @@
         "Universidad Católica de Chile"
     ],
     "Lenguajes": [
-        "Español",
-        "Inglés"
+        "Inglés",
+        "Español"
     ],
     "Nombre archivo": "1569428597717-CV_-_Christian_Droguett_1"
 }

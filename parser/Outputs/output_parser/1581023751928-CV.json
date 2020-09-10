@@ -6,33 +6,36 @@
     "Linkedin": null,
     "Celular": "+56971920517",
     "Skills": [
-        "Crm",
-        "Ventas",
-        "Trello",
-        "Scrum",
         "Marketing",
+        "Ventas",
+        "Mysql",
+        "Metodologías ágiles",
         "Java",
         "Metodologias agiles",
+        "Scrum",
+        "Crm",
         "Office",
-        "Mysql",
-        "Javascript"
+        "Trello",
+        "Javascript",
+        "C"
     ],
+    "Licencias-Certificaciones": [],
     "Grado": [
         "Ingeniería"
     ],
     "Palabras Claves": [
-        "Analizar",
-        "Gestión",
-        "Adaptable",
-        "Estrategia",
         "Análisis",
-        "Motivación",
         "Confianza",
-        "Negociación",
-        "Disposición",
-        "Liderazgo",
+        "Estrategia",
+        "Adaptable",
+        "Analizar",
+        "Modelamiento",
         "Liderar",
-        "Modelamiento"
+        "Liderazgo",
+        "Negociación",
+        "Motivación",
+        "Gestión",
+        "Disposición"
     ],
     "Educacion": [
         "Universidad de Chile"

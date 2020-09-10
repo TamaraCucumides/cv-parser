@@ -6,19 +6,20 @@
     "Linkedin": null,
     "Celular": "+20152018200",
     "Skills": [
-        "Arduino",
         "Márketing",
         "Excel",
-        "Git",
         "Microsoft project",
+        "Git",
+        "Arduino",
         "Word"
     ],
+    "Licencias-Certificaciones": [],
     "Grado": [
         "Ingeniería"
     ],
     "Palabras Claves": [
-        "Gestión",
-        "Análisis"
+        "Análisis",
+        "Gestión"
     ],
     "Educacion": [],
     "Lenguajes": [

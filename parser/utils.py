@@ -114,6 +114,7 @@ def extraer_fono(text):
 
 
 def extraer_skills(nlp_text):
+    
     '''
     Funcion que busca los skill declarados del postulante
     Se buscan tanto skill de 1 token como de varios.
@@ -146,6 +147,43 @@ def extraer_skills(nlp_text):
                 if skill_un in chunk_un: # si el skill se encuentra dentro de la frase
                     skillset.append(skill.capitalize())
     return [i.capitalize() for i in set([i.lower() for i in skillset])]
+
+
+def extraer_licencias(nlp_text):
+    '''
+    Funcion que busca los skill declarados del postulante
+    Se buscan tanto skill de 1 token como de varios.
+    Hace uso del diccionario skills.txt.
+    '''
+    # eliminar stopwords
+    tokens = [token.text for token in nlp_text if not token.is_stop]
+ 
+    licencias = cargar_dict(os.getcwd() +'/parser/diccionarios/licencias_certificaciones')
+
+    licencias_set = []
+    # lista de frases
+    noun_chunks = list(nlp_text.noun_chunks)
+
+
+    # revisar para palabras
+    for token in tokens:
+        token_un = unidecode.unidecode(token) # eliminar tildes
+        if token_un.lower() in licencias:
+            licencias_set.append(token)
+    
+    # revisar frases
+    for chunk in noun_chunks:
+        st = chunk.text
+        chunk_lower = st.lower()  
+        licencias = [licencia for licencia in licencias if len(licencia.split())> 1] # solo las licencias de más de una palabra
+        for licencia in licencias:
+                licencia_un = unidecode.unidecode(licencia)
+                chunk_un = unidecode.unidecode(chunk_lower)
+                if licencia_un in chunk_un: # si el skill se encuentra dentro de la frase
+                    licencias_set.append(licencia.capitalize())
+     
+    return [i.upper() for i in set([i.lower() for i in licencias_set])]
+
 
 
 def extraer_educacion(text, nlp_text):

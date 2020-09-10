@@ -4,28 +4,30 @@
     "Linkedin": null,
     "Celular": "+56989542441",
     "Skills": [
-        "Toeic",
-        "Office",
-        "Excel",
-        "Autocad",
-        "Matlab",
         "Power point",
-        "Word"
+        "Toeic",
+        "Excel",
+        "Office",
+        "Word",
+        "Matlab",
+        "C",
+        "Autocad"
     ],
+    "Licencias-Certificaciones": [],
     "Grado": [
         "Ingeniería"
     ],
     "Palabras Claves": [
-        "Gestión",
         "Análisis",
+        "Modelamiento",
+        "Proactividad",
         "Motivación",
         "Colaboración",
-        "Proactividad",
-        "Modelamiento"
+        "Gestión"
     ],
     "Educacion": [
-        "Universidad Católica de Chile",
-        "Pontificia Universidad Catolica de Chile"
+        "Pontificia Universidad Catolica de Chile",
+        "Universidad Católica de Chile"
     ],
     "Lenguajes": [
         "Inglés intermedio",
