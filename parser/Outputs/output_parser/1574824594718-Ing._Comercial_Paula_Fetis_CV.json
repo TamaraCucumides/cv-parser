@@ -4,14 +4,14 @@
         "p.fetis@gmail.com"
     ],
     "Linkedin": null,
-    "Celular": "56998165994",
+    "Celular": "+56998165994",
     "Skills": [
-        "Word",
-        "Ventas",
-        "Power point",
-        "Office",
         "Marketing",
-        "Excel"
+        "Office",
+        "Power point",
+        "Word",
+        "Excel",
+        "Ventas"
     ],
     "Grado": [
         "Ingeniería"
@@ -19,8 +19,8 @@
     "Palabras Claves": [
         "Liderazgo",
         "Motivación",
-        "Analizar",
-        "Gestión"
+        "Gestión",
+        "Analizar"
     ],
     "Educacion": [
         "Universidad del Desarrollo"

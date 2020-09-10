@@ -4,15 +4,15 @@
         "eesotomayor@uc.cl"
     ],
     "Linkedin": null,
-    "Celular": "56989999586",
+    "Celular": "+56989999586",
     "Skills": [
+        "Marketing",
+        "Machine learning",
         "Stata",
         "Sql",
-        "Machine learning",
-        "Python",
-        "Marketing",
+        "Power bi",
         "Excel",
-        "Power bi"
+        "Python"
     ],
     "Grado": [
         "Ingeniería"
@@ -25,9 +25,9 @@
         "Modelamiento"
     ],
     "Educacion": [
+        "Universidad Católica de Chile",
         "Pontificia Universidad Catolica de Chile",
-        "Universidad Santo Tomas",
-        "Universidad Católica de Chile"
+        "Universidad Santo Tomas"
     ],
     "Lenguajes": [
         "Inglés"

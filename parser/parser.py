@@ -15,6 +15,7 @@ nltk.download('averaged_perceptron_tagger')
 nltk.download('stopwords')
 
 
+
 class CvParser:
     def __init__(self, cv):
         self.parsed = {"Nombre": None,
@@ -28,21 +29,21 @@ class CvParser:
                        "Lenguajes": None}
 
         self.cv = cv
-        self.raw_text = utils.extract_text(self.cv)
+        self.raw_text = utils.extraer_texto(self.cv)
         self._nlp = es_core_news_sm.load()
         self.nlp = self._nlp(self.raw_text)
         self.parse()
 
     def parse(self):
         nombre_archivo = self.cv.replace(direc + dir_pdfs, '').replace('.pdf', '')
-        nombre = utils.retrieve_name(self.raw_text, self.nlp)
-        correo = utils.retrieve_email(self.raw_text)
-        celular = utils.retrieve_phone_number(self.raw_text)
-        skills = utils.retrieve_skills( self.nlp)
-        educacion = utils.retrieve_education_institution(self.raw_text, self.nlp)
-        grado = utils.retrieve_higher_degree(self.raw_text)
-        Lenguajes = utils.retrieve_languages(self.raw_text, self.nlp)
-        Linkedin = utils.extract_linkedin(self.raw_text)
+        nombre = utils.extraer_nombre(self.raw_text, self.nlp)
+        correo = utils.extraer_mail(self.raw_text)
+        celular = utils.extraer_fono(self.raw_text)
+        skills = utils.extraer_skills( self.nlp)
+        educacion = utils.extraer_educacion(self.raw_text, self.nlp)
+        grado = utils.extraer_grado(self.raw_text)
+        Lenguajes = utils.extraer_idiomas(self.raw_text, self.nlp)
+        Linkedin = utils.extraer_linkedin(self.raw_text)
         palabras_claves = utils.busqueda_palabras_claves(self.raw_text)
 
 
@@ -77,9 +78,7 @@ def resume_result_wrapper(resume):
 
 if __name__ == '__main__':
     pool = mp.Pool(mp.cpu_count())
-    #print('Usando ' + str(mp.cpu_count()) + ' cores')
     resumes = []
-    data = []
     direc = os.getcwd()
     dir_pdfs = '/parser/resumes_pdf/'
     dir_output = '/parser/Outputs/output_parser/'
@@ -89,7 +88,7 @@ if __name__ == '__main__':
         for filename in filenames:
             file = os.path.join(root, filename)
             resumes.append(file)
-
+    print('Procesando '+str(len(results)) + ' CVs')
     #Crear un objeto para cada CV y rellenar sus atributos.
     #results = [resume_result_wrapper(x) for x in resumes]
     results= [pool.apply_async(resume_result_wrapper(cv), args=(cv,)) for cv in resumes]
@@ -97,4 +96,4 @@ if __name__ == '__main__':
     # Exportar toda la informacion extraida a un arhivo .json para cada cv
     
         
-    print('Finalizado. Se han procesado '+str(len(results)) + ' CVs')
+    print('Finalizado')

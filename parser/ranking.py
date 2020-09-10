@@ -5,8 +5,8 @@ import itertools
 import json
 from gensim.models.keyedvectors import KeyedVectors
 import pprint
-from cts import cargar_dict
-from utils import calculo_similitud, get_closest, cosine_sim, sent2vec, lematizar, pre_process
+from constantes import cargar_dict
+from utils import similitud, palabras_cercanas, cosine_sim, sent2vec, lematizar, preprocesar_texto
 import numpy as np
 
 
@@ -16,11 +16,11 @@ stopwords = nltk.corpus.stopwords.words('spanish')
 stopwords.extend(newStopWords)
 
 
-# Se carga el modelo de embeddings en español
+print("Cargando embeddings")
 wordvectors_file_vec = os.getcwd() + '/parser/embeddings/fasttext-sbwc.3.6.e20.vec'
 cantidad = 100000
 model = KeyedVectors.load_word2vec_format(wordvectors_file_vec, limit=cantidad)
-
+print("Embeddings cargadas")
 
 
 
@@ -40,7 +40,7 @@ with open(file) as f:
   descripcion_cargo = " ".join([x.strip() for x in f]) 
 
 # Se eliminan STOPWORDS -Puntuacion
-descripcion_cargo = pre_process(descripcion_cargo, stopwords)
+descripcion_cargo = preprocesar_texto(descripcion_cargo, stopwords)
 print(descripcion_cargo)
 
 
@@ -58,7 +58,7 @@ print(descripcion_cargo)
 word_value = {}
 num_palabras_similares = 2
 for word in descripcion_cargo.split():
-    palabras_similares, similarity = get_closest(word, num_palabras_similares, model)
+    palabras_similares, similarity = palabras_cercanas(word, num_palabras_similares, model)
     for i in range(len(palabras_similares)):
         word_value[palabras_similares[i]] = word_value.get(palabras_similares[i], 0)+similarity[i]
 
@@ -76,13 +76,13 @@ for word in word_value.keys():
     count[word] = 0
     for i in range(no_of_cv):
         #Se eliminan STOPWORDS -Puntuacion
-        skill_pro = pre_process(cvs_seccionados[i]['skills'], stopwords) 
-        expe_pro = pre_process(cvs_seccionados[i]['experiencia'], stopwords)
-        edu_pro = pre_process(cvs_seccionados[i]['educación'], stopwords)
+        skill_pro = preprocesar_texto(cvs_seccionados[i]['skills'], stopwords) 
+        expe_pro = preprocesar_texto(cvs_seccionados[i]['experiencia'], stopwords)
+        edu_pro = preprocesar_texto(cvs_seccionados[i]['educación'], stopwords)
         
         # En el caso que word se encuentre en skills o experiencia o eduacion
         # Se suma al contador
-        if calculo_similitud(word, skill_pro.split(), model) or calculo_similitud(word, expe_pro.split(), model) or calculo_similitud(word, edu_pro.split(), model):
+        if similitud(word, skill_pro.split(), model) or similitud(word, expe_pro.split(), model) or similitud(word, edu_pro.split(), model):
             count[word] += 1
 
     # Se calcula idf con suavizado para evitar 0
@@ -95,15 +95,15 @@ score = {}
 for i in range(no_of_cv):
     score[i] = 0
     #Se eliminan STOPWORDS -Puntuacion
-    skill_pro = pre_process(cvs_seccionados[i]['skills'], stopwords) 
-    expe_pro = pre_process(cvs_seccionados[i]['experiencia'], stopwords)
-    edu_pro = pre_process(cvs_seccionados[i]['educación'], stopwords)
+    skill_pro = preprocesar_texto(cvs_seccionados[i]['skills'], stopwords) 
+    expe_pro = preprocesar_texto(cvs_seccionados[i]['experiencia'], stopwords)
+    edu_pro = preprocesar_texto(cvs_seccionados[i]['educación'], stopwords)
 
     for word in word_value.keys():
         # Se calcula tf como el número de veces que aparece una palabra en el CV
-        n_skills = calculo_similitud(word, skill_pro.split(), model)
-        n_exp = calculo_similitud(word, expe_pro.split(), model)
-        n_edu = calculo_similitud(word, edu_pro.split(), model)
+        n_skills = similitud(word, skill_pro.split(), model)
+        n_exp = similitud(word, expe_pro.split(), model)
+        n_edu = similitud(word, edu_pro.split(), model)
 
         tf = 1 + n_skills +  n_edu + n_exp 
         score[i] += word_value[word]*tf*idf[word]
