@@ -23,6 +23,7 @@ class CvParser:
                        "Linkedin": None,
                        "Celular": None,
                        "Skills": None,
+                       "Licencias-Certificaciones": None,
                        "Grado": None,
                        "Palabras Claves": None,
                        "Educacion": None,
@@ -45,6 +46,7 @@ class CvParser:
         Lenguajes = utils.extraer_idiomas(self.raw_text, self.nlp)
         Linkedin = utils.extraer_linkedin(self.raw_text)
         palabras_claves = utils.busqueda_palabras_claves(self.raw_text)
+        licencias = utils.extraer_licencias(self.nlp)
 
 
         self.parsed["Nombre"] = nombre
@@ -57,6 +59,7 @@ class CvParser:
         self.parsed['Lenguajes'] = Lenguajes
         self.parsed["Linkedin"] = Linkedin
         self.parsed["Palabras Claves"] = palabras_claves
+        self.parsed['Licencias-Certificaciones']=licencias
 
     def get_parsed_resume(self):
         return self.parsed

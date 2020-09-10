@@ -4,25 +4,26 @@
     "Linkedin": null,
     "Celular": "+51992321152",
     "Skills": [
-        "Sql",
         "Ventas",
-        "Erp",
+        "Sql",
         "Jupyter",
-        "Python",
-        "Arduino",
-        "Office",
+        "Sap",
         "Crm",
-        "Sap"
+        "Office",
+        "Arduino",
+        "Python",
+        "Erp"
     ],
+    "Licencias-Certificaciones": [],
     "Grado": [
         "Ingeniería"
     ],
     "Palabras Claves": [
-        "Gestión",
         "Análisis",
-        "Negociación",
+        "Modelamiento",
         "Liderazgo",
-        "Modelamiento"
+        "Negociación",
+        "Gestión"
     ],
     "Educacion": [],
     "Lenguajes": [

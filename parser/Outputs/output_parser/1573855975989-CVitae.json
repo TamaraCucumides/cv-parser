@@ -6,30 +6,31 @@
     "Linkedin": null,
     "Celular": "+56976018648",
     "Skills": [
-        "Ventas",
-        "Azure",
-        "Marketing",
-        "Office",
-        "Excel",
-        "Power bi",
         "Power point",
+        "Marketing",
+        "Ventas",
+        "Power bi",
+        "Excel",
         "Crm",
-        "Word"
+        "Office",
+        "Word",
+        "Azure"
     ],
+    "Licencias-Certificaciones": [],
     "Grado": [
         "Ingeniero"
     ],
     "Palabras Claves": [
-        "Analizar",
-        "Gestión",
+        "Estrategia",
         "Responsabilidad",
         "Adaptable",
-        "Creativo",
-        "Estrategia",
-        "Colaboración",
-        "Negociación",
+        "Analizar",
+        "Modelamiento",
         "Liderazgo",
-        "Modelamiento"
+        "Negociación",
+        "Creativo",
+        "Colaboración",
+        "Gestión"
     ],
     "Educacion": [
         "Universidad Gabriela Mistral"
