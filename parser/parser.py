@@ -5,6 +5,7 @@ import json
 import pprint
 import nltk
 import os
+import multiprocessing as mp
 #Utilidad para limpiar la consola
 os.system('cls' if os.name == 'nt' else 'clear')
 
@@ -65,12 +66,18 @@ class CvParser:
 
 
 def resume_result_wrapper(resume):
-        parser = CvParser(resume)
-        return parser.get_parsed_resume()
+    parser = CvParser(resume)
+    result = parser.get_parsed_resume()
+    name = result["Nombre archivo"]
+    with open(direc + dir_output + name +'.json', 'w',encoding='utf-8') as json_file:
+        json.dump(result, json_file,ensure_ascii=False,indent=4)
+   
 
 
 
 if __name__ == '__main__':
+    pool = mp.Pool(mp.cpu_count())
+    #print('Usando ' + str(mp.cpu_count()) + ' cores')
     resumes = []
     data = []
     direc = os.getcwd()
@@ -84,11 +91,10 @@ if __name__ == '__main__':
             resumes.append(file)
 
     #Crear un objeto para cada CV y rellenar sus atributos.
-    results = [resume_result_wrapper(x) for x in resumes]
+    #results = [resume_result_wrapper(x) for x in resumes]
+    results= [pool.apply_async(resume_result_wrapper(cv), args=(cv,)) for cv in resumes]
 
     # Exportar toda la informacion extraida a un arhivo .json para cada cv
-    for result in results:
-        name = result["Nombre archivo"]
-        with open(direc + dir_output + name +'.json', 'w',encoding='utf-8') as json_file:
-            json.dump(result, json_file,ensure_ascii=False,indent=4)
+    
+        
     print('Finalizado. Se han procesado '+str(len(results)) + ' CVs')

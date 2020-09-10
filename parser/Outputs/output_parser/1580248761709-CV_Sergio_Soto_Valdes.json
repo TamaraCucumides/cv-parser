@@ -1,28 +1,28 @@
 {
-    "Nombre": null,
+    "Nombre": "Sergio Soto Valdés ",
     "Correo": [
         "56976821196sergiosoto94@gmail.com"
     ],
     "Linkedin": null,
     "Celular": "56976821196",
     "Skills": [
+        "Word",
         "Trello",
-        "Excel",
         "Hubspot",
         "Marketing",
-        "Word"
+        "Excel"
     ],
     "Grado": [
         "Ingeniería"
     ],
     "Palabras Claves": [
-        "Adaptable",
-        "Responsabilidad",
         "Aprender",
         "Comprometido",
         "Amigable",
+        "Adaptable",
+        "Análisis",
         "Voluntariado",
-        "Análisis"
+        "Responsabilidad"
     ],
     "Educacion": [
         "Universidad Adolfo Ibáñez",
