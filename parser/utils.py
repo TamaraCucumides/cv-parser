@@ -106,7 +106,7 @@ def extraer_fono(text):
     texto_busqueda = "".join(text.split())  #eliminar todos los espacios
     numbers = re.findall(regex, texto_busqueda)
     if len(numbers)>1:
-        numbers = numbers[0]
+        numbers = max(numbers, key = len) #retornar el string más largo
         if len(numbers) == 11:
             numbers = '+'+numbers
 
@@ -363,6 +363,13 @@ def extraer_nombre(text, nlp_text):
     matcher.add('NAME', None, *pattern)
     
     matches = matcher(nlp_text)
+
+    if matches == []:
+        NAME_PATTERN      = [{'POS': 'PROPN'}, {'POS': 'PROPN'}]
+        pattern = [NAME_PATTERN]
+        matcher.add('NAME', None, *pattern)
+        matches = matcher(nlp_text)
+
   
     nombre = ''
     for _, start, end in matches:

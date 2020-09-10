@@ -1,27 +1,27 @@
 {
-    "Nombre": null,
+    "Nombre": "Jose Chávez ",
     "Correo": [
         "rjose.chm@gmail.com"
     ],
     "Linkedin": null,
     "Celular": "+51922394310",
     "Skills": [
-        "Ventas",
-        "Hubspot",
         "Adobe",
-        "Office"
+        "Ventas",
+        "Office",
+        "Hubspot"
     ],
     "Grado": [],
     "Palabras Claves": [
         "Gestión",
-        "Proactividad",
+        "Puntual",
+        "Liderazgo",
+        "Responsabilidad",
         "Liderar",
         "Análisis",
-        "Estrategia",
-        "Responsabilidad",
-        "Liderazgo",
-        "Puntual",
-        "Modelamiento"
+        "Modelamiento",
+        "Proactividad",
+        "Estrategia"
     ],
     "Educacion": [],
     "Lenguajes": [

@@ -1,29 +1,29 @@
 {
-    "Nombre": null,
+    "Nombre": "Erwin Nicol ",
     "Correo": [
         "erwinpaillacan@gmail.com"
     ],
     "Linkedin": "https://www.linkedin.com/in/erwinpaillacan",
     "Celular": "+56986634232",
     "Skills": [
-        "Deep learning",
-        "Docker",
-        "Verilog",
-        "Latex",
         "Aws",
-        "Sql",
         "Octave",
-        "Excel",
+        "Latex",
+        "Verilog",
         "Java",
+        "Sql",
+        "Deep learning",
         "Python",
-        "Pytorch"
+        "Excel",
+        "Pytorch",
+        "Docker"
     ],
     "Grado": [
         "Ingeniería"
     ],
     "Palabras Claves": [
-        "Aprender",
-        "Apasionado"
+        "Apasionado",
+        "Aprender"
     ],
     "Educacion": [],
     "Lenguajes": [
