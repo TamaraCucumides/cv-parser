@@ -6,10 +6,10 @@
     "Linkedin": null,
     "Celular": "20012005",
     "Skills": [
-        "Marketing",
         "E-commerce",
-        "Word",
-        "Ventas"
+        "Marketing",
+        "Ventas",
+        "Word"
     ],
     "Grado": [
         "Ingeniería"
@@ -17,13 +17,13 @@
     "Palabras Claves": [
         "Análisis",
         "Estrategia",
-        "Responsabilidad",
         "Liderar",
-        "Gestión"
+        "Gestión",
+        "Responsabilidad"
     ],
     "Educacion": [
-        "Universidad de Chile",
-        "Inacap"
+        "Inacap",
+        "Universidad de Chile"
     ],
     "Lenguajes": [],
     "Nombre archivo": "1580320654107-CV_Gabriel_Garcia_Lorca"

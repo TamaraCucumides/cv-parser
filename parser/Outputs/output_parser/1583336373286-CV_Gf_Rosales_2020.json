@@ -6,23 +6,23 @@
     "Skills": [
         "Erp",
         "Sql",
-        "Arduino",
-        "Office",
-        "Python",
-        "Sap",
-        "Ventas",
         "Jupyter",
-        "Iot"
+        "Iot",
+        "Ventas",
+        "Python",
+        "Office",
+        "Arduino",
+        "Sap"
     ],
     "Grado": [
         "Ingeniería"
     ],
     "Palabras Claves": [
+        "Negociación",
         "Análisis",
         "Liderazgo",
-        "Modelamiento",
-        "Negociación",
-        "Gestión"
+        "Gestión",
+        "Modelamiento"
     ],
     "Educacion": [],
     "Lenguajes": [

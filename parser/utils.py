@@ -24,10 +24,6 @@ import yaml
 import numpy as np
 import string
 
-# Se agregan STOP_WORDS desde el diccionario stop_words.txt
-#newStopWords = cargar_dict(os.getcwd() + '/parser/diccionarios/stop_words')
-#stopwords = nltk.corpus.stopwords.words('spanish')
-#stopwords.extend(newStopWords)
 
 
 #####################################################
@@ -112,6 +108,8 @@ def retrieve_phone_number(text):
     numbers = re.findall(regex, texto_busqueda)
     if len(numbers)>1:
         numbers = numbers[0]
+        if len(numbers) == 11:
+            numbers = '+'+numbers
 
     return numbers
 
@@ -486,7 +484,7 @@ def busqueda_palabras_claves(text):
 
 def pre_process(corpus,  enminiscula= True, puntuacion = False):
     '''
-    Entrada: texto, stopwords, enminiscula (opcional)
+    Entrada: texto, stopwords, enminiscula (opcional), puntuacion
     Salida:  texto
     Funcion que se encarga de limpiar las stopwords de un texto
     el parámetro opciona enminuscula si es verdadero,
@@ -500,9 +498,9 @@ def pre_process(corpus,  enminiscula= True, puntuacion = False):
     stop = nltk.corpus.stopwords.words('spanish')
     stop.extend(newStopWords)
 
-    if enminiscula:
+    if enminiscula: # si se quiere normalizar a minuscula
         corpus = corpus.lower()
-    if not puntuacion:
+    if not puntuacion: # Si no se quiere conservar la puntuación
         stopset = stop+ list(string.punctuation)
     else:
         stopset = stop

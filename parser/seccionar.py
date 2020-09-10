@@ -9,7 +9,8 @@ import re
 import json
 import pprint
 pp = pprint.PrettyPrinter(indent=4)
-
+import multiprocessing as mp
+from utils import pre_process
 
 # Utilidad para borrar simbolos
 re_c = re.compile(r'\w+')
@@ -18,10 +19,11 @@ re_c = re.compile(r'\w+')
 nlp = es_core_news_md.load()
 
 # Se carga el modelo de embeddings en español
+print("Cargando embeddings")
 wordvectors_file_vec = os.getcwd() + '/parser/embeddings/fasttext-sbwc.3.6.e20.vec'
 cantidad = 100000
 model = KeyedVectors.load_word2vec_format(wordvectors_file_vec, limit=cantidad)
-
+print("Embeddings cargadas")
 
 #Se carga la tabla de secciones.
 seccion_csv = os.getcwd() +'/parser/CSVs/seccionesCV.csv'
@@ -40,7 +42,7 @@ secciones_dict = {
 
 
 #umbral para similitud de secciones.
-threshold = 0.45
+threshold = 0.5
 
 
 similar_to = secciones_dict
@@ -172,16 +174,30 @@ def seccionar_cv(path):
             if (not token.is_stop):
                 linea_lematizada += token.lemma_ + ' '
 
-        secciones_data[seccion_previa] += linea_lematizada.lower().replace('\n', '') # se eliman los saltos de linea.
+        secciones_data[seccion_previa] += pre_process(linea_lematizada)+ ' ' # se eliman los saltos de linea.
 
 
     cv_txt.close()
     return secciones_data
+
+
+
+
+def generate_json(cv):
+    name = cv.replace(direc + dir_txt, '')        
+    secciones_data = seccionar_cv(cv)
+    secciones_data['nombre archivo'] = name
+
+    with open(direc + dir_output + name+'.json', 'w',encoding='utf-8') as json_file:
+        json.dump(secciones_data, json_file,ensure_ascii=False, indent=4)
+
+
     
 
 
 if __name__ == '__main__':
-
+    pool = mp.Pool(mp.cpu_count())
+    #print('Usando ' + str(mp.cpu_count()) + ' cores')
     direc = os.getcwd()
     dir_txt = '/parser/Outputs/output_text/'
     dir_output = '/parser/Outputs/output_seccionado/'
@@ -197,13 +213,9 @@ if __name__ == '__main__':
     print("Seccionando CVs: "+str(len(resumes_seccionado)))
 
     # Se secciona cada CV
-    for cv in resumes_seccionado:
-        name = cv.replace(direc + dir_txt, '')        
-        secciones_data = seccionar_cv(cv)
-        secciones_data['nombre archivo'] = name
-
-        with open(direc + dir_output + name+'.json', 'w',encoding='utf-8') as json_file:
-            json.dump(secciones_data, json_file,ensure_ascii=False, indent=4)  
+    seccionados = [pool.apply_async(generate_json(cv)) for cv in resumes_seccionado]
+    pool.close()
+    pool.join()      
 
     print('Finalizado')
 

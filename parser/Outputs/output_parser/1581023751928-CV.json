@@ -6,35 +6,35 @@
     "Linkedin": null,
     "Celular": "56971920517",
     "Skills": [
-        "Java",
-        "Metodologias agiles",
         "Sql",
-        "Html",
-        "Office",
-        "Scrum",
-        "Javascript",
-        "Mysql",
+        "Java",
         "Ventas",
-        "Marketing",
         "Trello",
-        "Excel"
+        "Html",
+        "Javascript",
+        "Office",
+        "Metodologias agiles",
+        "Marketing",
+        "Excel",
+        "Scrum",
+        "Mysql"
     ],
     "Grado": [
         "Ingeniería"
     ],
     "Palabras Claves": [
+        "Gestión",
+        "Negociación",
+        "Analizar",
+        "Adaptable",
         "Análisis",
+        "Disposición",
         "Estrategia",
         "Confianza",
-        "Liderazgo",
-        "Disposición",
-        "Modelamiento",
         "Liderar",
-        "Negociación",
-        "Gestión",
-        "Adaptable",
-        "Analizar",
-        "Motivación"
+        "Liderazgo",
+        "Motivación",
+        "Modelamiento"
     ],
     "Educacion": [
         "Universidad de Chile"
