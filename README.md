@@ -31,7 +31,7 @@ CV parser
 |       └── constantes.py
 |       └── generar_pdfatexto.py
 |       └── ranking.py
-|       └── seccioanr.py
+|       └── seccionar.py
 |       └── utils.py
 
 ```
