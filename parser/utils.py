@@ -353,9 +353,12 @@ def extraer_nombre(text, nlp_text):
     '''
     text = text[0:math.floor(len(text)/16)]
     nlp = es_core_news_sm.load()
+    newStopWords = cargar_dict(os.getcwd() + '/parser/diccionarios/stop_words_nombres')
+    stopwords = nltk.corpus.stopwords.words('spanish')
+    stopwords.extend(newStopWords)
     # Se procesa el 25% superior del texto. Se asume que el nombre deberia estar arriba
     # De forma empirirca, con mayusculas y con puntuación funciona mejor
-    nlp_text = nlp(preprocesar_texto(text[0:math.floor(len(text)/4)], enminiscula= False,  puntuacion= True))
+    nlp_text = nlp(preprocesar_texto(text[0:math.floor(len(text)/4)],stopwords ,enminiscula= False,  puntuacion= True))
     NAME_PATTERN      = [{'POS': 'PROPN'}, {'POS': 'PROPN'},{'POS': 'PROPN'}]
     
     matcher = Matcher(nlp.vocab)
@@ -488,7 +491,7 @@ def busqueda_palabras_claves(text):
 
 
 
-def preprocesar_texto(corpus,  enminiscula= True, puntuacion = False):
+def preprocesar_texto(corpus,stopwords , enminiscula= True, puntuacion = False):
     '''
     Entrada: texto, stopwords, enminiscula (opcional), puntuacion
     Salida:  texto
@@ -500,16 +503,16 @@ def preprocesar_texto(corpus,  enminiscula= True, puntuacion = False):
     Notar que stop_words.txt tiene stopwords en minisculas y capitalizada.
     Esta propiedad de mantener la capitalización es útil en la detección de nombres.
     '''
-    newStopWords = cargar_dict(os.getcwd() + '/parser/diccionarios/stop_words')
-    stop = nltk.corpus.stopwords.words('spanish')
-    stop.extend(newStopWords)
+    #newStopWords = cargar_dict(os.getcwd() + '/parser/diccionarios/stop_words')
+    #stop = nltk.corpus.stopwords.words('spanish')
+    #stop.extend(newStopWords)
 
     if enminiscula: # si se quiere normalizar a minuscula
         corpus = corpus.lower()
     if not puntuacion: # Si no se quiere conservar la puntuación
-        stopset = stop+ list(string.punctuation)
+        stopset = stopwords+ list(string.punctuation)
     else:
-        stopset = stop
+        stopset = stopwords
 
     corpus = " ".join([i for i in word_tokenize(corpus) if i not in stopset])
     # remove non-ascii characters
@@ -525,7 +528,12 @@ def lematizar(frase):
     nlp = es_core_news_sm.load()
     doc = nlp(frase)
     lemmas = [tok.lemma_.lower() for tok in doc]
-    return lemmas
+    lematizado = ''
+    for word in lemmas:
+        lematizado += word +' '
+        lematizado.replace('\n', '')
+
+    return lematizado
 
 def sent2vec(s, model):
     '''

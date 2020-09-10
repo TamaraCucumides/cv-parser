@@ -9,18 +9,19 @@ from constantes import cargar_dict
 from utils import similitud, palabras_cercanas, cosine_sim, sent2vec, lematizar, preprocesar_texto
 import numpy as np
 
+import re
 
 # Se agregan STOP_WORDS desde el diccionario stop_words.txt
-newStopWords = cargar_dict(os.getcwd() + '/parser/diccionarios/stop_words')
-stopwords = nltk.corpus.stopwords.words('spanish')
-stopwords.extend(newStopWords)
+#newStopWords = cargar_dict(os.getcwd() + '/parser/diccionarios/stop_words')
+#stopwords = nltk.corpus.stopwords.words('spanish')
+#stopwords.extend(newStopWords)
 
 
 print("Cargando embeddings")
 wordvectors_file_vec = os.getcwd() + '/parser/embeddings/fasttext-sbwc.3.6.e20.vec'
 cantidad = 100000
 model = KeyedVectors.load_word2vec_format(wordvectors_file_vec, limit=cantidad)
-print("Embeddings cargadas")
+print("Embeddings cargadas" + '\n')
 
 
 
@@ -39,9 +40,20 @@ file = os.getcwd() +'/parser/Descripcion_cargo/descripcion_cargo'
 with open(file) as f:
   descripcion_cargo = " ".join([x.strip() for x in f]) 
 
-# Se eliminan STOPWORDS -Puntuacion
-descripcion_cargo = preprocesar_texto(descripcion_cargo, stopwords)
+#Se cargan las stop_words especificas para descriptores 
+newStopWords = cargar_dict(os.getcwd() + '/parser/diccionarios/stop_words_descripcion_cargo')
+stopwords = nltk.corpus.stopwords.words('spanish')
+stopwords.extend(newStopWords)
+
+pattern = r'[0-9]'
+# Se eliminan STOPWORDS -Puntuacion -numeros
+print(descripcion_cargo + '\n')
+descripcion_cargo = re.sub(r'[^\w\s]',' ',descripcion_cargo) #eliminar puntuacion
+descripcion_cargo = re.sub(pattern, ' ', descripcion_cargo) #eliminar numeros
+descripcion_cargo_lema = lematizar(descripcion_cargo) #lematizar
+descripcion_cargo = preprocesar_texto(descripcion_cargo_lema, stopwords) #eliminar stopword y a minusculas
 print(descripcion_cargo)
+
 
 
 
