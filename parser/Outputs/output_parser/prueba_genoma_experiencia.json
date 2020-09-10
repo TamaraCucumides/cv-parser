@@ -4,19 +4,19 @@
         "erwinpaillacan@gmail.com"
     ],
     "Linkedin": "https://www.linkedin.com/in/erwinpaillacan",
-    "Celular": "56986634232",
+    "Celular": "+56986634232",
     "Skills": [
-        "Octave",
-        "Sql",
-        "Verilog",
-        "Java",
-        "Python",
-        "Excel",
+        "Deep learning",
         "Docker",
+        "Verilog",
         "Latex",
         "Aws",
-        "Pytorch",
-        "Deep learning"
+        "Sql",
+        "Octave",
+        "Excel",
+        "Java",
+        "Python",
+        "Pytorch"
     ],
     "Grado": [
         "Ingeniería"

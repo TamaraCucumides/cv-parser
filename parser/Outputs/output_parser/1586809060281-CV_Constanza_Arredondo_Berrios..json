@@ -15,26 +15,26 @@
     ],
     "Palabras Claves": [
         "Aprender",
-        "Colaboración",
-        "Amigable",
-        "Negociación",
-        "Adaptable",
-        "Modelamiento",
         "Creativo",
-        "Voluntariado",
-        "Alegre",
+        "Amigable",
         "Sociable",
-        "Responsabilidad"
+        "Responsabilidad",
+        "Adaptable",
+        "Voluntariado",
+        "Colaboración",
+        "Alegre",
+        "Negociación",
+        "Modelamiento"
     ],
     "Educacion": [
-        "Pontificia Universidad Catolica de Chile",
-        "Universidad Católica de Chile"
+        "Universidad Católica de Chile",
+        "Pontificia Universidad Catolica de Chile"
     ],
     "Lenguajes": [
-        "Inglés avanzado",
-        "Español nativo",
         "Inglés",
-        "Español"
+        "Español",
+        "Español nativo",
+        "Inglés avanzado"
     ],
     "Nombre archivo": "1586809060281-CV_Constanza_Arredondo_Berrios."
 }

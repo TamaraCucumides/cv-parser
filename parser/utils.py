@@ -1,5 +1,5 @@
 import re
-from cts import grados_educativos_orden, educacion, educacionSiglas, idiomas, idiomas_nivel, palabras_claves, licencias
+from constantes import grados_educativos_orden, educacion, educacionSiglas, idiomas, idiomas_nivel, palabras_claves, licencias, cargar_dict
 import math
 import fitz
 import nltk
@@ -18,7 +18,6 @@ from nltk.stem import SnowballStemmer
 import textacy
 import regex
 import unidecode
-from cts import cargar_dict
 from gensim.models.keyedvectors import KeyedVectors
 import yaml
 import numpy as np
@@ -30,7 +29,7 @@ import string
 ####  UTILIDADES generate_text_files.py  ############
 #####################################################
 
-def extract_text(path):
+def extraer_texto(path):
     '''
     Input: ruta hacia los archivos
     Salida: Texto plano como string
@@ -77,7 +76,7 @@ def extract_text(path):
 #####################################################
 
 
-def retrieve_email(text):
+def extraer_mail(text):
     '''
     Input: Recibe texto plano
     Output: String que representa un mail.
@@ -91,7 +90,7 @@ def retrieve_email(text):
     return mails
 
 
-def retrieve_phone_number(text):
+def extraer_fono(text):
     '''
     Retorna numero de 8-11 digitos
     Input: Texto plano
@@ -114,7 +113,7 @@ def retrieve_phone_number(text):
     return numbers
 
 
-def retrieve_skills(nlp_text):
+def extraer_skills(nlp_text):
     '''
     Funcion que busca los skill declarados del postulante
     Se buscan tanto skill de 1 token como de varios.
@@ -148,7 +147,7 @@ def retrieve_skills(nlp_text):
     return [i.capitalize() for i in set([i.lower() for i in skillset])]
 
 
-def retrieve_education_institution(text, nlp_text):
+def extraer_educacion(text, nlp_text):
     '''
     Funcion que recupera las universidad o intituciones mencionadas en el CV
     Hace uso de 2 diccionarios: universidades.txt y universidades_siglas.txt
@@ -181,7 +180,7 @@ def retrieve_education_institution(text, nlp_text):
     return list(unique_values) 
  
 
-def retrieve_languages(text, nlp_text):
+def extraer_idiomas(text, nlp_text):
     '''
     Funcion que recupera los idiomas que declara el postulante.
     Usa dos diccionarios: idiomas.txt e idiomas_nivel.txt
@@ -222,7 +221,7 @@ def retrieve_languages(text, nlp_text):
 
 
 
-def retrieve_higher_degree(text):
+def extraer_grado(text):
     '''
     Funcion que devuelve el grado más alto encontrado, depende de la 
     lista grados_educativos_orden
@@ -344,7 +343,7 @@ def retrieve_last_experience_year(text): #Funcion no usada
 
 
 
-def retrieve_name(text, nlp_text):
+def extraer_nombre(text, nlp_text):
 
     '''
     Funcion que busca por 3 pronombres seguidos. Se recibe el texto
@@ -356,7 +355,7 @@ def retrieve_name(text, nlp_text):
     nlp = es_core_news_sm.load()
     # Se procesa el 25% superior del texto. Se asume que el nombre deberia estar arriba
     # De forma empirirca, con mayusculas y con puntuación funciona mejor
-    nlp_text = nlp(pre_process(text[0:math.floor(len(text)/4)], enminiscula= False,  puntuacion= True))
+    nlp_text = nlp(preprocesar_texto(text[0:math.floor(len(text)/4)], enminiscula= False,  puntuacion= True))
     NAME_PATTERN      = [{'POS': 'PROPN'}, {'POS': 'PROPN'},{'POS': 'PROPN'}]
     
     matcher = Matcher(nlp.vocab)
@@ -422,7 +421,7 @@ def summarize_cv(text, nlp_text): # No usada
 
     return summary[0].text.replace("\n","")
 
-def extract_linkedin(text):
+def extraer_linkedin(text):
     '''
     Funcion que captura el perfil de Linkedin del postulante
     se busca con una expression regular https://wwww.linkedin..........
@@ -482,7 +481,7 @@ def busqueda_palabras_claves(text):
 
 
 
-def pre_process(corpus,  enminiscula= True, puntuacion = False):
+def preprocesar_texto(corpus,  enminiscula= True, puntuacion = False):
     '''
     Entrada: texto, stopwords, enminiscula (opcional), puntuacion
     Salida:  texto
@@ -545,7 +544,7 @@ def cosine_sim(vec1, vec2):
     '''
     return  np.dot(vec1,vec2)/(np.linalg.norm(vec1)* np.linalg.norm(vec2))
 
-def get_closest(word, n, model):
+def palabras_cercanas(word, n, model):
     '''
     Funcion que retorna las n palabras mas cercana a n
     la funcion recibe la palabra, el número deseado y 
@@ -566,7 +565,7 @@ def get_closest(word, n, model):
     
     return words, similar_vals
 
-def calculo_similitud(word1, array_palabras, model, threshold = 0.5):
+def similitud(word1, array_palabras, model, threshold = 0.5):
     '''
     Funcion que se encarga de calcular
     la similitud de word1 con respecto

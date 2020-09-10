@@ -10,7 +10,7 @@ import json
 import pprint
 pp = pprint.PrettyPrinter(indent=4)
 import multiprocessing as mp
-from utils import pre_process
+from utils import preprocesar_texto
 
 # Utilidad para borrar simbolos
 re_c = re.compile(r'\w+')
@@ -174,7 +174,7 @@ def seccionar_cv(path):
             if (not token.is_stop):
                 linea_lematizada += token.lemma_ + ' '
 
-        secciones_data[seccion_previa] += pre_process(linea_lematizada)+ ' ' # se eliman los saltos de linea.
+        secciones_data[seccion_previa] += preprocesar_texto(linea_lematizada)+ ' ' # se eliman los saltos de linea.
 
 
     cv_txt.close()
@@ -197,7 +197,6 @@ def generate_json(cv):
 
 if __name__ == '__main__':
     pool = mp.Pool(mp.cpu_count())
-    #print('Usando ' + str(mp.cpu_count()) + ' cores')
     direc = os.getcwd()
     dir_txt = '/parser/Outputs/output_text/'
     dir_output = '/parser/Outputs/output_seccionado/'

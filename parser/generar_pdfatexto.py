@@ -1,5 +1,5 @@
 import os
-from utils import extract_text
+from utils import extraer_texto
 
 
 
@@ -19,7 +19,7 @@ if __name__ == '__main__':
     # Cada pdf se transforma a .txt y se guarda en dir_outputs        
     for resume in resumes:
         name = resume.replace(direc+dir_pdfs, '').replace('.pdf', '')
-        text = extract_text(resume)
+        text = extraer_texto(resume)
         text_file = open(direc + dir_output + name, "wt",encoding='utf-8')
         n = text_file.write(text)
         text_file.close()
