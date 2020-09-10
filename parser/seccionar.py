@@ -174,7 +174,7 @@ def seccionar_cv(path):
             if (not token.is_stop):
                 linea_lematizada += token.lemma_ + ' '
 
-        secciones_data[seccion_previa] += preprocesar_texto(linea_lematizada)+ ' ' # se eliman los saltos de linea.
+        secciones_data[seccion_previa] += preprocesar_texto(linea_lematizada)+ ' ' # 
 
 
     cv_txt.close()
