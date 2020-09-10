@@ -6,15 +6,15 @@
     "Linkedin": null,
     "Celular": "931898164",
     "Skills": [
-        "Power point",
-        "Marketing",
-        "Ventas",
-        "Licencia de conducir",
         "Sap",
-        "Excel",
-        "Word"
+        "Marketing",
+        "Power point",
+        "Word",
+        "Excel"
     ],
-    "Licencias-Certificaciones": [],
+    "Licencias-Certificaciones": [
+        "LICENCIA DE CONDUCIR"
+    ],
     "Grado": [
         "Ingeniero"
     ],

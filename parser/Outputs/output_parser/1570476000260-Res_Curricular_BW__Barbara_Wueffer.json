@@ -1,26 +1,26 @@
 {
-    "Nombre": "Antecedentes Académicos Estudios ",
+    "Nombre": null,
     "Correo": [
         "Bwueffer@gmail.com"
     ],
     "Linkedin": null,
     "Celular": "+56993984585",
     "Skills": [
-        "Word",
-        "Powerpoint",
+        "Visio",
         "Office",
-        "Visio"
+        "Powerpoint",
+        "Word"
     ],
     "Licencias-Certificaciones": [],
     "Grado": [
         "Ingeniero"
     ],
     "Palabras Claves": [
+        "Gestión",
         "Análisis",
-        "Adaptable",
         "Proactividad",
         "Negociación",
-        "Gestión"
+        "Adaptable"
     ],
     "Educacion": [],
     "Lenguajes": [

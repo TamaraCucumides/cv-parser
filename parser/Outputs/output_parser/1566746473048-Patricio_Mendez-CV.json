@@ -6,26 +6,27 @@
     "Linkedin": "https://www.linkedin.com/in/patriciomendezcaneo",
     "Celular": "+56978971888",
     "Skills": [
-        "Powerpoint",
-        "Licencia de conducir",
-        "Excel",
         "Office",
+        "Vulcan",
         "Word",
-        "Vulcan"
+        "Excel",
+        "Powerpoint"
     ],
-    "Licencias-Certificaciones": [],
+    "Licencias-Certificaciones": [
+        "CLASE B",
+        "LICENCIA DE CONDUCIR"
+    ],
     "Grado": [
         "Egresado"
     ],
     "Palabras Claves": [
         "Análisis",
-        "Adaptable",
         "Modelamiento",
+        "Adaptable",
         "Responsabilidad"
     ],
     "Educacion": [
-        "Universidad Católica del Norte",
-        "Universidad Católica del norte"
+        "Universidad Católica del Norte"
     ],
     "Lenguajes": [
         "Inglés"

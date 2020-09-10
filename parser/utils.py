@@ -144,7 +144,7 @@ def extraer_skills(nlp_text):
         for skill in skills:
                 skill_un = unidecode.unidecode(skill)
                 chunk_un = unidecode.unidecode(chunk_lower)
-                if skill_un in chunk_un: # si el skill se encuentra dentro de la frase
+                if skill_un.lower() in chunk_un.lower(): # si el skill se encuentra dentro de la frase
                     skillset.append(skill.capitalize())
     return [i.capitalize() for i in set([i.lower() for i in skillset])]
 
@@ -179,7 +179,7 @@ def extraer_licencias(nlp_text):
         for licencia in licencias:
                 licencia_un = unidecode.unidecode(licencia)
                 chunk_un = unidecode.unidecode(chunk_lower)
-                if licencia_un in chunk_un: # si el skill se encuentra dentro de la frase
+                if licencia_un.lower() in chunk_un.lower(): # si el skill se encuentra dentro de la frase
                     licencias_set.append(licencia.capitalize())
      
     return [i.upper() for i in set([i.lower() for i in licencias_set])]
@@ -195,22 +195,31 @@ def extraer_educacion(text, nlp_text):
     '''
    
     educacion_list=[]
+    #print(text.replace('\n', ' '))
+    #text = text.replace('\n', ' ')
 
     #Dejar solo sustantivos
-    filter_noun = [word for (word, pos) in nltk.pos_tag(nltk.word_tokenize(text)) if pos[0] == 'N']
+    filter_noun = [word for (word, pos) in nltk.pos_tag(nltk.word_tokenize(text)) if pos[0] == 'N' or word == 'de']
     #frases   
-    noun_chunks = list(nlp_text.noun_chunks)
+    #noun_chunks = list(nlp_text.noun_chunks)
+    #nlp = textacy.load_spacy_lang('es_core_news_sm')
+    #texto_procesado = nlp(text)
+    #noun_chunks = textacy.extract.noun_chunks(texto_procesado)
     
     for item in educacion:
-        for noun in noun_chunks:
-            item_un = unidecode.unidecode(item)
-            noun_un = unidecode.unidecode(noun.text)
-            if item_un.lower() in " ".join(noun_un.lower().split()):
-                educacion_list.append(item)
+        #for noun in noun_chunks:
+        item_un = unidecode.unidecode(item)
+        text_un = unidecode.unidecode(text.lower().replace('\n', ' '))
+            #noun_un = unidecode.unidecode(noun.text)
+            #if item_un.lower() in " ".join(noun_un.lower().split()):
+            #este if es mas costoso pero más efectivo, a veces el nltk se come los 'de'
+        if item_un.lower() in text_un:
+            educacion_list.append(item)
+    
 
                 
     for item in educacionSiglas:
-        if item in filter_noun:
+        if item.upper() in filter_noun:
             educacion_list.append(item)
 
     # se usar set para crear una lista de elementos únicos
@@ -542,9 +551,6 @@ def preprocesar_texto(corpus,stopwords , enminiscula= True, puntuacion = False):
     Notar que stop_words.txt tiene stopwords en minisculas y capitalizada.
     Esta propiedad de mantener la capitalización es útil en la detección de nombres.
     '''
-    #newStopWords = cargar_dict(os.getcwd() + '/parser/diccionarios/stop_words')
-    #stop = nltk.corpus.stopwords.words('spanish')
-    #stop.extend(newStopWords)
 
     if enminiscula: # si se quiere normalizar a minuscula
         corpus = corpus.lower()

@@ -1,5 +1,5 @@
 {
-    "Nombre": "Información Personal Espinal ",
+    "Nombre": "Espinal Mendoza Carol ",
     "Correo": "Carol.espinal@uptc.edu.co",
     "Linkedin": null,
     "Celular": "+57300725897",
@@ -13,7 +13,9 @@
         "Creativo",
         "Responsabilidad"
     ],
-    "Educacion": [],
+    "Educacion": [
+        "Universidad Central de Chile"
+    ],
     "Lenguajes": [
         "Inglés"
     ],

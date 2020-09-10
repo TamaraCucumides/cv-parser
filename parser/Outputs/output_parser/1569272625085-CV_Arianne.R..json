@@ -1,31 +1,32 @@
 {
-    "Nombre": "Z @ G ",
+    "Nombre": "Z G M ",
     "Correo": [
         "arianne.rojas.ruz@gmail.com"
     ],
     "Linkedin": null,
     "Celular": "+56977599495",
     "Skills": [
-        "Ventas",
-        "Salesforce",
-        "Crm",
         "Office",
+        "Salesforce",
         "Poseidon crm",
-        "C"
+        "C",
+        "Crm"
     ],
     "Licencias-Certificaciones": [],
     "Grado": [],
     "Palabras Claves": [
-        "Análisis",
-        "Adaptable",
-        "Modelamiento",
         "Liderazgo",
+        "Gestión",
+        "Modelamiento",
+        "Análisis",
         "Proactividad",
         "Negociación",
-        "Motivación",
-        "Gestión"
+        "Adaptable",
+        "Motivación"
     ],
-    "Educacion": [],
+    "Educacion": [
+        "Universidad de Talca"
+    ],
     "Lenguajes": [
         "Inglés",
         "Noruego"

@@ -6,31 +6,32 @@
     "Linkedin": null,
     "Celular": "993827257",
     "Skills": [
-        "Marketing",
-        "Powerpoint",
-        "Ventas",
         "Sap",
-        "Excel",
         "Office",
+        "Marketing",
         "Word",
         "C",
-        "Erp"
+        "Erp",
+        "Excel",
+        "Powerpoint"
     ],
-    "Licencias-Certificaciones": [],
+    "Licencias-Certificaciones": [
+        "CLASE B",
+        "CLASE C"
+    ],
     "Grado": [
         "Ingeniero"
     ],
     "Palabras Claves": [
+        "Liderazgo",
+        "Gestión",
         "Análisis",
         "Responsabilidad",
-        "Liderazgo",
         "Proactividad",
-        "Negociación",
-        "Gestión"
+        "Negociación"
     ],
     "Educacion": [
-        "Universidad Católica del Norte",
-        "Universidad Católica del norte"
+        "Universidad Católica del Norte"
     ],
     "Lenguajes": [
         "Inglés"

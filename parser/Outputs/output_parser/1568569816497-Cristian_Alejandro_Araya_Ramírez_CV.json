@@ -6,18 +6,21 @@
     "Linkedin": null,
     "Celular": "+56974361411",
     "Skills": [],
-    "Licencias-Certificaciones": [],
+    "Licencias-Certificaciones": [
+        "CLASE B"
+    ],
     "Grado": [
         "Ingeniería"
     ],
     "Palabras Claves": [
         "Análisis",
-        "Gestión",
+        "Adaptable",
         "Responsabilidad",
-        "Adaptable"
+        "Gestión"
     ],
     "Educacion": [
-        "Universidad De La Serena"
+        "Universidad De La Serena",
+        "Universidad Pedro de Valdivia"
     ],
     "Lenguajes": [
         "Inglés"

@@ -1,15 +1,15 @@
 {
-    "Nombre": "Educación Formaci ",
+    "Nombre": null,
     "Correo": [
         "ignacio.n.ames@gmail.com"
     ],
     "Linkedin": null,
     "Celular": "+56957106048",
     "Skills": [
-        "Mac",
-        "Office",
+        "Windows",
         "Autocad",
-        "Windows"
+        "Office",
+        "Mac"
     ],
     "Licencias-Certificaciones": [],
     "Grado": [

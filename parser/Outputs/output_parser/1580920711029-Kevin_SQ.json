@@ -6,28 +6,29 @@
     "Linkedin": null,
     "Celular": "+01633323451",
     "Skills": [
-        "Base de datos",
-        "Ventas",
         "Sap",
-        "Excel",
+        "Office",
+        "Base de datos",
         "Crm",
-        "Office"
+        "Excel"
     ],
     "Licencias-Certificaciones": [],
     "Grado": [
         "Ingeniería"
     ],
     "Palabras Claves": [
-        "Comprometido",
-        "Análisis",
-        "Estrategia",
-        "Responsabilidad",
         "Analizar",
         "Liderazgo",
-        "Negociación",
-        "Gestión"
+        "Gestión",
+        "Estrategia",
+        "Análisis",
+        "Comprometido",
+        "Responsabilidad",
+        "Negociación"
     ],
-    "Educacion": [],
+    "Educacion": [
+        "Universidad de Tarapacá"
+    ],
     "Lenguajes": [
         "Inglés"
     ],

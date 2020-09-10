@@ -6,37 +6,39 @@
     "Linkedin": null,
     "Celular": "+56965129438",
     "Skills": [
-        "Nielsen",
-        "Marketing",
-        "Ventas",
-        "Instoreview",
-        "Siebel",
         "Sap",
-        "Excel",
         "Office",
-        "Qlikview",
-        "C"
+        "Siebel",
+        "Marketing",
+        "Instoreview",
+        "C",
+        "Nielsen",
+        "Excel",
+        "Qlikview"
     ],
     "Licencias-Certificaciones": [],
     "Grado": [
         "Ingeniería"
     ],
     "Palabras Claves": [
-        "Análisis",
-        "Estrategia",
         "Analizar",
+        "Gestión",
+        "Estrategia",
+        "Análisis",
         "Proactividad",
-        "Negociación",
-        "Gestión"
+        "Negociación"
     ],
     "Educacion": [
-        "Universidad de Chile"
+        "Universidad Central de Chile",
+        "Universidad de Chile",
+        "Universidad Católica de Chile",
+        "Pontificia Universidad Catolica de Chile"
     ],
     "Lenguajes": [
-        "Español nativo",
         "Inglés intermedio",
-        "Español",
-        "Inglés"
+        "Español nativo",
+        "Inglés",
+        "Español"
     ],
     "Nombre archivo": "1567783485161-CV_CAMILO_CORTES_2019"
 }

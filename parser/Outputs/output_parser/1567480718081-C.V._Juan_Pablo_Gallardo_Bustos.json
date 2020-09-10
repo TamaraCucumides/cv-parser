@@ -6,12 +6,12 @@
     "Linkedin": null,
     "Celular": "+20152018200",
     "Skills": [
-        "Márketing",
-        "Excel",
-        "Microsoft project",
-        "Git",
         "Arduino",
-        "Word"
+        "Márketing",
+        "Word",
+        "Git",
+        "Excel",
+        "Microsoft project"
     ],
     "Licencias-Certificaciones": [],
     "Grado": [
@@ -21,7 +21,9 @@
         "Análisis",
         "Gestión"
     ],
-    "Educacion": [],
+    "Educacion": [
+        "Universidad Técnica Federico Santa María"
+    ],
     "Lenguajes": [
         "Inglés"
     ],

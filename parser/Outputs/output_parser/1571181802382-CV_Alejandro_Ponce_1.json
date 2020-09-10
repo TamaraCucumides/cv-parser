@@ -1,32 +1,29 @@
 {
-    "Nombre": "Currículum Vítae Alejandro ",
+    "Nombre": "Alejandro Andrés Ponce ",
     "Correo": "aaponcerojas@gmail.com",
     "Linkedin": null,
     "Celular": "+56984338736",
     "Skills": [
-        "Marketing",
-        "Ventas"
+        "Marketing"
     ],
     "Licencias-Certificaciones": [],
     "Grado": [
         "Ingeniería"
     ],
     "Palabras Claves": [
-        "Análisis",
-        "Tolerancia",
-        "Compromiso",
-        "Adaptable",
         "Liderazgo",
+        "Gestión",
         "Aprender",
+        "Tolerancia",
+        "Análisis",
+        "Compromiso",
         "Escuchar",
-        "Gestión"
+        "Adaptable"
     ],
-    "Educacion": [
-        "Inacap"
-    ],
+    "Educacion": [],
     "Lenguajes": [
-        "Español",
         "Inglés",
+        "Español",
         "Portugués"
     ],
     "Nombre archivo": "1571181802382-CV_Alejandro_Ponce_1"

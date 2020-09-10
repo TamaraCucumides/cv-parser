@@ -1,36 +1,37 @@
 {
-    "Nombre": "Formación Académica Industrial ",
+    "Nombre": "Luis Patricio Silva ",
     "Correo": "rchaperon@enaprefinerías.cl",
     "Linkedin": null,
     "Celular": "+56999184441",
     "Skills": [
-        "Power point",
-        "Mysql",
-        "Sql",
+        "Sap",
+        "Macros",
         "Sharepoint",
-        "Vba",
         "Visual basic",
         "Microsoft sql server",
-        "Sap",
-        "Excel",
-        "Microsoft project",
-        "Macros",
-        "Word",
+        "Power point",
         "Python",
-        "C"
+        "Mysql",
+        "Word",
+        "C",
+        "Sql",
+        "Data science",
+        "Vba",
+        "Excel",
+        "Microsoft project"
     ],
     "Licencias-Certificaciones": [],
     "Grado": [
         "Ingeniería"
     ],
     "Palabras Claves": [
+        "Autodidacta",
+        "Gestión",
+        "Modelamiento",
         "Análisis",
         "Responsabilidad",
-        "Adaptable",
-        "Modelamiento",
         "Negociación",
-        "Gestión",
-        "Autodidacta"
+        "Adaptable"
     ],
     "Educacion": [
         "Universidad Técnica Federico Santa María"

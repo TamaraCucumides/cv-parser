@@ -6,25 +6,28 @@
     "Linkedin": null,
     "Celular": "+56982615603",
     "Skills": [
-        "Stata",
+        "Macros",
+        "Oracle",
         "Marketing",
         "Sql",
-        "Excel",
-        "Macros",
-        "Oracle"
+        "Stata",
+        "Excel"
     ],
     "Licencias-Certificaciones": [],
     "Grado": [
         "Ingeniero"
     ],
     "Palabras Claves": [
-        "Análisis",
-        "Estrategia",
-        "Motivación",
+        "Gestión",
         "Voluntariado",
-        "Gestión"
+        "Estrategia",
+        "Análisis",
+        "Motivación"
     ],
-    "Educacion": [],
+    "Educacion": [
+        "Pontificia Universidad Catolica de Chile",
+        "Universidad Católica de Chile"
+    ],
     "Lenguajes": [
         "Inglés"
     ],

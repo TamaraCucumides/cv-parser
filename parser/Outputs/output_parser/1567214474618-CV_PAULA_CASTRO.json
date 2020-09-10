@@ -4,30 +4,31 @@
     "Linkedin": null,
     "Celular": "+56979881402",
     "Skills": [
-        "Toeic",
-        "Licencia de conducir",
         "Sap",
-        "Crm",
-        "Scrum",
         "Office",
-        "Bases de datos"
+        "Scrum",
+        "Toeic",
+        "Bases de datos",
+        "Crm"
     ],
-    "Licencias-Certificaciones": [],
+    "Licencias-Certificaciones": [
+        "LICENCIA DE CONDUCIR"
+    ],
     "Grado": [
         "Máster"
     ],
     "Palabras Claves": [
-        "Estrategia",
-        "Liderar",
         "Liderazgo",
-        "Negociación",
+        "Liderar",
+        "Gestión",
         "Voluntariado",
-        "Gestión"
+        "Estrategia",
+        "Negociación"
     ],
     "Educacion": [
-        "Universidad Tecnológica Metropolitana",
         "Universidad Adolfo Ibáñez",
-        "Universidad de Chile"
+        "Universidad de Chile",
+        "Universidad Tecnológica Metropolitana"
     ],
     "Lenguajes": [
         "Inglés"

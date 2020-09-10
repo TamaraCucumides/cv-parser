@@ -1,19 +1,18 @@
 {
-    "Nombre": "Gabriela Mistral Titulado ",
+    "Nombre": "Gabriela Mistral ",
     "Correo": [
         "gigliomadridu@gmail.com"
     ],
     "Linkedin": null,
     "Celular": "+56976018648",
     "Skills": [
-        "Power point",
-        "Marketing",
-        "Ventas",
         "Power bi",
-        "Excel",
-        "Crm",
         "Office",
+        "Marketing",
+        "Power point",
         "Word",
+        "Crm",
+        "Excel",
         "Azure"
     ],
     "Licencias-Certificaciones": [],
@@ -21,18 +20,19 @@
         "Ingeniero"
     ],
     "Palabras Claves": [
-        "Estrategia",
-        "Responsabilidad",
-        "Adaptable",
         "Analizar",
-        "Modelamiento",
         "Liderazgo",
-        "Negociación",
+        "Gestión",
+        "Estrategia",
         "Creativo",
+        "Modelamiento",
+        "Responsabilidad",
         "Colaboración",
-        "Gestión"
+        "Negociación",
+        "Adaptable"
     ],
     "Educacion": [
+        "Universidad San Sebastián",
         "Universidad Gabriela Mistral"
     ],
     "Lenguajes": [],

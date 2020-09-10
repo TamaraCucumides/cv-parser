@@ -1,22 +1,24 @@
 {
-    "Nombre": "Información Personal Metalúrgico ",
+    "Nombre": null,
     "Correo": [
         "camilacordova02@gmail.com"
     ],
     "Linkedin": null,
     "Celular": "+56952519971",
     "Skills": [
-        "Power point",
-        "Licencia de conducir",
-        "Excel",
-        "Office",
         "Macros",
-        "Word",
+        "Office",
         "Visual basic",
         "Matlab",
-        "Autocad"
+        "Power point",
+        "Autocad",
+        "Word",
+        "Excel"
     ],
-    "Licencias-Certificaciones": [],
+    "Licencias-Certificaciones": [
+        "CLASE B",
+        "LICENCIA DE CONDUCIR"
+    ],
     "Grado": [
         "Ingeniería"
     ],
@@ -25,10 +27,9 @@
         "Voluntariado"
     ],
     "Educacion": [
-        "Universidad de Concepción",
         "Universidad de Antofagasta",
-        "Universidad Católica del Norte",
-        "Universidad Católica del norte"
+        "Universidad de Concepción",
+        "Universidad Católica del Norte"
     ],
     "Lenguajes": [],
     "Nombre archivo": "1568341836886-CV__Camila_Cordova__2019_PJP"

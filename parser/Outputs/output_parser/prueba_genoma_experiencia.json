@@ -7,28 +7,31 @@
     "Celular": "+56986634232",
     "Skills": [
         "Aws",
-        "Latex",
-        "Sql",
         "Java",
-        "Docker",
-        "Pytorch",
-        "Excel",
+        "Linux",
         "Verilog",
-        "Git",
+        "Deep learning",
+        "Pytorch",
         "Octave",
         "Python",
+        "Git",
+        "Sql",
         "C",
-        "Deep learning"
+        "Docker",
+        "Latex",
+        "Excel"
     ],
     "Licencias-Certificaciones": [],
     "Grado": [
         "Ingeniería"
     ],
     "Palabras Claves": [
-        "Aprender",
-        "Apasionado"
+        "Apasionado",
+        "Aprender"
     ],
-    "Educacion": [],
+    "Educacion": [
+        "Universidad de Chile"
+    ],
     "Lenguajes": [
         "Inglés",
         "Español"
