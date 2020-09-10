@@ -6,14 +6,15 @@
     "Linkedin": null,
     "Celular": "20182019",
     "Skills": [
-        "Erp",
-        "Oracle",
-        "Ventas",
         "Sql",
+        "Ventas",
+        "Trello",
+        "Salesforce",
         "Powerpoint",
-        "Sap",
         "Excel",
-        "Trello"
+        "Oracle",
+        "Crm",
+        "Sap"
     ],
     "Grado": [
         "Máster"
@@ -21,14 +22,14 @@
     "Palabras Claves": [
         "Gestión",
         "Responsabilidad",
-        "Liderazgo",
-        "Negociación",
-        "Análisis",
-        "Colaboración",
-        "Motivación",
         "Estrategia",
-        "Resiliencia",
-        "Compromiso"
+        "Análisis",
+        "Motivación",
+        "Colaboración",
+        "Negociación",
+        "Compromiso",
+        "Liderazgo",
+        "Resiliencia"
     ],
     "Educacion": [],
     "Lenguajes": [],

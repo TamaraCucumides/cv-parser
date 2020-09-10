@@ -6,31 +6,30 @@
     "Linkedin": null,
     "Celular": "+56930557657",
     "Skills": [
-        "Word",
         "Excel",
-        "Iot"
+        "Word"
     ],
     "Grado": [
         "Ingeniería"
     ],
     "Palabras Claves": [
         "Sociable",
-        "Negociación",
-        "Creativo",
-        "Proactividad",
-        "Aprender",
+        "Analizar",
         "Estrategia",
-        "Analizar"
+        "Creativo",
+        "Negociación",
+        "Aprender",
+        "Proactividad"
     ],
     "Educacion": [
         "Universidad del Desarrollo"
     ],
     "Lenguajes": [
-        "Alemán",
         "Alemán avanzado",
         "Inglés",
+        "Inglés intermedio",
         "Español",
-        "Inglés intermedio"
+        "Alemán"
     ],
     "Nombre archivo": "1582640494849-ANDRES_MENA_CV"
 }

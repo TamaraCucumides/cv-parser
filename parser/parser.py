@@ -88,6 +88,7 @@ if __name__ == '__main__':
         for filename in filenames:
             file = os.path.join(root, filename)
             resumes.append(file)
+    #resumes = [file for file in resumes if file.endswith('.pdf')]
     print('Procesando '+str(len(resumes)) + ' CVs')
     #Crear un objeto para cada CV y rellenar sus atributos.
     #results = [resume_result_wrapper(x) for x in resumes]

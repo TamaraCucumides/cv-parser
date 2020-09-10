@@ -139,6 +139,7 @@ def extraer_skills(nlp_text):
     for chunk in noun_chunks:
         st = chunk.text
         chunk_lower = st.lower()  
+        skills = [skill for skill in skills if len(skill.split())> 1] # solo los skills de más de una palabra
         for skill in skills:
                 skill_un = unidecode.unidecode(skill)
                 chunk_un = unidecode.unidecode(chunk_lower)
@@ -464,9 +465,9 @@ def busqueda_palabras_claves(text):
     stemmer = SnowballStemmer('spanish')
 
     word_tokens = word_tokenize(text) 
-    newStopWords = cargar_dict(os.getcwd() + '/parser/diccionarios/stop_words')
+    #newStopWords = cargar_dict(os.getcwd() + '/parser/diccionarios/stop_words')
     stopwords = nltk.corpus.stopwords.words('spanish')
-    stopwords.extend(newStopWords)
+    #stopwords.extend(newStopWords)
     stop_words = stopwords
     filtered_text = [w for w in word_tokens if not w in stop_words] 
 
