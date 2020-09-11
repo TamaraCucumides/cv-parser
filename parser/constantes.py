@@ -12,7 +12,7 @@ def cargar_dict(path):
     '''
     with open(path) as f:  
         array = [x.strip() for x in f]
-        c = [x for x in array if x != ''] # '' aparece cuando hay lines vacias
+        c = [x for x in array if x != ''] # '' aparece cuando hay lines vacias, las eliminamos.
     return c
 
 cwd = os.getcwd() +'/diccionarios/'

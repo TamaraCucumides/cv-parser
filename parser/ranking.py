@@ -11,10 +11,6 @@ import numpy as np
 
 import re
 
-# Se agregan STOP_WORDS desde el diccionario stop_words.txt
-#newStopWords = cargar_dict(os.getcwd() + '/parser/diccionarios/stop_words')
-#stopwords = nltk.corpus.stopwords.words('spanish')
-#stopwords.extend(newStopWords)
 
 
 print("Cargando embeddings")
@@ -57,7 +53,7 @@ descripcion_cargo = preprocesar_texto(descripcion_cargo_lema, stopwords) #elimin
 
 
 
-
+#########################################################################################################
 # Expandir descripcion usando palabra similares.
 # word_value contendrá todas las palabras de la descripcion de cargo + sus similares
 # de la siguiente forma: word_value{'palabra'} = similitud respecto a la original
@@ -66,6 +62,8 @@ descripcion_cargo = preprocesar_texto(descripcion_cargo_lema, stopwords) #elimin
 # word_value{'android'} = 1, similitud consigo mismo
 # word_value{'smartphone'} = 0.835 similitud con android
 # word_valeu{'iphone'} = 0.82 similitud con android
+##########################################################################################################
+
 
 word_value = {}
 num_palabras_similares = 2
@@ -74,11 +72,7 @@ for word in descripcion_cargo.split():
     for i in range(len(palabras_similares)):
         word_value[palabras_similares[i]] = word_value.get(palabras_similares[i], 0)+similarity[i]
 
-
 no_of_cv = len(cvs_seccionados)
-
-
-
 
 # Se procede a calcular IDF
 
@@ -112,15 +106,14 @@ for i in range(no_of_cv):
     edu_pro = preprocesar_texto(cvs_seccionados[i]['educación'], stopwords)
 
     for word in word_value.keys():
-        # Se calcula tf como el número de veces que aparece una palabra en el CV
+        # Se calcula tf como el número de veces que aparece una palabra en el CV. Donde
+        # el criterio de aparecer se relaciona con una simulitud superior al umbral
         n_skills = similitud(word, skill_pro.split(), model)
         n_exp = similitud(word, expe_pro.split(), model)
         n_edu = similitud(word, edu_pro.split(), model)
 
         tf = 1 + n_skills +  n_edu + n_exp 
         score[i] += word_value[word]*tf*idf[word]
-
-
 
 
 # Se crea una lista con los puntajes y el respectivo nombre del CV

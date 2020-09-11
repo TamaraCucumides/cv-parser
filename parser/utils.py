@@ -53,7 +53,7 @@ def extraer_texto(path):
             line_2=''
             for word in line.split():
                 if word.isupper(): # Si la palabra esta completamente en mayuscula
-                    line_2 += word.capitalize()+' '
+                    line_2 += word.capitalize()+' ' # HOLA---> Hola
 
                 else:
                     line_2 += word+ ' '
@@ -92,9 +92,9 @@ def extraer_mail(text):
 
 def extraer_fono(text):
     '''
-    Retorna numero de 8-11 digitos
-    Input: Texto plano
-    Output: Texto plano
+    Retorna numero de 8-11 digitos.
+    Input: Texto plano.
+    Output: Texto plano.
     Busca 8 a 9 digitos seguidos.
     EL texto en que se busca no contiene espacios ni guiones
     En el caso de detectar más de uno, se retorna el primero encontrado
@@ -116,7 +116,9 @@ def extraer_fono(text):
 def extraer_skills(text, nlp_text):
     
     '''
-    Funcion que busca los skill declarados del postulante
+    Input: String de texto.
+    Output: Lista con las skill encontradas.
+    Funcion que busca los skill declarados del postulante.
     Se buscan tanto skill de 1 token como de varios.
     Hace uso del diccionario skills.txt.
     '''
@@ -136,27 +138,11 @@ def extraer_skills(text, nlp_text):
         if token_un.lower() in skills:
             skillset.append(token)
     
-    # revisar frases
-    #for chunk in noun_chunks:
-    #    st = chunk.text
-        #print(st+ '\n')
-    #    chunk_lower = st.lower()  
-    #    skills = [skill for skill in skills if len(skill.split())> 1] # solo los skills de más de una palabra
-    #    for skill in skills:
-    #            skill_un = unidecode.unidecode(skill)
-    #            chunk_un = unidecode.unidecode(chunk_lower)
-    #            if skill_un.lower() in chunk_un.lower(): # si el skill se encuentra dentro de la frase
-    #                skillset.append(skill.capitalize())
-
-
-
+    # Revisar skills de más de una palabra.
     skills = [skill for skill in skills if len(skill.split())> 1]
     for item in skills:
         item_un = unidecode.unidecode(item)
         text_un = unidecode.unidecode(text.lower().replace('\n', ' '))
-        #noun_un = unidecode.unidecode(noun.text)
-        #if item_un.lower() in " ".join(noun_un.lower().split()):
-        #este if es mas costoso pero más efectivo, a veces el nltk se come los 'de'
         if item_un.lower() in text_un:
                 skillset.append(item)
     return [i.capitalize() for i in set([i.lower() for i in skillset])]
@@ -174,10 +160,6 @@ def extraer_licencias(text, nlp_text):
     licencias = cargar_dict(os.getcwd() +'/diccionarios/licencias_certificaciones')
     licencias = [unidecode.unidecode(licencia.lower()) for licencia in licencias]
     licencias_set = []
-    # lista de frases
-    #noun_chunks = list(nlp_text.noun_chunks)
-
-
     # revisar para palabras
     for token in tokens:
         token_un = unidecode.unidecode(token) # eliminar tildes
@@ -185,22 +167,10 @@ def extraer_licencias(text, nlp_text):
             licencias_set.append(token)
     
     # revisar frases
-    #for chunk in noun_chunks:
-    #    st = chunk.text
-    #    chunk_lower = st.lower()  
-    #    licencias = [licencia for licencia in licencias if len(licencia.split())> 1] # solo las licencias de más de una palabra
-    #    for licencia in licencias:
-    #            licencia_un = unidecode.unidecode(licencia)
-    #            chunk_un = unidecode.unidecode(chunk_lower)
-    #            if licencia_un.lower() in chunk_un.lower(): # si el skill se encuentra dentro de la frase
-    #                licencias_set.append(licencia.capitalize())
-
     licencias = [licencia for licencia in licencias if len(licencia.split())> 1]
     for item in licencias:
         item_un = unidecode.unidecode(item)
         text_un = unidecode.unidecode(text.lower().replace('\n', ' '))
-        #noun_un = unidecode.unidecode(noun.text)
-        #if item_un.lower() in " ".join(noun_un.lower().split()):
         #este if es mas costoso pero más efectivo, a veces el nltk se come los 'de'
         if item_un.lower() in text_un:
                 licencias_set.append(item)

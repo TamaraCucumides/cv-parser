@@ -98,21 +98,10 @@ if __name__ == '__main__':
         for filename in filenames:
             file = os.path.join(root, filename)
             resumes.append(file)
-    
-   
 
-    #Tk().withdraw() # we don't want a full GUI, so keep the root window from appearing
-    #resumes = askopenfilename() # show an "Open" dialog box and return the path to the selected file
-    #print(resumes)
-    #resumes = [resumes]
-    
-    
-    
-    
-    #resumes = [file for file in resumes if file.endswith('.pdf')]
     print('Procesando '+str(len(resumes)) + ' CVs')
+    
     #Crear un objeto para cada CV y rellenar sus atributos.
-
     results= [pool.apply_async(resume_result_wrapper(cv), args=(cv,)) for cv in resumes]
 
  
