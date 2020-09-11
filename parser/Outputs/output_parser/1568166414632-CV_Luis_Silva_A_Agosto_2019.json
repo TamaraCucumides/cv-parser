@@ -4,40 +4,42 @@
     "Linkedin": null,
     "Celular": "+56999184441",
     "Skills": [
-        "Sap",
-        "Macros",
-        "Sharepoint",
         "Visual basic",
-        "Microsoft sql server",
-        "Power point",
-        "Python",
-        "Mysql",
-        "Word",
-        "C",
-        "Sql",
         "Data science",
-        "Vba",
+        "C",
+        "Microsoft sql server",
         "Excel",
-        "Microsoft project"
+        "Python",
+        "Sharepoint",
+        "Mysql",
+        "Power point",
+        "Sap",
+        "Word",
+        "Sql",
+        "Vba",
+        "Power bi",
+        "Microsoft project",
+        "Macros"
     ],
     "Licencias-Certificaciones": [],
     "Grado": [
         "Ingeniería"
     ],
     "Palabras Claves": [
-        "Autodidacta",
         "Gestión",
-        "Modelamiento",
-        "Análisis",
         "Responsabilidad",
+        "Análisis",
+        "Modelamiento",
         "Negociación",
+        "Autodidacta",
         "Adaptable"
     ],
     "Educacion": [
         "Universidad Técnica Federico Santa María"
     ],
     "Lenguajes": [
-        "Inglés"
+        "Inglés",
+        "English"
     ],
     "Nombre archivo": "1568166414632-CV_Luis_Silva_A_Agosto_2019"
 }

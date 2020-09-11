@@ -8,32 +8,34 @@
         "950058222"
     ],
     "Skills": [
-        "Sap",
-        "Office",
-        "Marketing",
         "Access",
-        "Excel"
+        "Office",
+        "Excel",
+        "Sap"
     ],
-    "Licencias-Certificaciones": [],
+    "Licencias-Certificaciones": [
+        "CLASE B",
+        "LICENCIA DE CONDUCIR"
+    ],
     "Grado": [
         "Magíster"
     ],
     "Palabras Claves": [
-        "Liderazgo",
         "Liderar",
         "Gestión",
+        "Responsabilidad",
         "Modelamiento",
         "Comprometido",
-        "Responsabilidad",
-        "Colaboración",
+        "Negociación",
         "Proactividad",
-        "Negociación"
+        "Liderazgo",
+        "Colaboración"
     ],
     "Educacion": [
-        "Universidad Diego Portales",
-        "Universidad de Santiago de Chile",
+        "Universidad de Chile",
         "Universidad Adolfo Ibáñez",
-        "Universidad de Chile"
+        "Universidad de Santiago de Chile",
+        "Universidad Diego Portales"
     ],
     "Lenguajes": [],
     "Nombre archivo": "1568343818883-CV_PAULINA_MORENO"

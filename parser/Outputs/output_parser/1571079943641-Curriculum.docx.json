@@ -6,19 +6,21 @@
     "Linkedin": null,
     "Celular": "981253950",
     "Skills": [
-        "Resso",
-        "Sigo"
+        "Sigo",
+        "Resso"
     ],
-    "Licencias-Certificaciones": [],
+    "Licencias-Certificaciones": [
+        "CLASE B"
+    ],
     "Grado": [
         "Ingeniería"
     ],
     "Palabras Claves": [
+        "Motivación",
         "Resiliencia",
         "Aprender",
-        "Creativo",
         "Adaptable",
-        "Motivación"
+        "Creativo"
     ],
     "Educacion": [
         "Instituto Profesional AIEP"

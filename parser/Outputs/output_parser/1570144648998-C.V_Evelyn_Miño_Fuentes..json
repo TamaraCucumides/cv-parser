@@ -6,10 +6,10 @@
     "Linkedin": null,
     "Celular": "+56977855057",
     "Skills": [
-        "Word",
-        "Excel",
         "Defontana",
-        "Powerpoint"
+        "Powerpoint",
+        "Excel",
+        "Word"
     ],
     "Licencias-Certificaciones": [],
     "Grado": [
@@ -17,15 +17,15 @@
     ],
     "Palabras Claves": [
         "Negociación",
-        "Responsabilidad",
-        "Gestión"
+        "Gestión",
+        "Responsabilidad"
     ],
     "Educacion": [
+        "Universidad Técnica Federico Santa María",
+        "Universidad Católica de Chile",
+        "Instituto Chileno Británico de Cultura",
         "Pontificia Universidad Catolica de Chile",
         "Instituto Chileno Norteamericano",
-        "Universidad Católica de Chile",
-        "Universidad Técnica Federico Santa María",
-        "Instituto Chileno Británico de Cultura",
         "Universidad Andrés Bello"
     ],
     "Lenguajes": [

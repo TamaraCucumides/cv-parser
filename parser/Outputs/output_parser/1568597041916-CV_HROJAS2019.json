@@ -4,32 +4,35 @@
     "Linkedin": null,
     "Celular": "+56941038636",
     "Skills": [
+        "Powerpoint",
         "Office",
-        "Autocad",
-        "Word",
         "Excel",
-        "Powerpoint"
+        "Word",
+        "Autocad",
+        "Ventsim"
     ],
-    "Licencias-Certificaciones": [],
+    "Licencias-Certificaciones": [
+        "CLASE B"
+    ],
     "Grado": [
         "Ingeniería"
     ],
     "Palabras Claves": [
-        "Puntual",
-        "Voluntariado",
+        "Responsabilidad",
         "Modelamiento",
         "Disposición",
-        "Compromiso",
-        "Responsabilidad",
-        "Proactividad"
+        "Puntual",
+        "Voluntariado",
+        "Proactividad",
+        "Compromiso"
     ],
     "Educacion": [
         "Universidad de Aconcagua",
         "Instituto Profesional INACAP"
     ],
     "Lenguajes": [
-        "Inglés intermedio",
         "Inglés",
+        "Inglés intermedio",
         "Español"
     ],
     "Nombre archivo": "1568597041916-CV_HROJAS2019"

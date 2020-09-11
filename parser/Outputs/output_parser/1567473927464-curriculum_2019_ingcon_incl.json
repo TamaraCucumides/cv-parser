@@ -1,0 +1,40 @@
+{
+    "Nombre": "Perfil Eléctrico Licenciado ",
+    "Correo": "zambrano.lovera@gmail.com",
+    "Linkedin": null,
+    "Celular": "+56972459436",
+    "Skills": [
+        "Office",
+        "Powerpoint",
+        "Excel",
+        "Mathematica",
+        "Access",
+        "Autocad",
+        "Word",
+        "Digsilent",
+        "Dialux"
+    ],
+    "Licencias-Certificaciones": [
+        "SEC CLASE A",
+        "INSTALADOR ELECTRICO"
+    ],
+    "Grado": [
+        "Ingeniería"
+    ],
+    "Palabras Claves": [
+        "Gestión",
+        "Tolerancia",
+        "Análisis"
+    ],
+    "Educacion": [
+        "Pontificia Universidad Católica de Valparaíso",
+        "Universidad Técnica Federico Santa María"
+    ],
+    "Lenguajes": [
+        "Español nativo",
+        "Inglés intermedio",
+        "Inglés",
+        "Español"
+    ],
+    "Nombre archivo": "1567473927464-curriculum_2019_ingcon_incl"
+}

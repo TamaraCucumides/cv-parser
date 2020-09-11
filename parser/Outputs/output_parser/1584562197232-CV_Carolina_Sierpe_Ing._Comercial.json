@@ -4,8 +4,8 @@
     "Linkedin": null,
     "Celular": "981921779",
     "Skills": [
-        "Python",
         "Office",
+        "Python",
         "Sql",
         "Stata"
     ],
@@ -14,14 +14,14 @@
         "Ingeniería"
     ],
     "Palabras Claves": [
-        "Estrategia",
-        "Aprender",
-        "Creativo",
         "Responsabilidad",
         "Apasionado",
-        "Proactividad",
+        "Aprender",
         "Negociación",
-        "Adaptable"
+        "Adaptable",
+        "Proactividad",
+        "Estrategia",
+        "Creativo"
     ],
     "Educacion": [
         "Pontificia Universidad Catolica de Chile",
@@ -29,6 +29,7 @@
     ],
     "Lenguajes": [
         "Inglés",
+        "English",
         "Inglés escrito"
     ],
     "Nombre archivo": "1584562197232-CV_Carolina_Sierpe_Ing._Comercial"

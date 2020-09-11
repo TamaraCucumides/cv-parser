@@ -8,24 +8,28 @@
         "56988076057"
     ],
     "Skills": [
-        "Excel"
+        "Excel",
+        "Bases de datos"
     ],
-    "Licencias-Certificaciones": [],
+    "Licencias-Certificaciones": [
+        "CLASE B",
+        "LICENCIA DE CONDUCIR"
+    ],
     "Grado": [
         "Ingeniería"
     ],
     "Palabras Claves": [
-        "Voluntariado",
-        "Alegre",
-        "Sociable",
-        "Aprender",
-        "Creativo",
-        "Modelamiento",
-        "Responsabilidad",
-        "Colaboración",
         "Amigable",
+        "Responsabilidad",
+        "Modelamiento",
+        "Sociable",
+        "Alegre",
+        "Voluntariado",
+        "Aprender",
         "Negociación",
-        "Adaptable"
+        "Adaptable",
+        "Colaboración",
+        "Creativo"
     ],
     "Educacion": [
         "Pontificia Universidad Catolica de Chile",
@@ -33,9 +37,9 @@
     ],
     "Lenguajes": [
         "Español nativo",
-        "Inglés",
         "Inglés avanzado",
-        "Español"
+        "Español",
+        "Inglés"
     ],
     "Nombre archivo": "1586809060281-CV_Constanza_Arredondo_Berrios."
 }

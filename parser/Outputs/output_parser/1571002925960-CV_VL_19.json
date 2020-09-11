@@ -7,12 +7,11 @@
     "Celular": "+56940440778",
     "Skills": [
         "Office",
-        "Marketing",
-        "Word",
-        "Sql",
-        "Access",
         "Crm",
-        "Excel"
+        "Excel",
+        "Access",
+        "Sql",
+        "Word"
     ],
     "Licencias-Certificaciones": [],
     "Grado": [
@@ -20,20 +19,21 @@
     ],
     "Palabras Claves": [
         "Liderar",
-        "Perfeccionista",
         "Gestión",
-        "Aprender",
-        "Análisis",
         "Responsabilidad",
+        "Análisis",
+        "Perfeccionista",
+        "Aprender",
         "Negociación"
     ],
     "Educacion": [
         "Universidad de Chile",
-        "Universidad Católica de Chile",
-        "Pontificia Universidad Catolica de Chile"
+        "Pontificia Universidad Catolica de Chile",
+        "Universidad Católica de Chile"
     ],
     "Lenguajes": [
-        "Inglés"
+        "Inglés",
+        "English"
     ],
     "Nombre archivo": "1571002925960-CV_VL_19"
 }

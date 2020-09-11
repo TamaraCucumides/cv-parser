@@ -113,7 +113,7 @@ def extraer_fono(text):
     return numbers
 
 
-def extraer_skills(nlp_text):
+def extraer_skills(text, nlp_text):
     
     '''
     Funcion que busca los skill declarados del postulante
@@ -127,7 +127,7 @@ def extraer_skills(nlp_text):
 
     skillset = []
     # lista de frases
-    noun_chunks = list(nlp_text.noun_chunks)
+    #noun_chunks = list(nlp_text.noun_chunks)
 
 
     # revisar para palabras
@@ -137,19 +137,32 @@ def extraer_skills(nlp_text):
             skillset.append(token)
     
     # revisar frases
-    for chunk in noun_chunks:
-        st = chunk.text
-        chunk_lower = st.lower()  
-        skills = [skill for skill in skills if len(skill.split())> 1] # solo los skills de más de una palabra
-        for skill in skills:
-                skill_un = unidecode.unidecode(skill)
-                chunk_un = unidecode.unidecode(chunk_lower)
-                if skill_un.lower() in chunk_un.lower(): # si el skill se encuentra dentro de la frase
-                    skillset.append(skill.capitalize())
+    #for chunk in noun_chunks:
+    #    st = chunk.text
+        #print(st+ '\n')
+    #    chunk_lower = st.lower()  
+    #    skills = [skill for skill in skills if len(skill.split())> 1] # solo los skills de más de una palabra
+    #    for skill in skills:
+    #            skill_un = unidecode.unidecode(skill)
+    #            chunk_un = unidecode.unidecode(chunk_lower)
+    #            if skill_un.lower() in chunk_un.lower(): # si el skill se encuentra dentro de la frase
+    #                skillset.append(skill.capitalize())
+
+
+
+    skills = [skill for skill in skills if len(skill.split())> 1]
+    for item in skills:
+        item_un = unidecode.unidecode(item)
+        text_un = unidecode.unidecode(text.lower().replace('\n', ' '))
+        #noun_un = unidecode.unidecode(noun.text)
+        #if item_un.lower() in " ".join(noun_un.lower().split()):
+        #este if es mas costoso pero más efectivo, a veces el nltk se come los 'de'
+        if item_un.lower() in text_un:
+                skillset.append(item)
     return [i.capitalize() for i in set([i.lower() for i in skillset])]
 
 
-def extraer_licencias(nlp_text):
+def extraer_licencias(text, nlp_text):
     '''
     Funcion que busca los skill declarados del postulante
     Se buscan tanto skill de 1 token como de varios.
@@ -159,10 +172,10 @@ def extraer_licencias(nlp_text):
     tokens = [token.text for token in nlp_text if not token.is_stop]
  
     licencias = cargar_dict(os.getcwd() +'/parser/diccionarios/licencias_certificaciones')
-
+    licencias = [unidecode.unidecode(licencia.lower()) for licencia in licencias]
     licencias_set = []
     # lista de frases
-    noun_chunks = list(nlp_text.noun_chunks)
+    #noun_chunks = list(nlp_text.noun_chunks)
 
 
     # revisar para palabras
@@ -172,16 +185,26 @@ def extraer_licencias(nlp_text):
             licencias_set.append(token)
     
     # revisar frases
-    for chunk in noun_chunks:
-        st = chunk.text
-        chunk_lower = st.lower()  
-        licencias = [licencia for licencia in licencias if len(licencia.split())> 1] # solo las licencias de más de una palabra
-        for licencia in licencias:
-                licencia_un = unidecode.unidecode(licencia)
-                chunk_un = unidecode.unidecode(chunk_lower)
-                if licencia_un.lower() in chunk_un.lower(): # si el skill se encuentra dentro de la frase
-                    licencias_set.append(licencia.capitalize())
-     
+    #for chunk in noun_chunks:
+    #    st = chunk.text
+    #    chunk_lower = st.lower()  
+    #    licencias = [licencia for licencia in licencias if len(licencia.split())> 1] # solo las licencias de más de una palabra
+    #    for licencia in licencias:
+    #            licencia_un = unidecode.unidecode(licencia)
+    #            chunk_un = unidecode.unidecode(chunk_lower)
+    #            if licencia_un.lower() in chunk_un.lower(): # si el skill se encuentra dentro de la frase
+    #                licencias_set.append(licencia.capitalize())
+
+    licencias = [licencia for licencia in licencias if len(licencia.split())> 1]
+    for item in licencias:
+        item_un = unidecode.unidecode(item)
+        text_un = unidecode.unidecode(text.lower().replace('\n', ' '))
+        #noun_un = unidecode.unidecode(noun.text)
+        #if item_un.lower() in " ".join(noun_un.lower().split()):
+        #este if es mas costoso pero más efectivo, a veces el nltk se come los 'de'
+        if item_un.lower() in text_un:
+                licencias_set.append(item)
+        
     return [i.upper() for i in set([i.lower() for i in licencias_set])]
 
 
@@ -259,8 +282,12 @@ def extraer_idiomas(text, nlp_text):
         for noun in noun_chunks:
             item_un = unidecode.unidecode(item)
             noun_un = unidecode.unidecode(noun.text)
-            if item_un.lower() in noun_un.lower() :
-                idiomas_cv.append(item.capitalize())
+            if len(item_un.split())>1:
+                if item_un.lower() in noun_un.lower() :
+                    idiomas_cv.append(item.capitalize())
+            else: 
+                if item_un.lower() in  noun_un.lower().split() :
+                    idiomas_cv.append(item.capitalize())
     return list(set(idiomas_cv))
 
 
@@ -484,12 +511,17 @@ def extraer_linkedin(text):
     Funcion que captura el perfil de Linkedin del postulante
     se busca con una expression regular https://wwww.linkedin..........
     '''
-    regex = re.compile(r"(?:https?:)?\/\/(?:[\w]+\.)?linkedin\.com\/in\/(?P<permalink>[\w\-\_À-ÿ%]+)\/?")
-    profile = re.findall(regex, text)
-    if profile:
-        return 'https://www.linkedin.com/in/' + profile[0]
-    else:
-        return None
+    #regex = re.compile(r"(?:https?:)?\/\/(?:[\w]+\.)?linkedin\.com\/in\/(?P<permalink>[\w\-\_À-ÿ%]+)\/?")
+    regex = re.compile(r"\b((?:https?://|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:'\"]))")
+    links = re.findall(regex, text) # resultado de la forma ('www.linkedin.com/in/florenciavillegasduhau', '', '', '', ''), tupla de 4 elementos
+    #print(profile[1])
+    link_linkedin = None
+    if links:
+        for link in links:
+            if 'linkedin' in link[0]:
+                link_linkedin = link[0]
+        #return 'https://www.linkedin.com/in/' + profile[0]
+    return link_linkedin
 
 
 def busqueda_palabras_claves(text):

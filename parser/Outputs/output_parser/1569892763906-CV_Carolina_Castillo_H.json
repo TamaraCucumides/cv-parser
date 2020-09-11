@@ -3,22 +3,24 @@
     "Correo": "carolina.castillo@outlook.com",
     "Linkedin": null,
     "Celular": "+56956679116",
-    "Skills": [],
+    "Skills": [
+        "Base de datos"
+    ],
     "Licencias-Certificaciones": [],
     "Grado": [
         "Ingeniería"
     ],
     "Palabras Claves": [
         "Liderar",
-        "Gestión",
-        "Análisis",
         "Responsabilidad",
+        "Análisis",
+        "Gestión",
         "Colaboración"
     ],
     "Educacion": [
         "Instituto Profesional DUOC UC",
-        "Universidad de Santiago de Chile",
         "Pontificia Universidad Catolica de Chile",
+        "Universidad de Santiago de Chile",
         "Universidad Católica de Chile"
     ],
     "Lenguajes": [

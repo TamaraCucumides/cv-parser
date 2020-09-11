@@ -1,16 +1,17 @@
 {
-    "Nombre": "Resumen Profesional ",
+    "Nombre": null,
     "Correo": [
         "patricioabelmc@hotmail.com"
     ],
-    "Linkedin": "https://www.linkedin.com/in/patriciomendezcaneo",
+    "Linkedin": "www.linkedin.com/in/patriciomendezcaneo/",
     "Celular": "+56978971888",
     "Skills": [
+        "Powerpoint",
         "Office",
-        "Vulcan",
-        "Word",
         "Excel",
-        "Powerpoint"
+        "Base de datos",
+        "Vulcan",
+        "Word"
     ],
     "Licencias-Certificaciones": [
         "CLASE B",
@@ -20,10 +21,10 @@
         "Egresado"
     ],
     "Palabras Claves": [
-        "Análisis",
-        "Modelamiento",
         "Adaptable",
-        "Responsabilidad"
+        "Responsabilidad",
+        "Análisis",
+        "Modelamiento"
     ],
     "Educacion": [
         "Universidad Católica del Norte"

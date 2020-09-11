@@ -6,16 +6,20 @@
     "Linkedin": null,
     "Celular": "+56954459226",
     "Skills": [
-        "Autocad",
-        "Excel"
+        "Excel",
+        "Ventsim",
+        "Autocad"
     ],
-    "Licencias-Certificaciones": [],
+    "Licencias-Certificaciones": [
+        "CLASE B",
+        "LICENCIA DE CONDUCIR"
+    ],
     "Grado": [
         "Ingeniería"
     ],
     "Palabras Claves": [
-        "Liderazgo",
-        "Gestión"
+        "Gestión",
+        "Liderazgo"
     ],
     "Educacion": [
         "Universidad de Santiago de Chile"

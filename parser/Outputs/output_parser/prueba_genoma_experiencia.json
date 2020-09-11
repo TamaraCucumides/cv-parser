@@ -3,23 +3,23 @@
     "Correo": [
         "erwinpaillacan@gmail.com"
     ],
-    "Linkedin": "https://www.linkedin.com/in/erwinpaillacan",
+    "Linkedin": "www.linkedin.com/in/erwinpaillacan/",
     "Celular": "+56986634232",
     "Skills": [
-        "Aws",
-        "Java",
-        "Linux",
-        "Verilog",
-        "Deep learning",
-        "Pytorch",
-        "Octave",
-        "Python",
         "Git",
-        "Sql",
-        "C",
+        "Verilog",
+        "Java",
         "Docker",
+        "C",
         "Latex",
-        "Excel"
+        "Python",
+        "Excel",
+        "Aws",
+        "Octave",
+        "Pytorch",
+        "Sql",
+        "Deep learning",
+        "Linux"
     ],
     "Licencias-Certificaciones": [],
     "Grado": [

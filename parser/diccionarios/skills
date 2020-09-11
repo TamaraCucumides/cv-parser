@@ -85,7 +85,6 @@ oracle
 sap
 erp
 git
-marketing
 qlikview
 instoreview
 nielsen
@@ -114,9 +113,14 @@ vmware
 dynamics
 iaas
 solomon
+sony vegas
+after effects
+inventor
+autodesk
+ubuntu
+solidworks
 php
 metodologías ágiles
-c
 procesamiento de lenguaje natural
 natural language proccessing
 computer vision
@@ -126,6 +130,7 @@ deep learning
 notion
 iso 27001
 cobit
+ventsim
 itil
 data science
 big data
@@ -159,5 +164,8 @@ django
 kafka
 hadoop
 scikit-learn
+digsilent
+dialux
+mathematica
 
 

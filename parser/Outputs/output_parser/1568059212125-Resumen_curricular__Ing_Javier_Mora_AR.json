@@ -8,24 +8,26 @@
         "54911736337"
     ],
     "Skills": [
-        "Sap",
-        "Router",
         "Office",
+        "Crm",
         "Siebel",
         "Gateway",
         "Access",
-        "Crm"
+        "Sap",
+        "Router"
     ],
-    "Licencias-Certificaciones": [],
+    "Licencias-Certificaciones": [
+        "LICENCIA CONDUCIR"
+    ],
     "Grado": [
         "Ingeniero"
     ],
     "Palabras Claves": [
-        "Liderazgo",
         "Gestión",
-        "Estrategia",
         "Análisis",
-        "Negociación"
+        "Negociación",
+        "Estrategia",
+        "Liderazgo"
     ],
     "Educacion": [],
     "Lenguajes": [

@@ -6,28 +6,25 @@
     "Linkedin": null,
     "Celular": "+56984095700",
     "Skills": [
-        "Marketing",
         "Office"
     ],
-    "Licencias-Certificaciones": [
-        "TOIC"
-    ],
+    "Licencias-Certificaciones": [],
     "Grado": [
         "Ingeniero"
     ],
     "Palabras Claves": [
-        "Liderazgo",
         "Liderar",
         "Gestión",
-        "Voluntariado",
-        "Estrategia",
         "Responsabilidad",
-        "Negociación"
+        "Voluntariado",
+        "Negociación",
+        "Estrategia",
+        "Liderazgo"
     ],
     "Educacion": [
+        "Universidad del Desarrollo",
         "Pontificia Universidad Catolica de Chile",
-        "Universidad Católica de Chile",
-        "Universidad del Desarrollo"
+        "Universidad Católica de Chile"
     ],
     "Lenguajes": [
         "Inglés"

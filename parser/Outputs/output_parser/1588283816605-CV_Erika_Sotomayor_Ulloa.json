@@ -6,25 +6,26 @@
     "Linkedin": null,
     "Celular": "+56989999586",
     "Skills": [
-        "Power bi",
-        "Marketing",
-        "Python",
-        "Machine learning",
-        "Sql",
-        "Stata",
         "Toeic",
-        "Excel"
+        "Python",
+        "Excel",
+        "Stata",
+        "Sql",
+        "Power bi",
+        "Machine learning"
     ],
-    "Licencias-Certificaciones": [],
+    "Licencias-Certificaciones": [
+        "TOEIC"
+    ],
     "Grado": [
         "Ingeniería"
     ],
     "Palabras Claves": [
-        "Gestión",
-        "Estrategia",
-        "Aprender",
         "Análisis",
-        "Modelamiento"
+        "Modelamiento",
+        "Aprender",
+        "Gestión",
+        "Estrategia"
     ],
     "Educacion": [
         "Universidad Santo Tomas",

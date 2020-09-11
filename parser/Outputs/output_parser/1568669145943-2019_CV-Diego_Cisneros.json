@@ -5,33 +5,35 @@
     "Celular": "+56989542441",
     "Skills": [
         "Office",
-        "Matlab",
-        "Power point",
-        "Autocad",
-        "Word",
         "C",
+        "Matlab",
+        "Excel",
         "Toeic",
-        "Excel"
+        "Power point",
+        "Word",
+        "Autocad"
     ],
-    "Licencias-Certificaciones": [],
+    "Licencias-Certificaciones": [
+        "TOEIC"
+    ],
     "Grado": [
         "Ingeniería"
     ],
     "Palabras Claves": [
-        "Gestión",
+        "Motivación",
         "Modelamiento",
         "Análisis",
-        "Colaboración",
+        "Gestión",
         "Proactividad",
-        "Motivación"
+        "Colaboración"
     ],
     "Educacion": [
         "Pontificia Universidad Catolica de Chile",
         "Universidad Católica de Chile"
     ],
     "Lenguajes": [
-        "Inglés intermedio",
-        "Inglés"
+        "Inglés",
+        "Inglés intermedio"
     ],
     "Nombre archivo": "1568669145943-2019_CV-Diego_Cisneros"
 }

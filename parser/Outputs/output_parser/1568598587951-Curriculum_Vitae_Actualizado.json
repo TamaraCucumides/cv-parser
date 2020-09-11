@@ -6,20 +6,24 @@
     "Linkedin": null,
     "Celular": "+56958573330",
     "Skills": [
+        "C",
         "Arduino",
         "Matlab",
-        "Machine learning",
+        "Excel",
         "Word",
-        "C",
-        "Excel"
+        "Machine learning",
+        "Procesamiento digital de imágenes"
     ],
-    "Licencias-Certificaciones": [],
+    "Licencias-Certificaciones": [
+        "CLASE B",
+        "LICENCIA DE CONDUCIR"
+    ],
     "Grado": [
         "Ingeniería"
     ],
     "Palabras Claves": [
-        "Aprender",
         "Adaptable",
+        "Aprender",
         "Creativo"
     ],
     "Educacion": [

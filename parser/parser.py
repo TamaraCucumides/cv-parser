@@ -6,6 +6,12 @@ import pprint
 import nltk
 import os
 import multiprocessing as mp
+import timeit
+
+
+from tkinter import Tk     # from tkinter import Tk for Python 3.x
+from tkinter.filedialog import askopenfilename
+
 #Utilidad para limpiar la consola
 os.system('cls' if os.name == 'nt' else 'clear')
 
@@ -40,13 +46,13 @@ class CvParser:
         nombre = utils.extraer_nombre(self.raw_text, self.nlp)
         correo = utils.extraer_mail(self.raw_text)
         celular = utils.extraer_fono(self.raw_text)
-        skills = utils.extraer_skills( self.nlp)
+        skills = utils.extraer_skills(self.raw_text, self.nlp)
         educacion = utils.extraer_educacion(self.raw_text, self.nlp)
         grado = utils.extraer_grado(self.raw_text)
         Lenguajes = utils.extraer_idiomas(self.raw_text, self.nlp)
         Linkedin = utils.extraer_linkedin(self.raw_text)
         palabras_claves = utils.busqueda_palabras_claves(self.raw_text)
-        licencias = utils.extraer_licencias(self.nlp)
+        licencias = utils.extraer_licencias(self.raw_text, self.nlp)
 
 
         self.parsed["Nombre"] = nombre
@@ -80,6 +86,7 @@ def resume_result_wrapper(resume):
 
 
 if __name__ == '__main__':
+    
     pool = mp.Pool(mp.cpu_count())
     resumes = []
     direc = os.getcwd()
@@ -91,13 +98,24 @@ if __name__ == '__main__':
         for filename in filenames:
             file = os.path.join(root, filename)
             resumes.append(file)
+    
+   
+
+    #Tk().withdraw() # we don't want a full GUI, so keep the root window from appearing
+    #resumes = askopenfilename() # show an "Open" dialog box and return the path to the selected file
+    #print(resumes)
+    #resumes = [resumes]
+    
+    
+    
+    
     #resumes = [file for file in resumes if file.endswith('.pdf')]
     print('Procesando '+str(len(resumes)) + ' CVs')
     #Crear un objeto para cada CV y rellenar sus atributos.
-    #results = [resume_result_wrapper(x) for x in resumes]
+
     results= [pool.apply_async(resume_result_wrapper(cv), args=(cv,)) for cv in resumes]
 
-    # Exportar toda la informacion extraida a un arhivo .json para cada cv
+ 
     
-        
+  
     print('Finalizado')

@@ -6,28 +6,29 @@
     "Linkedin": null,
     "Celular": "+51965764579",
     "Skills": [
-        "Vmware",
         "Office",
-        "Dynamics",
+        "Crm",
+        "Vmware",
+        "Zoho",
         "Salesforce",
         "Oracle",
-        "Zoho",
-        "Marketing",
-        "Crm",
+        "Dynamics",
         "Iaas",
         "Coaching"
     ],
-    "Licencias-Certificaciones": [],
+    "Licencias-Certificaciones": [
+        "IAAS"
+    ],
     "Grado": [
         "Licenciatura"
     ],
     "Palabras Claves": [
         "Gestión",
-        "Estrategia",
-        "Análisis",
         "Responsabilidad",
+        "Análisis",
+        "Negociación",
         "Proactividad",
-        "Negociación"
+        "Estrategia"
     ],
     "Educacion": [],
     "Lenguajes": [
