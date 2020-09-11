@@ -6,13 +6,13 @@
     "Linkedin": null,
     "Celular": "+56989999586",
     "Skills": [
-        "Toeic",
+        "Machine learning",
         "Python",
-        "Excel",
-        "Stata",
-        "Sql",
         "Power bi",
-        "Machine learning"
+        "Excel",
+        "Toeic",
+        "Stata",
+        "Sql"
     ],
     "Licencias-Certificaciones": [
         "TOEIC"
@@ -21,16 +21,16 @@
         "Ingeniería"
     ],
     "Palabras Claves": [
-        "Análisis",
+        "Gestión",
         "Modelamiento",
         "Aprender",
-        "Gestión",
-        "Estrategia"
+        "Estrategia",
+        "Análisis"
     ],
     "Educacion": [
-        "Universidad Santo Tomas",
         "Pontificia Universidad Catolica de Chile",
-        "Universidad Católica de Chile"
+        "Universidad Católica de Chile",
+        "Universidad Santo Tomas"
     ],
     "Lenguajes": [
         "Inglés"

@@ -123,7 +123,7 @@ def extraer_skills(text, nlp_text):
     # eliminar stopwords
     tokens = [token.text for token in nlp_text if not token.is_stop]
  
-    skills = cargar_dict(os.getcwd() +'/parser/diccionarios/skills')
+    skills = cargar_dict(os.getcwd() +'/diccionarios/skills')
 
     skillset = []
     # lista de frases
@@ -171,7 +171,7 @@ def extraer_licencias(text, nlp_text):
     # eliminar stopwords
     tokens = [token.text for token in nlp_text if not token.is_stop]
  
-    licencias = cargar_dict(os.getcwd() +'/parser/diccionarios/licencias_certificaciones')
+    licencias = cargar_dict(os.getcwd() +'/diccionarios/licencias_certificaciones')
     licencias = [unidecode.unidecode(licencia.lower()) for licencia in licencias]
     licencias_set = []
     # lista de frases
@@ -428,7 +428,7 @@ def extraer_nombre(text, nlp_text):
     '''
     text = text[0:math.floor(len(text)/16)]
     nlp = es_core_news_sm.load()
-    newStopWords = cargar_dict(os.getcwd() + '/parser/diccionarios/stop_words_nombres')
+    newStopWords = cargar_dict(os.getcwd() + '/diccionarios/stop_words_nombres')
     stopwords = nltk.corpus.stopwords.words('spanish')
     stopwords.extend(newStopWords)
     # Se procesa el 25% superior del texto. Se asume que el nombre deberia estar arriba

@@ -6,35 +6,35 @@
     "Linkedin": null,
     "Celular": "+56984293135",
     "Skills": [
-        "Crm",
-        "Scikit-learn",
-        "Inventor",
-        "Matlab",
-        "Python",
-        "Numpy",
-        "Excel",
-        "Oﬃce",
         "Oracle",
-        "Sql"
+        "Oﬃce",
+        "Python",
+        "Inventor",
+        "Crm",
+        "Excel",
+        "Scikit-learn",
+        "Sql",
+        "Numpy",
+        "Matlab"
     ],
     "Licencias-Certificaciones": [],
     "Grado": [
         "Magíster"
     ],
     "Palabras Claves": [
+        "Modelamiento",
         "Negociación",
-        "Gestión",
-        "Modelamiento"
+        "Gestión"
     ],
     "Educacion": [
         "Universidad Técnica Federico Santa María"
     ],
     "Lenguajes": [
-        "Portugués avanzado",
         "English",
-        "Español nativo",
         "Español",
-        "Portugués"
+        "Español nativo",
+        "Portugués",
+        "Portugués avanzado"
     ],
     "Nombre archivo": "1568336133961-CV_Daniela_Cortes"
 }

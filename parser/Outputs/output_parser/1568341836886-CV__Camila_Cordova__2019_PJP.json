@@ -6,29 +6,29 @@
     "Linkedin": null,
     "Celular": "+56952519971",
     "Skills": [
+        "Macros",
+        "Power point",
         "Visual basic",
         "Office",
-        "Matlab",
         "Excel",
-        "Power point",
         "Autocad",
         "Word",
-        "Macros"
+        "Matlab"
     ],
     "Licencias-Certificaciones": [
-        "CLASE B",
-        "LICENCIA DE CONDUCIR"
+        "LICENCIA DE CONDUCIR",
+        "CLASE B"
     ],
     "Grado": [
         "Ingeniería"
     ],
     "Palabras Claves": [
-        "Voluntariado",
-        "Modelamiento"
+        "Modelamiento",
+        "Voluntariado"
     ],
     "Educacion": [
-        "Universidad de Antofagasta",
         "Universidad de Concepción",
+        "Universidad de Antofagasta",
         "Universidad Católica del Norte"
     ],
     "Lenguajes": [],

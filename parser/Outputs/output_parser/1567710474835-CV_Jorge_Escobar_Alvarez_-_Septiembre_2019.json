@@ -4,36 +4,38 @@
     "Linkedin": null,
     "Celular": "+56975584967",
     "Skills": [
-        "Office",
-        "Crm",
+        "Macros",
+        "Sap",
+        "Vba",
+        "Access",
+        "Bases de datos",
+        "Erp",
         "Powerpoint",
+        "Base de datos",
+        "Crm",
+        "Office",
         "Excel",
         "Toeic",
-        "Base de datos",
         "Visio",
-        "Access",
-        "Sap",
-        "Word",
-        "Bases de datos",
-        "Vba",
-        "Erp",
-        "Macros"
+        "Word"
     ],
-    "Licencias-Certificaciones": [],
+    "Licencias-Certificaciones": [
+        "TOEIC"
+    ],
     "Grado": [
         "Ingeniería"
     ],
     "Palabras Claves": [
         "Gestión",
-        "Responsabilidad",
-        "Análisis",
         "Modelamiento",
+        "Responsabilidad",
         "Negociación",
-        "Proactividad"
+        "Proactividad",
+        "Análisis"
     ],
     "Educacion": [
-        "Universidad de Chile",
-        "Universidad de Santiago de Chile"
+        "Universidad de Santiago de Chile",
+        "Universidad de Chile"
     ],
     "Lenguajes": [
         "Inglés"

@@ -6,23 +6,22 @@
     "Linkedin": null,
     "Celular": "+56988261301",
     "Skills": [
-        "Scrum",
-        "Git",
-        "Java",
-        "Verilog",
-        "C",
         "Latex",
-        "Php",
-        "Excel",
+        "Java",
+        "Scrum",
         "Python",
-        "Toeic",
-        "Html",
-        "Sql",
-        "Word",
         "Bases de datos",
+        "Apache",
+        "Html",
+        "Git",
         "Javascript",
-        "Linux",
-        "Apache"
+        "Excel",
+        "Toeic",
+        "Php",
+        "Word",
+        "Sql",
+        "Verilog",
+        "Linux"
     ],
     "Licencias-Certificaciones": [
         "TOEIC"
@@ -31,13 +30,13 @@
         "Ingeniería"
     ],
     "Palabras Claves": [
-        "Responsabilidad",
-        "Voluntariado",
-        "Analizar",
-        "Negociación",
-        "Adaptable",
         "Liderazgo",
-        "Creativo"
+        "Analizar",
+        "Adaptable",
+        "Creativo",
+        "Responsabilidad",
+        "Negociación",
+        "Voluntariado"
     ],
     "Educacion": [
         "Universidad Técnica Federico Santa María"

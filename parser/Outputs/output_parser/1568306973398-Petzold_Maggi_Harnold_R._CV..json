@@ -4,42 +4,41 @@
     "Linkedin": null,
     "Celular": "+56522320550",
     "Skills": [
-        "Office",
-        "C",
-        "Html5",
-        "Base de datos",
         "Bases de datos",
-        "Javascript"
+        "Base de datos",
+        "Javascript",
+        "Office",
+        "Html5"
     ],
     "Licencias-Certificaciones": [
-        "CLASE B",
-        "LICENCIA DE CONDUCIR"
+        "LICENCIA DE CONDUCIR",
+        "CLASE B"
     ],
     "Grado": [
         "Magíster"
     ],
     "Palabras Claves": [
-        "Liderar",
-        "Gestión",
-        "Motivación",
         "Disposición",
-        "Voluntariado",
-        "Negociación",
         "Colaboración",
-        "Ética"
+        "Gestión",
+        "Ética",
+        "Negociación",
+        "Voluntariado",
+        "Motivación",
+        "Liderar"
     ],
     "Educacion": [
-        "Universidad de Atacama",
-        "Universidad Católica de Chile",
+        "Pontificia Universidad Catolica de Chile",
         "Universidad Católica del Norte",
-        "Universidad Católica de Temuco",
+        "Universidad de Atacama",
         "Universidad Arturo Prat",
-        "Pontificia Universidad Catolica de Chile"
+        "Universidad Católica de Chile",
+        "Universidad Católica de Temuco"
     ],
     "Lenguajes": [
+        "Inglés escrito",
         "Inglés",
-        "Inglés oral",
-        "Inglés escrito"
+        "Inglés oral"
     ],
     "Nombre archivo": "1568306973398-Petzold_Maggi_Harnold_R._CV."
 }

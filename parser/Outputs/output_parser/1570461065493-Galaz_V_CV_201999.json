@@ -7,10 +7,10 @@
     "Celular": "+56932687922",
     "Skills": [
         "Latex",
-        "Matlab",
-        "Excel",
+        "Mathematica",
         "Python",
-        "Mathematica"
+        "Excel",
+        "Matlab"
     ],
     "Licencias-Certificaciones": [],
     "Grado": [
@@ -18,9 +18,9 @@
     ],
     "Palabras Claves": null,
     "Educacion": [
-        "Universidad de Chile",
         "Pontificia Universidad Catolica de Chile",
-        "Universidad Católica de Chile"
+        "Universidad Católica de Chile",
+        "Universidad de Chile"
     ],
     "Lenguajes": [
         "Inglés"

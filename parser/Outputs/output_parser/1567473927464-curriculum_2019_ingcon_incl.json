@@ -4,26 +4,26 @@
     "Linkedin": null,
     "Celular": "+56972459436",
     "Skills": [
-        "Office",
-        "Powerpoint",
-        "Excel",
         "Mathematica",
+        "Dialux",
         "Access",
-        "Autocad",
-        "Word",
         "Digsilent",
-        "Dialux"
+        "Powerpoint",
+        "Office",
+        "Excel",
+        "Autocad",
+        "Word"
     ],
     "Licencias-Certificaciones": [
-        "SEC CLASE A",
-        "INSTALADOR ELECTRICO"
+        "INSTALADOR ELECTRICO",
+        "SEC CLASE A"
     ],
     "Grado": [
         "Ingeniería"
     ],
     "Palabras Claves": [
-        "Gestión",
         "Tolerancia",
+        "Gestión",
         "Análisis"
     ],
     "Educacion": [
@@ -32,8 +32,8 @@
     ],
     "Lenguajes": [
         "Español nativo",
-        "Inglés intermedio",
         "Inglés",
+        "Inglés intermedio",
         "Español"
     ],
     "Nombre archivo": "1567473927464-curriculum_2019_ingcon_incl"

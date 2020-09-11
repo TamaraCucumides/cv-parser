@@ -4,12 +4,12 @@
     "Linkedin": null,
     "Celular": "+56979881402",
     "Skills": [
-        "Scrum",
-        "Crm",
-        "Office",
-        "Toeic",
         "Sap",
-        "Bases de datos"
+        "Scrum",
+        "Bases de datos",
+        "Office",
+        "Crm",
+        "Toeic"
     ],
     "Licencias-Certificaciones": [
         "TOEIC",
@@ -19,17 +19,17 @@
         "Máster"
     ],
     "Palabras Claves": [
-        "Liderar",
         "Gestión",
-        "Voluntariado",
+        "Liderazgo",
         "Negociación",
+        "Voluntariado",
         "Estrategia",
-        "Liderazgo"
+        "Liderar"
     ],
     "Educacion": [
         "Universidad Tecnológica Metropolitana",
-        "Universidad de Chile",
-        "Universidad Adolfo Ibáñez"
+        "Universidad Adolfo Ibáñez",
+        "Universidad de Chile"
     ],
     "Lenguajes": [
         "Inglés"

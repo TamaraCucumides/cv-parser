@@ -20,13 +20,13 @@ nlp = es_core_news_md.load()
 
 # Se carga el modelo de embeddings en español
 print("Cargando embeddings")
-wordvectors_file_vec = os.getcwd() + '/parser/embeddings/fasttext-sbwc.3.6.e20.vec'
+wordvectors_file_vec = os.getcwd() + '/embeddings/fasttext-sbwc.3.6.e20.vec'
 cantidad = 100000
 model = KeyedVectors.load_word2vec_format(wordvectors_file_vec, limit=cantidad)
 print("Embeddings cargadas")
 
 #Se carga la tabla de secciones.
-seccion_csv = os.getcwd() +'/parser/CSVs/seccionesCV.csv'
+seccion_csv = os.getcwd() +'/CSVs/seccionesCV.csv'
 secciones = pd.read_csv(seccion_csv, header = 0)
 
 
@@ -198,8 +198,8 @@ def generate_json(cv):
 if __name__ == '__main__':
     pool = mp.Pool(mp.cpu_count())
     direc = os.getcwd()
-    dir_txt = '/parser/Outputs/output_text/'
-    dir_output = '/parser/Outputs/output_seccionado/'
+    dir_txt = '/Outputs/output_text/'
+    dir_output = '/Outputs/output_seccionado/'
     #newStopWords = cargar_dict(os.getcwd() + '/parser/diccionarios/stop_words_descripcion_cargo')
     stopwords = nltk.corpus.stopwords.words('spanish')
     #stopwords.extend(newStopWords)

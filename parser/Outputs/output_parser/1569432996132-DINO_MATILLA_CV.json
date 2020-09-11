@@ -8,19 +8,19 @@
         "56950048859"
     ],
     "Skills": [
-        "Powerpoint",
         "Latex",
-        "Matlab",
-        "Excel",
-        "Base de datos",
-        "Stata",
-        "Rstudio",
-        "Access",
-        "Mysql",
+        "Macros",
         "Sap",
-        "Word",
+        "Mysql",
+        "Access",
         "Bases de datos",
-        "Macros"
+        "Excel",
+        "Powerpoint",
+        "Base de datos",
+        "Rstudio",
+        "Stata",
+        "Word",
+        "Matlab"
     ],
     "Licencias-Certificaciones": [],
     "Grado": [
@@ -28,17 +28,17 @@
     ],
     "Palabras Claves": [
         "Gestión",
-        "Responsabilidad",
-        "Análisis",
         "Modelamiento",
-        "Negociación",
         "Adaptable",
-        "Estrategia"
+        "Responsabilidad",
+        "Negociación",
+        "Estrategia",
+        "Análisis"
     ],
     "Educacion": [
-        "Universidad de Chile",
+        "Universidad Diego Portales",
         "Universidad Católica de Chile",
-        "Universidad Diego Portales"
+        "Universidad de Chile"
     ],
     "Lenguajes": [
         "Inglés",

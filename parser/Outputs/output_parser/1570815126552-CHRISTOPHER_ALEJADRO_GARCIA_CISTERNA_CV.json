@@ -7,17 +7,16 @@
     "Celular": "+56966991388",
     "Skills": [
         "Devops",
-        "Scrum",
-        "Office",
         "Data science",
-        "Metodologías ágiles",
-        "C",
-        "Python",
-        "Oracle",
+        "Scrum",
         "Mysql",
-        "Itil",
+        "Python",
+        "Metodologías ágiles",
+        "Bases de datos",
+        "Office",
         "Sql",
-        "Bases de datos"
+        "Itil",
+        "Oracle"
     ],
     "Licencias-Certificaciones": [
         "CCNA"
@@ -26,10 +25,10 @@
         "Máster"
     ],
     "Palabras Claves": [
+        "Modelamiento",
         "Gestión",
         "Liderar",
-        "Análisis",
-        "Modelamiento"
+        "Análisis"
     ],
     "Educacion": [
         "Universidad Adolfo Ibáñez"

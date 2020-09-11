@@ -6,33 +6,33 @@
     "Linkedin": null,
     "Celular": "+56930923361",
     "Skills": [
-        "Office",
-        "Excel",
         "Bases de datos",
-        "Autocad"
+        "Autocad",
+        "Office",
+        "Excel"
     ],
     "Licencias-Certificaciones": [
+        "LICENCIA DE CONDUCIR",
         "CLASE B",
-        "CLASE D",
-        "LICENCIA DE CONDUCIR"
+        "CLASE D"
     ],
     "Grado": [
         "Ingeniería"
     ],
     "Palabras Claves": [
+        "Gestión",
+        "Liderazgo",
+        "Adaptable",
         "Responsabilidad",
         "Motivación",
-        "Análisis",
-        "Gestión",
-        "Adaptable",
-        "Liderazgo"
+        "Análisis"
     ],
     "Educacion": [
-        "Universidad de Chile",
-        "Universidad Católica de Chile",
-        "Pontificia Universidad Catolica de Chile",
         "Universidad de Santiago de Chile",
-        "Universidad Andrés Bello"
+        "Pontificia Universidad Catolica de Chile",
+        "Universidad Católica de Chile",
+        "Universidad Andrés Bello",
+        "Universidad de Chile"
     ],
     "Lenguajes": [
         "Inglés"

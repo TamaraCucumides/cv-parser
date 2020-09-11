@@ -6,16 +6,15 @@
     "Linkedin": null,
     "Celular": "+56942317715",
     "Skills": [
-        "Powerpoint",
-        "C",
-        "Arduino",
         "Latex",
-        "Matlab",
+        "Arduino",
         "Python",
+        "Solidworks",
+        "Digsilent",
+        "Powerpoint",
         "Excel",
         "Word",
-        "Digsilent",
-        "Solidworks"
+        "Matlab"
     ],
     "Licencias-Certificaciones": [],
     "Grado": [
@@ -23,9 +22,9 @@
     ],
     "Palabras Claves": [
         "Disciplina",
-        "Responsabilidad",
+        "Modelamiento",
         "Aprender",
-        "Modelamiento"
+        "Responsabilidad"
     ],
     "Educacion": [
         "Universidad de Chile"

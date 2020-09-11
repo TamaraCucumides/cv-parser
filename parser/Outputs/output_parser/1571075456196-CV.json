@@ -6,32 +6,31 @@
     "Linkedin": null,
     "Celular": "+41156956073",
     "Skills": [
-        "Visual basic",
-        "Office",
         "Java",
-        "C",
-        "Php",
-        "Html5",
         "Mysql",
         "Sql",
+        "Visual basic",
         "Bases de datos",
+        "Office",
         "Coaching",
-        "Analytics"
+        "Analytics",
+        "Php",
+        "Html5"
     ],
     "Licencias-Certificaciones": [],
     "Grado": [
         "Ingeniería"
     ],
     "Palabras Claves": [
-        "Escuchar",
-        "Responsabilidad",
-        "Motivación",
-        "Modelamiento",
-        "Análisis",
-        "Aprender",
         "Gestión",
+        "Modelamiento",
+        "Responsabilidad",
+        "Aprender",
         "Autodidacta",
-        "Proactividad"
+        "Motivación",
+        "Escuchar",
+        "Proactividad",
+        "Análisis"
     ],
     "Educacion": [
         "Universidad Católica del Norte"

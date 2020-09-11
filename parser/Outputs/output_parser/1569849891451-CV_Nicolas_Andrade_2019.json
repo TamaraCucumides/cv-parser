@@ -6,38 +6,38 @@
     "Linkedin": null,
     "Celular": "992373036",
     "Skills": [
-        "Powerpoint",
-        "Excel",
-        "Visio",
         "Access",
-        "Word",
-        "Analytics"
+        "Powerpoint",
+        "Analytics",
+        "Visio",
+        "Excel",
+        "Word"
     ],
     "Licencias-Certificaciones": [
-        "CLASE B",
-        "LICENCIA DE CONDUCIR"
+        "LICENCIA DE CONDUCIR",
+        "CLASE B"
     ],
     "Grado": [
         "Magíster"
     ],
     "Palabras Claves": [
-        "Liderar",
         "Gestión",
-        "Responsabilidad",
-        "Motivación",
-        "Análisis",
-        "Comprometido",
+        "Compromiso",
         "Liderazgo",
+        "Comprometido",
+        "Responsabilidad",
         "Aprender",
         "Negociación",
-        "Proactividad",
         "Estrategia",
-        "Compromiso"
+        "Motivación",
+        "Proactividad",
+        "Liderar",
+        "Análisis"
     ],
     "Educacion": [
+        "Universidad Viña del Mar",
         "Pontificia Universidad Católica de Valparaíso",
-        "Universidad de Chile",
-        "Universidad Viña del Mar"
+        "Universidad de Chile"
     ],
     "Lenguajes": [
         "Inglés"

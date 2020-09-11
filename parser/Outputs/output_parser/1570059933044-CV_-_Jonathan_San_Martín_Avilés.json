@@ -6,26 +6,26 @@
     "Linkedin": null,
     "Celular": "+56963203612",
     "Skills": [
-        "Autodesk",
-        "Office",
-        "Inventor",
-        "Matlab",
-        "Python",
         "Sap",
-        "Autocad"
+        "Python",
+        "Autodesk",
+        "Inventor",
+        "Office",
+        "Autocad",
+        "Matlab"
     ],
     "Licencias-Certificaciones": [
-        "CLASE B",
-        "LICENCIA DE CONDUCIR"
+        "LICENCIA DE CONDUCIR",
+        "CLASE B"
     ],
     "Grado": [
         "Ingeniería"
     ],
     "Palabras Claves": [
+        "Modelamiento",
         "Gestión",
-        "Liderar",
         "Estrategia",
-        "Modelamiento"
+        "Liderar"
     ],
     "Educacion": [
         "Universidad Técnica Federico Santa María"

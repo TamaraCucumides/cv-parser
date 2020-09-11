@@ -4,21 +4,20 @@
     "Linkedin": null,
     "Celular": "+56989559399",
     "Skills": [
-        "Autodesk",
-        "Office",
-        "C",
         "Latex",
         "Matlab",
-        "Python",
         "Sap",
-        "Sql",
+        "Python",
         "Windows",
         "Erp",
+        "Autodesk",
+        "Office",
+        "Sql",
         "Linux"
     ],
     "Licencias-Certificaciones": [
-        "CLASE B",
-        "LICENCIA CONDUCIR"
+        "LICENCIA CONDUCIR",
+        "CLASE B"
     ],
     "Grado": [
         "Ingeniero"
@@ -29,13 +28,13 @@
         "Análisis"
     ],
     "Educacion": [
-        "Universidad de Chile",
-        "Universidad Técnica Federico Santa María"
+        "Universidad Técnica Federico Santa María",
+        "Universidad de Chile"
     ],
     "Lenguajes": [
         "Inglés",
-        "Español",
-        "Portugués"
+        "Portugués",
+        "Español"
     ],
     "Nombre archivo": "1568129185939-AlexMedinaES2019"
 }

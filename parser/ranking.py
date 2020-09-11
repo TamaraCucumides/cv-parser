@@ -18,7 +18,7 @@ import re
 
 
 print("Cargando embeddings")
-wordvectors_file_vec = os.getcwd() + '/parser/embeddings/fasttext-sbwc.3.6.e20.vec'
+wordvectors_file_vec = os.getcwd() + '/embeddings/fasttext-sbwc.3.6.e20.vec'
 cantidad = 100000
 model = KeyedVectors.load_word2vec_format(wordvectors_file_vec, limit=cantidad)
 print("Embeddings cargadas" + '\n')
@@ -26,7 +26,7 @@ print("Embeddings cargadas" + '\n')
 
 
 # Se cargan todos los paths a los CV seccionados.
-path_to_json = os.getcwd() + '/parser/Outputs/output_seccionado'
+path_to_json = os.getcwd() + '/Outputs/output_seccionado'
 json_files = [pos_json for pos_json in os.listdir(path_to_json) if pos_json.endswith('.json')]
 cvs_seccionados = []
 for index, js in enumerate(json_files):
@@ -36,23 +36,23 @@ for index, js in enumerate(json_files):
 
 
 # Se carga la descricpción de cargo.
-file = os.getcwd() +'/parser/Descripcion_cargo/descripcion_cargo'
+file = os.getcwd() +'/Descripcion_cargo/descripcion_cargo'
 with open(file) as f:
   descripcion_cargo = " ".join([x.strip() for x in f]) 
 
 #Se cargan las stop_words especificas para descriptores 
-newStopWords = cargar_dict(os.getcwd() + '/parser/diccionarios/stop_words_descripcion_cargo')
+newStopWords = cargar_dict(os.getcwd() + '/diccionarios/stop_words_descripcion_cargo')
 stopwords = nltk.corpus.stopwords.words('spanish')
 stopwords.extend(newStopWords)
 
 pattern = r'[0-9]'
 # Se eliminan STOPWORDS -Puntuacion -numeros
-print(descripcion_cargo + '\n')
+#print(descripcion_cargo + '\n')
 descripcion_cargo = re.sub(r'[^\w\s]',' ',descripcion_cargo) #eliminar puntuacion
 descripcion_cargo = re.sub(pattern, ' ', descripcion_cargo) #eliminar numeros
 descripcion_cargo_lema = lematizar(descripcion_cargo) #lematizar
 descripcion_cargo = preprocesar_texto(descripcion_cargo_lema, stopwords) #eliminar stopword y a minusculas
-print(descripcion_cargo)
+#print(descripcion_cargo)
 
 
 

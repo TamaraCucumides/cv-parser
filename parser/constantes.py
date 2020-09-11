@@ -15,7 +15,7 @@ def cargar_dict(path):
         c = [x for x in array if x != ''] # '' aparece cuando hay lines vacias
     return c
 
-cwd = os.getcwd() +'/parser/diccionarios/'
+cwd = os.getcwd() +'/diccionarios/'
 
 
 grados_educativos_orden = cargar_dict(cwd + 'grados_educativos_orden')

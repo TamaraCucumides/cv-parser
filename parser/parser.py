@@ -90,8 +90,8 @@ if __name__ == '__main__':
     pool = mp.Pool(mp.cpu_count())
     resumes = []
     direc = os.getcwd()
-    dir_pdfs = '/parser/resumes_pdf/'
-    dir_output = '/parser/Outputs/output_parser/'
+    dir_pdfs = '/resumes_pdf/'
+    dir_output = '/Outputs/output_parser/'
 
     #Cargar todos los path a los archivos .pdf ubicados en dir_pdfs
     for root, _, filenames in os.walk(direc + dir_pdfs):

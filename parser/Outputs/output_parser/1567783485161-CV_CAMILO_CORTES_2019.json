@@ -6,14 +6,13 @@
     "Linkedin": null,
     "Celular": "+56965129438",
     "Skills": [
-        "Office",
-        "C",
-        "Excel",
-        "Qlikview",
         "Siebel",
-        "Instoreview",
         "Sap",
-        "Nielsen"
+        "Nielsen",
+        "Qlikview",
+        "Office",
+        "Excel",
+        "Instoreview"
     ],
     "Licencias-Certificaciones": [],
     "Grado": [
@@ -21,22 +20,22 @@
     ],
     "Palabras Claves": [
         "Gestión",
-        "Análisis",
         "Analizar",
         "Negociación",
+        "Estrategia",
         "Proactividad",
-        "Estrategia"
+        "Análisis"
     ],
     "Educacion": [
-        "Universidad de Chile",
         "Pontificia Universidad Catolica de Chile",
         "Universidad Central de Chile",
-        "Universidad Católica de Chile"
+        "Universidad Católica de Chile",
+        "Universidad de Chile"
     ],
     "Lenguajes": [
         "Español nativo",
-        "Inglés intermedio",
         "Inglés",
+        "Inglés intermedio",
         "Español"
     ],
     "Nombre archivo": "1567783485161-CV_CAMILO_CORTES_2019"
