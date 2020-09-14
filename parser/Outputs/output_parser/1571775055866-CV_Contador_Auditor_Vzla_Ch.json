@@ -12,14 +12,14 @@
     "Nombre archivo": "1571775055866-CV_Contador_Auditor_Vzla_Ch",
     "Licencias-Certificaciones": [],
     "Palabras Claves": [
-        "Compromiso",
-        "Gestión",
         "Análisis",
+        "Gestión",
         "Motivación",
         "Negociación",
-        "Analizar",
         "Liderazgo",
-        "Responsabilidad"
+        "Responsabilidad",
+        "Analizar",
+        "Compromiso"
     ],
     "Educacion": {
         "Universidades:": [],
@@ -30,12 +30,12 @@
     "Resumen": "contador auditor\nmaiker j. ramirez q.\nobjetivo\n",
     "Referencias": "",
     "Skills": [
-        "Softland",
-        "Word",
         "Erp",
         "Windows",
         "Excel",
-        "Office",
-        "Sap"
+        "Word",
+        "Softland",
+        "Sap",
+        "Office"
     ]
 }

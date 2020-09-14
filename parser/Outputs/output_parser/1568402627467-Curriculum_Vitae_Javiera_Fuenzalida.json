@@ -10,12 +10,12 @@
     "Nombre archivo": "1568402627467-Curriculum_Vitae_Javiera_Fuenzalida",
     "Licencias-Certificaciones": [],
     "Palabras Claves": [
-        "Puntual",
-        "Gestión",
-        "Aprender",
-        "Analizar",
         "Estrategia",
-        "Responsabilidad"
+        "Puntual",
+        "Aprender",
+        "Gestión",
+        "Responsabilidad",
+        "Analizar"
     ],
     "Educacion": {
         "Universidades:": [
@@ -32,12 +32,12 @@
     "Resumen": "javiera andrea fuenzalida verdejo\nedad 25\nordenada, responsable y puntual. entusiasta de conocer y aprender variados tipos de\nherramientas y actividades que me permita desarrollar mi potencial profesional y personal,\ncon la finalidad de poder enfrentar cualquier problemática que se me presente.\n",
     "Referencias": "",
     "Skills": [
-        "Word",
-        "Wordpress",
+        "Power point",
         "Access",
         "Excel",
-        "Office",
+        "Word",
         "Sap",
-        "Power point"
+        "Wordpress",
+        "Office"
     ]
 }

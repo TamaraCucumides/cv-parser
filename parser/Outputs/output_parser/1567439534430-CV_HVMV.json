@@ -13,16 +13,16 @@
         "CLASE B"
     ],
     "Palabras Claves": [
+        "Disposición",
         "Gestión",
         "Aprender",
-        "Disposición",
         "Liderar",
         "Liderazgo"
     ],
     "Educacion": {
         "Universidades:": [
-            "Universidad Adolfo Ibáñez",
-            "Universidad de Atacama"
+            "Universidad de Atacama",
+            "Universidad Adolfo Ibáñez"
         ],
         "Grado_mas_alto": [
             "Ingeniería"
@@ -37,7 +37,7 @@
     "Skills": [
         "Solidworks",
         "Ubuntu",
-        "Sap",
-        "Office"
+        "Office",
+        "Sap"
     ]
 }

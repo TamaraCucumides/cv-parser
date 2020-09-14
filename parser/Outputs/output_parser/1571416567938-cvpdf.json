@@ -14,10 +14,10 @@
         "LICENCIA DE CONDUCIR"
     ],
     "Palabras Claves": [
-        "Aprender",
-        "Negociación",
         "Responsabilidad",
-        "Análisis"
+        "Análisis",
+        "Aprender",
+        "Negociación"
     ],
     "Educacion": {
         "Universidades:": [],
@@ -32,10 +32,10 @@
     "Resumen": "presentación\nme caracterizo por ser una persona pro-activa, eﬁciente y siempre con ganas de realizar alguna actividad adicional, ademas una\ncapacidad de aprender de manera muy rápida, soporto gran cantidad de trabajo bajo presión, empatico y ser un líder positivo.\n",
     "Referencias": "",
     "Skills": [
-        "Windows",
-        "Java",
         "Php",
-        "Office",
-        "Html"
+        "Java",
+        "Html",
+        "Windows",
+        "Office"
     ]
 }

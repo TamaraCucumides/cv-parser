@@ -12,12 +12,12 @@
         "IAAS"
     ],
     "Palabras Claves": [
-        "Gestión",
-        "Análisis",
-        "Proactividad",
-        "Negociación",
         "Estrategia",
-        "Responsabilidad"
+        "Análisis",
+        "Gestión",
+        "Negociación",
+        "Responsabilidad",
+        "Proactividad"
     ],
     "Educacion": {
         "Universidades:": [],
@@ -32,14 +32,14 @@
     "Resumen": "perfil profesional\nejecutivo bilingüe con más de 10 años de experiencia desarrollando habilidades en los campos de estrategia\ncomercial, negociación, capacidad analítica y habilidad para promover y gerenciar el cambio. proactivo\ncomercialmente, orientado a la gestión por resultados y generación de valor. resultados sobresalientes en\nel manejo de fuerza de ventas y venta directa a nivel corporativo.\ncontactos de primer nivel en el mercado peruano e internacional así como negociaciones en proyectos\nregionales de mayor complejidad.\n",
     "Referencias": "",
     "Skills": [
-        "Vmware",
-        "Coaching",
-        "Zoho",
-        "Crm",
-        "Salesforce",
         "Dynamics",
-        "Iaas",
+        "Salesforce",
+        "Crm",
+        "Zoho",
+        "Oracle",
         "Office",
-        "Oracle"
+        "Iaas",
+        "Vmware",
+        "Coaching"
     ]
 }

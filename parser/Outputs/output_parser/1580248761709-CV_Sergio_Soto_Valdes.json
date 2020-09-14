@@ -10,18 +10,18 @@
     "Nombre archivo": "1580248761709-CV_Sergio_Soto_Valdes",
     "Licencias-Certificaciones": [],
     "Palabras Claves": [
-        "Comprometido",
-        "Análisis",
-        "Aprender",
-        "Adaptable",
-        "Amigable",
         "Voluntariado",
+        "Análisis",
+        "Amigable",
+        "Adaptable",
+        "Aprender",
+        "Comprometido",
         "Responsabilidad"
     ],
     "Educacion": {
         "Universidades:": [
-            "Universidad Adolfo Ibáñez",
-            "Universidad del Desarrollo"
+            "Universidad del Desarrollo",
+            "Universidad Adolfo Ibáñez"
         ],
         "Grado_mas_alto": [
             "Ingeniería"
@@ -34,10 +34,10 @@
     "Resumen": "resumen\nprofesional\ningeniero\ncomercial\ntitulado\nde\nla\nuniversidad\ndel\ndesarrollo,\nmención\nen\nemprendimiento\ncon\nmanejo\navanzado\ndel\ninglés\ny\n",
     "Referencias": "",
     "Skills": [
-        "Word",
-        "Excel",
         "Trello",
+        "Power point",
+        "Excel",
         "Hubspot",
-        "Power point"
+        "Word"
     ]
 }

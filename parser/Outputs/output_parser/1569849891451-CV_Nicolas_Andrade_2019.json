@@ -13,23 +13,23 @@
         "CLASE B"
     ],
     "Palabras Claves": [
-        "Compromiso",
-        "Comprometido",
-        "Gestión",
-        "Análisis",
-        "Proactividad",
-        "Motivación",
-        "Negociación",
-        "Aprender",
-        "Liderar",
-        "Liderazgo",
         "Estrategia",
-        "Responsabilidad"
+        "Análisis",
+        "Gestión",
+        "Motivación",
+        "Aprender",
+        "Negociación",
+        "Liderar",
+        "Comprometido",
+        "Liderazgo",
+        "Responsabilidad",
+        "Compromiso",
+        "Proactividad"
     ],
     "Educacion": {
         "Universidades:": [
-            "Pontificia Universidad Católica de Valparaíso",
             "Universidad Viña del Mar",
+            "Pontificia Universidad Católica de Valparaíso",
             "Universidad de Chile"
         ],
         "Grado_mas_alto": [
@@ -43,11 +43,11 @@
     "Resumen": "nicolas enrique andrade merida\ndirección\n\npaso del roble 311, la florida.\nsantiago\nteléfono\n\nmóvil 992373036\nemail\n\nnico.andradem@gmail.com\nnacionalidad\n\nchilena\nrut\n\n15.768.518-k\nfecha de nacimiento\n\n27 de diciembre de 1985\nestado civil\n\nsoltero\nlicencia de conducir\n\nclase b\nprofesional con capacidad de innovación, comprometido con los proyectos que se le\nencomiendan. reconocido por poseer competencias en negociación, análisis de tendencias,\nautónomo, proactivo, motivación por maximizar resultados, con habilidades de liderazgo,\ncomunicación y capacidad para formar equipos de trabajo de alto desempeño que potencien sus\nfortalezas generando oportunidades de mejoras en los diversos procesos y tareas encomendadas.\n",
     "Referencias": "",
     "Skills": [
-        "Word",
-        "Access",
-        "Analytics",
         "Powerpoint",
+        "Visio",
+        "Analytics",
+        "Access",
         "Excel",
-        "Visio"
+        "Word"
     ]
 }

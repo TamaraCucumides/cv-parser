@@ -10,16 +10,16 @@
     "Nombre archivo": "1589576482034-CV_Nicol_Cabrera_",
     "Licencias-Certificaciones": [],
     "Palabras Claves": [
-        "Gestión",
-        "Análisis",
-        "Motivación",
+        "Voluntariado",
         "Estrategia",
-        "Voluntariado"
+        "Análisis",
+        "Gestión",
+        "Motivación"
     ],
     "Educacion": {
         "Universidades:": [
-            "Universidad Católica de Chile",
-            "Pontificia Universidad Catolica de Chile"
+            "Pontificia Universidad Catolica de Chile",
+            "Universidad Católica de Chile"
         ],
         "Grado_mas_alto": [
             "Ingeniero"
@@ -32,11 +32,11 @@
     "Resumen": "nicol natalia cabrera quezada\nsantiago, chile\ntel. 569 82615603\ne-mail nncabrera@uc.cl\n",
     "Referencias": "",
     "Skills": [
-        "Excel",
-        "Sql",
-        "Bases de datos",
         "Stata",
-        "Macros",
-        "Oracle"
+        "Sql",
+        "Excel",
+        "Oracle",
+        "Bases de datos",
+        "Macros"
     ]
 }

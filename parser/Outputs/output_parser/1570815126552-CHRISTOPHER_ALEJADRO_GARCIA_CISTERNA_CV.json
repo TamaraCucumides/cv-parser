@@ -12,10 +12,10 @@
         "CCNA"
     ],
     "Palabras Claves": [
+        "Análisis",
         "Modelamiento",
         "Gestión",
-        "Liderar",
-        "Análisis"
+        "Liderar"
     ],
     "Educacion": {
         "Universidades:": [
@@ -30,16 +30,16 @@
     "Resumen": "resumen profesional\n2019 2020 magíster data science\nuniversidad adolfo ibañez\n2016\ningeniería civil informática\nuniversidad tecnológica de chile inacap, santiago.\n2008 2012 ingeniería en informática\nuniversidad tecnológica de chile inacap, santiago.\n",
     "Referencias": "",
     "Skills": [
-        "Metodologías ágiles",
-        "Data science",
         "Mysql",
-        "Oracle",
-        "Sql",
+        "Data science",
+        "Metodologías ágiles",
         "Scrum",
-        "Bases de datos",
-        "Office",
-        "Python",
+        "Itil",
+        "Sql",
         "Devops",
-        "Itil"
+        "Python",
+        "Oracle",
+        "Office",
+        "Bases de datos"
     ]
 }

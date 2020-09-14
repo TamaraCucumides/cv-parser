@@ -12,17 +12,17 @@
         "TOEIC"
     ],
     "Palabras Claves": [
-        "Gestión",
+        "Estrategia",
         "Análisis",
+        "Gestión",
         "Aprender",
-        "Modelamiento",
-        "Estrategia"
+        "Modelamiento"
     ],
     "Educacion": {
         "Universidades:": [
-            "Universidad Católica de Chile",
+            "Pontificia Universidad Catolica de Chile",
             "Universidad Santo Tomas",
-            "Pontificia Universidad Catolica de Chile"
+            "Universidad Católica de Chile"
         ],
         "Grado_mas_alto": [
             "Ingeniería"
@@ -35,12 +35,12 @@
     "Resumen": "erika sotomayor ulloa\nsantiago, chile 569 8 9999 586 eesotomayor@uc.cl\n",
     "Referencias": "",
     "Skills": [
+        "Machine learning",
         "Stata",
         "Toeic",
-        "Machine learning",
-        "Power bi",
-        "Excel",
         "Sql",
-        "Python"
+        "Excel",
+        "Python",
+        "Power bi"
     ]
 }

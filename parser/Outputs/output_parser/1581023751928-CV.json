@@ -10,18 +10,18 @@
     "Nombre archivo": "1581023751928-CV",
     "Licencias-Certificaciones": [],
     "Palabras Claves": [
-        "Gestión",
+        "Estrategia",
         "Análisis",
-        "Motivación",
-        "Negociación",
-        "Analizar",
         "Disposición",
         "Adaptable",
+        "Gestión",
+        "Motivación",
+        "Negociación",
         "Liderar",
         "Modelamiento",
-        "Confianza",
         "Liderazgo",
-        "Estrategia"
+        "Confianza",
+        "Analizar"
     ],
     "Educacion": {
         "Universidades:": [
@@ -36,14 +36,14 @@
     "Resumen": "extracto\nprofesional titulado, con distinción máxima, con 6 años de\nexperiencia en jefatura de proyectos.\ncapacitado con conocimientos en diversas áreas de la informática,\nprincipalmente orientado al desarrollo de software, aplicaciones de\nalto rendimiento con énfasis en la calidad del software, liderazgo\nde equipos, alto nivel de análisis y gran motivación para enfrentar\ndiversos desafíos. he trabajado en importantes proyectos con\ndiversas tecnologías, dentro de las cuales destacan j2ee, jpa,\nasp, javascript, xhtml, metodologías ágiles, entre otras.\nsólidos conocimientos en gestión, planificación, control,\nseguimiento, desarrollo e implantación de proyectos informáticos y\ntambién fuertes habilidades de negociación.\nentre las principales fortalezas se pueden extraer, la motivación y\nasignación de recursos, administración de cartas gantt, dirección,\ncontrol y seguimiento de proyectos, utilizando metodologías\ntradicionales y ágiles, dentro de las cuales puedo destacar scrum,\nrup, lean, scope canva, trello, product discovery.\n",
     "Referencias": "",
     "Skills": [
-        "Metodologías ágiles",
+        "Trello",
         "Mysql",
+        "Java",
+        "Crm",
+        "Metodologías ágiles",
+        "Itil",
         "Javascript",
         "Office",
-        "Scrum",
-        "Trello",
-        "Crm",
-        "Java",
-        "Itil"
+        "Scrum"
     ]
 }

@@ -10,15 +10,15 @@
     "Nombre archivo": "1568635925574-Miguel_Macaya_C.V.1",
     "Licencias-Certificaciones": [],
     "Palabras Claves": [
-        "Negociación",
-        "Gestión",
+        "Análisis",
         "Modelamiento",
-        "Análisis"
+        "Gestión",
+        "Negociación"
     ],
     "Educacion": {
         "Universidades:": [
-            "Universidad Católica de Chile",
-            "Universidad de Santiago de Chile"
+            "Universidad de Santiago de Chile",
+            "Universidad Católica de Chile"
         ],
         "Grado_mas_alto": [
             "Magíster"
@@ -31,13 +31,13 @@
     "Resumen": "p e r f i l p r o f e s i o n a l\ningeniero civil industrial y magister en administración y dirección de empresas mba de la universidad de santiago de chile, con\nmás de 15 años de experiencia en áreas como administración de la producción, gestión de operaciones y logística, gestión\ninmobiliaria, programación y control servicio técnico, compras, control de gestión, control de proyectos.\nexperiencia laboral en sectores como telecomunicaciones claro chile, empresas manufactureras marisio y de arriendo\nequipos minería sk rental entre otras.\n.\n",
     "Referencias": "",
     "Skills": [
-        "Word",
         "Erp",
-        "Access",
-        "Microsoft project",
-        "Excel",
         "Visio",
-        "Sap",
-        "Power point"
+        "Power point",
+        "Microsoft project",
+        "Access",
+        "Excel",
+        "Word",
+        "Sap"
     ]
 }

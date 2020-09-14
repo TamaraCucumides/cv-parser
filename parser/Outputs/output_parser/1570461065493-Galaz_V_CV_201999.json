@@ -12,9 +12,9 @@
     "Palabras Claves": null,
     "Educacion": {
         "Universidades:": [
-            "Universidad Católica de Chile",
             "Pontificia Universidad Catolica de Chile",
-            "Universidad de Chile"
+            "Universidad de Chile",
+            "Universidad Católica de Chile"
         ],
         "Grado_mas_alto": [
             "Magíster"
@@ -27,10 +27,10 @@
     "Resumen": "valeria nicole galaz galaz\nestudiante de magíster en ciencias de la ingeniería\nestudiante de ingeniería civil de industrias diploma en ingeniería química\npontificia universidad católica de chile\ncorreo vngalaz@uc.cl, telefono 56932687922\n",
     "Referencias": "",
     "Skills": [
-        "Mathematica",
         "Matlab",
+        "Mathematica",
+        "Latex",
         "Excel",
-        "Python",
-        "Latex"
+        "Python"
     ]
 }

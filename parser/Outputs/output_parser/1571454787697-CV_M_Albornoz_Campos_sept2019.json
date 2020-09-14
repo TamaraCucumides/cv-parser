@@ -14,13 +14,13 @@
         "TOEFL"
     ],
     "Palabras Claves": [
-        "Liderazgo",
-        "Modelamiento"
+        "Modelamiento",
+        "Liderazgo"
     ],
     "Educacion": {
         "Universidades:": [
-            "Universidad Católica de Chile",
-            "Pontificia Universidad Catolica de Chile"
+            "Pontificia Universidad Catolica de Chile",
+            "Universidad Católica de Chile"
         ],
         "Grado_mas_alto": [
             "Doctorado"
@@ -33,7 +33,7 @@
     "Resumen": "mac050@alumnos.ucn.cl\n56 9 65347275\nlinkedin.com/in/malbornozcampos\nexperiencia en investigación\nparticipante en la escuela de invierno 2019 del\nprograma de doctorado en cs. de la ingenieria\nagosto 2019 - pontificia universidad católica de chile\nel contacto con posibles supervisores de doctorado es\nimportante para postular al programa, y esta instancia\nderriba esta barrera, por eso que para postular a esta\nescuela de invierno era necesario preparar una propuesta\nde proyecto a desarrollar durante la duración del\ndoctorado, para lo cual planteé el uso de drones para\ncalcular el impacto vial de los proyectos inmobiliarios en la\ncongestión urbana, el cual tuve la oportunidad de conversar\ncon varios supervisores.\npresentadora principal iise annual conference 2019\nmayo 2019 orlando, ee.uu.\npresenté frente a investigadores y alumnos de postgrado,\nun avance de un modelo de ubicación de ambulancias para\nla región de coquimbo, construido dentro del contexto del\ntrabajo de investigación, el cual trata sobre la reducción del\ntiempo de respuesta para maximizar la probabilidad de\nsobrevivencia de los pacientes, utilizando un modelo de\ndecisión que maximiza el porcentaje de cobertura\nesperada,\nen\nbase\na la construcción de\nclusters\nrepresentativos y la obtención de los tiempos de viaje\nestimados.\nmemorista samu coquimbo\nagosto 2018 al presente\nproyecto de título optimizacion como herramienta\npara reducir el tiempo de respuesta frente a\nemergencias de samu coquimbo.\nactualmente estoy trabajando en ampliar el modelo\npreviamente descrito utilizando teoría de colas, para\nobtener las probabilidades de estado estable que indican la\nprobabilidad de que una ambulancia esté disponible o no.\nposteriormente se trabajará en la creación de un plan piloto\npara poner en marcha la creación de bases nuevas.\nobjetivo\nmemorista interesada en los\nmodelamientos\nmatemáticos\ncomo método para resolver\nproblemas logísticos de gran\nescala, y mediante esto, mejorar\nla calidad de vida de las\nciudades\ny\nlos\nindividuos\ninvolucrados.\n",
     "Referencias": "",
     "Skills": [
-        "Python",
-        "Gurobi"
+        "Gurobi",
+        "Python"
     ]
 }

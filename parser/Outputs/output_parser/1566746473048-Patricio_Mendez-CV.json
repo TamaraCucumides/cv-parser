@@ -13,8 +13,8 @@
         "CLASE B"
     ],
     "Palabras Claves": [
-        "Modelamiento",
         "Adaptable",
+        "Modelamiento",
         "Responsabilidad",
         "Análisis"
     ],
@@ -33,11 +33,11 @@
     "Resumen": "resumen profesional\nestudiante de último año de geología de la universidad católica del norte,\negresado etapa tesis, caracterizado por la responsabilidad y la seriedad ante\nel trabajo adquirido, además de la capacidad de resolver problemas propuestos\nindividualmente o en equipo y buena capacidad para adaptarse a cambios.\nespecial interés en el área geología minera, en la cual se tiene experiencia en\ngeotecnia-estructural.\n",
     "Referencias": "",
     "Skills": [
-        "Word",
-        "Vulcan",
         "Powerpoint",
+        "Vulcan",
         "Excel",
-        "Office",
-        "Base de datos"
+        "Word",
+        "Base de datos",
+        "Office"
     ]
 }

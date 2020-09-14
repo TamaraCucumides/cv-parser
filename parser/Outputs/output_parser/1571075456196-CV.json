@@ -10,15 +10,15 @@
     "Nombre archivo": "1571075456196-CV",
     "Licencias-Certificaciones": [],
     "Palabras Claves": [
-        "Autodidacta",
-        "Escuchar",
-        "Gestión",
         "Análisis",
+        "Autodidacta",
+        "Gestión",
         "Motivación",
-        "Proactividad",
         "Aprender",
+        "Escuchar",
         "Modelamiento",
-        "Responsabilidad"
+        "Responsabilidad",
+        "Proactividad"
     ],
     "Educacion": {
         "Universidades:": [
@@ -29,22 +29,22 @@
         ]
     },
     "Lenguajes": [
-        "Español",
-        "Inglés"
+        "Inglés",
+        "Español"
     ],
     "Experiencia": "",
     "Resumen": "ingeniera civil en computación e informática, con voluntad de querer aprender\nnuevas cosas y desarrollarse en diferentes áreas ,con el deseo de poder aportar y\nser parte de su equipo de trabajo.\n2013-2019\ningeniería civil en computación\ne informática\nuniversidad\ncatólica\ndel\nnorte,\ncoquimbo.\n2009 - 2012\nenseñanza media\nescuela\ntécnico\nprofesional,\ncopiapó\n2002-2008\nenseñanza básica\nliceo de música de copiapó\n\nlenguajes de programación java , c, php,\nhtml5.\n\n",
     "Referencias": "",
     "Skills": [
-        "Mysql",
-        "Html5",
-        "Coaching",
         "Php",
-        "Office",
-        "Analytics",
-        "Sql",
+        "Mysql",
         "Java",
+        "Analytics",
+        "Visual basic",
+        "Sql",
+        "Html5",
+        "Office",
         "Bases de datos",
-        "Visual basic"
+        "Coaching"
     ]
 }

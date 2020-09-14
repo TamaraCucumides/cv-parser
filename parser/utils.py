@@ -419,14 +419,7 @@ def extraer_perfil(cv_text):
 
 def extraer_experiencia(cv_text):
     cv_text = cv_text.splitlines()
-
-
-
-
     otros = perfil + educacion_sec + cursos + habilidades + contacto + referencias + logros+ hobbies
-
-
-
     #print(cv_text)
     linea_experiencia = False
     siguiente_seccion = False

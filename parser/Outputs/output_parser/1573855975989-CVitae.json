@@ -10,16 +10,16 @@
     "Nombre archivo": "1573855975989-CVitae",
     "Licencias-Certificaciones": [],
     "Palabras Claves": [
-        "Gestión",
-        "Negociación",
-        "Analizar",
-        "Adaptable",
-        "Modelamiento",
-        "Colaboración",
-        "Liderazgo",
         "Estrategia",
         "Creativo",
-        "Responsabilidad"
+        "Colaboración",
+        "Adaptable",
+        "Gestión",
+        "Negociación",
+        "Modelamiento",
+        "Liderazgo",
+        "Responsabilidad",
+        "Analizar"
     ],
     "Educacion": {
         "Universidades:": [
@@ -35,12 +35,12 @@
     "Resumen": "ingeniero comercial\nuniversidad gabriela mistral\ntitulado.\ndiplomado dirección comercial y ventas\nuniversidad san sebastián\ntitulado.\n",
     "Referencias": "",
     "Skills": [
-        "Word",
         "Azure",
-        "Power bi",
-        "Excel",
+        "Power point",
         "Crm",
+        "Excel",
+        "Word",
         "Office",
-        "Power point"
+        "Power bi"
     ]
 }

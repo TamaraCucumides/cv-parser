@@ -10,8 +10,8 @@
     "Nombre archivo": "1567480718081-C.V._Juan_Pablo_Gallardo_Bustos",
     "Licencias-Certificaciones": [],
     "Palabras Claves": [
-        "Gestión",
-        "Análisis"
+        "Análisis",
+        "Gestión"
     ],
     "Educacion": {
         "Universidades:": [
@@ -28,11 +28,11 @@
     "Resumen": "perfil profesional\nprofesional en búsqueda activa de oportunidad laboral tanto para el\ncampo operativo área técnica como para el campo administrativo área\ningeniería.\nrecientemente titulado como ingeniero en gestión industrial, pero con\nvasta experiencia en área técnica en departamentos de ingeniería y de\noperaciones en cuanto a mantenimiento industrial se refiere, experiencia\nobtenida en el ejercicio de carrera como técnico universitario en\nelectrónica.\ndestacado por gran capacidad en análisis y reparación de fallas y mejora\ncontinua en tareas diarias y también en el desarrollo de proyectos\npropuestos por desempeño mostrado.\n",
     "Referencias": "",
     "Skills": [
-        "Word",
-        "Microsoft project",
-        "Arduino",
-        "Excel",
         "Git",
-        "Power point"
+        "Arduino",
+        "Power point",
+        "Microsoft project",
+        "Excel",
+        "Word"
     ]
 }

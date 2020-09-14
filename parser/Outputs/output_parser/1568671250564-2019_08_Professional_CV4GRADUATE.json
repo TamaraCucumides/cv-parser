@@ -11,9 +11,9 @@
     "Licencias-Certificaciones": [],
     "Palabras Claves": [
         "Aprender",
-        "Disciplina",
         "Modelamiento",
-        "Responsabilidad"
+        "Responsabilidad",
+        "Disciplina"
     ],
     "Educacion": {
         "Universidades:": [
@@ -30,14 +30,14 @@
     "Resumen": "resumen\ningeniero civil eléctrico titulado con distinción máxima y con magíster en ciencias de la ingeniería mención\neléctrica en el área de potencia y energía. partícipe de un proyecto solar fotovoltaico rooftop de 2mw y a\ncargo de levantar área de captura de imágenes con drones.\ndurante mi estadía en la universidad realicé ayudantías para 20 cursos, en los que aporté principalmente\nhaciendo clases y coordinando equipos docentes. mientras terminaba el programa de magíster me desempeñé\nlaboralmente adoptando un alto nivel de responsabilidades.\nhace tres años comencé a diseñar y construir una impresora 3d a modo de hobby y el día de hoy lo cuento\norgullosamente, puesto que muestra algunas de mis grandes cualidades que son gran disciplina, capacidad\nde aprendizaje y perseverancia.\n",
     "Referencias": "",
     "Skills": [
+        "Powerpoint",
+        "Arduino",
+        "Matlab",
+        "Digsilent",
+        "Latex",
+        "Excel",
         "Word",
         "Solidworks",
-        "Arduino",
-        "Powerpoint",
-        "Matlab",
-        "Excel",
-        "Python",
-        "Digsilent",
-        "Latex"
+        "Python"
     ]
 }

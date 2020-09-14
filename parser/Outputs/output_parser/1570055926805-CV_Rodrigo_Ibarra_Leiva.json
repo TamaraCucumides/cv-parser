@@ -13,12 +13,12 @@
         "CLASE B"
     ],
     "Palabras Claves": [
-        "Gestión",
         "Análisis",
-        "Proactividad",
+        "Gestión",
         "Negociación",
         "Liderazgo",
-        "Responsabilidad"
+        "Responsabilidad",
+        "Proactividad"
     ],
     "Educacion": {
         "Universidades:": [
@@ -35,11 +35,11 @@
     "Resumen": "rodrigo andrés ibarra leiva\nálvarez 2098, viña del mar, chile.\ne-mail ibarrarod@gmail.com\ncel. 993827257\n",
     "Referencias": "",
     "Skills": [
-        "Word",
         "Erp",
         "Powerpoint",
         "Excel",
-        "Office",
-        "Sap"
+        "Word",
+        "Sap",
+        "Office"
     ]
 }

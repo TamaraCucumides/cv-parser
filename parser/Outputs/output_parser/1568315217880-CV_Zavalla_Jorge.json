@@ -10,21 +10,21 @@
     "Nombre archivo": "1568315217880-CV_Zavalla_Jorge",
     "Licencias-Certificaciones": [],
     "Palabras Claves": [
-        "Compromiso",
-        "Gestión",
-        "Análisis",
-        "Motivación",
-        "Perfeccionista",
-        "Adaptable",
-        "Modelamiento",
         "Estrategia",
-        "Responsabilidad"
+        "Análisis",
+        "Adaptable",
+        "Gestión",
+        "Motivación",
+        "Modelamiento",
+        "Responsabilidad",
+        "Compromiso",
+        "Perfeccionista"
     ],
     "Educacion": {
         "Universidades:": [
             "Universidad Mayor",
-            "Universidad de Santiago de Chile",
-            "Universidad de Chile"
+            "Universidad de Chile",
+            "Universidad de Santiago de Chile"
         ],
         "Grado_mas_alto": [
             "Doctor"
@@ -37,13 +37,13 @@
     "Resumen": "perfil profesional.\nsoy una persona con iniciativa y organizada con capacidades para la resolución de problemas, mediante el uso de\nlas herramientas y habilidades que he desarrollado. poseo adaptabilidad al trabajo individual y de equipo,\nresponsable en los compromisos que adquiero. además, tengo una gran motivación por participar en el\ndesarrollo de estrategias y en los procesos orientados a conseguir objetivos. tengo conocimiento de diversas\náreas de la ingeniería, pero destaco en el análisis de variables, modelación de datos y simulación.\n3.\nafiliaciones.\n2015 2017\ndirector de marketing, xx simposium de ingeniería en minas simin.\n2015\nsocio, instituto de ingenieros en minas de chile iimch.\n2013\ndirector, sociedad paleontológica de chile spach.\n4.\n",
     "Referencias": "",
     "Skills": [
-        "Word",
         "Adobe",
-        "Vulcan",
         "Powerpoint",
-        "Excel",
-        "Office",
         "Illustrator",
-        "Photoshop"
+        "Photoshop",
+        "Vulcan",
+        "Excel",
+        "Word",
+        "Office"
     ]
 }

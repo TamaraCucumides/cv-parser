@@ -12,10 +12,10 @@
         "ISACA"
     ],
     "Palabras Claves": [
-        "Gestión",
         "Análisis",
-        "Negociación",
         "Adaptable",
+        "Gestión",
+        "Negociación",
         "Liderazgo",
         "Responsabilidad"
     ],
@@ -26,23 +26,23 @@
         ]
     },
     "Lenguajes": [
-        "Inglés intermedio",
-        "Inglés"
+        "Inglés",
+        "Inglés intermedio"
     ],
     "Experiencia": "experiencia laboral\nauditor senior a riesgo tecnológico ccaf los andes marzo 2019 a la fecha\n\nelaborar propuesta de plan anual de auditorías ti.\n\nrevisión de informes de auditoría.\n\nconfeccionar reporte consolidado eficiencia seguimiento observaciones auditoria.\n\nparticipación en proyectos corporativos para identificación oportuna de riesgos y controles de seguridad.\n\nrealizar auditoria sistema de continuidad de negocios.\n\nevaluar procesos para automatización mediante herramientas de auditoria continua.\n\ncharlas de concientización de seguridad de la información a diversas áreas de la caja.\n\nactiva participación en el proceso de re-certificación quality assurance iia españa.\nauditor senior riesgo tecnológico ccaf los andes noviembre 2014 febrero 2019\n\nplanificación, coordinación y ejecución de auditorías a tecnologías y sistemas que apoyan los procesos de la caja.\n\nevaluaciones basadas en estándares internacionales iso 27002, cobit, nist entre otros.\n\nidentificación de riesgos, controles y brechas de seguridad que puedan afectar a la institución.\n\npruebas de análisis a bases de datos, generación de informes de auditoría y revisión.\n\nseguimiento a planes de acción generados.\n\nparticipación en la planificación anual del área.\n\nplanificación de capacitaciones.\n\ncoordinación con otras áreas en la realización de trabajos de auditorías especiales, entre otros.\nauditor interno riesgo tecnológico ccaf los andes agosto 2010 - octubre 2014\n\ndesarrollo de auditorías de ámbito tecnológico desde la elaboración del programa de trabajo, trabajo de campo, recolección y análisis\nde información generación de pruebas, observaciones y posterior actividades de seguimiento a las observaciones reportadas.\n\nparticipación en el proceso de selección, análisis y evaluación de herramientas para el área de auditorías.\nnetwork administrator latam laboratorios grünenthal chilena ltda. marzo 1999 - julio 2010\n\nadministración de servidor de archivos, base de datos y mensajería para la plataforma microsoft windows.\n\nsistema de autentificación remota robusta basado en token de rsa security y firewall-1 de checkpoint.\n\ndesarrollo del plan de contingencia ante desastres drp y plan de continuidad operativa bcp para el datacenter.\n\nimplementación sistema de captura de datos para personal de visita médica, basado en windows mobile 6.0 y pocket pc.\n\ninstalación del software ccm de on command para la instalación y parametrización automatizada de las aplicaciones y service pack\nen los equipos clientes de la red.\n\nsistema de pesaje automatizado de materias primas wapsy, basado en oracle y db2 de as400.\n\nresponsable del sistema de central telefónica, parametrización, reportes de consumo y costos asociados.\n\nsistema de seguridad pórticos de acceso y cámaras de vigilancia.\n\nencargado de la asignación de tareas y capacitación del personal de soporte.\nanalista de sistemas consultora orgware limitada. marzo 1996 - febrero 1999\n\ninstalación, parametrización software erp softland, módulo recursos humanos.\n\nconfección reportería software erp softland.\nsoporte usuarios.\nadministrativo gerencia comercial productos fernández s.a. marzo 1993 - febrero 1996\ndesarrollo de reportes e indicadores estadísticos para la gerencia general y comercial.\ntítulos\n\n1994 1998 título ingeniero de ejecución en informática universidad tecnológica de chile - inacap\n\n1990 1993 título contador con mención en computación instituto comercial avenida recoleta\n",
     "Resumen": "presentación\nprofesional con 20 años de experiencia en tecnologías de información. experiencia en el área de administración de redes,\nseguridad de la información, auditoria tecnológica y seguridad, desarrollada en empresas multinacionales y nacionales.\ndurante mi desarrollo profesional me he desempeñado como network administrator latam, ingeniero de proyectos,\nconsultor de seguridad de información, auditor interno de riesgo tecnológico, auditor senior a de riesgo tecnológico.\npresenta gran capacidad de pensamiento analítico y conceptual, orientación a resultados, capacidad de trabajo en equipo y\nadaptabilidad al cambio.\n",
     "Referencias": "",
     "Skills": [
-        "Softland",
         "Erp",
+        "Cobit",
+        "Microsoft sql server",
+        "Scrum",
         "Windows",
         "Sql",
-        "Scrum",
-        "Microsoft sql server",
-        "Bases de datos",
-        "Cobit",
         "Base de datos",
+        "Softland",
         "Sap",
-        "Oracle"
+        "Oracle",
+        "Bases de datos"
     ]
 }

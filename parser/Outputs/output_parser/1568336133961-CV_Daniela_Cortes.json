@@ -10,9 +10,9 @@
     "Nombre archivo": "1568336133961-CV_Daniela_Cortes",
     "Licencias-Certificaciones": [],
     "Palabras Claves": [
-        "Negociación",
+        "Modelamiento",
         "Gestión",
-        "Modelamiento"
+        "Negociación"
     ],
     "Educacion": {
         "Universidades:": [
@@ -23,25 +23,25 @@
         ]
     },
     "Lenguajes": [
-        "Portugués",
-        "Español nativo",
-        "Portugués avanzado",
         "English",
-        "Español"
+        "Portugués avanzado",
+        "Español",
+        "Español nativo",
+        "Portugués"
     ],
     "Experiencia": "experiencia\nsodimac sa.\nanalista de inteligencia de negocios de crm - gerencia comercial 14 enero 2019 - actualidad\ndepartamento de industrias utfsm\nenergy conversion combustion group ec2g\nasistente de investigacion en energy conversion combustion group, ec2g 2016 - mayo\n2018\nayudante de catedra y laboratorio\ngestion energetica ii 2017 2015\nlaboratorio de procesos industriales - robotica 2017\ngestion de operaciones i 2014\nlaboratorio de fısica 130 2013 - 2015\npracticas\npractica profesional siemens chile - customer care center de la division healthcare enero\n- febrero 2015\ncv - daniela cortes gomez\npractica industrial ong conselho de integracao social integrasol, fortaleza, ceara bra-\nsil enero - febrero 2014\nprofesora de engineering for kids 2014 - 2015\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n",
     "Resumen": "curriculum vitae\ndaniela fernanda cortes gomez\n",
     "Referencias": "",
     "Skills": [
         "Oﬃce",
-        "Oracle",
-        "Scikit-learn",
         "Matlab",
         "Crm",
+        "Inventor",
         "Sql",
         "Excel",
-        "Numpy",
         "Python",
-        "Inventor"
+        "Numpy",
+        "Oracle",
+        "Scikit-learn"
     ]
 }

@@ -12,13 +12,13 @@
         "TOEIC"
     ],
     "Palabras Claves": [
-        "Negociación",
-        "Analizar",
-        "Adaptable",
-        "Liderazgo",
         "Voluntariado",
         "Creativo",
-        "Responsabilidad"
+        "Adaptable",
+        "Negociación",
+        "Liderazgo",
+        "Responsabilidad",
+        "Analizar"
     ],
     "Educacion": {
         "Universidades:": [
@@ -29,28 +29,28 @@
         ]
     },
     "Lenguajes": [
-        "Español",
-        "Inglés"
+        "Inglés",
+        "Español"
     ],
     "Experiencia": "",
     "Resumen": "jorge hernández c.\ningeniero civil telemático\nfreire 178, depto. 21. valparaíso\n56 9 88 26 1301\njahernandezcontreras@gmail.com\n",
     "Referencias": "",
     "Skills": [
-        "Word",
-        "Linux",
-        "Verilog",
-        "Javascript",
-        "Toeic",
-        "Apache",
-        "Php",
-        "Excel",
-        "Sql",
-        "Scrum",
-        "Bases de datos",
-        "Java",
-        "Python",
         "Git",
+        "Php",
+        "Java",
+        "Apache",
+        "Html",
+        "Linux",
+        "Scrum",
+        "Toeic",
         "Latex",
-        "Html"
+        "Sql",
+        "Excel",
+        "Word",
+        "Javascript",
+        "Python",
+        "Verilog",
+        "Bases de datos"
     ]
 }

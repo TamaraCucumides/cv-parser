@@ -10,17 +10,17 @@
         "TOEIC"
     ],
     "Palabras Claves": [
-        "Gestión",
         "Análisis",
-        "Proactividad",
+        "Gestión",
         "Negociación",
         "Modelamiento",
-        "Responsabilidad"
+        "Responsabilidad",
+        "Proactividad"
     ],
     "Educacion": {
         "Universidades:": [
-            "Universidad de Santiago de Chile",
-            "Universidad de Chile"
+            "Universidad de Chile",
+            "Universidad de Santiago de Chile"
         ],
         "Grado_mas_alto": [
             "Ingeniería"
@@ -33,19 +33,19 @@
     "Resumen": "resúmen profesional\ningeniero comercial titulado de la universidad de santiago de chile, diplomado en gestión de retail\nde la universidad de chile 2016 con experiencia en retail, en industrias de calzado, deportes y\nproductos outdoor. profesional orientado a los resultados, a la eficiencia, pensamiento analítico,\nproactivo y con muy buenas relaciones personales.\n",
     "Referencias": "referencias\njosé pablo de la fuente sbu general manager zolkan en colgram s.a.\ncorreo jpd@smcconsulting.com / cel 56 9 9438 5642\njosé tomás larraín gerente de planificación en colgram s.a.\ncorreo josetomaslarrain@gmail.com / cel 56 9 9643 8944\nfelipe barros sales manager en skechers chile.\ncorreo fbarros@skechers.com / cel 5699538 3187\n",
     "Skills": [
-        "Word",
         "Erp",
+        "Powerpoint",
+        "Visio",
+        "Crm",
         "Access",
         "Toeic",
-        "Powerpoint",
         "Excel",
-        "Crm",
-        "Visio",
-        "Office",
-        "Bases de datos",
         "Vba",
+        "Word",
+        "Sap",
         "Base de datos",
+        "Office",
         "Macros",
-        "Sap"
+        "Bases de datos"
     ]
 }
