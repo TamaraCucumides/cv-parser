@@ -13,17 +13,17 @@
         "Grado_mas_alto": []
     },
     "Lenguajes": [
-        "Inglés",
         "Inglés avanzado",
-        "Español",
-        "Español nativo"
+        "Español nativo",
+        "Inglés",
+        "Español"
     ],
     "Experiencia": "",
-    "Resumen": "acerca de mi\njoven trabajador con una actitud. me\nconsidero una persona perseverante\nque no se rinde, habilidoso en el trabajo\nbajo presión y ritmo rápido. capaz de\nmantener relaciones de trabajo cordiales y\nprofesionales con otros compañeros de\ntrabajo, supervisores y clientes.\njorge jiménez\n08 05 1995\n108998540\nzañartu 2132, ñuñoa.\nregión metrop.\n56 953383515\njorgeajch@hotmail.com.com\n",
-    "Referencias": "referencias personales\nemely medina - abogada\nteléfono 56953383515\ne-mail medinademely@gmail.com\neduin jimenez - contador\nteléfono 56962187263\ne-mail eduinjimenez29@gmail.com\n",
+    "Resumen": null,
+    "Referencias": "referencias personales emely medina - abogada teléfono 56953383515 e-mail medinademely@gmail.com eduin jimenez - contador teléfono 56962187263 e-mail eduinjimenez29@gmail.com ",
     "Skills": [
-        "Excel",
         "Office",
+        "Excel",
         "Word"
     ]
 }

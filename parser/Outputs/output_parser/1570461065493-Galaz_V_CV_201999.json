@@ -12,9 +12,9 @@
     "Palabras Claves": null,
     "Educacion": {
         "Universidades:": [
-            "Pontificia Universidad Catolica de Chile",
+            "Universidad Católica de Chile",
             "Universidad de Chile",
-            "Universidad Católica de Chile"
+            "Pontificia Universidad Catolica de Chile"
         ],
         "Grado_mas_alto": [
             "Magíster"
@@ -23,14 +23,14 @@
     "Lenguajes": [
         "Inglés"
     ],
-    "Experiencia": "antecedentes laborales\nø\nagosto 2015 a la actualidad ayudante de docencia. preparación y realización de clases auxiliares en aula de ejercitación\nademás de corregir interrogaciones, tareas y proyectos para alumnos de los cursos álgebra 2019-2, termodinámica\n2019-1, 2018-2, 2018-1, marketing 2018-2 e introducción a la economía 2015-2. ayudante corrector. corregir\ninterrogaciones, tareas y proyectos de optimización 2016-2 e informes de la experiencia de práctica i realizada por\nalumnos de pregrado de ingeniería uc 2018-2019. ayudante de laboratorio. cuidar y corregir laboratorios realizados\nen el programa mathematica además de resolver dudas de los alumnos en ecuaciones diferenciales ordinarias 2016-2 y\ncálculo iii 2017-2 a 2019-1. ayudante de laboratorio de ciencia de los alimentos 2019-2. todos los cursos\npertenecientes a diferentes facultades de la pontificia universidad católica de chile.\nø\nmayo 2018 julio 2018 presentadora de investigación. formato póster y oral de aislamiento e identificación de\nlevaduras provenientes de insectos nativos chilenos para la fabricación de cerveza con sello país en xxiv congreso\nlatinoamericano de estudiantes de ingeniería química colaeiq. universidad tecnológica nacional. buenos aires,\nargentina. además, en formato póster de aislamiento e identificación de levaduras provenientes de insectos nativos\nde chile en i seminario de estudiantes de ingeniería química seiq. universidad de chile. santiago, chile.\nø\nmayo 2018 participante en el comité de difusión y recreación del i seminario de estudiantes de ingeniería\nquímica. integrante del comité organizador del evento, en el cual trabajé en la difusión del evento y en la preparación y\nlogística de las actividades recreativas del evento.\nø\nenero 2017 practica i en ecocamp patagonia. trabajo de mantención en torres del paine. en este trabajo se\nrealizan labores de mantención, reparaciones, mantención de compostaje, reposición de leña en los domos, encargada\ndel reciclaje, entre otras tareas.\n",
-    "Resumen": "valeria nicole galaz galaz\nestudiante de magíster en ciencias de la ingeniería\nestudiante de ingeniería civil de industrias diploma en ingeniería química\npontificia universidad católica de chile\ncorreo vngalaz@uc.cl, telefono 56932687922\n",
+    "Experiencia": "antecedentes laborales ø agosto 2015 a la actualidad ayudante de docencia. preparación y realización de clases auxiliares en aula de ejercitación además de corregir interrogaciones, tareas y proyectos para alumnos de los cursos álgebra 2019-2, termodinámica 2019-1, 2018-2, 2018-1, marketing 2018-2 e introducción a la economía 2015-2. ayudante corrector. corregir interrogaciones, tareas y proyectos de optimización 2016-2 e informes de la experiencia de práctica i realizada por alumnos de pregrado de ingeniería uc 2018-2019. ayudante de laboratorio. cuidar y corregir laboratorios realizados en el programa mathematica además de resolver dudas de los alumnos en ecuaciones diferenciales ordinarias 2016-2 y cálculo iii 2017-2 a 2019-1. ayudante de laboratorio de ciencia de los alimentos 2019-2. todos los cursos pertenecientes a diferentes facultades de la pontificia universidad católica de chile. ø mayo 2018 julio 2018 presentadora de investigación. formato póster y oral de aislamiento e identificación de levaduras provenientes de insectos nativos chilenos para la fabricación de cerveza con sello país en xxiv congreso latinoamericano de estudiantes de ingeniería química colaeiq. universidad tecnológica nacional. buenos aires, argentina. además, en formato póster de aislamiento e identificación de levaduras provenientes de insectos nativos de chile en i seminario de estudiantes de ingeniería química seiq. universidad de chile. santiago, chile. ø mayo 2018 participante en el comité de difusión y recreación del i seminario de estudiantes de ingeniería química. integrante del comité organizador del evento, en el cual trabajé en la difusión del evento y en la preparación y logística de las actividades recreativas del evento. ø enero 2017 practica i en ecocamp patagonia. trabajo de mantención en torres del paine. en este trabajo se realizan labores de mantención, reparaciones, mantención de compostaje, reposición de leña en los domos, encargada del reciclaje, entre otras tareas. ",
+    "Resumen": null,
     "Referencias": "",
     "Skills": [
-        "Matlab",
         "Mathematica",
         "Latex",
         "Excel",
+        "Matlab",
         "Python"
     ]
 }

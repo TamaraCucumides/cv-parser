@@ -10,8 +10,8 @@
     "Nombre archivo": "1571276191041-CV_Fernando_Del_Hoyo",
     "Licencias-Certificaciones": [],
     "Palabras Claves": [
-        "Colaboración",
-        "Responsabilidad"
+        "Responsabilidad",
+        "Colaboración"
     ],
     "Educacion": {
         "Universidades:": [
@@ -22,16 +22,16 @@
         ]
     },
     "Lenguajes": [
+        "Inglés intermedio",
         "Inglés",
-        "Español",
-        "Inglés intermedio"
+        "Español"
     ],
     "Experiencia": "",
-    "Resumen": "fernando del hoyo\navenida matta,311,\ndpto 103 - cerro placeres - valparaíso\n56 996152047\nfernando.delhoyo.14@sansano.usm.cl\n",
+    "Resumen": null,
     "Referencias": "",
     "Skills": [
-        "Excel",
         "Vba",
+        "Excel",
         "Latex"
     ]
 }

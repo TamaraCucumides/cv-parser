@@ -12,14 +12,14 @@
         "LICENCIA DE CONDUCIR"
     ],
     "Palabras Claves": [
-        "Estrategia",
-        "Análisis",
-        "Gestión",
         "Negociación",
+        "Análisis",
+        "Analizar",
         "Comprometido",
         "Liderazgo",
-        "Responsabilidad",
-        "Analizar"
+        "Estrategia",
+        "Gestión",
+        "Responsabilidad"
     ],
     "Educacion": {
         "Universidades:": [
@@ -32,14 +32,14 @@
     "Lenguajes": [
         "Inglés"
     ],
-    "Experiencia": "experiencia profesional\n",
-    "Resumen": "biografia profesional\ncuadros estadísticos de productividades.\nelaboración y control de presupuestos.\nrealizar indicadores de gestión.\nliquidación de proyectos y/o servicios.\napoyo al área de cobranzas y facturación.\notras funciones que asigne la gerencia general.\n................................................................................................\n..............................................................................................................................\nde practicante a analista de administración\nitsp abaco\n",
+    "Experiencia": "experiencia profesional ",
+    "Resumen": null,
     "Referencias": "",
     "Skills": [
-        "Crm",
+        "Office",
         "Excel",
-        "Base de datos",
         "Sap",
-        "Office"
+        "Base de datos",
+        "Crm"
     ]
 }

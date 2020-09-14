@@ -12,16 +12,16 @@
     "Palabras Claves": [
         "Voluntariado",
         "Análisis",
-        "Amigable",
         "Adaptable",
-        "Aprender",
         "Comprometido",
+        "Amigable",
+        "Aprender",
         "Responsabilidad"
     ],
     "Educacion": {
         "Universidades:": [
-            "Universidad del Desarrollo",
-            "Universidad Adolfo Ibáñez"
+            "Universidad Adolfo Ibáñez",
+            "Universidad del Desarrollo"
         ],
         "Grado_mas_alto": [
             "Ingeniería"
@@ -30,14 +30,14 @@
     "Lenguajes": [
         "Inglés"
     ],
-    "Experiencia": "experiencia\nen\nárea\ncomercial\ncorrespondiente\na\nlas\nprácticas\nprofesionales\nrealizadas\nen\nel\nextranjero.\nme\ngusta\ntrabajar\nequipo,\nsiempre\ncomprometido\nal\ncumplimiento\nde\nmetas\ny\nobjetivos,\ncon\nalta\ncapacidad\nde\nadaptación,\nbuscando\naprender\nlo\nmáximo\nposible\ny\ndar\nlo\nmejor\nde\nsi\nintereses\nenfocados\nen\nel\nárea\ncomercial\ny\nde\nmarketing.\nexperiencia\nlaboral\nseptiembre\n2018\na\ndiciembre\n2018\nswapper.\nvalencia,\nespaña\nsales\nmanager\n/\npráctica\nprofesional.\n\nresponsable\nde\nla\nbúsqueda\ny\n",
-    "Resumen": "resumen\nprofesional\ningeniero\ncomercial\ntitulado\nde\nla\nuniversidad\ndel\ndesarrollo,\nmención\nen\nemprendimiento\ncon\nmanejo\navanzado\ndel\ninglés\ny\n",
+    "Experiencia": "experiencia en área comercial correspondiente a las prácticas profesionales realizadas en el extranjero. me gusta trabajar equipo, siempre comprometido al cumplimiento de metas y ",
+    "Resumen": null,
     "Referencias": "",
     "Skills": [
+        "Word",
         "Trello",
         "Power point",
         "Excel",
-        "Hubspot",
-        "Word"
+        "Hubspot"
     ]
 }

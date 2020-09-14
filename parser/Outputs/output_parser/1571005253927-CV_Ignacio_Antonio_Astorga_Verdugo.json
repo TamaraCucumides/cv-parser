@@ -17,18 +17,18 @@
         ]
     },
     "Lenguajes": [
-        "Inglés",
-        "Inglés escrito"
+        "Inglés escrito",
+        "Inglés"
     ],
-    "Experiencia": "experiencia laboral\n",
-    "Resumen": "no posee experiencias laborales cargadas\nignacio antonio astorga verdugo\ntel 562 2213327\ncel 569 58924772\nastorgaverdugo.i@gmail.com\ncalle uno , macul, región metropolitana, chile\n24 años , soltero/a , chile.\ndni 19183119-5\n200.000\nrenta líquida pretendida\n",
-    "Referencias": "referencias\nsin referencias\nobjetivo laboral\nprincipalmente, lograr desarrollarme en todo ámbito tanto personal como laboral, que permita\nexponer las herramientas que me ha entregado la universidad y el diario vivir.\n\n\n",
+    "Experiencia": "experiencia laboral ",
+    "Resumen": null,
+    "Referencias": "referencias sin referencias objetivo laboral principalmente, lograr desarrollarme en todo ámbito tanto personal como laboral, que permita exponer las herramientas que me ha entregado la universidad y el diario vivir.   ",
     "Skills": [
-        "Visual basic",
-        "Sql",
-        "Excel",
         "Vba",
+        "Sql",
         "Tablas dinámicas",
-        "Macros"
+        "Macros",
+        "Excel",
+        "Visual basic"
     ]
 }

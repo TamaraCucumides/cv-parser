@@ -11,32 +11,32 @@
     "Licencias-Certificaciones": [],
     "Palabras Claves": [
         "Creativo",
-        "Motivación",
-        "Negociación",
         "Compromiso",
+        "Negociación",
+        "Motivación",
         "Proactividad"
     ],
     "Educacion": {
         "Universidades:": [
-            "Universidad Viña del Mar",
-            "Universidad Andrés Bello"
+            "Universidad Andrés Bello",
+            "Universidad Viña del Mar"
         ],
         "Grado_mas_alto": [
             "Ingeniero"
         ]
     },
     "Lenguajes": [
-        "Español avanzado",
+        "Inglés intermedio",
         "Español",
         "Inglés",
-        "Inglés intermedio"
+        "Español avanzado"
     ],
-    "Experiencia": "experiencia\nminera las cenizas s.a\npráctica profesional i\nprocesos mineros\njulio - septiembre 2018\napoyo a jefe de turno, mina\nsubterránea sauce operaciones\nminera las cenizas s.a\npráctica profesional ii\nproyectos mineros\nenero - marzo 2019\nevaluación económica y técnica,\naumentar recuperación de\ncaserones en realce por sls\n",
-    "Resumen": "sobre mi\n",
+    "Experiencia": "experiencia minera las cenizas s.a práctica profesional i procesos mineros julio - septiembre 2018 apoyo a jefe de turno, mina subterránea sauce operaciones minera las cenizas s.a práctica profesional ii proyectos mineros enero - marzo 2019 evaluación económica y técnica, aumentar recuperación de caserones en realce por sls ",
+    "Resumen": null,
     "Referencias": "",
     "Skills": [
         "Excel",
-        "Photoshop",
-        "Word"
+        "Word",
+        "Photoshop"
     ]
 }

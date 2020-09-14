@@ -12,19 +12,19 @@
     "Nombre archivo": "1569432996132-DINO_MATILLA_CV",
     "Licencias-Certificaciones": [],
     "Palabras Claves": [
-        "Estrategia",
-        "Análisis",
-        "Adaptable",
-        "Gestión",
         "Negociación",
         "Modelamiento",
+        "Análisis",
+        "Adaptable",
+        "Estrategia",
+        "Gestión",
         "Responsabilidad"
     ],
     "Educacion": {
         "Universidades:": [
+            "Universidad Católica de Chile",
             "Universidad Diego Portales",
-            "Universidad de Chile",
-            "Universidad Católica de Chile"
+            "Universidad de Chile"
         ],
         "Grado_mas_alto": [
             "Magíster"
@@ -34,22 +34,22 @@
         "Inglés",
         "Español"
     ],
-    "Experiencia": "experiencia laboral\nal presente\nresponsable planificación y control mapfre seguros\nabril 2017\ngerencia de negocios y clientes\nresponsable del análisis económico-financiero de proyectos para la im-\nplementación del plan estratégico de la compañía.\npropuestas para\nel crecimiento rentable de cada uno de sus canales, con foco en la\nventa directa y productos de retención para la disminución del riesgo.\ncontroller de gastos de gestión externa, vinculados principalmente al\ncrecimiento del negocio de forma rentable. encargado de estudios de\nmercado que impactan la rentabilidad de la compañía, esto, con el\nfin generar planes específicos y aprovechar oportunidades en el corto\nplazo.\nfeb 2015 - mar 2017\nanalista de inteligencia comercial mapfre seguros\ngerencia de negocios y clientes\nentregar información relativa a la estrategia y a la gestión comercial\npara la toma de decisiones estratégicas. generación de acciones cor-\nrectivas para entregar en tiempo y forma de manera fidedigna. elab-\norar y controlar presupuestos de los canales de venta, confeccionar\ninformes de gestión comercial y financiera, segmentación de cartera\nintermediarios y clientes, análisis y control de indicadores de gestión\ndel negocio bsc, proyectos comerciales y de clientes valor del cliente,\nmodelo de probabilidad de compra y fuga, aportar en la formulación\nde la base de datos de marketing. elaborar estudios de impacto análi-\nsis de sensibilidad de variables relevantes del negocio. arquitectura de\nla información, gobierno del dato.\nenero-abril 2013\nanalista económico banco central de chile\ngerencia estadísticas macroeconómicas, depto.\nde cuentas\nnacionales\npráctica profesional.\ncompilación de referencia 2013.\nelaboración\ny análisis de productos según márgenes de comercio, seleccionados\na través de índices relevantes. sistematización y documentación de\nmétodos y procesos de trabajo manuales metodológicos y otros in-\nformes. realización de presentaciones y redacción de informes de re-\nsultados a nivel departamental.\n",
-    "Resumen": "resumen\nsólida formación en las áreas de marketing, administración, finanzas y economía.\ngran manejo con bases de datos, software econométricos y análisis de datos. capaci-\ndad para organizar y planificar utilizando competencias distintivas como iniciativa,\npro-actividad y visión crítica desde una perspectiva económica-financiera. habilidades\npara adaptarse al contexto laboral y para trabajar en equipo.\n",
+    "Experiencia": "experiencia laboral al presente responsable planificación y control mapfre seguros abril 2017 gerencia de negocios y clientes responsable del análisis económico-financiero de proyectos para la im- plementación del plan estratégico de la compañía. propuestas para el crecimiento rentable de cada uno de sus canales, con foco en la venta directa y productos de retención para la disminución del riesgo. controller de gastos de gestión externa, vinculados principalmente al crecimiento del negocio de forma rentable. encargado de estudios de mercado que impactan la rentabilidad de la compañía, esto, con el fin generar planes específicos y aprovechar oportunidades en el corto plazo. feb 2015 - mar 2017 analista de inteligencia comercial mapfre seguros gerencia de negocios y clientes entregar información relativa a la estrategia y a la gestión comercial para la toma de decisiones estratégicas. generación de acciones cor- rectivas para entregar en tiempo y forma de manera fidedigna. elab- orar y controlar presupuestos de los canales de venta, confeccionar informes de gestión comercial y financiera, segmentación de cartera intermediarios y clientes, análisis y control de indicadores de gestión del negocio bsc, proyectos comerciales y de clientes valor del cliente, modelo de probabilidad de compra y fuga, aportar en la formulación de la base de datos de marketing. elaborar estudios de impacto análi- sis de sensibilidad de variables relevantes del negocio. arquitectura de la información, gobierno del dato. enero-abril 2013 analista económico banco central de chile gerencia estadísticas macroeconómicas, depto. de cuentas nacionales práctica profesional. compilación de referencia 2013. elaboración y análisis de productos según márgenes de comercio, seleccionados a través de índices relevantes. sistematización y documentación de métodos y procesos de trabajo manuales metodológicos y otros in- formes. realización de presentaciones y redacción de informes de re- sultados a nivel departamental. ",
+    "Resumen": null,
     "Referencias": "",
     "Skills": [
-        "Mysql",
-        "Powerpoint",
-        "Stata",
-        "Rstudio",
-        "Matlab",
-        "Access",
-        "Latex",
-        "Excel",
         "Word",
-        "Sap",
+        "Powerpoint",
         "Base de datos",
+        "Latex",
         "Macros",
-        "Bases de datos"
+        "Mysql",
+        "Excel",
+        "Sap",
+        "Matlab",
+        "Rstudio",
+        "Bases de datos",
+        "Stata",
+        "Access"
     ]
 }

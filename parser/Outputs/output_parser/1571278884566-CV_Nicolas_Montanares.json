@@ -24,19 +24,19 @@
         ]
     },
     "Lenguajes": [
-        "Inglés",
-        "Inglés intermedio"
+        "Inglés intermedio",
+        "Inglés"
     ],
-    "Experiencia": "experiencia laboral\nuniversidad federico santa maría\ncoordinador de actividades departamento\nadmisión\nmarzo 2017 - diciembre 2018\nuniversidad federico santa maría promotor\n",
-    "Resumen": "nicolás montanares morales\n",
+    "Experiencia": "experiencia laboral universidad federico santa maría coordinador de actividades departamento admisión marzo 2017 - diciembre 2018 universidad federico santa maría promotor ",
+    "Resumen": null,
     "Referencias": "",
     "Skills": [
-        "Powerpoint",
-        "Access",
-        "Sql",
-        "Excel",
         "Vba",
         "Word",
-        "Base de datos"
+        "Powerpoint",
+        "Sql",
+        "Excel",
+        "Base de datos",
+        "Access"
     ]
 }

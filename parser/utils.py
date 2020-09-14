@@ -357,7 +357,10 @@ def extraer_referencias(cv_txt):
             break
 
         if linea_referencia == True and siguiente_seccion == False:
-            parrafo += linea + '\n'
+            parrafo += linea + ' '
+    #if len(parrafo.splitlines())>2:
+    #    parrafo = " ".join([str(x) for x in parrafo.splitlines()[1:-1]])
+        
 
     return parrafo
 
@@ -412,9 +415,13 @@ def extraer_perfil(cv_text):
             break
 
         if  siguiente_seccion == False:
-            parrafo += linea + '\n'
+            parrafo += linea + ' '
 
-    return parrafo
+    #if len(parrafo.splitlines())>2:
+    #        parrafo = " ".join([str(x) for x in parrafo.splitlines()[1:-1]])
+        
+
+    return 
     
 
 def extraer_experiencia(cv_text):
@@ -428,7 +435,7 @@ def extraer_experiencia(cv_text):
         #print(line)
         line_np = re.sub(r'[^\w\s]','', line)
         #print(line_np)
-        l = sum([i.strip(string.punctuation).isalpha() for i in line_np.split()])
+        #l = sum([i.strip(string.punctuation).isalpha() for i in line_np.split()])
         chunks = re.split(' +', line)
         linea =''
         for word in chunks:
@@ -463,8 +470,10 @@ def extraer_experiencia(cv_text):
             break
 
         if linea_experiencia == True and siguiente_seccion == False:
-            parrafo += linea + '\n'
-    #print(parrafo)
+            parrafo += linea + ' '
+    #if len(parrafo.splitlines())>2:
+    #    parrafo = " ".join([str(x) for x in parrafo.splitlines()[1:-1]])       
+
     return parrafo
 
 def retrieve_past_experience(text): # Funcion que no  usada

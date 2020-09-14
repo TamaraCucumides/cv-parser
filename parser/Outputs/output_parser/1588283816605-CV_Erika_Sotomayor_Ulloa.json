@@ -12,17 +12,17 @@
         "TOEIC"
     ],
     "Palabras Claves": [
-        "Estrategia",
+        "Modelamiento",
         "Análisis",
-        "Gestión",
+        "Estrategia",
         "Aprender",
-        "Modelamiento"
+        "Gestión"
     ],
     "Educacion": {
         "Universidades:": [
-            "Pontificia Universidad Catolica de Chile",
+            "Universidad Católica de Chile",
             "Universidad Santo Tomas",
-            "Universidad Católica de Chile"
+            "Pontificia Universidad Catolica de Chile"
         ],
         "Grado_mas_alto": [
             "Ingeniería"
@@ -31,16 +31,16 @@
     "Lenguajes": [
         "Inglés"
     ],
-    "Experiencia": "experiencia laboral\nparticipación en programa sin límites uc septiembre a diciembre 2019\nparticipación en proyecto para derco proponer una estrategia de marketing para distintos\nsegmentos de clientes, en base a herramientas de machine learning evaluada con nota 7, y siendo\nun proyecto destacado en la 10ma versión del programa al recibir el reconocimiento al trabajo\ninterdisciplinario. encargada de realizar el análisis de las variables de segmentación de clientes y\nestudio de cada grupo objetivo, conectando esta información con la herramienta de programación\ndesarrollada.\npráctica profesional banco bci enero y febrero 2017\npracticante del gerente general de la corredora de seguros. las principales funciones consistían en\nmapeo, modelamiento, análisis y oportunidades de mejora en los procesos de venta, sumado a\napoyo en gestión de procesos propios.\n",
-    "Resumen": "erika sotomayor ulloa\nsantiago, chile 569 8 9999 586 eesotomayor@uc.cl\n",
+    "Experiencia": "experiencia laboral participación en programa sin límites uc septiembre a diciembre 2019 participación en proyecto para derco proponer una estrategia de marketing para distintos segmentos de clientes, en base a herramientas de machine learning evaluada con nota 7, y siendo un proyecto destacado en la 10ma versión del programa al recibir el reconocimiento al trabajo interdisciplinario. encargada de realizar el análisis de las variables de segmentación de clientes y estudio de cada grupo objetivo, conectando esta información con la herramienta de programación desarrollada. práctica profesional banco bci enero y febrero 2017 practicante del gerente general de la corredora de seguros. las principales funciones consistían en mapeo, modelamiento, análisis y oportunidades de mejora en los procesos de venta, sumado a apoyo en gestión de procesos propios. ",
+    "Resumen": null,
     "Referencias": "",
     "Skills": [
-        "Machine learning",
-        "Stata",
-        "Toeic",
+        "Power bi",
         "Sql",
+        "Machine learning",
         "Excel",
         "Python",
-        "Power bi"
+        "Stata",
+        "Toeic"
     ]
 }

@@ -20,15 +20,15 @@
         "Inglés",
         "Español"
     ],
-    "Experiencia": "experiencia\nanaista marketing digital\nsantiago, chile\nuai online\n2018\nanaista marketing digital\nsantiago, chile\ntransformacion digital uai\n2019\n",
-    "Resumen": "matıas francisco matus alvarez\njuly 24, 2019\nmatias.matus@mail.udp.cl\ncarmen farina 6772 dpto21 vitacura\n",
+    "Experiencia": "experiencia anaista marketing digital santiago, chile uai online 2018 anaista marketing digital santiago, chile transformacion digital uai 2019 ",
+    "Resumen": null,
     "Referencias": "",
     "Skills": [
-        "Stata",
         "Analytics",
-        "Html",
         "Latex",
         "Excel",
-        "Python"
+        "Html",
+        "Python",
+        "Stata"
     ]
 }

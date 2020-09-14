@@ -12,10 +12,10 @@
         "CCNA"
     ],
     "Palabras Claves": [
-        "Análisis",
-        "Modelamiento",
         "Gestión",
-        "Liderar"
+        "Modelamiento",
+        "Liderar",
+        "Análisis"
     ],
     "Educacion": {
         "Universidades:": [
@@ -26,20 +26,20 @@
         ]
     },
     "Lenguajes": [],
-    "Experiencia": "antecedentes laborales\nentel pcs santiago\nfebrero\n2016\n\na\nla\nfecha\ningeniero om redes core\nmantener y configurar redes móviles ericsson, redes core y ran 2g/3g/lte. configuración de\npacket\ncore\nsgsn/mme.\nejecutar\ntrabajos\nen\nredes\nericsson\ncon\ntecnologías\naxe/cpp/unix/ldap y cisco.\nmanejar proyectos de desarrollos para aplicaciones de gestión en nodos ericsson. coordinar con\nempresas externas para ejecución de trabajos en ran, como cambios de parámetros, migraciones\nde sitios, automatizar y levantar indicadores.\nliderar equipo de desarrollo de software y automatización de procesos, visualización y consolidación\nde datos, con el objetivo de obtener información para su procesamiento, levantamiento de\nindicadores, alarmas y promover la detección temprana de problemas de red splunk.\nentel pcs santiago\nfebrero\n2013\n\nenero\n2016\ningeniero noc vas\nsupervisión integra de servicios vas valor agregado, resolución de incidentes operacionales con\nla finalidad de asegurar la continuidad operacional y calidad del servicio. ejecutar las acciones de\ndiagnóstico y posibles soluciones de incidentes que afecten o afectarán el desempeño y calidad de\nlos servicios de la red y sus elementos de acuerdo con los procedimientos establecidos.\ncgi chile santiago\nseptiembre 2011 febrero 2013\nconsultor de proyecto host lan airlines\n-\nimplantación de plataformas virtuales para capacitación de usuarios y trabajadores por\ncambio de sistemas en aerolínea moodle e ilearning oracle.\n-\ntoma de requerimientos de usuarios finales.\n-\npuesta en marcha de los sistemas de información en clientes, mantención y apoyo en\nsoporte a usuarios finales en terreno.\niss facility services santiago. febrero 2011 septiembre 2011\noperador de software\n-\ngestión y manejo de plataforma web.\n-\ndistribución de tareas.\n-\natención a los requerimientos de clientes.\n",
-    "Resumen": "resumen profesional\n2019 2020 magíster data science\nuniversidad adolfo ibañez\n2016\ningeniería civil informática\nuniversidad tecnológica de chile inacap, santiago.\n2008 2012 ingeniería en informática\nuniversidad tecnológica de chile inacap, santiago.\n",
+    "Experiencia": "antecedentes laborales entel pcs santiago febrero 2016  a la fecha ingeniero om redes core mantener y configurar redes móviles ericsson, redes core y ran 2g/3g/lte. configuración de packet core sgsn/mme. ejecutar trabajos en redes ericsson con tecnologías axe/cpp/unix/ldap y cisco. manejar proyectos de desarrollos para aplicaciones de gestión en nodos ericsson. coordinar con empresas externas para ejecución de trabajos en ran, como cambios de parámetros, migraciones de sitios, automatizar y levantar indicadores. liderar equipo de desarrollo de software y automatización de procesos, visualización y consolidación de datos, con el objetivo de obtener información para su procesamiento, levantamiento de indicadores, alarmas y promover la detección temprana de problemas de red splunk. entel pcs santiago febrero 2013  enero 2016 ingeniero noc vas supervisión integra de servicios vas valor agregado, resolución de incidentes operacionales con la finalidad de asegurar la continuidad operacional y calidad del servicio. ejecutar las acciones de diagnóstico y posibles soluciones de incidentes que afecten o afectarán el desempeño y calidad de los servicios de la red y sus elementos de acuerdo con los procedimientos establecidos. cgi chile santiago septiembre 2011 febrero 2013 consultor de proyecto host lan airlines - implantación de plataformas virtuales para capacitación de usuarios y trabajadores por cambio de sistemas en aerolínea moodle e ilearning oracle. - toma de requerimientos de usuarios finales. - puesta en marcha de los sistemas de información en clientes, mantención y apoyo en soporte a usuarios finales en terreno. iss facility services santiago. febrero 2011 septiembre 2011 operador de software - gestión y manejo de plataforma web. - distribución de tareas. - atención a los requerimientos de clientes. ",
+    "Resumen": null,
     "Referencias": "",
     "Skills": [
-        "Mysql",
+        "Itil",
         "Data science",
         "Metodologías ágiles",
+        "Office",
         "Scrum",
-        "Itil",
         "Sql",
         "Devops",
-        "Python",
+        "Mysql",
         "Oracle",
-        "Office",
+        "Python",
         "Bases de datos"
     ]
 }

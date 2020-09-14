@@ -12,13 +12,13 @@
         "TOEIC"
     ],
     "Palabras Claves": [
-        "Voluntariado",
         "Creativo",
-        "Adaptable",
         "Negociación",
+        "Voluntariado",
+        "Analizar",
+        "Adaptable",
         "Liderazgo",
-        "Responsabilidad",
-        "Analizar"
+        "Responsabilidad"
     ],
     "Educacion": {
         "Universidades:": [
@@ -32,25 +32,25 @@
         "Inglés",
         "Español"
     ],
-    "Experiencia": "",
-    "Resumen": "jorge hernández c.\ningeniero civil telemático\nfreire 178, depto. 21. valparaíso\n56 9 88 26 1301\njahernandezcontreras@gmail.com\n",
+    "Experiencia": "experiencia laboral y participación en voluntariados 2018 proyecto de título, empresa axiovista s.a., santiago, chile. 2015-2018 coordinador general, nerdonomicon, utfsm, valparaíso, chile. 2012-2018 coordinador general, club de rol sansano, utfsm, valparaíso, chile. 2017-2018 tutor par, relaciones estudiantiles, utfsm, valparaíso, chile. 2016 supervisor, simce 2016, valparaíso, chile. 2015 coordinador general, difusión telemática, valparaíso, chile. 2015 examinador, simce 2015, valparaíso, chile. 2015 coordinador general, congresotic 2015, utfsm, valparaíso, chile. 2011-2014 encargado de logística, difusión telemática, utfsm, valparaíso, chile. 2013 ayudante cátedra, ingeniería civil uv, valparaíso, chile. 2013 ayudante cátedra, departamento arquitectura, utfsm, valparaíso, chile. 2011-2012 coordinador, acción educa, utfsm, valparaíso, chile. 2012 prácticante, empresa axiovista s.a., santiago, chile. 2012 encuestador, panel casen 2012, valparaíso, chile. 2011 ayudante cátedra, departamento matemáticas, utfsm, valparaíso, chile. 2011 coordinador general, congresotic 2011, utfsm, valparaíso, chile. 2007-2010 apoyo de área, concomics, pucv, valparaíso, chile. 2009 profesor voluntario, escuela santa maría, utfsm, valparaíso, chile. habilidades y responsabilidades ",
+    "Resumen": null,
     "Referencias": "",
     "Skills": [
-        "Git",
-        "Php",
-        "Java",
-        "Apache",
-        "Html",
-        "Linux",
-        "Scrum",
-        "Toeic",
-        "Latex",
-        "Sql",
-        "Excel",
-        "Word",
         "Javascript",
+        "Apache",
+        "Word",
+        "Linux",
+        "Sql",
+        "Scrum",
+        "Latex",
+        "Git",
+        "Excel",
+        "Html",
+        "Java",
         "Python",
         "Verilog",
-        "Bases de datos"
+        "Php",
+        "Bases de datos",
+        "Toeic"
     ]
 }

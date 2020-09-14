@@ -9,14 +9,14 @@
     },
     "Nombre archivo": "1570059933044-CV_-_Jonathan_San_Martín_Avilés",
     "Licencias-Certificaciones": [
-        "LICENCIA DE CONDUCIR",
-        "CLASE B"
+        "CLASE B",
+        "LICENCIA DE CONDUCIR"
     ],
     "Palabras Claves": [
-        "Estrategia",
-        "Modelamiento",
         "Gestión",
-        "Liderar"
+        "Modelamiento",
+        "Liderar",
+        "Estrategia"
     ],
     "Educacion": {
         "Universidades:": [
@@ -29,16 +29,16 @@
     "Lenguajes": [
         "Inglés"
     ],
-    "Experiencia": "experiencia laboral\njunio 2019 -\npresente\nvulco s.a. weir minerals andean\ningeniero de servicios\ncargo en el cual se brinda soporte, se entregan soluciones y se detectan\nmejoras técnicas a los distintos clientes de la región de atacama llegando\nhasta la región de antofagasta, en todos productos que la empresa ofrece,\nen especial, bombas de desplazamiento positivo geho, sellos mecánicos y\nequipos de conminución hpgr.\ncopiapó, chile\ndiciembre\n2018 mayo\n2019\nvulco s.a. weir minerals andean\ningeniero trainee\nprograma de formación profesional donde se es capacitado en los\ndepartamentos que componen la empresa teniendo como enfoque\nespecífico conocer las distintas faenas donde se encuentran nuestros\nequipos en especial bombas de desplazamiento positivo geho, sellos\nmecánicos y equipos de conminución hpgr.\ncopiapó, chile\nmayo 2018\nnoviembre\n2018\nsymmetric s.a.\ningeniero de proyectos\nproyecto en central termoeléctrica aes guacolda donde se desarrolla la\nimplementación de metodologías de gestión de planes de mantenimiento,\nhuasco, chile\n2\nestrategias de planificación y programación en sap pm.\nactualización del árbol de activos, gestión de indicadores sobre los planes\nde mantenimiento y maniobras específicas para la reducción de tiempos\nadministrativos y optimización de la gestión operativa.\nimplementación de hojas de ruta, listas objeto de rutas de lubricación,\nvibración, termografía y plan matriz preventivo.\nmarzo 2014\nmarzo\n2018\ndepartamento mantención piscina utfsm.\njefe de mantención\ncoordinación del grupo de 4 trabajadores y contacto directo con el\ndepartamento de educación física.\nmantención de 4 bombas centrífugas de 2 hp y filtros.\naplicación de productos químicos, aspirado de fondo y limpieza de piscina\nen general.\nvalparaíso,\nchile\nmayo\njunio\n2017\nkomatsu reman center chile s.a.\npracticante ingeniero de procesos\ndiseño y modelación de piezas y estructuras en autodesk inventor junto\ncon la generación de planos.\ngeneración de códigos .nc en software mastercam para centro de\nmecanizado y torno cnc.\nlabores administrativas de órdenes de servicio y órdenes de fabricación en\ntaller mecánico.\nsantiago,\nchile\nfebrero\n2017 -\npresente\netseq llc intellectual property consultants\nconsultor\nadministración de finanzas.\nconsultor ante posibles clientes de servicios de propiedad intelectual\ninternacional.\nburbank, ca,\neeuu\n",
-    "Resumen": "1\njonathan andrés\nsan martín avilés\nlos cisnes 843\nconcón, región de valparaíso,\nchile\n56963203612\njonathan.sanmartin@live.com\n",
+    "Experiencia": "experiencia laboral junio 2019 - presente vulco s.a. weir minerals andean ingeniero de servicios cargo en el cual se brinda soporte, se entregan soluciones y se detectan mejoras técnicas a los distintos clientes de la región de atacama llegando hasta la región de antofagasta, en todos productos que la empresa ofrece, en especial, bombas de desplazamiento positivo geho, sellos mecánicos y equipos de conminución hpgr. copiapó, chile diciembre 2018 mayo 2019 vulco s.a. weir minerals andean ingeniero trainee programa de formación profesional donde se es capacitado en los departamentos que componen la empresa teniendo como enfoque específico conocer las distintas faenas donde se encuentran nuestros equipos en especial bombas de desplazamiento positivo geho, sellos mecánicos y equipos de conminución hpgr. copiapó, chile mayo 2018 noviembre 2018 symmetric s.a. ingeniero de proyectos proyecto en central termoeléctrica aes guacolda donde se desarrolla la implementación de metodologías de gestión de planes de mantenimiento, huasco, chile 2 estrategias de planificación y programación en sap pm. actualización del árbol de activos, gestión de indicadores sobre los planes de mantenimiento y maniobras específicas para la reducción de tiempos administrativos y optimización de la gestión operativa. implementación de hojas de ruta, listas objeto de rutas de lubricación, vibración, termografía y plan matriz preventivo. marzo 2014 marzo 2018 departamento mantención piscina utfsm. jefe de mantención coordinación del grupo de 4 trabajadores y contacto directo con el departamento de educación física. mantención de 4 bombas centrífugas de 2 hp y filtros. aplicación de productos químicos, aspirado de fondo y limpieza de piscina en general. valparaíso, chile mayo junio 2017 komatsu reman center chile s.a. practicante ingeniero de procesos diseño y modelación de piezas y estructuras en autodesk inventor junto con la generación de planos. generación de códigos .nc en software mastercam para centro de mecanizado y torno cnc. labores administrativas de órdenes de servicio y órdenes de fabricación en taller mecánico. santiago, chile febrero 2017 - presente etseq llc intellectual property consultants consultor administración de finanzas. consultor ante posibles clientes de servicios de propiedad intelectual internacional. burbank, ca, eeuu ",
+    "Resumen": null,
     "Referencias": "",
     "Skills": [
-        "Matlab",
-        "Autodesk",
         "Inventor",
         "Autocad",
+        "Office",
         "Sap",
+        "Matlab",
         "Python",
-        "Office"
+        "Autodesk"
     ]
 }

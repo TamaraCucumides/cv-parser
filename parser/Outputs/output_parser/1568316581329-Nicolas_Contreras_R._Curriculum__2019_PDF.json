@@ -9,8 +9,8 @@
     },
     "Nombre archivo": "1568316581329-Nicolas_Contreras_R._Curriculum__2019_PDF",
     "Licencias-Certificaciones": [
-        "LICENCIA DE CONDUCIR",
-        "CLASE B"
+        "CLASE B",
+        "LICENCIA DE CONDUCIR"
     ],
     "Palabras Claves": [
         "Responsabilidad",
@@ -19,24 +19,24 @@
     ],
     "Educacion": {
         "Universidades:": [
-            "Universidad Central de Chile",
-            "Instituto Profesional INACAP"
+            "Instituto Profesional INACAP",
+            "Universidad Central de Chile"
         ],
         "Grado_mas_alto": [
             "Ingeniería"
         ]
     },
     "Lenguajes": [
-        "Inglés",
-        "Inglés avanzado"
+        "Inglés avanzado",
+        "Inglés"
     ],
-    "Experiencia": "experiencia laboral\nacg motors. 10/04/2017 25/01/2018\ncargo\nasesor de servicio.\nencargado de controlar las mantenciones y supervisar el taller.\nexperiencia laboral\ncompañía minera doña inés de collahuasi práctica\nprofesional. 04/01/2017 05/03/2017\ncargo\ngerencia chancado y transporte planificación.\nencargado de la planificación de las pautas de mantención,\nordenes de trabajo para las empresas contratistas y de la\nplanta, además la organización de los repuestos del área,\nmanejando ellipse 8.6.\nexperiencia laboral\neconorent car rental. 10/08/2018 15/03/2019\ncargo\nagente de renta.\nresponsable de organizar y planificar los arriendos diarios y la\natención al cliente.\nexperiencia laboral ceduc ucn. a la actualidad 2019.\ncargo\ndocente del área mecánica\nplanificar el material de estudio, programación de clases y\nsu ejecución.\n",
-    "Resumen": "resumen\norientado principalmente a la gestión de personas, recursos y la planificación estratégica de\nproyectos de ingeniería, resumiendo estas capacidades en la optimización de los procesos.\nrecalcando el área de mantenimiento como fuerte ya que esas son las áreas de manejo hasta\nla fecha.\nsólidos conocimientos científicos y de ingeniería, combinado con habilidades basadas en un\npensamiento crítico y de liderazgo, que me permite enfrentar los problemas de la ingeniería\nen sus aspectos técnicos, sociales y ecológicos.\nparticipar activamente en la planeación y ejecución de proyectos o investigaciones\nrelacionadas con el área de mantención, producción o gestión.\n",
+    "Experiencia": "experiencia laboral acg motors. 10/04/2017 25/01/2018 cargo asesor de servicio. encargado de controlar las mantenciones y supervisar el taller. experiencia laboral compañía minera doña inés de collahuasi práctica profesional. 04/01/2017 05/03/2017 cargo gerencia chancado y transporte planificación. encargado de la planificación de las pautas de mantención, ordenes de trabajo para las empresas contratistas y de la planta, además la organización de los repuestos del área, manejando ellipse 8.6. experiencia laboral econorent car rental. 10/08/2018 15/03/2019 cargo agente de renta. responsable de organizar y planificar los arriendos diarios y la atención al cliente. experiencia laboral ceduc ucn. a la actualidad 2019. cargo docente del área mecánica planificar el material de estudio, programación de clases y su ejecución. ",
+    "Resumen": null,
     "Referencias": "",
     "Skills": [
-        "Rstudio",
+        "Autocad",
         "Excel",
         "Word",
-        "Autocad"
+        "Rstudio"
     ]
 }

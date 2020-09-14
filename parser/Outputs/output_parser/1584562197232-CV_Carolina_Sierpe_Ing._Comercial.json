@@ -8,36 +8,36 @@
     "Nombre archivo": "1584562197232-CV_Carolina_Sierpe_Ing._Comercial",
     "Licencias-Certificaciones": [],
     "Palabras Claves": [
-        "Estrategia",
         "Creativo",
+        "Negociación",
+        "Apasionado",
         "Adaptable",
         "Aprender",
-        "Apasionado",
-        "Negociación",
-        "Responsabilidad",
-        "Proactividad"
+        "Estrategia",
+        "Proactividad",
+        "Responsabilidad"
     ],
     "Educacion": {
         "Universidades:": [
-            "Pontificia Universidad Catolica de Chile",
-            "Universidad Católica de Chile"
+            "Universidad Católica de Chile",
+            "Pontificia Universidad Catolica de Chile"
         ],
         "Grado_mas_alto": [
             "Ingeniería"
         ]
     },
     "Lenguajes": [
-        "Inglés",
         "English",
-        "Inglés escrito"
+        "Inglés escrito",
+        "Inglés"
     ],
-    "Experiencia": "antecedentes laborales\npago46 business intelligence analyst\nmarzo 2019 diciembre 2019\nempresa fintech que permite comprar online pero pagando en efectivo.\nencargada de la creación de dashboards y recolección de información para la toma de decisiones, además\nde la constante evaluación y monitoreo del crecimiento del negocio.\ndentro de sus principales logros se destaca la automatización de reportes como también la introducción y\ncreación de métricas relevantes para el negocio.\npago46 practicante\nenero 2019 febrero 2019\nrotación por las distintas áreas de la empresa, finalizando la práctica profesional con una excelente\nevaluación de desempeño por parte del empleador.\nalmácigo incubadora ejecutiva de proyectos\njulio 2017 diciembre 2018\nprimera incubadora de proyectos sociales que crean soluciones a problemas ligados con la discapacidad.\na cargo de supervisar y apoyar el avance técnico y financiero de dos emprendimientos.\nlaboratoria practicante\nmarzo 2016 julio 2016\nemprendimiento social que capacita en programación a mujeres jóvenes sin acceso a la educación superior,\ncon el objetivo de disminuir la brecha de género a través de la inserción laboral en el sector digital.\nresponsable de establecer alianzas con organizaciones y compañías digitales, para insertar en puestos de\ntrabajo de la industria tecnológica a cada una de las alumnas.\n",
-    "Resumen": "resumen\negresada de ingeniería comercial apasionada por la tecnología y las startups. durante su paso por la\nuniversidad nunca se conformó con sólo asistir a clases, sino que siempre buscó complementar sus estudios\ncon actividades laborales y extracurriculares, formando parte de diversos grupos interdisciplinarios\ndemostrando así su proactividad y ganas de aprender en torno a sus áreas de interés. siempre dispuesta a\naceptar un buen desafío y a proponer soluciones que tengan un impacto social considerable en su entorno.\n",
-    "Referencias": "referencias\nfelipe barja, country manager de pago46\ncontacto 9 7138 5693 felipe@46degrees.net\n",
+    "Experiencia": "antecedentes laborales pago46 business intelligence analyst marzo 2019 diciembre 2019 empresa fintech que permite comprar online pero pagando en efectivo. encargada de la creación de dashboards y recolección de información para la toma de decisiones, además de la constante evaluación y monitoreo del crecimiento del negocio. dentro de sus principales logros se destaca la automatización de reportes como también la introducción y creación de métricas relevantes para el negocio. pago46 practicante enero 2019 febrero 2019 rotación por las distintas áreas de la empresa, finalizando la práctica profesional con una excelente evaluación de desempeño por parte del empleador. almácigo incubadora ejecutiva de proyectos julio 2017 diciembre 2018 primera incubadora de proyectos sociales que crean soluciones a problemas ligados con la discapacidad. a cargo de supervisar y apoyar el avance técnico y financiero de dos emprendimientos. laboratoria practicante marzo 2016 julio 2016 emprendimiento social que capacita en programación a mujeres jóvenes sin acceso a la educación superior, con el objetivo de disminuir la brecha de género a través de la inserción laboral en el sector digital. responsable de establecer alianzas con organizaciones y compañías digitales, para insertar en puestos de trabajo de la industria tecnológica a cada una de las alumnas. ",
+    "Resumen": null,
+    "Referencias": "referencias felipe barja, country manager de pago46 contacto 9 7138 5693 felipe@46degrees.net ",
     "Skills": [
-        "Sql",
         "Stata",
         "Office",
+        "Sql",
         "Python"
     ]
 }

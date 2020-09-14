@@ -12,8 +12,8 @@
     "Palabras Claves": null,
     "Educacion": {
         "Universidades:": [
-            "Pontificia Universidad Catolica de Chile",
-            "Universidad Católica de Chile"
+            "Universidad Católica de Chile",
+            "Pontificia Universidad Catolica de Chile"
         ],
         "Grado_mas_alto": [
             "Ingeniería"
@@ -23,7 +23,7 @@
         "Inglés"
     ],
     "Experiencia": "",
-    "Resumen": "alejandra riquelme carrasco\nestudiante de ingeniería comercial\npontificia universidad católica de chile\nteléfono 569 81333773\ne-mail ariquelme2@uc.cl\n",
+    "Resumen": null,
     "Referencias": "",
     "Skills": [
         "Stata",
