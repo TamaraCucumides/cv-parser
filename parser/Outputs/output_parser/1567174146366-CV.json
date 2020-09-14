@@ -1,26 +1,30 @@
 {
-    "Nombre": "Nicolas Torres ",
-    "Correo": [
-        "nikolastorressantana@gmail.com"
-    ],
-    "Linkedin": "www.linkedin.com/in/nicolás-torres-",
-    "Celular": [
-        "56959671544"
-    ],
-    "Skills": [
-        "Photoshop",
-        "Sony vegas",
-        "After effects"
-    ],
+    "Contacto": {
+        "Nombre": "Nicolas Torres ",
+        "Correo": [
+            "nikolastorressantana@gmail.com"
+        ],
+        "Celular": [
+            "56959671544"
+        ],
+        "Linkedin": "www.linkedin.com/in/nicolás-torres-"
+    },
+    "Nombre archivo": "1567174146366-CV",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Ingeniería"
-    ],
     "Palabras Claves": null,
-    "Educacion": [],
+    "Educacion": {
+        "Universidades:": [],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [],
     "Experiencia": "",
     "Resumen": "nicolas torres\nestudiante ing. comercial\nempleo\n2018 temporal\nvendedor\nferreteria martino\n",
     "Referencias": "",
-    "Nombre archivo": "1567174146366-CV"
+    "Skills": [
+        "Sony vegas",
+        "After effects",
+        "Photoshop"
+    ]
 }

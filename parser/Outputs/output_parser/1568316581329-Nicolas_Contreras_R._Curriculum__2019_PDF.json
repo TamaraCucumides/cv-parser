@@ -1,32 +1,31 @@
 {
-    "Nombre": "Nicolás Hand Contreras ",
-    "Correo": [
-        "Nicohcr.2@gmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": "+29032017125",
-    "Skills": [
-        "Rstudio",
-        "Excel",
-        "Autocad",
-        "Word"
-    ],
+    "Contacto": {
+        "Nombre": "Nicolás Hand Contreras ",
+        "Correo": [
+            "Nicohcr.2@gmail.com"
+        ],
+        "Celular": "+29032017125",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1568316581329-Nicolas_Contreras_R._Curriculum__2019_PDF",
     "Licencias-Certificaciones": [
-        "CLASE B",
-        "LICENCIA DE CONDUCIR"
-    ],
-    "Grado": [
-        "Ingeniería"
+        "LICENCIA DE CONDUCIR",
+        "CLASE B"
     ],
     "Palabras Claves": [
+        "Liderazgo",
         "Gestión",
-        "Responsabilidad",
-        "Liderazgo"
+        "Responsabilidad"
     ],
-    "Educacion": [
-        "Instituto Profesional INACAP",
-        "Universidad Central de Chile"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad Central de Chile",
+            "Instituto Profesional INACAP"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [
         "Inglés avanzado",
         "Inglés"
@@ -34,5 +33,10 @@
     "Experiencia": "experiencia laboral\nacg motors. 10/04/2017 25/01/2018\ncargo\nasesor de servicio.\nencargado de controlar las mantenciones y supervisar el taller.\nexperiencia laboral\ncompañía minera doña inés de collahuasi práctica\nprofesional. 04/01/2017 05/03/2017\ncargo\ngerencia chancado y transporte planificación.\nencargado de la planificación de las pautas de mantención,\nordenes de trabajo para las empresas contratistas y de la\nplanta, además la organización de los repuestos del área,\nmanejando ellipse 8.6.\nexperiencia laboral\neconorent car rental. 10/08/2018 15/03/2019\ncargo\nagente de renta.\nresponsable de organizar y planificar los arriendos diarios y la\natención al cliente.\nexperiencia laboral ceduc ucn. a la actualidad 2019.\ncargo\ndocente del área mecánica\nplanificar el material de estudio, programación de clases y\nsu ejecución.\n",
     "Resumen": "resumen\norientado principalmente a la gestión de personas, recursos y la planificación estratégica de\nproyectos de ingeniería, resumiendo estas capacidades en la optimización de los procesos.\nrecalcando el área de mantenimiento como fuerte ya que esas son las áreas de manejo hasta\nla fecha.\nsólidos conocimientos científicos y de ingeniería, combinado con habilidades basadas en un\npensamiento crítico y de liderazgo, que me permite enfrentar los problemas de la ingeniería\nen sus aspectos técnicos, sociales y ecológicos.\nparticipar activamente en la planeación y ejecución de proyectos o investigaciones\nrelacionadas con el área de mantención, producción o gestión.\n",
     "Referencias": "",
-    "Nombre archivo": "1568316581329-Nicolas_Contreras_R._Curriculum__2019_PDF"
+    "Skills": [
+        "Word",
+        "Excel",
+        "Rstudio",
+        "Autocad"
+    ]
 }

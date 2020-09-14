@@ -1,25 +1,29 @@
 {
-    "Nombre": "Felipe Esteban Bernal ",
-    "Correo": [
-        "Feber.leal@gmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": "+56985233420",
-    "Skills": [],
+    "Contacto": {
+        "Nombre": "Felipe Esteban Bernal ",
+        "Correo": [
+            "Feber.leal@gmail.com"
+        ],
+        "Celular": "+56985233420",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1568586173501-CV_FELIPE",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Ingeniería"
-    ],
     "Palabras Claves": [
-        "Liderar",
+        "Comprometido",
         "Disposición",
-        "Motivación",
-        "Comprometido"
+        "Liderar",
+        "Motivación"
     ],
-    "Educacion": [],
+    "Educacion": {
+        "Universidades:": [],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [],
     "Experiencia": "experiencia laboral\nempresa asap\nmes/año abril 2019 a la fecha\ncargo supervisor de terreno minera los bronces, anglo american.\nfunción supervisar y controlar eficientemente los recursos de la organización,\nconsiderando los costos asociados, las fechas comprometidas y personal involucrado, al\nigual que todas las disposiciones legales vigentes, respetando las normas de seguridad\nestablecidas en los estándares de minería.\nempresa canoser\nmes/año marzo 2019 abril 2019\ncargo jefe de terreno\nfunción dar cumplimiento al programa de obras en cuanto a tiempos, calidad y costo,\nsupervisando las partidas de instalación de 1500 m2 de eifs, instalación de puertas,\nventanas termopanel, cambio de 800 m2 de cubierta de techumbre. estas partidas en\nproyecto pppf serviu.\nempresa vimarco\nmes/año octubre 2018 enero 2019\ncargo jefe de terreno\nfunción administrar y coordinar trabajos de oo.cc en el área de telecomunicaciones,\nrealizando trabajos como mantenimiento a monopostes, torres auto soportadas, torres\nventadas. desmantelamiento de sitios ubicados en viviendas, desmantelamiento de sitios\nubicados en zonas rurales. realizando refuerzos estructurales a las torres, donde se\ndebía realizar el estudio de proyecto para luego ejecutar este. a la vez llevar toda la\ndocumentación requerida por las compañías y documentación requerida para estados de\npago.\nempresa baumax.\nmes/año noviembre 2017 - junio 2018\ncargo coordinador de obra\nfunción coordinar la ejecución de local comercial de comida rápida de 350 m2\nconstruidos, este local fue construido con paneles de hormigón armado prefabricados.\ndentro de mis funciones estaba programar el hormigón semanal, cubicar y realizar pedido\nde enfierradura para que subcontrato realice instalación de este, llevar al día la\ndocumentación del personal de obra, cumplir con los plazos establecidos por carta gantt.\nempresa baumax.\nmes/año febrero 2017- noviembre 2017\ncargo jefe de terreno\nfunción supervisar el montaje de muros prefabricados de hormigón armado, cumpliendo\ncon las programación semanal de avance y controlando la correcta instalación de estos\npara evitar observaciones. realizar charlas diarias al equipo de montaje y motivarlos para\ncumplir con las metas establecidas.\nempresa baumax.\nmes/año julio 2016 - enero 2017\ncargo supervisor\nfunción realizar supervisión de procesos de la línea de producción de muros de\nhormigón armado prefabricados, el 1er proceso era la supervisión a cuadratura de los\nmoldajes, realizar chequeo de acuerdo a planos y firmar check list del proceso, el 2do\nproceso era la instalación de enfierradura, donde debía supervisar la correcta ejecución\nde esta de acuerdo a planos, realizar revisión completa de acuerdo a check list.\nempresa idiem investigación, desarrollo e innovación de estructuras y materiales.\nmes/año julio 2015 - julio 2016\ncargo ayudante de laboratorio.\nfunción en primera instancia ingrese a realizar ensayos de granulometría, proctor, cbr,\npara luego realizar ensayos de corte directo, consolidaciones, resistencia a la compresión\nno confinada, permeabilidad.\nempresa armada de chile, fragata almirante lynch.\nmes/año febrero 2013 - agosto 2014.\ncargo maniobras.\nfunción parte del área de maniobras de la fragata, donde como especialistas tenemos la\nfunción de ser lideres en las diferentes maniobras tanto en puerto como en la mar,\nrealizando funciones de contramaestre en cada maniobra, organizando y liderando a los\nequipos en maniobras de reaprovisionamiento de combustible en la mar, rescate de\nhombre al agua, realizando funciones de timonel de la fragata y funciones de\nprevencionistas a bordo.\nempresa armada de chile, buque escuela esmeralda.\nmes/año enero 2012 - enero 2013.\ncargo maniobras.\nfunción parte del área de maniobras del buque escuela esmeralda, donde me\ndesempeñaba como 2do del palo mayor proel, debiendo liderar en las diferente\nmaniobras de izaje de las velas como en la arriada de estas, a la vez cumplir con los\nrequerimientos de las diferentes maniobras del buque.\n",
     "Resumen": "felipe esteban bernal leal\n18 de septiembre de 1991\nfeber.leal@gmail.com\n56985233420\n",
     "Referencias": "",
-    "Nombre archivo": "1568586173501-CV_FELIPE"
+    "Skills": []
 }

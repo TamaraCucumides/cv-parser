@@ -1,28 +1,32 @@
 {
-    "Nombre": "Alejandra Riquel ",
-    "Correo": [
-        "ariquelme2@uc.cl"
-    ],
-    "Linkedin": null,
-    "Celular": "+56981333773",
-    "Skills": [
-        "Stata",
-        "Office"
-    ],
+    "Contacto": {
+        "Nombre": "Alejandra Riquel ",
+        "Correo": [
+            "ariquelme2@uc.cl"
+        ],
+        "Celular": "+56981333773",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1569964975216-CV_Alejandra_Riquelme_Carrasco",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Ingeniería"
-    ],
     "Palabras Claves": null,
-    "Educacion": [
-        "Universidad Católica de Chile",
-        "Pontificia Universidad Catolica de Chile"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad Católica de Chile",
+            "Pontificia Universidad Catolica de Chile"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [
         "Inglés"
     ],
     "Experiencia": "",
     "Resumen": "alejandra riquelme carrasco\nestudiante de ingeniería comercial\npontificia universidad católica de chile\nteléfono 569 81333773\ne-mail ariquelme2@uc.cl\n",
     "Referencias": "",
-    "Nombre archivo": "1569964975216-CV_Alejandra_Riquelme_Carrasco"
+    "Skills": [
+        "Stata",
+        "Office"
+    ]
 }

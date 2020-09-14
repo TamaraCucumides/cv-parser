@@ -1,31 +1,35 @@
 {
-    "Nombre": null,
-    "Correo": [
-        "hernandezfabian.apr@gmail.com"
-    ],
-    "Linkedin": "www.linkedin.com/in/hernández-",
-    "Celular": [
-        "56974874351"
-    ],
-    "Skills": [],
+    "Contacto": {
+        "Nombre": null,
+        "Correo": [
+            "hernandezfabian.apr@gmail.com"
+        ],
+        "Celular": [
+            "56974874351"
+        ],
+        "Linkedin": "www.linkedin.com/in/hernández-"
+    },
+    "Nombre archivo": "1568521769156-CV_FABIÁN_HERNÁNDEZ_ORTIZ",
     "Licencias-Certificaciones": [
-        "CLASE B",
-        "LICENCIA DE CONDUCIR"
-    ],
-    "Grado": [
-        "Ingeniería"
+        "LICENCIA DE CONDUCIR",
+        "CLASE B"
     ],
     "Palabras Claves": [
+        "Compromiso",
         "Disciplina",
-        "Análisis",
-        "Compromiso"
+        "Análisis"
     ],
-    "Educacion": [
-        "Universidad Católica del Norte"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad Católica del Norte"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [],
     "Experiencia": "experiencia laboral\nasesor en sso enero 2018 - marzo 2018\nserena mármol\nrecopilación y actualización de toda la\ninformación y requerimientos legales en\nmateria de prevención de accidentes del\ntrabajo y enfermedades profesionales.\naplicación de las políticas de la administración\ngeneral de servicios anticipando posibles\nbrechas en la seguridad\nmemorista marzo 2018 - diciembre 2018\nproyecto monitoreo y control preventivo de\nsalinización en acuíferos\ntoma de muestra de agua en acuíferos\nanálisis hidrogeoquímicos de muestra de agua\ncaracterización hidroquímica de acuíferos\ndeterminación y evaluación de estado de\nsalinización de acuíferos\npracticante diciembre 2017 - febrero 2018\nmutual de seguridad c.ch.c\nevaluación de cumplimiento legal a empresas\nadheridas.\naplicación de protocolos minsal en empresas\nadheridas.\nrealización de charlas, capacitaciones a\ntrabajadores de empresas adheridas.\nconfección de informes de resultado de\ncumplimiento\nlegales\ny\nevaluación\nde\nprotocolos minsal.\nformaciòn adacemica\nuniversidad católica del norte 2018\ningeniería en prevención de riesgos y medio ambiente\nuniversidad católica del norte 2018\ncertificación en seguridad eléctrica, norma nfpa 70e\nquality work capacitaciones 2018\ncertificado implementación de protocolos minsal\nprexor, planesi y tmert-ess\nfabián esteban hernández ortiz\ningeniero en prevención de riesgos y medio ambiente\n",
     "Resumen": "perfil\njoven ingeniero en prevención de\nriesgos y medio ambiente, en búsqueda\nde\nnuevos\ndesafíos\nlaborales\ny\npersonales,\ncon\nansias\nde\ncrecer\nprofesionalmente y lograr los objetivos y\ncompromisos de la empresa que cuente\ncon mis servicios.\n",
     "Referencias": "",
-    "Nombre archivo": "1568521769156-CV_FABIÁN_HERNÁNDEZ_ORTIZ"
+    "Skills": []
 }

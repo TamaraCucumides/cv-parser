@@ -1,27 +1,31 @@
 {
-    "Nombre": null,
-    "Correo": [
-        "alezuazagoitia@gmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": [
-        "56984629995"
-    ],
-    "Skills": [
-        "Illustrator",
-        "Indesign",
-        "Photoshop",
-        "Excel"
-    ],
+    "Contacto": {
+        "Nombre": null,
+        "Correo": [
+            "alezuazagoitia@gmail.com"
+        ],
+        "Celular": [
+            "56984629995"
+        ],
+        "Linkedin": null
+    },
+    "Nombre archivo": "1571076157168-CV_Alejandra_Zuazagoitia",
     "Licencias-Certificaciones": [],
-    "Grado": [],
     "Palabras Claves": null,
-    "Educacion": [
-        "Universidad Diego Portales"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad Diego Portales"
+        ],
+        "Grado_mas_alto": []
+    },
     "Lenguajes": [],
     "Experiencia": "",
     "Resumen": "curriculum vitae\n",
     "Referencias": "",
-    "Nombre archivo": "1571076157168-CV_Alejandra_Zuazagoitia"
+    "Skills": [
+        "Illustrator",
+        "Indesign",
+        "Excel",
+        "Photoshop"
+    ]
 }

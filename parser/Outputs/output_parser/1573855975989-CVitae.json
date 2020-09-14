@@ -1,42 +1,46 @@
 {
-    "Nombre": "Gabriela Mistral ",
-    "Correo": [
-        "gigliomadridu@gmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": "+56976018648",
-    "Skills": [
-        "Office",
-        "Excel",
-        "Power bi",
-        "Word",
-        "Azure",
-        "Crm",
-        "Power point"
-    ],
+    "Contacto": {
+        "Nombre": "Gabriela Mistral ",
+        "Correo": [
+            "gigliomadridu@gmail.com"
+        ],
+        "Celular": "+56976018648",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1573855975989-CVitae",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Ingeniero"
-    ],
     "Palabras Claves": [
-        "Analizar",
-        "Colaboración",
-        "Liderazgo",
         "Gestión",
         "Negociación",
-        "Estrategia",
-        "Responsabilidad",
+        "Analizar",
         "Adaptable",
+        "Modelamiento",
+        "Colaboración",
+        "Liderazgo",
+        "Estrategia",
         "Creativo",
-        "Modelamiento"
+        "Responsabilidad"
     ],
-    "Educacion": [
-        "Universidad Gabriela Mistral",
-        "Universidad San Sebastián"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad Gabriela Mistral",
+            "Universidad San Sebastián"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniero"
+        ]
+    },
     "Lenguajes": [],
     "Experiencia": "experiencia profesional\ngiglio madrid uribe\nprofesional con fuerte orientación al\nárea\ncomercial,\ncon\nuna\nvasta\nexperiencia\nen\nel\nrubro\nde\ntelecomunicaciones y tecnologías de\ninformación.\ndispuesto\na\nintegrar\nequipos de trabajo para el desarrollo\ny apertura de nuevos negocios y\nmercados. capacitado para trabajar\nen\nmedios\nexigentes\naltamente\ncompetitivos y en una búsqueda\nconstante de crecimiento profesional,\ntécnico y humano.\nquien soy\nr.u.t. 12491677-1\nnacionalidad chilena\nfecha de nac. 11 enero 1973\nedad. 46 años.\nestado civil. soltero\ndirección lord cochrane\n181 depto.804. santiago centro\nnro. telefónico 56 976018648\ne-mail gigliomadridu@gmail.com\n",
     "Resumen": "ingeniero comercial\nuniversidad gabriela mistral\ntitulado.\ndiplomado dirección comercial y ventas\nuniversidad san sebastián\ntitulado.\n",
     "Referencias": "",
-    "Nombre archivo": "1573855975989-CVitae"
+    "Skills": [
+        "Word",
+        "Azure",
+        "Power bi",
+        "Excel",
+        "Crm",
+        "Office",
+        "Power point"
+    ]
 }

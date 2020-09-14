@@ -1,26 +1,26 @@
 {
-    "Nombre": null,
-    "Correo": [
-        "fernando.delhoyo.14@sansano.usm.cl"
-    ],
-    "Linkedin": null,
-    "Celular": "+56996152047",
-    "Skills": [
-        "Vba",
-        "Excel",
-        "Latex"
-    ],
+    "Contacto": {
+        "Nombre": null,
+        "Correo": [
+            "fernando.delhoyo.14@sansano.usm.cl"
+        ],
+        "Celular": "+56996152047",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1571276191041-CV_Fernando_Del_Hoyo",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Enseñanza media"
-    ],
     "Palabras Claves": [
         "Colaboración",
         "Responsabilidad"
     ],
-    "Educacion": [
-        "Universidad Técnica Federico Santa María"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad Técnica Federico Santa María"
+        ],
+        "Grado_mas_alto": [
+            "Enseñanza media"
+        ]
+    },
     "Lenguajes": [
         "Español",
         "Inglés intermedio",
@@ -29,5 +29,9 @@
     "Experiencia": "",
     "Resumen": "fernando del hoyo\navenida matta,311,\ndpto 103 - cerro placeres - valparaíso\n56 996152047\nfernando.delhoyo.14@sansano.usm.cl\n",
     "Referencias": "",
-    "Nombre archivo": "1571276191041-CV_Fernando_Del_Hoyo"
+    "Skills": [
+        "Vba",
+        "Excel",
+        "Latex"
+    ]
 }

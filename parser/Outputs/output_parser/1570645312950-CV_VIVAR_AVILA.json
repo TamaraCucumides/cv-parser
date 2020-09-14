@@ -1,24 +1,25 @@
 {
-    "Nombre": null,
-    "Correo": [
-        "Rodvivar22@gmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": [
-        "56978659133"
-    ],
-    "Skills": [
-        "Excel",
-        "Word"
-    ],
+    "Contacto": {
+        "Nombre": null,
+        "Correo": [
+            "Rodvivar22@gmail.com"
+        ],
+        "Celular": [
+            "56978659133"
+        ],
+        "Linkedin": null
+    },
+    "Nombre archivo": "1570645312950-CV_VIVAR_AVILA",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Ingeniería"
-    ],
     "Palabras Claves": null,
-    "Educacion": [
-        "Universidad Andrés Bello"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad Andrés Bello"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [
         "Español",
         "Inglés"
@@ -26,5 +27,8 @@
     "Experiencia": "experiencia\ncamarero, estadio de san mamés\nseptiembre febrero 2019\ncamarero de barra, bilbao\ncamarero, hotel almudaina\njulio septiembre 2018\ncamarero en skybar, palma de mallorca\nvivar avila,\nrodrigo andrés.\nrodvivar22@gmail.com\n56 9 78659133\n",
     "Resumen": "",
     "Referencias": "",
-    "Nombre archivo": "1570645312950-CV_VIVAR_AVILA"
+    "Skills": [
+        "Excel",
+        "Word"
+    ]
 }

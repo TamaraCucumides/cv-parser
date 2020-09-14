@@ -1,32 +1,36 @@
 {
-    "Nombre": "Christian Cabana Garay ",
-    "Correo": [
-        "ccab.xt@gmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": "931898164",
-    "Skills": [
-        "Excel",
-        "Sap",
-        "Word",
-        "Power point"
-    ],
+    "Contacto": {
+        "Nombre": "Christian Cabana Garay ",
+        "Correo": [
+            "ccab.xt@gmail.com"
+        ],
+        "Celular": "931898164",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1583871756395-CVCabanaGarayChristian1_1",
     "Licencias-Certificaciones": [
         "LICENCIA DE CONDUCIR"
-    ],
-    "Grado": [
-        "Ingeniero"
     ],
     "Palabras Claves": [
         "Negociación",
         "Responsabilidad"
     ],
-    "Educacion": [],
+    "Educacion": {
+        "Universidades:": [],
+        "Grado_mas_alto": [
+            "Ingeniero"
+        ]
+    },
     "Lenguajes": [
         "Inglés"
     ],
     "Experiencia": "experiencia profesional\nkrowdy peru sac\n2019\nstartup de tecnología, dueña de la marca laborum automatiza los procesos de\nreclutamiento y selección mediante la inteligencia artificial, smart videos y crowdsourcing.\nkey account manager post venta\nresponsable de la relación y satisfacción del cliente con el producto reclutador digital.\n\nentender las necesidades de los clientes en la búsqueda de candidatos\n\nrealizar el seguimiento del proceso interno para cumplir con los objetivos de\nentrega.\n\nrevisar los candidatos y que concluya el proceso de manera exitosa.\n\nrenovar los paquetes contratados.\nprovalle alimentos s.a.c\n2018\nempresa líder en el rubro de snacks, bajo la marca vallealto, con ventas anuales de us\n12 millones.\nkey account manager b2b\nresponsable del negocio b2b, que comprende la división industrial, horeca e institucional.\n\natención a las cuentas claves del canal\n\nsupervisión a los agentes comerciales del canal industrial y horeca.\n\nrentabilizar el negocio, detectar nuevas oportunidades de negocio a gran escala, en\nel rubro frutos secos para la industria de alimentos\nixom peru s.a.c\n2016\nempresa con sede principal en australia, proveedora de insumos químicos para la industria,\ncon ventas anuales de us 23 millones.\nfood sales executive\nresponsable de la implementación del negocio de alimentos en perú. reportando al product\nmanager de latam y a la gerencia comercial de químicos en perú.\n\ninvestigar y detectar oportunidades de negocio.\n\nhomologar los productos del portafolio con las principales cuentas clave de empresas de\nalimentos en perú.\n\ncrecimiento de la facturación de clientes permanentes.\nbrenntag peru s.a.c\n2015\nempresa con sede principal en alemania, líder en la distribución de productos químicos en\nla industria con ventas anuales de us 32 millones.\nejecutivo comercial food feed\nresponsable de las principales cuentas de food feed del negocio, reportando al gerente\ndel área en perú.\n\ndesarrollo de nuevos negocios con clientes del ibu bakery, con productos customizados.\n\nincremento en 10 en nuevos clientes del negocio food y feed.\n\nresponsable del proyecto del ingreso de aminoácidos para el mercado feed.\nalicorp s.a.\n03/ 2006- 04/2012\nempresa líder en la industria de alimentos de consumo masivo con ventas anuales de us\n1300.00 millones\nasesor comercial del negocio de productos industriales b2b\nidentificar oportunidades de negocio y ejecutar los planes de venta y cobranza en el territorio\nasignado, para lograr los objetivos propuestos, en el canal grandes industrias y canal\nindustria panadera. reportaba al gerente de ventas.\n\nmaximización de la rentabilidad en el canal grandes industrias del territorio, de menos\n5 a 15.\n\nincremento en la categoría de aceites industriales de 40 respecto al año anterior.\n\nincremento de 150 en la categoría pre mezclas industriales, respecto al año anterior,\nen el canal industria panadera.\n\ningreso exitoso de la categoría premezclas industriales, en zonas donde no\ncontábamos con participación, tales como cajamarca, huánuco y cerro de pasco,\ngenerando un incremento de venta del 5 y 3 respectivamente, en volumen total.\nintegracion comercial alimenticia s.a.c\n02/ 2002 -12/2004\nempresa nacional dedicada a la producción y comercialización de harinas industriales y\nfideos las mercedes.\nsupervisor de calidad y desarrollo\n2004\nresponsable de la implementación de las áreas de calidad y desarrollo de productos.\nreportaba a la gerencia general.\ndesarrollo de harinas especiales y extras, lo que generó un incremento de la producción\nen 100.\nimplementación de las buenas prácticas de manipulación\n",
     "Resumen": "christian cabana garay\ngrau 349 san miguel\n931898164\nccab.xt@gmail.com\ningeniero en industrias alimentarias, con experiencia en ventas b2b, asistencia técnica y\ndesarrollo en empresas de insumos para industrias y consumo masivo. orientado a la\nplanificación y ejecución de los planes de ventas y marketing. capaz de desarrollar nuevos\nnegocios. especialista, asertivo y planificado.\n",
     "Referencias": "",
-    "Nombre archivo": "1583871756395-CVCabanaGarayChristian1_1"
+    "Skills": [
+        "Excel",
+        "Word",
+        "Sap",
+        "Power point"
+    ]
 }

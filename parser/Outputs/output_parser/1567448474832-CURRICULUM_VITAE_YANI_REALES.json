@@ -1,29 +1,33 @@
 {
-    "Nombre": "Yaniberth Johana Rea ",
-    "Correo": [
-        "yanireales@gmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": [
-        "56941807760"
-    ],
-    "Skills": [
-        "Office"
-    ],
+    "Contacto": {
+        "Nombre": "Yaniberth Johana Rea ",
+        "Correo": [
+            "yanireales@gmail.com"
+        ],
+        "Celular": [
+            "56941807760"
+        ],
+        "Linkedin": null
+    },
+    "Nombre archivo": "1567448474832-CURRICULUM_VITAE_YANI_REALES",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Bachiller"
-    ],
     "Palabras Claves": [
-        "Proactividad",
-        "Responsabilidad",
+        "Puntual",
         "Aprender",
-        "Puntual"
+        "Responsabilidad",
+        "Proactividad"
     ],
-    "Educacion": [],
+    "Educacion": {
+        "Universidades:": [],
+        "Grado_mas_alto": [
+            "Bachiller"
+        ]
+    },
     "Lenguajes": [],
     "Experiencia": "e x p e r i e n c i a l a b o r a l\ni.u.t pedro emilio coll 2001.\nentrenamiento para democonsejeras.\nfarmatodo c.a 2009.\nprevención de riesgos laborales.\nfarmatodo c.a 2010.\nprevención de factores y riesgo a la salud riesgo\ncardiovascular\nseinca 2011.\nprevención de factores de riesgo la salud nutrición y\nhábitos alimenticios.\nvendedora dafaly, joyería, relojería y\nperfumería\nsubgerente ferretotal caracas\nasistente administrativo farmatodo\nsecretaria policlínica maracaibo\n",
     "Resumen": "yaniberth johana reales urdaneta\nvenezolana,\ncortés, empática, emprendedora,\nhabilidad para desempeñarme,\nofrecer y desarrollar mis\ncapacidades, consiguiendo un\nexcelente resultado en la labor y\nel área asignada, trabajar en\nequipo, estableciendo además un\nbuen\nambiente laboral.\nsanta elena 1725 ñuble,\nsantiago de chile\nrut. 26.939.469-2\nteléfono 56941807760\ncorreo yanireales@gmail.com\ninstituto universitario\ntécnico pedro emilio coll\nt.s.u administración\naduanera.\nu.e udon perez\nbachiller en artes escénicas.\nhabilidades en microsoft office\nmanejo de personal\nconocimiento\ndel\nárea\nadministrativa\ndestreza para trabajar con público, atención al\ncliente.\nconocimiento en manejo de red de ventas.\ncapacidad de trabajar bajo presión.\nhabilidad en ventas.\nresponsable y puntual.\nproactiva.\ncon iniciativa de aprender.\nc u r s o s y t a l l e r e s r e a l i z a d o s\n",
     "Referencias": "",
-    "Nombre archivo": "1567448474832-CURRICULUM_VITAE_YANI_REALES"
+    "Skills": [
+        "Office"
+    ]
 }

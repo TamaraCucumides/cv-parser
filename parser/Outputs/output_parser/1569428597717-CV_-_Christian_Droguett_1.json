@@ -1,45 +1,35 @@
 {
-    "Nombre": "Christian Philip Droguett ",
-    "Correo": [
-        "ch.droguett.l@gmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": "+56945418524",
-    "Skills": [
-        "Office",
-        "Excel",
-        "Erp",
-        "Word",
-        "Defontana",
-        "Sap",
-        "Oracle",
-        "Softland",
-        "Power point",
-        "Flexline",
-        "Visio",
-        "Crm",
-        "Siebel"
-    ],
+    "Contacto": {
+        "Nombre": "Christian Philip Droguett ",
+        "Correo": [
+            "ch.droguett.l@gmail.com"
+        ],
+        "Celular": "+56945418524",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1569428597717-CV_-_Christian_Droguett_1",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Ingeniería"
-    ],
     "Palabras Claves": [
-        "Analizar",
-        "Liderar",
-        "Proactividad",
-        "Negociación",
         "Gestión",
         "Análisis",
-        "Responsabilidad",
+        "Proactividad",
+        "Negociación",
+        "Liderar",
+        "Modelamiento",
+        "Analizar",
         "Voluntariado",
-        "Modelamiento"
+        "Responsabilidad"
     ],
-    "Educacion": [
-        "Universidad Católica de Chile",
-        "Universidad de Chile",
-        "Universidad Nacional Andrés Bello"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad Católica de Chile",
+            "Universidad Nacional Andrés Bello",
+            "Universidad de Chile"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [
         "Español",
         "Inglés"
@@ -47,5 +37,19 @@
     "Experiencia": "",
     "Resumen": "curriculum vitae\nchristian philip droguett lagos\ni.- datos personales.\nfecha de nacimiento\n31 de octubre de 1991\nedad\n27 años\nnacionalidad\nchilena\ncédula de identidad\n17.841.596-4\nestado civil\nsoltero\ndirección\nraulí 596, santiago, chile.\ncelular\n56945418524\ne-mail\nch.droguett.l@gmail.com\nresumen ingeniero industrial de la universidad nacional andrés bello, bilingüe, con conocimientos\nen el área de logística, servicio al cliente y finanzas. en el ámbito laboral poseo una vasta experiencia\nen conformar parte de equipos multidisciplinarios para implementar diversas soluciones\ninformáticas, además de liderar en dos ocasiones equipos de trabajo.\nhabilidades personales responsabilidad, proactividad, capacidad de planificación y gestión, actitud\nde servicio y habilidad para el trabajo en equipo. perseverancia e interés en el aprendizaje laboral y\ncolectivo.\nii- titulos y grados.\ntítulo profesional\ningeniero industrial\nuniversidad nacional andrés bello, chile.\ngrado académico\nlicenciado en ingeniería industrial universidad\nnacional andrés bello, chile.\niii- antecedentes educacionales.\nenseñanza secundaria.\n2005- 2008 internado nacional barros arana inba, santiago.\nestudios superiores.\n2009- 2014 carrera de ingeniería industrial realizada en universidad nacional andrés bello.\niv. cursos, congresos y publicaciones\nparticipación en el congreso de innovación tecnológica en la facultad de economía y\nnegocio de la universidad de chile, presentación de proyecto lautaro 2014.\ncursos ms office impartido por la consultora paradigma, 2015.\ncurso de gestión empresarial exitosa de pymes, universidad católica de chile, 30\nhoras, 2016.\ncurso de inglés, 230 horas impartido por ef education first london, gran bretaña,\n2016.\nv. experiencia laboral\n2018 -\nactualidad\nsurmedical chile\ningeniero de proyecto\nrealizar levantamiento de procesos, confeccionar mejoras continua e\nimplementación de sap business one\n2018\nfarmashop uruguay\nanalista de procesos\nanalizar, diseñar y controlar los procesos logísticos de acuerdo a los\nplazos marcados por la gerencia, buscando optimizar el área para\ntener un mayor control de gestión.\n2017 - 2018\ndrs ingeniería y gestión de proyectos\nanalista financiero\nconfeccionar y hacer seguimiento financiero de los proyectos de\ningeniería civil, realizar propuestas de mejora continua para optimizar\nlos procesos del área y realizar gestiones para la cobranza de clientes.\n",
     "Referencias": "",
-    "Nombre archivo": "1569428597717-CV_-_Christian_Droguett_1"
+    "Skills": [
+        "Softland",
+        "Word",
+        "Erp",
+        "Power point",
+        "Oracle",
+        "Excel",
+        "Visio",
+        "Crm",
+        "Siebel",
+        "Office",
+        "Defontana",
+        "Sap",
+        "Flexline"
+    ]
 }

@@ -1,26 +1,30 @@
 {
-    "Nombre": "Nombres Ricardo ",
-    "Correo": [
-        "Ricardodiazcormejo@gmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": [
-        "74312638"
-    ],
-    "Skills": [
-        "Excel",
-        "Autocad",
-        "Word"
-    ],
+    "Contacto": {
+        "Nombre": "Nombres Ricardo ",
+        "Correo": [
+            "Ricardodiazcormejo@gmail.com"
+        ],
+        "Celular": [
+            "74312638"
+        ],
+        "Linkedin": null
+    },
+    "Nombre archivo": "1568345438297-Ricardo_Andres_Diaz_Cornejo",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Ingeniería"
-    ],
     "Palabras Claves": null,
-    "Educacion": [],
+    "Educacion": {
+        "Universidades:": [],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [],
     "Experiencia": "experiencia laboral\nempresa carozzi\nfebrero 2013 - febrero 2014\ncargo ayudante de bodega\nlugar de servicios empresa carozzi antofagasta\nregión empresa antofagasta, entrega de pedidos y despacho de productos a\ndiferentes partes del norte de chile.\nhiper mercado líder\nfebrero 2014 - febrero 2015\ncargo encargado de bodega y almacenamiento de productos\nlugar de servicios hiper mercado líder. antofagasta\nregión empresa antofagasta. verificar todos los productos que llegaban al\nlocal y ver su rotación diaria.\nempresa arcos dorados chile\nmarzo 2017. junio 2019\ncargo gerente\nlugar de servicios arcos dorados chile\nregión empresa antofagasta. gerente y encargado del personal y planificador\ndel turno que se encuentra en el día. verificación de maquinarias en mal estado\ny mantenimiento de ellas.\nempresa comercial brasil buses cabal\njunio 2019 hasta la actualidad 2019\ncargo técnico mecánico.\nlugar de servicios antofagasta empresa cabal representante de irizar chile.\nfunción del cargo técnico en sistemas eléctricos y computacionales de cabal\ny reparación de sistemas de aire acondicionado de brasil buses\nsoftware o tecnologías\nmicrosoft word, intermedio\nmicrosoft excel, intermedio\nmicrosoft point, avanzado\nautocad, intermedio\ncivil cad 3d, intermedio\nradmin minería, intermedio\notras especialidades y manejos\nlevantamientos topográficos en programas.\ncapacitado en el manejo de circuitos eléctricos, placas y maquinarias.\nplanificación de turnos en programas.\ncapacitado para aprender y desarrollar nuevas actividades en el ámbito laboral.\ncursos desarrollados en santiago de chile en el manejo de personal y cuidados\nde bienes y mantenimiento de maquinarias.\nservicio de mantenimiento de equipos de refrigeración.\nricardo andrés diaz cornejo\ndisponibilidad inmediata\n",
     "Resumen": "",
     "Referencias": "",
-    "Nombre archivo": "1568345438297-Ricardo_Andres_Diaz_Cornejo"
+    "Skills": [
+        "Excel",
+        "Word",
+        "Autocad"
+    ]
 }

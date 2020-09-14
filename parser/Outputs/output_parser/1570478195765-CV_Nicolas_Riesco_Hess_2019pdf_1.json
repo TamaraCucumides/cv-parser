@@ -1,40 +1,44 @@
 {
-    "Nombre": "Nicolás Riesco Hesse ",
-    "Correo": [
-        "nriescoh@gmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": "+56986283266",
-    "Skills": [
-        "Stata",
-        "Office"
-    ],
+    "Contacto": {
+        "Nombre": "Nicolás Riesco Hesse ",
+        "Correo": [
+            "nriescoh@gmail.com"
+        ],
+        "Celular": "+56986283266",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1570478195765-CV_Nicolas_Riesco_Hess_2019pdf_1",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Ingeniería"
-    ],
     "Palabras Claves": [
-        "Analizar",
+        "Tolerancia",
         "Ética",
-        "Perfeccionista",
-        "Liderazgo",
-        "Proactividad",
-        "Negociación",
         "Gestión",
         "Análisis",
-        "Estrategia",
+        "Proactividad",
+        "Negociación",
+        "Analizar",
+        "Perfeccionista",
         "Adaptable",
-        "Tolerancia"
+        "Liderazgo",
+        "Estrategia"
     ],
-    "Educacion": [
-        "Universidad Gabriela Mistral"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad Gabriela Mistral"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [
-        "Inglés",
-        "English"
+        "English",
+        "Inglés"
     ],
     "Experiencia": "antecedentes laborales\nabcdin s.a. product manager climatización noviembre 2018 septiembre 2019.\n\nidentificar, analizar y desarrollar negocios actuales y nuevos.\n\nplanificación de compras.\n\nreuniones y negociaciones con proveedores\n\ndefinición de costos y precios\n\nplanificar y gestionar el despacho de los productos con el proveedor atreves de b2b.\n\ncotizar y seleccionar productos nacionales e importados para su comercialización\n\nelaboración del cluster y distribución de productos\n\ndefinición de mix de productos\n\ndesarrollar estrategias de crecimiento competitivo para la línea de negocio\n\nmanejar un presupuesto de compra mensual\n\nanálisis de mercado, para poder buscar oportunidades de crecimiento\nabcdin s.a. category manager línea blanca diciembre 2017 octubre 2018\n\ngenerar ordenes de compra. programa pmm.\n\ncreación de nuevos sku y parametrizarlos. programa pmm.\n\nparticipación en la creación de cluster y ejecución.\n\ngestionar la compra y venta de productos.\n\nplanificar y gestionar el despacho de los productos con el proveedor atreves de b2b.\n\nelaborar el cierre de mes e informar a gerencia los resultados\n\nanálisis y desarrollo de negocios.\n\nplanificación de compras.\n\nreuniones y negociaciones con proveedores.\n\nfijación de precios.\nwork and holiday australia junio 2016 - marzo 2017.\n\nperfeccionamiento del idioma ingles.\n\ncapacidad de adaptación y búsqueda de soluciones ante un entorno totalmente distinto en\naspectos sociales, económicos, laborales y culturales.\n\ndesarrollo de habilidades blandas tales como proactividad, comunicación, poder de decisión,\npriorizar, organización, tolerancia a la incertidumbre y flexibilidad.\n\njv recruitment e inter industrial service\ntrabajos generales en construcción, control de tráfico, operador de grúa horquilla\n\nfoodara y deliveroo repartidor de comida en bicicleta.\nempresa r.g.o ltda. product manager junio 2014 - diciembre 2015\n\nevaluación, análisis y generación de ideas nuevas para la estrategia comercial.\n\natención personalizada y directa antes los requerimientos de los clientes y proveedores.\n\ngestión de información preparación de informes y fijación de requerimiento.\n\nelaboración y ejecución de estrategias de ventas.\n\nmarketing digital, elaboración de página web, redes sociales.\ntricot s.a. asistente de head planner práctica profesional. diciembre - febrero 2013,\n\nactividades relacionadas directamente a una empresa retail y servicio dirigido al cliente.\n\nestudio del stock necesario para realizar las metas establecidas por la empresa.\n\nrevisar e ingresar lo pedido por la tienda y chequear las guías de despacho.\n\nclasificación y orden de los productos en bodega\n",
     "Resumen": "resumen profesional\ningeniero comercial de la universidad gabriela mistral. con experiencia en el área comercial y\ndominio del idioma inglés. constante en el logro de sus metas, con orientación a resultados,\ncapacidad de trabajar bajo presión y flexible a cambios. además, cuenta con experiencia\nestudiando, trabajando y viviendo en el extranjero y destaca por sus condiciones de adaptabilidad\nen el grupo y excelentes relaciones interpersonales.\n",
     "Referencias": "",
-    "Nombre archivo": "1570478195765-CV_Nicolas_Riesco_Hess_2019pdf_1"
+    "Skills": [
+        "Stata",
+        "Office"
+    ]
 }

@@ -1,25 +1,29 @@
 {
-    "Nombre": "Benjamín Sán ",
-    "Correo": [
-        "benjaminsanchezf@gmail.com"
-    ],
-    "Linkedin": "linkedin.com/in/benjaminsanchezf",
-    "Celular": "+56993181780",
-    "Skills": [
-        "Big data",
-        "Office"
-    ],
+    "Contacto": {
+        "Nombre": "Benjamín Sán ",
+        "Correo": [
+            "benjaminsanchezf@gmail.com"
+        ],
+        "Celular": "+56993181780",
+        "Linkedin": "linkedin.com/in/benjaminsanchezf"
+    },
+    "Nombre archivo": "1567725981165-Curriculum_Vitae_Benjamin_Sanchez_VF",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Ingeniería"
-    ],
     "Palabras Claves": null,
-    "Educacion": [],
+    "Educacion": {
+        "Universidades:": [],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [
         "Inglés"
     ],
     "Experiencia": "experiencia profesional\nabastible s.a\n2017 2019\ningeniero de estudios, planificación y gestión\ngeneración de reportes mensuales para gerencias y directorio, sobre abastible chile y filiales\ninternacionales. consolidación y gestión del presupuesto de la compañía. seguimiento de planes\nestratégicos y evaluar sus distintos retornos. establecer distintos bi para lograr crear los kpi\ndeseados para sus respectivos controles. reunir y gestionar información para construcción de la\nmemoria de la empresa. realizar un seguimiento de las distintas inversiones de la empresa y\nresultados.\nbanco bice\n2016\nejecutivo comercial\nintegrante de grupo de trabajo para adquirir e incorporar nuevos clientes al banco.\nbanco scotiabank\n2014 - 2015\npractica profesional\nárea business intelligence, encargado de implementar un sistema big data para conocer y fidelizar\nde la mejor manera posible a clientes actuales y potenciales del banco. con esto logré poder\nidentificar que sistema era el mas beneficioso para un banco, además de cotizar en distintos países\nestos sistemas.\n",
     "Resumen": "curriculum vitae\nbenjamín sánchez figueroa\n56 9 93181780\nbenjaminsanchezf@gmail.com\nlinkedin.com/in/benjaminsanchezf\ningeniero comercial, universidad de los andes. interés por el área financiera y administrativa.\ndestacan como habilidades un buena manejo bajo situaciones problemáticas o estrés, además de\ntrabajar en equipo fácilmente.\n",
     "Referencias": "",
-    "Nombre archivo": "1567725981165-Curriculum_Vitae_Benjamin_Sanchez_VF"
+    "Skills": [
+        "Big data",
+        "Office"
+    ]
 }

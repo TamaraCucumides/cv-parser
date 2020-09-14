@@ -1,41 +1,45 @@
 {
-    "Nombre": "Kevin Jason Suárez ",
-    "Correo": [
-        "kjsuarez@hotmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": "+01633323451",
-    "Skills": [
-        "Office",
-        "Excel",
-        "Sap",
-        "Base de datos",
-        "Crm"
-    ],
+    "Contacto": {
+        "Nombre": "Kevin Jason Suárez ",
+        "Correo": [
+            "kjsuarez@hotmail.com"
+        ],
+        "Celular": "+01633323451",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1580920711029-Kevin_SQ",
     "Licencias-Certificaciones": [
         "LICENCIA DE CONDUCIR"
     ],
-    "Grado": [
-        "Ingeniería"
-    ],
     "Palabras Claves": [
+        "Comprometido",
+        "Gestión",
+        "Análisis",
+        "Negociación",
         "Analizar",
         "Liderazgo",
-        "Gestión",
-        "Negociación",
-        "Comprometido",
-        "Análisis",
         "Estrategia",
         "Responsabilidad"
     ],
-    "Educacion": [
-        "Universidad de Tarapacá"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad de Tarapacá"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [
         "Inglés"
     ],
     "Experiencia": "experiencia profesional\n",
     "Resumen": "biografia profesional\ncuadros estadísticos de productividades.\nelaboración y control de presupuestos.\nrealizar indicadores de gestión.\nliquidación de proyectos y/o servicios.\napoyo al área de cobranzas y facturación.\notras funciones que asigne la gerencia general.\n................................................................................................\n..............................................................................................................................\nde practicante a analista de administración\nitsp abaco\n",
     "Referencias": "",
-    "Nombre archivo": "1580920711029-Kevin_SQ"
+    "Skills": [
+        "Excel",
+        "Crm",
+        "Office",
+        "Base de datos",
+        "Sap"
+    ]
 }

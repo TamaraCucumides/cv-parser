@@ -1,34 +1,38 @@
 {
-    "Nombre": "Andrés Wilfredo Ló ",
-    "Correo": "Andres7391@hotmail.com",
-    "Linkedin": null,
-    "Celular": "+56957116531",
-    "Skills": [
-        "Office",
-        "Excel",
-        "Word",
-        "Access",
-        "Power point"
-    ],
+    "Contacto": {
+        "Nombre": "Andrés Wilfredo Ló ",
+        "Correo": "Andres7391@hotmail.com",
+        "Celular": "+56957116531",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1571450416563-CV_Andres_Lopez_Salas",
     "Licencias-Certificaciones": [
         "CLASE B"
     ],
-    "Grado": [
-        "Ingeniería"
-    ],
     "Palabras Claves": [
-        "Proactividad",
         "Gestión",
-        "Responsabilidad"
+        "Responsabilidad",
+        "Proactividad"
     ],
-    "Educacion": [
-        "Universidad de Antofagasta"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad de Antofagasta"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [
         "Inglés"
     ],
     "Experiencia": "",
     "Resumen": "curriculum vitae\nandrés wilfredo lópez salas\ndirección cerro bayo 01774, coviefi. antofagasta\nteléfono 56 957116531\ne-mail andres7391@hotmail.com\n1.- resumen\ntitulado en la carrera de ingeniería civil industrial en la universidad de\nantofagasta. alumno con beca por excelencia académica otorgada por minera\nescondida desde el primer año de carrera. persona responsable, proactiva, con\nrapidez de aprendizaje y capaz de aceptar nuevos desafíos.\ntrabajo de titulación basado en la creación de un sistema de gestión de apoyo a\nemprendedores de pymes manufactureras de la ciudad, en la creación, expansión\ny mejora de sus empresas.\n2.- formación académica\nenseñanza básica escuela f-96 libertadores de chile, antofagasta\nenseñanza media hrvatska skola san esteban, antofagasta\nenseñanza superior titulado de ingeniería civil industrial en universidad de\nantofagasta, antofagasta.\n3.- conocimientos\ninformática\nnivel usuario avanzado de microsoft office excel, word, power point, otros.\nconocimiento en 1sap y access.\n",
     "Referencias": "",
-    "Nombre archivo": "1571450416563-CV_Andres_Lopez_Salas"
+    "Skills": [
+        "Word",
+        "Access",
+        "Excel",
+        "Office",
+        "Power point"
+    ]
 }

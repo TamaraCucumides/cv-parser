@@ -1,33 +1,31 @@
 {
-    "Nombre": "Miguel Ángel Escalonilla ",
-    "Correo": [
-        "comercial.escalonilla@gmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": "+56984516765",
-    "Skills": [
-        "Office",
-        "Excel",
-        "Word",
-        "Wordpress",
-        "Power point"
-    ],
+    "Contacto": {
+        "Nombre": "Miguel Ángel Escalonilla ",
+        "Correo": [
+            "comercial.escalonilla@gmail.com"
+        ],
+        "Celular": "+56984516765",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1568299344768-Miguel_Ángel_Escalonilla_Palma_CV",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Ingeniería"
-    ],
     "Palabras Claves": [
-        "Proactividad",
-        "Negociación",
         "Apasionado",
         "Análisis",
-        "Responsabilidad",
+        "Motivación",
+        "Proactividad",
+        "Negociación",
         "Adaptable",
-        "Motivación"
+        "Responsabilidad"
     ],
-    "Educacion": [
-        "Universidad del Desarrollo"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad del Desarrollo"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [
         "Inglés avanzado",
         "Inglés"
@@ -35,5 +33,11 @@
     "Experiencia": "antecedentes laborales\n2019\npescetarianos\ndueño y administrador del emprendimiento\n2018-2019\nescalonilla spa\nasistente comercial\nmanejo de cartera de clientes, presupuestos,\nestudios de mercado y marketing.\n2014\nla marraqueta\nasistente en campañas publicitarias\n",
     "Resumen": "miguel ángel escalonilla palma\nfecha de nacimiento 24 de septiembre de 1993\nberna 4631 e, lo barnechea, santiago, chile\ncelular 569 8451 6765 email comercial.escalonilla@gmail.com\ningeniero comercial con experiencia en el área comercial, en donde he\nrealizado informes, presentaciones y análisis para los distintos clientes a cargo,\nen dos idiomas, lo que me ha dado experiencia en el trato con clientes, jefes y\ncompañeros de trabajo. además, cuento con conocimientos de microsoft\noffice. estoy interesado en el área comercial principalmente, en donde quiero\nseguir desarrollando mis habilidades interpersonales y de análisis comercial.\nme considero una persona confiable, con habilidad de adaptarse a distintos\nambientes y situaciones, buenas relaciones interpersonales y perseverante a la\nhora de resolver un problema. soy proactivo, motivado y responsable ante las\ndistintas tareas a cargo, además, me apasiona afrontar constantemente nuevos\ndesafíos.\n",
     "Referencias": "",
-    "Nombre archivo": "1568299344768-Miguel_Ángel_Escalonilla_Palma_CV"
+    "Skills": [
+        "Word",
+        "Wordpress",
+        "Excel",
+        "Office",
+        "Power point"
+    ]
 }

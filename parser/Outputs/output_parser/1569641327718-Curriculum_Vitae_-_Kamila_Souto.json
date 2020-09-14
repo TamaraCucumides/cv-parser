@@ -1,29 +1,33 @@
 {
-    "Nombre": null,
-    "Correo": [
-        "kamilasouto.eq@gmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": "76058005",
-    "Skills": [
-        "Autocad"
-    ],
+    "Contacto": {
+        "Nombre": null,
+        "Correo": [
+            "kamilasouto.eq@gmail.com"
+        ],
+        "Celular": "76058005",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1569641327718-Curriculum_Vitae_-_Kamila_Souto",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Ingeniería"
-    ],
     "Palabras Claves": [
         "Voluntariado",
         "Gestión"
     ],
-    "Educacion": [],
+    "Educacion": {
+        "Universidades:": [],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [
         "Español",
-        "Inglés",
-        "Portugués"
+        "Portugués",
+        "Inglés"
     ],
     "Experiencia": "experiencia profesional\nbetaeq, startup en conocimiento en ingeniería química en brasil\ncoordinadora de gestión de personas y calidad\ncervecería boliviana nacional cbn s.a.,\npasante en el área de elaboración y servicios\ncentro de equinoterapia eqovolare,\nvoluntaria en el programa voluntare\nbebidas bolivianas bbo s.a.\npasante en el área de control de calidad\n",
     "Resumen": "taller de capacitación práctica nivel básico de aspen\nhysys v7.2, aplicado a la simulación de procesos. 2016\nuagrm\nxvi congreso nacional de estudiantes de ingeniería\nquímica, ambiental, alimentos y procesos coneiqaap.\n2017\nconferencia influencia de la industria azucarera en el\ndesarrollo e integración de la sociedad cruceña. 2017\nfac. cs. exactas y tecnología - uagrm\nconferencia metodología de la investigación. 2017\nfac. cs. exactas y tecnología - uagrm\nconferencia tratamiento de aguas por el método de\nósmosis inversa. 2018\nfac. cs. exactas y tecnología - uagrm\ncurso autocad 2d básico. 2018\nunidad de postgrado - uagrm\ncapacitación\nestudiante de ingeniería química\nportugués idioma nativo\nespañol nivel bilingüe\ninglés nivel medio\nkamila souto\nedad\n23\nnacionalidad brasileña\nestado civil soltera\ndirección\ncalle 31 de diciembre n8\nteléfono\n76058005\ne-mail kamilasouto.eq@gmail.com\nc.i.\ne-13510181\n",
     "Referencias": "",
-    "Nombre archivo": "1569641327718-Curriculum_Vitae_-_Kamila_Souto"
+    "Skills": [
+        "Autocad"
+    ]
 }

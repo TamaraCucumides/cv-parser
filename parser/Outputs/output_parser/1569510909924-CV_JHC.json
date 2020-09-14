@@ -1,46 +1,33 @@
 {
-    "Nombre": "Jorge Hernández C. ",
-    "Correo": [
-        "jahernandezcontreras@gmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": "+56988261301",
-    "Skills": [
-        "Sql",
-        "Java",
-        "Excel",
-        "Latex",
-        "Verilog",
-        "Word",
-        "Javascript",
-        "Php",
-        "Html",
-        "Python",
-        "Git",
-        "Apache",
-        "Scrum",
-        "Linux",
-        "Bases de datos",
-        "Toeic"
-    ],
+    "Contacto": {
+        "Nombre": "Jorge Hernández C. ",
+        "Correo": [
+            "jahernandezcontreras@gmail.com"
+        ],
+        "Celular": "+56988261301",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1569510909924-CV_JHC",
     "Licencias-Certificaciones": [
         "TOEIC"
     ],
-    "Grado": [
-        "Ingeniería"
-    ],
     "Palabras Claves": [
-        "Analizar",
-        "Liderazgo",
         "Negociación",
-        "Responsabilidad",
+        "Analizar",
         "Adaptable",
+        "Liderazgo",
         "Voluntariado",
-        "Creativo"
+        "Creativo",
+        "Responsabilidad"
     ],
-    "Educacion": [
-        "Universidad Técnica Federico Santa María"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad Técnica Federico Santa María"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [
         "Español",
         "Inglés"
@@ -48,5 +35,22 @@
     "Experiencia": "",
     "Resumen": "jorge hernández c.\ningeniero civil telemático\nfreire 178, depto. 21. valparaíso\n56 9 88 26 1301\njahernandezcontreras@gmail.com\n",
     "Referencias": "",
-    "Nombre archivo": "1569510909924-CV_JHC"
+    "Skills": [
+        "Word",
+        "Linux",
+        "Verilog",
+        "Javascript",
+        "Toeic",
+        "Apache",
+        "Php",
+        "Excel",
+        "Sql",
+        "Scrum",
+        "Bases de datos",
+        "Java",
+        "Python",
+        "Git",
+        "Latex",
+        "Html"
+    ]
 }

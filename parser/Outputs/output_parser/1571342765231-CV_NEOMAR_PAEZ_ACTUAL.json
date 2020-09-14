@@ -1,20 +1,24 @@
 {
-    "Nombre": "Neomar Jos ",
-    "Correo": [
-        "NeomarjPaez@gmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": [
-        "56946913799"
-    ],
-    "Skills": [],
+    "Contacto": {
+        "Nombre": "Neomar Jos ",
+        "Correo": [
+            "NeomarjPaez@gmail.com"
+        ],
+        "Celular": [
+            "56946913799"
+        ],
+        "Linkedin": null
+    },
+    "Nombre archivo": "1571342765231-CV_NEOMAR_PAEZ_ACTUAL",
     "Licencias-Certificaciones": [],
-    "Grado": [],
     "Palabras Claves": null,
-    "Educacion": [],
+    "Educacion": {
+        "Universidades:": [],
+        "Grado_mas_alto": []
+    },
     "Lenguajes": [],
     "Experiencia": "experiencia\nvendedor\nimportadora pie confort\nhush puppies 2015\nbbva banco provincial s.a 2016\ncajero\natención al cliente banco exterior, c.a 2017\ngda de seguridad\nconstructora costa sol ltda.\nene2018-oct 2018\n",
     "Resumen": "neomar jose\npaez idrogo\n06 de septiembre de 1991\nneomarjpaez@gmail.com\ncalle valdivia\n368 block e dpto. 202\nvilla alemana\n569 4691 3799\ndisponibilidad\ninmediata\n",
     "Referencias": "",
-    "Nombre archivo": "1571342765231-CV_NEOMAR_PAEZ_ACTUAL"
+    "Skills": []
 }

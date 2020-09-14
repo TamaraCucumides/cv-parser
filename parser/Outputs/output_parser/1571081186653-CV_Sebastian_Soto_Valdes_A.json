@@ -1,39 +1,38 @@
 {
-    "Nombre": "Sebastián Ignacio Soto ",
-    "Correo": [
-        "sesoto@fen.uchile.cl"
-    ],
-    "Linkedin": null,
-    "Celular": [
-        "979660523"
-    ],
-    "Skills": [
-        "Office",
-        "Scrum",
-        "Sap",
-        "Php"
-    ],
+    "Contacto": {
+        "Nombre": "Sebastián Ignacio Soto ",
+        "Correo": [
+            "sesoto@fen.uchile.cl"
+        ],
+        "Celular": [
+            "979660523"
+        ],
+        "Linkedin": null
+    },
+    "Nombre archivo": "1571081186653-CV_Sebastian_Soto_Valdes_A",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Ingeniero"
-    ],
     "Palabras Claves": [
-        "Liderazgo",
+        "Comprometido",
         "Gestión",
         "Negociación",
-        "Comprometido",
-        "Responsabilidad",
-        "Adaptable",
         "Disposición",
-        "Creativo"
+        "Adaptable",
+        "Liderazgo",
+        "Creativo",
+        "Responsabilidad"
     ],
-    "Educacion": [
-        "Universidad Católica de Chile",
-        "Instituto Profesional DUOC UC",
-        "Pontificia Universidad Catolica de Chile",
-        "Universidad de Chile",
-        "Universidad Adolfo Ibáñez"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Pontificia Universidad Catolica de Chile",
+            "Universidad Adolfo Ibáñez",
+            "Universidad de Chile",
+            "Universidad Católica de Chile",
+            "Instituto Profesional DUOC UC"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniero"
+        ]
+    },
     "Lenguajes": [
         "Español",
         "Español nativo",
@@ -43,5 +42,10 @@
     "Experiencia": "",
     "Resumen": "sebastián ignacio soto valdés\ningeniero en información y control de gestión / contador auditor\ne-mail sesoto@fen.uchile.cl\nteléfono979660523\nobjetivo laboral\nprofesional responsable, comprometido, creativo y dinámico, con facilidad de adaptación en distintos\nescenarios, capacidad de trabajar en equipos y bajo presión, además de tener gran disposición para\nresolver problemas de forma eficiente y así conseguir los objetivos y metas definidos en la institución.\n",
     "Referencias": "",
-    "Nombre archivo": "1571081186653-CV_Sebastian_Soto_Valdes_A"
+    "Skills": [
+        "Php",
+        "Scrum",
+        "Sap",
+        "Office"
+    ]
 }

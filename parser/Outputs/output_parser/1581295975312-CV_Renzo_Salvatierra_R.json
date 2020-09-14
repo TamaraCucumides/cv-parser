@@ -1,38 +1,42 @@
 {
-    "Nombre": "Renzo Salvatierra Higuereta ",
-    "Correo": [
-        "rsalvatierrar@gmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": "+51913918444",
-    "Skills": [
-        "Illustrator",
-        "Excel",
-        "Ppt",
-        "Word",
-        "E-commerce",
-        "Photoshop",
-        "Crm"
-    ],
+    "Contacto": {
+        "Nombre": "Renzo Salvatierra Higuereta ",
+        "Correo": [
+            "rsalvatierrar@gmail.com"
+        ],
+        "Celular": "+51913918444",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1581295975312-CV_Renzo_Salvatierra_R",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Máster"
-    ],
     "Palabras Claves": [
-        "Analizar",
-        "Liderazgo",
-        "Liderar",
         "Negociación",
-        "Estrategia",
-        "Adaptable"
+        "Analizar",
+        "Adaptable",
+        "Liderar",
+        "Liderazgo",
+        "Estrategia"
     ],
-    "Educacion": [],
+    "Educacion": {
+        "Universidades:": [],
+        "Grado_mas_alto": [
+            "Máster"
+        ]
+    },
     "Lenguajes": [
-        "Inglés",
-        "Portugués"
+        "Portugués",
+        "Inglés"
     ],
     "Experiencia": "experiencia profesional\n/renzo salvatierra\nperuano dni 40924569\n",
     "Resumen": "resumen\n15 años vibrantes dentro del marketing, publicidad y ventas en perú,\nbrasil, new york y españa realizando planes de marketing, estrategias\nde ventas en retail y canal tradicional, apertura de nuevos mercados,\ncampañas de marketing digital b2c/b2b para la generación de leads,\nmanejo de publicidad a nivel local y regional.\n",
     "Referencias": "",
-    "Nombre archivo": "1581295975312-CV_Renzo_Salvatierra_R"
+    "Skills": [
+        "Word",
+        "Excel",
+        "Crm",
+        "Ppt",
+        "Illustrator",
+        "Photoshop",
+        "E-commerce"
+    ]
 }

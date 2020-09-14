@@ -1,25 +1,29 @@
 {
-    "Nombre": "Jorge Jimenez Ing ",
-    "Correo": "jorgeajch@hotmail.com.com",
-    "Linkedin": null,
-    "Celular": "+08051995108",
-    "Skills": [
-        "Office",
-        "Excel",
-        "Word"
-    ],
+    "Contacto": {
+        "Nombre": "Jorge Jimenez Ing ",
+        "Correo": "jorgeajch@hotmail.com.com",
+        "Celular": "+08051995108",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1569209245565-1566",
     "Licencias-Certificaciones": [],
-    "Grado": [],
     "Palabras Claves": null,
-    "Educacion": [],
+    "Educacion": {
+        "Universidades:": [],
+        "Grado_mas_alto": []
+    },
     "Lenguajes": [
+        "Español",
         "Inglés avanzado",
         "Español nativo",
-        "Inglés",
-        "Español"
+        "Inglés"
     ],
     "Experiencia": "",
     "Resumen": "acerca de mi\njoven trabajador con una actitud. me\nconsidero una persona perseverante\nque no se rinde, habilidoso en el trabajo\nbajo presión y ritmo rápido. capaz de\nmantener relaciones de trabajo cordiales y\nprofesionales con otros compañeros de\ntrabajo, supervisores y clientes.\njorge jiménez\n08 05 1995\n108998540\nzañartu 2132, ñuñoa.\nregión metrop.\n56 953383515\njorgeajch@hotmail.com.com\n",
     "Referencias": "referencias personales\nemely medina - abogada\nteléfono 56953383515\ne-mail medinademely@gmail.com\neduin jimenez - contador\nteléfono 56962187263\ne-mail eduinjimenez29@gmail.com\n",
-    "Nombre archivo": "1569209245565-1566"
+    "Skills": [
+        "Excel",
+        "Word",
+        "Office"
+    ]
 }

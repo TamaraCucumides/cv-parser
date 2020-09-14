@@ -1,40 +1,44 @@
 {
-    "Nombre": null,
-    "Correo": [
-        "ro.garin087@gmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": "0981215726",
-    "Skills": [
-        "Office",
-        "Autocad",
-        "Excel",
-        "Microsoft project"
-    ],
+    "Contacto": {
+        "Nombre": null,
+        "Correo": [
+            "ro.garin087@gmail.com"
+        ],
+        "Celular": "0981215726",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1568050391127-CV_Roberto_Garin_Silva",
     "Licencias-Certificaciones": [
-        "CLASE B",
-        "LICENCIA DE CONDUCIR"
-    ],
-    "Grado": [
-        "Ingeniería"
+        "LICENCIA DE CONDUCIR",
+        "CLASE B"
     ],
     "Palabras Claves": [
-        "Proactividad",
+        "Compromiso",
         "Gestión",
         "Análisis",
-        "Compromiso",
+        "Proactividad",
         "Responsabilidad"
     ],
-    "Educacion": [
-        "Universidad Andrés Bello",
-        "Instituto Profesional DUOC UC",
-        "Universidad Técnica Federico Santa María"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Instituto Profesional DUOC UC",
+            "Universidad Técnica Federico Santa María",
+            "Universidad Andrés Bello"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [
         "Inglés"
     ],
     "Experiencia": "experiencia\nprofesional\nmarzo 2005 junio\n2005\noficina de contabilidad.\noficina de contabilidad eduardo vásquez.\nautocad. nivel medio\nautocad civil. nivel\nmedio\ncargo\nasistente técnico contable.\nfunción\nayudante de contabilidad en la elaboración de libros contables\niva y renta, generación y emisión de formularios iva y renta.\ndiciembre 2011 -\nmarzo 2012\nconstructora gardilcic.\nelaboración obras civiles codelco división andina.\ncargo\nasistente oficina técnica.\nfunción\nrealización practica laboral en codelco división andina\ninstalaciones constructora gardilcic, generación de cartas gantt\ny programas de control, elaboración de precios unitarios y\ncubicaciones, inspección por parte del departamento de obras\nciviles en la ejecución de los proyectos, elaboración de carpetas\nde control de puntos de carguío.\nmarzo 2012- junio\n2012\nconstructora jsb.\ncargo\nsupervisor obras constructivas.\nfunción\nplanificación y gestión de obras, coordinación de logística,\nestudio de costos, contratación de personal, cubicación,\ncotización y compra de materiales. asesoría constructiva a\ndepartamentos de estudio.\n",
     "Resumen": "ingeniero civil industrial\ningeniero en construcción\nperfil de cargo\nme caracterizo por tener un alto grado de responsabilidad, generando gran compromiso\ncon el desempeño tanto en los trabajos individuales como colectivos. a su vez\notorgando un grado de proactividad alto en los desafíos que se me presenten, con el\nfin de establecer lazos y relaciones interpersonales sólidas.\n",
     "Referencias": "referencias\ncargo\ninspector obras eléctricas.\nfunción\ninspección y revisión cámaras tipo para servicios eléctricos,\nelaboración de procedimientos de seguridad para el resguardo de\naccidentes de trabajo, elaboración de precios unitarios y\ncubicaciones.\ngerman silva bustamante\ningeniero eléctrico\ncel 09 81215726.\nmayo 2013 - junio\n2013\nempresa constructora fann.\njaime silva bustamante\ngerente general\nconstructora jsb cel09-\n58958060.\ngonzalo santibáñez\ngerente general syg\ncel 0962064802\ncargo\noficina técnica profesional de terreno\nfunción\nasistente técnico en obra reparaciones varias mall espacio\nurbano viña del mar, control personal de trabajo en el\ncumplimiento de horario, elaboración de catastro de partidas\ncriticas a realizar obra reparaciones varias mall espacio urbano,\ncreación cartas gantt y análisis de ruta crítica del proyecto.\njunio 2013 -\noctubre 2013\nempresa constructora syg.\ncargo\noficina técnica.\nfunción\nelaboración de precios unitarios y cubicaciones, estudio de\nproyectos constructivos, elaboración de estados de pagos,\ncreación de cartas gantt y rutas críticas.\nnoviembre 2014 -\njunio 2018\nempresa constructora jsb.\ncargo\noficina técnica.\nfunción\nencargado oficina técnica , realización estudio de propuestas y\nlicitaciones a través de plataforma mercado publico, emisión de\nprecios unitarios y cubicaciones, estudio de proyectos de\nremodelaciones y obras civiles para la universidad técnica\nfederico santa maría, elaboración de precios unitarios , gestión\nde\nmejora\nde\nprocesos\nconstructivos,\nelaboración\nde\nprocedimientos de seguridad para el resguardo de trabajadores ,\nelaboración de estados de pago para cada obra realizada,\nemisión de documentos facturas electrónicas, generación de\nplanos autocad, generación cartas gantt project, elaboración\ncontratos de trabajos , emisión y revisión documentos aclaratorios\nde deuda documento f-30, generación de cotización y compra\nde material para obras constructivas, elaboración de planillas\nexcel para control de personal, elaboración planillas excel para\ncontrol de materiales, elaboración planillas excel para control\nestados de pagos, supervisión avance de obras.\n.\nroberto simón garín silva.\nteléfono / móvil 09-81879079\ne-mail ro.garin087@gmail.com\ndomicilio alvarez 528 departamento 53 b viña del mar.\n",
-    "Nombre archivo": "1568050391127-CV_Roberto_Garin_Silva"
+    "Skills": [
+        "Excel",
+        "Microsoft project",
+        "Autocad",
+        "Office"
+    ]
 }

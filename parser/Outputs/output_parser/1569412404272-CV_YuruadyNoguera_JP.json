@@ -1,43 +1,47 @@
 {
-    "Nombre": "Yuruady J. Noguera ",
-    "Correo": "yuruadynoguerac@gmail.com",
-    "Linkedin": null,
-    "Celular": "+56964931645",
-    "Skills": [
-        "Sql",
-        "Office",
-        "Base de datos",
-        "Oracle",
-        "Scrum",
-        "Trello",
-        "Sharepoint",
-        "Crm",
-        "Power bi"
-    ],
+    "Contacto": {
+        "Nombre": "Yuruady J. Noguera ",
+        "Correo": "yuruadynoguerac@gmail.com",
+        "Celular": "+56964931645",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1569412404272-CV_YuruadyNoguera_JP",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Máster"
-    ],
     "Palabras Claves": [
-        "Analizar",
-        "Colaboración",
-        "Liderar",
-        "Proactividad",
-        "Negociación",
-        "Gestión",
         "Comprometido",
+        "Gestión",
         "Análisis",
-        "Estrategia",
-        "Responsabilidad",
+        "Proactividad",
         "Motivación",
-        "Modelamiento"
+        "Negociación",
+        "Liderar",
+        "Modelamiento",
+        "Colaboración",
+        "Analizar",
+        "Estrategia",
+        "Responsabilidad"
     ],
-    "Educacion": [],
+    "Educacion": {
+        "Universidades:": [],
+        "Grado_mas_alto": [
+            "Máster"
+        ]
+    },
     "Lenguajes": [
         "Inglés"
     ],
     "Experiencia": "experiencia laboral\n",
     "Resumen": "yuruady j. noguera c.\ningeniero en informática, scrum master, 37 años\nespecialista de proyectos con 12 años de trayectoria enfocada en empresas de\neducación y telecomunicaciones en áreas como dirección de ti y dirección de\nanálisis institucional. liderando e implementando proyectos.\nde ene 2018\na jun 2019\ninstituto de educación superior - iacc\ndirección ti\nresponsable de mantener portafolio de proyectos documentado, minimizando\nlas desviaciones de lo planificado en tiempo y costos. mitigación de riesgos.trato\ndirecto con proveedores.\nü gestión y control de proyectos, desde fase inicial hasta go live.\nü reingenieria del sitio web institucional.\nü implementación de crm para las unidades de admisión, servicios y titulados.\nü proveer a la institución previa investigación y análisis de las siguientes\nherramientas sharepoint gestor documental y colaborativo, herramienta\nbusiness intelligence power bi.\nü aplicación del marco de trabajo ágil scrum, para gestionar proyecto modelo\npredictivos, asociados a la permanencia de estudiantes en la institución.\nü participar como auditor internos en proceso de auditorias iso 90012015 para el\nsistema de gestión de calidad.\nü capacitar e implementar gestión del cambio al universo de empleados, encargados\nde la operación de cada sistema.\nactividad\n",
     "Referencias": "",
-    "Nombre archivo": "1569412404272-CV_YuruadyNoguera_JP"
+    "Skills": [
+        "Sharepoint",
+        "Power bi",
+        "Sql",
+        "Scrum",
+        "Crm",
+        "Trello",
+        "Office",
+        "Base de datos",
+        "Oracle"
+    ]
 }

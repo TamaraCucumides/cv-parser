@@ -1,39 +1,43 @@
 {
-    "Nombre": "Pablo Antonio Fernández ",
-    "Correo": [
-        "fernandezaravena.pablo@gmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": "+56942496938",
-    "Skills": [
-        "Tablas dinámicas",
-        "Excel",
-        "Macros",
-        "Pivot",
-        "Bases de datos",
-        "Power bi"
-    ],
+    "Contacto": {
+        "Nombre": "Pablo Antonio Fernández ",
+        "Correo": [
+            "fernandezaravena.pablo@gmail.com"
+        ],
+        "Celular": "+56942496938",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1567471368844-CV_PABLO_ANTONIO_FERN�NDEZ_ARAVENA",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Ingeniería"
-    ],
     "Palabras Claves": [
-        "Analizar",
-        "Liderazgo",
         "Gestión",
-        "Negociación",
         "Análisis",
+        "Negociación",
+        "Analizar",
+        "Colaboración",
+        "Liderazgo",
         "Estrategia",
-        "Responsabilidad",
-        "Colaboración"
+        "Responsabilidad"
     ],
-    "Educacion": [
-        "Universidad Católica de Chile",
-        "Pontificia Universidad Catolica de Chile"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad Católica de Chile",
+            "Pontificia Universidad Catolica de Chile"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [],
     "Experiencia": "experiencia laboral\ncontroller gerencia operaciones\ngerencia de operaciones - mundo pacífico\nmarzo 2019 agosto 2019\nresponsable de analizar, gestionar e informar los procesos propios del área de\noperaciones, tanto producción como metas asignadas, siendo capaz de entregar\nuna programación oportuna, tanto de las actividades y control de la cadena de\nprocesos del área. también responsable de supervigilar la valorización del\ntrabajo diario de técnicos y ejecutivos, traduciendo su trabajo en la renta\nvariable mensual lograda. finalmente, encargado de generar y presentar el\ninforme mensual del área ante diversidad de jefaturas y gerencia general.\nasistente operaciones técnicas\ngerencia de operaciones - mundo pacífico\nagosto 2018 marzo 2019\napoyo en labores del área de operaciones, vigilando la gestión de actividades,\ninformando a las distintas jefaturas del área los indicadores relevantes para la\ngestión diaria.\npráctica profesional\nadministración municipal - municipalidad talcahuano\nenero 2016 febrero 2016\napoyo transversal en materias de gestión vinculadas a unidades dependientes\ndideco, secplac, etc.. apoyo en mejora de procesos, acción vinculada al\ndesarrollo del programa de mejoramiento de la gestión municipal pmgm.\n",
     "Resumen": "pablo antonio fernández aravena\ningeniero civil industrial\ndiplomado en estrategia\n56 9 42496938\nfernandezaravena.pablo@gmail.com\n",
     "Referencias": "",
-    "Nombre archivo": "1567471368844-CV_PABLO_ANTONIO_FERN�NDEZ_ARAVENA"
+    "Skills": [
+        "Pivot",
+        "Tablas dinámicas",
+        "Power bi",
+        "Excel",
+        "Bases de datos",
+        "Macros"
+    ]
 }

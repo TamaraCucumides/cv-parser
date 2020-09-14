@@ -1,26 +1,28 @@
 {
-    "Nombre": "C U ",
-    "Correo": [
-        "fecuevasletelier@gmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": "+56996198431",
-    "Skills": [
-        "Excel"
-    ],
+    "Contacto": {
+        "Nombre": "C U ",
+        "Correo": [
+            "fecuevasletelier@gmail.com"
+        ],
+        "Celular": "+56996198431",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1588728488694-CV_Fernando_Cuevas",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Magíster"
-    ],
     "Palabras Claves": [
-        "Gestión",
+        "Liderazgo",
         "Negociación",
-        "Compromiso",
-        "Liderazgo"
+        "Gestión",
+        "Compromiso"
     ],
-    "Educacion": [
-        "Universidad Adolfo Ibáñez"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad Adolfo Ibáñez"
+        ],
+        "Grado_mas_alto": [
+            "Magíster"
+        ]
+    },
     "Lenguajes": [
         "Inglés avanzado",
         "Inglés"
@@ -28,5 +30,7 @@
     "Experiencia": "experiencia\nlaboral\nuniversidad adolfo ibáñez\nescuela de negocios\nmagíster en finanzas 2020\ningeniería comercial - minor en economía política 2015 2019\ncolegio castelgandolfo\nenseñanza media 2009 - 2012\ninformación\nadicional\nnacionalidad chilena rut 18.807.437-5 fecha de nacimiento 28. 03. 1994\ninglés avanzado oral y escrito, manejo excel avanzado\nafición deportiva fútbol, voleibol y natación\nayudante de cursos de política pensamiento 2016-2017 y liderazgo i y ii 2018\n2019 en universidad adolfo ibáñez\nservicio misional de tiempo completo para la iglesia de jesucristo sud en méxico 2013\n- 2015, incluyendo participación directa en liderazgo para el desarrollo de actividades,\ncongresos y conferencias de más de 300 personas finanzas y logística\n",
     "Resumen": "perfil\n",
     "Referencias": "",
-    "Nombre archivo": "1588728488694-CV_Fernando_Cuevas"
+    "Skills": [
+        "Excel"
+    ]
 }

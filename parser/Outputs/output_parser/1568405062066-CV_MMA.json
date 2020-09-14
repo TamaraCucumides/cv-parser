@@ -1,24 +1,21 @@
 {
-    "Nombre": "Matıas Fr ",
-    "Correo": [
-        "matias.matus@mail.udp.cl"
-    ],
-    "Linkedin": null,
-    "Celular": "20002014",
-    "Skills": [
-        "Html",
-        "Excel",
-        "Latex",
-        "Stata",
-        "Python",
-        "Analytics"
-    ],
+    "Contacto": {
+        "Nombre": "Matıas Fr ",
+        "Correo": [
+            "matias.matus@mail.udp.cl"
+        ],
+        "Celular": "20002014",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1568405062066-CV_MMA",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Phd"
-    ],
     "Palabras Claves": null,
-    "Educacion": [],
+    "Educacion": {
+        "Universidades:": [],
+        "Grado_mas_alto": [
+            "Phd"
+        ]
+    },
     "Lenguajes": [
         "Español",
         "Inglés"
@@ -26,5 +23,12 @@
     "Experiencia": "experiencia\nanaista marketing digital\nsantiago, chile\nuai online\n2018\nanaista marketing digital\nsantiago, chile\ntransformacion digital uai\n2019\n",
     "Resumen": "matıas francisco matus alvarez\njuly 24, 2019\nmatias.matus@mail.udp.cl\ncarmen farina 6772 dpto21 vitacura\n",
     "Referencias": "",
-    "Nombre archivo": "1568405062066-CV_MMA"
+    "Skills": [
+        "Stata",
+        "Analytics",
+        "Excel",
+        "Python",
+        "Latex",
+        "Html"
+    ]
 }

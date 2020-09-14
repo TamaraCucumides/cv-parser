@@ -1,35 +1,39 @@
 {
-    "Nombre": "Personales Nombre Maurice ",
-    "Correo": [
-        "Maurice.ucn@gmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": "+56990933503",
-    "Skills": [],
+    "Contacto": {
+        "Nombre": "Personales Nombre Maurice ",
+        "Correo": [
+            "Maurice.ucn@gmail.com"
+        ],
+        "Celular": "+56990933503",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1571453791421-CV_Maurice_Rocuant",
     "Licencias-Certificaciones": [
-        "CLASE B",
-        "LICENCIA DE CONDUCIR"
-    ],
-    "Grado": [
-        "Ingeniería"
+        "LICENCIA DE CONDUCIR",
+        "CLASE B"
     ],
     "Palabras Claves": [
-        "Liderar",
-        "Proactividad",
+        "Compromiso",
+        "Dialogo",
         "Gestión",
         "Análisis",
-        "Compromiso",
-        "Responsabilidad",
-        "Dialogo"
+        "Proactividad",
+        "Liderar",
+        "Responsabilidad"
     ],
-    "Educacion": [
-        "Universidad Católica del Norte"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad Católica del Norte"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [
         "Inglés"
     ],
     "Experiencia": "experiencia profesional\njunio 2019 a la fecha coordinador envasado y despacho, empresa sqm, faena salar del\ncarmen\ngestión de equipo de trabajo de turno para el adecuado cumplimiento de labores de\nenvasado, manejo y despacho de producto.\nrealización de charlas de seguridad al inicio de turno liderar diálogos de desempeño y\nreuniones con el personal.\ncontrol periódico de procedimientos de seguridad en base a lineamientos establecidos.\nverificación y gestión de insumos utilizados durante la operación.\ngestión de soluciones a contingencias operacionales.\nenero 2019 a junio 2019 coordinador general, empresa skm contratista para servicios\noperacionales a sqm, salar del carmen\ngestión de equipo de supervisión, para el adecuado cumplimiento de funciones de\napoyo operacional en el área de envasado y despacho, y planta realización de\nreuniones con el personal abastecimiento de suministros operacionales, programación\ny coordinación de transporte y turnos del personal.\nresolución de problemas operacionales y logísticos\ncotización y gestión de recursos.\nseptiembre del 2018 a enero 2019 supervisor, empresa skm contratista para servicios\noperacionales a sqm, salar del carmen\ngestión de equipo de trabajo de turno, para el adecuado cumplimiento de funciones de\napoyo operacional en el área de envasado y despacho, y planta realizar charlas de\nseguridad al inicio de turno liderar diálogos de desempeño y reuniones con el personal\ncoordinar y dirigir al personal para el almacenamiento de productos de carbonato de\nlitio.\ncontrol periódico de procedimientos de seguridad en base a lineamientos de sqm.\nverificación de las condiciones de los equipos a utilizar previamente a la iniciación de\nlabores, mediante check list.\ncoordinación técnica con área carbonato/ envasado y despacho.\napoyo operacional en contingencias área húmeda de envasado y despacho.\nagosto del 2016-enero del2017, práctica profesional\nlaboratorio de flotación, departamento de ingeniería metalúrgica y minas, universidad\ncatólica de norte ucn.\nrecopilación y análisis de información sobre los distintos factores que inciden en el\narrastre de partículas de manera no selectiva en la flotación.\nidentificación y control los principales factores que producen el fenómeno del arrastre\nde partículas de manera no selectiva, a fin de diseñar un método que optimice el\nproceso de flotación.\nimplementación y ensayo del método diseñado para la optimización del proceso de\nflotación.\ninterpretación y análisis de los resultados obtenidos, buscando determinar la\nsustentabilidad y el mejoramiento en el proceso de flotación.\nenero 2014 a marzo de 2014, pasantía\nempresa asmin industrial ltda. unidad planta piloto de flotación\nverificar y controlar el orden, registro y control físico y sistémico de los productos e\ninsumos utilizados en planta de flotación a escala piloto consumos reactivos, material\nalimentado, relaves y concentrado generados\nmanejo de sistemas y equipos necesarios para el funcionamiento de una columna de\nflotación a escala piloto columna de flotación, sistema automatizado de control de\nnivel de pulpa, bombas de alimentación y descarga, etc.\ncontrol de calidad de la operación productiva de la planta de flotación a escala piloto.\nreferencia\nnelson mercado, director de coordinacion sqm salar del carmen.\ncontacto 569 - 77986129\njorge torres, administrado de contratos skm industrial.\ncontacto 569 - 6689 3190\nmarco a. becerra márquez, gerente general de asmin industrial ltda.\ncontacto 569 - 9827 6921\n",
     "Resumen": "curriculum vitae\n",
     "Referencias": "",
-    "Nombre archivo": "1571453791421-CV_Maurice_Rocuant"
+    "Skills": []
 }

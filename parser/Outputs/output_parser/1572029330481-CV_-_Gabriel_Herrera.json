@@ -1,32 +1,36 @@
 {
-    "Nombre": null,
-    "Correo": [
-        "gabriel.herrera@ug.uchile.cl"
-    ],
-    "Linkedin": null,
-    "Celular": [
-        "56997906054"
-    ],
-    "Skills": [
-        "Office",
-        "Autocad",
-        "Matlab"
-    ],
+    "Contacto": {
+        "Nombre": null,
+        "Correo": [
+            "gabriel.herrera@ug.uchile.cl"
+        ],
+        "Celular": [
+            "56997906054"
+        ],
+        "Linkedin": null
+    },
+    "Nombre archivo": "1572029330481-CV_-_Gabriel_Herrera",
     "Licencias-Certificaciones": [
         "TOEFL"
     ],
-    "Grado": [
-        "Ingeniería"
-    ],
     "Palabras Claves": null,
-    "Educacion": [
-        "Universidad de Chile"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad de Chile"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [
         "Inglés"
     ],
     "Experiencia": "experiencia\npráctica profesional i\nlaboratorio de hidrometalurgia\nuniversidad de chile\nseptiembre 2017 - noviembre 2017\npráctica profesional ii\ndepartamento de operaciones\nsoltex chile s.a.\nenero febrero 2019\n",
     "Resumen": "curriculum vitae\ngabriel herrera pino\nrut 19.078.922-5\nedad 24 años\nejército libertador 3604 puente alto, santiago\n56 9 9790 6054\ngabriel.herrera@ug.uchile.cl\nobjetivo\nestudiante de ingeniería civil de minas en busca de su tercera práctica profesional\n",
     "Referencias": "",
-    "Nombre archivo": "1572029330481-CV_-_Gabriel_Herrera"
+    "Skills": [
+        "Matlab",
+        "Autocad",
+        "Office"
+    ]
 }

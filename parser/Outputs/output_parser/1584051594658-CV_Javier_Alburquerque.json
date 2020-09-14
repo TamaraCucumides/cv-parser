@@ -1,37 +1,41 @@
 {
-    "Nombre": "Javier Andrés Alburquerque ",
-    "Correo": [
-        "Javier.andres1995@outlook.cl"
-    ],
-    "Linkedin": null,
-    "Celular": "+56974880584",
-    "Skills": [
-        "Excel",
-        "Word",
-        "Stata",
-        "Access",
-        "E-commerce",
-        "Power point"
-    ],
+    "Contacto": {
+        "Nombre": "Javier Andrés Alburquerque ",
+        "Correo": [
+            "Javier.andres1995@outlook.cl"
+        ],
+        "Celular": "+56974880584",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1584051594658-CV_Javier_Alburquerque",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Magíster"
-    ],
     "Palabras Claves": [
         "Gestión",
-        "Negociación",
         "Análisis",
-        "Responsabilidad",
-        "Adaptable"
+        "Negociación",
+        "Adaptable",
+        "Responsabilidad"
     ],
-    "Educacion": [
-        "Universidad Adolfo Ibáñez"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad Adolfo Ibáñez"
+        ],
+        "Grado_mas_alto": [
+            "Magíster"
+        ]
+    },
     "Lenguajes": [
         "Inglés"
     ],
     "Experiencia": "experiencia laboral\nparis - cencosud\ncomercial vestuario hombre\npráctica profesional\nasistente category y product manager\nsantiago, chile 2018\nrealicé revisión de sugeridos para la distribución de los\nproductos en todas las tiendas, activación de promociones,\ngestión de precios y fotografías con el departamento de\ninternet para posterior subida a la página. asistencia a\nshowrooms ver productos nuevos y gestión en la compra de\nla próxima temporada, creación códigos para los productos\nnuevos y asignación de precio. además de contacto con\nproveedores y tiendas cada día, gestionando acuerdos de\nprecios, promociones, descuentos, entre otros. visité tiendas\ny llevé a cabo trabajo directamente en ellas durante el\nperiodo de navidad. por último, apoyé a product manager en\nrealización de informes y presentaciones de resultados o\ncompras a realizar para posteriores temporadas.\ncafetería kaffeeklatsch\nadministración\npráctica intermedia\nasistente administración\nviña del mar, chile 2017\nasistencias en caja, conteo gastos e ingresos, revisar\nremuneraciones, compras semanales.\nuniversidad adolfo ibañez\ntaller de emprendimiento\nsummer camp\npráctica operativa\nencargado contabilidad y administración\nviña del mar, chile 2015\ncuidado de niños mediantes actividades deportivas durante\nel verano.\n",
     "Resumen": "resumen profesional\ningeniero comercial, magíster en marketing, universidad adolfo ibáñez. mis intereses están relacionados con áreas de management, marketing y\ncomercial. tengo experiencia en áreas comerciales y de administración en retail, específicamente desempeñando roles de análisis de ventas,\nrotación de inventarios, distribución de productos, entre otros. me considero una persona responsable, positiva, que puede trabajar bajo presión,\ncon facilidad de adaptación y con la capacidad de enfrentar desafíos de la mejor manera posible con tal de lograr y superar los objetivos\nplanteados.\n",
     "Referencias": "",
-    "Nombre archivo": "1584051594658-CV_Javier_Alburquerque"
+    "Skills": [
+        "Word",
+        "Power point",
+        "Access",
+        "Excel",
+        "Stata",
+        "E-commerce"
+    ]
 }

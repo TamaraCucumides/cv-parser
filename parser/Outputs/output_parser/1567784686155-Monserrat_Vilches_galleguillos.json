@@ -1,26 +1,30 @@
 {
-    "Nombre": null,
-    "Correo": [
-        "mvilchesgalleguillos@gmail.co"
-    ],
-    "Linkedin": null,
-    "Celular": "+56977573041",
-    "Skills": [
-        "Excel",
-        "Powerpoint",
-        "Word"
-    ],
+    "Contacto": {
+        "Nombre": null,
+        "Correo": [
+            "mvilchesgalleguillos@gmail.co"
+        ],
+        "Celular": "+56977573041",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1567784686155-Monserrat_Vilches_galleguillos",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Ingeniería"
-    ],
     "Palabras Claves": null,
-    "Educacion": [
-        "Pontificia Universidad Católica de Valparaíso"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Pontificia Universidad Católica de Valparaíso"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [],
     "Experiencia": "e x p e r i e n c i a\nc o n t a c t\ni n f o\neducación media\nc o l e g i o s a n e s t e b a n , a n t o f a g a s t a .\n2 0 1 1 - 2 0 1 4\n",
     "Resumen": "estudiante\ningeniería civil\nindustrial\ntengo la capacidad de trabajar en equipo y\ncompetitividad para enfrentar nuevos desafíos.\nposeo concimientos de microsoft word, excel y\npowerpoint, nivel usuario.\nh a b i l i d a d e s y\n",
     "Referencias": "",
-    "Nombre archivo": "1567784686155-Monserrat_Vilches_galleguillos"
+    "Skills": [
+        "Powerpoint",
+        "Excel",
+        "Word"
+    ]
 }

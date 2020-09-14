@@ -1,35 +1,31 @@
 {
-    "Nombre": "Diego Jaime Cisneros ",
-    "Correo": "djcisneros@uc.cl",
-    "Linkedin": null,
-    "Celular": "+56989542441",
-    "Skills": [
-        "Office",
-        "Excel",
-        "Word",
-        "Autocad",
-        "Matlab",
-        "Power point",
-        "Toeic"
-    ],
+    "Contacto": {
+        "Nombre": "Diego Jaime Cisneros ",
+        "Correo": "djcisneros@uc.cl",
+        "Celular": "+56989542441",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1568669145943-2019_CV-Diego_Cisneros",
     "Licencias-Certificaciones": [
         "TOEIC"
     ],
-    "Grado": [
-        "Ingeniería"
-    ],
     "Palabras Claves": [
-        "Colaboración",
-        "Proactividad",
         "Gestión",
         "Análisis",
         "Motivación",
-        "Modelamiento"
+        "Proactividad",
+        "Modelamiento",
+        "Colaboración"
     ],
-    "Educacion": [
-        "Universidad Católica de Chile",
-        "Pontificia Universidad Catolica de Chile"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad Católica de Chile",
+            "Pontificia Universidad Catolica de Chile"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [
         "Inglés intermedio",
         "Inglés"
@@ -37,5 +33,13 @@
     "Experiencia": "e x p e r i e n c i a l a b o r a l\nnoviembre 2017 actualidad jefe departamento ingeniería, calder solar s.a.\ngestión y supervisión de desarrollo de ingeniería básica y de detalle de proyectos térmicos calefacción y energía solar,\nredacción de propuestas técnicas y económicas, gestión de importaciones de equipos y componentes, trabajo en terreno,\ndentro y fuera de santiago, y apoyo en el desarrollo de nuevas tecnologías prototipos.\nredacción de informes de estados de avance de proyectos, reportándolos directamente con gerencia, en conjunto con dos\ningenieros bajo mi cargo, y generación de alianzas económicas con proveedores extranjeros china, turquía y grecia, y\nlocales.\nelaboración de más de 40 proyectos de calefacción, 25 proyectos de eficiencia energética sistemas solares térmicos, 60\npresupuestos y 20 instalaciones, realizando los cálculos térmicos y cubicaciones pertinentes, y supervisando que las\ninstalaciones sean de acuerdo a los planos realizados.\nseptiembre 2017 octubre 2017 práctica profesional, paresálvarez\napoyo en elaboración de estudios de impacto ambiental y declaraciones de impacto ambiental\nmarzo 2017 julio 2017 ayudante curso tratamiento fisicoquímico, escuela de ingeniería pontificia universidad\ncatólica de chile.\nrealización de corrección de evaluaciones y cátedras de los contenidos del curso modelos de transporte y reactores,\ncoagulación/floculación, sedimentación, filtración, ablandamiento, remoción fe-mn, adsorción y desinfección, a cargo del\nprofesor rodrigo labatut hernández. el desempeño de las ayudantías se han evaluado con máxima distinción.\nagosto 2015 2016 ayudante curso contaminación atmosférica, escuela de ingeniería pontificia universidad\ncatólica de chile.\nrealización de corrección de evaluaciones y cátedras de los contenidos del curso efectos en la salud pública, material\nparticulado, meteorología, dispersión de contaminantes, control de emisiones de material particulado y control de\nemisiones de gases, vapores y olores, a cargo de los profesores héctor jorquera gonzález 2015 julio 2016 y maría josé\nmeneses valenzuela agosto 2016 noviembre 2016. el desempeño de las ayudantías se han evaluado con máxima\ndistinción.\nagosto 2014 julio 2017 ayudante curso ingeniería ambiental, escuela de ingeniería pontificia universidad\ncatólica de chile.\nrealización de corrección de evaluaciones y cátedras de los contenidos del curso calidad del agua, aire y suelo, evaluación\nde impacto ambiental y normativa y legislación ambiental, a cargo de los profesores ignacio vargas cucurella 2014 2015 y\nclaudia valenzuela jara 2016 julio 2017. el desempeño de las ayudantías se han evaluado con máxima distinción.\ncv julio 2019\n2\n",
     "Resumen": "p e r f i l\ningeniero civil industrial, diploma en ingeniería ambiental. capacitado para trabajar solo o en ambientes colaborativos,\nmediante objetivos, bajo supervisión o a cargo de equipos de trabajo. buen dominio de grupos, proactivo, organizado,\ndiligente y excelentes relaciones interpersonales. alta capacidad y motivación para trabajar bajo presión.\náreas de interés análisis y gestión de proyectos, control de proyectos, evaluación de impactos ambientales, tratamiento de\naguas servidas, logística de operaciones.\n",
     "Referencias": "referencias\nq\nclaudia valenzuela jara socia directora de proyecta group\ncvalenzuela@proyectagroup.cl\n56 9 8723 3927\nq\nrodrigo labatut hernández docente de la escuela de ingeniería, pontificia universidad católica de chile\nrolabatut@ing.puc.cl\n56 9 7931 2858\n",
-    "Nombre archivo": "1568669145943-2019_CV-Diego_Cisneros"
+    "Skills": [
+        "Word",
+        "Autocad",
+        "Toeic",
+        "Matlab",
+        "Excel",
+        "Office",
+        "Power point"
+    ]
 }

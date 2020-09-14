@@ -1,33 +1,37 @@
 {
-    "Nombre": "Marketing Top Underw ",
-    "Correo": "cavvrm@gmail.com",
-    "Linkedin": "cl.linkedin.com/in/cristian-vera",
-    "Celular": "+56933428967",
-    "Skills": [
-        "Office",
-        "Sap"
-    ],
+    "Contacto": {
+        "Nombre": "Marketing Top Underw ",
+        "Correo": "cavvrm@gmail.com",
+        "Celular": "+56933428967",
+        "Linkedin": "cl.linkedin.com/in/cristian-vera"
+    },
+    "Nombre archivo": "1571948797994-Cristian_Vera_Valdes",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Magíster"
-    ],
     "Palabras Claves": [
         "Gestión",
         "Negociación",
-        "Estrategia",
-        "Responsabilidad",
         "Perfeccionista",
-        "Creativo"
+        "Estrategia",
+        "Creativo",
+        "Responsabilidad"
     ],
-    "Educacion": [
-        "IP Los Leones",
-        "Universidad de los Lagos",
-        "Universidad de Los Lagos",
-        "Universidad Mayor"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad Mayor",
+            "Universidad de Los Lagos",
+            "Universidad de los Lagos",
+            "IP Los Leones"
+        ],
+        "Grado_mas_alto": [
+            "Magíster"
+        ]
+    },
     "Lenguajes": [],
     "Experiencia": "experiencia\ntenis futbol musica tecnología\naficiones\nhabilidades técnicas\ncavvrm@gmail.com\n569 33428967\nav. la campana 359, peñaflor\nencargado mkt digital natura cosméticos\nphone 569 87547201\nemail christianaraneda@natura.net\nchristián araneda\nphone\n\n569 95350519\nemail josezenteno@natura.net\nbrand manager natura cosméticos\njosé zenteno\n",
     "Resumen": "extracto\nprofesional del área de las comunicaciones y de la ingeniería con 9 años de experiencia en\náreas de marketing, en ámbitos de retail, industrial, automotriz y venta directa. especialista\nen campañas de marketing. creativo, responsable, perfeccionista, con muy buenas relaciones\ninterpersonales lo cual lleva a un eficiente trabajo en equipo.\niab españa y\ngoogle\nsantiago\nmkt digital\n2016\ndiciembre 2009 - diciembre 2010\nencargado de marketing lapiz lopez\nencargado de la comunicación de la empresa.\ncoordinación de eventos, btls, y movimiento de la marca, publicidad y medios de difusión.\nmarketing digital e implementación de ecommerce. presupuesto anual a cargo.\nresponsable de tiendas propias y branding en clientes de retail.\nencargado de marketing masivo en todas las sucursales del país.\ncreación de plan y ejecución de estrategias de marketing.\ncampañas de publicidad, relación con agencia, presupuesto a cargo.\nhttps//cl.linkedin.com/in/cristian-vera\nbranding\neclass\nsantiago\nip los leones\nsantiago\n2004 - 2008\npublicidad\npretensiones de renta\n1.600.000\nmarketing digital\ninteligencia de negocio\noffice\nsap\naplicaciones graficas\ngestion\nuniversidad mayor\nsantiago\ncursando magister en direccion\ncomercial\n2019\njefe de marketing comercial jonas spa\nnoviembre 2018 - octubre 2019\nlíder de proyecto de transformación digital, creación de aplicaciones, integraciones y difusión.\nresponsable de la comunicación corporativa para cada área de negocio de la empresa.\ncreación del 360 de la estrategia de marketing anual y manejo del ppto.\nencargado del plan de medios, tradicionales, digitales. marketing digital y off line.\nser capaz de unificar la imagen en las sucursales de la empresa, junto con acciones en mercados\nlocales que generen conversión.\nresponsable de participación en ferias, eventos de lanzamientos y eventos corporativos.\ngerente comercial jonas ventilación\njosé enrique arancibia\n",
     "Referencias": "referencias\nlinkedin\ntwitter @estilovera\nredes sociales\nuniversidad de los lagos\nsantiago\n2010 - 2013\ningenieria industrial\neclass\nsantiago\nevaluacion de proyectos\n",
-    "Nombre archivo": "1571948797994-Cristian_Vera_Valdes"
+    "Skills": [
+        "Sap",
+        "Office"
+    ]
 }

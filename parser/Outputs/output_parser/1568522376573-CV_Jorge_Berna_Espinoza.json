@@ -1,38 +1,42 @@
 {
-    "Nombre": "Jorge Alfredo Freddy ",
-    "Correo": [
-        "jorge.berna.espinoza@gmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": [
-        "56979823813"
-    ],
-    "Skills": [
-        "Excel",
-        "Microsoft project",
-        "Word",
-        "Power point"
-    ],
+    "Contacto": {
+        "Nombre": "Jorge Alfredo Freddy ",
+        "Correo": [
+            "jorge.berna.espinoza@gmail.com"
+        ],
+        "Celular": [
+            "56979823813"
+        ],
+        "Linkedin": null
+    },
+    "Nombre archivo": "1568522376573-CV_Jorge_Berna_Espinoza",
     "Licencias-Certificaciones": [
-        "CLASE B",
-        "LICENCIA DE CONDUCIR"
-    ],
-    "Grado": [
-        "Ingeniería"
+        "LICENCIA DE CONDUCIR",
+        "CLASE B"
     ],
     "Palabras Claves": [
-        "Liderazgo",
-        "Gestión",
         "Comprometido",
+        "Gestión",
         "Adaptable",
+        "Liderazgo",
         "Creativo"
     ],
-    "Educacion": [
-        "Universidad Arturo Prat"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad Arturo Prat"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [],
     "Experiencia": "experiencia\ndesde diciembre 2017 junio 2018 practica\ngeoterra.ltda -- área dirección de proyecto - cargo trainee en ingeniera de prefactibilidad de\nproyectos medioambientales.\ndescripción investigar y desarrollar la prefactibilidad de proyectos medioambientales asociado a\ncomunidades rurales, para el estudio y aprobación adecuada de los demandantes conadi,\nmunicipios de pozo almonte y pica.\ndesde marzo 2019 julio 2019 practica\nemin ing. y construcción s.a para codelco división gabriela mistral área oficina técnica\ncargo ingeniero trainee control costo y proyecciones. desarrollado en la extensión botadero de\nripio fase vii dgm.\ndescripción visualizar el rendimiento del proyecto tanto en costo como en productividad\ngestionar una correcta distribución de los recursos asociados y proyectando el desarrollo del proyecto\npara la ejecución de los trabajos en los plazos indicados, relacionado las horas hombre hh y horas\nde las maquinarias hm comprometidas en la construcción del botadero de ripio fase vii.\ncomo labor adicional ser el encargado de poder monitorear por gps y calcular el rendimiento, ciclos\nde procesos, poder optimizar tiempos y ver posibles cuellos de botellas que se generen. todo esto en\nrelación con las siguientes maquinarias tolva, bulldozer, aljibe, wirtgen, motoniveladora, rodillo\ncompactador, excavadora, retroexcavadora, cargador frontal, pluma.\nademás, entregar información diaria sobre el avance del desarrollo del proyecto y el rendimiento de\nlas maquinarias a la dirección de proyecto de dgm.\npágina 3\n",
     "Resumen": "curriculum\njorge alfredo freddy berna espinoza\nramón freire 3050 pob. prat teléfono 56 9 79823813 jorge.berna.espinoza@gmail.com\n",
     "Referencias": "",
-    "Nombre archivo": "1568522376573-CV_Jorge_Berna_Espinoza"
+    "Skills": [
+        "Microsoft project",
+        "Excel",
+        "Word",
+        "Power point"
+    ]
 }

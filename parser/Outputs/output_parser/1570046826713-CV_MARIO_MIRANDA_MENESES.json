@@ -1,16 +1,20 @@
 {
-    "Nombre": null,
-    "Correo": [],
-    "Linkedin": null,
-    "Celular": [],
-    "Skills": [],
+    "Contacto": {
+        "Nombre": null,
+        "Correo": [],
+        "Celular": [],
+        "Linkedin": null
+    },
+    "Nombre archivo": "1570046826713-CV_MARIO_MIRANDA_MENESES",
     "Licencias-Certificaciones": [],
-    "Grado": [],
     "Palabras Claves": null,
-    "Educacion": [],
+    "Educacion": {
+        "Universidades:": [],
+        "Grado_mas_alto": []
+    },
     "Lenguajes": [],
     "Experiencia": "",
     "Resumen": "",
     "Referencias": "",
-    "Nombre archivo": "1570046826713-CV_MARIO_MIRANDA_MENESES"
+    "Skills": []
 }

@@ -1,29 +1,27 @@
 {
-    "Nombre": "Nella.vip Gmail.com Www.linkedin.com/in/marianella- ",
-    "Correo": [
-        "nella.vip@gmail.com"
-    ],
-    "Linkedin": "www.linkedin.com/in/marianella-",
-    "Celular": "201020145",
-    "Skills": [
-        "Office",
-        "Metodologías ágiles",
-        "Base de datos",
-        "Scrum",
-        "Autocad"
-    ],
+    "Contacto": {
+        "Nombre": "Nella.vip Gmail.com Www.linkedin.com/in/marianella- ",
+        "Correo": [
+            "nella.vip@gmail.com"
+        ],
+        "Celular": "201020145",
+        "Linkedin": "www.linkedin.com/in/marianella-"
+    },
+    "Nombre archivo": "1568671213389-CV_MAI",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Máster"
-    ],
     "Palabras Claves": [
-        "Aprender",
         "Gestión",
-        "Negociación",
         "Análisis",
+        "Aprender",
+        "Negociación",
         "Colaboración"
     ],
-    "Educacion": [],
+    "Educacion": {
+        "Universidades:": [],
+        "Grado_mas_alto": [
+            "Máster"
+        ]
+    },
     "Lenguajes": [
         "Español",
         "Inglés"
@@ -31,5 +29,11 @@
     "Experiencia": "experiencia\nsite chile s.a.\njefe de proyecto eficiencia energética para entel chile\nfebrero de 2019 - present\nchile\nsite chile s.a.\ncoordinador de planificación y logística\ndiciembre de 2017 - present\n",
     "Resumen": "extracto\nmsc. ing. de telecomunicaciones, maestría en gerencia de\nmantenimiento con 10 años de experiencia en operadoras de\ntelecomunicaciones, sólida formación profesional en gestión de\nproyectos, manejo de metodologías ágiles, okr, kpi, habilidades\nblandas para el manejo de equipos, con alta capacidad de\ncomunicación y negociación entre cliente interno y externo.\norientado a la excelencia y optimización de procesos. capacidad de\nintegración en proyectos multidisciplinarios y excelente desempeño\nbajo ambientes de presión.\n",
     "Referencias": "",
-    "Nombre archivo": "1568671213389-CV_MAI"
+    "Skills": [
+        "Metodologías ágiles",
+        "Autocad",
+        "Scrum",
+        "Office",
+        "Base de datos"
+    ]
 }

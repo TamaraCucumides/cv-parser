@@ -1,40 +1,33 @@
 {
-    "Nombre": null,
-    "Correo": [
-        "daniela.espina.t@gmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": "+41156956073",
-    "Skills": [
-        "Sql",
-        "Java",
-        "Office",
-        "Html5",
-        "Php",
-        "Coaching",
-        "Visual basic",
-        "Mysql",
-        "Analytics",
-        "Bases de datos"
-    ],
+    "Contacto": {
+        "Nombre": null,
+        "Correo": [
+            "daniela.espina.t@gmail.com"
+        ],
+        "Celular": "+41156956073",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1571075456196-CV",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Ingeniería"
-    ],
     "Palabras Claves": [
-        "Aprender",
-        "Proactividad",
-        "Gestión",
-        "Análisis",
         "Autodidacta",
         "Escuchar",
-        "Responsabilidad",
+        "Gestión",
+        "Análisis",
         "Motivación",
-        "Modelamiento"
+        "Proactividad",
+        "Aprender",
+        "Modelamiento",
+        "Responsabilidad"
     ],
-    "Educacion": [
-        "Universidad Católica del Norte"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad Católica del Norte"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [
         "Español",
         "Inglés"
@@ -42,5 +35,16 @@
     "Experiencia": "",
     "Resumen": "ingeniera civil en computación e informática, con voluntad de querer aprender\nnuevas cosas y desarrollarse en diferentes áreas ,con el deseo de poder aportar y\nser parte de su equipo de trabajo.\n2013-2019\ningeniería civil en computación\ne informática\nuniversidad\ncatólica\ndel\nnorte,\ncoquimbo.\n2009 - 2012\nenseñanza media\nescuela\ntécnico\nprofesional,\ncopiapó\n2002-2008\nenseñanza básica\nliceo de música de copiapó\n\nlenguajes de programación java , c, php,\nhtml5.\n\n",
     "Referencias": "",
-    "Nombre archivo": "1571075456196-CV"
+    "Skills": [
+        "Mysql",
+        "Html5",
+        "Coaching",
+        "Php",
+        "Office",
+        "Analytics",
+        "Sql",
+        "Java",
+        "Bases de datos",
+        "Visual basic"
+    ]
 }

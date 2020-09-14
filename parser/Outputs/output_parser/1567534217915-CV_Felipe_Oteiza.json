@@ -1,26 +1,28 @@
 {
-    "Nombre": "Felipe Francisco Oteíza ",
-    "Correo": [
-        "ffoteizar@gmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": "+56985360986",
-    "Skills": [
-        "Office"
-    ],
+    "Contacto": {
+        "Nombre": "Felipe Francisco Oteíza ",
+        "Correo": [
+            "ffoteizar@gmail.com"
+        ],
+        "Celular": "+56985360986",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1567534217915-CV_Felipe_Oteiza",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Máster"
-    ],
     "Palabras Claves": [
-        "Gestión",
+        "Compromiso",
         "Estrategia",
-        "Compromiso"
+        "Gestión"
     ],
-    "Educacion": [
-        "Universidad Andrés Bello",
-        "Universidad del Desarrollo"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad del Desarrollo",
+            "Universidad Andrés Bello"
+        ],
+        "Grado_mas_alto": [
+            "Máster"
+        ]
+    },
     "Lenguajes": [
         "Inglés avanzado",
         "Inglés"
@@ -28,5 +30,7 @@
     "Experiencia": "experiencia laboral\nkomax\nvendedor\nsantiago, chile 2013 2019\n-vendedor marca gap.\n-reposición de inventarios.\n-apoyo en las distintas marcas del holding brooks brothers y gap.\n-montaje de nuevas tiendas en alto las condes y portal la dehesa.\n-apoyo gestión de inventarios.\nuniversidad andrés bello\ntesis\nmejora completa constructora zita spa.\nsantiago, chile 2019\n-análisis macroeconómico sector de la construcción y mercado\ninmobiliario.\n-análisis de la estructura organizacional de la empresa, estados\nfinancieros, marketing y ventas.\n-trabajo en planta jefe de obra para remodelación de vivienda\nhabitacional.\n-análisis de competencia, mercado potencial y demanda.\n-plan de reestructuración organizacional, optimización de procesos,\ncreación de una nueva estrategia de marketing y ventas.\nindependiente\ncomercialización y venta\nsantiago, chile 2012\ncomercialización y venta de productos marinos congelados.\nkomax\nvendedor part-time de apoyo de navidad\nsantiago, chile 2012\nvendedor tienda gap.\nforbox m.b.r. asesorías y comercio e.i.r.l.\nárea de producción y logística\nsantiago, chile 2011 - 2012\n-encargado de fabricación, control de calidad y despacho de cajas de\ncartón.\nindependiente\nfabricación y venta carros de arrastre para motos\npuerto varas, chile 2009\n-trabajos de soldadura mig-tig y sistema eléctrico para fabricación\nde carros de arrastre para motos y otros vehículos.\n-comercialización carros de arrastre.\ncomercial master nets ltda.\nsoldador mig-tig\npuerto montt, chile 2008\ntrabajos de soldadura mig-tig para planta de lavado de redes de\ncultivo industria salmonera.\n",
     "Resumen": "resumen profesional\nestudiante de último año de ingeniería civil industrial de la universidad andrés bello con minor en engineering proyect management de la\nuniversidad de miami. profesional bilingüe preocupado por el orden y la calidad de las tareas en las que me desempeño, buscando siempre\ninformación para lograr resultados óptimos, siempre enfocado en el compromiso que tengo con la organización. gran interés en el área de\noperaciones, producción y área comercial.\n",
     "Referencias": "",
-    "Nombre archivo": "1567534217915-CV_Felipe_Oteiza"
+    "Skills": [
+        "Office"
+    ]
 }

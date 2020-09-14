@@ -1,31 +1,32 @@
 {
-    "Nombre": "Mariana Wong Aguirre ",
-    "Correo": "Mariana.wong@ug.uchile.cl",
-    "Linkedin": null,
-    "Celular": [
-        "56981391361"
-    ],
-    "Skills": [
-        "Office",
-        "Matlab"
-    ],
+    "Contacto": {
+        "Nombre": "Mariana Wong Aguirre ",
+        "Correo": "Mariana.wong@ug.uchile.cl",
+        "Celular": [
+            "56981391361"
+        ],
+        "Linkedin": null
+    },
+    "Nombre archivo": "1571410211245-CV_Mariana_Wong",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Magíster"
-    ],
     "Palabras Claves": [
-        "Proactividad",
         "Gestión",
         "Análisis",
-        "Responsabilidad",
+        "Proactividad",
         "Adaptable",
+        "Modelamiento",
         "Voluntariado",
         "Creativo",
-        "Modelamiento"
+        "Responsabilidad"
     ],
-    "Educacion": [
-        "Universidad de Chile"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad de Chile"
+        ],
+        "Grado_mas_alto": [
+            "Magíster"
+        ]
+    },
     "Lenguajes": [
         "Español",
         "Español nativo",
@@ -34,5 +35,8 @@
     "Experiencia": "experiencia laboral\npráctica profesional ii\nsept 2017 - oct 2017\nuniversidad de milano bicocca\nvinculada a la investigación y análisis químicos\nde cortes de roca con microsonda electrónica.\ndigitadora\nabr 2015 - mar 2017\ncámara de empresas tasadoras de chile a.g\nlevantamiento de información del\nconservador de bienes raíces de santiago.\ncoordinadora de gestión\nsept 2016 - dic 2016\ntranssa, tasaciones y servicios\ninmobiliarios\nreemplazo, apoyo en la coordinación del área\nde gestión de tasaciones y despacho digital de\ninformes.\npráctica profesional i\nene 2015\nuniversidad de chile, centro de excelencia en\ngeotermia de los andes\nayudante en terreno de tesista de magíster en\nciencias, mención geología, volcán lanín,\nregión de la araucanía, chile - junín de los\nandes, argentina.\n",
     "Resumen": "presentación\negresada de la carrera de geología, de la\nuniversidad de chile, actualmente a la espera\ndel título profesional, y candidata a magíster\nen ciencias, mención geología, de la misma\ncasa de estudios. experiencia en docencia e\ninvestigación\nasociada\na\ncaracterizar\ny\nmodelar\nprocesos\nígneos\nvolcánicos/plutónicos.\n",
     "Referencias": "referencias\ndiego morata\ndirector\ndel\ncentro\nen\nexcelencia en geotermia de\nlos andes, cega.\ndmorata@ing.uchile.cl\n",
-    "Nombre archivo": "1571410211245-CV_Mariana_Wong"
+    "Skills": [
+        "Matlab",
+        "Office"
+    ]
 }

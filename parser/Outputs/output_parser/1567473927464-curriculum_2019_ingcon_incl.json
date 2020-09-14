@@ -1,35 +1,29 @@
 {
-    "Nombre": "Perfil Eléctrico Licenciado ",
-    "Correo": "zambrano.lovera@gmail.com",
-    "Linkedin": null,
-    "Celular": "+56972459436",
-    "Skills": [
-        "Office",
-        "Excel",
-        "Word",
-        "Digsilent",
-        "Dialux",
-        "Access",
-        "Autocad",
-        "Powerpoint",
-        "Mathematica"
-    ],
+    "Contacto": {
+        "Nombre": "Perfil Eléctrico Licenciado ",
+        "Correo": "zambrano.lovera@gmail.com",
+        "Celular": "+56972459436",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1567473927464-curriculum_2019_ingcon_incl",
     "Licencias-Certificaciones": [
         "SEC CLASE A",
         "INSTALADOR ELECTRICO"
     ],
-    "Grado": [
-        "Ingeniería"
-    ],
     "Palabras Claves": [
+        "Tolerancia",
         "Gestión",
-        "Análisis",
-        "Tolerancia"
+        "Análisis"
     ],
-    "Educacion": [
-        "Universidad Técnica Federico Santa María",
-        "Pontificia Universidad Católica de Valparaíso"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Pontificia Universidad Católica de Valparaíso",
+            "Universidad Técnica Federico Santa María"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [
         "Español",
         "Español nativo",
@@ -39,5 +33,15 @@
     "Experiencia": "experiencia laboral\njunio\ninstalación y certificación eléctrica, independiente\nactualidad 2019 instalador eléctrico certificado\ntareas realizadas instalación y certificación clase a ante la superintendencia de\nelectricidad y combustibles. normalización de instalaciones eléctricas en inmuebles y/o\náreas que contengan potencias menores a 200kw.\nmayo\ncentro religioso, sector eléctrico\njunio 2018 desarrollo de planos eléctricos y corrección\ntareas realizadas desarrollo de los planos eléctricos para un centro religioso y\ncorrección de las instalaciones eléctricas implementando las corrección y certificandolas\nante la superintendencia de eléctricidad y combustible.\nfebrero\ngo market, sector eléctrico\nmayo 2018 desarrollo de planos eléctricos y instalaciones eléctricos\ntareas realizadas desarrollo de los planos eléctricos para la propiedad y instalaciones\neléctricas implementandolas y certificandolas ante la superintendencia de eléctricidad\ny combustible.\nwilliam zambrano l.\n17.012.418-9\nedad 29 años\nparque bustamante 1015, ñuñoa, santiago\ntel 56972459436\nemail zambrano.lovera@gmail.com\ningeniero civil\neléctrico\nagosto\nsiel ltda, sector eléctrico\noctubre 2017 ingeniero de proyectos eléctricos\ntareas realizadas confección de estudios referidos prefactibilidad eléctrica para\nconectar instalaciones pmg pequeño medio de generación al sistema de transmisión\neléctrica en el departamento de proyectos e ingeniería.\nseptiembre docelec, sector eléctrico\ndiciembre 2017 gestión de activos\ntareas realizadas apoyo administrativo en revisión y gestión de activos fijos cables,\npostes, alumbrado, entre otros de la empresa eléctrica cge generando reportes para la\nfacturación realizada por la empresa.\nseptiembre siel ltda, departamento de proyectos e ingeniería\ndiciembre 2016 segunda práctica profesional\ntareas realizadas confección de informes técnicos de cálculo para la construcción de\nmallas puesta a tierra con el objetivo de proteger el sistema eléctrico. análisis técnico\nde prefactibilidad, respecto a la conexión de generación eléctrica en líneas de media\ntensión y mantención.\nenero\ncoca-cola embonor, departamento de mantención\nmarzo 2015 primera práctica profesional\ntareas realizadas inspección y desarrollo de trabajos eléctricos, tales como reparación\nde bombas, manejo de variadores de frecuencia e instalaciones menores en la planta de\nproducción.\nmarzo\npontificia universidad católica de valparaíso, sector educacional\njulio 2014 ayudante cátedra de análisis de señales y sistemas eléctricos\ntareas realizadas apoyo al profesor de cátedra desarrollando clases complementarias\ny evaluaciones adicionales a la asignatura. proceso continuo de interacción con\nestudiantes en virtud de retroalimentarlos respecto a sus aciertos y errores en la materia.\n2010 2012 universidad técnica federico santa maría, sector educacional\nayudante laboratorio de matemáticas\ntareas realizadas ejecución de clases y evaluaciones complementarias a la asignatura\nque buscan aplicar los conocimientos y materia utilizando el software matemathicas 5.0.\nproceso continuo de interacción con estudiantes en virtud de retroalimentarlos respecto\na sus aciertos y errores en la materia.\nuso de software\nautocad programa para la creación y diseño de planos estructurales.\n80\ndialux programa para el diseño y calculo de iluminación profesional.\n50\ndigsilent programa para la simulación de sistemas eléctricos de potencia.\n60\nemtp-rv programa para la simulación de sistemas eléctricos de potencia.\n40\nmathematica 5.0 programa matemático para el cálculo avanzado.\n95\noffice programa que permite crear archivos de excel, powerpoint, word,\nonenote, publisher y access.\n85\n",
     "Resumen": "perfil profesional\ningeniero civil eléctrico y licenciado en ciencias de la ingenieria, con experiencia en el proceso de\ndiagnóstico, implementación, desarrollo y seguimiento de proyectos eléctricos considerando la\nnormativa nacional e internacional, trazado de líneas de transmisión, creación de sistemas de control\ny desarrollo de análisis para instalaciones de áreas de protección.\nprofesional con conocimientos administrativos y de gestión, capacidad para trabajar en equipo,\nhabilidad para orientar tareas en virtud de la obtención de logros, alta tolerancia a la presión y\ncapacidad para la planificación.\n",
     "Referencias": "referencias\nnelson ayala g. / ingeniro civil eléctrico de proyectos / siel ltda\n56 975614589 nayala@sielempresas.cl\nadam castillo / ingeniro civil eléctrico de transmisión / cge\n56 954097069 acastillo@cge.cl\nmarcos talento / arquitecto / certificación eléctrica\n56 66996946\n",
-    "Nombre archivo": "1567473927464-curriculum_2019_ingcon_incl"
+    "Skills": [
+        "Word",
+        "Access",
+        "Dialux",
+        "Autocad",
+        "Powerpoint",
+        "Mathematica",
+        "Excel",
+        "Office",
+        "Digsilent"
+    ]
 }

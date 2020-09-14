@@ -1,35 +1,39 @@
 {
-    "Nombre": null,
-    "Correo": [
-        "gonzalotm08@gmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": [
-        "20082013"
-    ],
-    "Skills": [
-        "Excel",
-        "Word"
-    ],
+    "Contacto": {
+        "Nombre": null,
+        "Correo": [
+            "gonzalotm08@gmail.com"
+        ],
+        "Celular": [
+            "20082013"
+        ],
+        "Linkedin": null
+    },
+    "Nombre archivo": "1571072329965-CURRICULUM_VITAE_Gonzalo_T.M._2",
     "Licencias-Certificaciones": [
-        "CLASE B",
-        "LICENCIA DE CONDUCIR"
-    ],
-    "Grado": [
-        "Licenciatura"
+        "LICENCIA DE CONDUCIR",
+        "CLASE B"
     ],
     "Palabras Claves": [
         "Autodidacta",
         "Gestión"
     ],
-    "Educacion": [
-        "Universidad Central de Chile"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad Central de Chile"
+        ],
+        "Grado_mas_alto": [
+            "Licenciatura"
+        ]
+    },
     "Lenguajes": [
         "Inglés"
     ],
     "Experiencia": "antecedentes laborales\ndiciembre 2007 asistente de temporada tienda johnsons plaza oeste.\natención al cliente.\ndiciembre-febrero 2010 operario de producción, empresa cygnus\nrecursos externos, cerrillos.\nabril-julio 2011 asistente de cocina, empresa pizza hut, manquehue.\nmarzo-septiembre 2014 postulante en práctica de la corporación de\nasistencia judicial oficina la cisterna, especialidad derecho de familia.\nredacción, tramitación de escritos, litigación en audiencias ante tribunales\nde familia y corte de apelaciones de san miguel, atención de público, entre\notras funciones.\noctubre 2014-febrero 2015 procurador habilitado en derecho en gsv\nabogados. tramitación de causas en juzgados civiles, penales, de familia,\ncorte de apelaciones de santiago y alrededores.\nmarzo 2015-noviembre 2015 abogado en garafulicsalamanca\nabogados. patrocinio, tramitación y litigación de causas civiles, laborales,\npenales, policía local, de familia, entre otras, asistencia a abogados socios.\ndiciembre 2015- septiembre 2017 abogado en defensoría penal y\nadministrativa equánime asesoría y atención de funcionarios públicos,\nimpugnaciones a sanciones y medidas administrativas. patrocinio,\ntramitación y litigación en causas civiles, penales, de justicia militar,\nrecursos de protección, entre otras. aplicación de estatuto administrativo,\nley n19.880, reglamentos institucionales, directivas complementarias,\nentre otras funciones.\noctubre 2017- actualidad trabajo independiente en oficina propia.\npatrocinio y tramitación de causas laborales, civiles, policía local, familia\ny gestión inmobiliaria.\nformación complementaria\nidiomas inglés, hablado, escrito y traducción en nivel intermedio\nautodidacta.\nmicrosoft word, excel, outlook nivel usuario.\n",
     "Resumen": "curriculum vitae\n",
     "Referencias": "",
-    "Nombre archivo": "1571072329965-CURRICULUM_VITAE_Gonzalo_T.M._2"
+    "Skills": [
+        "Excel",
+        "Word"
+    ]
 }

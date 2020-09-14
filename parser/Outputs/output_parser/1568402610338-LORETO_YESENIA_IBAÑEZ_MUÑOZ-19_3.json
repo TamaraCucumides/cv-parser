@@ -1,37 +1,41 @@
 {
-    "Nombre": "Loreto Yesenia Ibañez ",
-    "Correo": [
-        "Loreto.ibanez.m@gmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": "+56994880059",
-    "Skills": [],
+    "Contacto": {
+        "Nombre": "Loreto Yesenia Ibañez ",
+        "Correo": [
+            "Loreto.ibanez.m@gmail.com"
+        ],
+        "Celular": "+56994880059",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1568402610338-LORETO_YESENIA_IBAÑEZ_MUÑOZ-19_3",
     "Licencias-Certificaciones": [
-        "CLASE B",
-        "LICENCIA DE CONDUCIR"
-    ],
-    "Grado": [
-        "Magíster"
+        "LICENCIA DE CONDUCIR",
+        "CLASE B"
     ],
     "Palabras Claves": [
-        "Liderar",
+        "Puntual",
         "Gestión",
-        "Resiliencia",
         "Análisis",
-        "Responsabilidad",
         "Motivación",
-        "Puntual"
+        "Liderar",
+        "Resiliencia",
+        "Responsabilidad"
     ],
-    "Educacion": [
-        "Universidad De La Serena",
-        "Universidad Pedro de Valdivia",
-        "Universidad de Aconcagua"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad De La Serena",
+            "Universidad Pedro de Valdivia",
+            "Universidad de Aconcagua"
+        ],
+        "Grado_mas_alto": [
+            "Magíster"
+        ]
+    },
     "Lenguajes": [
         "Inglés"
     ],
     "Experiencia": "experiencia\nlaboral\n569 94880059 / 512754360.\nloreto.ibanez.m@gmail.com\ningeniería civil de minas y\nlicenciada en ciencias de la\ningeniería.\nuniversidad pedro de\nvaldivia, la serena.\n2010 2016\ningeniero civil de minas de la universidad pedro de valdivia, profesional con la\ncapacidad de aplicar conocimientos científicos para entender los problemas en la\nminería e identificar, procesar y entregar soluciones competentes. gran\ncapacidad de incorporación y dirección de equipos de trabajo y de investigación e\ninclusión de nuevas tecnologías.\ncapaz de proponer programas para cumplir con las políticas nacionales e\ninternacionales en el tema ambiental, compatibilizar actuaciones empresariales\ncon objetivos ambientales además de diseñar y aplicar acciones tendientes a una\nmayor eficacia industrial, ambiental y energética poseer la capacidad de ser el\nnexo entre la industria, los agentes sociales y gubernamentales involucrados,\ntener la capacidad de programar, organizar y aplicar monitoreos ambientales y\nsupervisiones ambientales en terreno, y crear las bases para desarrollar un\nmagíster en el área ambiental.\n\nmar 2017 a mar 2018, docente técnico profesional, explotación\nminera, colegio pablo neruda, coquimbo.\ndocente de especialidad, 44 horas, de cursos de enseñanza media 1 a 4\nmedio, donde realice programas de estudios relacionados con la minería, tales\ncomo muestreo minero en explotaciones mineras, lectura e interpretaciones de\nplanos mineros, taller de software, taller de metrología.\n\nmay 2016 a feb 2107, organizadora del evento deportivo de fútbol\nplaya femenino, coquimbo.\nformé parte de la comisión organizadora del evento deportivo de fútbol femenino\na nivel nacional, de la región de coquimbo. gestioné los recursos, permisos,\npatrocinios, etc. planifique los requisitos, la estadía y alimentación de los\nparticipantes, los reglamentos de competencias de juego, y obviamente una\nevaluación exhaustiva de costos.\n\nene a mar 2014, activation laboratories ltda. actlabs, coquimbo.\npracticante, con una ejecución más de 560 horas en el laboratorio de análisis\nde muestras de minerales, provenientes de distintas mineras de la región de\ncoquimbo, además de la recepción de información del equipo utilizado, y de los\ndistintos procesos en general.\n2018 universidad de la serena diplomado en gestión\nambiental y sustentabilidad\nenergética\notras\n",
     "Resumen": "resumen\n",
     "Referencias": "",
-    "Nombre archivo": "1568402610338-LORETO_YESENIA_IBAÑEZ_MUÑOZ-19_3"
+    "Skills": []
 }

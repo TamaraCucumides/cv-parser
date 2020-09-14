@@ -1,38 +1,42 @@
 {
-    "Nombre": "Nicol Natalia Cabrera ",
-    "Correo": [
-        "nncabrera@uc.cl"
-    ],
-    "Linkedin": null,
-    "Celular": "+56982615603",
-    "Skills": [
-        "Sql",
-        "Excel",
-        "Macros",
-        "Stata",
-        "Oracle",
-        "Bases de datos"
-    ],
+    "Contacto": {
+        "Nombre": "Nicol Natalia Cabrera ",
+        "Correo": [
+            "nncabrera@uc.cl"
+        ],
+        "Celular": "+56982615603",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1589576482034-CV_Nicol_Cabrera_",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Ingeniero"
-    ],
     "Palabras Claves": [
         "Gestión",
         "Análisis",
+        "Motivación",
         "Estrategia",
-        "Voluntariado",
-        "Motivación"
+        "Voluntariado"
     ],
-    "Educacion": [
-        "Universidad Católica de Chile",
-        "Pontificia Universidad Catolica de Chile"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad Católica de Chile",
+            "Pontificia Universidad Catolica de Chile"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniero"
+        ]
+    },
     "Lenguajes": [
         "Inglés"
     ],
     "Experiencia": "experiencia laboral\n2016-2020\nprograma de acompañamiento y acceso efectivo a la\neducación superior pace uc\nayudante operativa\ndigitación de asistencias, evaluaciones y bases de datos.\npreparación de material para talleres.\napoyo en logística\nsantiago,\nchile\nverano 2019\nafp habitat\npracticante desarrollo canales analista comercial\nobtención y análisis de datos excel y sql\nconstrucción de presentaciones de proyectos instructivos, análisis.\napoyo en cruce y construcción de bases de marketing\nconsolidación en control de gestión de canales, informes y reportes.\nsantiago,\nchile\n2018\nverano 2018\nalto impacto colab innovación social uc\nmentora junior\nasesoría al emprendimiento social blif en desarrollo de estudio de\nmercado y lanzamiento.\nduoc uc\nasistente de apoyo en gestión\napoyo en la redacción y gestión de contratos y documentos anexos\nasociados a las obras de remodelación 2017-2018 de la dirección de\ninfraestructura de la casa central de duoc uc.\nsantiago,\nchile\nsantiago,\nchile\n",
     "Resumen": "nicol natalia cabrera quezada\nsantiago, chile\ntel. 569 82615603\ne-mail nncabrera@uc.cl\n",
     "Referencias": "",
-    "Nombre archivo": "1589576482034-CV_Nicol_Cabrera_"
+    "Skills": [
+        "Excel",
+        "Sql",
+        "Bases de datos",
+        "Stata",
+        "Macros",
+        "Oracle"
+    ]
 }

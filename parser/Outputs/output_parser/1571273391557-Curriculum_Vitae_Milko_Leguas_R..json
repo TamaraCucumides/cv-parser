@@ -1,33 +1,37 @@
 {
-    "Nombre": null,
-    "Correo": [
-        "milko.leguas@gmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": "+56998478096",
-    "Skills": [
-        "Vulcan",
-        "Office",
-        "Autocad"
-    ],
+    "Contacto": {
+        "Nombre": null,
+        "Correo": [
+            "milko.leguas@gmail.com"
+        ],
+        "Celular": "+56998478096",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1571273391557-Curriculum_Vitae_Milko_Leguas_R.",
     "Licencias-Certificaciones": [
         "CLASE B"
     ],
-    "Grado": [
-        "Ingeniería"
-    ],
     "Palabras Claves": [
-        "Proactividad",
-        "Responsabilidad"
+        "Responsabilidad",
+        "Proactividad"
     ],
-    "Educacion": [
-        "Universidad De La Serena"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad De La Serena"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [
         "Inglés"
     ],
     "Experiencia": "experiencia laboral\nverano 2010-2011\n2013\n2014\nverano 2014\nverano 2015\ndurante 2015\n2018\n2017-actualidad\nreponedor vendedor en falabella de la serena. 3 meses.\ntrabajos esporádicos de ordenador nocturno en falabella.\ntrabajos esporádicos de inventarios en santa isabel.\ncarnicería en supermercado santa isabel de san joaquín en la serena. 2 meses\ncarnicería en supermercado líder express de balmaceda en la serena. 2 meses.\nreponedor de ccu para supermercado unimarc sector el milagro en la serena,\ncontratado por empresa alternattiva. 3 meses\nempaque en supermercado unimarc sector el milagro en la serena. 3 meses\ngarzón de eventos y para restaurant del hotel de la caja de compensación los andes\nen la serena para empresa napoleón eventos. 3 meses\ngarzón en pub diavolo en la serena, 3 meses.\nindependiente con emprendimiento de comida y conductor de aplicaciones para\ntrasporte de pasajeros.\ninformación general competencias e intereses\nidiomas inglés nivel medio.\nmanejo computacional microsoft office medio, ms project medio, vulcan bajo, jk simblast medio,\nautocad medio.\nlicencia clase b.\nestudiante de 27 años, egresado de ingeniería de ejecución en minas y civil de minas, mido 1.71 m, soy\nresponsable, proactivo y con muchas ganas de trabajar. no cuento con experiencia en minería más que una\npráctica profesional realizada durante el proyecto mitsubishi en la mina escuela brillador de la universidad de\nla serena en noviembre y diciembre de 2018. cuento con experiencia en trabajo en equipo y cumplimiento de\nmetas. tengo disponibilidad para cambio de domicilio si es necesario.\ndisponibilidad inmediatamente.\n",
     "Resumen": "currículum vitae\n",
     "Referencias": "",
-    "Nombre archivo": "1571273391557-Curriculum_Vitae_Milko_Leguas_R."
+    "Skills": [
+        "Vulcan",
+        "Autocad",
+        "Office"
+    ]
 }

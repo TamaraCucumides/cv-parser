@@ -1,33 +1,37 @@
 {
-    "Nombre": "Juan Francisco Chacón ",
-    "Correo": [
-        "franciscochaconapr@gmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": "981253950",
-    "Skills": [
-        "Sigo",
-        "Resso"
-    ],
+    "Contacto": {
+        "Nombre": "Juan Francisco Chacón ",
+        "Correo": [
+            "franciscochaconapr@gmail.com"
+        ],
+        "Celular": "981253950",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1571079943641-Curriculum.docx",
     "Licencias-Certificaciones": [
         "CLASE B"
     ],
-    "Grado": [
-        "Ingeniería"
-    ],
     "Palabras Claves": [
+        "Motivación",
         "Aprender",
-        "Resiliencia",
         "Adaptable",
-        "Creativo",
-        "Motivación"
+        "Resiliencia",
+        "Creativo"
     ],
-    "Educacion": [
-        "Instituto Profesional AIEP"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Instituto Profesional AIEP"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [],
-    "Experiencia": "",
-    "Resumen": "resumen profesional\nmotivado ingeniero en prevención de riesgos con casi 1 año de experiencia progresando\nen la industria le ofrece experiencia de trabajo en equipo, creatividad y deseos de aprender,\ncon potencial de crecimiento. enérgico y formador de equipos capaz y afrontar situaciones\nde alto estrés y alcanzar las metas a tiempo.\nhistorial laboral\nseptiembre 2011 abril 2019, nestlé graneros.\noperador especializado rayos x\n\nrealicé registro de controles de calidad, cambios de formatos.\n\nparticipación y diseños de mejoras tpm.\n\nparticipación en desarrollo centerline.\n\ncurso 5s.\n\ncurso de radiaciones ionizantes ante seremi de salud.\ncursos particulares.\n\ncurso resso, sigo, sistema de implementación sigo.\nasistente en prevención de riesgos\n\nidentifiqué y solucioné los problemas de riesgos y peligros, lo que ocasionó la\ncreación y mejora de maquinarias más seguras y rentables.\n\ndiseñé y dibujé protecciones para máquinas de proceso con el fin de evitar la\nintervención de operadores, con protecciones metálicas, polietileno, paneles y\nsoportes de manera que se adaptaran a los elementos de los fabricantes originales.\n\nanalicé riesgos y peligros propios de cada área y maquinaria en base a matriz legal,\npara crear mapas she mapas con fotografías de cada área con su simbología,\nseguridad, higiene, salud, medio ambiente, además realicé gráficos y textos de\nprocedimientos de trabajo, realización de formulario de cuasi accidentes\ninspecciones, inducciones, charlas, investigación de accidentes, participación y\ndesarrollo en cambio de pasos tpm y centerline.\n",
+    "Experiencia": "historial laboral\nseptiembre 2011 abril 2019, nestlé graneros.\noperador especializado rayos x\n\nrealicé registro de controles de calidad, cambios de formatos.\n\nparticipación y diseños de mejoras tpm.\n\nparticipación en desarrollo centerline.\n\ncurso 5s.\n\ncurso de radiaciones ionizantes ante seremi de salud.\ncursos particulares.\n\ncurso resso, sigo, sistema de implementación sigo.\nasistente en prevención de riesgos\n\nidentifiqué y solucioné los problemas de riesgos y peligros, lo que ocasionó la\ncreación y mejora de maquinarias más seguras y rentables.\n\ndiseñé y dibujé protecciones para máquinas de proceso con el fin de evitar la\nintervención de operadores, con protecciones metálicas, polietileno, paneles y\nsoportes de manera que se adaptaran a los elementos de los fabricantes originales.\n\nanalicé riesgos y peligros propios de cada área y maquinaria en base a matriz legal,\npara crear mapas she mapas con fotografías de cada área con su simbología,\nseguridad, higiene, salud, medio ambiente, además realicé gráficos y textos de\nprocedimientos de trabajo, realización de formulario de cuasi accidentes\ninspecciones, inducciones, charlas, investigación de accidentes, participación y\ndesarrollo en cambio de pasos tpm y centerline.\n",
+    "Resumen": "resumen profesional\nmotivado ingeniero en prevención de riesgos con casi 1 año de experiencia progresando\nen la industria le ofrece experiencia de trabajo en equipo, creatividad y deseos de aprender,\ncon potencial de crecimiento. enérgico y formador de equipos capaz y afrontar situaciones\nde alto estrés y alcanzar las metas a tiempo.\n",
     "Referencias": "",
-    "Nombre archivo": "1571079943641-Curriculum.docx"
+    "Skills": [
+        "Sigo",
+        "Resso"
+    ]
 }

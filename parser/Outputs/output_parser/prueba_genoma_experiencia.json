@@ -1,36 +1,26 @@
 {
-    "Nombre": "Erwin Nicol ",
-    "Correo": [
-        "erwinpaillacan@gmail.com"
-    ],
-    "Linkedin": "www.linkedin.com/in/erwinpaillacan/",
-    "Celular": "+56986634232",
-    "Skills": [
-        "Sql",
-        "Verilog",
-        "Excel",
-        "Latex",
-        "Java",
-        "Aws",
-        "Pytorch",
-        "Python",
-        "Git",
-        "Docker",
-        "Deep learning",
-        "Linux",
-        "Octave"
-    ],
+    "Contacto": {
+        "Nombre": "Erwin Nicol ",
+        "Correo": [
+            "erwinpaillacan@gmail.com"
+        ],
+        "Celular": "+56986634232",
+        "Linkedin": "www.linkedin.com/in/erwinpaillacan/"
+    },
+    "Nombre archivo": "prueba_genoma_experiencia",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Ingeniería"
-    ],
     "Palabras Claves": [
         "Aprender",
         "Apasionado"
     ],
-    "Educacion": [
-        "Universidad de Chile"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad de Chile"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [
         "Español",
         "Inglés"
@@ -38,5 +28,19 @@
     "Experiencia": "experiencia\ntelecsa\nosorno, región de los lagos, chile\nalumno en práctica i\nenero 19 febrero 19\napoyo en área de transmisión y cooperados. 180 horas\n",
     "Resumen": "curriculum vitae\nerwin nicolás paillacán huaitro\nenero 7, 1997\nerwinpaillacan@gmail.com\n\n569 86634232\n\ngran avenida 3806\n\nregión metropolitana\nhttps//www.linkedin.com/in/erwinpaillacan/\ndescripción\noriundo de la ciudad de osorno, actualmente curso el\nsexto año de ingeniería civil eléctrica con énfasis en\ntelecomunicaciones e inteligencia computacional. me\ngusta programar, mirar series y aprender cosas intere-\nsantes en coursera. aparte de ser un apasionado por\nel mundo teleco, me gusta mucho el mundo de los da-\ntos y el procesamiento de imágenes. en esto último ten-\ngo algunos proyectos para la universidad en mi github\nhttps // github. com/ erwinpaillacan . fecha de ti-\ntulación estimada 2021-1.\n",
     "Referencias": "",
-    "Nombre archivo": "prueba_genoma_experiencia"
+    "Skills": [
+        "Docker",
+        "Pytorch",
+        "Linux",
+        "Verilog",
+        "Deep learning",
+        "Excel",
+        "Octave",
+        "Sql",
+        "Java",
+        "Python",
+        "Git",
+        "Latex",
+        "Aws"
+    ]
 }

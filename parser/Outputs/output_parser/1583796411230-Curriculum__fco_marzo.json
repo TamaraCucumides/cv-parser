@@ -1,38 +1,42 @@
 {
-    "Nombre": "Francisco Javier Contador ",
-    "Correo": [
-        "fcocontador@gmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": "+56994624515",
-    "Skills": [
-        "Sql",
-        "Office",
-        "Excel",
-        "Sap",
-        "Legislación laboral",
-        "Qlikview"
-    ],
+    "Contacto": {
+        "Nombre": "Francisco Javier Contador ",
+        "Correo": [
+            "fcocontador@gmail.com"
+        ],
+        "Celular": "+56994624515",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1583796411230-Curriculum__fco_marzo",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Ingeniería"
-    ],
     "Palabras Claves": [
-        "Liderazgo",
         "Gestión",
+        "Motivación",
         "Negociación",
-        "Responsabilidad",
+        "Liderazgo",
         "Voluntariado",
-        "Motivación"
+        "Responsabilidad"
     ],
-    "Educacion": [
-        "Universidad de Las Américas"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad de Las Américas"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [
         "Inglés"
     ],
     "Experiencia": "experiencia laboral\nejecutivo comercial\ncomercial portia mar.2019 nov 2019\nrelación comercial con clientes externos en donde manejaba la fuerza de trabajo\noutsourcing.\nelaboración de informes internos como externos.\nfacturación\nmanejo de equipo de trabajo\npension planning executive\nprovida afp nov.2016 nov 2018\nmantención y fidelización de cartera de clientes\nasesoría comercial para afiliados y posibles clientes.\nelaboración de informes de tendencias de rentabilidad.\nproyección de pensiones y productos voluntarios.\nejecutivo de cuentas\necrgroup empresas complementos group dic. 2010 oct. 2016\nresponsable de las cuentas tccu, diageo, comercial peumo y laboratorios prater en\ncuanto a personal a lo largo de todo chile. las principales funciones que desempeñe\nson supervisión y gestión de puntos de ventas, capacitación, gestión y pago de\nremuneraciones, reclutamiento y selección.\nresponsable de la cuenta interamericana, respecto a la fuerza de venta de\nproductos intangibles y todo tipo de gestiones con el cliente, además de la entrega de\nservicios de rrhh a los trabajadores de la cuenta. en ésta contamos con un sistema de\ncontrol de outsourcing total.\nrelación comercial del día a día con clientes marcas comerciales, proveedores y\nrelación contractual con trabajadores.\nservicios transitorios y outsourcing\ncoordinación de aproximadamente 800 trabajadores\nreportes a la gerencia comercial\nmanejo de la legislación laboral\nliderazgo de equipos de trabajo\ncontrol de gestión\nejecutivo de cuentas practica laboral\ncapual cooperativa de ahorro y crédito unión aérea ltda. 2010\ncoordinación en la atención personalizada de socios y clientes en todo lo que\nrespecta a sus necesidades financieras, en el marco reglamentario de estos servicios.\nresponsable además de atender requerimientos de los socios en materia de anticipo\nde desahucio entregando una atención personalizada en la apertura y cierre de líneas\nde crédito de enlace.\nresponsable de la atención personalizada de los socios y clientes en todo lo que\nrespecta a sus necesidades de créditos, ahorros y servicios de carácter\ncomplementario, en el marco reglamentario de estos servicios.\nseguimiento a los clientes en sus distintos tipos de instrumentos financieros.\n",
     "Resumen": "francisco javier contador ramírez\ningeniero comercial\nc 56 9 9 4624515\nfcocontador@gmail.com\nmilán 12839 lo barnechea, santiago\ncompetencias más destacadas alta capacidad de trabajo en equipo, manejo de\ntrabajo bajo presión, buenas relaciones interpersonales, alta motivación por el aprendizaje,\ngran interés por desarrollar distintas áreas de trabajo, alto grado de responsabilidad en\ndistintos sentidos.\n",
     "Referencias": "referencias\nsr. ricardo parraguez\njefe de oficina capual tel. 2 23428300\nsr. víctor delgado\njefe de plataforma comercial ecrgroup tel. 2 23857015 9-9798224\nsrta. yasmine yuniz\njefe de piso provida 9-68467136\nsr. francisco pizarro\ngerente general y dueño comercial portia tel. 9-98744498\nsrta. constanza calderón\ngerente operacional comercial portia tel. 9-99918945\nsantiago, marzo 2020\n",
-    "Nombre archivo": "1583796411230-Curriculum__fco_marzo"
+    "Skills": [
+        "Legislación laboral",
+        "Sql",
+        "Excel",
+        "Qlikview",
+        "Office",
+        "Sap"
+    ]
 }

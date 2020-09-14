@@ -24,15 +24,11 @@ nltk.download('stopwords')
 
 class CvParser:
     def __init__(self, cv):
-        self.parsed = {"Nombre": None,
-                       "Correo": None,
-                       "Linkedin": None,
-                       "Celular": None,
-                       "Skills": None,
+        self.parsed = {"Contacto": {'Nombre': None, 'Correo': None, "Celular" : None, "Linkedin": None},
+                        "Nombre archivo" : None,
                        "Licencias-Certificaciones": None,
-                       "Grado": None,
                        "Palabras Claves": None,
-                       "Educacion": None,
+                       "Educacion":{'Universidades:': None, 'Grado_mas_alto': None},
                        "Lenguajes": None,
                        "Experiencia": None,
                        "Resumen": None,
@@ -60,15 +56,11 @@ class CvParser:
         resumen = utils.extraer_perfil(self.raw_text)
         referencias = utils.extraer_referencias(self.raw_text)
 
-        self.parsed["Nombre"] = nombre
+        self.parsed["Contacto"] = {'Nombre': nombre, 'Correo': correo, 'Celular': celular, "Linkedin": Linkedin}
         self.parsed["Nombre archivo"] = nombre_archivo
-        self.parsed["Correo"] = correo
-        self.parsed["Celular"] = celular
         self.parsed["Skills"] = skills
-        self.parsed["Educacion"] = educacion
-        self.parsed['Grado']= grado
+        self.parsed["Educacion"] = {'Universidades:': educacion, 'Grado_mas_alto': grado}
         self.parsed['Lenguajes'] = Lenguajes
-        self.parsed["Linkedin"] = Linkedin
         self.parsed["Palabras Claves"] = palabras_claves
         self.parsed['Licencias-Certificaciones']=licencias
         self.parsed['Experiencia']=experiencia

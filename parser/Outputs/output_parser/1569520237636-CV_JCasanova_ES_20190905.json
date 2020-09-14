@@ -1,41 +1,45 @@
 {
-    "Nombre": "Juan Carlos Casanova ",
-    "Correo": [
-        "jccasanovap@gmail.com"
-    ],
-    "Linkedin": "www.linkedin.com/in/jccasanovap/",
-    "Celular": "+56930083118",
-    "Skills": [
-        "Lean management",
-        "Itil",
-        "Erp"
-    ],
+    "Contacto": {
+        "Nombre": "Juan Carlos Casanova ",
+        "Correo": [
+            "jccasanovap@gmail.com"
+        ],
+        "Celular": "+56930083118",
+        "Linkedin": "www.linkedin.com/in/jccasanovap/"
+    },
+    "Nombre archivo": "1569520237636-CV_JCasanova_ES_20190905",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Máster"
-    ],
     "Palabras Claves": [
-        "Analizar",
-        "Liderazgo",
-        "Liderar",
         "Gestión",
-        "Negociación",
         "Análisis",
+        "Negociación",
+        "Analizar",
+        "Liderar",
+        "Colaboración",
+        "Liderazgo",
         "Estrategia",
-        "Responsabilidad",
-        "Colaboración"
+        "Responsabilidad"
     ],
-    "Educacion": [
-        "Universidad de Chile"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad de Chile"
+        ],
+        "Grado_mas_alto": [
+            "Máster"
+        ]
+    },
     "Lenguajes": [
+        "Español",
         "Inglés avanzado",
         "Español nativo",
-        "Inglés",
-        "Español"
+        "Inglés"
     ],
     "Experiencia": "experiencia laboral\ninternational air transport association - iata\ncampaign manager argentina paraguay uruguay - buenos aires, argentina\nmarzo 2016 - julio 2018\ncontribuí a potenciar el desarrollo del transporte aéreo doméstico e internacional a través de una extensa gestión de\nstakeholders con múltiples entidades gubernamentales, con el objetivo de establecer una estructura de costos más\ncompetitiva en la industria aerocomercial. así, durante el 2016 las tarifas de servicios terrestres y aéreos se redujeron\nen 13 y se eliminaron las bandas tarifarias máximas y mínimas existentes desde el año 2000 en argentina. de la\nmisma manera, contribuí a la más extensa apertura aerocomercial de la historia argentina, en la que 11 aerolíneas\nfueron autorizadas a operar más de 600 rutas, tanto nacionales como internacionales, y permitiendo la operación de\n5 nuevas líneas aéreas.\nlideré y participé de diversas iniciativas\n-\nairport collaborative decision making en aeroparque, realizado en alianza con la embajada del reino unido\nen buenos aires y en coordinación con líneas aéreas, aeropuerto, y organismos reguladores. más del 70\nde las recomendaciones surgidas de este trabajo han sido adoptadas e implementadas por el estado.\n-\nlideré el establecimiento del grupo de seguridad operacional argentina, siendo este el primer comité de\ndiscusión colaborativa de seguridad aeronáutica del país.\n-\nconseguí la aprobación de los procesos de autoservicio self check-in, self-boarding, self-tagging por parte\nde las autoridades de argentina, uruguay y paraguay.\n-\nrepresenté a la industria en la preparación para el g20 argentina, fundamental para minimizar el impacto de\nlas disrupciones que el evento generó en la industria.\naviation solutions assistant manager - santiago, chile\nseptiembre 2013 - febrero 2016\nposicionamos a iata en el mercado chileno a través de\n-\nla incorporación de una nueva aerolínea local como miembro de iata, haciendo a sus ejecutivos partícipes\nde las iniciativas y campañas que la asociación ejecuta en el país, y asegurando una oferta atractiva para la\nlínea aérea. esta incorporación incrementó la representatividad de iata en el país, facilitando la presentación\nde posiciones de la industria ante las autoridades.\n-\nla organización y ejecución de conferencia wings of change en fidae los años 2014 y 2016, y del\nseminario industria aérea, chile y sus desafíos en 2014, gestionando agendas, auspicios, y presupuesto,\ny consiguiendo la participación de más de 300 autoridades ministeriales, regulatorias, y ejecutivos de la las\nprincipales aerolíneas nacionales y extranjeras.\nlatam airlines\njefe de proyectos it\nabril 2011 marzo 2013\nresponsable del diseño e implementación de proyectos tecnológicos para las gerencias financiera, legal y compras\n-\ninteractuando con equipos de tecnología, proveedores, y usuarios de múltiples áreas, lideré el proceso de\npruebas funcionales para la migración de la plataforma erp a nivel corporativo, coordinando a más de 100\nusuarios basados en chile y en las filiales del grupo, asegurando una transición con mínimo impacto en el\nservicio.\n-\nlideré el proyecto de evaluación de plataforma y rediseño de procesos de gestión de contratos, analizando\nprocesos y soluciones junto a equipos técnicos y funcionales basados en chile y brasil.\ncoca-cola chile\nproduction support specialist\nmayo 2007 mayo 2009\ncomo parte del programa de jóvenes profesionales, fui reclutado como talento para desarrollar competencias a partir\nde un programa de alta exigencia que incorporó la gestión de proyectos diversos. en este rol, fui responsable de\n-\nla implementación de nuevas funcionalidades en sistema erp de la compañía. estuve a cargo del proceso\nde análisis de requerimientos junto al usuario, análisis de posibles soluciones, coordinación con\ndesarrolladores, aseguramiento del alineamiento de desarrollos con la planificación global establecida,\naseguramiento de calidad a través de ejecución de pruebas, y entrega a usuario final.\n-\nsoporte nivel 2 de sistema erp para módulos financiero y de compras, en coordinación con equipos de\nsistemas en américa del norte, europa y asia. en poco más de 1 año se logró una reducción del 90 de las\nincidencias reportadas a través de una estrategia end-to-end implementación de soluciones y mejoras\nestándares, instrucción de la mesa de ayuda que sirve a la región, y el acompañamiento a usuarios clave en\nel conocimiento de la herramienta y comprensión de los procesos de negocio.\nelecser ltda.\nconsultor\nseptiembre 2006 abril 2007\nasesor en la preparación de auditoría de la norma iso 9001 e implementación de norma nch 17025 para las divisiones\nmarítima y automotriz. para ambas divisiones, se realizó un trabajo guiado de revisión de documentación existente,\ndescripción y documentación de procedimientos, y se entregaron recomendaciones a gerencia general para auditoría\niso 9001 e implementación futura de nch 17025.\n",
     "Resumen": "presentación.\n",
     "Referencias": "",
-    "Nombre archivo": "1569520237636-CV_JCasanova_ES_20190905"
+    "Skills": [
+        "Erp",
+        "Lean management",
+        "Itil"
+    ]
 }

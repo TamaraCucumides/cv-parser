@@ -1,33 +1,37 @@
 {
-    "Nombre": "Alejandro Andrés Ponce ",
-    "Correo": "aaponcerojas@gmail.com",
-    "Linkedin": null,
-    "Celular": "+56984338736",
-    "Skills": [],
+    "Contacto": {
+        "Nombre": "Alejandro Andrés Ponce ",
+        "Correo": "aaponcerojas@gmail.com",
+        "Celular": "+56984338736",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1571181802382-CV_Alejandro_Ponce_1",
     "Licencias-Certificaciones": [
         "CLASE B"
     ],
-    "Grado": [
-        "Ingeniería"
-    ],
     "Palabras Claves": [
-        "Aprender",
-        "Liderazgo",
+        "Compromiso",
+        "Tolerancia",
+        "Escuchar",
         "Gestión",
         "Análisis",
-        "Compromiso",
-        "Escuchar",
+        "Aprender",
         "Adaptable",
-        "Tolerancia"
+        "Liderazgo"
     ],
-    "Educacion": [],
+    "Educacion": {
+        "Universidades:": [],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [
         "Español",
-        "Inglés",
-        "Portugués"
+        "Portugués",
+        "Inglés"
     ],
     "Experiencia": "experiencia profesional\nultima función\nejecutivo comercial\noctubre 2018-octubre 2019\nnoviembre 2017-octubre 2018\nmayo 2017 noviembre2017\nmayo 2017- abril 2017\nejecutivo comercial\nforum servicios financieros s.a.\nencargado de la comercialización y promoción de los productos de la empresa, donde se maximicen\nlas ganancias al distribuidor, al vendedor y a la compañía, a través de un proceso de ventas de\nfinanciamiento. , ofreciendo una propuesta financiera de acuerdo al perfil del cliente, cubriendo sus\nnecesidades de compra y logrando una satisfacción en la calidad de servicio.\n.\nejecutivo comercial\nases y gestion int empresa de servicios transitorios ltda.\ncapacitación en stand alone nissan portillo padre hurtado.\nreemplazos en sucursales nissan portillo bilbao, nissan pompeyo plaza oeste, oficina forum\nplaza oeste, nissan portillo vitacura, nissan macias pudahuel.\nproyecto emprendimiento personal.\npacrimial spa\nproyecto personal, microempresa encargada de vender productos de primera necesidad productos\nalimenticios, leasing, iva, facturas, guías de despacho, balance mensual. inventario, punto de\nequilibrio, margen, utilidades, ventas, marketing.\ningeniero en gestión de proyectos.\nuptime inversiones s.a\nrealizar ventas de consultorías y asesorías en gestión minas, brindar apoyo técnico en venta de\nsoporte a servicios de tecnologías minas.\nencargado de asesorar deficiencias de producción en soporte de sistemas de control de producción.\nencargado de recomendar y aconsejar a clientes acerca de cómo usar los productos y o servicios\nque se les brinda.\nsector de actividad minería\nminera chuquicamata codelco, minera radomiro tomic codelco, minera mina sur codelco,\ndivisión ministro halen codelco, los bronces anglo american chile, minera caserones scm.\ncurrículum vítae\nalejandro andrés ponce rojas\npágina 2 / 3\neducación y formación\nmayo 2014 abril 2016\nsupervisor de alta precisión.\nuptime inversiones s.a.\nsupervisor del personal de alta precisión, tareas administrativas como a la vez apoyo en terreno.\ncambios de componentes de alta precisión, revisión de hardware e instalación, revisión y\nmodificación de software, movimiento de carros terralite, mejoramiento de conectividad de carros\nterralite, armado y mantenimiento de carros terralite.\nvelar por el correcto funcionamiento del sistema de posicionamiento global en cada uno de los\nequipos mina.\nsector de actividad minería\nlos bronces, anglo american.\noctubre 2013 mayo 2014\nespecialista de redes y comunicaciones.\nuptime inversiones s.a.\nimplementación y monitoreo de redes y comunicaciones inalámbricas estándares de mercado que\noperan bajo protocolos 802.11, tales como cisco mesh. implementación y revisión interconexión\nmina, minera ministro hales, minera mina sur, minera chuquicamata\nsector de actividad minería\nenero 2012 octubre 2013\ntécnico de soporte\nuptime inversiones s.a.\nencargado de la revisión y solución oportuna de inconvenientes de hardware presentados en los\nequipos desplegados en la mina. entregando una rápida solución de los inconvenientes presentados\nen el despacho mina.\nsector de actividad minería\noctubre 2011 diciembre2011\noperador de sistema\nariztia s.a.\nencargado de la operación y mantenimiento del sistema poly pack.\nsector de actividad agro industrial\nnoviembre 2010 octubre 2011\nmantenedor eléctrico\ntipo alfonso ltda.\nencargado de la revisión de los sistemas automatizados del control de la producción agrícola.\nsector de actividad agro industrial\nmarzo 2007 - marzo 2010\nvendedor\nrotisería arica ltda.bavaria\nvendedor, cajero, controlador de empaque y rotisería\nsector de actividad alimentación\nmarzo 2013 diciembre 2017\ningeniería en electrónica y telecomunicaciones.\nuniversidad de tecnológica o de chile inacap, macul, santiago, chile.\ncálculo, radiación y propagación de la onda electromagnética, electrónica, fibra óptica, redes de\ncomunicación, sistemas lógicos y computacionales, telecomunicaciones, física, resistencia de\nmateriales, protecciones eléctricas, mantenimiento de máquinas eléctrica, administración de\npersonal, marketing, gestión de procesos, economía, estadísticas, gestión de proyectos.\ncurrículum vítae\nalejandro andrés ponce rojas\npágina 3 / 3\n",
     "Resumen": "currículum vítae\nalejandro andrés ponce rojas\npágina 1 / 3\n",
     "Referencias": "",
-    "Nombre archivo": "1571181802382-CV_Alejandro_Ponce_1"
+    "Skills": []
 }

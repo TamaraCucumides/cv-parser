@@ -1,30 +1,34 @@
 {
-    "Nombre": "Mario Sergio Espinoza ",
-    "Correo": [
-        "Mariosergioespinoza89@gmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": "981999616",
-    "Skills": [],
+    "Contacto": {
+        "Nombre": "Mario Sergio Espinoza ",
+        "Correo": [
+            "Mariosergioespinoza89@gmail.com"
+        ],
+        "Celular": "981999616",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1582718980347-CV_-_Mario_Espinoza1",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Mba"
-    ],
     "Palabras Claves": [
-        "Proactividad",
-        "Negociación",
         "Gestión",
         "Análisis",
+        "Proactividad",
+        "Negociación",
+        "Colaboración",
         "Estrategia",
-        "Responsabilidad",
-        "Colaboración"
+        "Responsabilidad"
     ],
-    "Educacion": [],
+    "Educacion": {
+        "Universidades:": [],
+        "Grado_mas_alto": [
+            "Mba"
+        ]
+    },
     "Lenguajes": [
         "Inglés"
     ],
     "Experiencia": "experiencia laboral\nadecco peru\ncargo gerente de desarrollo\nfecha 01/04/2019 a la fecha.\npersonal a cargo 10 colaboradores.\nfunciones\nresponsable del manejo de la cartera top de clientes.\nanálisis periódico del estado de gestión e indicadores de la sucursal. margen bruto por\nservicio, general, presupuesto de gastos de operaciones y gastos de personal\nresponsable del cumplimiento de los objetivos de ventas por línea de negocio, garantizando\nsu rentabilidad y nivel de servicio\ndesarrollo de convenios con diversas instituciones.\nimplementación de canales de post-venta para clientes extranjeros\nenfoque de negocio en clientes extranjeros y desarrollo de nuevos servicios a la medida del\ncliente.\nadecco peru\ncargo gerente de sucursal.\nfecha 01/01/2017 a 31/03/2019\npersonal a cargo 10 colaboradores.\nfunciones\nresponsable de la gestión integral de la sucursal\nanálisis periódico del estado de gestión e indicadores de la sucursal. margen bruto por\nservicio, general, presupuesto de gastos de operaciones y gastos de personal\nresponsable del cumplimiento de los objetivos de ventas por línea de negocio, garantizando\nsu rentabilidad y nivel de servicio\ndesarrollo y ejecución de planes de negocios y venta, kpis y estrategias comerciales\norientadas a la captación, mantenimiento y retención de clientes\npresentación y venta de los servicios de selección, outsourcing, intermediación, payroll,\nconsultoría y formación\nadecco peru\ncargo ejecutivo comercial.\nfecha 25/03/2015 hasta 31/12/2016\nfunciones\nejecutar estrategias comerciales orientadas a la captación, mantenimiento y retención de\nclientes de la sucursal.\nidentificar información de negocios relevantes, así como nuevas oportunidades comerciales.\nrealizar el seguimiento de las propuestas comerciales presentadas a clientes.\nmantener comunicación estable y periódica con los clientes realizando visitas de\nmantenimiento.\nhacer seguimiento a la gestión de facturación y cobranzas de los clientes.\nelaborar propuestas comerciales acorde al servicio.\nlogros premio latam a mejor gestión comercial 2015.\nfreno s.a.\ncargo coordinador de inteligencia comercial\nfecha 01/08/2014 hasta 20/03/2015\npersonal a cargo 7 personas\nfunciones\nsupervisión de fuerza de ventas en lima.\nestudio de mercado para el lanzamiento de nuevos productos y mejorar el portafolio de\nproductos.\nservicio de post-venta a distribuidor minorista.\nprospección de nuevos puntos de venta en lima metropolitana.\nbolsa de valores de lima\ncargo ejecutivo comercial\nfecha 01/12/2012 hasta 31/07/2014\nejecutar estrategias comerciales orientadas a la captación, mantenimiento y retención de\nnuevos clientes.\nidentificar información de negocios relevantes, así como nuevas oportunidades comerciales.\nenfoque en la venta de los diversos cursos que dicta el centro de estudios bursátiles-bursen.\nelaborar propuestas comerciales acorde al servicio.\nlogros meta anual del 2013 superada en un 30\n",
     "Resumen": "mario sergio espinoza acero\n981999616 / 346-1658\ndni 45629118\nmariosergioespinoza89@gmail.com\ntitulado en ciencias de la comunicación por la universidad de lima, con especialidad en\nmarketing y gestión comercial.\npersona proactiva, ordenada y con alto sentido de la responsabilidad. considera que el trabajo\nen equipo es parte fundamental de una empresa, siempre orientado a resultados tangibles.\nactualmente llevando el programa de mba candidate por la universidad de lima, promoción\n2018-2\n",
     "Referencias": "",
-    "Nombre archivo": "1582718980347-CV_-_Mario_Espinoza1"
+    "Skills": []
 }

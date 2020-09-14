@@ -1,32 +1,28 @@
 {
-    "Nombre": "Nicolás Montanares Morales ",
-    "Correo": [
-        "nmontanares@gmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": [
-        "56948896163"
-    ],
-    "Skills": [
-        "Sql",
-        "Excel",
-        "Word",
-        "Vba",
-        "Access",
-        "Base de datos",
-        "Powerpoint"
-    ],
+    "Contacto": {
+        "Nombre": "Nicolás Montanares Morales ",
+        "Correo": [
+            "nmontanares@gmail.com"
+        ],
+        "Celular": [
+            "56948896163"
+        ],
+        "Linkedin": null
+    },
+    "Nombre archivo": "1571278884566-CV_Nicolas_Montanares",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Ingeniería"
-    ],
     "Palabras Claves": [
-        "Gestión",
-        "Liderazgo"
+        "Liderazgo",
+        "Gestión"
     ],
-    "Educacion": [
-        "Universidad Técnica Federico Santa María"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad Técnica Federico Santa María"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [
         "Inglés intermedio",
         "Inglés"
@@ -34,5 +30,13 @@
     "Experiencia": "experiencia laboral\nuniversidad federico santa maría\ncoordinador de actividades departamento\nadmisión\nmarzo 2017 - diciembre 2018\nuniversidad federico santa maría promotor\n",
     "Resumen": "nicolás montanares morales\n",
     "Referencias": "",
-    "Nombre archivo": "1571278884566-CV_Nicolas_Montanares"
+    "Skills": [
+        "Word",
+        "Access",
+        "Powerpoint",
+        "Excel",
+        "Sql",
+        "Vba",
+        "Base de datos"
+    ]
 }

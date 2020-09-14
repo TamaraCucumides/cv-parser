@@ -1,41 +1,45 @@
 {
-    "Nombre": "Fernando López Díaz ",
-    "Correo": [
-        "flop88@hotmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": "+56991427331",
-    "Skills": [
-        "Office",
-        "Excel",
-        "Powerpoint",
-        "Word"
-    ],
+    "Contacto": {
+        "Nombre": "Fernando López Díaz ",
+        "Correo": [
+            "flop88@hotmail.com"
+        ],
+        "Celular": "+56991427331",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1567452876565-CV_Fernando_07.08.19",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Máster"
-    ],
     "Palabras Claves": [
-        "Analizar",
-        "Liderar",
+        "Comprometido",
+        "Gestión",
+        "Análisis",
         "Proactividad",
         "Negociación",
-        "Gestión",
-        "Comprometido",
-        "Análisis",
+        "Liderar",
+        "Analizar",
         "Estrategia",
         "Responsabilidad"
     ],
-    "Educacion": [
-        "Universidad Adolfo Ibáñez",
-        "Universidad Mayor"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad Adolfo Ibáñez",
+            "Universidad Mayor"
+        ],
+        "Grado_mas_alto": [
+            "Máster"
+        ]
+    },
     "Lenguajes": [
-        "Inglés",
-        "English"
+        "English",
+        "Inglés"
     ],
     "Experiencia": "experiencia profesional\nbeiersdorf\nmayo 2017- a la fecha\nsupply and production planner.\n\nprincipal responsabilidad planificar 4 líneas de producción para abastecer 9 países latam y norte\namérica.\n\nalinear prioridades producción versus necesidad países con fin de mejorar service level.\n\nrealizar un plan de producción optimo con el fin cumplir con la eficiencia estándar de la compañía.\n\nrealizar supply facing con principales mercado mejorando las relaciones con los mercados.\n\nver factibilidad de materiales y coordinar con compradores llegadas de materiales.\n\nvelar por la correcta visibilidad de los requerimientos de materiales con el fin de generar la correcta\ncompra de materiales.\n\nliderar el proceso de campaña de cremas solares para latam.\n",
     "Resumen": "fernando lópez díaz\n56991427331 flop88@hotmail.com\nberta correa 1725 departamento 402f, comuna huechuraba\nresumen soy un profesional especializado en planificación y supply chain. soy un profesional objetivo, critico,\ndesafiante, con foco a resultados, proactivo, comprometido con los objetivos estratégicos de la organización, con\nbuenas relaciones inter personales y con un gran espíritu de trabajo en equipo. finalmente poseo un diplomado\nen gestión de operaciones el cual ha complementado aún más mis conocimientos en supply chain y gestión de la\ncadena de valor.\n",
     "Referencias": "",
-    "Nombre archivo": "1567452876565-CV_Fernando_07.08.19"
+    "Skills": [
+        "Powerpoint",
+        "Excel",
+        "Word",
+        "Office"
+    ]
 }

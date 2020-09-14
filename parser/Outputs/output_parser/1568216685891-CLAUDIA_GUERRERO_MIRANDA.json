@@ -1,38 +1,42 @@
 {
-    "Nombre": "Claudia Andrea Guerrero ",
-    "Correo": "clguerre@fen.uchile.cl",
-    "Linkedin": null,
-    "Celular": "+56961234969",
-    "Skills": [
-        "Sql",
-        "Office",
-        "Erp",
-        "Sap",
-        "Softland"
-    ],
+    "Contacto": {
+        "Nombre": "Claudia Andrea Guerrero ",
+        "Correo": "clguerre@fen.uchile.cl",
+        "Celular": "+56961234969",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1568216685891-CLAUDIA_GUERRERO_MIRANDA",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Ingeniería"
-    ],
     "Palabras Claves": [
-        "Aprender",
-        "Analizar",
-        "Proactividad",
-        "Negociación",
+        "Tolerancia",
         "Gestión",
         "Análisis",
+        "Proactividad",
+        "Aprender",
+        "Negociación",
+        "Analizar",
         "Estrategia",
-        "Responsabilidad",
-        "Tolerancia"
+        "Responsabilidad"
     ],
-    "Educacion": [
-        "Universidad de Chile"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad de Chile"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [
         "Inglés"
     ],
     "Experiencia": "experiencia laboral\noctubre 2017-\nactualidad\nfacultad de derecho- universidad de chile\nanalista de control de gestión senior\ndirigir y fortalecer el área de control de gestión, desde\nimplementación de mejoras en las herramientas de trabajos y\nplanificación de los diferentes proyectos.\npreparación de informes financieros de acuerdo a los objetivos de\nla facultad.\nlevantamiento de procesos para implementar en sistemas de\ncontrol presupuestario.\nsantiago,\nchile\n3\njulio 2015-octubre\n2017\nfacultad de derecho- universidad de chile\nanalista de control de gestión\nimplementar control presupuestario.\npreparación planificación estratégica del presupuesto.\napoyo en el desarrollo de sistemas internos para la mejora de\nprocesos internos de la dirección.\npreparación de informes de ejecución presupuestarios indicando\nlas principales variaciones.\ninformes financieros para toma de decisiones de los directivos de\nfacultad.\ndistribución de ingresos y gastos según los centros de costos.\nsantiago,\nchile\ndiciembre 2013-\njulio 2015\nfacultad de economía y negocios universidad de chile\nayudante administrativo financiero\napoyo en la implementación del sistema erp softland.\nconfección de formato presupuesto softland.\ncapacitaciones para usuarios del sistema erp.\ncuadrar información de auge sistema contable con softland.\napoyo en sofltand con las unidades.\nrealizar informes de gestión con información auge.\napoyo en el sistema safpregsistema de administración y finanzas\nde pregrado.\nsantiago,\nchile\ndiciembre 2012-\nenero 2013\ncrowe horwath hb auditores consultores\nasistente de auditoria\nasistente de auditoría.\ninventario de existencias.\narqueo de documentos y fondos fijos.\nauditoría estados financieros pcga.\nauditoría estados financieros us gaap.\ndue diligence de liquidación diario la nación.\nsantiago,\nchile\nexperiencia académica\notoño 2014- julio\n2014\nfacultad de economía y negocios- universidad de chile\nayudante curso taller de contextualización\norientación profesional a alumnos de primer año.\napoyo en la introducción de conceptos técnicos a alumnos.\nresolución de dudas específicas sobre contabilidad, control de\ngestión y sistemas.\nsantiago,\nchile\notoño 2014-\nagosto 2015\nuniversidad las américas\nayudante curso ofimática i curso online\nguía proactiva para los alumnos a través de foros.\nfomentar la interacción social y resolución clara de dudas sobre los\ncontenidos de las asignaturas.\nsantiago,\nchile\n3\nmantener contacto con profesores e-learning.\nanalizar el rendimiento de los alumnos y hacer seguimiento.\npropuestas de nuevas herramientas para aumentar la participación\nde alumnos.\nhabilidades e intereses\n\nproactiva, líder e interesada en aprender nuevos temas y manejarlos rápidamente.\n\nexcelente relación con los clientes a distintos niveles de la organización.\n\ntolerancia al trabajo bajo presión.\n\nexperiencia en conocer y entender distintos procesos de las organizaciones.\n",
     "Resumen": "resumen\ningeniera en información y control de gestión de la universidad de chile responsable, proactiva, meticulosa.\nexperiencia en implementación del área de control de gestión en la facultad de derecho de la universidad de\nchile, planificación presupuestaria y apoyo en desarrollo de sistemas de gestión.\n",
     "Referencias": "",
-    "Nombre archivo": "1568216685891-CLAUDIA_GUERRERO_MIRANDA"
+    "Skills": [
+        "Softland",
+        "Erp",
+        "Sql",
+        "Office",
+        "Sap"
+    ]
 }

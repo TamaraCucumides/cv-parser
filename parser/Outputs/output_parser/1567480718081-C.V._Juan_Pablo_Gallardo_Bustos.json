@@ -1,34 +1,38 @@
 {
-    "Nombre": "Juan Pablo Gallardo ",
-    "Correo": [
-        "juanpablo.gallardo@yahoo.es"
-    ],
-    "Linkedin": null,
-    "Celular": "+20152018200",
-    "Skills": [
-        "Excel",
-        "Word",
-        "Git",
-        "Arduino",
-        "Microsoft project",
-        "Power point"
-    ],
+    "Contacto": {
+        "Nombre": "Juan Pablo Gallardo ",
+        "Correo": [
+            "juanpablo.gallardo@yahoo.es"
+        ],
+        "Celular": "+20152018200",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1567480718081-C.V._Juan_Pablo_Gallardo_Bustos",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Ingeniería"
-    ],
     "Palabras Claves": [
         "Gestión",
         "Análisis"
     ],
-    "Educacion": [
-        "Universidad Técnica Federico Santa María"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad Técnica Federico Santa María"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [
         "Inglés"
     ],
-    "Experiencia": "experiencia laboral\nnov 2012\na dic 2017\nkomatsu chile s.a.\ntécnico eléctrico de camiones de extracción caex 930 e-4\ntécnico mantenedor preventivo de camiones de extracción caex\n930 e-4 de alto tonelaje en la gran minería.\ntécnico mantenedor correctivo en mina rajo. cargo logrado por la\ncapacidad en análisis y resolución de fallas. se da cumplimiento\nperiódico con altos índices de disponibilidad.\nlos\nandes,\nfaena andina,\nchile\njun 2008 -\nnov 2012\nbritish american tobacco chile chiletabacos\ntécnico electrónico de servicios\nmonitoreo y reparaciones correctivas a sistema de paletizado\ncomandado por sistema de plc marca siemens línea 300 y 200.\npuesta en marcha y detención de la planta con todos los equipos de\nservicios generadores, bombas, compresores, extractores de polvillo,\nrobots, sistemas de automatización, cabinas climatizadoras, etc.\nconocimientos altos en instrumentación, actuadores, sistemas de lazo\nabierto y cerrado en diferentes procesos.\ndesarrollador de proyectos de ahorro de energía con sistema de\nautomatización de temperatura y humedad. en el primer año se logra\nahorrar 32.500.000\ncasablanca,\nchile\ndatos destacados\nbeca de estudios para la carrera de ingeniería de ejecución en gestión\nindustrial. reconocimiento obtenido por rendimiento mostrado en\ndesempeño de labores técnicas como en labores administrativas\nkomatsu chile s.a..\npremio proyecto de ahorro energético. premio dado por la empresa\nbritish american tobacco chile, por excelentes resultados en\nimplementación de proyecto de automatización de lazo cerrado con el\nfin de ahorrar energía eléctrica y de recursos humanos se ahorra el\nprimer año 32.500.000 solo en concepto de energía eléctrica.\nbúsqueda de mejora continua tanto para los procesos que se ha estado\na cargo, como también en la adquisición de mejora en habilidades\nblandas y duras en el campo profesional.\nconocimientos de software tecnologías de la información\nmicrosoft excel nivel alto.\nmicrosoft word nivel medio.\nmicrosoft power point nivel medio.\nmicrosoft acces nivel usuario.\nmicrosoft project nivel usuario.\nsoftware de gestión de versiones git github nivel usuario.\nsoftware ide de arduino y proyectos en sketch de dicha plataforma.\n",
+    "Experiencia": "experiencia laboral\nnov 2012\na dic 2017\nkomatsu chile s.a.\ntécnico eléctrico de camiones de extracción caex 930 e-4\ntécnico mantenedor preventivo de camiones de extracción caex\n930 e-4 de alto tonelaje en la gran minería.\ntécnico mantenedor correctivo en mina rajo. cargo logrado por la\ncapacidad en análisis y resolución de fallas. se da cumplimiento\nperiódico con altos índices de disponibilidad.\nlos\nandes,\nfaena andina,\nchile\njun 2008 -\nnov 2012\nbritish american tobacco chile chiletabacos\ntécnico electrónico de servicios\nmonitoreo y reparaciones correctivas a sistema de paletizado\ncomandado por sistema de plc marca siemens línea 300 y 200.\npuesta en marcha y detención de la planta con todos los equipos de\nservicios generadores, bombas, compresores, extractores de polvillo,\nrobots, sistemas de automatización, cabinas climatizadoras, etc.\nconocimientos altos en instrumentación, actuadores, sistemas de lazo\nabierto y cerrado en diferentes procesos.\ndesarrollador de proyectos de ahorro de energía con sistema de\nautomatización de temperatura y humedad. en el primer año se logra\nahorrar 32.500.000\ncasablanca,\nchile\n",
     "Resumen": "perfil profesional\nprofesional en búsqueda activa de oportunidad laboral tanto para el\ncampo operativo área técnica como para el campo administrativo área\ningeniería.\nrecientemente titulado como ingeniero en gestión industrial, pero con\nvasta experiencia en área técnica en departamentos de ingeniería y de\noperaciones en cuanto a mantenimiento industrial se refiere, experiencia\nobtenida en el ejercicio de carrera como técnico universitario en\nelectrónica.\ndestacado por gran capacidad en análisis y reparación de fallas y mejora\ncontinua en tareas diarias y también en el desarrollo de proyectos\npropuestos por desempeño mostrado.\n",
     "Referencias": "",
-    "Nombre archivo": "1567480718081-C.V._Juan_Pablo_Gallardo_Bustos"
+    "Skills": [
+        "Word",
+        "Microsoft project",
+        "Arduino",
+        "Excel",
+        "Git",
+        "Power point"
+    ]
 }

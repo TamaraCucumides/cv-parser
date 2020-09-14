@@ -1,33 +1,37 @@
 {
-    "Nombre": null,
-    "Correo": [
-        "ignacio.n.ames@gmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": "+56957106048",
-    "Skills": [
-        "Windows",
-        "Office",
-        "Autocad",
-        "Mac"
-    ],
+    "Contacto": {
+        "Nombre": null,
+        "Correo": [
+            "ignacio.n.ames@gmail.com"
+        ],
+        "Celular": "+56957106048",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1568401007319-CV_IGNACIO_AMESTICA_",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Ingeniería"
-    ],
     "Palabras Claves": [
         "Disciplina",
         "Creativo",
         "Adaptable"
     ],
-    "Educacion": [
-        "Universidad Pedro de Valdivia"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad Pedro de Valdivia"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [
         "Inglés"
     ],
     "Experiencia": "experiencia laboral\npráctica profesional realizada en alerce ingeniería,\nconstrucción y servicios, durante 3 meses. formando\nparte del equipo de ingenieros, en la realización de la\ningeniería básica del proyecto nuevo nivel mina, división\nel teniente, codelco. donde presté apoyo a las\ndisciplinas mecánica y minería en la elaboración, revisión\ny corrección de documentos, informes y planos.\ningeniero civil en minas.\nignacio nicolás améstica parra.\nfecha de nacimiento 10 de septiembre 1995.\nalmirante latorre 152-b, chillán\n56 9 57106048.\nignacio.n.ames@gmail.com\ninformática\nnivel computacional\navanzado, manejo de autocad,\noffice, so windows y mac.\n",
     "Resumen": "perfil profesional.\ningeniero civil en minas con perfil orientado a la planificación,\norganización, dirección y control de procesos productivos y\nadministrativos. conocimientos en minería subterránea y\nservicios de apoyo a la producción.\ncapacidad para trabajar en equipo, capacidad de adaptación y\naprendizaje, creatividad y dinamismo organizacional.\n",
     "Referencias": "",
-    "Nombre archivo": "1568401007319-CV_IGNACIO_AMESTICA_"
+    "Skills": [
+        "Mac",
+        "Autocad",
+        "Windows",
+        "Office"
+    ]
 }

@@ -1,31 +1,35 @@
 {
-    "Nombre": "Mobile Laborum Outlook.com ",
-    "Correo": "laborum@outlook.com",
-    "Linkedin": "www.linkedin.com/in/laborum",
-    "Celular": "+56971746854",
-    "Skills": [
-        "Sap",
-        "Erp"
-    ],
+    "Contacto": {
+        "Nombre": "Mobile Laborum Outlook.com ",
+        "Correo": "laborum@outlook.com",
+        "Celular": "+56971746854",
+        "Linkedin": "www.linkedin.com/in/laborum"
+    },
+    "Nombre archivo": "1568518047096-CV-FArteaga",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Ingeniería"
-    ],
     "Palabras Claves": [
         "Gestión",
-        "Negociación",
         "Análisis",
+        "Negociación",
         "Perfeccionista",
-        "Colaboración",
-        "Modelamiento"
+        "Modelamiento",
+        "Colaboración"
     ],
-    "Educacion": [
-        "Universidad Técnica Federico Santa María",
-        "Universidad del Bío-Bió"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad Técnica Federico Santa María",
+            "Universidad del Bío-Bió"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [],
     "Experiencia": "experiencia\nuniversidad del bío bío\nejecutivo de emprendimiento e innovación\nagosto de 2019 - present\nchillán\nejecutivo de la unidad de emprendimiento de la vicerrectoría de investigación\ny postgrado de la universidad del bío-bío sede chillán, en la subdirección\nde innovación. gestión de vinculación universidad-empresa para\nproyectos de idi, en procesos de postulación a fondos públicos y uso\nde instrumentos corfo. ley id e incentivos tributarios. contacto\ninnovacionubbch@ubiobio.cl\nzenitx\nconsultor de procesos bpm\njunio de 2019 - present\nchillán, región de ñuble, chile\nbusiness processing managenent, reingeniería de procesos, levantamiento de\nfuncionalidades, relación áreas usuarias, gestión de incidencias y problemas.\nmodelamiento de procesos para implementar herramientas de gestión\nerp enterprise resource planning. uso de bizagi - análisis y flujos de\nprocesos de negocio mediante modelación de procesos bpmn 2.0 business\nprocess model and notation. propuesta de mejoras continuas y detección de\nnecesidades.\ncodelco corporación nacional del cobre de chile\npráctica profesional ii - analista de remuneraciones\nenero de 2019 - febrero de 2019 2 meses\npage 1 of 3\nlos andes, región de valparaíso, chile\npráctica profesional ii unidad de remuneraciones en depto. de rrhh.\ndivisión andina. actividades desarrollo de liquidaciones de sueldo codelco\nandina aplicación de exentos por concepto de negociaciones colectivas de\nsindicatos finiquitos y planes de egreso gestión de licencias médicas\nanálisis de liquidez para préstamos, créditos internos y con la banca sap\nerp payroll cálculos correspondientes a indemnizaciones, vacaciones\npendientes y descuentos.\nuniversidad del bío bío\n2 años 10 meses\nayudante de gestión financiera de corto plazo\nmarzo de 2018 - diciembre de 2018 10 meses\nchillán, región de ñuble, chile\nprograma diurno, ayudante corrector\ntutor de proyecto reti\nmarzo de 2016 - julio de 2018 2 años 5 meses\nchillán, región de ñuble, chile\ntutor de proyecto reti red de tutores internacionales con objeto de apoyar\nel proceso de inserción de estudiantes internacionales a la ubb\nuniversidad del bío bío\nayudante de métodos cuantitativos\nmarzo de 2016 - julio de 2018 2 años 5 meses\nchillán, región de ñuble, chile\ncurso vespertino en programas especiales de continuación de estudios\np.e.c.e. - ayudante corrector\nuniversidad del bío-bío\ntutor de estudiantes dde\nfebrero de 2015 - julio de 2018 3 años 6 meses\nchillán, región de ñuble, chile\nprograma de tutores del departamento de desarrollo estudiantil\ncolaborar en jornadas de inducción de alumnos de primer año de ingeniería\ncomercial. desarrollo de técnicas de aprendizajes y gestión de trabajo\ncolaborativo, para apoyar a los estudiantes en el estudio de asignaturas\ncríticas durante el i y ii semestre, para disminuir la deserción.\n-expositor encuentro nacional de tutores pares 2015 santiago\n-expositor encuentro nacional de tutores pares 2016 valdivia\npage 2 of 3\nuniversidad del bío bío\nayudante de álgebra\nmarzo de 2017 - julio de 2017 5 meses\nchillán, región de ñuble, chile\ncarsol fruit s.a.\npráctica profesional i - asistente de operaciones\nenero de 2017 - febrero de 2017 2 meses\nchillán, región de ñuble, chile\npráctica profesional i control y gestión de presupuesto del depto. de\noperaciones. actividades adquisición de insumos, materiales y gestión de\ncontratos de arriendos. relaciones comerciales, facturación y pago, con\nproveedores. planificación de transporte y logística de personal de packing.\nregistros de puestos de trabajo y personal activo, control de bonos y horas\nextras.\nuniversidad del bío bío\nayudante de cálculo integral\nmarzo de 2016 - julio de 2016 5 meses\nchillán, región de ñuble, chile\ncurso vespertino en programas especiales de continuación de estudios\np.e.c.e.\nuniversidad del bío bío\nayudante de cálculo diferencial\nagosto de 2015 - diciembre de 2015 5 meses\nchillán, región de ñuble, chile\n",
     "Resumen": "extracto\nbusco desarrollarme en distintos escenarios, trabajar con\npersonas de diferentes culturas. gestionar estratégicamente el\nperfeccionamiento de procesos de expansión corporativa, orientado\na maximizar la rentabilidad en base a proyecciones matemáticas y a\nprocesos con un crecimiento sustentable en entornos adversos.\n",
     "Referencias": "",
-    "Nombre archivo": "1568518047096-CV-FArteaga"
+    "Skills": [
+        "Erp",
+        "Sap"
+    ]
 }

@@ -1,26 +1,30 @@
 {
-    "Nombre": "Identificación Apellidos Nombres ",
-    "Correo": [
-        "juliocesarmartinez53@gmail,com"
-    ],
-    "Linkedin": null,
-    "Celular": "+04144390328",
-    "Skills": [
-        "Sap"
-    ],
+    "Contacto": {
+        "Nombre": "Identificación Apellidos Nombres ",
+        "Correo": [
+            "juliocesarmartinez53@gmail,com"
+        ],
+        "Celular": "+04144390328",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1569640874575-CVJCMresumen-1",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Bachiller"
-    ],
     "Palabras Claves": null,
-    "Educacion": [],
+    "Educacion": {
+        "Universidades:": [],
+        "Grado_mas_alto": [
+            "Bachiller"
+        ]
+    },
     "Lenguajes": [
         "Español",
-        "Inglés",
-        "Inglés básico"
+        "Inglés básico",
+        "Inglés"
     ],
     "Experiencia": "",
-    "Resumen": "curriculum vitae\n1.\ndatos de identificación\napellidos y nombres\nmartínez julio cesar\ncédula de identidad n\n11.546.256\nlugar de nacimiento\nacarigua, estado portuguesa - venezuela\nfecha de nacimiento\n16-06-74\nsexo\nmasculino\nnacionalidad\nvenezolano\nestado civil\ncasado\ndirección\nurb. el saman, sector 7 calle 2 casa 83 guácara, carabobo.\nteléfonos\n0414-4390328\ne-mail\njuliocesarmartinez53@gmail,com\n2.\ndatos relativos a los estudios\ntítulos académicos logrados\ninstitución\naño de grado\n\nsuboficial de la\narmada.maestre de\ntercera mención\nplantas navales tsu\nmecánica naval\nescuela de suboficiales de la armada de venezuela.\ncatia la mar, estado vargas. venezuela.\n1993\n\nbachiller en ciencias\nliceo josé antonio paez 1 a 5 año. acarigua, estado\nportuguesa. venezuela.\n1990\n\neducación primaria\nescuela básica dr. raimundo andueza y palacios 1 a 6\ngrado. acarigua, estado portuguesa. venezuela.\n1985\ngrado militar alcanzado\nmaestre técnico de primera. actualmente capitán de fragata armada condición\nretirado.\ncondecoraciones obtenidas\ncinta naval actos distinguidos en tiempos de paz\ncinta de cinco años consecutivos a bordo de unidades flotantes de la armada\ncinta de diez años consecutivos a bordo de unidades flotantes de la armada\ninsignia de buque de superficie calificación de estadía a bordo de unidades\nflotantes de la armada de venezuela\nhonor al mérito naval otorgada por la base naval ca agustín armario puerto\ncabello.\n",
+    "Resumen": "curriculum vitae\n1.\n",
     "Referencias": "",
-    "Nombre archivo": "1569640874575-CVJCMresumen-1"
+    "Skills": [
+        "Sap"
+    ]
 }

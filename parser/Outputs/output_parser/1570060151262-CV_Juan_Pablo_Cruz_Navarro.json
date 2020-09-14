@@ -1,37 +1,41 @@
 {
-    "Nombre": "Juan Pablo Cruz ",
-    "Correo": "jpcruzn@gmail.com",
-    "Linkedin": null,
-    "Celular": "92674965",
-    "Skills": [
-        "Office",
-        "Windows",
-        "Excel",
-        "Word",
-        "Bases de datos",
-        "Power point"
-    ],
+    "Contacto": {
+        "Nombre": "Juan Pablo Cruz ",
+        "Correo": "jpcruzn@gmail.com",
+        "Celular": "92674965",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1570060151262-CV_Juan_Pablo_Cruz_Navarro",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Mba"
-    ],
     "Palabras Claves": [
         "Gestión",
         "Análisis",
-        "Responsabilidad",
         "Adaptable",
-        "Voluntariado"
+        "Voluntariado",
+        "Responsabilidad"
     ],
-    "Educacion": [
-        "Universidad Católica de Chile",
-        "Universidad Finis Terrae",
-        "Pontificia Universidad Catolica de Chile"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad Católica de Chile",
+            "Pontificia Universidad Catolica de Chile",
+            "Universidad Finis Terrae"
+        ],
+        "Grado_mas_alto": [
+            "Mba"
+        ]
+    },
     "Lenguajes": [
         "Inglés"
     ],
     "Experiencia": "experiencia profesional\njulio 2018 a la fecha\nsantiago, chile\ncentro de salud, universidad de los andes\njefe de personas\n\ncoordinar, supervisar y gestionar todas las labores administrativas referentes al personal\nremuneraciones, contratos, finiquitos, licencias médicas, etc.\n\ncoordinar y gestionar la documentación y bases de datos de los funcionarios del centro de\nsalud.\n\ncoordinar y ejecutar la atracción y mantención de la dotación del centro de salud selección,\nbeneficios, bienestar, capacitación, desarrollo organizacional.\n\ncontraparte con la achs en materias de prevención de riesgos, encuesta suseso/istas 21\ne investigación de accidentes laborales.\n\nrealizar presupuesto de remuneraciones y llevar control de él.\n\nseguir lineamientos dados por la universidad de los andes y adaptar proyectos de personas\nal centro de salud.\n\nresponsable de las características de recursos humanos para la acreditación de calidad que\nentrega la superintendencia de salud.\n\nencargado de marketing y generación de convenios con otras instituciones/empresas.\nagosto 2016 junio 2018\nsantiago, chile\nmedios regionales de el mercurio\nencargado de desarrollo organizacional\n\nasesorar y guiar en las tomas de decisiones a sus 15 clientes internos local en materias de\nreclutamiento, selección, capacitación y desarrollo organizacional, principalmente, y llevarlas\na cabo.\n\ncoordinar, canalizar y atender a sus 9 clientes internos de regiones en requerimientos y\nprocedimientos en la casa matriz del holding.\n\nrevisión, mantención y definición de políticas, organigramas, descriptores de cargo y\nlevantamiento de funciones de las distintas áreas.\n\ncooperar organizando actividades de la empresa.\nmarzo 2018 julio 2018\nsantiago, chile\nuniversidad finis terrae\ndocente\n\nprofesor titular asignatura psicología organizacional i primer semestre.\nseptiembre 2012 agosto 2016\nsantiago, chile\nmedios regionales de el mercurio\nanalista de desarrollo organizacional\n\nencargado de reclutamiento y selección de personal a nivel corporativo y apoyo a empresas\nregionales del holding. además, realización de análisis de rotación de personal.\n\nelaboración e implementación de políticas para subsistemas de rrhh y de la\nencuesta/entrevista de salida aplicada para todas las renuncias voluntarias.\n\ncontrol de gestión de las solicitudes de contratación del holding.\n\ncapacitaciones inscripción de cursos, manejo de franquicia sence y contacto con otic y\notec. miembro del comité bipartito de capacitación.\n\nlevantamiento de perfil, actualización y creación de descriptores de cargos, junto con su\nhomologación correspondiente en las 9 empresas del holding.\n\nparticipación en proyectos implementación de sistema de gestión del desempeño y diseño\nde herramienta de evaluación, plan de inducción y detección y retención de talentos.\njunio 2011 diciembre 2011\nsantiago, chile\ndirección de arquitectura del ministerio de obras públicas, gobierno de chile\npráctica profesional\n\ncoordinador de los procesos de selección.\n\nevaluación de candidatos a través de pruebas psicológicas y entrevistas por competencias.\n\ndiseño de capacitaciones para ser licitadas en chilecompra.\n\nanálisis cuantitativo, difusión comunicacional y diseño de planes de acción para mejoras de\nclima organizacional.\n\nactualización de manual y programa de inducción.\n\norganización y ejecución de actividades para bienestar.\njulio 2010 mayo 2011\nsantiago, chile\ncentro de salud, universidad de los andes\npráctica interna\nevaluaciones psicológicas a través de entrevistas y pruebas psicológicas.\nprocesos psicoterapéuticos psicoanalíticos.\n",
     "Resumen": "resumen\npsicólogo y mba con interés en cargos dinámicos de responsabilidad y desafiantes dentro de la\norganización, con la posibilidad de proyectarse a largo plazo a través de desarrollo de carrera y\nconstante aprendizaje.\ndestaca por su calidad personal y profesional, particularmente en la coordinación, atención y\nsatisfacción de clientes internos, pensamiento crítico, estratégico y global en las decisiones a tomar y\ncómo impactarán al interior de la organización.\n",
     "Referencias": "referencias\nfrancisco bravo\ngerente de administración y finanzas, medios regionales el mercurio\ncelular 96447777\nemail franciscobravoh@hotmail.com\npatricio martínez\ngerente de recursos humanos, medios regionales el mercurio\ncelular 56089856\nemail patriciomartineza@gmail.com\n",
-    "Nombre archivo": "1570060151262-CV_Juan_Pablo_Cruz_Navarro"
+    "Skills": [
+        "Word",
+        "Windows",
+        "Excel",
+        "Office",
+        "Bases de datos",
+        "Power point"
+    ]
 }

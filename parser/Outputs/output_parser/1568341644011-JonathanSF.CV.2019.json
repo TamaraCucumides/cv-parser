@@ -1,28 +1,29 @@
 {
-    "Nombre": "Jonathan Emerson Serey ",
-    "Correo": [
-        "Jonathan.serey.franke@gmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": "+56976610510",
-    "Skills": [
-        "Office",
-        "Autocad"
-    ],
+    "Contacto": {
+        "Nombre": "Jonathan Emerson Serey ",
+        "Correo": [
+            "Jonathan.serey.franke@gmail.com"
+        ],
+        "Celular": "+56976610510",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1568341644011-JonathanSF.CV.2019",
     "Licencias-Certificaciones": [
         "CLASE D"
     ],
-    "Grado": [
-        "Ingeniería"
-    ],
     "Palabras Claves": [
-        "Analizar",
-        "Liderazgo",
         "Gestión",
         "Análisis",
-        "Modelamiento"
+        "Analizar",
+        "Modelamiento",
+        "Liderazgo"
     ],
-    "Educacion": [],
+    "Educacion": {
+        "Universidades:": [],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [
         "Francés",
         "Inglés"
@@ -30,5 +31,8 @@
     "Experiencia": "experiencia laboral\nvinci construction grands projects 2018 - 2019. empresa francesa dedicada a la generación y\nconstrucción de megaproyectos como puentes, aeropuertos y autopistas. tanto en chile como a nivel\nglobal.\n\npráctica profesional con extensión 10 meses ayudante del jefe de proyecto en la\nelaboración de memorias de cálculo y documentación técnica para la componente no\nestructural de fachada de muro cortina, para los espigones ponientes t2c/t2e aeropuerto\ninternacional amb. creador de documento desviaciones en la metodología de diseño a las\nestructuras metálicas de fachada de muros cortinas espigones t2c/t2e\ntrabajo de título 2018 - 2019. trabajo de título para optar al grado de ingeniero civil en obras civiles.\naprobado con distinción máxima.\n\nanálisis crítico a la envolvente estructural del espigón c 8 meses. el objetivo\nprincipal fue analizar el diseño sismo-resistente del espigón c, identificando posibles\ndesviaciones en la metodología o aplicación al diseño, procurando proponer soluciones de\ncarácter conceptual y contrastarlas mediante una modelación estructural del caso de\nestudio.además, y en paralelo, se analiza la actual normativa sísmica chilenanch433,\nnch2369, nch3357, en términos de si ellas permiten atender apropiadamente este tipo de\nestructuras. considerando las singularidades en el diseño ingenieril del caso de estudio y\nel desempeño esperado que debiera tener un edificio de tal importancia ante una eventual\nsolicitación sísmica.\nprofesor ayudante cálculo ii, análisis estructural i, sismicidad. utem del estado de chile\n.\nprofesor ayudante. encargado de realizar clases de repaso, controles y ejercicios\npropuestos de la cátedra del profesor titular. mi clase de ayudantía equivalía a un 15 de la\nnota final de la asignatura.\n",
     "Resumen": "jonathan emerson serey franke\ningeniero civil en obras civiles - utem\njonathan.serey.franke@gmail.com\ncelular 56 9 766 10 510\ndescripción\ningeniero civil en obras civiles, con diplomas anexos en gestión ambiental en minería y procesamiento\nde minerales y diplomado en comunicación organizacional y liderazgo de mi casa de estudios\nutem2018 y 2017 respectivamente. mis aptitudes profesionales se basan en el conocimiento y\naplicación de diversos softwares de modelación estructural, tales como, sap2000, staad pro y\nnavisworks aplicación básica - profesional así como también ms project, office en general y\nautocad . poseo sólidos conocimientos en las áreas de programación y evaluación de proyectos,\ngestión de proyectos, análisis de costos, diseño en acero y hormigón armado, gestión de calidad,\ndinámica y análisis estructural. he participado activamente en seminarios y congresos relacionados a\nla ingeniería civil, minería y pertinentes a la metodología bim. mi nivel de inglés es intermedio a2\nactualmente cursando lecciones de francés básico.\n",
     "Referencias": "",
-    "Nombre archivo": "1568341644011-JonathanSF.CV.2019"
+    "Skills": [
+        "Autocad",
+        "Office"
+    ]
 }

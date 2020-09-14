@@ -1,35 +1,39 @@
 {
-    "Nombre": "Franco Alex Keim ",
-    "Correo": [
-        "francokeimm@gmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": "+56978183517",
-    "Skills": [
-        "Sql",
-        "Office",
-        "Autodesk",
-        "Vulcan",
-        "Visual basic",
-        "Autocad"
-    ],
+    "Contacto": {
+        "Nombre": "Franco Alex Keim ",
+        "Correo": [
+            "francokeimm@gmail.com"
+        ],
+        "Celular": "+56978183517",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1568737365023-CV_franco",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Ingeniería"
-    ],
     "Palabras Claves": [
-        "Liderazgo",
-        "Gestión",
         "Compromiso",
-        "Responsabilidad",
-        "Modelamiento"
+        "Gestión",
+        "Modelamiento",
+        "Liderazgo",
+        "Responsabilidad"
     ],
-    "Educacion": [
-        "Universidad de Antofagasta"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad de Antofagasta"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [],
     "Experiencia": "",
     "Resumen": "perfil profesional\ningeniero civil industrial en minas, con habilidades comunicacionales, analítica y liderazgo.\norientado al cumplimiento de metas específicas y al trabajo bajo presión basado en la\nseguridad. poseo compromisos, responsabilidad, dentro de la empresa en la cual me\ndesempeñé como profesional.\nexperiencia laborales\ningeniero en entrenamiento, compañía minera doña inés de collahuasi.\nseptiembre 2018 septiembre 2019 1 año\nárea de trabajo despacho mina y perforación.\ndescripción\nen el periodo de ingeniero en entrenamiento, me desempeñé seis\nmeses como despachador mina y seis meses como supervisor de\nperforación y tronadura.\nalumno memorista. compañía minera doña inés de collahuasi.\nenero 2018 junio 2018 6 meses\nárea de trabajo superintendencia producción y mantención camiones\ndescripción\nsimulación de un modelo económico-matemático de costo variable,\nel cual tiene como propósito cambiar la forma en cómo se gestionan y\nfacturan los neumáticos de los camiones de extracción en cmdic.\nfranco alex keim godoy\notras experiencias laborales\ndentro de la época en la cual me dediqué a estudiar trabajé en algunos oficios como\nimpartiendo clases de matemáticas a alumnos de básica y media, fiscalizador de\ntransporte en seremi de transporte, cuidador stand en samsung, cajero en tienda ripley,\ncajero en pronto copec.\n",
     "Referencias": "referencias\n\npablo letelier, superintendente de producción mina, cmdic. 569 56882662\n\npablo alquinta, supervisor de compras, cmdic. 569 52262388\n\nalex álvarez, superintendente de mantención perf., cmdic569 82202518\n\nbraulio figueroa, supervisor de mantención perforadoras, cmdic. 569 87291075\n",
-    "Nombre archivo": "1568737365023-CV_franco"
+    "Skills": [
+        "Vulcan",
+        "Autocad",
+        "Sql",
+        "Autodesk",
+        "Office",
+        "Visual basic"
+    ]
 }

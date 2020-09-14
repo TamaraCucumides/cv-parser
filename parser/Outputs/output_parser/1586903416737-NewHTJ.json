@@ -1,35 +1,39 @@
 {
-    "Nombre": "Hansel Tovar Santa ",
-    "Correo": [
-        "Tovarhansel@gmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": "+56945133161",
-    "Skills": [
-        "Office",
-        "Excel",
-        "Word",
-        "Paquete office",
-        "Base de datos",
-        "Softland"
-    ],
+    "Contacto": {
+        "Nombre": "Hansel Tovar Santa ",
+        "Correo": [
+            "Tovarhansel@gmail.com"
+        ],
+        "Celular": "+56945133161",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1586903416737-NewHTJ",
     "Licencias-Certificaciones": [],
-    "Grado": [],
     "Palabras Claves": [
-        "Analizar",
+        "Tolerancia",
+        "Gestión",
         "Proactividad",
         "Negociación",
-        "Gestión",
-        "Estrategia",
         "Adaptable",
-        "Tolerancia"
+        "Analizar",
+        "Estrategia"
     ],
-    "Educacion": [],
+    "Educacion": {
+        "Universidades:": [],
+        "Grado_mas_alto": []
+    },
     "Lenguajes": [
         "Inglés"
     ],
     "Experiencia": "",
     "Resumen": "p r e s e n t a c i ó n\nextranjero venezolano con visa definitiva en chile.\nsoy profesional titulado de abogado, graduado en la\nuniversidad santa maría en venezuela. mi habilidad\nlaboral la he desarrollado en distintas áreas legales y\ncomerciales, lo que me permitió obtener habilidades\ncomo\nproactividad,\ncapacidad\nde\nnegociación,\nautonomía, orientación al cliente, planificación y\norganización, orientación al logro de objetivos y metas,\ntolerancia a la frustración, trabajo en equipo, capacidad\nde comunicación, entre otras.\nactualmente me encuentro interesado en hacer carrera\nen posiciones comerciales, que me permitan poner en\npráctica mis conocimientos, asumir nuevos retos,\nalinear objetivos personales y profesionales con los\nestablecidos por la empresa, logrando así un beneficio\nmutuo.\nentre mis funciones destacan analizar semanalmente stock de productos\nde los clientes, con el fin garantizar una correcta reposición de productos,\nparticipar en la creación de la codificación del stock de cada clientes para\ngarantizar un correcto registro de venta y optimización de la distribución\nde productos, gestión y seguimiento de órdenes de compra, preparación\nde informes solicitados por el área comercial para facilitar la toma de\ndecisiones, manejo y control de inventarios, confeccionar y velar por la\ncorrecta documentación de todas las importaciones y exportaciones de\nacuerdo a la normativa aduanera vigente, coordinar el proceso de\ndespacho de mercadería a clientes, cooperar en la gestión de facturación,\nemisión de notas de venta, notas de crédito, guías de salida a través del\nsistema softland, ventas b2b, apoyo en el desarrollo de la estrategia\ncomercial. entre mis mejores gestiones en la empresa, destaca la\npresentación de productos, emisión, seguimiento de órdenes de compra\ny debido despacho a grandes tiendas falabella, paris, dafiti, igualmente,\nla debida presentación y distribución de productos oficiales de la copa\ndel mundo a ripley.\nimportadora nna spa\ndic 2016 sept 2018\nsantiago\nkey account manager\ni d i o m a s y\n",
     "Referencias": "",
-    "Nombre archivo": "1586903416737-NewHTJ"
+    "Skills": [
+        "Softland",
+        "Word",
+        "Paquete office",
+        "Excel",
+        "Office",
+        "Base de datos"
+    ]
 }

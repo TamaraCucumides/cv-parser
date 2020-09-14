@@ -1,43 +1,47 @@
 {
-    "Nombre": "Leocadio Manuel Molina ",
-    "Correo": "lemofe@hotmail.com",
-    "Linkedin": null,
-    "Celular": "+56999239045",
-    "Skills": [
-        "Excel",
-        "Erp",
-        "Windows",
-        "Word",
-        "Sap",
-        "Base de datos",
-        "Oracle",
-        "Microsoft project",
-        "Solomon",
-        "Visio",
-        "Powerpoint",
-        "Power point"
-    ],
+    "Contacto": {
+        "Nombre": "Leocadio Manuel Molina ",
+        "Correo": "lemofe@hotmail.com",
+        "Celular": "+56999239045",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1569435429597-CV_Leocadio_Molina",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Ingeniero"
-    ],
     "Palabras Claves": [
-        "Liderazgo",
-        "Liderar",
         "Gestión",
-        "Responsabilidad",
-        "Motivación"
+        "Motivación",
+        "Liderar",
+        "Liderazgo",
+        "Responsabilidad"
     ],
-    "Educacion": [
-        "Universidad de Chile",
-        "Universidad de La Frontera"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad de Chile",
+            "Universidad de La Frontera"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniero"
+        ]
+    },
     "Lenguajes": [
-        "Inglés",
-        "Portugués"
+        "Portugués",
+        "Inglés"
     ],
     "Experiencia": "experiencia laboral\nenero 2010 a sept.2019. holding tánica s.a. jefe de proyectos y sistemas\nadministrativos ti.\n\nespecialista en sap business one, en los módulos de gestión, finanzas, ventas, compras,\ninventarios, producción y gestión de proyectos. generación de consultar en query manager.\ngeneración de reportes en crystal reports.\n\nme corresponde participar en el comité de implementación de sap business one para el holding\ntánica s.a. se implementaron 51 empresas del holding. las empresas del holding son del rubro\nhotelero, inversiones, inmobiliaria y productivas.\n\nme corresponde diseñar e implementar un módulo de gestión de arriendos, para la gerencia\ninmobiliaria del holding.\n\nme corresponde diseñar e implementar un módulo flujo de aprobación de o/c, contratos, facturas\ny boletas de honorarios, para la gerencia de administración y finanzas.\n\nme corresponde diseñar e implementar un sistema de gestión de causas, para el área legal del\nholding.\n\nme corresponde administrar e implementar erp solomon de microsoft y erp gp de microsoft en\nlas 51 empresas del holding tánica.\n\nme corresponde administrar implementación de modulo activo fijo para ifrs con el proveedor\ndbnet 25 empresa del holding transoceánica.\n\nme corresponde administrar implementación de sistema de facturación electrónica con el\nproveedor tecnomanquehue, para 42 empresas del holding transoceánica.\n\nme corresponde administrar implementación de sistema de facturación electrónica con el\nproveedor dbnet, para 25 empresas del holding transoceánica.\n\nme corresponde administrar he implementar el nuevo sistema de gestión de causas civiles para el\nárea legal del holding transoceánica.\n\nme corresponde administrar he implementar el nuevo módulo de gestión de arriendos para el área\ninmobiliaria del holding transoceánica.\n\nme ha correspondido administrar los proyectos de implementación de central telefónica, reloj\ncontrol de asistencia y casino.\n\nhe administrado el proyecto de implementación de las normas ifrs con la empresa dbnet.\n\nhe administrado el proyecto de mejoras de un módulo de compra y venta de acciones que se creó\nen forma interna para interactuar con el erp solomon.\nnov.2005 a enero 2010. mekano consulting s.a. jefe y consultor de proyectos ti\n\nespecialista en el erp solomon y erp gp, ambos erp de microsoft.\n\nme corresponde planificar, implementar, capacitar y puesta en marcha del erp solomon de\nmicrosoft y erp gp de microsoft en las siguientes empresas holding transoceanica,\ncooperativa de carabineros, constructora dlp, constructora kodama y varias compañías más de\nchile.\ndic.2003 a oct.2005. protab s.a. jefe y consultor de proyectos ti.\n\nespecialista en el erp solomon.\n\nme corresponde planificar, implementar, capacitar y puesta en marcha del erp solomon de\nmicrosoft en las siguientes empresas soprodi, starbuck, nova, vielva y varias compañías más\nde chile.\noct.2002 a nov.2003. empresa pdm ltda. consultor y relator de cursos de\ncapacitación.\n\nconsultor en el área de las tecnologías de la información, en el área logística, control de la\nproducción, manejo de bodegas, incentivos de producción y toma de inventarios.\n\nrelator de cursos de capacitación sence en el área de la informática, planificación y control de\nla producción, manejo de bodega y administración de inventarios.\nabril 1994 a sept.2002 cintac s.a. jefe de proyectos ti\n\nencargado responsable de la homologación de códigos y migración de base de datos desde\narchivos en ambiente bbx basic y rdbms informix a rdbms oracle. en el marco de la\nimplementación del software erp de clase mundial one world de j.d.edwards.\n\nencargado responsable de la implementación y mantención del software de clase mundial one\nworld de j.d.edwards. módulos manufactura, cálculo incentivo de producción, costos e inventario,\nbodega y compras.\n\nrelator de cursos de capacitación para personal del área industrial de la empresa cintac, tales\ncomo curso básico, intermedio y avanzado de excel, word y power point, introducción a la\ncomputación, manejo de windows 95,98.\n\nencargado de coordinar las tareas de ingreso y control de una orden de producción. todas estas\ntareas eran coordinadas directamente con el personal del departamento de planificación y control\nde la producción.\n\nencargado de la capacitación del personal que labora en el departamento de planificación y control\nde la producción, en el manejo del software de clase mundial j.d.edwards, en los módulos de\ningreso y control de una orden de producción, ruta de trabajo, lista de piezas, ingreso de horas\nhombre, ingreso de horas máquina, ingreso de pedidos y recepción de la materia prima, ingresos\nde producción.\n\ndesarrollo integral del proyecto, sistema de cálculo incentivo de producción, cumpliendo las\nfunciones de diseño, planificación, implementación y mantención del proyecto.\n\nelaboración y diseño de informes de gestión para la gerencia de producción, gerencia de\ningeniería, departamento de compras, departamento de bodega y departamento de métodos y\nprocesos.\n\nencargado responsable de la implementación y mantención de los sistemas de información de la\nsucursal ubicada en lima, perú. sistemas controlados producción, ventas, recursos humanos,\ninventario y contabilidad.\nnov.1992 a marzo 1994. ferretería industrial coditec s.a. jefe departamento de\ninformática\n\nencargado responsable de coordinar y administrar los recursos computacionales para lograr un\nóptimo resultado del procesamiento de la información requerida por todas las áreas de la compañía.\n\nestudio de margen de ganancia de la compañía, asociada a cada producto que vende. este estudio\nse realiza en el marco de la aplicación de una serie limitada de descuentos que autoriza la compañía\na cada vendedor sin que se pierda un margen mínimo de ganancia por producto para esta.\n\nadministración de políticas de seguridad de la información y de respaldo de esta, en forma diaria,\nsemanal y mensual.\n\nadministración de recursos económicos para la selección y compra de pcs, impresoras, ups e\ninsumos computacionales.\n\nmesa de ayuda y atención telefónica en línea a problemas y consultas de los usuarios respecto del\nsistema de información\n\nsolución de problemas y atención de requerimientos en terreno a los usuarios, relacionados con el\nhardware y software.\nmarzo 1992 a oct.1992. forestal temuco s.a. analista de sistemas del\ndepartamento de informática\n\nencargado responsable de la mantención del sistema de compra de metros ruma de madera tipo\neucaliptos y pino.\n\nencargado responsable del cálculo de pago de comisiones a los compradores de metros ruma de\nla compañía.\nlogros importantes\n\ncertificación erp solomon de microsoft, módulos financiero, proyectos e inventarios.\n\ncertificación erp gp de microsoft, módulos financiero, compras, ventas e inventarios.\n\ncurso de 40 horas de aplicación del pmbok a la dirección de proyectos pmi\n\ncurso de excel avanzado 2016\nconocimientos generales\n\nwindows 10, 8, 7, vista y xp\n\ninternet correo electrónico\n\nmicrosoft excel avanzado\n\nmicrosoft word avanzado\n\nmicrosoft powerpoint\n\nmicrosoft visio 2013\n\nmicrosoft project 2013\n",
     "Resumen": "curriculum vitae\nleocadio manuel molina ferrada\nlas quilas norte 585, villa santa maria\nsantiago chile\n56999239045\nlemofe@hotmail.com\nresumen laboral\ningeniero civil industrial con mención en informática con más de 25 años de experiencia\nlaboral en grandes empresas nacionales. excelentes relaciones interpersonales y auto\nmotivación, con habilidades consolidadas en la administración de personal y liderazgo de\nequipos de trabajo.\nsoy un profesional con experiencia en el área de informática, área donde cuento con una\nmayor experiencia profesional, como jefe de proyectos, también he logrado\ndesenvolverme muy bien en labores de control y gestión, liderando exitosamente equipos\nde trabajo, alcanzando siempre los objetivos y metas establecidos, siendo categórico a la\nhora de tomar una decisión.\nmi anhelo es optar a un cargo de mayor responsabilidad, con capacidad de gestión y que\nme permita como profesional, utilizar todas las herramientas de que dispongo para\nrealizar una exitosa labor.\n",
     "Referencias": "",
-    "Nombre archivo": "1569435429597-CV_Leocadio_Molina"
+    "Skills": [
+        "Word",
+        "Erp",
+        "Windows",
+        "Power point",
+        "Solomon",
+        "Microsoft project",
+        "Powerpoint",
+        "Excel",
+        "Visio",
+        "Base de datos",
+        "Sap",
+        "Oracle"
+    ]
 }

@@ -1,30 +1,34 @@
 {
-    "Nombre": "Felipe Lopez Tabares ",
-    "Correo": [
-        "felipelopezt@gmail.com"
-    ],
-    "Linkedin": "linkedin.com/in/felipelopezt",
-    "Celular": "+57316470266",
-    "Skills": [
-        "Erp"
-    ],
+    "Contacto": {
+        "Nombre": "Felipe Lopez Tabares ",
+        "Correo": [
+            "felipelopezt@gmail.com"
+        ],
+        "Celular": "+57316470266",
+        "Linkedin": "linkedin.com/in/felipelopezt"
+    },
+    "Nombre archivo": "1571078738557-Felipe_Lopez",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Ingeniería"
-    ],
     "Palabras Claves": [
-        "Liderar",
         "Gestión",
         "Negociación",
-        "Responsabilidad",
-        "Modelamiento"
+        "Modelamiento",
+        "Liderar",
+        "Responsabilidad"
     ],
-    "Educacion": [],
+    "Educacion": {
+        "Universidades:": [],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [
         "Inglés"
     ],
     "Experiencia": "experiencia profesional\nimpala terminals grupo trafigura nov 2014 julio 2019\ntrading y activos para el manejo de oil gas y productos mineros. puertos, almacenes, minas y\nmedios de transporte por tierra y agua\ncargo gerente regional hsec latam salud, seguridad, ambiente y comunidades\ngerencia de hsec en 9 países\ndesarrollo e implementación de guías globales lo cual permitió la incorporación de un nuevo socio\nen la operación después de un exitoso proceso de debida diligencia en hse\nimplementación de principios de ecuador según ifc en brasil y colombia, obteniendo recursos\nfinancieros y aumento en el nivel de reputación\naseguramiento de la respuesta a derrames y manejo de crisis en las operaciones de alto riesgo\ncertificación de la operación logística multimodal en colombia como emisor de bonos de carbono\nimplementación global de balanced score card y disminución de incidentes en más de 20 anual\nimplementación de software hse para la investigación de incidentes y reporte de desempeño\nlicenciamiento ambiental y disminución de requisitos de alto costo en países con alta imposición\ngrupo energia bogotá empresas del sector eléctrico y gas en colombia, guatemala, brazil y perú\nabril 2012 - nov 2014\ncargo gerente corporativo sistema de gestión integrado hseq\nresponsable por todos los aspectos de hse en 10 operaciones controladas del portafolio del grupo\nformulación e implementación de guías y gobierno corporativo en hsec\nmejor calificación en el índice de sostenibilidad dow jones en el sector compañías de electricidad\nmiembro de junta directiva en dos compañías del grupo y vicepresidente administrativo e\nlíder en hsec para la fusión y adquisiciones de compañías del grupo, manteniendo cero daño\nemisión de políticas para aportar al manejo del cambio climático y reducción emisiones del 30\nprimera certificación en colombia en sistemas de eficiencia energética basados en iso50001\npremio al mejor plan de manejo ambiental en colombia\nlupatech oil field services well testing/ logging, slick line, coiled tubing servicios petroleros\ndic 2010 - abril 2012\ncargo gerente administrativo\ngerencia administrativa responsable por el desempeño a todas las áreas de soporte a la operación\nlíder de la apertura del negocio de cañoneo en colombia manejo de explosivos incrementando\nlos ingresos en 18\nimplementación de sistemas informáticos erp incluyendo el control del desempeño en hse\nlogrando la eficiencia operacional y una disminución sostenible en incidentes del 18\napertura de las oficinas centrales en colombia y tres bases de operación\ngpc grupo de empresas petroleras, operación de campos y servicios\nnov 2003 - feb 2010\ncargos gerente de proyectos / coordinador de procesos / coordinador de calidad\nmejoramiento de las operaciones en cumplimiento con estándares hse\nimplementación principios de ecuador según estándares ifc\ndebida diligencia en hsec para la venta de los campos petroleros del grupo\nlíder de hse y administración en la apertura de dos compañías en méxico\ngerencia y caso de éxito publicado en página de microsoft por implementación de sw - erp\nrediseño del modelo de control financiero y operativo para mejorar el gobierno corporativo\nimplementación de flujos de trabajo y reporte para el control y reporte a los miembros de junta\nbrightstar colombia operador logístico para el sector de telecomunicaciones\n2005 - 2006\ncargo jefe de calidad\nlider del área de calidad y miembro del equipo de reingeniería para mover 40 de la operación en\nmiami a colombia zona franca proporcionando ventajas costo efectivas incluyendo impuestos\nsistecom ltda. consultoría ingeniería y construcción para el sector de hidrocarburos\njun 1999 - nov 2003\ncargo ingeniero qa/qc y de sistemas\nlider del control y aseguramiento de calidad de la compañía\nimplementación y certificación del sistema de gestión hseq\nimplementación de modelo de proyectos pmi para la gestión organizacional de la empresa\neducacion principal\n-\ncertificado general internacional en salud y seguridad ocupacional nebosh, reino unido\n-\nespecialización en gerencia y administración financiera universidad piloto de colombia\n-\nespecialización en gerencia de proyectos universidad piloto de colombia\n-\ndiplomado en gerencia y auditoria en calidad - universidad industrial de santander\n-\ningeniero industrial universidad libre\nexcelente inglés y portugués intermedio\n",
     "Resumen": "felipe lopez tabares\ncelular 57 316 470 2660\nfelipelopezt@gmail.com\nlinkedin.com/in/felipelopezt\nprofesional con amplia experiencia hse en los sectores de oil gas, energético, minero y logístico\nproporcionando gobierno y guía corporativa para lograr alto desempeño y eficiencia operacional.\ndurante una variada carrera internacional he gerenciado áreas de hse, locales regionales y ejecutivas,\nhe liderado debidas diligencias e implementado estándares ifc int. finance corp.. también he\nlogrado y administrado licencias socio ambientales complejas. he obtenido certificaciones iso en\nvarios países y dirijo investigaciones de incidentes graves, también he implementado sistemas\ncorporativos hse logrando los objetivos propuestos para una operación sostenible.\n",
     "Referencias": "",
-    "Nombre archivo": "1571078738557-Felipe_Lopez"
+    "Skills": [
+        "Erp"
+    ]
 }

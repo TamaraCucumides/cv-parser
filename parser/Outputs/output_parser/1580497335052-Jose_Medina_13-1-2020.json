@@ -1,39 +1,43 @@
 {
-    "Nombre": "José Ignacio Medina ",
-    "Correo": [
-        "ignacio.medina@live.com"
-    ],
-    "Linkedin": null,
-    "Celular": "+56982096158",
-    "Skills": [
-        "Stata",
-        "Office",
-        "Sap",
-        "Coaching"
-    ],
+    "Contacto": {
+        "Nombre": "José Ignacio Medina ",
+        "Correo": [
+            "ignacio.medina@live.com"
+        ],
+        "Celular": "+56982096158",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1580497335052-Jose_Medina_13-1-2020",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Mba"
-    ],
     "Palabras Claves": [
-        "Aprender",
-        "Liderar",
         "Gestión",
-        "Negociación",
-        "Análisis",
         "Alegre",
-        "Estrategia",
-        "Responsabilidad",
+        "Análisis",
+        "Aprender",
+        "Negociación",
         "Adaptable",
-        "Creativo"
+        "Liderar",
+        "Estrategia",
+        "Creativo",
+        "Responsabilidad"
     ],
-    "Educacion": [
-        "Universidad de Chile",
-        "Universidad Santo Tomas"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad Santo Tomas",
+            "Universidad de Chile"
+        ],
+        "Grado_mas_alto": [
+            "Mba"
+        ]
+    },
     "Lenguajes": [],
     "Experiencia": "experiencia laboral\ntodo aceros maestranza y montaje reemplazo oct, 2019\ncargo planificador.\nresponsabilidad liderar procesos de planificación, controlar costos, stock, materias\nprimas y fechas de productos terminados, prevenir frenos en la cadena productiva.\nlogros organizar información para dar proceso a la formación de un depto. de\nplanificación de alto rendimiento ajustado al crecimiento actual de la empresa.\ncatedras ingenieria comercial, universidad santo tomas 2019 mar a dic\ncargo docente\ncatedras de formacion especifi1ca para ingenieros comerciales, en los ramos de\ncontabilidad para la gestion primer ano y metodos cuantitativos 2 tercer ano .\nmapfre 2018 a 2019\ncargo agente de seguros\nresponsabilidades liderar equipos de trabajo, vender productos, generación de carteras\nde clientes largo plazo.\nlogros aumento en la captación de cliente de un 25, fidelización mediante venta mixta\nde productos accesorios de salud, vida u hogar.\ntaxi turismo tarapacá 2016 a 2018\ncargo ejecutivo de transportes\nresponsabilidades liderar equipo de venta, potenciar productos, generar cartera de\nclientes a corto plazo, convenios comerciales, creación de promociones por temporadas\nlogros aumento en la captación de clientes de un 20, aumento en la demanda de\nservicios.\nimportadora y exportadora jmd ltda, iquique 2015 2016\ncargo administrativo\nresponsabilidades apoyo en tareas en el área de finanzas y planificación.\nlogros métodos para disminuir los costos comerciales y operativos, búsqueda de nuevas\noportunidades de negocios.\ntaxi turismo tarapacá 2013 a 2015\ncargo asistente de transportes\nresponsabilidades liderar equipos de trabajo, vender productos, generación de carteras\nde clientes largo plazo.\nlogros vinculación de cliente al entorno de servicios, mejorar índices de reclamos.\nc.s. electromecánica e.i.r.i iquique 2010 - 2012\ncargo analista\nresponsabilidades análisis de información para la toma de decisiones mas eficientes y a\nlargo plazo.\nlogros disminuir costos, hacer mas eficientes las cadenas de distribución, tiempos de\nrespuesta mas rápido y mayor poder de negociación con proveedores.\n",
     "Resumen": "josé ignacio medina franco\ningeniero comercial\n56 9 82096158\nignacio.medina@live.com\nprofesional con experiencia en el área comercial, ventas, logística, con interés en\nla gestión de proyectos públicos o privados y áreas comerciales.\nfortalezas destacables, visión estratégica, adaptabilidad al cambio, autocontrol,\ncapacidad para aprender, flexibilidad, creatividad, negociación, orientación a\nresultados, dinamismo, e integridad.\n",
     "Referencias": "",
-    "Nombre archivo": "1580497335052-Jose_Medina_13-1-2020"
+    "Skills": [
+        "Stata",
+        "Coaching",
+        "Sap",
+        "Office"
+    ]
 }

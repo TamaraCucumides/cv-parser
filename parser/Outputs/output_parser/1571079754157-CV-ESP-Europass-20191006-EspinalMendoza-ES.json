@@ -1,26 +1,30 @@
 {
-    "Nombre": "Espinal Mendoza Carol ",
-    "Correo": "Carol.espinal@uptc.edu.co",
-    "Linkedin": null,
-    "Celular": "+57300725897",
-    "Skills": [],
+    "Contacto": {
+        "Nombre": "Espinal Mendoza Carol ",
+        "Correo": "Carol.espinal@uptc.edu.co",
+        "Celular": "+57300725897",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1571079754157-CV-ESP-Europass-20191006-EspinalMendoza-ES",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Ingeniería"
-    ],
     "Palabras Claves": [
+        "Puntual",
         "Creativo",
-        "Responsabilidad",
-        "Puntual"
+        "Responsabilidad"
     ],
-    "Educacion": [
-        "Universidad Central de Chile"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad Central de Chile"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [
         "Inglés"
     ],
     "Experiencia": "",
     "Resumen": "currículum vítae\n",
     "Referencias": "",
-    "Nombre archivo": "1571079754157-CV-ESP-Europass-20191006-EspinalMendoza-ES"
+    "Skills": []
 }

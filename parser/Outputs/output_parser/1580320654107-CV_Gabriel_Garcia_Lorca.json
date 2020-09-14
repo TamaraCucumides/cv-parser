@@ -1,33 +1,37 @@
 {
-    "Nombre": "Gabriel García Lorca ",
-    "Correo": [
-        "gabogarcia@gmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": "+56942270233",
-    "Skills": [
-        "Salesforce",
-        "E-commerce",
-        "Crm",
-        "Analytics"
-    ],
+    "Contacto": {
+        "Nombre": "Gabriel García Lorca ",
+        "Correo": [
+            "gabogarcia@gmail.com"
+        ],
+        "Celular": "+56942270233",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1580320654107-CV_Gabriel_Garcia_Lorca",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Ingeniería"
-    ],
     "Palabras Claves": [
-        "Liderar",
         "Gestión",
         "Análisis",
+        "Liderar",
         "Estrategia",
         "Responsabilidad"
     ],
-    "Educacion": [
-        "Universidad de Chile"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad de Chile"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [],
     "Experiencia": "experiencia laboral\nabril 2016 a la fecha\nsales manager - ims corporate chile\n3 años y 5 meses\nconsultoría publicitaria, desarrollo de estrategias de marketing online, análisis de oportunidades comerciales,\nplataformas digitales en desarrollo electronic arts, twitch, vevo, foursquare, google waze.\nactividades y logros\n\naumento de revenue en cuentas de un 60 yoy\n\ndesarrollo de venta consultiva para plataformas de publicidad online\n\nplanificación y desarrollo estrategias para publicidad online performante.\n2015 a 2016\ndirector comercial - white label mkt\n1 año y 1 mes\ndesarrollo comercial b2b de agencia de publicidad online, performance marketing, seo, estrategia de contenidos,\nanalítica web. plataformas digitales google, facebook, twitter. responsable por el cumplimiento del plan de\ncrecimiento de la agencia.\nactividades y logros\n\naumento de cartera de clientes en un 30\n\ndesarrollo de venta consultiva para servicios de posicionamiento orgánico seo, paid media y métricas online,\ncon foco al performance online.\n\nplanificación y desarrollo estrategias para aumento de leads y conversiones.\n2012 a 2015\nproduct manager marketing y productos - terra networks s.a.\n3 años y 2 meses\nservicios de suscripción de contenidos musicales y de video. desarrollo de productos de contenido. relación con sellos\ndiscográficos y scd. desarrollo de acuerdos comerciales, pricing y revenues para proyectos de mobile advertising.\nactividades y logros\n\ngracias a la definición del plan de marketing, sonora fue durante dos meses consecutivos la app top 1 en\ndescargas nacionales para iphone y android.\n\ngestión estratégica de contenidos con sellos discográficos. definición, implementación y seguimiento de\nacciones de marketing online para la explotación de la plataforma sonora\n\nimplementación y gestion de carteras de clientes bundle con movistar. implementación de planes de incentivo\nde uso, nuevas altas y bajas mensuales.\n2010 a 2012\nanalista senior de e-commerce y servicios web - entel pcs 2 años y 1 mes\nintegra el equipo de servicios online, liderando los proyectos de e-commerce, autoatención y satisfacción de clientes de\ntelefonía móvil y banda ancha móvil.\nactividades y logros\nlanzamiento del primer e-commerce de renovación de equipos en línea y compra de prepagos de la\ncompañía.\ndefinición de flujos de trabajo para atención integrada de canales remotos web y call center\ndefinición, seguimiento y control de indicadores de gestión para área de servicios web\nusuario lider para desarrollos web banda ancha móvil bam. coordina definición de requerimientos,\nespecificación de procesos funcionales e interfaz con áreas de marketing, procesos comerciales y proveedores\npara los proyectos.\n2006 a 2010\nwebmaster / jefe de proyectos - telefónica del sur 3 años y 8 meses\ndesarrollo de proyectos de intranet e internet público y privado. e-commerce, e-care y autoatención de clientes.\nactividades y logros\ndesarrollo del primer sitio de preventas con integración a call center de la compañía.\ndesarrollo de los perfiles de redes sociales y la estrategia de comunicación con clientes por medio de la\nconvergencia de los canales de atención omnicanalidad.\n2005 a 2006\njefe de proyectos - transact group 1 año y 1 mes\nlidera el equipo de desarrollo web y mobile para contenidos de entretención.\nactividades y logros\ndesarrollo de proyectos de contenido mobile y desktop\nformación / herramientas\n\nuniversidad tecnológica de chile inacap apoquindo, área informática y telecomunicaciones ingeniería en\ngestión informática 2001-2005\n\ncurso de desarrollo de presentaciones efectivas en la fen de la universidad de chile.\n\ncertificación en plataformas de marketing digital google analytics, google adwords, twitter, linkedin, spotify,\nwaze, twitch, electronic arts, foursquare, yahoo, linkedin, spotify.\n\nuso avanzado de crm salesforce, pipedrive para gestión del ciclo de ventas.\n",
     "Resumen": "gabriel garcía lorca\ningeniero en informática, con foco en el online. 13 años de experiencia en desarrollo de estrategias de branded\ncontent, e-commerce y servicios de e-care en industrias telco, medios de comunicación y online advertising.\nplanificación y estrategias publicitarias en seo y paid media.\n",
     "Referencias": "",
-    "Nombre archivo": "1580320654107-CV_Gabriel_Garcia_Lorca"
+    "Skills": [
+        "Analytics",
+        "Salesforce",
+        "Crm",
+        "E-commerce"
+    ]
 }

@@ -1,38 +1,42 @@
 {
-    "Nombre": "Mi Contacto Leng ",
-    "Correo": [
-        "djorqueramineria@gmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": "+56968064676",
-    "Skills": [
-        "Photoshop",
-        "Excel",
-        "Word"
-    ],
+    "Contacto": {
+        "Nombre": "Mi Contacto Leng ",
+        "Correo": [
+            "djorqueramineria@gmail.com"
+        ],
+        "Celular": "+56968064676",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1568524118628-Curriculum_Vitae_Diego_Nicolás_J",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Ingeniero"
-    ],
     "Palabras Claves": [
+        "Compromiso",
+        "Motivación",
         "Proactividad",
         "Negociación",
-        "Compromiso",
-        "Creativo",
-        "Motivación"
+        "Creativo"
     ],
-    "Educacion": [
-        "Universidad Andrés Bello",
-        "Universidad Viña del Mar"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad Viña del Mar",
+            "Universidad Andrés Bello"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniero"
+        ]
+    },
     "Lenguajes": [
         "Español",
-        "Inglés intermedio",
         "Español avanzado",
+        "Inglés intermedio",
         "Inglés"
     ],
     "Experiencia": "experiencia\nminera las cenizas s.a\npráctica profesional i\nprocesos mineros\njulio - septiembre 2018\napoyo a jefe de turno, mina\nsubterránea sauce operaciones\nminera las cenizas s.a\npráctica profesional ii\nproyectos mineros\nenero - marzo 2019\nevaluación económica y técnica,\naumentar recuperación de\ncaserones en realce por sls\n",
     "Resumen": "sobre mi\n",
     "Referencias": "",
-    "Nombre archivo": "1568524118628-Curriculum_Vitae_Diego_Nicolás_J"
+    "Skills": [
+        "Excel",
+        "Word",
+        "Photoshop"
+    ]
 }

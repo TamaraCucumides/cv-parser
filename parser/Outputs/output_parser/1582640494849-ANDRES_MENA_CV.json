@@ -1,40 +1,44 @@
 {
-    "Nombre": "Andrés Mena Claussen ",
-    "Correo": [
-        "anmenac@gmail.com"
-    ],
-    "Linkedin": "linkedin.com/in/andrés-mena-claussen",
-    "Celular": "+56930557657",
-    "Skills": [
-        "Excel",
-        "Word",
-        "Power point"
-    ],
+    "Contacto": {
+        "Nombre": "Andrés Mena Claussen ",
+        "Correo": [
+            "anmenac@gmail.com"
+        ],
+        "Celular": "+56930557657",
+        "Linkedin": "linkedin.com/in/andrés-mena-claussen"
+    },
+    "Nombre archivo": "1582640494849-ANDRES_MENA_CV",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Ingeniería"
-    ],
     "Palabras Claves": [
-        "Aprender",
-        "Analizar",
         "Proactividad",
+        "Aprender",
         "Negociación",
+        "Sociable",
+        "Analizar",
         "Estrategia",
-        "Creativo",
-        "Sociable"
+        "Creativo"
     ],
-    "Educacion": [
-        "Universidad del Desarrollo"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad del Desarrollo"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [
-        "Inglés intermedio",
-        "Alemán",
-        "Inglés",
         "Alemán avanzado",
-        "Español"
+        "Español",
+        "Inglés intermedio",
+        "Inglés",
+        "Alemán"
     ],
     "Experiencia": "experiencia laboral\nas composites www.ascomposites.com\nnoviembre 2019 enero 2020\nempresa dedicada a entregar soluciones de ingeniería en materiales compuestos.\n\nevaluación de proyecto. evaluar proyecto que consiste en fabricar planeadores bajo\nlicencia en chile y venderlos en sudamérica.\n",
     "Resumen": "andrés mena claussen\n569 30557657\nanmenac@gmail.com\nlinkedin.com/in/andrés-mena-claussen\ningeniero comercial de la universidad del desarrollo. trilingüe español, alemán, inglés, con\nexperiencia laboral en el extranjero. persona proactiva con facilidad de trabajar en equipo de\nmanera sociable, creativa y empática. en búsqueda de trabajos desafiantes, que me permitan\naprender de cada uno de ellos.\n",
     "Referencias": "",
-    "Nombre archivo": "1582640494849-ANDRES_MENA_CV"
+    "Skills": [
+        "Excel",
+        "Word",
+        "Power point"
+    ]
 }

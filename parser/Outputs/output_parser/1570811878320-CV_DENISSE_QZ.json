@@ -1,30 +1,34 @@
 {
-    "Nombre": null,
-    "Correo": [
-        "deniquinteros@gmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": [
-        "56985909373"
-    ],
-    "Skills": [],
+    "Contacto": {
+        "Nombre": null,
+        "Correo": [
+            "deniquinteros@gmail.com"
+        ],
+        "Celular": [
+            "56985909373"
+        ],
+        "Linkedin": null
+    },
+    "Nombre archivo": "1570811878320-CV_DENISSE_QZ",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Licenciada"
-    ],
     "Palabras Claves": [
-        "Creativo",
-        "Gestión",
         "Comprometido",
-        "Responsabilidad",
-        "Adaptable",
+        "Gestión",
         "Disposición",
-        "Colaboración"
+        "Adaptable",
+        "Colaboración",
+        "Creativo",
+        "Responsabilidad"
     ],
-    "Educacion": [],
+    "Educacion": {
+        "Universidades:": [],
+        "Grado_mas_alto": [
+            "Licenciada"
+        ]
+    },
     "Lenguajes": [],
     "Experiencia": "",
     "Resumen": "perfil\nme considero una persona responsable, dinámica y creativa, con facilidad de\nadaptación y capacidad para trabajar en equipos, bajo alta presión, con\niniciativa para resolver problemas de manera eficiente y alcanzar las metas y\n",
     "Referencias": "",
-    "Nombre archivo": "1570811878320-CV_DENISSE_QZ"
+    "Skills": []
 }

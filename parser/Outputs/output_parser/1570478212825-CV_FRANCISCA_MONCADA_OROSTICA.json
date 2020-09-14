@@ -1,35 +1,39 @@
 {
-    "Nombre": "S C ",
-    "Correo": [],
-    "Linkedin": null,
-    "Celular": [
-        "56990434234"
-    ],
-    "Skills": [
-        "Html",
-        "Excel",
-        "Erp",
-        "Mysql",
-        "Analytics",
-        "Wordpress"
-    ],
+    "Contacto": {
+        "Nombre": "S C ",
+        "Correo": [],
+        "Celular": [
+            "56990434234"
+        ],
+        "Linkedin": null
+    },
+    "Nombre archivo": "1570478212825-CV_FRANCISCA_MONCADA_OROSTICA",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Ingeniero"
-    ],
     "Palabras Claves": [
-        "Liderazgo",
-        "Apasionado",
-        "Estrategia",
         "Tolerancia",
+        "Apasionado",
+        "Liderazgo",
+        "Estrategia",
         "Sociable"
     ],
-    "Educacion": [],
+    "Educacion": {
+        "Universidades:": [],
+        "Grado_mas_alto": [
+            "Ingeniero"
+        ]
+    },
     "Lenguajes": [
         "Inglés"
     ],
     "Experiencia": "experiencia\nnoviembre 2018 actualmente\namoro chile las condes, región\nmetropolitana, chile\njefe asociado de proyectos\n\nrealizar campañas de marketing y publicidad orientadas a potenciar la imagen\ncorporativa y ventas de los clientes.\n\ndiseño web- e-commerce- trade marketing- btl.\njunio 2017 noviembre 2018 oncólogos sociedad limitada\nviña del mar, chile\ncoordinadora comercial y administrativa\n\ngenerar y mantener buenas relaciones con isapres.\n\ncoordinar equipos de profesionales del área de la salud.\n\ndar cumplimiento a las garantías ges4.\n\nplanificar estrategias comerciales para mejorar los procesos internos.\nmarzo 2014 junio 2017\namoro chile\nviña del mar, chile\ncoordinadora de logística\n\ncoordinar y supervisar equipos de trabajo.\n\nrealizar campañas de btl y trade marketing para distintos clientes.\n\nmás de 150 promotores a cargo, logrando campañas simultaneas desde\nalgarrobo a zapallar, abarcando todo el litoral central.\n2\njunio 2013 marzo 2014 restaurante el rancho del cordobes viña del mar, chile\ndueña- administradora\n\nrealizar alianzas estratégicas a modo de incrementar las ventas.\n\noptimizar costos operativos.\n\ndirigir equipos de rrhh con el fin de lograr mejor ambiente laboral y mejorar\nla productividad.\n",
     "Resumen": "f r a n c i s c a m o n c a d a o r o s t i c a\ni n g e n i e r o c o m e r c i a l\ns a n j o s é d e l a s i e r r a 9 3 , l a s c o n d e s . r e g i ó n m e t r o p o l i t a n a .\nf . m o n c a d a o r o s t i c a @ g m a i l . c o m\n5 6 9 9 0 4 3 4 2 3 4\nobjetivo\nmi interés como profesional consiste en desarrollarme en el área comercial o de\nmarketing dentro de una empresa, en la cual busco contribuir en función de los\nobjetivos de la organización.\nla tecnología y la innovación son dos áreas que me apasionan y soy una convencida\nde sus múltiples usos y beneficios dentro de una organización.\n",
     "Referencias": "",
-    "Nombre archivo": "1570478212825-CV_FRANCISCA_MONCADA_OROSTICA"
+    "Skills": [
+        "Erp",
+        "Wordpress",
+        "Mysql",
+        "Analytics",
+        "Excel",
+        "Html"
+    ]
 }

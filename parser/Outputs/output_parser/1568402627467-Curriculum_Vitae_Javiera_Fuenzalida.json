@@ -1,39 +1,43 @@
 {
-    "Nombre": "Javiera Andrea Fuenzalida ",
-    "Correo": [
-        "j.fuenzalida@hotmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": "+56976670204",
-    "Skills": [
-        "Office",
-        "Excel",
-        "Word",
-        "Sap",
-        "Access",
-        "Wordpress",
-        "Power point"
-    ],
+    "Contacto": {
+        "Nombre": "Javiera Andrea Fuenzalida ",
+        "Correo": [
+            "j.fuenzalida@hotmail.com"
+        ],
+        "Celular": "+56976670204",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1568402627467-Curriculum_Vitae_Javiera_Fuenzalida",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Ingeniería"
-    ],
     "Palabras Claves": [
+        "Puntual",
+        "Gestión",
         "Aprender",
         "Analizar",
-        "Gestión",
         "Estrategia",
-        "Responsabilidad",
-        "Puntual"
+        "Responsabilidad"
     ],
-    "Educacion": [
-        "Universidad de Tarapacá"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad de Tarapacá"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [
         "Inglés"
     ],
     "Experiencia": "experiencia laboral\n2017 2018. ayudantias en la universidad de tarapacá.\nfunciones realizar ayudantía en las asignaturas de sistema de información\nadministrativa y taller de integración de conocimientos, a\nalumnos de cuarto año de la carrera de ingeniería civil industrial, además de\nintroducción a la física, a alumnos de primer año de la carrera de ingeniería\ncivil industrial.\n2018. komatsu reman center.\nfunciones control de ingreso de trabajos realizados por proveedores externos y pago a\nproveedores. las tareas realizadas se dividen en tres actividades importantes la primera\nes el ingreso de datos en el programa sap, donde se registraba el trabajo realizado por los\nproveedores externos fecha de inicio, costo, fecha de término y el componente a reparar.\nla segunda, la creación y actualización de la planilla excel, donde se mantendrá\ninformática\nuso nivel avanzado de\nmicrosoft office excel, word y\npower point.\nuso nivel intermedio de\nmicrosoft office access\nsoftware wordpress,\nspss y simio.\nactualizada la fecha de inicio de los trabajos y de esta forma la empresa analizar el\ndesempeño de cada proveedor externo. y el último, el ingreso de las facturas para poder\nrealizar los pagos a cada proveedor.\n2019 compañía minera zaldivar.\nfunciones gestión de indicadores de desempeño, actualización de estrategias en sap y\nseguimientos de puesta en marcha del sistema rmes. en el sistema sap se implementó\nla estrategia de mantenimiento pautas y procedimientos de trabajos específicos para las\nhojas de rutas existentes para los activos de operaciones minas, además de la obtención\nde los indicadores kpi de los trabajos realizados semanalmente en la compañía, por medio\ndel programa sap y excel. por último, el seguimiento de la implementación del nuevo\nsistema utilizado en la compañía el sistema rmes para mantenimiento minas.\njaviera andrea fuenzalida verdejo.\nestudiante ingeniería civil industrial, uta.\n",
     "Resumen": "javiera andrea fuenzalida verdejo\nedad 25\nordenada, responsable y puntual. entusiasta de conocer y aprender variados tipos de\nherramientas y actividades que me permita desarrollar mi potencial profesional y personal,\ncon la finalidad de poder enfrentar cualquier problemática que se me presente.\n",
     "Referencias": "",
-    "Nombre archivo": "1568402627467-Curriculum_Vitae_Javiera_Fuenzalida"
+    "Skills": [
+        "Word",
+        "Wordpress",
+        "Access",
+        "Excel",
+        "Office",
+        "Sap",
+        "Power point"
+    ]
 }

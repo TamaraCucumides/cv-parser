@@ -1,40 +1,44 @@
 {
-    "Nombre": "Nombre Francisco Javier ",
-    "Correo": [
-        "francisco.schwemmer@gmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": "+56984793173",
-    "Skills": [
-        "Office",
-        "Excel",
-        "Word",
-        "Solidworks",
-        "Autocad",
-        "Microsoft project",
-        "Visio",
-        "Power point"
-    ],
+    "Contacto": {
+        "Nombre": "Nombre Francisco Javier ",
+        "Correo": [
+            "francisco.schwemmer@gmail.com"
+        ],
+        "Celular": "+56984793173",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1568599189985-curriculum_vitae_FRANCISCO_SCHWEMMER",
     "Licencias-Certificaciones": [
-        "CLASE B",
-        "LICENCIA DE CONDUCIR"
-    ],
-    "Grado": [
-        "Ingeniería"
+        "LICENCIA DE CONDUCIR",
+        "CLASE B"
     ],
     "Palabras Claves": [
-        "Gestión",
+        "Liderazgo",
         "Negociación",
-        "Liderazgo"
+        "Gestión"
     ],
-    "Educacion": [
-        "Universidad de Antofagasta"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad de Antofagasta"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [
         "Inglés"
     ],
     "Experiencia": "experiencia laboral\n10/2018 - actualidad minera meridian limitada faena el peñón, ingeniero en entrenamiento.\nárea servicios mina.\n\nrealización de proyecto de selección de bomba de pozo para drenar agua desde el\ninterior de la mina, abarcando ingeniería conceptual, básica y de detalle.\n\nrealización de proyecto con sistemas de aspersores para mitigar lo máximo posible la\npolución generada después de las tronaduras en interior mina.\n\ncreación de plan de mantenimiento, instructivos de trabajo, registros de\nmantenciones preventivas y correctivas para llevar control de todas las válvulas\nreductoras de presión en interior mina y encargado de realizar las reparaciones a\nválvulas proporcionales y pilotadas.\n03/2017 05/2017 komatsu reman center chile, práctica profesional.\nárea ingeniería de procesos.\n\nrealización de informes técnicos a componentes hidráulicos y eléctricos, alguno de\nellos el motor eléctrico b25 rotor y estator, cilindros de dirección 930 y 960,\nsuspensión trasera 930 y 960, conjunto de freno carlisle, los cuales se almacenaban\nen reso 3 plataforma interactiva para visualizar procedimientos técnicos.\n\nrealización de listados de insumos, equipos, epp y herramientas para poder realizar\nlas labores de mantenimientos a los componentes mencionados anteriormente.\n01/2016 02/2016 minera escondida limitada, práctica profesional.\nárea restauración palas.\n\nrealización de informe técnico sobre cambio de bastidores de la pala eléctrica bucyrus\n495hr, informando sobre las distintas desviaciones, tiempos y problemas que surgen\nen la realización del overhaul.\n\nencargado de realizar un layout del posicionamiento de la pala bucyrus 495hr con\nrespecto a los cilindros de levante, para poder extraer los bastidores y sus zapatas.\n\nencargado de realizar check list sobre insumos y distintos componentes necesarios\npara trabajos de overhaul en faena de 3 a 7 días y para más de 7 días.\notros datos\n",
     "Resumen": "curriculum vitae\nnombre\nfrancisco javier schwemmer lópez\nrut\n17.723.403-6\nfecha de nacimiento\n20 agosto de 1990\ndirección\nzapallar 635, antofagasta, chile.\nteléfono\n56-9 84793173 / 56-9 79452434\ncorreo de contacto\nfrancisco.schwemmer@gmail.com\n",
     "Referencias": "",
-    "Nombre archivo": "1568599189985-curriculum_vitae_FRANCISCO_SCHWEMMER"
+    "Skills": [
+        "Word",
+        "Microsoft project",
+        "Autocad",
+        "Solidworks",
+        "Excel",
+        "Visio",
+        "Office",
+        "Power point"
+    ]
 }

@@ -1,32 +1,36 @@
 {
-    "Nombre": "Diego Cristian Huenumilla ",
-    "Correo": [
-        "dhuenumilla@gmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": "+56982004609",
-    "Skills": [
-        "Office",
-        "Digsilent",
-        "Matlab"
-    ],
+    "Contacto": {
+        "Nombre": "Diego Cristian Huenumilla ",
+        "Correo": [
+            "dhuenumilla@gmail.com"
+        ],
+        "Celular": "+56982004609",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1568521499922-CV_Diego_Huenumilla",
     "Licencias-Certificaciones": [
-        "CLASE B",
         "LICENCIA DE CONDUCIR",
-        "INSTALADOR ELECTRICO"
-    ],
-    "Grado": [
-        "Ingeniería"
+        "INSTALADOR ELECTRICO",
+        "CLASE B"
     ],
     "Palabras Claves": null,
-    "Educacion": [
-        "Universidad de Concepción"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad de Concepción"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [
         "Inglés"
     ],
     "Experiencia": "antecedentes laborales\nenlasa alumno memorista, enero 2018 junio 2018.\nenlasa práctica profesional como ingeniero de estudios en proyectos de ingeniería\nenero 2018 junio 2018.\n",
     "Resumen": "diego cristian huenumilla mardones\ningeniero civil eléctrico, universidad de concepción. principal formación en el mercado eléctrico\nchileno tanto en su legislación y en su aplicación en el sistema eléctrico chileno y formación en\nsistemas eléctricos de potencia, manejo en software especializados en análisis de sistemas de potencia.\n",
     "Referencias": "",
-    "Nombre archivo": "1568521499922-CV_Diego_Huenumilla"
+    "Skills": [
+        "Digsilent",
+        "Matlab",
+        "Office"
+    ]
 }

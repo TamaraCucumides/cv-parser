@@ -1,32 +1,29 @@
 {
-    "Nombre": "Felipe Germán Haupt ",
-    "Correo": [
-        "fghaupt@miuandes.cl"
-    ],
-    "Linkedin": null,
-    "Celular": [
-        "56997458888"
-    ],
-    "Skills": [
-        "Excel",
-        "Sial",
-        "Sap",
-        "Metodologías ágiles",
-        "Dynamics",
-        "Bsale"
-    ],
+    "Contacto": {
+        "Nombre": "Felipe Germán Haupt ",
+        "Correo": [
+            "fghaupt@miuandes.cl"
+        ],
+        "Celular": [
+            "56997458888"
+        ],
+        "Linkedin": null
+    },
+    "Nombre archivo": "1586987553214-Felipe_Haupt_Ossa_-CV_1",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Ingeniería"
-    ],
     "Palabras Claves": [
-        "Liderazgo",
         "Gestión",
         "Negociación",
+        "Liderazgo",
         "Estrategia",
         "Responsabilidad"
     ],
-    "Educacion": [],
+    "Educacion": {
+        "Universidades:": [],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [
         "Inglés avanzado",
         "Inglés"
@@ -34,5 +31,12 @@
     "Experiencia": "experiencia laboral\nseptiembre 2018 a julio 2019\nbrand manager hbc briones comercial chile\nresponsable de la estrategia comercial para las marcas omega, iwc y panerai. le reporte al gerente general y gerente comercial\n- relación estrecha con regional sales manager del grupo swatch y richemont.\n- gestión y planificación del presupuesto anual para las marcas además, del desarrollo e implementación del plan de marketing.\n- relación comercial con importadora jpt en zona franca de iquique, joyería casa barros y gallery en santiago.\n- curso de liderazgo y técnicas de venta, aprobados por omega.\nmarzo 2016 a marzo 2018\nretail sales manager lacoste chile\nresponsable de los objetivos comerciales del canal retail y outlet. le reporte al retail manager de chile y perú\n- administración y gestión del presupuesto anual pl para retail.\n- comprador de las categorías indumentaria, calzado y accesorios.\n- gestión y supervisión de los kpis de rendimiento, de acuerdo a los objetivos y estrategia de crecimiento del negocio.\nmarzo 2014 a febrero 2016\nhead coach manager - saville row chile\nresponsable de la gestión comercial y operación de tiendas propias. le reporte al gerente comercial\n- responsable de los indicadores de los kpis de gestión, rendimiento, ventas e inventario en el punto de venta.\n- desarrollo de metodologías ágiles en los equipos de venta, para promover la optimización de trabajo y resolución de problemas.\n- capacitación y entrenamiento de los nuevos jefes de tienda y vendedores, en conjunto con el gerente comercial.\noctubre 2012 a enero 2014\nasset management banmerchant capital chile\nasesor de inversiones para altos patrimonios e institucionales. le reporte al gerente comercial del capital\n- miembro del comité semanal de inversión y visión de mercados.\n- desarrollo del informe visión de mercados e inversiones banmerchant capital.\n- transacción de activos y productos financieros en el mercado nacional e internacional, relación estrecha con instituciones financieras.\nagosto 2010 a septiembre 2012\nproduct manager revlon chile\n- control y supervisión de los puntos de venta cadenas de farmacias, tiendas por departamento y cadena de supermercados.\n- creación y desarrollo de nuevos productos, para kadus o marca propias de vuestros distribuidores.\n- comprador de materias primas, materiales para la fabricación y producción de los productos.\n- trabaje en conjunto con el ingeniero de sap, en el desarrollo de informes de rendimientos sobre la producción y ordenes de compra.\n- desarrollo e implementación de sap para la bodega de productos terminados y procesos de distribución.\n",
     "Resumen": "1\nfelipe germán haupt ossa\n569 9745 8888 fghaupt@miuandes.cl\ningeniero comercial, titulado de la universidad de los andes, con 8 años de experiencia en áreas comerciales y marketing. se destaca su\norientación al logro, perseverancia, autonomía para la toma de decisiones y trabajo en equipo. entre otras competencias destacan su alta\ncapacidad analítica, buen manejo del trabajo bajo presión, orden y simpatía. inglés avanzado.\n",
     "Referencias": "",
-    "Nombre archivo": "1586987553214-Felipe_Haupt_Ossa_-CV_1"
+    "Skills": [
+        "Metodologías ágiles",
+        "Bsale",
+        "Sial",
+        "Excel",
+        "Dynamics",
+        "Sap"
+    ]
 }

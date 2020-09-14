@@ -1,37 +1,41 @@
 {
-    "Nombre": "Tatiana Paola Campos ",
-    "Correo": "taticam08@gmail.com",
-    "Linkedin": null,
-    "Celular": "+56953166643",
-    "Skills": [
-        "Oracle"
-    ],
+    "Contacto": {
+        "Nombre": "Tatiana Paola Campos ",
+        "Correo": "taticam08@gmail.com",
+        "Celular": "+56953166643",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1569898176858-CV_HR_Tatiana_Campos",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Magíster"
-    ],
     "Palabras Claves": [
+        "Compromiso",
+        "Gestión",
+        "Análisis",
+        "Motivación",
+        "Negociación",
+        "Adaptable",
+        "Liderar",
         "Colaboración",
         "Liderazgo",
-        "Liderar",
-        "Gestión",
-        "Negociación",
-        "Análisis",
-        "Compromiso",
-        "Estrategia",
-        "Adaptable",
-        "Motivación"
+        "Estrategia"
     ],
-    "Educacion": [
-        "Universidad Católica de Chile",
-        "Pontificia Universidad Catolica de Chile",
-        "Universidad Mayor",
-        "Universidad del Desarrollo",
-        "Universidad de Santiago de Chile"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad Mayor",
+            "Universidad del Desarrollo",
+            "Pontificia Universidad Catolica de Chile",
+            "Universidad de Santiago de Chile",
+            "Universidad Católica de Chile"
+        ],
+        "Grado_mas_alto": [
+            "Magíster"
+        ]
+    },
     "Lenguajes": [],
     "Experiencia": "experiencia\nen\ncompañías\nmultinacionales\ndel\nretail,\nindustrial\ny\nfarmaceútica.\nexperiencia\nen\ngestionar\ny\ncoordinar\nlocalmente\nlas\náreas\ninternas\nasociadas\na\nselección,\ncapacitación,\ncompensación,\ncomunicación\ny\ndesarrollo\norganizacional.\nalto\ncompromiso,\norientación\nal\nresultado,\ndesarrollo\nde\n",
     "Resumen": "1\ntatiana\npaola\ncampos\nherrán\ncorreo\nelectrónico\n\ntaticam08@gmail.com\nteléfonos\nde\n",
     "Referencias": "referencias\njaime\nhidalgo\ngaedecke\nhuman\nresources\nex\ndirector\nchile\nperú\nsherwin\nwilliams\n56992368177\njaimehidalgo911@yahoo.com\nviviana\nurra,\ngeneral\nmanager\nhr\ngrowin\nviviana.urra@hrgrowin.cl\n56957095380\n",
-    "Nombre archivo": "1569898176858-CV_HR_Tatiana_Campos"
+    "Skills": [
+        "Oracle"
+    ]
 }

@@ -1,30 +1,26 @@
 {
-    "Nombre": "Elías Fernando Rebolled ",
-    "Correo": [
-        "elias.rebolledo.rodriguez@gmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": "+56942215717",
-    "Skills": [
-        "Office",
-        "Excel",
-        "Word",
-        "Solidworks",
-        "Autocad",
-        "Visio",
-        "Power point"
-    ],
+    "Contacto": {
+        "Nombre": "Elías Fernando Rebolled ",
+        "Correo": [
+            "elias.rebolledo.rodriguez@gmail.com"
+        ],
+        "Celular": "+56942215717",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1568314676766-Elias_Rebolledo_-_Curriculum_Vitae_2019-2",
     "Licencias-Certificaciones": [
-        "CLASE B",
-        "LICENCIA DE CONDUCIR"
-    ],
-    "Grado": [
-        "Ingeniería"
+        "LICENCIA DE CONDUCIR",
+        "CLASE B"
     ],
     "Palabras Claves": null,
-    "Educacion": [
-        "Universidad de Antofagasta"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad de Antofagasta"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [
         "Español",
         "Inglés"
@@ -32,5 +28,13 @@
     "Experiencia": "antecedentes laborales\nene mar 2018\npráctica profesional. distribuidora cummins chile s.a.\nene feb 2017\npráctica profesional. compañía minera zaldívar spa.\n1 semestre 2016\nayudantía de termodinámica 1. universidad de antofagasta.\n2 semestre 2015\nayudantía de mecánica 1. universidad de antofagasta.\ninformática\nsoftware cad solidworks nivel medio, autocad nivel usuario.\nsoftware microsoft office word, excel y power point nivel medio, visio y project nivel\nusuario.\n",
     "Resumen": "elías fernando rebolledo rodríguez\negresado de ingeniería civil industrial en mecánica, universidad de antofagasta.\n",
     "Referencias": "",
-    "Nombre archivo": "1568314676766-Elias_Rebolledo_-_Curriculum_Vitae_2019-2"
+    "Skills": [
+        "Word",
+        "Autocad",
+        "Solidworks",
+        "Excel",
+        "Visio",
+        "Office",
+        "Power point"
+    ]
 }

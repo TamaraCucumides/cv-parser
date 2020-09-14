@@ -1,29 +1,31 @@
 {
-    "Nombre": "Romina Jesús Fernández ",
-    "Correo": "romina.fernandez@ing.uchile.cl",
-    "Linkedin": "linkedin.com/in/romina-fernández-espinoza-11622",
-    "Celular": "+56990834984",
-    "Skills": [
-        "Oﬃce"
-    ],
+    "Contacto": {
+        "Nombre": "Romina Jesús Fernández ",
+        "Correo": "romina.fernandez@ing.uchile.cl",
+        "Celular": "+56990834984",
+        "Linkedin": "linkedin.com/in/romina-fernández-espinoza-11622"
+    },
+    "Nombre archivo": "1568571332183-CV_Romina_Fernandez_Espinoza",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Ingeniería"
-    ],
     "Palabras Claves": [
-        "Liderazgo",
-        "Pasion",
-        "Gestión",
-        "Negociación",
         "Comprometido",
+        "Gestión",
         "Análisis",
-        "Responsabilidad",
+        "Pasion",
+        "Negociación",
         "Adaptable",
-        "Creativo"
+        "Liderazgo",
+        "Creativo",
+        "Responsabilidad"
     ],
-    "Educacion": [
-        "Universidad de Chile"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad de Chile"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [
         "Español",
         "Inglés"
@@ -31,5 +33,7 @@
     "Experiencia": "experiencia laboral\n01/2019 2017\nmemorista codelco, división andina\nunidad de hundimiento y desarrollos, mina\nsubterránea\nlos andes\nevaluación técnica - económica del nuevo diseño de\nperforación en el nivel de hundimiento mina subterránea\npráctica profesional iii evaluación de problemas unidad y\ncomo se relaciona con los kpi\ncontacto danilo yañez perez 56990789697\n03/2017 12/2018\nuniversidad de chile, fcfm\nayudante de laboratorio materiales\nsantiago\nasesorar y dirigir la experiencia de laboratorio de resistencia\nde aceros\n01/2016 03/2016\nantofagasta minerals, minera centinela\npráctica profesional ii en área de planiﬁcación\na largo plazo\nsantiago\nmetodología de lane y análisis de la congestión de camiones\nen la planiﬁcación a largo plazo\ncontacto fabián lemus 56976663836\n01/2013 02/2013\npráctica profesional i codelco, división\ngabriela mistral\nárea mina\ncalama\nestudio comparativo de tiempos de ciclo entre camiones\nautónomos y camiones tradicionales\n",
     "Resumen": "romina de jesús fernández espinoza\nestudiante ingeniería civil de minas\nalumna comprometida con la pro-actividad, sustentabilidad y adaptabilidad al entorno laboral. capaz de formar e integrar grupos de\ntrabajo que cumplen con los objetivos propuestos, creando valor para el negocio minero.\nromina.fernandez@ing.uchile.cl\n56 9 9083 4984\nel chamanto 10961, la florida, santiago, chile\n07 december, 1991\nlinkedin.com/in/romina-fernández-espinoza-11622\n",
     "Referencias": "referencias\ngonzalo montes, departamento de ingeniería de minas,\nuniversidad de chile\ncontacto gmontes@ing.uchile.cl 56 9 7987 21 24\nalfonso f. otero m., d.sc., ingeniero civil metalúrgico,\nutfsm\ncontacto alfonso.oterom@gmail.com - 56 9 5688 8531\n",
-    "Nombre archivo": "1568571332183-CV_Romina_Fernandez_Espinoza"
+    "Skills": [
+        "Oﬃce"
+    ]
 }

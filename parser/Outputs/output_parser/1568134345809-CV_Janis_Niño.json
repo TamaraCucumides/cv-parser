@@ -1,36 +1,40 @@
 {
-    "Nombre": "Janis Andreina Niño ",
-    "Correo": [
-        "janisvasquez@gmail.com"
-    ],
-    "Linkedin": "www.linkedin.com/in/janis-niño-5856b026/",
-    "Celular": "+56930666539",
-    "Skills": [
-        "Office",
-        "Paquete office",
-        "Coaching"
-    ],
+    "Contacto": {
+        "Nombre": "Janis Andreina Niño ",
+        "Correo": [
+            "janisvasquez@gmail.com"
+        ],
+        "Celular": "+56930666539",
+        "Linkedin": "www.linkedin.com/in/janis-niño-5856b026/"
+    },
+    "Nombre archivo": "1568134345809-CV_Janis_Niño",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Licenciada"
-    ],
     "Palabras Claves": [
-        "Colaboración",
-        "Liderazgo",
-        "Liderar",
-        "Proactividad",
+        "Compromiso",
         "Gestión",
         "Análisis",
-        "Compromiso",
+        "Proactividad",
+        "Motivación",
+        "Liderar",
+        "Colaboración",
+        "Liderazgo",
         "Estrategia",
-        "Responsabilidad",
         "Creativo",
-        "Motivación"
+        "Responsabilidad"
     ],
-    "Educacion": [],
+    "Educacion": {
+        "Universidades:": [],
+        "Grado_mas_alto": [
+            "Licenciada"
+        ]
+    },
     "Lenguajes": [],
     "Experiencia": "antecedentes laborales\njulio 2019 actualidad\nplay to learn, santiago de chile.\npsicólogo diseño e implementación de talleres educativos y corporativos para el\ndesarrollo de las principales habilidades del siglo xxi colaboración, pensamiento crítico,\ncreatividad y resolución de problemas.\n\nhabilidades sociales / habilidades blandas.\n\ninteligencia emocional en práctica.\n\ndesarrollo de competencias relacionadas a funciones cognitivas.\nfebrero 2018 febrero 2019\nvenprecar, venezuela.\npsicólogo industrial responsable procesos de reclutamiento y selección,\ndesarrollo e implementación de programas para disminuir la accidentabilidad, cultura\npreventiva, mejoramiento del clima organizacional, desarrollo de habilidades de\nliderazgo.\n\nproceso de reclutamiento y selección según requerimiento de cliente interno.\n\ndiseño e implementación de talleres en las áreas para el desarrollo de\nhabilidades blandas de los trabajadores, con el objetivo de mejorar el clima\nlaboral, motivación y compromiso organizacional, comunicación efectiva, entre\n",
     "Resumen": "janis andreina niño vasquez\n",
     "Referencias": "referencias\ndebora dressler\npsicopedagoga grandir asesorías actualmente ceo de play to learn, santiago de\nchile. cel 56 9 34017815.\nmaría alejandra araya\npsicólogo bdv abogados. cel 56 9 56407613.\nherling perdomo\npsicopedagoga centro de educación inicial la alquitrana actualmente\npsicopedagoga en colegio el encuentro. cel 56 9 91796768.\n",
-    "Nombre archivo": "1568134345809-CV_Janis_Niño"
+    "Skills": [
+        "Paquete office",
+        "Coaching",
+        "Office"
+    ]
 }

@@ -1,42 +1,46 @@
 {
-    "Nombre": "Erika Sotomayor Ulloa ",
-    "Correo": [
-        "eesotomayor@uc.cl"
-    ],
-    "Linkedin": null,
-    "Celular": "+56989999586",
-    "Skills": [
-        "Sql",
-        "Excel",
-        "Power bi",
-        "Stata",
-        "Machine learning",
-        "Python",
-        "Toeic"
-    ],
+    "Contacto": {
+        "Nombre": "Erika Sotomayor Ulloa ",
+        "Correo": [
+            "eesotomayor@uc.cl"
+        ],
+        "Celular": "+56989999586",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1588283816605-CV_Erika_Sotomayor_Ulloa",
     "Licencias-Certificaciones": [
         "TOEIC"
     ],
-    "Grado": [
-        "Ingeniería"
-    ],
     "Palabras Claves": [
-        "Aprender",
         "Gestión",
         "Análisis",
-        "Estrategia",
-        "Modelamiento"
+        "Aprender",
+        "Modelamiento",
+        "Estrategia"
     ],
-    "Educacion": [
-        "Universidad Católica de Chile",
-        "Universidad Santo Tomas",
-        "Pontificia Universidad Catolica de Chile"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad Católica de Chile",
+            "Universidad Santo Tomas",
+            "Pontificia Universidad Catolica de Chile"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [
         "Inglés"
     ],
     "Experiencia": "experiencia laboral\nparticipación en programa sin límites uc septiembre a diciembre 2019\nparticipación en proyecto para derco proponer una estrategia de marketing para distintos\nsegmentos de clientes, en base a herramientas de machine learning evaluada con nota 7, y siendo\nun proyecto destacado en la 10ma versión del programa al recibir el reconocimiento al trabajo\ninterdisciplinario. encargada de realizar el análisis de las variables de segmentación de clientes y\nestudio de cada grupo objetivo, conectando esta información con la herramienta de programación\ndesarrollada.\npráctica profesional banco bci enero y febrero 2017\npracticante del gerente general de la corredora de seguros. las principales funciones consistían en\nmapeo, modelamiento, análisis y oportunidades de mejora en los procesos de venta, sumado a\napoyo en gestión de procesos propios.\n",
     "Resumen": "erika sotomayor ulloa\nsantiago, chile 569 8 9999 586 eesotomayor@uc.cl\n",
     "Referencias": "",
-    "Nombre archivo": "1588283816605-CV_Erika_Sotomayor_Ulloa"
+    "Skills": [
+        "Stata",
+        "Toeic",
+        "Machine learning",
+        "Power bi",
+        "Excel",
+        "Sql",
+        "Python"
+    ]
 }

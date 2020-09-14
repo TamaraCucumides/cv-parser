@@ -22,6 +22,7 @@ from gensim.models.keyedvectors import KeyedVectors
 import yaml
 import numpy as np
 import string
+from constantes import perfil, educacion_sec, cursos, habilidades, contacto, logros, hobbies, experiencias, referencias
 
 
 
@@ -304,27 +305,14 @@ def extraer_grado(text):
 def retrieve_dates(text):
     pass
 
-def secciones_limpio(dataframe):
-    ar = [str(exp).lower() for exp in dataframe if str(exp)!='nan' and str(exp)!= ' ']
-    return ar
 
 
-def extraer_referencias(cv_txt):
-    direc = os.getcwd()
-    path_secciones_dic = direc + '/CSVs/Secciones CVs_buscador.csv'
 
-    secciones_dic = pd.read_csv(path_secciones_dic)
-    experiencia = secciones_limpio(secciones_dic.Experiencia)
-    perfil = secciones_limpio(secciones_dic.Perfil)
-    educacion = secciones_limpio(secciones_dic.Educacion)
-    cursos = secciones_limpio(secciones_dic.Cursos)
-    habilidades = secciones_limpio(secciones_dic.Habilidades) 
-    contacto = secciones_limpio(secciones_dic.Contacto)
-    referencias = secciones_limpio(secciones_dic.Referencias)
-    logros = secciones_limpio(secciones_dic.Logros)
-    hobbies = secciones_limpio(secciones_dic.Hobbies)
+def extraer_referencias(cv_txt):   
 
-    otros = perfil + educacion + cursos + habilidades + contacto +  logros+ hobbies + experiencia
+
+
+    otros = perfil + educacion_sec + cursos + habilidades + contacto +  logros+ hobbies + experiencias
     linea_referencia = False
     siguiente_seccion = False
     parrafo = ''
@@ -375,21 +363,8 @@ def extraer_referencias(cv_txt):
 
 
 def extraer_perfil(cv_text):
-    direc = os.getcwd()
-    path_secciones_dic = direc + '/CSVs/Secciones CVs_buscador.csv'
 
-    secciones_dic = pd.read_csv(path_secciones_dic)
-
-    experiencia = secciones_limpio(secciones_dic.Experiencia)
-    perfil = secciones_limpio(secciones_dic.Perfil)
-    educacion = secciones_limpio(secciones_dic.Educacion)
-    cursos = secciones_limpio(secciones_dic.Cursos)
-    habilidades = secciones_limpio(secciones_dic.Habilidades) 
-    contacto = secciones_limpio(secciones_dic.Contacto)
-    referencias = secciones_limpio(secciones_dic.Referencias)
-    logros = secciones_limpio(secciones_dic.Logros)
-    hobbies = secciones_limpio(secciones_dic.Hobbies)
-    otros = educacion + cursos + habilidades + contacto + referencias + logros+ hobbies + experiencia
+    otros = educacion_sec + cursos + habilidades + contacto + referencias + logros+ hobbies + experiencias
     n = -1
     siguiente_seccion = False
     parrafo = ''
@@ -444,21 +419,11 @@ def extraer_perfil(cv_text):
 
 def extraer_experiencia(cv_text):
     cv_text = cv_text.splitlines()
-    direc = os.getcwd()
-    path_secciones_dic = direc + '/CSVs/Secciones CVs_buscador.csv'
 
-    secciones_dic = pd.read_csv(path_secciones_dic)
-    experiencia_list = secciones_limpio(secciones_dic.Experiencia)
-    perfil = secciones_limpio(secciones_dic.Perfil)
-    educacion = secciones_limpio(secciones_dic.Educacion)
-    cursos = secciones_limpio(secciones_dic.Cursos)
-    habilidades = secciones_limpio(secciones_dic.Habilidades) 
-    contacto = secciones_limpio(secciones_dic.Contacto)
-    referencias = secciones_limpio(secciones_dic.Referencias)
-    logros = secciones_limpio(secciones_dic.Logros)
-    hobbies = secciones_limpio(secciones_dic.Hobbies)
 
-    otros = perfil + educacion + cursos + habilidades + contacto + referencias + logros+ hobbies
+
+
+    otros = perfil + educacion_sec + cursos + habilidades + contacto + referencias + logros+ hobbies
 
 
 
@@ -481,7 +446,7 @@ def extraer_experiencia(cv_text):
 
 
         linea = " ".join(linea.split())
-        for experiencia in experiencia_list:
+        for experiencia in experiencias:
             linea_np = re.sub(r'[^\w\s]','', linea)
             experiencia_np = re.sub(r'[^\w\s]','', experiencia)
             linea_un = "".join(unidecode.unidecode(linea_np).split())

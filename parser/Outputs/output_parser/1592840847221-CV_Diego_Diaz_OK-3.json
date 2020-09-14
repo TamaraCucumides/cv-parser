@@ -1,30 +1,34 @@
 {
-    "Nombre": "Diego Arturo Díaz ",
-    "Correo": [
-        "diego94@live.cl"
-    ],
-    "Linkedin": null,
-    "Celular": "+56955334022",
-    "Skills": [
-        "Excel"
-    ],
+    "Contacto": {
+        "Nombre": "Diego Arturo Díaz ",
+        "Correo": [
+            "diego94@live.cl"
+        ],
+        "Celular": "+56955334022",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1592840847221-CV_Diego_Diaz_OK-3",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Magíster"
-    ],
     "Palabras Claves": [
-        "Liderar",
         "Gestión",
         "Negociación",
-        "Estrategia",
-        "Perfeccionista"
+        "Perfeccionista",
+        "Liderar",
+        "Estrategia"
     ],
-    "Educacion": [
-        "Universidad Adolfo Ibáñez"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad Adolfo Ibáñez"
+        ],
+        "Grado_mas_alto": [
+            "Magíster"
+        ]
+    },
     "Lenguajes": [],
     "Experiencia": "experiencia laboral\nuniversidad adolfo ibañez\ntaller de emprendimiento\nhexa - producciones\nárea creador potenciar micro empresarios en maitencillo\npráctica operativa\ncargo crear puesto feria artesanal y potenciar micro empresarios\nmaitencillo, chile 2014\njunto a un grupo de trabajo creamos estrategias que ayudarían a\nmicro empresarios a potenciar sus negocios. por otra parte\ngeneramos ventas con un propio puesto.\nemprendimiento personal\npuestos feria navideña quilpué\nquilpué, chile 2012- 2014\narrendatario de 3 puestos en feria navideña quilpué donde\ncapturaba ventas de artículos de navidad y juguetes durante 3 años\nconsecutivos.\nemprendimiento personal\narriendo estacionamiento unimarc\nvilla alemana, chile 2011\narriendo estacionamiento del edificio para recibir ingresos de las\npersonas que iban al lugar.\n",
     "Resumen": "resumen profesional\npresento interés en el área de investigación de mercado,\nadministración o gestión. durante mi vida universitaria me he\ndesempeñado principalmente en emprendimiento. ahora me\ninteresa desarrollarme en nuevas áreas como al mismo tiempo\nhacer carrera en una empresa. me destaco por ser ordenado,\nperfeccionista y con mucho interés en la parte numérica.\nempresa registro de marca, branding y búsqueda de proveedores\nsantiago, chile 2019\ncrear una marca innovadora para dos productos nuevos que se\nincorporan al país. liderar en conjunto de un equipo de trabajo sus\nenvoltorios y posición en tienda, para finalmente registrar marca y\nbuscar proveedores locales.\nempresa investigación externa empresa extrajera - asesoría\nárea investigación de mercado posicionamiento de marca\npráctica profesional\ninvestigación y dar valor a marca\nsantiago, chile 2019\ndesarrollar un producto nuevo, crear valor a su marca e investigar\ncomo posicionarlo en el mercado chileno desde un punto de asesoría.\nempresa importadora daniels chile\nárea investigación de mercado y administración\npráctica profesional\ncargo administrativo e investigación de mercado\nsantiago, chile 2019\nayudar en la parte administrativa con el uso de b2b, replantear el\norden administrativo. finalmente, hacer un estudio de mercado de\nuna nueva línea de producción para la firma.\nemprendimiento personal\nventa de iluminación led a edificios\nviña del mar, chile 2017\ncompra y venta de iluminación led de generando reuniones con la\nadministración de conjuntos habitacionales mostrando el potencial\nahorro que se podría efectuar al adquirir nuestros productos.\nempresa rosen\nárea marketing\npráctica administrativa\ncargo investigación puntos fríos y calientes tiendas v región\nviña del mar, chile 2016\ncrear una estrategia para buscar puntos fríos y calientes en tiendas\nde la quinta región. de esta forma sacar el máximo potencial a la\ndistribución de mercadería de la empresa.\n",
     "Referencias": "",
-    "Nombre archivo": "1592840847221-CV_Diego_Diaz_OK-3"
+    "Skills": [
+        "Excel"
+    ]
 }

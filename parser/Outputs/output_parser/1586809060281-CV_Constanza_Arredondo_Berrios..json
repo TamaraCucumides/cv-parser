@@ -1,48 +1,52 @@
 {
-    "Nombre": "Constanza Arredondo Berríos ",
-    "Correo": [
-        "cearredondo@uc.cl"
-    ],
-    "Linkedin": null,
-    "Celular": [
-        "56988076057"
-    ],
-    "Skills": [
-        "Bases de datos",
-        "Excel"
-    ],
+    "Contacto": {
+        "Nombre": "Constanza Arredondo Berríos ",
+        "Correo": [
+            "cearredondo@uc.cl"
+        ],
+        "Celular": [
+            "56988076057"
+        ],
+        "Linkedin": null
+    },
+    "Nombre archivo": "1586809060281-CV_Constanza_Arredondo_Berrios.",
     "Licencias-Certificaciones": [
-        "CLASE B",
-        "LICENCIA DE CONDUCIR"
-    ],
-    "Grado": [
-        "Ingeniería"
+        "LICENCIA DE CONDUCIR",
+        "CLASE B"
     ],
     "Palabras Claves": [
-        "Aprender",
-        "Colaboración",
-        "Negociación",
-        "Amigable",
         "Alegre",
-        "Responsabilidad",
+        "Aprender",
+        "Negociación",
         "Adaptable",
+        "Modelamiento",
+        "Sociable",
+        "Colaboración",
+        "Amigable",
         "Voluntariado",
         "Creativo",
-        "Modelamiento",
-        "Sociable"
+        "Responsabilidad"
     ],
-    "Educacion": [
-        "Universidad Católica de Chile",
-        "Pontificia Universidad Catolica de Chile"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad Católica de Chile",
+            "Pontificia Universidad Catolica de Chile"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [
+        "Español",
         "Inglés avanzado",
         "Español nativo",
-        "Inglés",
-        "Español"
+        "Inglés"
     ],
     "Experiencia": "experiencia\nabril 2019 marzo 2020 working holiday en dinamarca.\nejecutiva comercial banco bice part- time\nbanco bice febrero 2019 marzo 2019\nmi trabajo se enfocó en la captación de clientes. busqué activamente el perfil\nde cliente, trabajé en equipo y desarrollé mis habilidades comunicativas para\nlograr con éxito mis objetivos mensuales.\nanalista desarrollo organizacional full-time\nempresas la polar s.a. octubre 2018 diciembre 2018\nreemplazo de prenatal. mi principal tarea consistió en dirigir y aplicar las\ncapacitaciones de los colaboradores de la empresa. analicé las bases de datos\nmediante excel y actualicé las descripciones de cargo de la empresa.\nejecutiva comercial banco bice part- time\nbanco bice mayo 2018 agosto 2018\nrealicé las mismas tareas más arriba descritas. además, recibí capacitación\nsobre prevención de delito financiero.\nayudante curso más capaz mujer emprendedora\nsimón de cirene diciembre 2016 - enero 2017\nen mi práctica me enfoque en el seguimiento y aplicación del curso de\ncapacitación de micro empresarias de santiago, mediante la implementación\ndel modelo canvas de negocios en cada uno de los proyectos y desarrollo\nde habilidades técnicas. también, implementé el programa lo barnechea\n",
     "Resumen": "presentación\nempática, responsable, alegre y\ncreativa. mi objetivo es\nconsolidarme profesionalmente\nen una organización, donde\npueda aprender y desarrollar\nmis habilidades técnicas y\nsociales.\nme gusta trabajar en equipo,\ncomunicarme, alcanzar\nobjetivos y planificar.\n",
     "Referencias": "",
-    "Nombre archivo": "1586809060281-CV_Constanza_Arredondo_Berrios."
+    "Skills": [
+        "Bases de datos",
+        "Excel"
+    ]
 }

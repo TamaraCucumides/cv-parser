@@ -1,29 +1,28 @@
 {
-    "Nombre": "Alejandra Fetis Carrasco ",
-    "Correo": [
-        "p.fetis@gmail.com"
-    ],
-    "Linkedin": null,
-    "Celular": "+56998165994",
-    "Skills": [
-        "Office",
-        "Excel",
-        "Word",
-        "Power point"
-    ],
+    "Contacto": {
+        "Nombre": "Alejandra Fetis Carrasco ",
+        "Correo": [
+            "p.fetis@gmail.com"
+        ],
+        "Celular": "+56998165994",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1574824594718-Ing._Comercial_Paula_Fetis_CV",
     "Licencias-Certificaciones": [],
-    "Grado": [
-        "Ingeniería"
-    ],
     "Palabras Claves": [
-        "Gestión",
+        "Liderazgo",
         "Analizar",
-        "Motivación",
-        "Liderazgo"
+        "Gestión",
+        "Motivación"
     ],
-    "Educacion": [
-        "Universidad del Desarrollo"
-    ],
+    "Educacion": {
+        "Universidades:": [
+            "Universidad del Desarrollo"
+        ],
+        "Grado_mas_alto": [
+            "Ingeniería"
+        ]
+    },
     "Lenguajes": [
         "Italiano",
         "Inglés"
@@ -31,5 +30,10 @@
     "Experiencia": "experiencia laboral\nmayo 2019 a\nagosto 2019\nrovin santiago, chile\nárea administrativa / apoyo back office\nanalizar comportamiento de gastos mensuales\ncontrol de stock e instalaciones mensuales\njulio 2018 a abril\n2019\nbanco itaú corpbanca santiago, chile\nárea comercial\nparte del programa de jóvenes profesionales, el cual consta de\nentrenamiento para área como ejecutiva de cuentas de la\nbanca preferencial.\nasesoría y evaluación de distintos productos y servicios\nbancarios de clientes.\nmanejo de cartera con aproximadamente 290 clientes.\nfebrero a abril\n2018\nsanta tienda concepción, chile\nventas\nanalizar el comportamiento de compra de los clientes\nmensualmente con el fin de controlar stock y venta de\nproductos.\nevaluar horarios de atención de acuerdo al flujo de clientes y\nventas para disminuir costos de personal y aumentar clientes.\ndiciembre 2015,\ndiciembre 2016 y\ndiciembre 2017\nuniversidad del desarrollo concepción, chile\nproceso admisión / atención al cliente\nparte del equipo encargado de orientar a los posibles nuevos\nalumnos de la carrera ingeniería comercial.\ndar información acerca de la universidad, becas, carreras, vías\nde ingreso, entre otros.\noctubre 2014 a\noctubre 2017\ningeniería comercial udd. concepción, chile\nteam admisión\nasistir a actividades de difusión de la carrera en representación\nde la coordinadora de carrera.\ncontarle a alumnos de establecimientos educacionales mi\nexperiencia en la carrera a través de los años.\nagosto 2017 a\nnoviembre 2017\nconfecciones creaciones jacqueline concepción, chile\npráctica profesional / marketing\nrealizar estudio de la competencia sobre el uso de las redes\nsociales y plataformas web.\ngestionar redes sociales.\nmarzo 2017 a\njulio 2017\nhuachipato fc concepción, chile\npráctica profesional / gestión\nencargada administrativa de escuelas filiales del club.\nordenar y actualizar información de cada escuela a nivel\nnacional.\nagosto 2016 a\ndiciembre 2016\nuniversidad del desarrollo concepción, chile\nayudante gestión de personas / recursos humanos\nformular, evaluar y corregir pruebas efectuadas tanto en clases\ncomo en las ayudantías.\nguiar a los alumnos en el desarrollo de su trabajo final para el\nsemestre.\n",
     "Resumen": "resumen del perfil profesional\ningeniero comercial de la universidad del desarrollo, con buen manejo de inglés e interés\nen área de innovación, finanzas y marketing. me destaco por mi alta orientación al trabajo\nen equipo, liderazgo, obtención de resultados y motivación.\n",
     "Referencias": "",
-    "Nombre archivo": "1574824594718-Ing._Comercial_Paula_Fetis_CV"
+    "Skills": [
+        "Excel",
+        "Word",
+        "Power point",
+        "Office"
+    ]
 }
