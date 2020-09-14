@@ -13,30 +13,30 @@
         "LICENCIA DE CONDUCIR"
     ],
     "Palabras Claves": [
-        "Responsabilidad",
         "Gestión",
+        "Responsabilidad",
         "Liderazgo"
     ],
     "Educacion": {
         "Universidades:": [
-            "Instituto Profesional INACAP",
-            "Universidad Central de Chile"
+            "Universidad Central de Chile",
+            "Instituto Profesional INACAP"
         ],
         "Grado_mas_alto": [
             "Ingeniería"
         ]
     },
     "Lenguajes": [
-        "Inglés avanzado",
-        "Inglés"
+        "Inglés",
+        "Inglés avanzado"
     ],
     "Experiencia": "experiencia laboral acg motors. 10/04/2017 25/01/2018 cargo asesor de servicio. encargado de controlar las mantenciones y supervisar el taller. experiencia laboral compañía minera doña inés de collahuasi práctica profesional. 04/01/2017 05/03/2017 cargo gerencia chancado y transporte planificación. encargado de la planificación de las pautas de mantención, ordenes de trabajo para las empresas contratistas y de la planta, además la organización de los repuestos del área, manejando ellipse 8.6. experiencia laboral econorent car rental. 10/08/2018 15/03/2019 cargo agente de renta. responsable de organizar y planificar los arriendos diarios y la atención al cliente. experiencia laboral ceduc ucn. a la actualidad 2019. cargo docente del área mecánica planificar el material de estudio, programación de clases y su ejecución. ",
-    "Resumen": null,
+    "Resumen": "resumen orientado principalmente a la gestión de personas, recursos y la planificación estratégica de proyectos de ingeniería, resumiendo estas capacidades en la optimización de los procesos. recalcando el área de mantenimiento como fuerte ya que esas son las áreas de manejo hasta la fecha. sólidos conocimientos científicos y de ingeniería, combinado con habilidades basadas en un pensamiento crítico y de liderazgo, que me permite enfrentar los problemas de la ingeniería en sus aspectos técnicos, sociales y ecológicos. participar activamente en la planeación y ejecución de proyectos o investigaciones relacionadas con el área de mantención, producción o gestión. ",
     "Referencias": "",
     "Skills": [
-        "Autocad",
+        "Rstudio",
         "Excel",
-        "Word",
-        "Rstudio"
+        "Autocad",
+        "Word"
     ]
 }

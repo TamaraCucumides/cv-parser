@@ -12,22 +12,22 @@
     "Nombre archivo": "1571081186653-CV_Sebastian_Soto_Valdes_A",
     "Licencias-Certificaciones": [],
     "Palabras Claves": [
-        "Negociación",
-        "Creativo",
-        "Disposición",
-        "Adaptable",
         "Comprometido",
         "Liderazgo",
+        "Responsabilidad",
         "Gestión",
-        "Responsabilidad"
+        "Disposición",
+        "Negociación",
+        "Creativo",
+        "Adaptable"
     ],
     "Educacion": {
         "Universidades:": [
-            "Instituto Profesional DUOC UC",
             "Pontificia Universidad Catolica de Chile",
+            "Universidad Adolfo Ibáñez",
+            "Instituto Profesional DUOC UC",
             "Universidad Católica de Chile",
-            "Universidad de Chile",
-            "Universidad Adolfo Ibáñez"
+            "Universidad de Chile"
         ],
         "Grado_mas_alto": [
             "Ingeniero"
@@ -35,17 +35,17 @@
     },
     "Lenguajes": [
         "Inglés intermedio",
-        "Español nativo",
         "Inglés",
-        "Español"
+        "Español",
+        "Español nativo"
     ],
     "Experiencia": "",
-    "Resumen": null,
+    "Resumen": "sebastián ignacio soto valdés ingeniero en información y control de gestión / contador auditor e-mail sesoto@fen.uchile.cl teléfono979660523 objetivo laboral profesional responsable, comprometido, creativo y dinámico, con facilidad de adaptación en distintos escenarios, capacidad de trabajar en equipos y bajo presión, además de tener gran disposición para resolver problemas de forma eficiente y así conseguir los objetivos y metas definidos en la institución. ",
     "Referencias": "",
     "Skills": [
         "Office",
-        "Scrum",
+        "Php",
         "Sap",
-        "Php"
+        "Scrum"
     ]
 }

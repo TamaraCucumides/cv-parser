@@ -10,15 +10,15 @@
     "Nombre archivo": "1571075456196-CV",
     "Licencias-Certificaciones": [],
     "Palabras Claves": [
-        "Escuchar",
-        "Autodidacta",
-        "Modelamiento",
+        "Responsabilidad",
         "Análisis",
+        "Escuchar",
         "Motivación",
+        "Autodidacta",
         "Aprender",
         "Gestión",
-        "Proactividad",
-        "Responsabilidad"
+        "Modelamiento",
+        "Proactividad"
     ],
     "Educacion": {
         "Universidades:": [
@@ -29,22 +29,22 @@
         ]
     },
     "Lenguajes": [
-        "Inglés",
-        "Español"
+        "Español",
+        "Inglés"
     ],
     "Experiencia": "",
-    "Resumen": null,
+    "Resumen": "ingeniera civil en computación e informática, con voluntad de querer aprender nuevas cosas y desarrollarse en diferentes áreas ,con el deseo de poder aportar y ser parte de su equipo de trabajo. 2013-2019 ingeniería civil en computación e informática universidad católica del norte, coquimbo. 2009 - 2012 enseñanza media escuela técnico profesional, copiapó 2002-2008 enseñanza básica liceo de música de copiapó  lenguajes de programación java , c, php, html5.  ",
     "Referencias": "",
     "Skills": [
-        "Coaching",
-        "Html5",
-        "Analytics",
         "Office",
-        "Sql",
         "Mysql",
+        "Bases de datos",
+        "Analytics",
+        "Html5",
         "Visual basic",
         "Java",
-        "Bases de datos",
+        "Coaching",
+        "Sql",
         "Php"
     ]
 }

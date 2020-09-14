@@ -421,7 +421,7 @@ def extraer_perfil(cv_text):
     #        parrafo = " ".join([str(x) for x in parrafo.splitlines()[1:-1]])
         
 
-    return 
+    return parrafo
     
 
 def extraer_experiencia(cv_text):
