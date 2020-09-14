@@ -6,22 +6,22 @@
     "Linkedin": null,
     "Celular": "+56988261301",
     "Skills": [
-        "Latex",
-        "Java",
-        "Scrum",
-        "Python",
-        "Bases de datos",
-        "Apache",
-        "Html",
-        "Git",
-        "Javascript",
-        "Excel",
-        "Toeic",
-        "Php",
-        "Word",
         "Sql",
+        "Java",
+        "Excel",
+        "Latex",
         "Verilog",
-        "Linux"
+        "Word",
+        "Javascript",
+        "Php",
+        "Html",
+        "Python",
+        "Git",
+        "Apache",
+        "Scrum",
+        "Linux",
+        "Bases de datos",
+        "Toeic"
     ],
     "Licencias-Certificaciones": [
         "TOEIC"
@@ -30,20 +30,23 @@
         "Ingeniería"
     ],
     "Palabras Claves": [
-        "Liderazgo",
         "Analizar",
-        "Adaptable",
-        "Creativo",
-        "Responsabilidad",
+        "Liderazgo",
         "Negociación",
-        "Voluntariado"
+        "Responsabilidad",
+        "Adaptable",
+        "Voluntariado",
+        "Creativo"
     ],
     "Educacion": [
         "Universidad Técnica Federico Santa María"
     ],
     "Lenguajes": [
-        "Inglés",
-        "Español"
+        "Español",
+        "Inglés"
     ],
+    "Experiencia": "",
+    "Resumen": "jorge hernández c.\ningeniero civil telemático\nfreire 178, depto. 21. valparaíso\n56 9 88 26 1301\njahernandezcontreras@gmail.com\n",
+    "Referencias": "",
     "Nombre archivo": "1569510909924-CV_JHC"
 }

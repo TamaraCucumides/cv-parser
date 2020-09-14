@@ -6,8 +6,8 @@
     "Linkedin": null,
     "Celular": "+56974211966",
     "Skills": [
-        "Bases de datos",
         "Vulcan",
+        "Bases de datos",
         "Office",
         "Lean management"
     ],
@@ -16,21 +16,24 @@
         "Ingeniería"
     ],
     "Palabras Claves": [
-        "Gestión",
-        "Creativo",
         "Aprender",
+        "Creativo",
+        "Gestión",
         "Responsabilidad"
     ],
     "Educacion": [
-        "Pontificia Universidad Catolica de Chile",
-        "Universidad De La Serena",
         "Universidad Católica de Chile",
-        "Universidad de Chile"
+        "Universidad de Chile",
+        "Universidad De La Serena",
+        "Pontificia Universidad Catolica de Chile"
     ],
     "Lenguajes": [
+        "Español",
         "Inglés",
-        "Portugués",
-        "Español"
+        "Portugués"
     ],
+    "Experiencia": "experiencia laboral\n",
+    "Resumen": "personal\ndirección\nvicuña mackenna 2203\ncalama\nnúmero de teléfono\n56974211966\ncorreo electrónico\nkeren.leiva@gmail.com\nfecha de nacimiento\n15-08-1988\nlugar de nacimiento\nla serena\nnacionalidad\nchilena\nestado civil\nconviviente civil\npermiso de conducir\nb\npágina web\nwww.kerenleiva.com\nlinkedin\nkerenhapuc\n",
+    "Referencias": "",
     "Nombre archivo": "1568638406975-CV_Keren_Leiva_2019"
 }

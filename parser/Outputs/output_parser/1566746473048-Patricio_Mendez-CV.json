@@ -6,25 +6,25 @@
     "Linkedin": "www.linkedin.com/in/patriciomendezcaneo/",
     "Celular": "+56978971888",
     "Skills": [
-        "Vulcan",
-        "Powerpoint",
-        "Base de datos",
         "Office",
         "Excel",
-        "Word"
+        "Word",
+        "Vulcan",
+        "Base de datos",
+        "Powerpoint"
     ],
     "Licencias-Certificaciones": [
-        "LICENCIA DE CONDUCIR",
-        "CLASE B"
+        "CLASE B",
+        "LICENCIA DE CONDUCIR"
     ],
     "Grado": [
         "Egresado"
     ],
     "Palabras Claves": [
-        "Modelamiento",
-        "Adaptable",
         "Análisis",
-        "Responsabilidad"
+        "Modelamiento",
+        "Responsabilidad",
+        "Adaptable"
     ],
     "Educacion": [
         "Universidad Católica del Norte"
@@ -32,5 +32,8 @@
     "Lenguajes": [
         "Inglés"
     ],
+    "Experiencia": "experiencia laboral\nde 21/01/2019 a la fecha\nminera antucoya, superintendencia de geotecnia\ncargo ocupado practicante 21/01/2019 01/03/2019\n\nactualización continua de base de datos estructurales, mediante mapeos de bancos y\ndatos i-site.\n\ncreación de script para software vulcan, a fin de realizar actualizaciones a modelos de\ncorto plazo con unidades geotécnicas.\n\ncreación de plantas del modelo de corto plazo, con unidades geotécnicas y\ndensidades, para área de perforación y tronadura.\n\nanálisis de potenciales mecanismos de inestabilidad en software tangram de bancos\nextraídos y bancos por extraer.\n\ncreación de superficies compuestas diseño de fase avance de mina para análisis\nde mecanismos de inestabilidad en bancos por extraer.\ncargo ocupado memorista 01/03/2019 actualidad\n\nactualización de estructuras mayores e intermedias, a partir de mapeos de bancos y\ndatos complementarios i-site obtenidos en escaneos de alta resolución\n\nmodelamiento de superficies de fallas actualizadas en software leapfrog geo.\n\nanálisis de potenciales mecanismos de inestabilidad en software tangram, para\ndiseños de fases, bancos extraídos y bancos por extraer.\n\nelaboración de procedimiento para la identificación de mecanismos de inestabilidad.\n\nelaboración de cartilla para mapeo en detalle de estructuras mayores e intermedias en\nbancos.\n\n5 días de mapeo estructural de bancos asistiendo a consultor john fedorowich\n",
+    "Resumen": "resumen profesional\nestudiante de último año de geología de la universidad católica del norte,\negresado etapa tesis, caracterizado por la responsabilidad y la seriedad ante\nel trabajo adquirido, además de la capacidad de resolver problemas propuestos\nindividualmente o en equipo y buena capacidad para adaptarse a cambios.\nespecial interés en el área geología minera, en la cual se tiene experiencia en\ngeotecnia-estructural.\n",
+    "Referencias": "",
     "Nombre archivo": "1566746473048-Patricio_Mendez-CV"
 }

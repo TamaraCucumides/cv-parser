@@ -4,37 +4,40 @@
     "Linkedin": null,
     "Celular": "+56989559399",
     "Skills": [
+        "Sql",
+        "Office",
         "Latex",
-        "Matlab",
+        "Erp",
+        "Windows",
+        "Autodesk",
         "Sap",
         "Python",
-        "Windows",
-        "Erp",
-        "Autodesk",
-        "Office",
-        "Sql",
+        "Matlab",
         "Linux"
     ],
     "Licencias-Certificaciones": [
-        "LICENCIA CONDUCIR",
-        "CLASE B"
+        "CLASE B",
+        "LICENCIA CONDUCIR"
     ],
     "Grado": [
         "Ingeniero"
     ],
     "Palabras Claves": [
-        "Negociación",
         "Gestión",
+        "Negociación",
         "Análisis"
     ],
     "Educacion": [
-        "Universidad Técnica Federico Santa María",
-        "Universidad de Chile"
+        "Universidad de Chile",
+        "Universidad Técnica Federico Santa María"
     ],
     "Lenguajes": [
+        "Español",
         "Inglés",
-        "Portugués",
-        "Español"
+        "Portugués"
     ],
+    "Experiencia": "experiencia\n2018-19\njefe de análisis inventario\nbase de mantenimiento, santiago\nlatam airlines\ncontrol de operación de inventario técnico aeronáutico a cargo de un\nequipo de 6 técnicos en base a 45.000 partes y 100 musd.\ncontrol de gestión de logística y almacenes.\ngeneración y pre-\nsentación de kpi como niveles de servicio logísticos, productividad,\nconfiabilidad para la flota boeing y airbus.\nimplementación de business inteligence para medición diaria de indi-\ncadores operativos.\nimplementación de inventario diario, madurez y alertas de desvia-\nciones.\n2017\ningeniero de procesos it experto\nbase de mantenimiento, santiago\nlatam airlines\nimplementación de mesa de mejora continua it, para clientes de\nabastecimiento técnico, no tecnico y combustibles.\nejecución de mas de 100 desarrollos a los sistemas erp sap, main-\ntenix y right angle, y sus integraciones.\nincremento de i nsta, uso de fábrica epriorización de iniciativas en base\na retornos económicos y legislaciones aeronaúticas y financieras.\n2014-16\ningeniero de procesos it\nbase de mantenimiento, santiago\nlatam airlines\ndata analisis y soporte al erp de mantenimiento y abastecimiento de\nrepuestos técnicos de las flotas airbus y boeing de latam con mas de\n6.000 usuarios y 320 aviones.\nrca analisis causa raiz para reoslución de problemas complejos de\nproceso entre negocio mantenimiento e it.\nmanejo y cumplimiento de sla entre 95 y 98 .\nsoporte proyecto unificación mantenimiento lan-tam, en sao paulo y\ncuritiba.\n",
+    "Resumen": "alexmedina\ningeniero civil electrónico\ningeniero civil electrónico con 5 años de experiencia laboral. trabajo en base a objetivos\nen equipos multidisciplinarios, haciendo la mejora continua de procesos, siempre aplicando\ny desarrollando la tecnología para formar procesos robustos, eficientes y transversales.\ntengo experiencia en minería, en astronomía y aviación comercial.\n",
+    "Referencias": "",
     "Nombre archivo": "1568129185939-AlexMedinaES2019"
 }

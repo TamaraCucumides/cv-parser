@@ -304,6 +304,210 @@ def extraer_grado(text):
 def retrieve_dates(text):
     pass
 
+def secciones_limpio(dataframe):
+    ar = [str(exp).lower() for exp in dataframe if str(exp)!='nan' and str(exp)!= ' ']
+    return ar
+
+
+def extraer_referencias(cv_txt):
+    direc = os.getcwd()
+    path_secciones_dic = direc + '/CSVs/Secciones CVs_buscador.csv'
+
+    secciones_dic = pd.read_csv(path_secciones_dic)
+    experiencia = secciones_limpio(secciones_dic.Experiencia)
+    perfil = secciones_limpio(secciones_dic.Perfil)
+    educacion = secciones_limpio(secciones_dic.Educacion)
+    cursos = secciones_limpio(secciones_dic.Cursos)
+    habilidades = secciones_limpio(secciones_dic.Habilidades) 
+    contacto = secciones_limpio(secciones_dic.Contacto)
+    referencias = secciones_limpio(secciones_dic.Referencias)
+    logros = secciones_limpio(secciones_dic.Logros)
+    hobbies = secciones_limpio(secciones_dic.Hobbies)
+
+    otros = perfil + educacion + cursos + habilidades + contacto +  logros+ hobbies + experiencia
+    linea_referencia = False
+    siguiente_seccion = False
+    parrafo = ''
+    for line in cv_txt.splitlines():
+        line_np = re.sub(r'[^\w\s]','', line)
+        l = sum([i.strip(string.punctuation).isalpha() for i in line_np.split()])
+        chunks = re.split(' +', line)
+        linea =''
+        for word in chunks:
+            linea += word.lower() + ' '
+
+        if ((len(line.strip()) == 0 ) and linea_referencia == False):
+            continue
+
+        #print(linea + '\n')
+        linea = " ".join(linea.split())
+
+        for referencia in referencias:
+            linea_np = re.sub(r'[^\w\s]','', linea)
+            referencia_np = re.sub(r'[^\w\s]','', referencia)
+            linea_un = "".join(unidecode.unidecode(linea_np).split())
+            referencia_un = "".join(unidecode.unidecode(referencia_np).split())
+            if referencia_un.lower() == linea_un.lower():
+                #print('He pillado la seccion')
+                linea_referencia = True
+                #print(linea.UPPER())
+                #continue
+
+
+        for otro in otros:
+            otro_np = re.sub(r'[^\w\s]','', otro)
+            linea_np = re.sub(r'[^\w\s]','', linea)
+            otro_un = unidecode.unidecode(otro_np)
+            linea_un = unidecode.unidecode(linea_np)
+
+            if linea_un.lower() == otro_un.lower() and linea_referencia:
+                #print(linea_un)
+                siguiente_seccion = True
+                break
+
+        if siguiente_seccion:
+            break
+
+        if linea_referencia == True and siguiente_seccion == False:
+            parrafo += linea + '\n'
+
+    return parrafo
+
+
+def extraer_perfil(cv_text):
+    direc = os.getcwd()
+    path_secciones_dic = direc + '/CSVs/Secciones CVs_buscador.csv'
+
+    secciones_dic = pd.read_csv(path_secciones_dic)
+
+    experiencia = secciones_limpio(secciones_dic.Experiencia)
+    perfil = secciones_limpio(secciones_dic.Perfil)
+    educacion = secciones_limpio(secciones_dic.Educacion)
+    cursos = secciones_limpio(secciones_dic.Cursos)
+    habilidades = secciones_limpio(secciones_dic.Habilidades) 
+    contacto = secciones_limpio(secciones_dic.Contacto)
+    referencias = secciones_limpio(secciones_dic.Referencias)
+    logros = secciones_limpio(secciones_dic.Logros)
+    hobbies = secciones_limpio(secciones_dic.Hobbies)
+    otros = educacion + cursos + habilidades + contacto + referencias + logros+ hobbies + experiencia
+    n = -1
+    siguiente_seccion = False
+    parrafo = ''
+    #print(cv_text)
+    n_linea = 0
+    for line in cv_text.splitlines():
+        n += 1
+        #print(line)
+        for resumen in perfil:
+            linea_np = re.sub(r'[^\w\s]','', line)
+            resumen_np = re.sub(r'[^\w\s]','', resumen)
+            linea_un = "".join(unidecode.unidecode(linea_np).split())
+            resumen_un = "".join(unidecode.unidecode(resumen_np).split())
+            if resumen_un.lower() == linea_un.lower():
+                #linea_resumen = True
+                #print('pille linea resumen')
+                #print(resumen_un)
+                n_linea = n
+                break
+    #print(n_linea)
+    #print(cv_txt)   
+    for line in cv_text.splitlines()[n_linea:-1]:   
+        #print('entre aca')
+        chunks = re.split(' +', line)
+        linea =''
+        for word in chunks:
+            linea += word.lower() + ' '
+
+        linea = " ".join(linea.split())
+
+
+
+        for otro in otros:
+            otro_np = re.sub(r'[^\w\s]','', otro)
+            linea_np = re.sub(r'[^\w\s]','', linea)
+            otro_un = "".join(unidecode.unidecode(otro_np).split())
+            linea_un = "".join(unidecode.unidecode(linea_np).split())
+
+            if linea_un.lower() == otro_un.lower() :
+                #print(linea_un.upper())
+                siguiente_seccion = True
+                break
+
+        if siguiente_seccion:
+            break
+
+        if  siguiente_seccion == False:
+            parrafo += linea + '\n'
+
+    return parrafo
+    
+
+def extraer_experiencia(cv_text):
+    cv_text = cv_text.splitlines()
+    direc = os.getcwd()
+    path_secciones_dic = direc + '/CSVs/Secciones CVs_buscador.csv'
+
+    secciones_dic = pd.read_csv(path_secciones_dic)
+    experiencia_list = secciones_limpio(secciones_dic.Experiencia)
+    perfil = secciones_limpio(secciones_dic.Perfil)
+    educacion = secciones_limpio(secciones_dic.Educacion)
+    cursos = secciones_limpio(secciones_dic.Cursos)
+    habilidades = secciones_limpio(secciones_dic.Habilidades) 
+    contacto = secciones_limpio(secciones_dic.Contacto)
+    referencias = secciones_limpio(secciones_dic.Referencias)
+    logros = secciones_limpio(secciones_dic.Logros)
+    hobbies = secciones_limpio(secciones_dic.Hobbies)
+
+    otros = perfil + educacion + cursos + habilidades + contacto + referencias + logros+ hobbies
+
+
+
+    #print(cv_text)
+    linea_experiencia = False
+    siguiente_seccion = False
+    parrafo = ''
+    for line in cv_text:
+        #print(line)
+        line_np = re.sub(r'[^\w\s]','', line)
+        #print(line_np)
+        l = sum([i.strip(string.punctuation).isalpha() for i in line_np.split()])
+        chunks = re.split(' +', line)
+        linea =''
+        for word in chunks:
+            linea += word.lower() + ' '
+
+        if ((len(line.strip()) == 0  ) and linea_experiencia == False):
+            continue
+
+
+        linea = " ".join(linea.split())
+        for experiencia in experiencia_list:
+            linea_np = re.sub(r'[^\w\s]','', linea)
+            experiencia_np = re.sub(r'[^\w\s]','', experiencia)
+            linea_un = "".join(unidecode.unidecode(linea_np).split())
+            experiencia_un = "".join(unidecode.unidecode(experiencia_np).split())
+            if experiencia_un.lower() == linea_un.lower():
+                linea_experiencia = True
+                #continue
+
+
+        for otro in otros:
+            otro_np = re.sub(r'[^\w\s]','', otro)
+            linea_np = re.sub(r'[^\w\s]','', linea)
+            otro_un = "".join(unidecode.unidecode(otro_np).split())
+            linea_un = "".join(unidecode.unidecode(linea_np).split())
+
+            if linea_un.lower() == otro_un.lower() and linea_experiencia:
+                siguiente_seccion = True
+                break
+
+        if siguiente_seccion:
+            break
+
+        if linea_experiencia == True and siguiente_seccion == False:
+            parrafo += linea + '\n'
+    #print(parrafo)
+    return parrafo
 
 def retrieve_past_experience(text): # Funcion que no  usada
                                     # muy poco robusta
