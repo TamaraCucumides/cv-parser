@@ -11,8 +11,8 @@
     "Licencias-Certificaciones": [],
     "Palabras Claves": [
         "Gestión",
-        "Negociación",
-        "Modelamiento"
+        "Modelamiento",
+        "Negociación"
     ],
     "Educacion": {
         "Universidades:": [
@@ -24,24 +24,24 @@
     },
     "Lenguajes": [
         "Español",
+        "Portugués",
         "English",
         "Español nativo",
-        "Portugués",
         "Portugués avanzado"
     ],
-    "Experiencia": "experiencia  sodimac sa.  analista de inteligencia de negocios de crm - gerencia comercial 14 enero 2019 - actualidad  departamento de industrias utfsm  energy conversion combustion group ec2g  asistente de investigacion en energy conversion combustion group, ec2g 2016 - mayo  2018  ayudante de catedra y laboratorio  gestion energetica ii 2017 2015  laboratorio de procesos industriales - robotica 2017  gestion de operaciones i 2014  laboratorio de fısica 130 2013 - 2015  practicas  practica profesional siemens chile - customer care center de la division healthcare enero  - febrero 2015  cv - daniela cortes gomez  practica industrial ong conselho de integracao social integrasol, fortaleza, ceara bra-  sil enero - febrero 2014  profesora de engineering for kids 2014 - 2015  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  ",
+    "Experiencia": "experiencia sodimac sa. analista de inteligencia de negocios de crm - gerencia comercial 14 enero 2019 - actualidad departamento de industrias utfsm energy conversion combustion group ec2g asistente de investigacion en energy conversion combustion group, ec2g 2016 - mayo 2018 ayudante de catedra y laboratorio gestion energetica ii 2017 2015 laboratorio de procesos industriales - robotica 2017 gestion de operaciones i 2014 laboratorio de fısica 130 2013 - 2015 practicas practica profesional siemens chile - customer care center de la division healthcare enero - febrero 2015 cv - daniela cortes gomez practica industrial ong conselho de integracao social integrasol, fortaleza, ceara bra- sil enero - febrero 2014 profesora de engineering for kids 2014 - 2015 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ",
     "Resumen": "curriculum vitae daniela fernanda cortes gomez ",
     "Referencias": "",
     "Skills": [
+        "Oﬃce",
         "Crm",
-        "Python",
+        "Inventor",
+        "Numpy",
         "Sql",
         "Oracle",
-        "Oﬃce",
         "Excel",
-        "Scikit-learn",
         "Matlab",
-        "Numpy",
-        "Inventor"
+        "Python",
+        "Scikit-learn"
     ]
 }

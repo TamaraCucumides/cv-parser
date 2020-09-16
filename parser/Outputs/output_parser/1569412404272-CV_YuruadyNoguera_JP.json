@@ -8,18 +8,18 @@
     "Nombre archivo": "1569412404272-CV_YuruadyNoguera_JP",
     "Licencias-Certificaciones": [],
     "Palabras Claves": [
-        "Motivación",
-        "Liderar",
         "Negociación",
-        "Colaboración",
-        "Análisis",
-        "Responsabilidad",
         "Gestión",
-        "Proactividad",
-        "Comprometido",
+        "Análisis",
         "Modelamiento",
         "Estrategia",
-        "Analizar"
+        "Colaboración",
+        "Comprometido",
+        "Responsabilidad",
+        "Proactividad",
+        "Liderar",
+        "Analizar",
+        "Motivación"
     ],
     "Educacion": {
         "Universidades:": [],
@@ -35,13 +35,13 @@
     "Referencias": "",
     "Skills": [
         "Trello",
-        "Office",
+        "Power bi",
         "Crm",
         "Sql",
-        "Power bi",
-        "Scrum",
-        "Base de datos",
         "Sharepoint",
-        "Oracle"
+        "Base de datos",
+        "Oracle",
+        "Office",
+        "Scrum"
     ]
 }

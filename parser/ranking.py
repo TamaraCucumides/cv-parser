@@ -22,7 +22,8 @@ print("Embeddings cargadas" + '\n')
 
 
 # Se cargan todos los paths a los CV seccionados.
-path_to_json = os.getcwd() + '/Outputs/output_seccionado'
+#path_to_json = os.getcwd() + '/Outputs/output_seccionado'
+path_to_json = os.getcwd() + '/Outputs/output_parser'
 json_files = [pos_json for pos_json in os.listdir(path_to_json) if pos_json.endswith('.json')]
 cvs_seccionados = []
 for index, js in enumerate(json_files):
@@ -31,7 +32,7 @@ for index, js in enumerate(json_files):
 
 
 
-# Se carga la descricpción de cargo.
+# Se carga la descripción de cargo.
 file = os.getcwd() +'/Descripcion_cargo/descripcion_cargo'
 with open(file) as f:
   descripcion_cargo = " ".join([x.strip() for x in f]) 
@@ -82,13 +83,16 @@ for word in word_value.keys():
     count[word] = 0
     for i in range(no_of_cv):
         #Se eliminan STOPWORDS -Puntuacion
-        skill_pro = preprocesar_texto(cvs_seccionados[i]['skills'], stopwords) 
-        expe_pro = preprocesar_texto(cvs_seccionados[i]['experiencia'], stopwords)
-        edu_pro = preprocesar_texto(cvs_seccionados[i]['educación'], stopwords)
+        #skill_pro = preprocesar_texto(cvs_seccionados[i]['Skills'], stopwords) 
+        #skill_pro = cvs_seccionados[i]['Skills']
+        skill_pro = ' '.join([str(x) for x in cvs_seccionados[i]['Skills']]) 
+        expe_pro = preprocesar_texto(cvs_seccionados[i]['Experiencia'], stopwords)
+        #edu_pro = preprocesar_texto(cvs_seccionados[i]['educación'], stopwords)
         
         # En el caso que word se encuentre en skills o experiencia o eduacion
         # Se suma al contador
-        if similitud(word, skill_pro.split(), model) or similitud(word, expe_pro.split(), model) or similitud(word, edu_pro.split(), model):
+        #if similitud(word, skill_pro.split(), model) or similitud(word, expe_pro.split(), model) or similitud(word, edu_pro.split(), model):
+        if similitud(word, skill_pro.split(), model) or similitud(word, expe_pro.split(), model):
             count[word] += 1
 
     # Se calcula idf con suavizado para evitar 0
@@ -101,25 +105,27 @@ score = {}
 for i in range(no_of_cv):
     score[i] = 0
     #Se eliminan STOPWORDS -Puntuacion
-    skill_pro = preprocesar_texto(cvs_seccionados[i]['skills'], stopwords) 
-    expe_pro = preprocesar_texto(cvs_seccionados[i]['experiencia'], stopwords)
-    edu_pro = preprocesar_texto(cvs_seccionados[i]['educación'], stopwords)
+    #skill_pro = preprocesar_texto(cvs_seccionados[i]['Skills'], stopwords) 
+    skill_pro = ' '.join([str(x) for x in cvs_seccionados[i]['Skills']]) 
+    expe_pro = preprocesar_texto(cvs_seccionados[i]['Experiencia'], stopwords)
+    #edu_pro = preprocesar_texto(cvs_seccionados[i]['educación'], stopwords)
 
     for word in word_value.keys():
         # Se calcula tf como el número de veces que aparece una palabra en el CV. Donde
         # el criterio de aparecer se relaciona con una simulitud superior al umbral
         n_skills = similitud(word, skill_pro.split(), model)
         n_exp = similitud(word, expe_pro.split(), model)
-        n_edu = similitud(word, edu_pro.split(), model)
+        #n_edu = similitud(word, edu_pro.split(), model)
 
-        tf = 1 + n_skills +  n_edu + n_exp 
+        #tf = 1 + n_skills +  n_edu + n_exp 
+        tf = 1 + n_skills +  n_exp
         score[i] += word_value[word]*tf*idf[word]
 
 
 # Se crea una lista con los puntajes y el respectivo nombre del CV
 sorted_list = []
 for i in range(no_of_cv):
-    sorted_list.append((np.around(score[i], decimals=4), cvs_seccionados[i]['nombre archivo']))
+    sorted_list.append((np.around(score[i], decimals=4), cvs_seccionados[i]['Nombre archivo']))
 
 # Se ordenan los puntajes de mayor a menor para mostrar los mejores
 sorted_list.sort(reverse = True)

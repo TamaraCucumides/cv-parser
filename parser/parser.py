@@ -32,6 +32,7 @@ class CvParser:
                        "Lenguajes": None,
                        "Experiencia": None,
                        "Resumen": None,
+                       "Skills": None,
                        "Referencias": None}
 
         self.cv = cv
@@ -70,8 +71,6 @@ class CvParser:
     def get_parsed_resume(self):
         return self.parsed
 
-    def _sectionize(self):
-        return utils.parse_cv_sections(self.raw_text)
 
 
 

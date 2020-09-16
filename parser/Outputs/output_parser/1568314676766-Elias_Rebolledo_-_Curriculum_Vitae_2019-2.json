@@ -9,8 +9,8 @@
     },
     "Nombre archivo": "1568314676766-Elias_Rebolledo_-_Curriculum_Vitae_2019-2",
     "Licencias-Certificaciones": [
-        "CLASE B",
-        "LICENCIA DE CONDUCIR"
+        "LICENCIA DE CONDUCIR",
+        "CLASE B"
     ],
     "Palabras Claves": null,
     "Educacion": {
@@ -25,16 +25,16 @@
         "Español",
         "Inglés"
     ],
-    "Experiencia": "antecedentes laborales  ene mar 2018  práctica profesional. distribuidora cummins chile s.a.  ene feb 2017  práctica profesional. compañía minera zaldívar spa.  1 semestre 2016  ayudantía de termodinámica 1. universidad de antofagasta.  2 semestre 2015  ayudantía de mecánica 1. universidad de antofagasta.  informática  software cad solidworks nivel medio, autocad nivel usuario.  software microsoft office word, excel y power point nivel medio, visio y project nivel  usuario.  ",
+    "Experiencia": "antecedentes laborales ene mar 2018 práctica profesional. distribuidora cummins chile s.a. ene feb 2017 práctica profesional. compañía minera zaldívar spa. 1 semestre 2016 ayudantía de termodinámica 1. universidad de antofagasta. 2 semestre 2015 ayudantía de mecánica 1. universidad de antofagasta. informática software cad solidworks nivel medio, autocad nivel usuario. software microsoft office word, excel y power point nivel medio, visio y project nivel usuario. ",
     "Resumen": "elías fernando rebolledo rodríguez egresado de ingeniería civil industrial en mecánica, universidad de antofagasta. ",
     "Referencias": "",
     "Skills": [
-        "Word",
-        "Office",
-        "Visio",
         "Autocad",
-        "Excel",
         "Solidworks",
+        "Office",
+        "Excel",
+        "Word",
+        "Visio",
         "Power point"
     ]
 }

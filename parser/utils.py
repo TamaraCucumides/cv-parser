@@ -69,13 +69,9 @@ def extraer_texto(path):
         text = text_clean
     return text
 
-
-
-
 #####################################################
 ####  UTILIDADES  parser.py  ########################
 #####################################################
-
 
 def extraer_mail(text):
     '''
@@ -89,7 +85,6 @@ def extraer_mail(text):
     if len(mails)>1:
         mails  =mails[0]
     return mails
-
 
 def extraer_fono(text):
     '''
@@ -122,7 +117,6 @@ def extraer_fono(text):
         number = '+'+number
     #print(number)
     return number
-
 
 def extraer_skills(text, nlp_text):
     
@@ -158,7 +152,6 @@ def extraer_skills(text, nlp_text):
                 skillset.append(item)
     return [i.capitalize() for i in set([i.lower() for i in skillset])]
 
-
 def extraer_licencias(text, nlp_text):
     '''
     Funcion que busca los skill declarados del postulante
@@ -187,8 +180,6 @@ def extraer_licencias(text, nlp_text):
                 licencias_set.append(item)
         
     return [i.upper() for i in set([i.lower() for i in licencias_set])]
-
-
 
 def extraer_educacion(text, nlp_text):
     '''
@@ -230,7 +221,6 @@ def extraer_educacion(text, nlp_text):
     unique_values = set(educacion_list)
 
     return list(unique_values) 
- 
 
 def extraer_idiomas(text, nlp_text):
     '''
@@ -270,13 +260,7 @@ def extraer_idiomas(text, nlp_text):
                 if item_un.lower() in  noun_un.lower().split() :
                     idiomas_cv.append(item.capitalize())
     return list(set(idiomas_cv))
-
-
-    
-
-
-
-
+ 
 def extraer_grado(text):
     '''
     Funcion que devuelve el grado más alto encontrado, depende de la 
@@ -314,12 +298,8 @@ def extraer_grado(text):
 
     return education
 
-
 def retrieve_dates(text):
     pass
-
-
-
 
 def extraer_referencias(cv_txt):   
 
@@ -374,9 +354,8 @@ def extraer_referencias(cv_txt):
     #if len(parrafo.splitlines())>2:
     #    parrafo = " ".join([str(x) for x in parrafo.splitlines()[1:-1]])
         
-
+    parrafo = re.sub('\s+',' ', parrafo)
     return parrafo
-
 
 def extraer_perfil(cv_text):
 
@@ -433,10 +412,9 @@ def extraer_perfil(cv_text):
     #if len(parrafo.splitlines())>2:
     #        parrafo = " ".join([str(x) for x in parrafo.splitlines()[1:-1]])
         
-
+    parrafo = re.sub('\s+',' ', parrafo)
     return parrafo
-    
-
+   
 def extraer_experiencia(cv_text):
     cv_text = cv_text.splitlines()
     otros = perfil + educacion_sec + cursos + habilidades + contacto + referencias + logros+ hobbies
@@ -488,90 +466,8 @@ def extraer_experiencia(cv_text):
         #stopwords = nltk.corpus.stopwords.words('spanish')
         parrafo = seccionar_cv(cv_text)['experiencia']
         #print(parrafo + '\n')     
+    parrafo = re.sub('\s+',' ', parrafo)
     return parrafo.replace('\n', ' ')
-
-def retrieve_past_experience(text): # Funcion que no  usada
-                                    # muy poco robusta
-
-    
-    '''
-    Busca la palabra experiencia y devuelve la frase
-    en la que esta incluida.
-    :param resume_text: Plain resume text
-    :return: list of experience
-    '''
-   
-    wordnet_lemmatizer = WordNetLemmatizer()
-    stop_words = set(stopwords.words('spanish'))
-
-    # word tokenization
-    word_tokens = nltk.word_tokenize(text)
-
-    # remove stop words and lemmatize
-    filtered_sentence = [
-            w for w in word_tokens if w not
-            in stop_words and wordnet_lemmatizer.lemmatize(w)
-            not in stop_words
-        ]
-    sent = nltk.pos_tag(filtered_sentence)
-
-    # parse regex
-    cp = nltk.RegexpParser('P: {<NNP>+}')
-    cs = cp.parse(sent)
-
-    test = []
-
-    for vp in list(
-        cs.subtrees(filter=lambda x: x.label() == 'P')
-    ):
-        test.append(" ".join([
-            i[0] for i in vp.leaves()
-            if len(vp.leaves()) >= 2])
-        )
-
-    x = [x[x.lower().index('experiencia') + 12:]
-        for i, x in enumerate(test)
-        if x and 'experiencia' in x.lower()
-    ]
-    return x if len(x)>0 else None
-
-
-def retrieve_experience_2(text): # Funcion no usada
-    '''
-    Funcion que busca palabras claves en las
-    frases detectadas en el texto plano. Si es 
-    que se encuentra "experiencia laboral", entonces
-    se busca en que posicion comienza el match.
-    De forma de devolver "experiencia laboral ........"
-    '''
-    text = ' '.join(text.split())
-    nlp = textacy.load_spacy_lang('es_core_news_sm')
-    texto_procesado = nlp(text)
-    word_key = ['experiencia laboral', 'experiencia', 'experiencia profesional']
-    experiencia = []
-    for sent in texto_procesado.sents:
-        for word in word_key:
-            frase = sent.string.replace("\n","").lower().replace(" ", "")        # sin espacios, sin saltos y en minuscula
-            word_search = word.replace(" ", "").lower()
-            if word_search in frase:
-                pos = sent.string.lower().find(word_search)                      # posicion match
-                string_experiencia = sent.string[pos:]
-                if len(string_experiencia)> 1:
-                    text = string_experiencia
-                    text = text.replace("•", "")
-                    text = text.replace("▪", "")
-                    text = text.replace("-", "")
-                    experiencia.append(text.replace("\n"," "))
-            
-            
-    return list(set(experiencia))
-    
-
-
-def retrieve_last_experience_year(text): #Funcion no usada
-    pass
-
-
 
 def extraer_nombre(text, nlp_text):
 
@@ -612,55 +508,6 @@ def extraer_nombre(text, nlp_text):
             nombre += pronon.capitalize() + ' '
         return nombre
 
-
-def parse_cv_sections(text): # No usada
-    pass
-
-
-def summarize_cv(text, nlp_text): # No usada
-    '''
-    Funcion que que rankea frases a partir de frecuencia
-    de palabras, es un intento simple/ no muy efectivo de resumir.
-    El problema de los cv es que el texto es reducido, no hablamos de un libro.
-    Input: texto plano
-    Output: texto plano
-    '''
-    corpus = [sent.text.lower() for sent in nlp_text.sents ]
-    STOP_WORDS = set(stopwords.words("spanish"))
-    cv = CountVectorizer(stop_words=list(STOP_WORDS))   
-    cv_fit=cv.fit_transform(corpus)    
-    word_list = cv.get_feature_names()    
-    count_list = cv_fit.toarray().sum(axis=0)
-    word_frequency = dict(zip(word_list,count_list))
-    val=sorted(word_frequency.values())
-
-    # gets relative frequencies of words
-    higher_frequency = val[-1]
-
-    for word in word_frequency.keys():  
-        word_frequency[word] = (word_frequency[word]/higher_frequency)
-        
-    sentence_rank={}
-    for sent in nlp_text.sents:
-        for word in sent :       
-            if word.text.lower() in word_frequency.keys():            
-                if sent in sentence_rank.keys():
-                    sentence_rank[sent]+=word_frequency[word.text.lower()]
-                else:
-                    sentence_rank[sent]=word_frequency[word.text.lower()]
-    top_sentences=(sorted(sentence_rank.values())[::-1])
-    top_sent=top_sentences[:1]
-
-
-    summary=[]
-    for sent,strength in sentence_rank.items():  
-        if strength in top_sent:
-            summary.append(sent)
-        else:
-            continue
-
-    return summary[0].text.replace("\n","")
-
 def extraer_linkedin(text):
     '''
     Funcion que captura el perfil de Linkedin del postulante
@@ -677,7 +524,6 @@ def extraer_linkedin(text):
                 link_linkedin = link[0]
         #return 'https://www.linkedin.com/in/' + profile[0]
     return link_linkedin
-
 
 def busqueda_palabras_claves(text):
     '''
@@ -715,16 +561,9 @@ def busqueda_palabras_claves(text):
 
     return encontradas if len(encontradas)>1 else None
 
-
-
-
-
-
 #####################################################
 ######  UTILIDADES ranking.py  ######################
 #####################################################
-
-
 
 def preprocesar_texto(corpus,stopwords , enminiscula= True, puntuacion = False):
     '''

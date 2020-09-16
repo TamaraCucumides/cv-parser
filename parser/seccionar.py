@@ -12,6 +12,8 @@ import pprint
 import string
 pp = pprint.PrettyPrinter(indent=4)
 import multiprocessing as mp
+
+
 #from utils import preprocesar_texto
 stopwords = nltk.corpus.stopwords.words('spanish')
 # Utilidad para borrar simbolos
@@ -35,9 +37,9 @@ secciones = pd.read_csv(seccion_csv, header = 0)
 # Se carga el dccionario de secciones, se considera todas las celdas de seccion_csv que no sean nan.
 secciones_dict = {
     'extras' : [str(x.lower()) for x in secciones.Perfil.values if str(x)!= 'nan'],
-    'experiencia' : [str(x.lower()) for x in secciones['Experiencia '].values if str(x)!= 'nan'],
+    'Experiencia' : [str(x.lower()) for x in secciones['Experiencia '].values if str(x)!= 'nan'],
     'educación' : [str(x.lower()) for x in secciones['Formación Académica'].values if str(x)!= 'nan'],
-    'skills' : [str(x.lower()) for x in secciones['skills'].values if str(x)!= 'nan']                   
+    'Skills' : [str(x.lower()) for x in secciones['skills'].values if str(x)!= 'nan']                   
         
 }
 
@@ -131,11 +133,11 @@ def esta_vacia(line):
 def seccionar_cv(path):
     # Se crea un diccionario vacio para rellenarlo
     secciones_data = {
-        'nombre archivo':'',
+        'Nombre archivo':'',
         'extras' : '',
-        'experiencia' : '',
+        'Experiencia' : '',
         'educación' : '',
-        'skills':''
+        'Skills':''
                         
             
     }
