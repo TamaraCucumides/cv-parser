@@ -108,7 +108,7 @@ def extraer_fono(text):
     numbers = re.findall(regex, texto_busqueda)
     if len(numbers)>1:
         numbers = max(numbers, key = len) #retornar el string más largo
-        if len(numbers) == 11:
+        if len(numbers) > 10:
             numbers = '+'+numbers
 
     return numbers
@@ -275,7 +275,6 @@ def extraer_grado(text):
     Output: Lista de strings
     '''
     education = []
-    cwd = os.getcwd()
     frases = sent_tokenize(text) # frases
 
     
@@ -474,12 +473,12 @@ def extraer_experiencia(cv_text):
             break
 
         if linea_experiencia == True and siguiente_seccion == False:
-            parrafo += linea + '\n'
+            parrafo += linea + ' \n'
     if len(parrafo.splitlines())<3:
         #stopwords = nltk.corpus.stopwords.words('spanish')
         parrafo = seccionar_cv(cv_text)['experiencia']
         #print(parrafo + '\n')     
-    return parrafo.replace('\n', '')
+    return parrafo.replace('\n', ' ')
 
 def retrieve_past_experience(text): # Funcion que no  usada
                                     # muy poco robusta

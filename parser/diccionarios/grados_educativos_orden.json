@@ -5,7 +5,7 @@
     "Licenciatura": ["licenciado", "licenciada", "bachiller", "bachillerato", "licenciatura"],
     "Egresado" : ["egresado"],
     "Profesional Universitario": ["administración de empresas", "egresado", "ingeniero", "ingeniera", "ingeniería", "titulado", "titulada"],
-    "Magister": ["mba", "msc", "máster", "magíster", "maestría", "postgrado", "posgrado"],
+    "Magíster": ["mba", "msc", "máster", "magíster", "maestría", "postgrado", "posgrado"],
     "Phd": ["doctor", "phd", "postdoc"]
 
 }
