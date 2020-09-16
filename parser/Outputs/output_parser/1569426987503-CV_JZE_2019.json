@@ -8,19 +8,19 @@
     "Nombre archivo": "1569426987503-CV_JZE_2019",
     "Licencias-Certificaciones": [],
     "Palabras Claves": [
-        "Negociación",
-        "Liderazgo",
         "Modelamiento",
         "Gestión",
+        "Negociación",
         "Responsabilidad",
-        "Análisis"
+        "Análisis",
+        "Liderazgo"
     ],
     "Educacion": {
         "Universidades:": [
             "Universidad de Santiago de Chile"
         ],
         "Grado_mas_alto": [
-            "Ingeniería"
+            "Profesional universitario"
         ]
     },
     "Lenguajes": [],
@@ -28,10 +28,10 @@
     "Resumen": "resumen ingeniero civil en electricidad con más de cuatro años de experiencia en áreas comerciales, dentro de lo que destacan desarrollo de negocios, ventas consultivas, licitaciones, preparación, cálculo y coordinación de ofertas económicas y técnicas. dentro de mi experiencia y conocimientos se encuentran las nuevas tecnologías de transmisión en las que se incluyen los sistemas facts y almacenamiento de energía en baterías, bess. actualmente busco avanzar en mi carrera dentro del área comercial, profundizando mi experiencia, habilidades comerciales y liderazgo de equipos en empresas del rubro de la energía, generación, transmisión, distribución y servicios complementarios. ",
     "Referencias": "",
     "Skills": [
-        "Excel",
-        "Oracle",
         "Crm",
         "Salesforce",
-        "Digsilent"
+        "Digsilent",
+        "Oracle",
+        "Excel"
     ]
 }

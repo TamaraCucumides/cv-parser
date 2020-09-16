@@ -10,22 +10,22 @@
     "Nombre archivo": "1571002925960-CV_VL_19",
     "Licencias-Certificaciones": [],
     "Palabras Claves": [
+        "Gestión",
         "Liderar",
         "Negociación",
-        "Aprender",
-        "Gestión",
         "Responsabilidad",
         "Perfeccionista",
-        "Análisis"
+        "Análisis",
+        "Aprender"
     ],
     "Educacion": {
         "Universidades:": [
             "Universidad Católica de Chile",
-            "Pontificia Universidad Catolica de Chile",
-            "Universidad de Chile"
+            "Universidad de Chile",
+            "Pontificia Universidad Catolica de Chile"
         ],
         "Grado_mas_alto": [
-            "Ingeniero"
+            "Profesional universitario"
         ]
     },
     "Lenguajes": [
@@ -36,11 +36,11 @@
     "Resumen": "victor manuel león norambuena avda. las condes 7167, depto. 302 las condes, santiago- chile cel. 56940440778 e-mail vmleon@fen.uchile.cl ",
     "Referencias": "",
     "Skills": [
-        "Word",
-        "Access",
-        "Excel",
         "Crm",
+        "Sql",
         "Office",
-        "Sql"
+        "Excel",
+        "Access",
+        "Word"
     ]
 }

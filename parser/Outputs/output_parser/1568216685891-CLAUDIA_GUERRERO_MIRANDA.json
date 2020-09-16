@@ -8,22 +8,22 @@
     "Nombre archivo": "1568216685891-CLAUDIA_GUERRERO_MIRANDA",
     "Licencias-Certificaciones": [],
     "Palabras Claves": [
-        "Negociación",
-        "Analizar",
-        "Estrategia",
-        "Tolerancia",
-        "Aprender",
-        "Proactividad",
         "Gestión",
+        "Tolerancia",
+        "Negociación",
         "Responsabilidad",
-        "Análisis"
+        "Proactividad",
+        "Estrategia",
+        "Análisis",
+        "Aprender",
+        "Analizar"
     ],
     "Educacion": {
         "Universidades:": [
             "Universidad de Chile"
         ],
         "Grado_mas_alto": [
-            "Ingeniería"
+            "Profesional universitario"
         ]
     },
     "Lenguajes": [
@@ -33,10 +33,10 @@
     "Resumen": "resumen ingeniera en información y control de gestión de la universidad de chile responsable, proactiva, meticulosa. experiencia en implementación del área de control de gestión en la facultad de derecho de la universidad de chile, planificación presupuestaria y apoyo en desarrollo de sistemas de gestión. ",
     "Referencias": "",
     "Skills": [
-        "Sap",
-        "Softland",
         "Erp",
+        "Sap",
+        "Sql",
         "Office",
-        "Sql"
+        "Softland"
     ]
 }

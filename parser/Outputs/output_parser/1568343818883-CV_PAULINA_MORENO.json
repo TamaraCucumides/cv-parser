@@ -11,29 +11,29 @@
     },
     "Nombre archivo": "1568343818883-CV_PAULINA_MORENO",
     "Licencias-Certificaciones": [
-        "LICENCIA DE CONDUCIR",
-        "CLASE B"
+        "CLASE B",
+        "LICENCIA DE CONDUCIR"
     ],
     "Palabras Claves": [
-        "Colaboración",
-        "Liderar",
-        "Negociación",
-        "Liderazgo",
         "Modelamiento",
+        "Liderar",
+        "Gestión",
+        "Negociación",
+        "Responsabilidad",
         "Comprometido",
         "Proactividad",
-        "Gestión",
-        "Responsabilidad"
+        "Liderazgo",
+        "Colaboración"
     ],
     "Educacion": {
         "Universidades:": [
-            "Universidad Adolfo Ibáñez",
             "Universidad de Santiago de Chile",
-            "Universidad Diego Portales",
-            "Universidad de Chile"
+            "Universidad Adolfo Ibáñez",
+            "Universidad de Chile",
+            "Universidad Diego Portales"
         ],
         "Grado_mas_alto": [
-            "Magíster"
+            "Magister"
         ]
     },
     "Lenguajes": [],
@@ -42,8 +42,8 @@
     "Referencias": "",
     "Skills": [
         "Sap",
+        "Office",
         "Excel",
-        "Access",
-        "Office"
+        "Access"
     ]
 }

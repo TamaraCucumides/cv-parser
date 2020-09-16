@@ -21,27 +21,27 @@
             "Universidad de Chile"
         ],
         "Grado_mas_alto": [
-            "Ingeniero"
+            "Profesional universitario"
         ]
     },
     "Lenguajes": [
+        "Español",
         "Inglés",
-        "Portugués",
-        "Español"
+        "Portugués"
     ],
     "Experiencia": "experiencia2018-19jefe de análisis inventariobase de mantenimiento, santiagolatam airlinescontrol de operación de inventario técnico aeronáutico a cargo de unequipo de 6 técnicos en base a 45.000 partes y 100 musd.control de gestión de logística y almacenes.generación y pre-sentación de kpi como niveles de servicio logísticos, productividad,confiabilidad para la flota boeing y airbus.implementación de business inteligence para medición diaria de indi-cadores operativos.implementación de inventario diario, madurez y alertas de desvia-ciones.2017ingeniero de procesos it expertobase de mantenimiento, santiagolatam airlinesimplementación de mesa de mejora continua it, para clientes deabastecimiento técnico, no tecnico y combustibles.ejecución de mas de 100 desarrollos a los sistemas erp sap, main-tenix y right angle, y sus integraciones.incremento de i nsta, uso de fábrica epriorización de iniciativas en basea retornos económicos y legislaciones aeronaúticas y financieras.2014-16ingeniero de procesos itbase de mantenimiento, santiagolatam airlinesdata analisis y soporte al erp de mantenimiento y abastecimiento derepuestos técnicos de las flotas airbus y boeing de latam con mas de6.000 usuarios y 320 aviones.rca analisis causa raiz para reoslución de problemas complejos deproceso entre negocio mantenimiento e it.manejo y cumplimiento de sla entre 95 y 98 .soporte proyecto unificación mantenimiento lan-tam, en sao paulo ycuritiba.",
     "Resumen": "alexmedina ingeniero civil electrónico ingeniero civil electrónico con 5 años de experiencia laboral. trabajo en base a objetivos en equipos multidisciplinarios, haciendo la mejora continua de procesos, siempre aplicando y desarrollando la tecnología para formar procesos robustos, eficientes y transversales. tengo experiencia en minería, en astronomía y aviación comercial. ",
     "Referencias": "",
     "Skills": [
-        "Sap",
-        "Python",
         "Latex",
-        "Windows",
         "Linux",
         "Erp",
+        "Sap",
+        "Sql",
         "Autodesk",
         "Office",
         "Matlab",
-        "Sql"
+        "Windows",
+        "Python"
     ]
 }

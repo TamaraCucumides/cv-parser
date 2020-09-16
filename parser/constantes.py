@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 import sys
-
+import json
 
 # Archivo usado para los diccionarios constantes
 
@@ -34,8 +34,10 @@ referencias = secciones_limpio(secciones_dic.Referencias)
 logros = secciones_limpio(secciones_dic.Logros)
 hobbies = secciones_limpio(secciones_dic.Hobbies)
 
+with open(cwd + '/grados_educativos_orden.json') as json_file:
+        grados_educativos_orden = json.load(json_file)
 
-grados_educativos_orden = cargar_dict(cwd + 'grados_educativos_orden')
+#grados_educativos_orden = cargar_dict(cwd + 'grados_educativos_orden')
 educacion = cargar_dict(cwd + 'universidades')
 educacionSiglas = cargar_dict(cwd + 'universidades_siglas')
 idiomas = cargar_dict(cwd + 'idiomas')

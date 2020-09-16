@@ -11,23 +11,23 @@
     },
     "Nombre archivo": "1571075413955-CV-Bryan-Santander-Antofagasta_plc",
     "Licencias-Certificaciones": [
-        "LICENCIA DE CONDUCIR",
-        "CLASE B"
+        "CLASE B",
+        "LICENCIA DE CONDUCIR"
     ],
     "Palabras Claves": [
-        "Pasion",
-        "Analizar",
         "Voluntariado",
-        "Responsabilidad",
+        "Pasion",
         "Motivación",
-        "Análisis"
+        "Responsabilidad",
+        "Análisis",
+        "Analizar"
     ],
     "Educacion": {
         "Universidades:": [
             "Universidad Católica del Norte"
         ],
         "Grado_mas_alto": [
-            "Ingeniería"
+            "Profesional universitario"
         ]
     },
     "Lenguajes": [
@@ -37,10 +37,10 @@
     "Resumen": "bryan guillermo santander gonzález c.i 18.580.118-7 dirección escocia 2397, población independencia, calama edad 25 años fono 56 942542182 email bryan.sant.gonz@gmail.com licencia de conducir clase b presentación personal. me considero un profesional íntegro, con valores intachables de responsabilidad y respeto en el ámbito laboral y personal. además, me caracterizo por mi perseverancia y pasión en lograr las metas propuestas, considerando el trabajo en equipo y el máximo esfuerzo como puntos claves para la consecución de ello. por último, estoy dispuesto a enfrentar los desafíos que se me propongan, motivado por el nuevo aprendizaje que adquiriré y el aporte que puedo generar para la compañía, convirtiéndome en el ingeniero civil de minas que requiere la empresa. ",
     "Referencias": "",
     "Skills": [
-        "Visual basic",
         "Vulcan",
-        "Excel",
         "Macros",
-        "Office"
+        "Office",
+        "Excel",
+        "Visual basic"
     ]
 }

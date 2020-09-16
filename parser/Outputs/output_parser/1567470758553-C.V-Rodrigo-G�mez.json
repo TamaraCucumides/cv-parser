@@ -9,19 +9,19 @@
     },
     "Nombre archivo": "1567470758553-C.V-Rodrigo-G�mez",
     "Licencias-Certificaciones": [
-        "LICENCIA DE CONDUCIR",
-        "CLASE B"
+        "CLASE B",
+        "LICENCIA DE CONDUCIR"
     ],
     "Palabras Claves": [
-        "Liderazgo",
-        "Gestión"
+        "Gestión",
+        "Liderazgo"
     ],
     "Educacion": {
         "Universidades:": [
             "Universidad de Santiago de Chile"
         ],
         "Grado_mas_alto": [
-            "Ingeniería"
+            "Profesional universitario"
         ]
     },
     "Lenguajes": [
@@ -32,7 +32,7 @@
     "Referencias": "",
     "Skills": [
         "Excel",
-        "Autocad",
-        "Ventsim"
+        "Ventsim",
+        "Autocad"
     ]
 }

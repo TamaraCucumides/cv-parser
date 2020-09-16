@@ -10,16 +10,16 @@
     "Nombre archivo": "1570478212825-CV_FRANCISCA_MONCADA_OROSTICA",
     "Licencias-Certificaciones": [],
     "Palabras Claves": [
+        "Tolerancia",
+        "Apasionado",
         "Sociable",
         "Estrategia",
-        "Tolerancia",
-        "Liderazgo",
-        "Apasionado"
+        "Liderazgo"
     ],
     "Educacion": {
         "Universidades:": [],
         "Grado_mas_alto": [
-            "Ingeniero"
+            "Profesional universitario"
         ]
     },
     "Lenguajes": [
@@ -30,10 +30,10 @@
     "Referencias": "",
     "Skills": [
         "Wordpress",
-        "Analytics",
-        "Excel",
         "Erp",
         "Html",
+        "Excel",
+        "Analytics",
         "Mysql"
     ]
 }

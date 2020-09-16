@@ -9,14 +9,14 @@
     },
     "Nombre archivo": "1568569816497-Cristian_Alejandro_Araya_Ramírez_CV",
     "Licencias-Certificaciones": [
-        "LICENCIA DE CONDUCIR",
-        "CLASE B"
+        "CLASE B",
+        "LICENCIA DE CONDUCIR"
     ],
     "Palabras Claves": [
-        "Análisis",
-        "Adaptable",
         "Responsabilidad",
-        "Gestión"
+        "Adaptable",
+        "Gestión",
+        "Análisis"
     ],
     "Educacion": {
         "Universidades:": [
@@ -24,7 +24,7 @@
             "Universidad Pedro de Valdivia"
         ],
         "Grado_mas_alto": [
-            "Ingeniería"
+            "Profesional universitario"
         ]
     },
     "Lenguajes": [

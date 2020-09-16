@@ -18,7 +18,7 @@
             "Universidad Técnica Federico Santa María"
         ],
         "Grado_mas_alto": [
-            "Ingeniería"
+            "Profesional universitario"
         ]
     },
     "Lenguajes": [
@@ -28,11 +28,11 @@
     "Resumen": "perfil profesional profesional en búsqueda activa de oportunidad laboral tanto para el campo operativo área técnica como para el campo administrativo área ingeniería. recientemente titulado como ingeniero en gestión industrial, pero con vasta experiencia en área técnica en departamentos de ingeniería y de operaciones en cuanto a mantenimiento industrial se refiere, experiencia obtenida en el ejercicio de carrera como técnico universitario en electrónica. destacado por gran capacidad en análisis y reparación de fallas y mejora continua en tareas diarias y también en el desarrollo de proyectos propuestos por desempeño mostrado. ",
     "Referencias": "",
     "Skills": [
-        "Word",
+        "Git",
         "Arduino",
-        "Excel",
-        "Microsoft project",
         "Power point",
-        "Git"
+        "Microsoft project",
+        "Excel",
+        "Word"
     ]
 }

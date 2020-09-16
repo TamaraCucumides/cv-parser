@@ -20,7 +20,7 @@
             "Universidad De La Serena"
         ],
         "Grado_mas_alto": [
-            "Ingeniería"
+            "Profesional universitario"
         ]
     },
     "Lenguajes": [
@@ -30,8 +30,8 @@
     "Resumen": "currículum vitae ",
     "Referencias": "",
     "Skills": [
+        "Office",
         "Vulcan",
-        "Autocad",
-        "Office"
+        "Autocad"
     ]
 }

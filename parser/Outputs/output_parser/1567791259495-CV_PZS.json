@@ -12,23 +12,23 @@
     "Nombre archivo": "1567791259495-CV_PZS",
     "Licencias-Certificaciones": [],
     "Palabras Claves": [
-        "Amigable",
-        "Liderar",
-        "Confianza",
-        "Estrategia",
-        "Liderazgo",
         "Modelamiento",
+        "Liderar",
         "Gestión",
-        "Responsabilidad",
+        "Confianza",
         "Motivación",
-        "Análisis"
+        "Responsabilidad",
+        "Estrategia",
+        "Análisis",
+        "Amigable",
+        "Liderazgo"
     ],
     "Educacion": {
         "Universidades:": [
             "Universidad de Concepción"
         ],
         "Grado_mas_alto": [
-            "Ingeniería"
+            "Profesional universitario"
         ]
     },
     "Lenguajes": [
@@ -39,7 +39,7 @@
     "Referencias": "r e f e r e n c i a s disponibles a solicitud ",
     "Skills": [
         "Sap",
-        "Lean management",
-        "Coaching"
+        "Coaching",
+        "Lean management"
     ]
 }

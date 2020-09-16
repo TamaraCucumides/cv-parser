@@ -12,22 +12,22 @@
         "CLASE B"
     ],
     "Palabras Claves": [
-        "Liderar",
-        "Estrategia",
-        "Liderazgo",
         "Dialogo",
-        "Aprender",
+        "Liderar",
         "Gestión",
         "Adaptable",
         "Responsabilidad",
-        "Análisis"
+        "Estrategia",
+        "Análisis",
+        "Aprender",
+        "Liderazgo"
     ],
     "Educacion": {
         "Universidades:": [
             "Universidad Católica del Norte"
         ],
         "Grado_mas_alto": [
-            "Licenciado"
+            "Licenciatura"
         ]
     },
     "Lenguajes": [],
@@ -35,9 +35,9 @@
     "Resumen": "presentación periodista y licenciado en ciencias de la comunicación, de la universidad católica del norte. tengo al menos 5 años de experiencia en gestión de comunicaciones, aa.pp, relaciones con la comunidad y rse. poseo conocimientos nivel usuario avanzado en sap prd y offices, además de una gran facilidad de aprendizaje y adaptación, lo que se refleja en los cambios de zona donde he desarrollado mis últimas labores profesionales. ",
     "Referencias": "",
     "Skills": [
-        "Adobe",
-        "Photoshop",
         "Sap",
-        "Office"
+        "Office",
+        "Photoshop",
+        "Adobe"
     ]
 }

@@ -13,19 +13,19 @@
         "CLASE B"
     ],
     "Palabras Claves": [
-        "Negociación",
-        "Liderazgo",
-        "Proactividad",
         "Gestión",
+        "Negociación",
         "Responsabilidad",
-        "Análisis"
+        "Proactividad",
+        "Análisis",
+        "Liderazgo"
     ],
     "Educacion": {
         "Universidades:": [
             "Universidad Católica del Norte"
         ],
         "Grado_mas_alto": [
-            "Ingeniero"
+            "Profesional universitario"
         ]
     },
     "Lenguajes": [
@@ -35,11 +35,11 @@
     "Resumen": "resumen laboral ingeniero comercial, licenciado en ciencias de la administración. habilidades de liderazgo, manejo de situaciones bajo presión, comunicación y exposición. experiencia en emprendimiento, industrias de la minería, salud y retail, como miembro y/o responsable de equipos de trabajo en funciones comerciales, negociación colectiva, administración de inventarios, procesos de acreditación de salud. responsable, proactivo, organizado, orientado al cliente y a la consecución de objetivos. inglés intermedio. ",
     "Referencias": "",
     "Skills": [
-        "Word",
-        "Sap",
         "Powerpoint",
-        "Excel",
         "Erp",
-        "Office"
+        "Sap",
+        "Office",
+        "Excel",
+        "Word"
     ]
 }

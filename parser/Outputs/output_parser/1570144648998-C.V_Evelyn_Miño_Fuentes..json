@@ -16,15 +16,15 @@
     ],
     "Educacion": {
         "Universidades:": [
+            "Universidad Andrés Bello",
+            "Instituto Chileno Británico de Cultura",
             "Universidad Católica de Chile",
             "Instituto Chileno Norteamericano",
             "Pontificia Universidad Catolica de Chile",
-            "Universidad Andrés Bello",
-            "Instituto Chileno Británico de Cultura",
             "Universidad Técnica Federico Santa María"
         ],
         "Grado_mas_alto": [
-            "Ingeniería"
+            "Profesional universitario"
         ]
     },
     "Lenguajes": [
@@ -34,9 +34,9 @@
     "Resumen": "resumen profesional ingeniero comercial de la universidad técnica federico santa maría y contador auditor de la universidad andrés bello, con manejo de microsoft excel nivel avanzado y conocimientos del idioma inglés nivel intermedio. sus habilidades analíticas, de organización y trabajo en equipo se potencian en el departamento de operaciones financieras, desempeñándome en las áreas de finanzas, tesorería y contabilidad de compañía matriz y sus filiales. ",
     "Referencias": "",
     "Skills": [
-        "Defontana",
-        "Word",
         "Powerpoint",
-        "Excel"
+        "Excel",
+        "Defontana",
+        "Word"
     ]
 }

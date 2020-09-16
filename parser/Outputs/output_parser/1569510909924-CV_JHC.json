@@ -13,44 +13,44 @@
     ],
     "Palabras Claves": [
         "Creativo",
-        "Negociación",
-        "Analizar",
-        "Liderazgo",
+        "Voluntariado",
         "Adaptable",
+        "Negociación",
         "Responsabilidad",
-        "Voluntariado"
+        "Analizar",
+        "Liderazgo"
     ],
     "Educacion": {
         "Universidades:": [
             "Universidad Técnica Federico Santa María"
         ],
         "Grado_mas_alto": [
-            "Ingeniería"
+            "Profesional universitario"
         ]
     },
     "Lenguajes": [
-        "Inglés",
-        "Español"
+        "Español",
+        "Inglés"
     ],
     "Experiencia": "experiencia laboral y participación en voluntariados2018proyecto de título, empresa axiovista s.a., santiago, chile.2015-2018coordinador general, nerdonomicon, utfsm, valparaíso, chile.2012-2018coordinador general, club de rol sansano, utfsm, valparaíso, chile.2017-2018 tutor par, relaciones estudiantiles, utfsm, valparaíso, chile.2016supervisor, simce 2016, valparaíso, chile.2015coordinador general, difusión telemática, valparaíso, chile.2015examinador, simce 2015, valparaíso, chile.2015coordinador general, congresotic 2015, utfsm, valparaíso, chile.2011-2014encargado de logística, difusión telemática, utfsm, valparaíso, chile.2013 ayudante cátedra, ingeniería civil uv, valparaíso, chile.2013 ayudante cátedra, departamento arquitectura, utfsm, valparaíso, chile.2011-2012coordinador, acción educa, utfsm, valparaíso, chile.2012prácticante, empresa axiovista s.a., santiago, chile.2012encuestador, panel casen 2012, valparaíso, chile.2011 ayudante cátedra, departamento matemáticas, utfsm, valparaíso, chile.2011coordinador general, congresotic 2011, utfsm, valparaíso, chile.2007-2010 apoyo de área, concomics, pucv, valparaíso, chile.2009profesor voluntario, escuela santa maría, utfsm, valparaíso, chile.habilidades y responsabilidades",
     "Resumen": "jorge hernández c. ingeniero civil telemático freire 178, depto. 21. valparaíso 56 9 88 26 1301 jahernandezcontreras@gmail.com ",
     "Referencias": "",
     "Skills": [
-        "Toeic",
-        "Word",
-        "Javascript",
-        "Bases de datos",
-        "Php",
-        "Java",
-        "Python",
-        "Excel",
-        "Latex",
-        "Apache",
-        "Scrum",
-        "Linux",
-        "Verilog",
-        "Html",
         "Git",
-        "Sql"
+        "Latex",
+        "Linux",
+        "Java",
+        "Toeic",
+        "Bases de datos",
+        "Sql",
+        "Html",
+        "Verilog",
+        "Excel",
+        "Word",
+        "Php",
+        "Javascript",
+        "Scrum",
+        "Apache",
+        "Python"
     ]
 }

@@ -11,21 +11,21 @@
         "LICENCIA DE CONDUCIR"
     ],
     "Palabras Claves": [
+        "Gestión",
         "Liderar",
+        "Voluntariado",
         "Negociación",
         "Estrategia",
-        "Liderazgo",
-        "Gestión",
-        "Voluntariado"
+        "Liderazgo"
     ],
     "Educacion": {
         "Universidades:": [
-            "Universidad Tecnológica Metropolitana",
             "Universidad Adolfo Ibáñez",
+            "Universidad Tecnológica Metropolitana",
             "Universidad de Chile"
         ],
         "Grado_mas_alto": [
-            "Máster"
+            "Magister"
         ]
     },
     "Lenguajes": [
@@ -36,10 +36,10 @@
     "Referencias": "referencias  yanina manassa directora customer service y cc - latam teléfono 569 68447425 / mail yanina.manassa@latam.com  lorena olate subgerente de gestión comercial - metlife teléfono 569944502654 / mail lolateg@gmail.com  cristian barros gerente de tecnología sura chile teléfono 56229152377 /mail cristian.barros@sura.cl ",
     "Skills": [
         "Toeic",
-        "Bases de datos",
         "Sap",
-        "Scrum",
+        "Bases de datos",
         "Crm",
-        "Office"
+        "Office",
+        "Scrum"
     ]
 }

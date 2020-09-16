@@ -10,8 +10,8 @@
     "Nombre archivo": "1568336133961-CV_Daniela_Cortes",
     "Licencias-Certificaciones": [],
     "Palabras Claves": [
-        "Modelamiento",
         "Negociación",
+        "Modelamiento",
         "Gestión"
     ],
     "Educacion": {
@@ -19,29 +19,29 @@
             "Universidad Técnica Federico Santa María"
         ],
         "Grado_mas_alto": [
-            "Magíster"
+            "Magister"
         ]
     },
     "Lenguajes": [
-        "English",
-        "Español",
-        "Español nativo",
         "Portugués",
-        "Portugués avanzado"
+        "Portugués avanzado",
+        "Español",
+        "English",
+        "Español nativo"
     ],
     "Experiencia": "experienciasodimac sa.analista de inteligencia de negocios de crm - gerencia comercial 14 enero 2019 - actualidaddepartamento de industrias utfsmenergy conversion combustion group ec2gasistente de investigacion en energy conversion combustion group, ec2g 2016 - mayo2018ayudante de catedra y laboratoriogestion energetica ii 2017 2015laboratorio de procesos industriales - robotica 2017gestion de operaciones i 2014laboratorio de fısica 130 2013 - 2015practicaspractica profesional siemens chile - customer care center de la division healthcare enero- febrero 2015cv - daniela cortes gomezpractica industrial ong conselho de integracao social integrasol, fortaleza, ceara bra-sil enero - febrero 2014profesora de engineering for kids 2014 - 2015. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
     "Resumen": "curriculum vitae daniela fernanda cortes gomez ",
     "Referencias": "",
     "Skills": [
+        "Crm",
+        "Sql",
+        "Matlab",
+        "Oracle",
+        "Excel",
         "Scikit-learn",
+        "Inventor",
         "Oﬃce",
         "Python",
-        "Excel",
-        "Oracle",
-        "Inventor",
-        "Crm",
-        "Matlab",
-        "Numpy",
-        "Sql"
+        "Numpy"
     ]
 }

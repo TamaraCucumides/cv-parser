@@ -24,8 +24,8 @@ import numpy as np
 import string
 from constantes import perfil, educacion_sec, cursos, habilidades, contacto, logros, hobbies, experiencias, referencias
 from seccionar import seccionar_cv
-
-
+import os
+import json
 #####################################################
 ####  UTILIDADES generate_text_files.py  ############
 #####################################################
@@ -275,20 +275,24 @@ def extraer_grado(text):
     Output: Lista de strings
     '''
     education = []
+    cwd = os.getcwd()
     frases = sent_tokenize(text) # frases
 
+    
 
-    for grado in grados_educativos_orden:
-         for frase in frases:
-            # Eliminacion de tildes
-            grado_un = unidecode.unidecode(grado)
-            frase_un = unidecode.unidecode(frase)
-            if (len(grado_un.lower().split()) == 1): # Si tenemos grados de 1 palabra
-                if grado_un.lower() in frase_un.lower().split(): # para que no considere webmaster como un master xd
-                    education.append(grado.capitalize())
 
-            elif grado_un.lower() in frase_un.lower(): # grados de varias palabras: administracion de empresas
-                education.append(grado.capitalize())
+    for grado_name in grados_educativos_orden.keys():
+        for grado in grados_educativos_orden[grado_name]:
+            for frase in frases:
+                # Eliminacion de tildes
+                grado_un = unidecode.unidecode(grado)
+                frase_un = unidecode.unidecode(frase)
+                if (len(grado_un.lower().split()) == 1): # Si tenemos grados de 1 palabra
+                    if grado_un.lower() in frase_un.lower().split(): # para que no considere webmaster como un master xd
+                        education.append(grado_name.capitalize())
+
+                elif grado_un.lower() in frase_un.lower(): # grados de varias palabras: administracion de empresas
+                    education.append(grado_name.capitalize())
 
 
  
@@ -474,7 +478,7 @@ def extraer_experiencia(cv_text):
     if len(parrafo.splitlines())<3:
         #stopwords = nltk.corpus.stopwords.words('spanish')
         parrafo = seccionar_cv(cv_text)['experiencia']
-        print(parrafo + '\n')     
+        #print(parrafo + '\n')     
     return parrafo.replace('\n', '')
 
 def retrieve_past_experience(text): # Funcion que no  usada
