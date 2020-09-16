@@ -4,7 +4,7 @@
         "Correo": [
             "guillermo2003@live.cl"
         ],
-        "Celular": "+97331703597",
+        "Celular": "973317035",
         "Linkedin": "www.linkedin.com/in/guillerm-fuenzalida-06588011b/"
     },
     "Nombre archivo": "1568425084297-CV_GUILLERMO_FUENZALIDA_EUROPASS_.2019.",
@@ -12,18 +12,18 @@
         "TOEFL"
     ],
     "Palabras Claves": [
-        "Disposición",
+        "Colaboración",
         "Análisis",
         "Gestión",
-        "Aprender",
-        "Colaboración",
+        "Disposición",
+        "Liderazgo",
         "Analizar",
-        "Liderazgo"
+        "Aprender"
     ],
     "Educacion": {
         "Universidades:": [
-            "Universidad de Antofagasta",
-            "Universidad de Chile"
+            "Universidad de Chile",
+            "Universidad de Antofagasta"
         ],
         "Grado_mas_alto": [
             "Magíster"
@@ -37,11 +37,11 @@
     "Referencias": "",
     "Skills": [
         "Word",
-        "Tablas dinámicas",
         "Macros",
-        "Visual basic",
-        "Access",
         "Excel",
-        "Power point"
+        "Power point",
+        "Visual basic",
+        "Tablas dinámicas",
+        "Access"
     ]
 }

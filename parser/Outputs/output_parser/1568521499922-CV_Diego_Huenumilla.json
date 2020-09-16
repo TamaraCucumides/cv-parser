@@ -9,9 +9,9 @@
     },
     "Nombre archivo": "1568521499922-CV_Diego_Huenumilla",
     "Licencias-Certificaciones": [
+        "CLASE B",
         "INSTALADOR ELECTRICO",
-        "LICENCIA DE CONDUCIR",
-        "CLASE B"
+        "LICENCIA DE CONDUCIR"
     ],
     "Palabras Claves": null,
     "Educacion": {
@@ -30,7 +30,7 @@
     "Referencias": "",
     "Skills": [
         "Matlab",
-        "Digsilent",
-        "Office"
+        "Office",
+        "Digsilent"
     ]
 }

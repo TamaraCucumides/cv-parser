@@ -10,21 +10,21 @@
     "Nombre archivo": "1573855975989-CVitae",
     "Licencias-Certificaciones": [],
     "Palabras Claves": [
-        "Liderazgo",
+        "Negociación",
+        "Analizar",
+        "Colaboración",
+        "Adaptable",
+        "Responsabilidad",
+        "Gestión",
         "Estrategia",
         "Modelamiento",
-        "Gestión",
-        "Adaptable",
-        "Negociación",
-        "Colaboración",
-        "Analizar",
-        "Creativo",
-        "Responsabilidad"
+        "Liderazgo",
+        "Creativo"
     ],
     "Educacion": {
         "Universidades:": [
-            "Universidad San Sebastián",
-            "Universidad Gabriela Mistral"
+            "Universidad Gabriela Mistral",
+            "Universidad San Sebastián"
         ],
         "Grado_mas_alto": [
             "Profesional universitario"
@@ -35,12 +35,12 @@
     "Resumen": "ingeniero comercial universidad gabriela mistral titulado. diplomado dirección comercial y ventas universidad san sebastián titulado. ",
     "Referencias": "",
     "Skills": [
-        "Power bi",
         "Word",
-        "Azure",
         "Office",
         "Crm",
+        "Power bi",
         "Excel",
+        "Azure",
         "Power point"
     ]
 }

@@ -7,15 +7,15 @@
     },
     "Nombre archivo": "1567214474618-CV_PAULA_CASTRO",
     "Licencias-Certificaciones": [
-        "LICENCIA DE CONDUCIR",
-        "TOEIC"
+        "TOEIC",
+        "LICENCIA DE CONDUCIR"
     ],
     "Palabras Claves": [
         "Liderar",
-        "Estrategia",
-        "Gestión",
-        "Voluntariado",
         "Negociación",
+        "Voluntariado",
+        "Gestión",
+        "Estrategia",
         "Liderazgo"
     ],
     "Educacion": {
@@ -37,9 +37,9 @@
     "Skills": [
         "Office",
         "Crm",
-        "Bases de datos",
-        "Sap",
         "Scrum",
+        "Sap",
+        "Bases de datos",
         "Toeic"
     ]
 }

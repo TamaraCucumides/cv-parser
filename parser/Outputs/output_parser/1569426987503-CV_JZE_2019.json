@@ -8,12 +8,12 @@
     "Nombre archivo": "1569426987503-CV_JZE_2019",
     "Licencias-Certificaciones": [],
     "Palabras Claves": [
-        "Análisis",
-        "Modelamiento",
-        "Gestión",
         "Negociación",
-        "Liderazgo",
-        "Responsabilidad"
+        "Análisis",
+        "Gestión",
+        "Responsabilidad",
+        "Modelamiento",
+        "Liderazgo"
     ],
     "Educacion": {
         "Universidades:": [
@@ -29,9 +29,9 @@
     "Referencias": "",
     "Skills": [
         "Digsilent",
-        "Oracle",
-        "Crm",
         "Salesforce",
-        "Excel"
+        "Crm",
+        "Excel",
+        "Oracle"
     ]
 }

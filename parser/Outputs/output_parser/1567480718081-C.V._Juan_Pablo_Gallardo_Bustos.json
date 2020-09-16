@@ -4,14 +4,14 @@
         "Correo": [
             "juanpablo.gallardo@yahoo.es"
         ],
-        "Celular": "+20152018200",
+        "Celular": "983872075",
         "Linkedin": null
     },
     "Nombre archivo": "1567480718081-C.V._Juan_Pablo_Gallardo_Bustos",
     "Licencias-Certificaciones": [],
     "Palabras Claves": [
-        "Análisis",
-        "Gestión"
+        "Gestión",
+        "Análisis"
     ],
     "Educacion": {
         "Universidades:": [
@@ -29,10 +29,10 @@
     "Referencias": "",
     "Skills": [
         "Word",
-        "Arduino",
-        "Microsoft project",
-        "Git",
         "Excel",
-        "Power point"
+        "Arduino",
+        "Git",
+        "Power point",
+        "Microsoft project"
     ]
 }

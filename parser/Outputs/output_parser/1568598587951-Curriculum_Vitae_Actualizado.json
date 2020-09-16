@@ -9,8 +9,8 @@
     },
     "Nombre archivo": "1568598587951-Curriculum_Vitae_Actualizado",
     "Licencias-Certificaciones": [
-        "LICENCIA DE CONDUCIR",
-        "CLASE B"
+        "CLASE B",
+        "LICENCIA DE CONDUCIR"
     ],
     "Palabras Claves": [
         "Adaptable",
@@ -34,11 +34,11 @@
     "Resumen": "resumen mi nombre es matías valdés, soy un estudiante de ingeniería civil electrónica que esta finalizando su tesis de pregrado para optar al título de ingeniero civil electrónico. cuento con habilidades de flexibilidad para adaptarme a diferentes situaciones. capacidad de resolver problemas que se enfrenten en el trabajo como en la vida en general. mi área de interés en la participación de proyectos y la mejora continua en la parte de ingeniería, en especial en electrónica y automatización. también la creatividad en la solución de problemas, buscando la innovación o ideas frescas que ayuden en el ámbito laboral. soy una persona a la cual se puede confiar, siendo honesto e integro en el trabajo y en todo momento. además de tener deseos de seguir aprendiendo, con actitud positiva y dedicación. siempre buscando crecer como profesional y dónde hacer carrera, para aprender y tener desafíos que se pueda madurar como trabajador, adquiriendo conocimientos y aplicar los conocimientos universitarios. ",
     "Referencias": "",
     "Skills": [
-        "Matlab",
         "Word",
+        "Excel",
+        "Machine learning",
         "Arduino",
         "Procesamiento digital de imágenes",
-        "Machine learning",
-        "Excel"
+        "Matlab"
     ]
 }

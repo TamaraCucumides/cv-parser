@@ -4,9 +4,7 @@
         "Correo": [
             "nmontanares@gmail.com"
         ],
-        "Celular": [
-            "56948896163"
-        ],
+        "Celular": "+56948896163",
         "Linkedin": null
     },
     "Nombre archivo": "1571278884566-CV_Nicolas_Montanares",
@@ -24,19 +22,19 @@
         ]
     },
     "Lenguajes": [
-        "Inglés",
-        "Inglés intermedio"
+        "Inglés intermedio",
+        "Inglés"
     ],
     "Experiencia": "experiencia laboral  universidad federico santa maría  coordinador de actividades departamento  admisión  marzo 2017 - diciembre 2018  universidad federico santa maría promotor  ",
     "Resumen": "nicolás montanares morales ",
     "Referencias": "",
     "Skills": [
-        "Base de datos",
         "Word",
+        "Sql",
+        "Excel",
         "Powerpoint",
         "Vba",
-        "Access",
-        "Sql",
-        "Excel"
+        "Base de datos",
+        "Access"
     ]
 }

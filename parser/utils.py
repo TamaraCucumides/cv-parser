@@ -96,22 +96,32 @@ def extraer_fono(text):
     Retorna numero de 8-11 digitos.
     Input: Texto plano.
     Output: Texto plano.
-    Busca 8 a 9 digitos seguidos.
+    Busca 8 a 11 digitos seguidos.
     EL texto en que se busca no contiene espacios ni guiones
     En el caso de detectar más de uno, se retorna el primero encontrado
     '''
     text = text.replace('-','')
     #regex = re.compile(r"\+?\d[\( -]?\d{3}[\) -]?\d{3}[ -]?\d{2}[ -]?\d{2}")
-    regex = re.compile(r"\d{8,11}")
+    regex = re.compile(r"\d{9,11}")
     text = text.replace('-','') # eliminar guiones, que son necesarios para extraer links pero no aquí
-    texto_busqueda = "".join(text.split())  #eliminar todos los espacios
-    numbers = re.findall(regex, texto_busqueda)
-    if len(numbers)>1:
-        numbers = max(numbers, key = len) #retornar el string más largo
-        if len(numbers) > 10:
-            numbers = '+'+numbers
+    numbers_list=[]
+    number = ''
+    text_lines= text.splitlines()
+    for line in text_lines:
+        texto_busqueda = "".join(line.split())  #eliminar todos los espacios
+        numbers = re.findall(regex, texto_busqueda)
+        numbers_list +=  numbers
 
-    return numbers
+    #print(numbers_list)
+    if len(numbers_list) == 1:
+        number = numbers_list[0]
+    elif len(numbers_list)>1:
+        number = max(numbers_list, key = len) #retornar el string más largo
+  
+    if len(number) > 10:
+        number = '+'+number
+    #print(number)
+    return number
 
 
 def extraer_skills(text, nlp_text):

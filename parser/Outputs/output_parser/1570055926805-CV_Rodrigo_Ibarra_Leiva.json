@@ -9,16 +9,16 @@
     },
     "Nombre archivo": "1570055926805-CV_Rodrigo_Ibarra_Leiva",
     "Licencias-Certificaciones": [
-        "CLASE C",
-        "CLASE B"
+        "CLASE B",
+        "CLASE C"
     ],
     "Palabras Claves": [
+        "Negociación",
         "Análisis",
         "Gestión",
-        "Negociación",
+        "Responsabilidad",
         "Proactividad",
-        "Liderazgo",
-        "Responsabilidad"
+        "Liderazgo"
     ],
     "Educacion": {
         "Universidades:": [
@@ -36,10 +36,10 @@
     "Referencias": "",
     "Skills": [
         "Word",
-        "Erp",
-        "Powerpoint",
         "Office",
-        "Sap",
-        "Excel"
+        "Erp",
+        "Excel",
+        "Powerpoint",
+        "Sap"
     ]
 }

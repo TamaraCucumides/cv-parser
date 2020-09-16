@@ -9,14 +9,14 @@
     },
     "Nombre archivo": "1566746473048-Patricio_Mendez-CV",
     "Licencias-Certificaciones": [
-        "LICENCIA DE CONDUCIR",
-        "CLASE B"
+        "CLASE B",
+        "LICENCIA DE CONDUCIR"
     ],
     "Palabras Claves": [
         "Análisis",
-        "Modelamiento",
+        "Responsabilidad",
         "Adaptable",
-        "Responsabilidad"
+        "Modelamiento"
     ],
     "Educacion": {
         "Universidades:": [
@@ -33,11 +33,11 @@
     "Resumen": "resumen profesional estudiante de último año de geología de la universidad católica del norte, egresado etapa tesis, caracterizado por la responsabilidad y la seriedad ante el trabajo adquirido, además de la capacidad de resolver problemas propuestos individualmente o en equipo y buena capacidad para adaptarse a cambios. especial interés en el área geología minera, en la cual se tiene experiencia en geotecnia-estructural. ",
     "Referencias": "",
     "Skills": [
-        "Base de datos",
         "Word",
-        "Powerpoint",
         "Office",
         "Excel",
-        "Vulcan"
+        "Powerpoint",
+        "Vulcan",
+        "Base de datos"
     ]
 }

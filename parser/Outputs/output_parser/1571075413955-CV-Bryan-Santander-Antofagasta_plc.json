@@ -4,23 +4,21 @@
         "Correo": [
             "bryan.sant.gonz@gmail.com"
         ],
-        "Celular": [
-            "56942542182"
-        ],
+        "Celular": "+56942542182",
         "Linkedin": null
     },
     "Nombre archivo": "1571075413955-CV-Bryan-Santander-Antofagasta_plc",
     "Licencias-Certificaciones": [
-        "LICENCIA DE CONDUCIR",
-        "CLASE B"
+        "CLASE B",
+        "LICENCIA DE CONDUCIR"
     ],
     "Palabras Claves": [
-        "Análisis",
         "Motivación",
-        "Voluntariado",
-        "Pasion",
         "Analizar",
-        "Responsabilidad"
+        "Voluntariado",
+        "Análisis",
+        "Responsabilidad",
+        "Pasion"
     ],
     "Educacion": {
         "Universidades:": [
@@ -38,9 +36,9 @@
     "Referencias": "",
     "Skills": [
         "Macros",
-        "Visual basic",
         "Office",
         "Excel",
-        "Vulcan"
+        "Vulcan",
+        "Visual basic"
     ]
 }

@@ -2,18 +2,16 @@
     "Contacto": {
         "Nombre": "S C ",
         "Correo": [],
-        "Celular": [
-            "56990434234"
-        ],
+        "Celular": "+56990434234",
         "Linkedin": null
     },
     "Nombre archivo": "1570478212825-CV_FRANCISCA_MONCADA_OROSTICA",
     "Licencias-Certificaciones": [],
     "Palabras Claves": [
-        "Estrategia",
         "Tolerancia",
         "Sociable",
         "Apasionado",
+        "Estrategia",
         "Liderazgo"
     ],
     "Educacion": {
@@ -29,11 +27,11 @@
     "Resumen": "objetivo mi interés como profesional consiste en desarrollarme en el área comercial o de marketing dentro de una empresa, en la cual busco contribuir en función de los objetivos de la organización. la tecnología y la innovación son dos áreas que me apasionan y soy una convencida de sus múltiples usos y beneficios dentro de una organización. ",
     "Referencias": "",
     "Skills": [
-        "Excel",
-        "Erp",
-        "Mysql",
-        "Analytics",
         "Wordpress",
+        "Mysql",
+        "Erp",
+        "Excel",
+        "Analytics",
         "Html"
     ]
 }
