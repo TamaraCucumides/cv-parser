@@ -10,8 +10,8 @@
     "Nombre archivo": "1571278884566-CV_Nicolas_Montanares",
     "Licencias-Certificaciones": [],
     "Palabras Claves": [
-        "Gestión",
-        "Liderazgo"
+        "Liderazgo",
+        "Gestión"
     ],
     "Educacion": {
         "Universidades:": [
@@ -27,14 +27,14 @@
     ],
     "Experiencia": "experiencia laboral universidad federico santa maría coordinador de actividades departamento admisión marzo 2017 - diciembre 2018 universidad federico santa maría promotor ",
     "Resumen": "nicolás montanares morales ",
-    "Referencias": "",
     "Skills": [
-        "Access",
-        "Sql",
+        "Vba",
         "Base de datos",
         "Powerpoint",
-        "Excel",
+        "Sql",
+        "Access",
         "Word",
-        "Vba"
-    ]
+        "Excel"
+    ],
+    "Referencias": ""
 }

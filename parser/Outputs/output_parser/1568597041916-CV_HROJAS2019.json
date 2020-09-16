@@ -10,37 +10,37 @@
         "CLASE B"
     ],
     "Palabras Claves": [
-        "Puntual",
+        "Disposición",
         "Voluntariado",
-        "Compromiso",
         "Modelamiento",
-        "Responsabilidad",
+        "Puntual",
         "Proactividad",
-        "Disposición"
+        "Compromiso",
+        "Responsabilidad"
     ],
     "Educacion": {
         "Universidades:": [
-            "Instituto Profesional INACAP",
-            "Universidad de Aconcagua"
+            "Universidad de Aconcagua",
+            "Instituto Profesional INACAP"
         ],
         "Grado_mas_alto": [
             "Profesional universitario"
         ]
     },
     "Lenguajes": [
-        "Inglés intermedio",
         "Español",
+        "Inglés intermedio",
         "Inglés"
     ],
     "Experiencia": "experiencia laboral perfil personal con respecto a mis cualidades personales, puedo destacar mi responsabilidad, proactividad, mi capacidad de trabajar en equipos grandes y pequeños y también mis buenas relaciones personales y buen trato. además de mi puntualidad y compromiso con los trabajos que se me asignen. para ellos poseo un rápido entendimiento y siempre una buena disposición para lograr los objetivos deseados. con respecto a mis conocimientos, poseo un nivel de inglés intermedio y computación intermedio-avanzado según el tipo de software, además de una sólida formación académica en el área de minería actual. 2015 - 2018 ingeniería en minas titulado santiago - chile instituto profesional inacap 2011 - 2013 técnico en minas egresado los andes - chile universidad de aconcagua 2007 - 2010 enseñanza media los andes - chile liceo maximiliano salas marchant cajero - cencosud easy retail mayo 2017- actualidad práctica profesional codelco división andina enero 2017- marzo 2017 administrativo - ram construcciones junio 2016 octubre 2016 ayudante obras civiles enero 2016 abril 2016 voluntariado participación en mi última casa de estudios, en actividad de ayuda para los nuevos estudiantes que ingresaban a la carrera de minería ejerciendo la labor de alumno padrino, donde se le brindaba apoyo de todo tipo a las nuevas generaciones con una duración aproximada de 1 año. software office excel powerpoint word proyect tronadura jk simblast 2dface 2dbench 2dring geomecánica dips rocplane swedge unwedge slide modelamiento minero datamine rmstudio diseño 5d planner dt opet pit dt ventilación ventsim autocad i-site licencias licencia clase b vigente, con más de 8 años de experiencia. licencia de programador calculista y manipulador de explosivos vigente, validada por la autoridad dgmn por un periodo de 3 años ",
     "Resumen": "resumen ingeniero en minas español lengua materna inglés intermedio ",
-    "Referencias": "",
     "Skills": [
         "Ventsim",
-        "Autocad",
         "Office",
         "Powerpoint",
+        "Word",
         "Excel",
-        "Word"
-    ]
+        "Autocad"
+    ],
+    "Referencias": ""
 }

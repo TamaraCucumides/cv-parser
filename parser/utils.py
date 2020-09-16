@@ -26,8 +26,9 @@ from constantes import perfil, educacion_sec, cursos, habilidades, contacto, log
 from seccionar import seccionar_cv
 import os
 import json
+
 #####################################################
-####  UTILIDADES generate_text_files.py  ############
+####  UTILIDADES  parser.py  ########################
 #####################################################
 
 def extraer_texto(path):
@@ -69,10 +70,6 @@ def extraer_texto(path):
         text = text_clean
     return text
 
-#####################################################
-####  UTILIDADES  parser.py  ########################
-#####################################################
-
 def extraer_mail(text):
     '''
     Input: Recibe texto plano
@@ -91,12 +88,11 @@ def extraer_fono(text):
     Retorna numero de 8-11 digitos.
     Input: Texto plano.
     Output: Texto plano.
-    Busca 8 a 11 digitos seguidos.
+    Busca 9 a 11 digitos seguidos.
     EL texto en que se busca no contiene espacios ni guiones
     En el caso de detectar más de uno, se retorna el primero encontrado
     '''
     text = text.replace('-','')
-    #regex = re.compile(r"\+?\d[\( -]?\d{3}[\) -]?\d{3}[ -]?\d{2}[ -]?\d{2}")
     regex = re.compile(r"\d{9,11}")
     text = text.replace('-','') # eliminar guiones, que son necesarios para extraer links pero no aquí
     numbers_list=[]
@@ -107,7 +103,6 @@ def extraer_fono(text):
         numbers = re.findall(regex, texto_busqueda)
         numbers_list +=  numbers
 
-    #print(numbers_list)
     if len(numbers_list) == 1:
         number = numbers_list[0]
     elif len(numbers_list)>1:
@@ -115,7 +110,6 @@ def extraer_fono(text):
   
     if len(number) > 10:
         number = '+'+number
-    #print(number)
     return number
 
 def extraer_skills(text, nlp_text):
@@ -129,13 +123,8 @@ def extraer_skills(text, nlp_text):
     '''
     # eliminar stopwords
     tokens = [token.text for token in nlp_text if not token.is_stop]
- 
     skills = cargar_dict(os.getcwd() +'/diccionarios/skills')
-
     skillset = []
-    # lista de frases
-    #noun_chunks = list(nlp_text.noun_chunks)
-
 
     # revisar para palabras
     for token in tokens:
@@ -154,25 +143,23 @@ def extraer_skills(text, nlp_text):
 
 def extraer_licencias(text, nlp_text):
     '''
-    Funcion que busca los skill declarados del postulante
-    Se buscan tanto skill de 1 token como de varios.
-    Hace uso del diccionario skills.txt.
+    Funcion que busca las licencias que declara
+    el postulante
     '''
     # eliminar stopwords
     tokens = [token.text for token in nlp_text if not token.is_stop]
- 
-    licencias = cargar_dict(os.getcwd() +'/diccionarios/licencias_certificaciones')
-    licencias = [unidecode.unidecode(licencia.lower()) for licencia in licencias]
+    licencias_dic = licencias
+    licencias_list = [unidecode.unidecode(licencia.lower()) for licencia in licencias_dic]
     licencias_set = []
     # revisar para palabras
     for token in tokens:
         token_un = unidecode.unidecode(token) # eliminar tildes
-        if token_un.lower() in licencias:
+        if token_un.lower() in licencias_list:
             licencias_set.append(token)
     
     # revisar frases
-    licencias = [licencia for licencia in licencias if len(licencia.split())> 1]
-    for item in licencias:
+    licencias_list = [licencia for licencia in licencias_list if len(licencia.split())> 1]
+    for item in licencias_list:
         item_un = unidecode.unidecode(item)
         text_un = unidecode.unidecode(text.lower().replace('\n', ' '))
         #este if es mas costoso pero más efectivo, a veces el nltk se come los 'de'
@@ -188,31 +175,18 @@ def extraer_educacion(text, nlp_text):
     Input: texto plano
     Output: Lista de strings unicos
     '''
-   
     educacion_list=[]
-    #print(text.replace('\n', ' '))
-    #text = text.replace('\n', ' ')
-
     #Dejar solo sustantivos
     filter_noun = [word for (word, pos) in nltk.pos_tag(nltk.word_tokenize(text)) if pos[0] == 'N' or word == 'de']
-    #frases   
-    #noun_chunks = list(nlp_text.noun_chunks)
-    #nlp = textacy.load_spacy_lang('es_core_news_sm')
-    #texto_procesado = nlp(text)
-    #noun_chunks = textacy.extract.noun_chunks(texto_procesado)
-    
+   
     for item in educacion:
         #for noun in noun_chunks:
         item_un = unidecode.unidecode(item)
         text_un = unidecode.unidecode(text.lower().replace('\n', ' '))
-            #noun_un = unidecode.unidecode(noun.text)
-            #if item_un.lower() in " ".join(noun_un.lower().split()):
-            #este if es mas costoso pero más efectivo, a veces el nltk se come los 'de'
+        #este if es mas costoso pero más efectivo, a veces el nltk se come los 'de'
         if item_un.lower() in text_un:
             educacion_list.append(item)
-    
-
-                
+                   
     for item in educacionSiglas:
         if item.upper() in filter_noun:
             educacion_list.append(item)
@@ -243,7 +217,6 @@ def extraer_idiomas(text, nlp_text):
 
     # agregamos los idiomas por si solos : [inglés, francés, etc]
     combinaciones_strings = combinaciones_strings + idiomas
-
     noun_chunks = list(nlp_text.noun_chunks)
     
     #Ahora a buscar cada una de las combinaciones en cada frase o chunk
@@ -269,10 +242,7 @@ def extraer_grado(text):
     Output: Lista de strings
     '''
     education = []
-    frases = sent_tokenize(text) # frases
-
-    
-
+    frases = sent_tokenize(text) # frases   
 
     for grado_name in grados_educativos_orden.keys():
         for grado in grados_educativos_orden[grado_name]:
@@ -286,8 +256,6 @@ def extraer_grado(text):
 
                 elif grado_un.lower() in frase_un.lower(): # grados de varias palabras: administracion de empresas
                     education.append(grado_name.capitalize())
-
-
  
     # Como se buscaron en orden, si se detecta más de uno
     # se retorna el grado más alto, que debe estar el último de la lista
@@ -298,20 +266,18 @@ def extraer_grado(text):
 
     return education
 
-def retrieve_dates(text):
-    pass
-
-def extraer_referencias(cv_txt):   
-
-
-
+def extraer_referencias(cv_txt):
+    '''
+    Utilidad que extrae las referencias profesionales
+    que declara el postulante.
+    '''
     otros = perfil + educacion_sec + cursos + habilidades + contacto +  logros+ hobbies + experiencias
     linea_referencia = False
     siguiente_seccion = False
     parrafo = ''
     for line in cv_txt.splitlines():
-        line_np = re.sub(r'[^\w\s]','', line)
-        l = sum([i.strip(string.punctuation).isalpha() for i in line_np.split()])
+        #line_np = re.sub(r'[^\w\s]','', line)
+        #l = sum([i.strip(string.punctuation).isalpha() for i in line_np.split()])
         chunks = re.split(' +', line)
         linea =''
         for word in chunks:
@@ -319,8 +285,6 @@ def extraer_referencias(cv_txt):
 
         if ((len(line.strip()) == 0 ) and linea_referencia == False):
             continue
-
-        #print(linea + '\n')
         linea = " ".join(linea.split())
 
         for referencia in referencias:
@@ -329,11 +293,7 @@ def extraer_referencias(cv_txt):
             linea_un = "".join(unidecode.unidecode(linea_np).split())
             referencia_un = "".join(unidecode.unidecode(referencia_np).split())
             if referencia_un.lower() == linea_un.lower():
-                #print('He pillado la seccion')
                 linea_referencia = True
-                #print(linea.UPPER())
-                #continue
-
 
         for otro in otros:
             otro_np = re.sub(r'[^\w\s]','', otro)
@@ -342,7 +302,6 @@ def extraer_referencias(cv_txt):
             linea_un = unidecode.unidecode(linea_np)
 
             if linea_un.lower() == otro_un.lower() and linea_referencia:
-                #print(linea_un)
                 siguiente_seccion = True
                 break
 
@@ -351,47 +310,39 @@ def extraer_referencias(cv_txt):
 
         if linea_referencia == True and siguiente_seccion == False:
             parrafo += linea + ' '
-    #if len(parrafo.splitlines())>2:
-    #    parrafo = " ".join([str(x) for x in parrafo.splitlines()[1:-1]])
-        
-    parrafo = re.sub('\s+',' ', parrafo)
+
+    parrafo = re.sub(r'\s+',' ', parrafo)
     return parrafo
 
 def extraer_perfil(cv_text):
-
+    '''
+    Utilidad que extrae el resumen que suelen 
+    poner los postulantes. 
+    '''
     otros = educacion_sec + cursos + habilidades + contacto + referencias + logros+ hobbies + experiencias
     n = -1
     siguiente_seccion = False
     parrafo = ''
-    #print(cv_text)
     n_linea = 0
+
     for line in cv_text.splitlines():
         n += 1
-        #print(line)
         for resumen in perfil:
             linea_np = re.sub(r'[^\w\s]','', line)
             resumen_np = re.sub(r'[^\w\s]','', resumen)
             linea_un = "".join(unidecode.unidecode(linea_np).split())
             resumen_un = "".join(unidecode.unidecode(resumen_np).split())
             if resumen_un.lower() == linea_un.lower():
-                #linea_resumen = True
-                #print('pille linea resumen')
-                #print(resumen_un)
                 n_linea = n
                 break
-    #print(n_linea)
-    #print(cv_txt)   
+ 
     for line in cv_text.splitlines()[n_linea:-1]:   
-        #print('entre aca')
         chunks = re.split(' +', line)
         linea =''
         for word in chunks:
             linea += word.lower() + ' '
 
         linea = " ".join(linea.split())
-
-
-
         for otro in otros:
             otro_np = re.sub(r'[^\w\s]','', otro)
             linea_np = re.sub(r'[^\w\s]','', linea)
@@ -399,7 +350,6 @@ def extraer_perfil(cv_text):
             linea_un = "".join(unidecode.unidecode(linea_np).split())
 
             if linea_un.lower() == otro_un.lower() :
-                #print(linea_un.upper())
                 siguiente_seccion = True
                 break
 
@@ -408,25 +358,23 @@ def extraer_perfil(cv_text):
 
         if  siguiente_seccion == False:
             parrafo += linea + ' '
-
-    #if len(parrafo.splitlines())>2:
-    #        parrafo = " ".join([str(x) for x in parrafo.splitlines()[1:-1]])
         
-    parrafo = re.sub('\s+',' ', parrafo)
+    parrafo = re.sub(r'\s+',' ', parrafo)
     return parrafo
    
 def extraer_experiencia(cv_text):
+    '''
+    Utilidad que extrae la experincia laboral del
+    postulante.
+    '''
     cv_text = cv_text.splitlines()
     otros = perfil + educacion_sec + cursos + habilidades + contacto + referencias + logros+ hobbies
-    #print(cv_text)
     linea_experiencia = False
     siguiente_seccion = False
+
     parrafo = ''
     for line in cv_text:
-        #print(line)
-        line_np = re.sub(r'[^\w\s]','', line)
-        #print(line_np)
-        #l = sum([i.strip(string.punctuation).isalpha() for i in line_np.split()])
+        #line_np = re.sub(r'[^\w\s]','', line)
         chunks = re.split(' +', line)
         linea =''
         for word in chunks:
@@ -434,7 +382,6 @@ def extraer_experiencia(cv_text):
 
         if ((len(line.strip()) == 0  ) and linea_experiencia == False):
             continue
-
 
         linea = " ".join(linea.split())
         for experiencia in experiencias:
@@ -444,8 +391,6 @@ def extraer_experiencia(cv_text):
             experiencia_un = "".join(unidecode.unidecode(experiencia_np).split())
             if experiencia_un.lower() == linea_un.lower():
                 linea_experiencia = True
-                #continue
-
 
         for otro in otros:
             otro_np = re.sub(r'[^\w\s]','', otro)
@@ -463,14 +408,12 @@ def extraer_experiencia(cv_text):
         if linea_experiencia == True and siguiente_seccion == False:
             parrafo += linea + ' \n'
     if len(parrafo.splitlines())<3:
-        #stopwords = nltk.corpus.stopwords.words('spanish')
-        parrafo = seccionar_cv(cv_text)['experiencia']
-        #print(parrafo + '\n')     
-    parrafo = re.sub('\s+',' ', parrafo)
+        parrafo = seccionar_cv(cv_text)['Experiencia']
+
+    parrafo = re.sub(r'\s+',' ', parrafo)
     return parrafo.replace('\n', ' ')
 
 def extraer_nombre(text, nlp_text):
-
     '''
     Funcion que busca por 3 pronombres seguidos. Se recibe el texto
     plano  palabras que complican el analisis
@@ -513,16 +456,14 @@ def extraer_linkedin(text):
     Funcion que captura el perfil de Linkedin del postulante
     se busca con una expression regular https://wwww.linkedin..........
     '''
-    #regex = re.compile(r"(?:https?:)?\/\/(?:[\w]+\.)?linkedin\.com\/in\/(?P<permalink>[\w\-\_À-ÿ%]+)\/?")
     regex = re.compile(r"\b((?:https?://|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:'\"]))")
     links = re.findall(regex, text) # resultado de la forma ('www.linkedin.com/in/florenciavillegasduhau', '', '', '', ''), tupla de 4 elementos
-    #print(profile[1])
     link_linkedin = None
     if links:
         for link in links:
             if 'linkedin' in link[0]:
                 link_linkedin = link[0]
-        #return 'https://www.linkedin.com/in/' + profile[0]
+
     return link_linkedin
 
 def busqueda_palabras_claves(text):
@@ -545,9 +486,7 @@ def busqueda_palabras_claves(text):
     stemmer = SnowballStemmer('spanish')
 
     word_tokens = word_tokenize(text) 
-    #newStopWords = cargar_dict(os.getcwd() + '/parser/diccionarios/stop_words')
     stopwords = nltk.corpus.stopwords.words('spanish')
-    #stopwords.extend(newStopWords)
     stop_words = stopwords
     filtered_text = [w for w in word_tokens if not w in stop_words] 
 

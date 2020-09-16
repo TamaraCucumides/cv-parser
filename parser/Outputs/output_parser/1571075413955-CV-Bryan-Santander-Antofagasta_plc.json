@@ -14,11 +14,11 @@
     ],
     "Palabras Claves": [
         "Voluntariado",
-        "Análisis",
         "Pasion",
-        "Responsabilidad",
         "Analizar",
-        "Motivación"
+        "Motivación",
+        "Responsabilidad",
+        "Análisis"
     ],
     "Educacion": {
         "Universidades:": [
@@ -33,12 +33,12 @@
     ],
     "Experiencia": "experiencia laboral may 2018 oct 2018 práctica y memoria profesional. división chuquicamata, codelco. área superintendencia mina. unidad carguío y transporte. tema análisis factibilidad técnico-económico para implementación ciclo automático flota caex mina chuquicamata descripción el proyecto ciclo automático consiste en actualizar el sistema de medición de las actividades para los caex, transitando de un sistema semi- autónomo a uno completamente automático. de esta manera, el objetivo principal de la memoria fue analizar la factibilidad en el área técnica y económica de dicha iniciativa, lo cual se realizó mediante el análisis estadístico y la evaluación de proyectos, respectivamente. ago 2017 dic 2017 ayudante de laboratorio de geomecánica. universidad católica del norte. descripción se preparan las muestras de probetas de distinto tamaño para, posteriormente, realizar ensayos de compresión uniaxial simple. de esta forma, se pretende analizar y verificar el denominado efecto escala en macizo rocoso mayor tamaño de probeta, menor resistencia y viceversa. por otra parte, se busca corroborar lo establecido sobre el comportamiento reverso del efecto escala en la investigación de hossein masoumi. ",
     "Resumen": "bryan guillermo santander gonzález c.i 18.580.118-7 dirección escocia 2397, población independencia, calama edad 25 años fono 56 942542182 email bryan.sant.gonz@gmail.com licencia de conducir clase b presentación personal. me considero un profesional íntegro, con valores intachables de responsabilidad y respeto en el ámbito laboral y personal. además, me caracterizo por mi perseverancia y pasión en lograr las metas propuestas, considerando el trabajo en equipo y el máximo esfuerzo como puntos claves para la consecución de ello. por último, estoy dispuesto a enfrentar los desafíos que se me propongan, motivado por el nuevo aprendizaje que adquiriré y el aporte que puedo generar para la compañía, convirtiéndome en el ingeniero civil de minas que requiere la empresa. ",
-    "Referencias": "",
     "Skills": [
         "Macros",
-        "Visual basic",
         "Office",
+        "Vulcan",
         "Excel",
-        "Vulcan"
-    ]
+        "Visual basic"
+    ],
+    "Referencias": ""
 }
