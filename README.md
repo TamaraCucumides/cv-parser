@@ -60,7 +60,5 @@ http://dcc.uchile.cl/~jperez/word-embeddings/fasttext-sbwc.vec.gz
 ### ¿Cómo usar?
 
 1. Poner todos los CV en la carpeta `/resumes_pdf`.
-2. Correr `generar_pdfatexto.py`. La salida (`output_text`) de este script es usada en `seccionar.py`
-3. Correr `parser.py`, que usa diccionarios y genera .json con filtros especificos (`output_parser`).
-4. Correr `seccionar.py`, que usa la salida del paso 2 y genera .json con los cvs seccionados (`output_seccionado`).
-5. Correr `ranking.py` que usa la salida de 4 y `descripcion_cargo.txt`..
+2. Correr `parser.py`, que usa diccionarios y genera .json con filtros especificos (`output_parser`).
+3. Correr `ranking.py` que usa la salida de 2 y `descripcion_cargo.txt`..
