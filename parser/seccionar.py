@@ -23,11 +23,11 @@ re_c = re.compile(r'\w+')
 nlp = es_core_news_md.load()
 
 # Se carga el modelo de embeddings en español
-print("Cargando embeddings")
-wordvectors_file_vec = os.getcwd() + '/embeddings/fasttext-sbwc.3.6.e20.vec'
-cantidad = 100000
-model = KeyedVectors.load_word2vec_format(wordvectors_file_vec, limit=cantidad)
-print("Embeddings cargadas")
+#print("Cargando embeddings")
+#wordvectors_file_vec = os.getcwd() + '/embeddings/fasttext-sbwc.3.6.e20.vec'
+#cantidad = 100000
+#model = KeyedVectors.load_word2vec_format(wordvectors_file_vec, limit=cantidad)
+#print("Embeddings cargadas")
 
 #Se carga la tabla de secciones.
 seccion_csv = os.getcwd() +'/CSVs/seccionesCV.csv'
@@ -232,6 +232,13 @@ if __name__ == '__main__':
     direc = os.getcwd()
     dir_txt = '/Outputs/output_text/'
     dir_output = '/Outputs/output_seccionado/'
+
+    # Se carga el modelo de embeddings en español
+    print("Cargando embeddings")
+    wordvectors_file_vec = os.getcwd() + '/embeddings/fasttext-sbwc.3.6.e20.vec'
+    cantidad = 100000
+    model = KeyedVectors.load_word2vec_format(wordvectors_file_vec, limit=cantidad)
+    print("Embeddings cargadas")
 
     # Se cargan todos los paths a los cv en formato .txt 
     resumes_seccionado = []

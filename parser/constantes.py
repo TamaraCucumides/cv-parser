@@ -16,10 +16,17 @@ def cargar_dict(path):
     return c
 
 def secciones_limpio(dataframe):
+    '''
+    Utilidad para eliminar los nan o ' ' cuando se cargan los diccionarios.
+    ['vales', 'otros', ' ', 'nan'] ---> ['vales', 'otros']
+    '''
     ar = [str(exp).lower() for exp in dataframe if str(exp)!='nan' and str(exp)!= ' ']
     return ar
 
 def cargar_json(path):
+    '''
+    Utilidad para cargar .json
+    '''
     with open(path) as json_file:
         data = json.load(json_file)
     return data
