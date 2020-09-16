@@ -10,15 +10,15 @@
     "Nombre archivo": "1571075456196-CV",
     "Licencias-Certificaciones": [],
     "Palabras Claves": [
-        "Responsabilidad",
-        "Análisis",
-        "Escuchar",
-        "Motivación",
         "Autodidacta",
-        "Aprender",
-        "Gestión",
         "Modelamiento",
-        "Proactividad"
+        "Aprender",
+        "Proactividad",
+        "Gestión",
+        "Escuchar",
+        "Responsabilidad",
+        "Motivación",
+        "Análisis"
     ],
     "Educacion": {
         "Universidades:": [
@@ -29,22 +29,22 @@
         ]
     },
     "Lenguajes": [
-        "Español",
-        "Inglés"
+        "Inglés",
+        "Español"
     ],
-    "Experiencia": "",
+    "Experiencia": "nuevas cosas y desarrollarse en diferentes áreas ,con el deseo de poder aportar y ser parte de su equipo de trabajo. Profesional, Copiapó Procesos de desarrollo de Software. Dirección de Proyectos basados en Metodología Pmi. Manejo de Microsoft office, Bizagi, PowerBI, Visier. academia de tu experiencia es la clave junio Trabajo en equipo Responsabilidad Daniela Nicole Andrea Espina Tirado Enero-Febrero 2018 Practicante en Codelco, División Radomiro Tomic, Calama. Se realizó práctica en la Gerencia de Seguridad y Salud Ocupacional, realizando las Seguimiento y control caminatas gerenciales, reunión consejo superior y Control de la gestión incidentes. para el seguimiento de infracciones de tránsito de la dirección de protección Industrial. Desarrollo modelo seguimiento y control de reuniones de seguridad de empresas contratistas. Reporte y desarrollo en análisis y diagnósticos de procesos en Gestión de incidentes . Enero-Febrero 2019 Practicante en Codelco, División Andina, Valparaíso. Se realizó práctica en la Gerencia de Recursos Hídricos y Concentración de Relave, en el Seguimiento y control de ordenes de trabajo en las planificación de mantenciones. Reporte y análisis de comportamiento de piezómetros muro de relave a través de Reporte y desarrollo de análisis de datos mediante el uso de la herramienta Pi DataLink. planificación de las ordenes de trabajo de Centralización y levantamiento de información, de las mantenciones planificadas. Memorista en Control de Gestión y Sistemas Recursos Humanos, Anglo American Chile, Santiago Plan de mejoramiento procesos de control de gestión para el desarrollo de Data Implementación de plan de mejoramiento. Seguimiento y control del desarrollo de plataforma Mde. ",
     "Resumen": "ingeniera civil en computación e informática, con voluntad de querer aprender nuevas cosas y desarrollarse en diferentes áreas ,con el deseo de poder aportar y ser parte de su equipo de trabajo. 2013-2019 ingeniería civil en computación e informática universidad católica del norte, coquimbo. 2009 - 2012 enseñanza media escuela técnico profesional, copiapó 2002-2008 enseñanza básica liceo de música de copiapó  lenguajes de programación java , c, php, html5.  ",
     "Referencias": "",
     "Skills": [
-        "Office",
-        "Mysql",
         "Bases de datos",
-        "Analytics",
-        "Html5",
         "Visual basic",
+        "Php",
+        "Html5",
+        "Analytics",
         "Java",
         "Coaching",
         "Sql",
-        "Php"
+        "Office",
+        "Mysql"
     ]
 }

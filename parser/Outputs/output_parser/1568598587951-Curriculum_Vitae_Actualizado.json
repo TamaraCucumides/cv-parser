@@ -9,8 +9,8 @@
     },
     "Nombre archivo": "1568598587951-Curriculum_Vitae_Actualizado",
     "Licencias-Certificaciones": [
-        "CLASE B",
-        "LICENCIA DE CONDUCIR"
+        "LICENCIA DE CONDUCIR",
+        "CLASE B"
     ],
     "Palabras Claves": [
         "Aprender",
@@ -19,8 +19,8 @@
     ],
     "Educacion": {
         "Universidades:": [
-            "Universidad Técnica Federico Santa María",
-            "Pontificia Universidad Católica de Valparaíso"
+            "Pontificia Universidad Católica de Valparaíso",
+            "Universidad Técnica Federico Santa María"
         ],
         "Grado_mas_alto": [
             "Ingeniería"
@@ -30,15 +30,15 @@
         "Inglés",
         "Inglés básico"
     ],
-    "Experiencia": "antecedentes laborales mayo agosto 2019 memoria en la empresa cap minería. estudio e implementación de un dispositivo innovador en medir la ley de hierro. titulo de la memoria medición de la ley de hierro en tiempo real. enero 2019 visita de trabajo en cap para la adquisición de datos y asesoría para un proyecto de implementación de un dispositivo electrónico. abril agosto 2018 bodeguero y reponedor en restaurante internado y fauna, valparaíso. encargado en la parte de compra de insumo y materias primas necesarias para el uso de cocina y barra de bebestibles del restaurante. enero febrero 2018 práctica profesional ingeniero civil electrónico en dhsiga s.a., trabajo en la revisión de la prefactibilidad y factibilidad de proyectos de codelco división ventanas, además de entrega de proyecto de hornos basculantes y revisión de planta de humos visibles. enero febrero 2017 estudiante en práctica como ingeniero civil electrónico en garibaldi s.a., introducción al ámbito laboral en el área de electrónica y de instrumentación en la parte de mantenimiento. enero febrero 2016 ayudante general garibaldi s.a., trabajador en la línea de zunchos plásticos tanto zunchos pp como pet, adquisición manual del rollo plástico y luego embalaje. febrero 2015 bodeguero en storage, santiago de chile. trabajador de tiempo completo en la recepción de producto de todo tipo dependiendo la logística. diciembre 2013 febrero 2014 cinemark, como asistente de cine. se trabaja como cajero tanto como apertura como cierre de caja. diciembre 2010 jumbo mall arauco maipú como apoyo de navidad área electrodomésticos reponedor y vendedor. febrero 2006 noveno consulting services, inc. nogales arizona ee. uu. como logística de órdenes de recepción y despachos de productos comestibles. ",
+    "Experiencia": "antecedentes laboralesmayo agosto 2019memoria en la empresa cap minería. estudio e implementación deun dispositivo innovador en medir la ley de hierro. titulo de lamemoria medición de la ley de hierro en tiempo real.enero 2019visita de trabajo en cap para la adquisición de datos y asesoría paraun proyecto de implementación de un dispositivo electrónico.abril agosto 2018bodeguero y reponedor en restaurante internado y fauna,valparaíso. encargado en la parte de compra de insumo y materiasprimas necesarias para el uso de cocina y barra de bebestibles delrestaurante.enero febrero 2018práctica profesional ingeniero civil electrónico en dhsiga s.a.,trabajo en la revisión de la prefactibilidad y factibilidad de proyectosde codelco división ventanas, además de entrega de proyecto dehornos basculantes y revisión de planta de humos visibles.enero febrero 2017estudiante en práctica como ingeniero civil electrónico en garibaldis.a., introducción al ámbito laboral en el área de electrónica y deinstrumentación en la parte de mantenimiento.enero febrero 2016ayudante general garibaldi s.a., trabajador en la línea de zunchosplásticos tanto zunchos pp como pet, adquisición manual del rolloplástico y luego embalaje.febrero 2015bodeguero en storage, santiago de chile. trabajador de tiempocompleto en la recepción de producto de todo tipo dependiendo lalogística.diciembre 2013 febrero 2014cinemark, como asistente de cine. se trabaja como cajero tantocomo apertura como cierre de caja.diciembre 2010jumbo mall arauco maipú como apoyo de navidad áreaelectrodomésticos reponedor y vendedor.febrero 2006noveno consulting services, inc. nogales arizona ee. uu. comologística de órdenes de recepción y despachos de productoscomestibles.",
     "Resumen": "resumen mi nombre es matías valdés, soy un estudiante de ingeniería civil electrónica que esta finalizando su tesis de pregrado para optar al título de ingeniero civil electrónico. cuento con habilidades de flexibilidad para adaptarme a diferentes situaciones. capacidad de resolver problemas que se enfrenten en el trabajo como en la vida en general. mi área de interés en la participación de proyectos y la mejora continua en la parte de ingeniería, en especial en electrónica y automatización. también la creatividad en la solución de problemas, buscando la innovación o ideas frescas que ayuden en el ámbito laboral. soy una persona a la cual se puede confiar, siendo honesto e integro en el trabajo y en todo momento. además de tener deseos de seguir aprendiendo, con actitud positiva y dedicación. siempre buscando crecer como profesional y dónde hacer carrera, para aprender y tener desafíos que se pueda madurar como trabajador, adquiriendo conocimientos y aplicar los conocimientos universitarios. ",
     "Referencias": "",
     "Skills": [
-        "Machine learning",
-        "Procesamiento digital de imágenes",
-        "Matlab",
         "Word",
+        "Procesamiento digital de imágenes",
+        "Arduino",
         "Excel",
-        "Arduino"
+        "Machine learning",
+        "Matlab"
     ]
 }

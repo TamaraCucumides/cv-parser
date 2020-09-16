@@ -5,13 +5,15 @@ import os
 import es_core_news_md
 import itertools
 from gensim.models.keyedvectors import KeyedVectors
+from nltk.tokenize import sent_tokenize, word_tokenize
 import re
 import json
 import pprint
+import string
 pp = pprint.PrettyPrinter(indent=4)
 import multiprocessing as mp
-from utils import preprocesar_texto
-
+#from utils import preprocesar_texto
+stopwords = nltk.corpus.stopwords.words('spanish')
 # Utilidad para borrar simbolos
 re_c = re.compile(r'\w+')
 
@@ -88,7 +90,31 @@ def modificar(word):
     except:
         return None # to handle the odd case of characters like 'x02', etc.
     
+def preprocesar_texto(corpus,stopwords , enminiscula= True, puntuacion = False):
+    '''
+    Entrada: texto, stopwords, enminiscula (opcional), puntuacion
+    Salida:  texto
+    Funcion que se encarga de limpiar las stopwords de un texto
+    el parámetro opciona enminuscula si es verdadero,
+    transforma todo el texto a miniscula y elimina stopwords que esten en minuscula.
+    Cuando se usa false, el texto retornado mantendra capitalizacion original y 
+    además se eliminan stop words especificas tales como: Pontificia, Universidad, Vitae, VITAE
+    Notar que stop_words.txt tiene stopwords en minisculas y capitalizada.
+    Esta propiedad de mantener la capitalización es útil en la detección de nombres.
+    '''
 
+    if enminiscula: # si se quiere normalizar a minuscula
+        corpus = corpus.lower()
+    if not puntuacion: # Si no se quiere conservar la puntuación
+        stopset = stopwords+ list(string.punctuation)
+    else:
+        stopset = stopwords
+
+    corpus = " ".join([i for i in word_tokenize(corpus) if i not in stopset])
+    # remove non-ascii characters
+    #corpus = unidecode.unidecode(corpus)
+
+    return corpus
     
 
 def esta_vacia(line):
@@ -114,9 +140,13 @@ def seccionar_cv(path):
             
     }
     # Se carga un archivo .txt, que contiene el CV que venia del PDF
-
+    close = True
     file = path
-    cv_txt = open(file, "r")
+    try:
+        cv_txt = open(file, "r")
+    except:
+        cv_txt = path
+        close = False
     seccion_previa  = 'extras'
 
     for line in cv_txt:
@@ -165,19 +195,19 @@ def seccionar_cv(path):
 
 
         # Concatenar las palabras para formar un linea, las palabras se usan en su lema
-        try:
-            docx = nlp(line)
-        except:
-            continue  # si que hay simbolos raros
-        linea_lematizada = ''
-        for token in docx:
-            if (not token.is_stop):
-                linea_lematizada += token.lemma_ + ' '
+#        try:
+#            docx = nlp(line)
+#        except:
+#            continue  # si que hay simbolos raros
+#        linea_lematizada = ''
+#        for token in docx:
+#            if (not token.is_stop):
+#                linea_lematizada += token.lemma_ + ' '
 
-        secciones_data[seccion_previa] += preprocesar_texto(linea_lematizada, stopwords)+ ' ' # 
-
-
-    cv_txt.close()
+#        secciones_data[seccion_previa] += preprocesar_texto(linea_lematizada, stopwords)+ ' ' # 
+        secciones_data[seccion_previa] += line + ' '
+    if close:
+        cv_txt.close()
     return secciones_data
 
 

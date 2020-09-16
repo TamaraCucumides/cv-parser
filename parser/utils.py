@@ -23,7 +23,7 @@ import yaml
 import numpy as np
 import string
 from constantes import perfil, educacion_sec, cursos, habilidades, contacto, logros, hobbies, experiencias, referencias
-
+from seccionar import seccionar_cv
 
 
 #####################################################
@@ -470,11 +470,12 @@ def extraer_experiencia(cv_text):
             break
 
         if linea_experiencia == True and siguiente_seccion == False:
-            parrafo += linea + ' '
-    #if len(parrafo.splitlines())>2:
-    #    parrafo = " ".join([str(x) for x in parrafo.splitlines()[1:-1]])       
-
-    return parrafo
+            parrafo += linea + '\n'
+    if len(parrafo.splitlines())<3:
+        #stopwords = nltk.corpus.stopwords.words('spanish')
+        parrafo = seccionar_cv(cv_text)['experiencia']
+        print(parrafo + '\n')     
+    return parrafo.replace('\n', '')
 
 def retrieve_past_experience(text): # Funcion que no  usada
                                     # muy poco robusta
