@@ -33,7 +33,7 @@ for index, js in enumerate(json_files):
 
 
 # Se carga la descripción de cargo.
-file = os.getcwd() +'/Descripcion_cargo/descripcion_cargo'
+file = os.getcwd() +'/diccionarios/descripcion_cargo'
 with open(file) as f:
   descripcion_cargo = " ".join([x.strip() for x in f]) 
 

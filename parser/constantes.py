@@ -33,7 +33,7 @@ def cargar_json(path):
 
 
 cwd = os.getcwd() +'/diccionarios/'
-path_secciones_dic = os.getcwd() + '/CSVs/seccionesCV_bruto.csv'
+path_secciones_dic = cwd + 'seccionesCV_bruto.csv'
 
 
 secciones_dic = pd.read_csv(path_secciones_dic)
@@ -50,7 +50,7 @@ logros = secciones_limpio(secciones_dic.Logros)
 hobbies = secciones_limpio(secciones_dic.Hobbies)
 
 
-grados_educativos_orden = cargar_json(cwd + '/grados_educativos_orden.json')
+grados_educativos_orden = cargar_json(cwd + 'grados_educativos_orden.json')
 educacion = cargar_dict(cwd + 'universidades')
 educacionSiglas = cargar_dict(cwd + 'universidades_siglas')
 idiomas = cargar_dict(cwd + 'idiomas')

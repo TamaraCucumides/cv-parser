@@ -23,7 +23,7 @@ re_c = re.compile(r'\w+')
 nlp = es_core_news_md.load()
 
 #Se carga la tabla de secciones.
-seccion_csv = os.getcwd() +'/CSVs/seccionesCV_similitud.csv'
+seccion_csv = os.getcwd() +'/diccionarios/seccionesCV_similitud.csv'
 secciones = pd.read_csv(seccion_csv, header = 0)
 
 

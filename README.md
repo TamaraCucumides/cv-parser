@@ -7,12 +7,10 @@ CV parser
 │   │   └── test_seccionar.ipynb
 |   |   └── test_ranking.ipynb
 │   └── parser
-│       ├── CSVs
+│       └── diccionarios
 |       |    └── seccionesCV_buscador.csv
 |       |    └── seccionesCV.csv
-│       └── Descripcion_cargo
 |       |    └── descripcion_cargo.txt
-│       └── diccionarios
 |       |    └── grados_educativos_orden.json
 |       |    └── idiomas.txt
 |       |    └── idiomas_nivel.txt
