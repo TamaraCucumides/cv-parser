@@ -1,0 +1,218 @@
+ Curriculum
+Vitae
+Información Personal
+Nombre Completo
+Diego Sebastián García Melo
+Dirección
+Padre Felipe Gómez de Vidaurre  1625, Santiago Centro, Chile
+Correo Electrónico / Teléfono
+diego.garcia@usach.cl / 569 8 152 6260
+Nacionalidad
+chilena
+Cargo actual
+Infrastructure System Engineer
+Resumen personal
+Ing. Civil en Informática a la espera de fecha para presentación de memoria examen de título y candidato a Magíster en Ingeniería Informática, ambos en la Universidad de Santiago de Chile usach. Actualmente trabajando como Arquitecto Cloud En Everis Chile.
+Al presente en mi cargo me ocupo de diseñar e implementar soluciones de infraestructura y arquitectura cloud en distintos clouds públicos según conveniencia y elección de cada cliente, asesorándolos técnicamente durante todo el proceso. En algunos clientes las soluciones han sido implementadas desde cero directamente en la nube, y en otros corresponden a procesos de migración de on premises hacia la nube. También me desempeño automatizando el despliegue, la integración y las operaciones de cada uno de estas soluciones, aplicando buenas prácticas y el paradigma Infraestructure as Code.
+Anterior a mi incorporación a Everis, desempeñaba el cargo de Arquitecto de Infraestructura e Ingeniero DevOps, dentro del equipo Multicloud, en Sonda S.a. Bajo este cargo, mis principales responsabilidades han sido la consultoría y automatización de procesos en proveedores de Cloud Público y Privado principalmente Azure, tanto para clientes internos y externos de la compañía. Dentro de los clientes internos destacan el área de Operaciones equipos de trabajo Sap, Unix y Windows, Control de Gestión y Operation Desk, realizando diseño de soluciones y automatizaciones de tareas repetitivas tales como generación de reportes y encendido y apagado consistente de servidores con sistemas Sap entre otros. Dentro de los clientes externos destacan Iansa y Ministerio Público proponiendo y diseñando automatizaciones de tareas relacionadas con el despliegue de infraestructura y migración de sistemas desde on-premises hacia la nube. Todo lo anterior, aplicando metodologías ágiles y enfoques tales como desarrollo e integración continua con Jenkins e Infraestructura como Código IaC. Dentro de mi experiencia laboral también destacan los cargos de Analista de Comisiones para Telefónica Chile y Consultor Informático y Desarrollador Freelance para empresas de Logística y Retail. Algunas de las herramientas y lenguajes de programación con los que he trabajado recientemente son Terraform, Ansible, Packer, RightScale, Solarwinds, Microsoft Sql Server, Jenkins, Azure, Aws, Oci, Ravello, Bluemix, Powershell, Bash, Batch, Python, Php, Yii Framework, MySQL, Excel, Tableau, GitHub, Bizagi y Power Designer entre otras. También cuento con experiencia en venta y negociación de soluciones informáticas propias. Además de conocimiento y práctica en tópicos avanzados de informática tales como Internet de las Cosas, Minería de Datos, Análisis de Sentimiento, Computación Evolutiva, Hiperheurísticas, Bases de Datos NoSQL, Bases de Datos Analíticas Data Warehouses y Web Crawler entre otros. Profesional orientado al logro, con buen equilibrio entre competencias blandas y duras.
+Experiencia laboral
+desde más antiguo a más reciente
+Fechas
+Enero 2013  Noviembre 2015
+Profesión o cargo desempeñado
+Consultor Ti
+Funciones y responsabilidades
+principales
+Resumen
+En Rambrands, empresa del sector Retail, con cerca de 1.000 empleados. Representante oficial en Chile y Perú de marcas de alto prestigio como Diesel, Guess y Jazmin Chebar entre otras, mi función principal ha sido
+Consultoría informática para el área sistemas, consistente en el diagnóstico, propuesta, venta, negociación y desarrollo de múltiples soluciones informáticas tales como Datawarehouse, Sistema de Reportes, Sistema de Registro de Clientes para campañas de fidelización y Automatización de Procesos con bases de datos utilizadas por Sap y Softland, entre otras.
+Referencia Sr. Emilio Mella Parraguez
+Cargo Subgerente de Sistemas.
+Móvil 569 6 191 95 10
+E-Mail emilio.mella@gmail.com
+Detalle
+Responsable de proponer, diseñar e implantar soluciones de ingeniería en el ámbito informático, destinadas a crear valor, automatizar procesos y facilitar información para la toma de decisiones en la empresa.
+Dentro de la gama de proyectos desarrollados destacan
+ Sistema para generación de reportes área comercial y control de gestión de la empresa, incluyendo diseño e implementación de datawarehouse, procesos Etl y desarrollo de Gui.
+ Sistema de registro de clientes con reflejo inmediato en sistema Erp Softland, para puntos de distribución localizados en distintas regiones de Chile y Perú, el cual ha permitido adoptar nuevas estrategias de fidelización.
+ Sistema de Cross docking para consolidación y gestión estructurada de las órdenes de compra por parte del área comercial.
+ Sistema automático para la creación y actualización masiva de artículos y sus características alrededor de 5.000 artículos por minuto, también con reflejo inmediato en sistema Erp Softland. Este proyecto ha permitido a otras áreas de la empresa, realizar el proceso de creación y/o actualización de artículos en forma directa a través de la plataforma, permitiendo prescindir del área de sistemas para dicha labor. Además ha permitido incrementar más que considerablemente el volumen de información de artículos procesada por unidad de tiempo.
+ Sistema centralizado y en tiempo real para consulta de stock de cualquiera de los puntos de distribución.
+Nombre de la empresa
+Rambrands SpA, Carmencita 25, Oficina 51, Las Condes Santiago, Chile. Sitio web www.rambrands.cl
+Tipo de empresa o sector
+Retail
+Fechas
+Marzo 2014  Marzo 2016
+Profesión o cargo desempeñado
+Consultor Ti
+Funciones y responsabilidades
+Principales
+Resumen
+En Kerry Logistics Chile, empresa proveedora de servicios de warehousing y logística reconocida a nivel mundial, mi función principal ha sido
+Consultoría externa informática para la gestión automática de stock, órdenes de picking y controles de entrada y salida de productos. Se realiza propuesta, diseño, venta y desarrollo de Warehouse Management System wms personalizado a las necesidades de los jefes de bodegas, logrando reducir considerablemente los tiempos de operación.
+Detalle
+Responsable de diseñar y proponer soluciones tecnológicas para la gestión de stock a gran escala y múltiples clientes.
+Se elaboró Wms Warehousing Management System configurable y adaptado a los procesos críticos de la empresa, incorporando características ampliamente cotizadas en los Wms de clase mundial, tales como
+generación expedita de órdenes de picking
+validación de stock por cliente y/o Sku
+bitácora de ingresos y despachos de mercadería
+entrega de ruta de picking óptima
+rebaja automática de stock, entre otras.
+Nombre de la empresa
+Kerry Logistics Chile, La Farfana 400, bodega C15, Pudahuel, Chile.
+Tipo de empresa o sector
+Logística y Warehousing
+Fechas
+05 Septiembre 2016  31 Marzo 2017
+Profesión o cargo desempeñado
+Analista de comisiones
+Funciones y responsabilidades
+Principales
+Resumen
+En Telefónica Chile a través de Alternattiva Ltda., reconocida empresa de telecomunicaciones, con más de 5.000 empleados, he desempeñado el cargo Analista de Comisiones en la subgerencia de Comisiones y Visado.
+Referencia Sr. Guillermo González Sánchez
+Cargo Head of Sales and Account Managers at Telefónica Chile
+Móvil 569 9 283 08 16
+E-Mail gmo.gonzalez.s@gmail.com
+Detalle
+Bajo este cargo las principales funciones y responsabilidades desempeñadas han sido
+Cálculo de incentivos variables y comisiones a nivel país de 5 modelos de negocio de la compañía Modelo Sucursales, Modelo Bucle  Reparaciones, Modelo Retail Fijo, Modelo Franquiciado Pymes y Modelo Mandatos Retail. Procesando y gestionando comisiones por más de 4.000 millones de pesos mensuales.
+Publicación de pre-cierres y/o cierres de comisiones e incentivos variables en forma diaria o mensual según modelo calculado.
+Participación en proceso de automatización de cálculo de dichos modelos, bajo la herramienta World Class Cognos de Ibm.
+Desarrollo de sistemas extractores de información y procesos Etl a partir de bases de datos y fuentes de información externas al área de comisiones.
+Atención y resolución de reclamos asociados al cálculo de comisiones.
+Definición y negociación de SLAs entre las distintas áreas involucradas en los modelos y la entrega de información.
+Generación y publicación de reportes complementarios y seguimiento de KPIs.
+Disponibilización de conocimiento e información sobre modelos, a proyectos de otras áreas como Big Data y a proyectos a nivel de compañía Believe.
+Nombre de la empresa
+Telefónica Chile a través de Alternattiva Ltda
+Tipo de empresa o sector
+Telecomunicaciones y Ti
+Fechas
+03 Abril 2017  13 Julio 2018
+Profesión o cargo desempeñado
+Arquitecto de Infraestructura e Ingeniero DevOps
+Funciones y responsabilidades
+Principales
+Resumen
+En Sonda S.a, empresa de servicios Ti, con más de 15.000 empleados he desempeñado el cargo Arquitecto de Infraestructura e Ingeniero DevOps en donde una de mis principales funciones ha sido el diseño e implementación de soluciones Cloud para nuestros clientes y la automatización de procesos principalmente en Azure.
+Referencia Sr. Cristian Levin
+Cargo Manager de Tecnología actualmente Director de tecnología y procesos en Conicyt
+Móvil 569 8 139 75 01
+Detalle
+Durante el desempeño de este cargo las principales responsabilidades y logros obtenidos son
+Participación en proceso de rediseño y migración de todos los sistemas Sap de cliente Iansa desde on-premises hacia Azure. Proyecto con más de 8 meses de duración.
+Participación en proceso de rediseño y migración de sistemas de clientes tales como TecnoGlobal, Frigorífico Andino, Ministerio Público y clientes internos de Sonda.
+Participación en definición e implantación de arquitectura de Disaster Recovery en Azure, para asegurar continuidad del negocio y cumplir SLAs establecidos en contrato con cliente Iansa.
+Implementación y configuración de Large Instances, servicio ofrecido por Microsoft para la puesta en marcha de bases de datos Sap Hana. Proyecto realizado por primera vez en América del Sur.
+Automatización de procesos rutinarios de monitoreo, backups, gestión de servicios y despliegue de infraestructura y redes Infraestructura como código, utilizando herramientas propias de Azure y/o software o herramientas de terceros tales como Jenkins y Solarwinds entre otras.
+Proponer planes de reducción de costos, mediante análisis de información de billing y uso, utilizando RightScale y reportes de Facturación generados a partir de información de Azure.
+Automatización de reportería asociada a uso y billing de cloud públicos suscripciones tipo Csp y Ea en Azure y privados VMware.
+Toma de control temporal de operaciones Azure, más traspaso paulatino y capacitación a personal de área de Operaciones de Sonda sin experiencia en cloud público.
+Nombre de la empresa
+Sonda S.a, edificio Corporativo ubicado en calle Teatinos 500, piso 2, Santiago Centro, Chile.
+Tipo de empresa o sector
+Servicios Ti
+Fechas
+17 Julio 2018  Fecha Actual
+Profesión o cargo desempeñado
+Infrastructure System Engineer
+En Everis Chile S.a, actualmente formo parte del equipo Center of Excellence coe Multicloud en donde mis principales funciones consisten en diseñar e implementar soluciones de arquitectura e infraestructura cloud para distintos clientes tales como Bci, Transbank, Falp y Coga Compañía Operadora de Gas del Amazonas, principalmente en Aws y Azure, y en menor medida en Google Cloud Platform gcp, Oracle Cloud Infraestructure oci, Ravello y Bluemix. Además soy uno de los principales responsables de automatizar el despliegue y operación de las soluciones Ti mediante Infraestructure as Code IaC a través de herramientas tales como Terraform, Ansible, Packer, Bash y Powershell y las Api o Cli Command Line Interface provistas por los distintos cloud públicos.
+Algunas palabras claves relacionados con mi experiencia y conocimientos son
+Multicloud aws, Azure, Oci, Ravello, Bluemix, Gcp
+DevOps
+Automatización de procesos e Infraestructura
+Infraestructura como código IaC Terraform, Ansible, Packer
+Infraestructura como Servicio IaaS
+Trabajo en equipo
+Orientación al cliente
+Scrum
+Nombre de la empresa
+Everis Chile S.a. Av. Lib. Bernardo OHiggins 1449, Santiago Downtown, Torre Ii, Piso 3, Santiago, Chile.
+Tipo de empresa o sector
+Consultoría y servicios Ti
+Educación y formación
+Fechas
+2003  2007  año 2015 y año 2019 en proceso de titulación
+Estudio
+Egresado de Medicina Veterinaria
+Nombre del centro
+Universidad Iberoamericana de Ciencias y Tecnología unicit, Santiago, Chile
+Fechas
+2009  2014
+Estudio
+Licenciado en Ciencias de la Ingeniería. Año 2019 En proceso de titulación conjunta Ingeniería Civil en Informática y Magíster.
+Nombre del centro
+Universidad de Santiago de Chile usach, Santiago Chile
+Fechas
+2014  2015
+Estudio
+c Magíster en Ingeniería Informática
+Nombre del centro
+Universidad de Santiago de Chile usach, Santiago Chile
+Fechas
+Junio 2017  Diciembre 2017
+Estudio
+Diplomado Gestión y Administración Data Center, reconocido con el premio a la Excelencia Académica.
+Nombre del centro
+Instituto Aiep, Santiago, Chile
+Fechas
+Febrero 2018
+Estudio
+Certificación Scrum Scrum Fundamentals Certified.
+Licencia número 612689. Duración Licencia 18 de Febrero 2018 a 18 de Febrero 2021
+Nombre del centro
+SCRUMstudy
+Fechas
+Octubre 2018
+Estudio
+Certificación Hcna Cloud Service.
+Licencia número 010102601189807255091409. Duración Licencia noviembre de 2018  octubre de 2021
+Nombre del centro
+Huawei Technologies
+Idiomas
+Nivel
+Español
+Hablado Nativo
+Escrito Nativo
+Lectura Nativo
+Inglés
+Hablado Bajo
+Escrito Medio
+Lectura Alto
+Capacidades y competencias personales
+Aptitudes informáticas
+Azure
+Aws
+Python
+Infraestructure as Code IaC - Terraform
+Powershell, módulo AzureRM
+Azure Cli
+Jenkins
+RightScale
+Solarwinds
+Microsoft Sql Server
+MySQL
+Bash, Linux
+Batch
+Php
+C y C
+Yii Framework
+Excel
+Tableau
+GitHub
+Bizagi
+Power Designer
+Bitbucket
+Rundeck
+Docker
+Platform as a Service PaaS
+Infraestructure as a Service IaaS
+Hiperheurísticas
+Minería de datos
+Computación Evolutiva
+Automatización
+Trabajo en equipo
+Scrum
+Metodologias ágiles

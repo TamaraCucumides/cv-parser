@@ -42,7 +42,7 @@ class CvParser:
         self.parse()
 
     def parse(self):
-        nombre_archivo = self.cv.replace(direc + dir_pdfs, '').replace('.pdf', '')
+        nombre_archivo = self.cv.replace(direc + dir_cvs, '')
         nombre = utils.extraer_nombre(self.raw_text, self.nlp)
         correo = utils.extraer_mail(self.raw_text)
         celular = utils.extraer_fono(self.raw_text)
@@ -89,14 +89,16 @@ if __name__ == '__main__':
     pool = mp.Pool(mp.cpu_count())
     resumes = []
     direc = os.getcwd()
-    dir_pdfs = '/resumes_pdf/'
+    dir_cvs = '/resumes/'
     dir_output = '/Outputs/output_parser/'
 
-    #Cargar todos los path a los archivos .pdf ubicados en dir_pdfs
-    for root, _, filenames in os.walk(direc + dir_pdfs):
+    #Cargar todos los path a los archivos 
+    for root, _, filenames in os.walk(direc + dir_cvs):
         for filename in filenames:
-            file = os.path.join(root, filename)
-            resumes.append(file)
+            path = filename.lower()
+            if path.endswith('.pdf') or path.endswith('.doc') or path.endswith('.docx'):
+                file = os.path.join(root, filename)
+                resumes.append(file)
 
     print('Procesando '+str(len(resumes)) + ' CVs')
     

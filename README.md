@@ -12,7 +12,7 @@ CV parser
 │       └── Descricpion_cargo
 |       |    └── descripcion_cargo.txt
 │       └── diccionarios
-|       |    └── grados_educativos_orden.txt
+|       |    └── grados_educativos_orden.json
 |       |    └── idiomas.txt
 |       |    └── idiomas_nivel.txt
 |       |    └── licencias_certificaciones.txt
@@ -27,9 +27,9 @@ CV parser
 |       |    └── output_parser
 |       |    └── output_seccionado
 |       |    └── output_text
-|       └── resumes_pdf
+|       └── resumes
 |       └── constantes.py
-|       └── generar_pdfatexto.py
+|       └── generar_cv_a_txt.py
 |       └── ranking.py
 |       └── seccionar.py
 |       └── utils.py
@@ -59,6 +59,6 @@ http://dcc.uchile.cl/~jperez/word-embeddings/fasttext-sbwc.vec.gz
 
 ### ¿Cómo usar?
 
-1. Poner todos los CV en la carpeta `/resumes_pdf`.
+1. Poner todos los CV en la carpeta `/resumes`. Soporta `.pdf`, `.docx` y `.doc`
 2. Correr `parser.py`, que usa diccionarios y genera .json con filtros especificos (`output_parser`).
 3. Correr `ranking.py` que usa la salida de 2 y `descripcion_cargo.txt`..

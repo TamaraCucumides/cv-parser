@@ -26,12 +26,74 @@ from constantes import perfil, educacion_sec, cursos, habilidades, contacto, log
 from seccionar import seccionar_cv
 import os
 import json
+import textract
 
 #####################################################
 ####  UTILIDADES  parser.py  ########################
 #####################################################
+def validarString(s):
+    '''
+    Utilidad que verifica que un string 
+    tiene al menos una letra o número
+    "hi " ---> True
+    "-----------" -> False
+    '''
+    letter_flag = False
+    number_flag = False
+    for i in s:
+        if i.isalpha():
+            letter_flag = True
+        if i.isdigit():
+            number_flag = True
+    return letter_flag or number_flag
 
 def extraer_texto(path):
+    '''
+    Utilidad para determinar para extraer
+    texto. Llama a distintas funciones
+    dependiendo de la extensión del archivo
+    '''
+    file_path = path.lower()
+    if file_path.endswith('.pdf'):
+        text = extraer_texto_pdf(path)
+    elif file_path.endswith('.doc') or file_path.endswith('.docx'):
+        text = extraer_texto_docx(path)
+    else:
+        text = None
+    return text
+
+def extraer_texto_docx(path):
+    '''
+    Utilidad para extraer texto desde
+    .docx o .doc. Además se procesa para
+    eliminar simbolos innecesarios y lineas
+    redundantes.
+    '''
+    text = textract.process(path).decode('utf-8')
+    text_2 = '' #texto sin mayusculas y saltos innecesarias 
+    for line in text.splitlines():
+        if not line.strip() or not validarString(line): #si la linea esta vacia, saltar
+            continue
+        line_2=''
+        for word in line.split():
+            if word.isupper(): # Si la palabra esta completamente en mayuscula
+                line_2 += word.capitalize()+' ' # HOLA---> Hola
+
+            else:
+                line_2 += word+ ' '
+        text_2 += " ".join(line_2.split()) +'\n'
+    
+    simbolos = ' -,\n./@' #Simbolos que se permiten, sirven para correo, links, etc.
+    text_clean = ' '
+    for char in text_2:
+        if (char.isalnum())| (char in simbolos): #Si el char es alphanumerico o es un simbolo permitido
+            text_clean += char
+    
+    text = text_clean
+    #return re.sub(r'\n\s*\n', '\n',text)
+    return text
+
+def extraer_texto_pdf(path):
     '''
     Input: ruta hacia los archivos
     Salida: Texto plano como string
@@ -50,7 +112,7 @@ def extraer_texto(path):
         
         text_2 = '' #texto sin mayusculas y saltos innecesarias 
         for line in text.splitlines():
-            if not line.strip(): #si la linea esta vacia, saltar
+            if not line.strip() or not validarString(line): #si la linea esta vacia, saltar
                 continue
             line_2=''
             for word in line.split():
@@ -368,7 +430,7 @@ def extraer_experiencia(cv_text):
     postulante.
     '''
     cv_text = cv_text.splitlines()
-    otros = perfil + educacion_sec + cursos + habilidades + contacto + referencias + logros+ hobbies
+    otros =  educacion_sec + cursos + habilidades + contacto + referencias + logros+ hobbies
     linea_experiencia = False
     siguiente_seccion = False
 
