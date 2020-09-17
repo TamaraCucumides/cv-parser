@@ -63,3 +63,6 @@ http://dcc.uchile.cl/~jperez/word-embeddings/fasttext-sbwc.vec.gz
 1. Poner todos los CV en la carpeta `/resumes`. Soporta `.pdf`, `.docx` y `.doc`
 2. Correr `parser.py`, que usa diccionarios y genera .json con filtros especificos (`output_parser`).
 3. Correr `ranking.py` que usa la salida de 2 y `descripcion_cargo.txt`..
+
+ `seccionar.py` y   `generar_cv_a_text.py` son simplemente script para probar funcionalidadades
+ de forma rápida.

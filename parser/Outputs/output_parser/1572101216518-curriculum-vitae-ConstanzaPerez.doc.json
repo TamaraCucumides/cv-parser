@@ -1,0 +1,36 @@
+{
+    "Contacto": {
+        "Nombre": null,
+        "Correo": [
+            "coperez@udec.cl"
+        ],
+        "Celular": "+56978846702",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1572101216518-curriculum-vitae-ConstanzaPerez.doc",
+    "Licencias-Certificaciones": [],
+    "Palabras Claves": null,
+    "Educacion": {
+        "Universidades:": [
+            "Universidad de Concepción"
+        ],
+        "Grado_mas_alto": [
+            "Pregrado"
+        ]
+    },
+    "Lenguajes": [
+        "Inglés",
+        "Español"
+    ],
+    "Experiencia": "experiencia profesional 05/2015 12/2018 garzón stylo y eventos servir público, organizar personal, limpieza y decoración. 08/2017 10/2017 maestra de sushi ai sushi, concepción preparar y armar sushi informática microsoft office. programas específicos argis nivel medio, autocad nivel medio, ventsim nivel medio, vulcan nivel medio, examine 2d nivel medio, phase 2 nivel medio. lenguajes de programación matlab nivel medio, rstudio nivel medio. ",
+    "Resumen": "objetivo profesional formar parte de una empresa en la que pueda observar, aprender y poner en practica todos mis conocimientos, que me brinde la oportunidad de aportar de buena manera en el área laboral y personal. ",
+    "Skills": [
+        "Autocad",
+        "Ventsim",
+        "Matlab",
+        "Rstudio",
+        "Vulcan",
+        "Office"
+    ],
+    "Referencias": ""
+}

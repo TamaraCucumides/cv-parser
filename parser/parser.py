@@ -7,10 +7,7 @@ import nltk
 import os
 import multiprocessing as mp
 import timeit
-
-
-from tkinter import Tk     # from tkinter import Tk for Python 3.x
-from tkinter.filedialog import askopenfilename
+from gensim.models.keyedvectors import KeyedVectors
 
 #Utilidad para limpiar la consola
 os.system('cls' if os.name == 'nt' else 'clear')
@@ -20,7 +17,11 @@ nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
 nltk.download('stopwords')
 
-
+print("Cargando embeddings")
+wordvectors_file_vec = os.getcwd() + '/embeddings/fasttext-sbwc.3.6.e20.vec'
+cantidad = 500000
+model = KeyedVectors.load_word2vec_format(wordvectors_file_vec, limit=cantidad)
+print("Embeddings cargadas")
 
 class CvParser:
     def __init__(self, cv):
@@ -53,7 +54,7 @@ class CvParser:
         Linkedin = utils.extraer_linkedin(self.raw_text)
         palabras_claves = utils.busqueda_palabras_claves(self.raw_text)
         licencias = utils.extraer_licencias(self.raw_text, self.nlp)
-        experiencia = utils.extraer_experiencia(self.raw_text)
+        experiencia = utils.extraer_experiencia(self.raw_text, model)
         resumen = utils.extraer_perfil(self.raw_text)
         referencias = utils.extraer_referencias(self.raw_text)
 
@@ -63,10 +64,10 @@ class CvParser:
         self.parsed["Educacion"] = {'Universidades:': educacion, 'Grado_mas_alto': grado}
         self.parsed['Lenguajes'] = Lenguajes
         self.parsed["Palabras Claves"] = palabras_claves
-        self.parsed['Licencias-Certificaciones']=licencias
-        self.parsed['Experiencia']=experiencia
-        self.parsed['Resumen']= resumen
-        self.parsed['Referencias']= referencias
+        self.parsed['Licencias-Certificaciones'] = licencias
+        self.parsed['Experiencia'] = experiencia
+        self.parsed['Resumen'] = resumen
+        self.parsed['Referencias'] = referencias
 
     def get_parsed_resume(self):
         return self.parsed
@@ -77,9 +78,16 @@ class CvParser:
 def resume_result_wrapper(resume):
     parser = CvParser(resume)
     result = parser.get_parsed_resume()
+    return result
+
+def resume_result_wrapper_local(resume):
+    parser = CvParser(resume)
+    result = parser.get_parsed_resume()
     name = result["Nombre archivo"]
     with open(direc + dir_output + name +'.json', 'w',encoding='utf-8') as json_file:
         json.dump(result, json_file,ensure_ascii=False,indent=4)
+
+        
    
 
 
@@ -103,7 +111,7 @@ if __name__ == '__main__':
     print('Procesando '+str(len(resumes)) + ' CVs')
     
     #Crear un objeto para cada CV y rellenar sus atributos.
-    results= [pool.apply_async(resume_result_wrapper(cv), args=(cv,)) for cv in resumes]
+    results= [pool.apply_async(resume_result_wrapper_local(cv), args=(cv,)) for cv in resumes]
 
  
     

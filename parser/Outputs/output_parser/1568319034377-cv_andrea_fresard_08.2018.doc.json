@@ -16,11 +16,11 @@
     ],
     "Educacion": {
         "Universidades:": [
-            "Universidad Andrés Bello",
-            "Universidad de Antofagasta"
+            "Universidad de Antofagasta",
+            "Universidad Andrés Bello"
         ],
         "Grado_mas_alto": [
-            "Profesional universitario"
+            "Pregrado"
         ]
     },
     "Lenguajes": [

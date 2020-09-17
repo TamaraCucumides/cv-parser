@@ -424,7 +424,7 @@ def extraer_perfil(cv_text):
     parrafo = re.sub(r'\s+',' ', parrafo)
     return parrafo
    
-def extraer_experiencia(cv_text):
+def extraer_experiencia(cv_text, model):
     '''
     Utilidad que extrae la experincia laboral del
     postulante.
@@ -470,7 +470,8 @@ def extraer_experiencia(cv_text):
         if linea_experiencia == True and siguiente_seccion == False:
             parrafo += linea + ' \n'
     if len(parrafo.splitlines())<3:
-        parrafo = seccionar_cv(cv_text)['Experiencia']
+        parrafo = seccionar_cv(cv_text, model)['Experiencia']
+        #print(parrafo)
 
     parrafo = re.sub(r'\s+',' ', parrafo)
     return parrafo.replace('\n', ' ')

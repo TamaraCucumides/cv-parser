@@ -22,15 +22,8 @@ re_c = re.compile(r'\w+')
 # Se carga el modelo español de spacy
 nlp = es_core_news_md.load()
 
-# Se carga el modelo de embeddings en español
-#print("Cargando embeddings")
-#wordvectors_file_vec = os.getcwd() + '/embeddings/fasttext-sbwc.3.6.e20.vec'
-#cantidad = 100000
-#model = KeyedVectors.load_word2vec_format(wordvectors_file_vec, limit=cantidad)
-#print("Embeddings cargadas")
-
 #Se carga la tabla de secciones.
-seccion_csv = os.getcwd() +'/CSVs/seccionesCV.csv'
+seccion_csv = os.getcwd() +'/CSVs/seccionesCV_similitud.csv'
 secciones = pd.read_csv(seccion_csv, header = 0)
 
 
@@ -130,7 +123,7 @@ def esta_vacia(line):
     return True
 
 
-def seccionar_cv(path):
+def seccionar_cv(path, model):
     # Se crea un diccionario vacio para rellenarlo
     secciones_data = {
         'Nombre archivo':'',
@@ -149,6 +142,7 @@ def seccionar_cv(path):
     except:
         cv_txt = path
         close = False
+    #print(cv_txt)
     seccion_previa  = 'extras'
 
     for line in cv_txt:
@@ -210,14 +204,15 @@ def seccionar_cv(path):
         secciones_data[seccion_previa] += line + ' '
     if close:
         cv_txt.close()
+    #print()
     return secciones_data
 
 
 
 
-def generate_json(cv):
+def generate_json(cv, model):
     name = cv.replace(direc + dir_txt, '')        
-    secciones_data = seccionar_cv(cv)
+    secciones_data = seccionar_cv(cv, model)
     secciones_data['nombre archivo'] = name
 
     with open(direc + dir_output + name+'.json', 'w',encoding='utf-8') as json_file:
@@ -250,7 +245,7 @@ if __name__ == '__main__':
     print("Seccionando CVs: "+str(len(resumes_seccionado)))
 
     # Se secciona cada CV
-    seccionados = [pool.apply_async(generate_json(cv)) for cv in resumes_seccionado]
+    seccionados = [pool.apply_async(generate_json(cv, model)) for cv in resumes_seccionado]
     pool.close()
     pool.join()      
 

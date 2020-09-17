@@ -1,0 +1,56 @@
+ Fernando Vallejos Caamaño
+Teléfono Móvil 569 9 828 97 97
+e-mail fernandovallejos1968@gmail.com
+Resumen Profesional
+Ingeniero Civil Electrónico con más de 20 años de experiencia en proyectos de telecomunicaciones desarrollando cargos de Especialista en Calidad y Diseño de redes para telefonía móvil. Además con conocimientos de evaluaciones técnico-económicas, implementación y puesta en marcha de plataformas de comunicaciones. Profesional con amplio manejo técnico, destacada rigurosidad en la ejecución de las tareas, orientación a resultados en el trabajo en equipo y muy buenas relaciones interpersonales.
+Experiencia
+Entel S.a. Agosto 2000  Octubre 2018
+Ingeniero Especialista Calidad Ran Área Operación y Mantenimiento, 7 años
+Realiza optimización a nivel de parametrización de celdas y de diseño de Radio Frecuencia en las redes 2g, 3g y Lte, con el fin de cumplir con los estándares de calidad de la compañía en términos de mantención de KPIs de red dentro de los rangos permisibles en grupos de Clusters asignados Santiago y Regiones. De igual manera, y con el mismo objetivo descrito, utiliza herramientas de cell planing predictivas Planet y de procesamiento de datos de la red móvil Actix One.
+Trabajo y coordinación con equipos de empresas contratistas, con el fin de abordar estrategias para la mejora de los principales indicadores de calidad de la red móvil KPIs en grupo de Clusters asignados Santiago y regiones
+Efectúa turnos de alistamiento 24/7 con el fin de abordar y gestionar solución a contingencias de degradaciones de servicio KPIs en la Red Móvil.
+Realiza optimización on line a nivel de parametrización para sitios de apoyo en eventos masivos con el fin de reducir el impacto en degradación del servicio móvil. Este trabajo se realiza en coordinación con las áreas de Ingeniería respectivas Optimización e Indoor.
+En los últimos 2 años efectúa estudio de la red Gsm debido a la mayor explotación de las tecnologías 3g y Lte con el objetivo de disminuir capacidad de tráfico, adecuando y optimizando el espectro asignado a ésta. Se logra disminuir a menos de la mitad la capacidad de tráfico apagado de radios.
+Ingeniero de Diseño de Red de Radio 11 años
+Realiza estudios de cobertura y diseño de radio de sitios celulares para diferentes proyectos de expansión de la red de radio Gsm y 3g de Entel Pcs. Efectúa visitas a terreno, realizando análisis de informes Tss y posterior puesta en marcha de los sitios configuración de parámetros de celda logrando con esto desarrollar la red móvil con una importante cantidad de puntos de presencia geográfica y con esto mejorar la cobertura y calidad de servicio.
+Trabajo y coordinación con equipos de empresas contratistas, con el fin de evaluar y aprobar ampliaciones de la red de radiofrecuencia ubicación de sitios nuevos, análisis de informes Tss y diseño Rf respectivo.
+Dominio de herramienta de Cell Planing Planet Efectúa diseño de planes de frecuencia gsm y Psc 3g, estudios de cobertura y calidad utilizando simulaciones reduciendo con esto los niveles de interferencia presentes en la red.
+Efectúa optimización de sitios en operación de la red de Entel Pcs, logrando con esto niveles de accesibilidad mayores al 98 y drop call menores al 1, tanto a nivel de parám etros como a nivel de hardware de radiofrecuencia.
+Efectúa diseño de radio de soluciones de cobertura indoor para diferentes empresas, entre los más importantes Metro de Santiago, distintos Malls y empresas Mineras, entre otras.
+Participa en la puesta en marcha de la red móvil Gsm con tecnología Siemens en la zona norte y 5ta. Región, realizando pruebas de aceptación de BSCs.
+Sigma Servicios Informáticos S.a. Agosto 1995 a Mayo 2000
+Ingeniero de Comunicaciones 5 años
+Efectúa evaluaciones técnico/económica y puesta en marcha de diferentes proyectos de comunicaciones Plataformas Frame Relay, enlaces de datos/voz punto a punto y multiplexación de servicios de datos y telefonía para empresas de seguros, pesqueras y madereras.
+Soporte de segundo nivel de plataforma de comunicaciones, gestionando con el proveedor de telecomunicaciones resolución de fallas.
+Educación
+1986 - 1994 Universidad Técnica Federico Santa María  Valparaíso Casa Central
+Titulado de Ingeniero Civil Electrónico, mención Telecomunicaciones
+Grado de Licenciado en Ciencias de la Ingeniería.
+idiomas
+Inglés Medio
+Perfeccionamiento
+Ericsson Gsm Radio Network Tuning
+Ericsson Gsm Radio Network Features
+Ericsson Gsm Bss06 Delta
+Sbs Br5.5- Performance Measurement Siemens
+Ericsson Wcdma Enhanced Uplink-HSUPA
+Ericsson Hsdpa System Techniques
+Ericsson Wcdma Radio Network Design
+Ericsson Wcdma Air Interface
+Ericsson Wcdma System Overview
+Lte System Overview for Radio Planners, Merit.
+Lte para Área Técnica de Entel, Dpto. Ing. Eléctrica, Universidad de Chile
+Seminario de Antenas para Estación Radio Base
+Advanced Mentum Planet Training for Gsm/wcdma/lte, Mentum.
+Introducción a la Dirección de Proyectos, Cofre Capacitación
+Programa Management Avanzado para Entel Pcs, Universidad de Chile.
+Desarrollo de Excelencia en los Resultados, Bcn School.
+Interpretación y Análisis del Sistema de Gestión de Calidad Iso 90012000, Bureau Veritas
+Técnicas de Manejo de No Conformidades, Ases Cap
+Formación de auditores internosAuditoría con enfoque a procesos e integrada, Ases Cap.
+Base de Datos Access para Windows, Infoland
+datos personales
+Casado, 2 hijos
+Fecha de Nacimiento  09 de Marzo de 1968
+Cedula de Identidad  10.594.709-7
+3

@@ -1,0 +1,38 @@
+{
+    "Contacto": {
+        "Nombre": null,
+        "Correo": [
+            "pdro9494@gmail.com"
+        ],
+        "Celular": "+56969197030",
+        "Linkedin": null
+    },
+    "Nombre archivo": "1571005141302-formato_curriculum_vitae.docx",
+    "Licencias-Certificaciones": [
+        "CLASE B",
+        "LICENCIA DE CONDUCIR"
+    ],
+    "Palabras Claves": null,
+    "Educacion": {
+        "Universidades:": [
+            "Universidad Andrés Bello"
+        ],
+        "Grado_mas_alto": [
+            "Pregrado"
+        ]
+    },
+    "Lenguajes": [
+        "Inglés",
+        "Español"
+    ],
+    "Experiencia": "experiencia laboral experiencia atendiendo gente, trabajo de verdulería, caja en eventos. informatica nivel medio de uso en programas como microsoft office, excel, power point lenguaje de programación básico python, básico java. idioma español lengua materna ingles medio alto ",
+    "Resumen": "curriculum vitae ",
+    "Skills": [
+        "Office",
+        "Java",
+        "Excel",
+        "Power point",
+        "Python"
+    ],
+    "Referencias": ""
+}
