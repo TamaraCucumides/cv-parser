@@ -8,8 +8,9 @@ CV parser
 |   |   └── test_ranking.ipynb
 │   └── parser
 │       ├── CSVs
+|       |    └── seccionesCV_buscador.csv
 |       |    └── seccionesCV.csv
-│       └── Descricpion_cargo
+│       └── Descripcion_cargo
 |       |    └── descripcion_cargo.txt
 │       └── diccionarios
 |       |    └── grados_educativos_orden.json
