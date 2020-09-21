@@ -1,0 +1,11 @@
+{
+    "Enseñanza básica": ["enseñanza básica", "eduación básica", "primaria", "eduación primaria"],
+    "Enseñanza media" : ["enseñanza media", "eduación media", "secundaria"],
+    "Técnico": ["técnico", "técnico profesional", "tecnico universitarios", "tecnico nivel universitario"],
+    "Pregrado": ["administración de empresas", "egresado", "ingeniero", "ingeniera", "ingeniería", "titulado", "titulada", "licenciado", "licenciada", "bachiller", "bachillerato", "licenciatura"],
+    "Postgrado": ["mba", "msc", "máster", "magíster", "maestría", "postgrado", "posgrado", "pdh"]
+
+}
+
+
+

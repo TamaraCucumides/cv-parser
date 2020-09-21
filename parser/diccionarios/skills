@@ -36,7 +36,6 @@ nlp
 docker
 kubernets
 machine learning
-manejo versiones
 text mining
 numpy
 nosql
@@ -51,21 +50,17 @@ html
 wordpress
 tablas dinámicas
 macros
-pensamiento crítico
 defontana
 visio
 softland
 flexline
 microsoft sql server
 sharepoint
-trabajo en equipo
-licencia conducir
-curso conducción
-obtención de resultados
-licencia de conducir
 siebel
 stata
 power bi
+backend
+contenedor
 retailPro
 bsale
 sial
@@ -89,19 +84,15 @@ vba
 procesamiento digital de imágenes
 visual basic
 oracle
-inteligencia emocional
 sap
 erp
 git
-marketing
 qlikview
 instoreview
 nielsen
 coaching
-ventas
 bilingüe
-trabajo en equipo
-autocontrol
+trilingüe
 trello
 adobe
 photoshop
@@ -117,17 +108,20 @@ ppt
 pivot
 access
 tableu
-bases de datos
 base de datos
-metodologias agiles
 scrum
 vmware
 dynamics
 iaas
 solomon
+sony vegas
+after effects
+inventor
+autodesk
+ubuntu
+solidworks
 php
 metodologías ágiles
-c
 procesamiento de lenguaje natural
 natural language proccessing
 computer vision
@@ -135,4 +129,54 @@ legislación laboral
 código del trabajo
 deep learning
 notion
+iso 27001
+cobit
+ventsim
+itil
+data science
+big data
+datawarehouse
+indesign
+nominaplus
+contaplus
+Bussines Inteligence
+sga 
+perl
+c#
+blockchain
+cloud computing
+UX 
+analytics
+html5
+objetive-c
+swift
+ui design
+ux design
+linux
+UI/UX
+machine learning
+kotlins
+APIs REST
+clean code
+TDD
+devops
+ci/cd
+django
+kafka
+hadoop
+scikit-learn
+digsilent
+dialux
+mathematica
+jquery
+boostrap
+react
+d3.js
+angular
+gitlab
+agile
+php
+cloud
+
+
 

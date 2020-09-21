@@ -7,12 +7,11 @@ CV parser
 │   │   └── test_seccionar.ipynb
 |   |   └── test_ranking.ipynb
 │   └── parser
-│       ├── CSVs
-|       |    └── seccionesCV.csv
-│       └── Descricpion_cargo
-|       |    └── descripcion_cargo.txt
 │       └── diccionarios
-|       |    └── grados_educativos_orden.txt
+|       |    └── seccionesCV_buscador.csv
+|       |    └── seccionesCV.csv
+|       |    └── descripcion_cargo.txt
+|       |    └── grados_educativos_orden.json
 |       |    └── idiomas.txt
 |       |    └── idiomas_nivel.txt
 |       |    └── licencias_certificaciones.txt
@@ -27,9 +26,9 @@ CV parser
 |       |    └── output_parser
 |       |    └── output_seccionado
 |       |    └── output_text
-|       └── resumes_pdf
+|       └── resumes
 |       └── constantes.py
-|       └── generar_pdfatexto.py
+|       └── generar_cv_a_txt.py
 |       └── ranking.py
 |       └── seccionar.py
 |       └── utils.py
@@ -59,8 +58,13 @@ http://dcc.uchile.cl/~jperez/word-embeddings/fasttext-sbwc.vec.gz
 
 ### ¿Cómo usar?
 
-1. Poner todos los CV en la carpeta `/resumes_pdf`.
-2. Correr `generar_pdfatexto.py`. La salida (`output_text`) de este script es usada en `seccionar.py`
-3. Correr `parser.py`, que usa diccionarios y genera .json con filtros especificos (`output_parser`).
-4. Correr `seccionar.py`, que usa la salida del paso 2 y genera .json con los cvs seccionados (`output_seccionado`).
-5. Correr `ranking.py` que usa la salida de 4 y `descripcion_cargo.txt`..
+1. Poner todos los CV en la carpeta `/resumes`. Soporta `.pdf`, `.docx` y `.doc`
+2. Correr `parser.py`, que usa diccionarios y genera .json con filtros especificos (`output_parser`).
+3. Correr `ranking.py` que usa la salida de 2 y `descripcion_cargo.txt`..
+
+ `seccionar.py` y   `generar_cv_a_text.py` son simplemente script para probar funcionalidadades
+ de forma rápida.
+
+ ### Para más adelante
+ https://prodi.gy/
+ Para mejorar los modelos de spacy.

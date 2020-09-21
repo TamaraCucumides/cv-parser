@@ -5,37 +5,34 @@ import os
 import es_core_news_md
 import itertools
 from gensim.models.keyedvectors import KeyedVectors
+from nltk.tokenize import sent_tokenize, word_tokenize
 import re
 import json
 import pprint
+import string
 pp = pprint.PrettyPrinter(indent=4)
 import multiprocessing as mp
-from utils import preprocesar_texto
 
+
+#from utils import preprocesar_texto
+stopwords = nltk.corpus.stopwords.words('spanish')
 # Utilidad para borrar simbolos
 re_c = re.compile(r'\w+')
 
 # Se carga el modelo español de spacy
 nlp = es_core_news_md.load()
 
-# Se carga el modelo de embeddings en español
-print("Cargando embeddings")
-wordvectors_file_vec = os.getcwd() + '/parser/embeddings/fasttext-sbwc.3.6.e20.vec'
-cantidad = 100000
-model = KeyedVectors.load_word2vec_format(wordvectors_file_vec, limit=cantidad)
-print("Embeddings cargadas")
-
 #Se carga la tabla de secciones.
-seccion_csv = os.getcwd() +'/parser/CSVs/seccionesCV.csv'
+seccion_csv = os.getcwd() +'/diccionarios/seccionesCV_similitud.csv'
 secciones = pd.read_csv(seccion_csv, header = 0)
 
 
 # Se carga el dccionario de secciones, se considera todas las celdas de seccion_csv que no sean nan.
 secciones_dict = {
     'extras' : [str(x.lower()) for x in secciones.Perfil.values if str(x)!= 'nan'],
-    'experiencia' : [str(x.lower()) for x in secciones['Experiencia '].values if str(x)!= 'nan'],
+    'Experiencia' : [str(x.lower()) for x in secciones['Experiencia '].values if str(x)!= 'nan'],
     'educación' : [str(x.lower()) for x in secciones['Formación Académica'].values if str(x)!= 'nan'],
-    'skills' : [str(x.lower()) for x in secciones['skills'].values if str(x)!= 'nan']                   
+    'Skills' : [str(x.lower()) for x in secciones['skills'].values if str(x)!= 'nan']                   
         
 }
 
@@ -88,7 +85,31 @@ def modificar(word):
     except:
         return None # to handle the odd case of characters like 'x02', etc.
     
+def preprocesar_texto(corpus,stopwords , enminiscula= True, puntuacion = False):
+    '''
+    Entrada: texto, stopwords, enminiscula (opcional), puntuacion
+    Salida:  texto
+    Funcion que se encarga de limpiar las stopwords de un texto
+    el parámetro opciona enminuscula si es verdadero,
+    transforma todo el texto a miniscula y elimina stopwords que esten en minuscula.
+    Cuando se usa false, el texto retornado mantendra capitalizacion original y 
+    además se eliminan stop words especificas tales como: Pontificia, Universidad, Vitae, VITAE
+    Notar que stop_words.txt tiene stopwords en minisculas y capitalizada.
+    Esta propiedad de mantener la capitalización es útil en la detección de nombres.
+    '''
 
+    if enminiscula: # si se quiere normalizar a minuscula
+        corpus = corpus.lower()
+    if not puntuacion: # Si no se quiere conservar la puntuación
+        stopset = stopwords+ list(string.punctuation)
+    else:
+        stopset = stopwords
+
+    corpus = " ".join([i for i in word_tokenize(corpus) if i not in stopset])
+    # remove non-ascii characters
+    #corpus = unidecode.unidecode(corpus)
+
+    return corpus
     
 
 def esta_vacia(line):
@@ -102,21 +123,26 @@ def esta_vacia(line):
     return True
 
 
-def seccionar_cv(path):
+def seccionar_cv(path, model):
     # Se crea un diccionario vacio para rellenarlo
     secciones_data = {
-        'nombre archivo':'',
+        'Nombre archivo':'',
         'extras' : '',
-        'experiencia' : '',
+        'Experiencia' : '',
         'educación' : '',
-        'skills':''
+        'Skills':''
                         
             
     }
     # Se carga un archivo .txt, que contiene el CV que venia del PDF
-
+    close = True
     file = path
-    cv_txt = open(file, "r")
+    try:
+        cv_txt = open(file, "r")
+    except:
+        cv_txt = path
+        close = False
+    #print(cv_txt)
     seccion_previa  = 'extras'
 
     for line in cv_txt:
@@ -165,27 +191,28 @@ def seccionar_cv(path):
 
 
         # Concatenar las palabras para formar un linea, las palabras se usan en su lema
-        try:
-            docx = nlp(line)
-        except:
-            continue  # si que hay simbolos raros
-        linea_lematizada = ''
-        for token in docx:
-            if (not token.is_stop):
-                linea_lematizada += token.lemma_ + ' '
+#        try:
+#            docx = nlp(line)
+#        except:
+#            continue  # si que hay simbolos raros
+#        linea_lematizada = ''
+#        for token in docx:
+#            if (not token.is_stop):
+#                linea_lematizada += token.lemma_ + ' '
 
-        secciones_data[seccion_previa] += preprocesar_texto(linea_lematizada, stopwords)+ ' ' # 
-
-
-    cv_txt.close()
+#        secciones_data[seccion_previa] += preprocesar_texto(linea_lematizada, stopwords)+ ' ' # 
+        secciones_data[seccion_previa] += line + ' '
+    if close:
+        cv_txt.close()
+    #print()
     return secciones_data
 
 
 
 
-def generate_json(cv):
+def generate_json(cv, model):
     name = cv.replace(direc + dir_txt, '')        
-    secciones_data = seccionar_cv(cv)
+    secciones_data = seccionar_cv(cv, model)
     secciones_data['nombre archivo'] = name
 
     with open(direc + dir_output + name+'.json', 'w',encoding='utf-8') as json_file:
@@ -198,11 +225,15 @@ def generate_json(cv):
 if __name__ == '__main__':
     pool = mp.Pool(mp.cpu_count())
     direc = os.getcwd()
-    dir_txt = '/parser/Outputs/output_text/'
-    dir_output = '/parser/Outputs/output_seccionado/'
-    #newStopWords = cargar_dict(os.getcwd() + '/parser/diccionarios/stop_words_descripcion_cargo')
-    stopwords = nltk.corpus.stopwords.words('spanish')
-    #stopwords.extend(newStopWords)
+    dir_txt = '/Outputs/output_text/'
+    dir_output = '/Outputs/output_seccionado/'
+
+    # Se carga el modelo de embeddings en español
+    print("Cargando embeddings")
+    wordvectors_file_vec = os.getcwd() + '/embeddings/fasttext-sbwc.3.6.e20.vec'
+    cantidad = 100000
+    model = KeyedVectors.load_word2vec_format(wordvectors_file_vec, limit=cantidad)
+    print("Embeddings cargadas")
 
     # Se cargan todos los paths a los cv en formato .txt 
     resumes_seccionado = []
@@ -214,7 +245,7 @@ if __name__ == '__main__':
     print("Seccionando CVs: "+str(len(resumes_seccionado)))
 
     # Se secciona cada CV
-    seccionados = [pool.apply_async(generate_json(cv)) for cv in resumes_seccionado]
+    seccionados = [pool.apply_async(generate_json(cv, model)) for cv in resumes_seccionado]
     pool.close()
     pool.join()      
 
