@@ -669,6 +669,7 @@ def similitud(word1, array_palabras, model, threshold = 0.6):
     que son parecidas. Esta funcion es útil para
     calcular Tf-idf, ya que se busca palabras parecidas
     y no las palabras exactas.
+    
     '''
     n_veces = 0
     for word in array_palabras:
