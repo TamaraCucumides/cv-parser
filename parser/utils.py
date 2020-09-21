@@ -27,6 +27,9 @@ from seccionar import seccionar_cv
 import os
 import json
 import textract
+import nltk
+from nltk.stem import WordNetLemmatizer
+stemmer = SnowballStemmer('spanish')
 
 #####################################################
 ####  UTILIDADES  parser.py  ########################
@@ -567,7 +570,7 @@ def busqueda_palabras_claves(text):
 ######  UTILIDADES ranking.py  ######################
 #####################################################
 
-def preprocesar_texto(corpus,stopwords , enminiscula= True, puntuacion = False):
+def preprocesar_texto(corpus,stopwords , enminiscula= True, puntuacion = False, numeros = True):
     '''
     Entrada: texto, stopwords, enminiscula (opcional), puntuacion
     Salida:  texto
@@ -590,6 +593,10 @@ def preprocesar_texto(corpus,stopwords , enminiscula= True, puntuacion = False):
     corpus = " ".join([i for i in word_tokenize(corpus) if i not in stopset])
     # remove non-ascii characters
     #corpus = unidecode.unidecode(corpus)
+
+    if not numeros:
+        corpus = ''.join([i for i in corpus if not i.isdigit()])
+        corpus = " ".join(corpus.split())
 
     return corpus
 
@@ -653,7 +660,7 @@ def palabras_cercanas(word, n, model):
     
     return words, similar_vals
 
-def similitud(word1, array_palabras, model, threshold = 0.5):
+def similitud(word1, array_palabras, model, threshold = 0.6):
     '''
     Funcion que se encarga de calcular
     la similitud de word1 con respecto
@@ -675,3 +682,14 @@ def similitud(word1, array_palabras, model, threshold = 0.5):
             pass
         
     return n_veces
+
+def eliminar_palabras_repetidas(string):
+    lista_unicos = []
+    [lista_unicos.append(x) for x in string.split() if x not in lista_unicos]
+    return " ".join(lista_unicos)
+
+def stemizar(frase):    
+    #frase = " ".join(lematizar(frase))
+    nltk_tokens = nltk.word_tokenize(frase)
+    stem = [stemmer.stem(tk) for tk in nltk_tokens]
+    return " ".join(stem)

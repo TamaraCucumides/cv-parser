@@ -64,3 +64,7 @@ http://dcc.uchile.cl/~jperez/word-embeddings/fasttext-sbwc.vec.gz
 
  `seccionar.py` y   `generar_cv_a_text.py` son simplemente script para probar funcionalidadades
  de forma rápida.
+
+ ### Para más adelante
+ https://prodi.gy/
+ Para mejorar los modelos de spacy.
