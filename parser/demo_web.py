@@ -218,8 +218,8 @@ if selec_grado:
     mostrar_cvtxt_fil_2 = st.checkbox('Mostrar CV G')
 
     if mostrar_cvtxt_fil_2:
-        mostrar_solo_u = st.checkbox('Mostrar solo Educacion')
-        if not mostrar_solo_u:
+        mostrar_solo_g = st.checkbox('Mostrar solo Educacion')
+        if not mostrar_solo_g:
             dict_cv = load_dict('/home/erwin/Genoma/cv-parser/parser',filename_filtered)
             st.write(dict_cv)
         else:
