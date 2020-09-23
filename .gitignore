@@ -134,3 +134,4 @@ dmypy.json
 fasttext-sbwc.vec
 
 parser/CSVs/.~lock.Secciones CVs_similutud.csv#
+parser/bio_word.vectors.npy

@@ -22,12 +22,12 @@
     "Experiencia": "experiencia laboral pic fecha 2016 hasta la fecha empresa supermercado líder melipilla actividad desarrollada empaque universitario empresa touch actividad desarrollada captador de clientes empresa forum actividad desarrollada práctica intermedia como ejecutivo comercial datos complementarios pic idiomas inglés intermedio/avanzado software microsoft office excel intermedio programación en macros stata comandos básicos power bi comandos básicos rstudio comandos básicos ",
     "Resumen": "",
     "Skills": [
-        "Power bi",
         "Rstudio",
-        "Macros",
         "Excel",
-        "Stata",
-        "Office"
+        "Power bi",
+        "Macros",
+        "Office",
+        "Stata"
     ],
     "Referencias": ""
 }

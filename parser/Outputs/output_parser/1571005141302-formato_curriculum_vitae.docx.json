@@ -28,11 +28,11 @@
     "Experiencia": "experiencia laboral experiencia atendiendo gente, trabajo de verdulería, caja en eventos. informatica nivel medio de uso en programas como microsoft office, excel, power point lenguaje de programación básico python, básico java. idioma español lengua materna ingles medio alto ",
     "Resumen": "curriculum vitae ",
     "Skills": [
-        "Office",
         "Java",
         "Excel",
-        "Power point",
-        "Python"
+        "Python",
+        "Office",
+        "Power point"
     ],
     "Referencias": ""
 }

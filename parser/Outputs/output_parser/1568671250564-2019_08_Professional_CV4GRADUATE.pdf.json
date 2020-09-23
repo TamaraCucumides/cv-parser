@@ -10,10 +10,10 @@
     "Nombre archivo": "1568671250564-2019_08_Professional_CV4GRADUATE.pdf",
     "Licencias-Certificaciones": [],
     "Palabras Claves": [
-        "Aprender",
-        "Disciplina",
+        "Modelamiento",
         "Responsabilidad",
-        "Modelamiento"
+        "Disciplina",
+        "Aprender"
     ],
     "Educacion": {
         "Universidades:": [
@@ -30,14 +30,14 @@
     "Resumen": "resumen ingeniero civil eléctrico titulado con distinción máxima y con magíster en ciencias de la ingeniería mención eléctrica en el área de potencia y energía. partícipe de un proyecto solar fotovoltaico rooftop de 2mw y a cargo de levantar área de captura de imágenes con drones. durante mi estadía en la universidad realicé ayudantías para 20 cursos, en los que aporté principalmente haciendo clases y coordinando equipos docentes. mientras terminaba el programa de magíster me desempeñé laboralmente adoptando un alto nivel de responsabilidades. hace tres años comencé a diseñar y construir una impresora 3d a modo de hobby y el día de hoy lo cuento orgullosamente, puesto que muestra algunas de mis grandes cualidades que son gran disciplina, capacidad de aprendizaje y perseverancia. ",
     "Skills": [
         "Word",
-        "Latex",
-        "Solidworks",
-        "Matlab",
-        "Digsilent",
-        "Excel",
-        "Arduino",
         "Powerpoint",
-        "Python"
+        "Excel",
+        "Matlab",
+        "Python",
+        "Digsilent",
+        "Solidworks",
+        "Arduino",
+        "Latex"
     ],
     "Referencias": ""
 }

@@ -281,7 +281,9 @@ def extraer_idiomas(text, nlp_text):
         combinaciones_strings.append(combinaciones[i][0] +' '+ combinaciones[i][1])
 
     # agregamos los idiomas por si solos : [inglés, francés, etc]
-    combinaciones_strings = combinaciones_strings + idiomas
+    #combinaciones_strings = combinaciones_strings + idiomas
+
+    combinaciones_strings = idiomas
     noun_chunks = list(nlp_text.noun_chunks)
     
     #Ahora a buscar cada una de las combinaciones en cada frase o chunk

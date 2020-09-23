@@ -10,25 +10,24 @@
         "CLASE B"
     ],
     "Palabras Claves": [
-        "Responsabilidad",
-        "Disposición",
         "Modelamiento",
+        "Responsabilidad",
         "Proactividad",
-        "Puntual",
         "Compromiso",
+        "Puntual",
+        "Disposición",
         "Voluntariado"
     ],
     "Educacion": {
         "Universidades:": [
-            "Instituto Profesional INACAP",
-            "Universidad de Aconcagua"
+            "Universidad de Aconcagua",
+            "Instituto Profesional INACAP"
         ],
         "Grado_mas_alto": [
             "Pregrado"
         ]
     },
     "Lenguajes": [
-        "Inglés intermedio",
         "Inglés",
         "Español"
     ],
@@ -36,11 +35,11 @@
     "Resumen": "resumen ingeniero en minas español lengua materna inglés intermedio ",
     "Skills": [
         "Word",
-        "Autocad",
-        "Ventsim",
+        "Powerpoint",
         "Excel",
         "Office",
-        "Powerpoint"
+        "Autocad",
+        "Ventsim"
     ],
     "Referencias": ""
 }

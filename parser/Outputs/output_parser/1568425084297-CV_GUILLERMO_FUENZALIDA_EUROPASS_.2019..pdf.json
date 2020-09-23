@@ -12,18 +12,18 @@
         "TOEFL"
     ],
     "Palabras Claves": [
-        "Análisis",
-        "Disposición",
-        "Analizar",
         "Liderazgo",
-        "Aprender",
         "Colaboración",
-        "Gestión"
+        "Análisis",
+        "Analizar",
+        "Disposición",
+        "Gestión",
+        "Aprender"
     ],
     "Educacion": {
         "Universidades:": [
-            "Universidad de Antofagasta",
-            "Universidad de Chile"
+            "Universidad de Chile",
+            "Universidad de Antofagasta"
         ],
         "Grado_mas_alto": [
             "Postgrado"
@@ -36,10 +36,10 @@
     "Resumen": "currículum vítae 25/3/19 unión europea, 2002-2019 http//europass.cedefop.europa.eu página 1 / 4 ",
     "Skills": [
         "Word",
-        "Access",
+        "Excel",
         "Visual basic",
         "Macros",
-        "Excel",
+        "Access",
         "Tablas dinámicas",
         "Power point"
     ],

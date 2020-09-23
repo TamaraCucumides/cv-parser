@@ -13,10 +13,10 @@
         "LICENCIA DE CONDUCIR"
     ],
     "Palabras Claves": [
-        "Aprender",
-        "Puntual",
         "Responsabilidad",
-        "Gestión"
+        "Gestión",
+        "Puntual",
+        "Aprender"
     ],
     "Educacion": {
         "Universidades:": [
@@ -33,11 +33,11 @@
     "Resumen": "curriculum vitae ",
     "Skills": [
         "Word",
+        "Excel",
+        "Windows",
+        "Visio",
         "Autocad",
         "Microsoft project",
-        "Visio",
-        "Windows",
-        "Excel",
         "Power point"
     ],
     "Referencias": ""
