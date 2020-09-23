@@ -15,11 +15,11 @@
     ],
     "Educacion": {
         "Universidades:": [
-            "Universidad Viña del Mar",
             "Universidad Católica de Valparaíso",
             "Universidad Adolfo Ibáñez",
+            "Universidad de Chile",
             "Pontificia Universidad Católica de Valparaíso",
-            "Universidad de Chile"
+            "Universidad Viña del Mar"
         ],
         "Grado_mas_alto": [
             "Postgrado"

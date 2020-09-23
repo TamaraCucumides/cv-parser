@@ -13,8 +13,8 @@
         "Liderazgo",
         "Responsabilidad",
         "Gestión",
-        "Negociación",
-        "Liderar"
+        "Liderar",
+        "Negociación"
     ],
     "Educacion": {
         "Universidades:": [
@@ -30,12 +30,12 @@
     "Resumen": "alejandro rodriguez gonzalez ingeniero comercial universidad de tarapacá licenciado en ciencias en la administración de empresas ",
     "Skills": [
         "Erp",
-        "Word",
-        "Excel",
-        "Windows",
-        "Office",
         "Legislación laboral",
-        "Power point"
+        "Windows",
+        "Word",
+        "Power point",
+        "Excel",
+        "Office"
     ],
     "Referencias": ""
 }

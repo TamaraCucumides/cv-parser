@@ -4,11 +4,16 @@ from constantes import cargar_dict, educacion, grados_educativos_orden, licencia
 import json
 import unidecode as u
 from gensim.models.keyedvectors import KeyedVectors
+from nltk.corpus import stopwords 
 from utils import palabras_cercanas
 import matplotlib.pyplot as plt
+import nltk
 import json
 from wordcloud import WordCloud 
 from collections import Counter
+from utils import lematizar, stemizar, preprocesar_texto
+from constantes import cargar_dict
+import re
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 def show_words(file):
@@ -260,3 +265,56 @@ if similares != "":
         st.write(sim)
     else:
         st.write("La palabra no esta en el vocabulario")
+
+st.title("Extras")
+st.subheader('Lematizador')
+lemas = st.text_input("Palabra a lematizar:", "")
+
+if lemas != "":
+    #model = cargar_embedding()
+    n=5
+    lematizado = lematizar(lemas)
+    if lematizado:
+        st.write(lematizado)
+    else:
+        st.write("La palabra no esta en el vocabulario")
+
+
+st.subheader('Stemming')
+stems = st.text_input("Palabra para aplicar stemming:", "")
+
+if stems != "":
+    stem = stemizar(stems)
+    if stem:
+        st.write(stem)
+    else:
+        st.write("La palabra no esta en el vocabulario")
+
+st.subheader('Preprocesamiento (Bye Stopwords)')
+text_to_clean = st.text_input("Texto a limpiar:", "")
+
+newStopWords = cargar_dict(os.getcwd() + '/diccionarios/stop_words_nombres')
+stopwords = nltk.corpus.stopwords.words('spanish')
+stopwords.extend(newStopWords)
+minus = st.checkbox('A Miniscula')
+punt = st.checkbox('Eliminar Puntuacion')
+num = st.checkbox('Eliminar Numeros')
+simb = st.checkbox('Eliminar Todo tipo de simbolos')
+lemm = st.checkbox('Lematizar')
+if text_to_clean != "":
+    st.write(text_to_clean)
+    clean = preprocesar_texto(text_to_clean,stopwords , enminiscula=  minus, puntuacion = not punt, numeros = not num)
+    if clean and not simb:
+        if lemm:
+            clean = lematizar(clean)
+        else:  
+            st.write(clean)
+    elif clean and simb:
+        if lemm:
+            clean = lematizar(clean)
+            clean = re.sub(r'[^\w\s]',' ',clean) #eliminar puntuacion
+            st.write(clean)
+        else:
+            clean = re.sub(r'[^\w\s]',' ',clean) #eliminar puntuacion
+            st.write(clean)
+

@@ -9,14 +9,14 @@
     },
     "Nombre archivo": "1568314317286-CV_Scarlett_Espinoza_1.docx",
     "Licencias-Certificaciones": [
-        "CLASE B",
-        "LICENCIA DE CONDUCIR"
+        "LICENCIA DE CONDUCIR",
+        "CLASE B"
     ],
     "Palabras Claves": [
-        "Responsabilidad",
+        "Aprender",
         "Gestión",
         "Puntual",
-        "Aprender"
+        "Responsabilidad"
     ],
     "Educacion": {
         "Universidades:": [
@@ -32,13 +32,13 @@
     "Experiencia": "antecedentes laborales diciembre 2017- enero 2018 atención al cliente, cajera. savory. melipilla, chile. 03 julio 2019 31 de julio 2019 administración y contabilidad emind, melipilla, chile ",
     "Resumen": "curriculum vitae ",
     "Skills": [
-        "Word",
-        "Excel",
-        "Windows",
         "Visio",
-        "Autocad",
         "Microsoft project",
-        "Power point"
+        "Windows",
+        "Word",
+        "Power point",
+        "Excel",
+        "Autocad"
     ],
     "Referencias": ""
 }

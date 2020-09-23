@@ -9,8 +9,8 @@
     },
     "Nombre archivo": "1568397370982-CV_Marcelo_Rodríguez.docx",
     "Licencias-Certificaciones": [
-        "CLASE B",
-        "LICENCIA DE CONDUCIR"
+        "LICENCIA DE CONDUCIR",
+        "CLASE B"
     ],
     "Palabras Claves": null,
     "Educacion": {
@@ -27,12 +27,12 @@
     "Experiencia": "experiencia laboral año 2016 empaque supermercado lider s.t.i enort. año 2017 empaque supermercado lider s.t.i enort. año 2018 empaque supermercado lider s.t.i enort. año 2019 empaque supermercado lider s.t.i enort. ",
     "Resumen": "marcelo andrés rodríguez alfaro avenida antonio rendic 6802, antofagasta, chile. celular 56 956131013 fono 55 2380023 e-mail marceloandres.ra@gmail.com ",
     "Skills": [
-        "Word",
-        "Excel",
         "Matlab",
+        "Word",
+        "Power point",
+        "Excel",
         "Office",
-        "Autocad",
-        "Power point"
+        "Autocad"
     ],
     "Referencias": ""
 }

@@ -9,18 +9,18 @@
     },
     "Nombre archivo": "1569857582157-Curriculum_Vitae_Nicolas_Aravena_2019.doc",
     "Licencias-Certificaciones": [
-        "CLASE B",
-        "LICENCIA DE CONDUCIR"
+        "LICENCIA DE CONDUCIR",
+        "CLASE B"
     ],
     "Palabras Claves": [
-        "Voluntariado",
-        "Liderar"
+        "Liderar",
+        "Voluntariado"
     ],
     "Educacion": {
         "Universidades:": [
-            "Universidad de Concepción",
-            "Universidad Santo Tomas",
             "Universidad del Desarrollo",
+            "Universidad Santo Tomas",
+            "Universidad de Concepción",
             "Universidad Católica de la Santísima Concepción"
         ],
         "Grado_mas_alto": []

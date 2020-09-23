@@ -9,8 +9,8 @@
     },
     "Nombre archivo": "1571005141302-formato_curriculum_vitae.docx",
     "Licencias-Certificaciones": [
-        "CLASE B",
-        "LICENCIA DE CONDUCIR"
+        "LICENCIA DE CONDUCIR",
+        "CLASE B"
     ],
     "Palabras Claves": null,
     "Educacion": {
@@ -22,17 +22,17 @@
         ]
     },
     "Lenguajes": [
-        "Inglés",
-        "Español"
+        "Español",
+        "Inglés"
     ],
     "Experiencia": "experiencia laboral experiencia atendiendo gente, trabajo de verdulería, caja en eventos. informatica nivel medio de uso en programas como microsoft office, excel, power point lenguaje de programación básico python, básico java. idioma español lengua materna ingles medio alto ",
     "Resumen": "curriculum vitae ",
     "Skills": [
-        "Java",
-        "Excel",
         "Python",
-        "Office",
-        "Power point"
+        "Java",
+        "Power point",
+        "Excel",
+        "Office"
     ],
     "Referencias": ""
 }

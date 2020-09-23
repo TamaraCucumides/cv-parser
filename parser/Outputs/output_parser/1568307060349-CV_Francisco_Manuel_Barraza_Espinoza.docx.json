@@ -9,18 +9,18 @@
     },
     "Nombre archivo": "1568307060349-CV_Francisco_Manuel_Barraza_Espinoza.docx",
     "Licencias-Certificaciones": [
-        "CCNA",
         "CLASE C",
-        "SERVICIO MILITAR",
+        "CCNA",
         "CLASE B",
+        "SERVICIO MILITAR",
         "CCNP"
     ],
     "Palabras Claves": [
-        "Responsabilidad",
-        "Colaboración",
-        "Puntual",
-        "Gestión",
         "Aprender",
+        "Puntual",
+        "Responsabilidad",
+        "Gestión",
+        "Colaboración",
         "Adaptable",
         "Disciplina"
     ],
@@ -34,16 +34,16 @@
     "Experiencia": "antecedentes laborales junio 2019 - julio 2019 asertiva s.a proyecto descripción de funciones se desempeña en el cargo de ingeniero en seguridad de identidad junior brindar soluciones de seguridad de acceso a plataformas por medio de la integración de un doble factor de autenticación monitoreo de plataformas control de inventario sap control y gestión en active directory creación dns en ad creación de políticas gestión de usuarios en rsa authentication manager diciembre 2017 - marzo 2019 entel servicios empresariales descripción de funciones se desempeña en el cargo de ingeniero en soporte ti soporte t.i acceso remoto monitoreo de plataformas control de inventario sap manejo active directory control dns, wins, hosts programas propios entel junio 2017 diciembre 2017 hv-soluciones descripción de funciones se desempeña en el cargo de asesor residente tienda entel soporte ejecutivos manejo active directory control dns, wins, hosts programas plataformas entel migración de programas, cuentas, dominios diciembre 2014 julio 2015 pc team descripción de funciones se desempeña en el cargo de asesor n1 y n3 soporte de hardware y software, desktop, notebook y mac. router y access point. conocimientos e implementación de macintosh. conocimientos e implementación en restauración de equipos. mantención y respaldo de servidores con windows. febrero 2013 junio 2013 tv cable nielsen descripción de funciones se desempeña en el cargo de asesor instalador de productos vtr. conocimientos e implementación en instalación de telefonía. conocimientos e implementación en cableado coaxial. relaciones interpersonales y trabajo en equipo ",
     "Resumen": "francisco manuel barraza espinoza 56 9 66251228 fra.barrazae@gmail.com titulado de ingeniería en conectividad y redes con muy buena disponibilidad para trabajar en equipo, responsable, puntual, disciplinado, colaborador, con buena adaptabilidad a trabajo bajo presión, y con ansias de aprender. ",
     "Skills": [
-        "Mac",
-        "Sap",
-        "Linux",
-        "Vba",
-        "Sql",
-        "Power bi",
-        "Windows",
-        "Router",
+        "Nielsen",
         "Access",
-        "Nielsen"
+        "Windows",
+        "Sap",
+        "Router",
+        "Power bi",
+        "Linux",
+        "Sql",
+        "Vba",
+        "Mac"
     ],
     "Referencias": ""
 }
