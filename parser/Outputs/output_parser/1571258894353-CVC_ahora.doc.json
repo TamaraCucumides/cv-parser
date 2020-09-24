@@ -1,37 +1,37 @@
 {
-    "Contacto": {
-        "Nombre": "Javiera Andrea García ",
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": "Javiera Andrea García ",
+        "CORREO": [
             "javiegarcia@alumnos.uai.cl"
         ],
-        "Celular": "+56984222992",
-        "Linkedin": null
+        "CELULAR": "+56984222992",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1571258894353-CVC_ahora.doc",
-    "Licencias-Certificaciones": [],
-    "Palabras Claves": [
+    "NOMBRE_ARCHIVO": "1571258894353-CVC_ahora.doc",
+    "LICENCIA_CERTIFICACION": [],
+    "PALABRAS_CLAVES": [
         "Responsabilidad",
-        "Voluntariado",
-        "Negociación"
+        "Negociación",
+        "Voluntariado"
     ],
-    "Educacion": {
-        "Universidades:": [
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
             "Universidad Adolfo Ibáñez"
         ],
-        "Grado_mas_alto": [
+        "GRADO_MAS_ALTO": [
             "Postgrado"
         ]
     },
-    "Lenguajes": [
+    "IDIOMAS": [
         "Inglés"
     ],
-    "Experiencia": "experiencia laboral banco bice ventas ejecutiva comercial santiago, chile 2019 abrir cuentas bancarias a todas aquellas personas que desean ser parte del banco bice. grupo security marketing práctica administrativa santiago, chile 2018 junto con el área de marketing realizamos un estudio de mercado de las siete empresas del grupo, esto nos permitió evaluar y replantear la propuesta de valor de cada una de ellas. piccola italia servicio al cliente encuestadora santiago, chile 2014-2019 todos los fines de semana encueste a los clientes para medir su satisfacción con el servicio recibido, en casos de recibir un reclamo con el servicio, buscaba dar solución al problema. universidad adolfo ibañez taller de emprendimiento tropical crepes práctica operativa santiago, chile 2016 vendimos waffles, crepes de varios tipos, jugos naturales, entre otros productos en un local en maitencillo. me encargué del servicio en el local y en las finanzas del emprendimiento. emprendimiento personal madecor santiago, chile 2015 vendí mesas de pallets hechas a mano las que podían ser utilizadas en la terraza y living. produje y me encargué de vender las mesas. clinique master project uai santiago, chile 2019 actualmente realizando trabajo de investigación y asesoría para la marca clinique. ",
-    "Resumen": "resumen profesional soy estudiante de quinto año de ingeniera comercial en universidad adolfo ibáñez, actualmente realizando un magister en marketing. me caracterizo por ser una persona responsable con mis deberes, además de ser organizada y esforzada al momento de realizar un trabajo, soy perseverante hasta lograr un resultado de calidad. poseo capacidad de trabajar en equipo y orientación al cumplimiento de objetivos. el área que me interesa es el de marketing, contabilidad y comercial en empresas con orientación sustentables. ",
-    "Skills": [
-        "Word",
-        "Excel",
+    "EXPERIENCIA": "experiencia laboral banco bice ventas ejecutiva comercial santiago, chile 2019 abrir cuentas bancarias a todas aquellas personas que desean ser parte del banco bice. grupo security marketing práctica administrativa santiago, chile 2018 junto con el área de marketing realizamos un estudio de mercado de las siete empresas del grupo, esto nos permitió evaluar y replantear la propuesta de valor de cada una de ellas. piccola italia servicio al cliente encuestadora santiago, chile 2014-2019 todos los fines de semana encueste a los clientes para medir su satisfacción con el servicio recibido, en casos de recibir un reclamo con el servicio, buscaba dar solución al problema. universidad adolfo ibañez taller de emprendimiento tropical crepes práctica operativa santiago, chile 2016 vendimos waffles, crepes de varios tipos, jugos naturales, entre otros productos en un local en maitencillo. me encargué del servicio en el local y en las finanzas del emprendimiento. emprendimiento personal madecor santiago, chile 2015 vendí mesas de pallets hechas a mano las que podían ser utilizadas en la terraza y living. produje y me encargué de vender las mesas. clinique master project uai santiago, chile 2019 actualmente realizando trabajo de investigación y asesoría para la marca clinique. ",
+    "RESUMEN": "resumen profesional soy estudiante de quinto año de ingeniera comercial en universidad adolfo ibáñez, actualmente realizando un magister en marketing. me caracterizo por ser una persona responsable con mis deberes, además de ser organizada y esforzada al momento de realizar un trabajo, soy perseverante hasta lograr un resultado de calidad. poseo capacidad de trabajar en equipo y orientación al cumplimiento de objetivos. el área que me interesa es el de marketing, contabilidad y comercial en empresas con orientación sustentables. ",
+    "SKILLS": [
         "Access",
-        "Power point"
+        "Power point",
+        "Word",
+        "Excel"
     ],
-    "Referencias": ""
+    "REFERENCIAS": ""
 }

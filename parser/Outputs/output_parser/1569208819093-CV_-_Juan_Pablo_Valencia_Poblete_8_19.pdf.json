@@ -1,33 +1,33 @@
 {
-    "Contacto": {
-        "Nombre": "Juan Pablo Valencia ",
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": "Juan Pablo Valencia ",
+        "CORREO": [
             "jpvalencia1547@gmail.com"
         ],
-        "Celular": "0967221989",
-        "Linkedin": null
+        "CELULAR": "0967221989",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1569208819093-CV_-_Juan_Pablo_Valencia_Poblete_8_19.pdf",
-    "Licencias-Certificaciones": [],
-    "Palabras Claves": [
+    "NOMBRE_ARCHIVO": "1569208819093-CV_-_Juan_Pablo_Valencia_Poblete_8_19.pdf",
+    "LICENCIA_CERTIFICACION": [],
+    "PALABRAS_CLAVES": [
         "Compromiso",
         "Liderar",
-        "Motivación",
+        "Autoaprendizaje",
         "Negociación",
-        "Autoaprendizaje"
+        "Motivación"
     ],
-    "Educacion": {
-        "Universidades:": [
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
             "Universidad Tecnológica Metropolitana",
             "Universidad Mayor"
         ],
-        "Grado_mas_alto": [
+        "GRADO_MAS_ALTO": [
             "Postgrado"
         ]
     },
-    "Lenguajes": [],
-    "Experiencia": "experiencia profesional inacap 2019 primer semestre docente del área de electricidad. obteniendo una de las mas altas evaluaciones del departamento por parte de alumnado. fundación duoc uc 2012-2018 docente del área de electricidad y matemáticas, área de circuitos eléctricos y control automático de procesos. excediendo con creces el porcentaje exigido de evaluación docente por parte de los alumnos. participe en el proceso de automatización de evaluaciones, reduciendo el tiempo de elaboración de estas en un 80. claro chile 2016-2017 ingeniero hardware en departamento de logística y administración de claro chile s.a. encargado de control de calidad y compras técnicas de equipos de claro chile. concretando negociación para la compra de los primeros chip triple corte en claro chile, generando un ahorro de 20 en los costos y facilitando la logística. precisión s.a. 2014-2015 ingeniero de ventas, área de automatización y control, motores y accionamiento, con énfasis en lograr cumplimiento de metas de ventas, logrando una atención rápida y eficiente hacia los clientes tanto presencialmente como telefónicamente, dando un enfoque a la rapidez en la respuesta de cada requerimiento recibido. participación y desarrollo de requerimientos específicos para clientes. búsqueda y generación de negocios con nuevas cuentas para la organización. agosto 2012 marzo 2014. pollex limitada asesorías y telecomunicaciones 2012-2014 auditoria de sitios claro chile en la región metropolitana y quinta región. elaboración completa de ingenierías de cobertura indoors para entel. planifiqué e implemente mejoras en el desarrollo de las ingenierías de cobertura indoors, reduciendo el tiempo de entrega en un 28. capacité a personal técnico en el uso del software de simulación de cobertura. estudios universitarios postgrados universidad mayor 2015-2017 master en administración de negocios mba. pregrado universidad tecnológica metropolitana 2004-2011 licenciado en ciencias de la ingeniería ingeniero en electrónica santiago, agosto de 2019 ",
-    "Resumen": "juan pablo valencia poblete ",
-    "Skills": [],
-    "Referencias": ""
+    "IDIOMAS": [],
+    "EXPERIENCIA": "experiencia profesional inacap 2019 primer semestre docente del área de electricidad. obteniendo una de las mas altas evaluaciones del departamento por parte de alumnado. fundación duoc uc 2012-2018 docente del área de electricidad y matemáticas, área de circuitos eléctricos y control automático de procesos. excediendo con creces el porcentaje exigido de evaluación docente por parte de los alumnos. participe en el proceso de automatización de evaluaciones, reduciendo el tiempo de elaboración de estas en un 80. claro chile 2016-2017 ingeniero hardware en departamento de logística y administración de claro chile s.a. encargado de control de calidad y compras técnicas de equipos de claro chile. concretando negociación para la compra de los primeros chip triple corte en claro chile, generando un ahorro de 20 en los costos y facilitando la logística. precisión s.a. 2014-2015 ingeniero de ventas, área de automatización y control, motores y accionamiento, con énfasis en lograr cumplimiento de metas de ventas, logrando una atención rápida y eficiente hacia los clientes tanto presencialmente como telefónicamente, dando un enfoque a la rapidez en la respuesta de cada requerimiento recibido. participación y desarrollo de requerimientos específicos para clientes. búsqueda y generación de negocios con nuevas cuentas para la organización. agosto 2012 marzo 2014. pollex limitada asesorías y telecomunicaciones 2012-2014 auditoria de sitios claro chile en la región metropolitana y quinta región. elaboración completa de ingenierías de cobertura indoors para entel. planifiqué e implemente mejoras en el desarrollo de las ingenierías de cobertura indoors, reduciendo el tiempo de entrega en un 28. capacité a personal técnico en el uso del software de simulación de cobertura. estudios universitarios postgrados universidad mayor 2015-2017 master en administración de negocios mba. pregrado universidad tecnológica metropolitana 2004-2011 licenciado en ciencias de la ingeniería ingeniero en electrónica santiago, agosto de 2019 ",
+    "RESUMEN": "juan pablo valencia poblete ",
+    "SKILLS": [],
+    "REFERENCIAS": ""
 }

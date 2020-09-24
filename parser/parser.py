@@ -5,6 +5,7 @@ import json
 import pprint
 import nltk
 import os
+import time
 import multiprocessing as mp
 import timeit
 from gensim.models.keyedvectors import KeyedVectors
@@ -18,23 +19,23 @@ nltk.download('averaged_perceptron_tagger')
 nltk.download('stopwords')
 
 print("Cargando embeddings")
-wordvectors_file_vec = os.getcwd() + '/embeddings/fasttext-sbwc.3.6.e20.vec'
-cantidad = 500000
-model = KeyedVectors.load_word2vec_format(wordvectors_file_vec, limit=cantidad)
+#wordvectors_file_vec = os.getcwd() + '/embeddings/fasttext-sbwc.3.6.e20.vec'
+#cantidad = 500000
+#model = KeyedVectors.load_word2vec_format(wordvectors_file_vec, limit=cantidad)
+model = KeyedVectors.load(os.getcwd() + '/embeddings/embeddings_pre_load', mmap='r')
 print("Embeddings cargadas")
-
 class CvParser:
     def __init__(self, cv):
-        self.parsed = {"Contacto": {'Nombre': None, 'Correo': None, "Celular" : None, "Linkedin": None},
-                        "Nombre archivo" : None,
-                       "Licencias-Certificaciones": None,
-                       "Palabras Claves": None,
-                       "Educacion":{'Universidades:': None, 'Grado_mas_alto': None},
-                       "Lenguajes": None,
-                       "Experiencia": None,
-                       "Resumen": None,
-                       "Skills": None,
-                       "Referencias": None}
+        self.parsed = {"CONTACTO": {'NOMBRE': None, 'CORREO': None, "CELULAR" : None, "LINKEDIN": None},
+                        "NOMBRE_ARCHIVO" : None,
+                       "LICENCIA_CERTIFICACION": None,
+                       "PALABRAS_CLAVES": None,
+                       "EDUCACION":{'UNIVERSIDADES:': None, 'GRADO_MAS_ALTO': None},
+                       "IDIOMAS": None,
+                       "EXPERIENCIA": None,
+                       "RESUMEN": None,
+                       "SKILLS": None,
+                       "REFERENCIAS": None}
 
         self.cv = cv
         self.raw_text = utils.extraer_texto(self.cv)
@@ -58,16 +59,16 @@ class CvParser:
         resumen = utils.extraer_perfil(self.raw_text)
         referencias = utils.extraer_referencias(self.raw_text)
 
-        self.parsed["Contacto"] = {'Nombre': nombre, 'Correo': correo, 'Celular': celular, "Linkedin": Linkedin}
-        self.parsed["Nombre archivo"] = nombre_archivo
-        self.parsed["Skills"] = skills
-        self.parsed["Educacion"] = {'Universidades:': educacion, 'Grado_mas_alto': grado}
-        self.parsed['Lenguajes'] = Lenguajes
-        self.parsed["Palabras Claves"] = palabras_claves
-        self.parsed['Licencias-Certificaciones'] = licencias
-        self.parsed['Experiencia'] = experiencia
-        self.parsed['Resumen'] = resumen
-        self.parsed['Referencias'] = referencias
+        self.parsed["CONTACTO"] = {'NOMBRE': nombre, 'CORREO': correo, 'CELULAR': celular, "LINKEDIN": Linkedin}
+        self.parsed["NOMBRE_ARCHIVO"] = nombre_archivo
+        self.parsed["SKILLS"] = skills
+        self.parsed["EDUCACION"] = {'UNIVERSIDADES:': educacion, 'GRADO_MAS_ALTO': grado}
+        self.parsed['IDIOMAS'] = Lenguajes
+        self.parsed["PALABRAS_CLAVES"] = palabras_claves
+        self.parsed['LICENCIA_CERTIFICACION'] = licencias
+        self.parsed['EXPERIENCIA'] = experiencia
+        self.parsed['RESUMEN'] = resumen
+        self.parsed['REFERENCIAS'] = referencias
 
     def get_parsed_resume(self):
         return self.parsed
@@ -81,11 +82,15 @@ def resume_result_wrapper(resume):
     return result
 
 def resume_result_wrapper_local(resume):
+    
+    start_time = time.time()
     parser = CvParser(resume)
     result = parser.get_parsed_resume()
-    name = result["Nombre archivo"]
+    name = result["NOMBRE_ARCHIVO"]
     with open(direc + dir_output + name +'.json', 'w',encoding='utf-8') as json_file:
         json.dump(result, json_file,ensure_ascii=False,indent=4)
+    print(name, end=',')
+    print(": %s seconds" % (time.time() - start_time))
 
         
    
@@ -93,7 +98,6 @@ def resume_result_wrapper_local(resume):
 
 
 if __name__ == '__main__':
-    
     pool = mp.Pool(mp.cpu_count())
     resumes = []
     direc = os.getcwd()
@@ -109,7 +113,7 @@ if __name__ == '__main__':
                 resumes.append(file)
 
     print('Procesando '+str(len(resumes)) + ' CVs')
-    
+    #print(resumes)
     #Crear un objeto para cada CV y rellenar sus atributos.
     results= [pool.apply_async(resume_result_wrapper_local(cv), args=(cv,)) for cv in resumes]
 

@@ -1,31 +1,33 @@
 {
-    "Contacto": {
-        "Nombre": "Marthadaniela Fernandez Padilla ",
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": "Marthadaniela Fernandez Padilla ",
+        "CORREO": [
             "madafep@gmail.com"
         ],
-        "Celular": "+56958735509",
-        "Linkedin": null
+        "CELULAR": "+56958735509",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1568652273641-CURRICULUM_MODIFICADO_MARTHADANIELA_FERNANDEZ_PADILLA.docx",
-    "Licencias-Certificaciones": [],
-    "Palabras Claves": [
-        "Liderazgo",
-        "Proactividad"
+    "NOMBRE_ARCHIVO": "1568652273641-CURRICULUM_MODIFICADO_MARTHADANIELA_FERNANDEZ_PADILLA.docx",
+    "LICENCIA_CERTIFICACION": [],
+    "PALABRAS_CLAVES": [
+        "Proactividad",
+        "Liderazgo"
     ],
-    "Educacion": {
-        "Universidades:": [],
-        "Grado_mas_alto": [
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
+            "Universidad de los Andes"
+        ],
+        "GRADO_MAS_ALTO": [
             "Postgrado"
         ]
     },
-    "Lenguajes": [
+    "IDIOMAS": [
         "Español"
     ],
-    "Experiencia": "experiencia asistente de administración y funciones de empacadora de productos, fábrica de dulces y chicles superboom. año 2013. san cristóbal venezuela. secretaria de colmenares abogados y asociados. año 2013 2014. san cristóbal venezuela secretaria en serviconductores. año 2014. san josé de cúcuta colombia abogado en autoridad única de protección animal de la gobernación del estado táchira. año 2016 abogado asociado en materia administrativo, civil e internacional, en bufete oscar useche, desde mayo del 2015 hasta la junio del 2018. san cristóbal venezuela asistente personal y virtual, working 4u agencia inmobiliaria, desenvolviendo laborales con el ceo y coo, valencia españa, desde enero hasta abril 2019. diplomados y/0 cursos curso de iniciación en derechos humanos. universidad de los andes. mérida venezuela. año 2010 curso de derecho procesal civil venezolano. san cristóbal venezuela. año 2013. diplomado en técnicas de litigio penal y procesal civil. san cristóbal venezuela. año 2015. curso de derecho administrativo internacional mención derecho al agua. banco interamericano de desarrollo. año 2016. curso en derecho internacional humanitario derecho de guerra. cruz roja internacional colombiana. bogotá - colombia año 2017. cursando cambio climatico master en estudio ecológico y medio ambiente . onu. habilidades y/o actividades dominio de idiomas español nativo, ingles nivel intermedio alumni international de aiesec venezuela desde el año 2013 al 2016 procesamiento de datos contables manejo de microsoft office manejo de masas organización y trabajo en equipo como individual liderazgo atención al cliente proactiva. ",
-    "Resumen": "marthadaniela fernandez padilla avenida koke, parque koke 255, e 22, rancagua, region ohiggins nacionalidad venezolana numero de pasaporte 122342466 en tramite visa temporaria profesional con permiso de trabajo teléfono de contacto 56 9 58735509 correo electrónico madafep@gmail.com ",
-    "Skills": [
+    "EXPERIENCIA": "experiencia asistente de administración y funciones de empacadora de productos, fábrica de dulces y chicles superboom. año 2013. san cristóbal venezuela. secretaria de colmenares abogados y asociados. año 2013 2014. san cristóbal venezuela secretaria en serviconductores. año 2014. san josé de cúcuta colombia abogado en autoridad única de protección animal de la gobernación del estado táchira. año 2016 abogado asociado en materia administrativo, civil e internacional, en bufete oscar useche, desde mayo del 2015 hasta la junio del 2018. san cristóbal venezuela asistente personal y virtual, working 4u agencia inmobiliaria, desenvolviendo laborales con el ceo y coo, valencia españa, desde enero hasta abril 2019. diplomados y/0 cursos curso de iniciación en derechos humanos. universidad de los andes. mérida venezuela. año 2010 curso de derecho procesal civil venezolano. san cristóbal venezuela. año 2013. diplomado en técnicas de litigio penal y procesal civil. san cristóbal venezuela. año 2015. curso de derecho administrativo internacional mención derecho al agua. banco interamericano de desarrollo. año 2016. curso en derecho internacional humanitario derecho de guerra. cruz roja internacional colombiana. bogotá - colombia año 2017. cursando cambio climatico master en estudio ecológico y medio ambiente . onu. habilidades y/o actividades dominio de idiomas español nativo, ingles nivel intermedio alumni international de aiesec venezuela desde el año 2013 al 2016 procesamiento de datos contables manejo de microsoft office manejo de masas organización y trabajo en equipo como individual liderazgo atención al cliente proactiva. ",
+    "RESUMEN": "marthadaniela fernandez padilla avenida koke, parque koke 255, e 22, rancagua, region ohiggins nacionalidad venezolana numero de pasaporte 122342466 en tramite visa temporaria profesional con permiso de trabajo teléfono de contacto 56 9 58735509 correo electrónico madafep@gmail.com ",
+    "SKILLS": [
         "Office"
     ],
-    "Referencias": ""
+    "REFERENCIAS": ""
 }

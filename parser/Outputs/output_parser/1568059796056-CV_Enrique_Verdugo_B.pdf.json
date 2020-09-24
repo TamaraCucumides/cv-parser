@@ -1,37 +1,36 @@
 {
-    "Contacto": {
-        "Nombre": "Enrique Verdugo Buzeta ",
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": "Enrique Verdugo Buzeta ",
+        "CORREO": [
             "enrique.verdugo.buzeta@gmail.com"
         ],
-        "Celular": "+56992389197",
-        "Linkedin": null
+        "CELULAR": "+56992389197",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1568059796056-CV_Enrique_Verdugo_B.pdf",
-    "Licencias-Certificaciones": [],
-    "Palabras Claves": [
-        "Gestión",
+    "NOMBRE_ARCHIVO": "1568059796056-CV_Enrique_Verdugo_B.pdf",
+    "LICENCIA_CERTIFICACION": [],
+    "PALABRAS_CLAVES": [
         "Proactividad",
-        "Responsabilidad"
+        "Responsabilidad",
+        "Gestión"
     ],
-    "Educacion": {
-        "Universidades:": [
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
             "Universidad Técnica Federico Santa María"
         ],
-        "Grado_mas_alto": [
+        "GRADO_MAS_ALTO": [
             "Pregrado"
         ]
     },
-    "Lenguajes": [
+    "IDIOMAS": [
         "Inglés"
     ],
-    "Experiencia": "experiencia laboral octubre 2017 marzo 2019 eaglecopters cma encargado de logística y bodegaje. recepción y entrega de repuestos y consumibles. inspección visual de importaciones de eaglecopters south america e eaglecopters cma. canalización de solicitudes de compra del cma. creación de informes de incoming inspection y arribo de repuestos. gestión de inventario con apoyo de sistema corridor. gestión de compras nacionales. atención a clientes, tanto externos como internos. santiago, chile septiembre 2017 eaglecopters south america valorización de inventario creación de base de datos para la valorización del inventario de repuestos. revisión de datos contables para los años 2011 a 2017. santiago, chile febrero 2016 a mayo 2016 latam airlines práctica profesional como analista otp seguimiento a la base de datos de denied boardings originados en vuelos desde y hacia santiago. creación de informes de seguimiento diario. apoyo al hcc a través del desarrollo y soporte de herramientas computacionales, tales como ms excel y la aplicación de visual basic for applications. santiago, chile ",
-    "Resumen": "perfil profesional interés en las industrias de transportes, electrónica de consumo y tecnología, con especial énfasis en las áreas comerciales, operacionales y logísticos. aportar a los procesos comerciales, logísticos, operacionales y de atención a clientes, tanto internos como externos, a fin de apoyar a la empresa. integrar un equipo de trabajo que cumpla con las necesidades de la organización de manera responsable y proactiva, utilizando herramientas de gestión y mejora continua. ",
-    "Skills": [
-        "Base de datos",
-        "Visual basic",
+    "EXPERIENCIA": "experiencia laboral octubre 2017 marzo 2019 eaglecopters cma encargado de logística y bodegaje. recepción y entrega de repuestos y consumibles. inspección visual de importaciones de eaglecopters south america e eaglecopters cma. canalización de solicitudes de compra del cma. creación de informes de incoming inspection y arribo de repuestos. gestión de inventario con apoyo de sistema corridor. gestión de compras nacionales. atención a clientes, tanto externos como internos. santiago, chile septiembre 2017 eaglecopters south america valorización de inventario creación de base de datos para la valorización del inventario de repuestos. revisión de datos contables para los años 2011 a 2017. santiago, chile febrero 2016 a mayo 2016 latam airlines práctica profesional como analista otp seguimiento a la base de datos de denied boardings originados en vuelos desde y hacia santiago. creación de informes de seguimiento diario. apoyo al hcc a través del desarrollo y soporte de herramientas computacionales, tales como ms excel y la aplicación de visual basic for applications. santiago, chile ",
+    "RESUMEN": "perfil profesional interés en las industrias de transportes, electrónica de consumo y tecnología, con especial énfasis en las áreas comerciales, operacionales y logísticos. aportar a los procesos comerciales, logísticos, operacionales y de atención a clientes, tanto internos como externos, a fin de apoyar a la empresa. integrar un equipo de trabajo que cumpla con las necesidades de la organización de manera responsable y proactiva, utilizando herramientas de gestión y mejora continua. ",
+    "SKILLS": [
         "Excel",
-        "Office"
+        "Office",
+        "Visual basic"
     ],
-    "Referencias": ""
+    "REFERENCIAS": ""
 }

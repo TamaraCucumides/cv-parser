@@ -1,30 +1,30 @@
 {
-    "Contacto": {
-        "Nombre": "Isabel Araneda ",
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": "Isabel Araneda ",
+        "CORREO": [
             "i.araneda.marin@gmail.com"
         ],
-        "Celular": "949313163",
-        "Linkedin": null
+        "CELULAR": "949313163",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1571174765761-cv_isabel_2019.doc",
-    "Licencias-Certificaciones": [
+    "NOMBRE_ARCHIVO": "1571174765761-cv_isabel_2019.doc",
+    "LICENCIA_CERTIFICACION": [
         "TOEIC"
     ],
-    "Palabras Claves": null,
-    "Educacion": {
-        "Universidades:": [],
-        "Grado_mas_alto": [
+    "PALABRAS_CLAVES": null,
+    "EDUCACION": {
+        "UNIVERSIDADES:": [],
+        "GRADO_MAS_ALTO": [
             "Enseñanza media"
         ]
     },
-    "Lenguajes": [
+    "IDIOMAS": [
         "Inglés"
     ],
-    "Experiencia": "experiencia laboral 2015 atención estudiantil - u. tec. inacap 2016 cajera - supermercado unimarc 2017 recepcionista- residencia nuestra sra. de los dolores 2017 ejecutiva de agendamiento- clínica santa maría 2018 - actual vendedora integral- brittshop chile aeropuerto scl complementos 2013 prevención de riesgo achs 2014 certificación inglés toeic bridge 2015 sistemas informáticos ipchile 2016 primeros auxilios ucsh pic ",
-    "Resumen": "perfil profesional competencias me caracterizo por ser una persona amable, que busca siempre dar lo mejor de sí para ayudar a los demás, de espíritu soñador, emprendedor y perseverante. ",
-    "Skills": [
+    "EXPERIENCIA": "experiencia laboral 2015 atención estudiantil - u. tec. inacap 2016 cajera - supermercado unimarc 2017 recepcionista- residencia nuestra sra. de los dolores 2017 ejecutiva de agendamiento- clínica santa maría 2018 - actual vendedora integral- brittshop chile aeropuerto scl complementos 2013 prevención de riesgo achs 2014 certificación inglés toeic bridge 2015 sistemas informáticos ipchile 2016 primeros auxilios ucsh pic ",
+    "RESUMEN": "perfil profesional competencias me caracterizo por ser una persona amable, que busca siempre dar lo mejor de sí para ayudar a los demás, de espíritu soñador, emprendedor y perseverante. ",
+    "SKILLS": [
         "Toeic"
     ],
-    "Referencias": ""
+    "REFERENCIAS": ""
 }

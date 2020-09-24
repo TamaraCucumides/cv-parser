@@ -1,38 +1,37 @@
 {
-    "Contacto": {
-        "Nombre": "Fernando Vallejos Caamaño ",
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": "Fernando Vallejos Caamaño ",
+        "CORREO": [
             "fernandovallejos1968@gmail.com"
         ],
-        "Celular": "+56998289797",
-        "Linkedin": null
+        "CELULAR": "+56998289797",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1571012165057-Curriculum_Fernando_Vallejos_V5.docx",
-    "Licencias-Certificaciones": [],
-    "Palabras Claves": [
+    "NOMBRE_ARCHIVO": "1571012165057-Curriculum_Fernando_Vallejos_V5.docx",
+    "LICENCIA_CERTIFICACION": [],
+    "PALABRAS_CLAVES": [
+        "Perfeccionista",
         "Gestión",
         "Análisis",
-        "Perfeccionista",
         "Estrategia"
     ],
-    "Educacion": {
-        "Universidades:": [
-            "Universidad de Chile",
-            "Universidad Técnica Federico Santa María"
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
+            "Universidad Técnica Federico Santa María",
+            "Universidad de Chile"
         ],
-        "Grado_mas_alto": [
+        "GRADO_MAS_ALTO": [
             "Pregrado"
         ]
     },
-    "Lenguajes": [
+    "IDIOMAS": [
         "Inglés"
     ],
-    "Experiencia": "experiencia entel s.a. agosto 2000 octubre 2018 ingeniero especialista calidad ran área operación y mantenimiento, 7 años realiza optimización a nivel de parametrización de celdas y de diseño de radio frecuencia en las redes 2g, 3g y lte, con el fin de cumplir con los estándares de calidad de la compañía en términos de mantención de kpis de red dentro de los rangos permisibles en grupos de clusters asignados santiago y regiones. de igual manera, y con el mismo objetivo descrito, utiliza herramientas de cell planing predictivas planet y de procesamiento de datos de la red móvil actix one. trabajo y coordinación con equipos de empresas contratistas, con el fin de abordar estrategias para la mejora de los principales indicadores de calidad de la red móvil kpis en grupo de clusters asignados santiago y regiones efectúa turnos de alistamiento 24/7 con el fin de abordar y gestionar solución a contingencias de degradaciones de servicio kpis en la red móvil. realiza optimización on line a nivel de parametrización para sitios de apoyo en eventos masivos con el fin de reducir el impacto en degradación del servicio móvil. este trabajo se realiza en coordinación con las áreas de ingeniería respectivas optimización e indoor. en los últimos 2 años efectúa estudio de la red gsm debido a la mayor explotación de las tecnologías 3g y lte con el objetivo de disminuir capacidad de tráfico, adecuando y optimizando el espectro asignado a ésta. se logra disminuir a menos de la mitad la capacidad de tráfico apagado de radios. ingeniero de diseño de red de radio 11 años realiza estudios de cobertura y diseño de radio de sitios celulares para diferentes proyectos de expansión de la red de radio gsm y 3g de entel pcs. efectúa visitas a terreno, realizando análisis de informes tss y posterior puesta en marcha de los sitios configuración de parámetros de celda logrando con esto desarrollar la red móvil con una importante cantidad de puntos de presencia geográfica y con esto mejorar la cobertura y calidad de servicio. trabajo y coordinación con equipos de empresas contratistas, con el fin de evaluar y aprobar ampliaciones de la red de radiofrecuencia ubicación de sitios nuevos, análisis de informes tss y diseño rf respectivo. dominio de herramienta de cell planing planet efectúa diseño de planes de frecuencia gsm y psc 3g, estudios de cobertura y calidad utilizando simulaciones reduciendo con esto los niveles de interferencia presentes en la red. efectúa optimización de sitios en operación de la red de entel pcs, logrando con esto niveles de accesibilidad mayores al 98 y drop call menores al 1, tanto a nivel de parám etros como a nivel de hardware de radiofrecuencia. efectúa diseño de radio de soluciones de cobertura indoor para diferentes empresas, entre los más importantes metro de santiago, distintos malls y empresas mineras, entre otras. participa en la puesta en marcha de la red móvil gsm con tecnología siemens en la zona norte y 5ta. región, realizando pruebas de aceptación de bscs. sigma servicios informáticos s.a. agosto 1995 a mayo 2000 ingeniero de comunicaciones 5 años efectúa evaluaciones técnico/económica y puesta en marcha de diferentes proyectos de comunicaciones plataformas frame relay, enlaces de datos/voz punto a punto y multiplexación de servicios de datos y telefonía para empresas de seguros, pesqueras y madereras. soporte de segundo nivel de plataforma de comunicaciones, gestionando con el proveedor de telecomunicaciones resolución de fallas. ",
-    "Resumen": "resumen profesional ingeniero civil electrónico con más de 20 años de experiencia en proyectos de telecomunicaciones desarrollando cargos de especialista en calidad y diseño de redes para telefonía móvil. además con conocimientos de evaluaciones técnico-económicas, implementación y puesta en marcha de plataformas de comunicaciones. profesional con amplio manejo técnico, destacada rigurosidad en la ejecución de las tareas, orientación a resultados en el trabajo en equipo y muy buenas relaciones interpersonales. ",
-    "Skills": [
-        "Base de datos",
-        "Windows",
-        "Access"
+    "EXPERIENCIA": "experiencia entel s.a. agosto 2000 octubre 2018 ingeniero especialista calidad ran área operación y mantenimiento, 7 años realiza optimización a nivel de parametrización de celdas y de diseño de radio frecuencia en las redes 2g, 3g y lte, con el fin de cumplir con los estándares de calidad de la compañía en términos de mantención de kpis de red dentro de los rangos permisibles en grupos de clusters asignados santiago y regiones. de igual manera, y con el mismo objetivo descrito, utiliza herramientas de cell planing predictivas planet y de procesamiento de datos de la red móvil actix one. trabajo y coordinación con equipos de empresas contratistas, con el fin de abordar estrategias para la mejora de los principales indicadores de calidad de la red móvil kpis en grupo de clusters asignados santiago y regiones efectúa turnos de alistamiento 24/7 con el fin de abordar y gestionar solución a contingencias de degradaciones de servicio kpis en la red móvil. realiza optimización on line a nivel de parametrización para sitios de apoyo en eventos masivos con el fin de reducir el impacto en degradación del servicio móvil. este trabajo se realiza en coordinación con las áreas de ingeniería respectivas optimización e indoor. en los últimos 2 años efectúa estudio de la red gsm debido a la mayor explotación de las tecnologías 3g y lte con el objetivo de disminuir capacidad de tráfico, adecuando y optimizando el espectro asignado a ésta. se logra disminuir a menos de la mitad la capacidad de tráfico apagado de radios. ingeniero de diseño de red de radio 11 años realiza estudios de cobertura y diseño de radio de sitios celulares para diferentes proyectos de expansión de la red de radio gsm y 3g de entel pcs. efectúa visitas a terreno, realizando análisis de informes tss y posterior puesta en marcha de los sitios configuración de parámetros de celda logrando con esto desarrollar la red móvil con una importante cantidad de puntos de presencia geográfica y con esto mejorar la cobertura y calidad de servicio. trabajo y coordinación con equipos de empresas contratistas, con el fin de evaluar y aprobar ampliaciones de la red de radiofrecuencia ubicación de sitios nuevos, análisis de informes tss y diseño rf respectivo. dominio de herramienta de cell planing planet efectúa diseño de planes de frecuencia gsm y psc 3g, estudios de cobertura y calidad utilizando simulaciones reduciendo con esto los niveles de interferencia presentes en la red. efectúa optimización de sitios en operación de la red de entel pcs, logrando con esto niveles de accesibilidad mayores al 98 y drop call menores al 1, tanto a nivel de parám etros como a nivel de hardware de radiofrecuencia. efectúa diseño de radio de soluciones de cobertura indoor para diferentes empresas, entre los más importantes metro de santiago, distintos malls y empresas mineras, entre otras. participa en la puesta en marcha de la red móvil gsm con tecnología siemens en la zona norte y 5ta. región, realizando pruebas de aceptación de bscs. sigma servicios informáticos s.a. agosto 1995 a mayo 2000 ingeniero de comunicaciones 5 años efectúa evaluaciones técnico/económica y puesta en marcha de diferentes proyectos de comunicaciones plataformas frame relay, enlaces de datos/voz punto a punto y multiplexación de servicios de datos y telefonía para empresas de seguros, pesqueras y madereras. soporte de segundo nivel de plataforma de comunicaciones, gestionando con el proveedor de telecomunicaciones resolución de fallas. ",
+    "RESUMEN": "resumen profesional ingeniero civil electrónico con más de 20 años de experiencia en proyectos de telecomunicaciones desarrollando cargos de especialista en calidad y diseño de redes para telefonía móvil. además con conocimientos de evaluaciones técnico-económicas, implementación y puesta en marcha de plataformas de comunicaciones. profesional con amplio manejo técnico, destacada rigurosidad en la ejecución de las tareas, orientación a resultados en el trabajo en equipo y muy buenas relaciones interpersonales. ",
+    "SKILLS": [
+        "Access",
+        "Windows"
     ],
-    "Referencias": ""
+    "REFERENCIAS": ""
 }

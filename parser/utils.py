@@ -28,7 +28,9 @@ import os
 import json
 import textract
 import nltk
+import re
 from nltk.stem import WordNetLemmatizer
+from seccionar import load_secciones
 stemmer = SnowballStemmer('spanish')
 
 #####################################################
@@ -157,9 +159,10 @@ def extraer_fono(text):
     EL texto en que se busca no contiene espacios ni guiones
     En el caso de detectar más de uno, se retorna el primero encontrado
     '''
-    text = text.replace('-','')
+    #text = text.replace('-','')
     regex = re.compile(r"\d{9,11}")
-    text = text.replace('-','') # eliminar guiones, que son necesarios para extraer links pero no aquí
+    #text = text.replace('-','') # eliminar guiones, que son necesarios para extraer links pero no aquí
+    text = preprocesar_texto(text, keepSimbolos = False)
     numbers_list=[]
     number = ''
     text_lines= text.splitlines()
@@ -193,16 +196,17 @@ def extraer_skills(text, nlp_text):
 
     # revisar para palabras
     for token in tokens:
-        token_un = unidecode.unidecode(token) # eliminar tildes
+        token_un = preprocesar_texto(token, keepTildes= False)
         if token_un.lower() in skills:
             skillset.append(token)
     
     # Revisar skills de más de una palabra.
     skills = [skill for skill in skills if len(skill.split())> 1]
     for item in skills:
-        item_un = unidecode.unidecode(item)
-        text_un = unidecode.unidecode(text.lower().replace('\n', ' '))
-        if item_un.lower() in text_un:
+        #item_un = unidecode.unidecode(item)
+        item_un = preprocesar_texto(item, keepTildes= False)
+        text_un = preprocesar_texto(text, keepTildes= False).replace('\n', ' ')
+        if item_un in text_un:
                 skillset.append(item)
     return [i.capitalize() for i in set([i.lower() for i in skillset])]
 
@@ -218,17 +222,17 @@ def extraer_licencias(text, nlp_text):
     licencias_set = []
     # revisar para palabras
     for token in tokens:
-        token_un = unidecode.unidecode(token) # eliminar tildes
-        if token_un.lower() in licencias_list:
+        token_un = preprocesar_texto(token, keepTildes= False) # eliminar tildes
+        if token_un in licencias_list:
             licencias_set.append(token)
     
     # revisar frases
     licencias_list = [licencia for licencia in licencias_list if len(licencia.split())> 1]
     for item in licencias_list:
-        item_un = unidecode.unidecode(item)
-        text_un = unidecode.unidecode(text.lower().replace('\n', ' '))
+        item_un = preprocesar_texto(item, keepTildes= False)
+        text_un = preprocesar_texto(text, keepTildes= False).replace('\n', ' ')
         #este if es mas costoso pero más efectivo, a veces el nltk se come los 'de'
-        if item_un.lower() in text_un:
+        if item_un in text_un:
                 licencias_set.append(item)
         
     return [i.upper() for i in set([i.lower() for i in licencias_set])]
@@ -246,10 +250,10 @@ def extraer_educacion(text, nlp_text):
    
     for item in educacion:
         #for noun in noun_chunks:
-        item_un = unidecode.unidecode(item)
-        text_un = unidecode.unidecode(text.lower().replace('\n', ' '))
+        item_un = preprocesar_texto(item, keepTildes= False)
+        text_un = preprocesar_texto(text, keepTildes= False).replace('\n', ' ')
         #este if es mas costoso pero más efectivo, a veces el nltk se come los 'de'
-        if item_un.lower() in text_un:
+        if item_un in text_un:
             educacion_list.append(item)
                    
     for item in educacionSiglas:
@@ -291,13 +295,13 @@ def extraer_idiomas(text, nlp_text):
     idiomas_cv = []
     for item in combinaciones_strings:
         for noun in noun_chunks:
-            item_un = unidecode.unidecode(item)
-            noun_un = unidecode.unidecode(noun.text)
+            item_un = preprocesar_texto(item, keepTildes= False)
+            noun_un = preprocesar_texto(noun.text, keepTildes= False)
             if len(item_un.split())>1:
-                if item_un.lower() in noun_un.lower() :
+                if item_un in noun_un :
                     idiomas_cv.append(item.capitalize())
             else: 
-                if item_un.lower() in  noun_un.lower().split() :
+                if item_un in  noun_un.split() :
                     idiomas_cv.append(item.capitalize())
     return list(set(idiomas_cv))
  
@@ -315,13 +319,13 @@ def extraer_grado(text):
         for grado in grados_educativos_orden[grado_name]:
             for frase in frases:
                 # Eliminacion de tildes
-                grado_un = unidecode.unidecode(grado)
-                frase_un = unidecode.unidecode(frase)
-                if (len(grado_un.lower().split()) == 1): # Si tenemos grados de 1 palabra
-                    if grado_un.lower() in frase_un.lower().split(): # para que no considere webmaster como un master xd
+                grado_un = preprocesar_texto(grado, keepTildes= False)
+                frase_un = preprocesar_texto(frase, keepTildes= False)
+                if (len(grado_un.split()) == 1): # Si tenemos grados de 1 palabra
+                    if grado_un in frase_un.split(): # para que no considere webmaster como un master xd
                         education.append(grado_name.capitalize())
 
-                elif grado_un.lower() in frase_un.lower(): # grados de varias palabras: administracion de empresas
+                elif grado_un in frase_un: # grados de varias palabras: administracion de empresas
                     education.append(grado_name.capitalize())
  
     # Como se buscaron en orden, si se detecta más de uno
@@ -355,20 +359,20 @@ def extraer_referencias(cv_txt):
         linea = " ".join(linea.split())
 
         for referencia in referencias:
-            linea_np = re.sub(r'[^\w\s]','', linea)
-            referencia_np = re.sub(r'[^\w\s]','', referencia)
-            linea_un = "".join(unidecode.unidecode(linea_np).split())
-            referencia_un = "".join(unidecode.unidecode(referencia_np).split())
-            if referencia_un.lower() == linea_un.lower():
+            linea_np = preprocesar_texto(linea, keepTildes= False, keepSimbolos= False)
+            referencia_np = preprocesar_texto(referencia, keepTildes= False, keepSimbolos= False)
+            linea_un = "".join(linea_np.split())
+            referencia_un = "".join(referencia_np.split())
+            if referencia_un == linea_un:
                 linea_referencia = True
 
         for otro in otros:
-            otro_np = re.sub(r'[^\w\s]','', otro)
-            linea_np = re.sub(r'[^\w\s]','', linea)
-            otro_un = unidecode.unidecode(otro_np)
-            linea_un = unidecode.unidecode(linea_np)
+            #otro_np = re.sub(r'[^\w\s]','', otro)
+            #linea_np = re.sub(r'[^\w\s]','', linea)
+            otro_un = preprocesar_texto(otro, keepTildes= False, keepSimbolos= False)
+            linea_un = preprocesar_texto(linea, keepTildes= False, keepSimbolos= False)
 
-            if linea_un.lower() == otro_un.lower() and linea_referencia:
+            if linea_un == otro_un and linea_referencia:
                 siguiente_seccion = True
                 break
 
@@ -395,11 +399,11 @@ def extraer_perfil(cv_text):
     for line in cv_text.splitlines():
         n += 1
         for resumen in perfil:
-            linea_np = re.sub(r'[^\w\s]','', line)
-            resumen_np = re.sub(r'[^\w\s]','', resumen)
-            linea_un = "".join(unidecode.unidecode(linea_np).split())
-            resumen_un = "".join(unidecode.unidecode(resumen_np).split())
-            if resumen_un.lower() == linea_un.lower():
+            linea_np = preprocesar_texto(line, keepTildes= False, keepSimbolos= False)
+            resumen_np = preprocesar_texto(resumen, keepTildes= False, keepSimbolos= False)
+            linea_un = "".join(linea_np.split())
+            resumen_un = "".join(resumen_np.split())
+            if resumen_un == linea_un:
                 n_linea = n
                 break
  
@@ -411,12 +415,12 @@ def extraer_perfil(cv_text):
 
         linea = " ".join(linea.split())
         for otro in otros:
-            otro_np = re.sub(r'[^\w\s]','', otro)
-            linea_np = re.sub(r'[^\w\s]','', linea)
-            otro_un = "".join(unidecode.unidecode(otro_np).split())
-            linea_un = "".join(unidecode.unidecode(linea_np).split())
+            otro_np = preprocesar_texto(otro, keepTildes= False, keepSimbolos= False)
+            linea_np = preprocesar_texto(linea, keepTildes= False, keepSimbolos= False)
+            otro_un = "".join(otro_np.split())
+            linea_un = "".join(linea_np.split())
 
-            if linea_un.lower() == otro_un.lower() :
+            if linea_un == otro_un :
                 siguiente_seccion = True
                 break
 
@@ -452,20 +456,20 @@ def extraer_experiencia(cv_text, model):
 
         linea = " ".join(linea.split())
         for experiencia in experiencias:
-            linea_np = re.sub(r'[^\w\s]','', linea)
-            experiencia_np = re.sub(r'[^\w\s]','', experiencia)
-            linea_un = "".join(unidecode.unidecode(linea_np).split())
-            experiencia_un = "".join(unidecode.unidecode(experiencia_np).split())
-            if experiencia_un.lower() == linea_un.lower():
+            linea_np = preprocesar_texto(linea, keepTildes= False, keepSimbolos= False)
+            experiencia_np = preprocesar_texto(experiencia, keepTildes= False, keepSimbolos= False)
+            linea_un = "".join(linea_np.split())
+            experiencia_un = "".join(experiencia_np.split())
+            if experiencia_un == linea_un:
                 linea_experiencia = True
 
         for otro in otros:
-            otro_np = re.sub(r'[^\w\s]','', otro)
-            linea_np = re.sub(r'[^\w\s]','', linea)
-            otro_un = "".join(unidecode.unidecode(otro_np).split())
-            linea_un = "".join(unidecode.unidecode(linea_np).split())
+            otro_np = preprocesar_texto(otro, keepTildes= False, keepSimbolos= False)
+            linea_np = preprocesar_texto(linea, keepTildes= False, keepSimbolos= False)
+            otro_un = "".join(otro_np.split())
+            linea_un = "".join(linea_np.split())
 
-            if linea_un.lower() == otro_un.lower() and linea_experiencia:
+            if linea_un== otro_un and linea_experiencia:
                 siguiente_seccion = True
                 break
 
@@ -475,8 +479,9 @@ def extraer_experiencia(cv_text, model):
         if linea_experiencia == True and siguiente_seccion == False:
             parrafo += linea + ' \n'
     if len(parrafo.splitlines())<3:
-        parrafo = seccionar_cv(cv_text, model)['Experiencia']
-        #print(parrafo)
+        lista_secciones, similar_to = load_secciones('/diccionarios/seccionesCV_similitud.csv')
+        parrafo = seccionar_cv(cv_text, model,lista_secciones, similar_to, threshold = 0.5)['EXPERIENCIA']
+
 
     parrafo = re.sub(r'\s+',' ', parrafo)
     return parrafo.replace('\n', ' ')
@@ -495,7 +500,7 @@ def extraer_nombre(text, nlp_text):
     stopwords.extend(newStopWords)
     # Se procesa el 25% superior del texto. Se asume que el nombre deberia estar arriba
     # De forma empirirca, con mayusculas y con puntuación funciona mejor
-    nlp_text = nlp(preprocesar_texto(text[0:math.floor(len(text)/4)],stopwords ,enminiscula= False,  puntuacion= True))
+    nlp_text = nlp(preprocesar_texto(text[0:math.floor(len(text)/4)],stopwords ,enminiscula= False,  keepPuntuacion= True))
     NAME_PATTERN      = [{'POS': 'PROPN'}, {'POS': 'PROPN'},{'POS': 'PROPN'}]
     
     matcher = Matcher(nlp.vocab)
@@ -571,8 +576,8 @@ def busqueda_palabras_claves(text):
 #####################################################
 ######  UTILIDADES ranking.py  ######################
 #####################################################
-
-def preprocesar_texto(corpus,stopwords , enminiscula= True, puntuacion = False, numeros = True):
+#stopwords_def = nltk.corpus.stopwords.words('spanish') # stopwords_defecto
+def preprocesar_texto(corpus,stopwords = None , enminiscula= True, keepPuntuacion = False, keepNumeros = True, keepTildes= True, keepSimbolos = True):
     '''
     Entrada: texto, stopwords, enminiscula (opcional), puntuacion
     Salida:  texto
@@ -587,18 +592,28 @@ def preprocesar_texto(corpus,stopwords , enminiscula= True, puntuacion = False, 
 
     if enminiscula: # si se quiere normalizar a minuscula
         corpus = corpus.lower()
-    if not puntuacion: # Si no se quiere conservar la puntuación
+
+    if not keepPuntuacion and stopwords is not None: # Si no se quiere conservar la puntuación
         stopset = stopwords+ list(string.punctuation)
-    else:
+    elif not keepPuntuacion and stopwords is None:
+        stopset = list(string.punctuation)
+    elif keepPuntuacion and stopwords is not None:
         stopset = stopwords
+    else:
+        stopset = None
 
-    corpus = " ".join([i for i in word_tokenize(corpus) if i not in stopset])
-    # remove non-ascii characters
-    #corpus = unidecode.unidecode(corpus)
+    
+    if stopset is not None:
+        corpus = " ".join([i for i in word_tokenize(corpus) if i not in stopset])
+    
+    if not keepTildes:
+        corpus = unidecode.unidecode(corpus)
 
-    if not numeros:
+    if not keepNumeros:
         corpus = ''.join([i for i in corpus if not i.isdigit()])
         corpus = " ".join(corpus.split())
+    if not keepSimbolos:
+        corpus = re.sub(r'[^\w\s]',' ',corpus)
 
     return corpus
 

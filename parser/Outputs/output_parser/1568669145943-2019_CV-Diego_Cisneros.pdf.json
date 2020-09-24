@@ -1,43 +1,43 @@
 {
-    "Contacto": {
-        "Nombre": "Diego Jaime Cisneros ",
-        "Correo": "djcisneros@uc.cl",
-        "Celular": "+56989542441",
-        "Linkedin": null
+    "CONTACTO": {
+        "NOMBRE": "Diego Jaime Cisneros ",
+        "CORREO": "djcisneros@uc.cl",
+        "CELULAR": "+56989542441",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1568669145943-2019_CV-Diego_Cisneros.pdf",
-    "Licencias-Certificaciones": [
+    "NOMBRE_ARCHIVO": "1568669145943-2019_CV-Diego_Cisneros.pdf",
+    "LICENCIA_CERTIFICACION": [
         "TOEIC"
     ],
-    "Palabras Claves": [
-        "Análisis",
-        "Gestión",
+    "PALABRAS_CLAVES": [
         "Modelamiento",
+        "Colaboración",
+        "Gestión",
         "Proactividad",
         "Motivación",
-        "Colaboración"
+        "Análisis"
     ],
-    "Educacion": {
-        "Universidades:": [
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
             "Pontificia Universidad Catolica de Chile"
         ],
-        "Grado_mas_alto": [
+        "GRADO_MAS_ALTO": [
             "Pregrado"
         ]
     },
-    "Lenguajes": [
+    "IDIOMAS": [
         "Inglés"
     ],
-    "Experiencia": "e x p e r i e n c i a l a b o r a l noviembre 2017 actualidad jefe departamento ingeniería, calder solar s.a. gestión y supervisión de desarrollo de ingeniería básica y de detalle de proyectos térmicos calefacción y energía solar, redacción de propuestas técnicas y económicas, gestión de importaciones de equipos y componentes, trabajo en terreno, dentro y fuera de santiago, y apoyo en el desarrollo de nuevas tecnologías prototipos. redacción de informes de estados de avance de proyectos, reportándolos directamente con gerencia, en conjunto con dos ingenieros bajo mi cargo, y generación de alianzas económicas con proveedores extranjeros china, turquía y grecia, y locales. elaboración de más de 40 proyectos de calefacción, 25 proyectos de eficiencia energética sistemas solares térmicos, 60 presupuestos y 20 instalaciones, realizando los cálculos térmicos y cubicaciones pertinentes, y supervisando que las instalaciones sean de acuerdo a los planos realizados. septiembre 2017 octubre 2017 práctica profesional, paresálvarez apoyo en elaboración de estudios de impacto ambiental y declaraciones de impacto ambiental marzo 2017 julio 2017 ayudante curso tratamiento fisicoquímico, escuela de ingeniería pontificia universidad católica de chile. realización de corrección de evaluaciones y cátedras de los contenidos del curso modelos de transporte y reactores, coagulación/floculación, sedimentación, filtración, ablandamiento, remoción fe-mn, adsorción y desinfección, a cargo del profesor rodrigo labatut hernández. el desempeño de las ayudantías se han evaluado con máxima distinción. agosto 2015 2016 ayudante curso contaminación atmosférica, escuela de ingeniería pontificia universidad católica de chile. realización de corrección de evaluaciones y cátedras de los contenidos del curso efectos en la salud pública, material particulado, meteorología, dispersión de contaminantes, control de emisiones de material particulado y control de emisiones de gases, vapores y olores, a cargo de los profesores héctor jorquera gonzález 2015 julio 2016 y maría josé meneses valenzuela agosto 2016 noviembre 2016. el desempeño de las ayudantías se han evaluado con máxima distinción. agosto 2014 julio 2017 ayudante curso ingeniería ambiental, escuela de ingeniería pontificia universidad católica de chile. realización de corrección de evaluaciones y cátedras de los contenidos del curso calidad del agua, aire y suelo, evaluación de impacto ambiental y normativa y legislación ambiental, a cargo de los profesores ignacio vargas cucurella 2014 2015 y claudia valenzuela jara 2016 julio 2017. el desempeño de las ayudantías se han evaluado con máxima distinción. cv julio 2019 2 ",
-    "Resumen": "p e r f i l ingeniero civil industrial, diploma en ingeniería ambiental. capacitado para trabajar solo o en ambientes colaborativos, mediante objetivos, bajo supervisión o a cargo de equipos de trabajo. buen dominio de grupos, proactivo, organizado, diligente y excelentes relaciones interpersonales. alta capacidad y motivación para trabajar bajo presión. áreas de interés análisis y gestión de proyectos, control de proyectos, evaluación de impactos ambientales, tratamiento de aguas servidas, logística de operaciones. ",
-    "Skills": [
-        "Matlab",
+    "EXPERIENCIA": "e x p e r i e n c i a l a b o r a l noviembre 2017 actualidad jefe departamento ingeniería, calder solar s.a. gestión y supervisión de desarrollo de ingeniería básica y de detalle de proyectos térmicos calefacción y energía solar, redacción de propuestas técnicas y económicas, gestión de importaciones de equipos y componentes, trabajo en terreno, dentro y fuera de santiago, y apoyo en el desarrollo de nuevas tecnologías prototipos. redacción de informes de estados de avance de proyectos, reportándolos directamente con gerencia, en conjunto con dos ingenieros bajo mi cargo, y generación de alianzas económicas con proveedores extranjeros china, turquía y grecia, y locales. elaboración de más de 40 proyectos de calefacción, 25 proyectos de eficiencia energética sistemas solares térmicos, 60 presupuestos y 20 instalaciones, realizando los cálculos térmicos y cubicaciones pertinentes, y supervisando que las instalaciones sean de acuerdo a los planos realizados. septiembre 2017 octubre 2017 práctica profesional, paresálvarez apoyo en elaboración de estudios de impacto ambiental y declaraciones de impacto ambiental marzo 2017 julio 2017 ayudante curso tratamiento fisicoquímico, escuela de ingeniería pontificia universidad católica de chile. realización de corrección de evaluaciones y cátedras de los contenidos del curso modelos de transporte y reactores, coagulación/floculación, sedimentación, filtración, ablandamiento, remoción fe-mn, adsorción y desinfección, a cargo del profesor rodrigo labatut hernández. el desempeño de las ayudantías se han evaluado con máxima distinción. agosto 2015 2016 ayudante curso contaminación atmosférica, escuela de ingeniería pontificia universidad católica de chile. realización de corrección de evaluaciones y cátedras de los contenidos del curso efectos en la salud pública, material particulado, meteorología, dispersión de contaminantes, control de emisiones de material particulado y control de emisiones de gases, vapores y olores, a cargo de los profesores héctor jorquera gonzález 2015 julio 2016 y maría josé meneses valenzuela agosto 2016 noviembre 2016. el desempeño de las ayudantías se han evaluado con máxima distinción. agosto 2014 julio 2017 ayudante curso ingeniería ambiental, escuela de ingeniería pontificia universidad católica de chile. realización de corrección de evaluaciones y cátedras de los contenidos del curso calidad del agua, aire y suelo, evaluación de impacto ambiental y normativa y legislación ambiental, a cargo de los profesores ignacio vargas cucurella 2014 2015 y claudia valenzuela jara 2016 julio 2017. el desempeño de las ayudantías se han evaluado con máxima distinción. cv julio 2019 2 ",
+    "RESUMEN": "p e r f i l ingeniero civil industrial, diploma en ingeniería ambiental. capacitado para trabajar solo o en ambientes colaborativos, mediante objetivos, bajo supervisión o a cargo de equipos de trabajo. buen dominio de grupos, proactivo, organizado, diligente y excelentes relaciones interpersonales. alta capacidad y motivación para trabajar bajo presión. áreas de interés análisis y gestión de proyectos, control de proyectos, evaluación de impactos ambientales, tratamiento de aguas servidas, logística de operaciones. ",
+    "SKILLS": [
         "Word",
-        "Toeic",
         "Power point",
-        "Excel",
+        "Autocad",
+        "Matlab",
         "Office",
-        "Autocad"
+        "Toeic",
+        "Excel"
     ],
-    "Referencias": "referencias q claudia valenzuela jara socia directora de proyecta group cvalenzuela@proyectagroup.cl 56 9 8723 3927 q rodrigo labatut hernández docente de la escuela de ingeniería, pontificia universidad católica de chile rolabatut@ing.puc.cl 56 9 7931 2858 "
+    "REFERENCIAS": "referencias q claudia valenzuela jara socia directora de proyecta group cvalenzuela@proyectagroup.cl 56 9 8723 3927 q rodrigo labatut hernández docente de la escuela de ingeniería, pontificia universidad católica de chile rolabatut@ing.puc.cl 56 9 7931 2858 "
 }

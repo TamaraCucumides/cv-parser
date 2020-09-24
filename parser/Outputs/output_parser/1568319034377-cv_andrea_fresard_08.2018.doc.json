@@ -1,34 +1,34 @@
 {
-    "Contacto": {
-        "Nombre": null,
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": null,
+        "CORREO": [
             "afresard@gmail.com"
         ],
-        "Celular": "+56979593891",
-        "Linkedin": null
+        "CELULAR": "+56979593891",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1568319034377-cv_andrea_fresard_08.2018.doc",
-    "Licencias-Certificaciones": [],
-    "Palabras Claves": [
-        "Gestión",
+    "NOMBRE_ARCHIVO": "1568319034377-cv_andrea_fresard_08.2018.doc",
+    "LICENCIA_CERTIFICACION": [],
+    "PALABRAS_CLAVES": [
         "Responsabilidad",
-        "Tolerancia"
+        "Tolerancia",
+        "Gestión"
     ],
-    "Educacion": {
-        "Universidades:": [
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
             "Universidad de Antofagasta",
             "Universidad Andrés Bello"
         ],
-        "Grado_mas_alto": [
+        "GRADO_MAS_ALTO": [
             "Pregrado"
         ]
     },
-    "Lenguajes": [
+    "IDIOMAS": [
         "English",
         "Inglés"
     ],
-    "Experiencia": "experiencia laboral acento en la ce 2012 a 2018 socia directora de acento en la ce, consultora de comunicación corporativa del grupo sámara. en conjunto con otros 3 socios formamos esta consultora orientada a apoyar a empresas, fundaciones, universidades y organizaciones en temas comunicacionales, posicionamiento, construcción de reputación, manejo de contenigencias y/o crisis. durante este periodo trabajé con la división andina de codelco, eurochile, coquinaria, universidad de antofagasta, ugm, cdec-sing, chilevalora, el laboratorio danés novo nordisk, onu mujeres, pnud chile, laboratorio de gobierno, entre otros. sámara julio 2011 a 2012 consultora en comunicación estratégica en sámara. cnn chile octubre 2008 a junio 2011 gerente de comunicaciones me tocó participar en el lanzamiento del primer canal de noticias 24/7 en chile diciembre de 2008 y ser responsable de su imagen corporativa y promoción a nivel nacional, además de armar actividades de comunicaciones y relacionamiento. fundación país digital mayo a septiembre 2008 directora de comunicaciones. gestión de prensa, de relacionamiento y la coordinación de los eventos de la fundación. chilevisión s.a. septiembre 2004 a abril 2008 jefa de comunicaciones y rr.pp. - dependiendo directamente del director ejecutivo, se me encomendó reformular la política comunicacional de la estación. entre mis responsabilidades estaba la relación con la prensa y los equipos de prensa y producción para la difusión de los distintos espacios de la pantalla, así como la coordinación con marketing. entre los hitos programáticos se encuentra el paso de tolerancia cero a horario prime, el primer y segundo festival de olmué emitido, el lanzamiento del área dramática de chilevisión vivir con 10 y los premios altazor. consejo nacional de televisión - octubre 2001 a septiembre de 2004 jefa de comunicaciones dependiendo de la presidenta del cntv fue de mi responsabilidad la creación del área de comunicaciones para difundir la labor de la institución y ser su nexo entre los medios de comunicación, la ciudadanía y otras audiencias de interés. diseño y administración del portal www.cntv.cl además de la producción, edición y publicación de la revista institucional y coordinación de eventos como el primer prix jeunesse iberoamericano festival de televisión infantil. ministerio secretaría general de gobierno noviembre 2000 a septiembre 2001 secretaría de comunicación y cultura. equipo ntics unidad de asesorías de gobierno electrónico que buscaba dar coherencia a todos los sitios dependientes del estado, orientándolos a la ciudadanía, apoyando a los distintos estamentos del estado en el diseño de arquitectura de sitios además de cómo relevar contenidos siempre desde la perspectiva del usuario. taxi films agosto a octubre 2000 producción de casting publicidad para cine y televisión. concerta s.a. julio 1999 a agosto 2000 producción seminario de la food and drugs administration fda difusión y rr.pp. primer congreso transporte terrestre producción seminario internacional food and drugs administration fda difusión y rr.pp. primer encuentro nacional de la pequeña empresa, enape 2000 red televisión enero a abril 2000 relacionadora pública reemplazo ticketmaster - marzo a junio 1999 asistente gerente general pmc comunicaciones marketing enero 1999 asesoría difusión y posicionamiento de viña morandé y valle de casablanca. x festival internacional de cine de viña del mar agosto a octubre 1998 jefa de difusión y prensa concerta s.a. - julio de 1997 abril de 1998 productora asistente 4º salón náutico y 5º salón internacional del automóvil. producción y traducción del catálogo oficial de iniciativa informática 2000 organizado por el bid en el marco de la cumbre iberoamericana de naciones. prensa y difusión del evento. megavisión noviembre 1994 a marzo 1996 asistente de producción traductora y reportera en recital del grupo estadounidense aerosmith traductora y reportera recital del grupo inglés rolling stones asistente del gerente de producción de megavisión en la producción del xxxvii festival internacional de la canción de viña del mar. ",
-    "Resumen": "",
-    "Skills": [],
-    "Referencias": ""
+    "EXPERIENCIA": "experiencia laboral acento en la ce 2012 a 2018 socia directora de acento en la ce, consultora de comunicación corporativa del grupo sámara. en conjunto con otros 3 socios formamos esta consultora orientada a apoyar a empresas, fundaciones, universidades y organizaciones en temas comunicacionales, posicionamiento, construcción de reputación, manejo de contenigencias y/o crisis. durante este periodo trabajé con la división andina de codelco, eurochile, coquinaria, universidad de antofagasta, ugm, cdec-sing, chilevalora, el laboratorio danés novo nordisk, onu mujeres, pnud chile, laboratorio de gobierno, entre otros. sámara julio 2011 a 2012 consultora en comunicación estratégica en sámara. cnn chile octubre 2008 a junio 2011 gerente de comunicaciones me tocó participar en el lanzamiento del primer canal de noticias 24/7 en chile diciembre de 2008 y ser responsable de su imagen corporativa y promoción a nivel nacional, además de armar actividades de comunicaciones y relacionamiento. fundación país digital mayo a septiembre 2008 directora de comunicaciones. gestión de prensa, de relacionamiento y la coordinación de los eventos de la fundación. chilevisión s.a. septiembre 2004 a abril 2008 jefa de comunicaciones y rr.pp. - dependiendo directamente del director ejecutivo, se me encomendó reformular la política comunicacional de la estación. entre mis responsabilidades estaba la relación con la prensa y los equipos de prensa y producción para la difusión de los distintos espacios de la pantalla, así como la coordinación con marketing. entre los hitos programáticos se encuentra el paso de tolerancia cero a horario prime, el primer y segundo festival de olmué emitido, el lanzamiento del área dramática de chilevisión vivir con 10 y los premios altazor. consejo nacional de televisión - octubre 2001 a septiembre de 2004 jefa de comunicaciones dependiendo de la presidenta del cntv fue de mi responsabilidad la creación del área de comunicaciones para difundir la labor de la institución y ser su nexo entre los medios de comunicación, la ciudadanía y otras audiencias de interés. diseño y administración del portal www.cntv.cl además de la producción, edición y publicación de la revista institucional y coordinación de eventos como el primer prix jeunesse iberoamericano festival de televisión infantil. ministerio secretaría general de gobierno noviembre 2000 a septiembre 2001 secretaría de comunicación y cultura. equipo ntics unidad de asesorías de gobierno electrónico que buscaba dar coherencia a todos los sitios dependientes del estado, orientándolos a la ciudadanía, apoyando a los distintos estamentos del estado en el diseño de arquitectura de sitios además de cómo relevar contenidos siempre desde la perspectiva del usuario. taxi films agosto a octubre 2000 producción de casting publicidad para cine y televisión. concerta s.a. julio 1999 a agosto 2000 producción seminario de la food and drugs administration fda difusión y rr.pp. primer congreso transporte terrestre producción seminario internacional food and drugs administration fda difusión y rr.pp. primer encuentro nacional de la pequeña empresa, enape 2000 red televisión enero a abril 2000 relacionadora pública reemplazo ticketmaster - marzo a junio 1999 asistente gerente general pmc comunicaciones marketing enero 1999 asesoría difusión y posicionamiento de viña morandé y valle de casablanca. x festival internacional de cine de viña del mar agosto a octubre 1998 jefa de difusión y prensa concerta s.a. - julio de 1997 abril de 1998 productora asistente 4º salón náutico y 5º salón internacional del automóvil. producción y traducción del catálogo oficial de iniciativa informática 2000 organizado por el bid en el marco de la cumbre iberoamericana de naciones. prensa y difusión del evento. megavisión noviembre 1994 a marzo 1996 asistente de producción traductora y reportera en recital del grupo estadounidense aerosmith traductora y reportera recital del grupo inglés rolling stones asistente del gerente de producción de megavisión en la producción del xxxvii festival internacional de la canción de viña del mar. ",
+    "RESUMEN": "",
+    "SKILLS": [],
+    "REFERENCIAS": ""
 }

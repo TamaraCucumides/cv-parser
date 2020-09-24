@@ -1,26 +1,26 @@
 {
-    "Contacto": {
-        "Nombre": null,
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": null,
+        "CORREO": [
             "noctzu@gmail.com"
         ],
-        "Celular": "+56930362683",
-        "Linkedin": null
+        "CELULAR": "+56930362683",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1569522588005-cv2019coni.docx",
-    "Licencias-Certificaciones": [],
-    "Palabras Claves": null,
-    "Educacion": {
-        "Universidades:": [
+    "NOMBRE_ARCHIVO": "1569522588005-cv2019coni.docx",
+    "LICENCIA_CERTIFICACION": [],
+    "PALABRAS_CLAVES": null,
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
             "CFT ICEL"
         ],
-        "Grado_mas_alto": [
+        "GRADO_MAS_ALTO": [
             "Técnico"
         ]
     },
-    "Lenguajes": [],
-    "Experiencia": "R.u.t 18.737.972-5 Dirección Ernesto Pinto Lagarrigue 5140 Restaurante Punta sal, Maipú Santiago, Chile -Garzona 2015-2016 Pastelera goldi Santiago, Chile -Pastelera 2017-2018 Sushi dubay, Maipú -Itamae aprendiz de maestro en sushi 2018-2019 Costa mía -Practica laboral y posteriormente ayudante de cocina 2019 Hotel Marina, Las condes Ayudante de cocina ",
-    "Resumen": "curriculum vitae i.datos personales nombre constanza andrea aravena cabello r.u.t 18.737.972-5 dirección ernesto pinto lagarrigue 5140 fecha de nacimiento 15/03/1994 comuna maipú nacionalidad chilena celular 56930362683 estado civil soltera e-mail noctzu@gmail.com ii. antecedentes académicos 2016-2017 cft icel santiago, chile técnico cocina nacional e internacional 2014 universidad arcis santiago, chile facultad de ciencias sociales estudiante de trabajo social 1999-2011 colegio piamarta santiago, chile enseñanza básica y media kínder-4º medio iii.antecedentes laboral 2012 fantasilandia -venta interna santiago, chile burger king -crew y cajera 2013 empresa consorcio de seguros de vida santiago, chile -digitadora 2014 mercado municipal de maipú restaurante punta sal, maipú santiago, chile -garzona 2015-2016 pastelera goldi santiago, chile -pastelera 2017-2018 sushi dubay, maipú -itamae aprendiz de maestro en sushi 2018-2019 costa mía -practica laboral y posteriormente ayudante de cocina 2019 hotel marina, las condes ",
-    "Skills": [],
-    "Referencias": ""
+    "IDIOMAS": [],
+    "EXPERIENCIA": "Nombre Constanza Andrea Aravena Cabello R.u.t 18.737.972-5 Dirección Ernesto Pinto Lagarrigue 5140 Iii.antecedentes Laboral 2012 Fantasilandia -Venta interna Santiago, Chile Burger King -Itamae aprendiz de maestro en sushi 2018-2019 Costa mía -Practica laboral y posteriormente ayudante de cocina 2019 Hotel Marina, Las condes Ayudante de cocina ",
+    "RESUMEN": "curriculum vitae i.datos personales nombre constanza andrea aravena cabello r.u.t 18.737.972-5 dirección ernesto pinto lagarrigue 5140 fecha de nacimiento 15/03/1994 comuna maipú nacionalidad chilena celular 56930362683 estado civil soltera e-mail noctzu@gmail.com ii. antecedentes académicos 2016-2017 cft icel santiago, chile técnico cocina nacional e internacional 2014 universidad arcis santiago, chile facultad de ciencias sociales estudiante de trabajo social 1999-2011 colegio piamarta santiago, chile enseñanza básica y media kínder-4º medio iii.antecedentes laboral 2012 fantasilandia -venta interna santiago, chile burger king -crew y cajera 2013 empresa consorcio de seguros de vida santiago, chile -digitadora 2014 mercado municipal de maipú restaurante punta sal, maipú santiago, chile -garzona 2015-2016 pastelera goldi santiago, chile -pastelera 2017-2018 sushi dubay, maipú -itamae aprendiz de maestro en sushi 2018-2019 costa mía -practica laboral y posteriormente ayudante de cocina 2019 hotel marina, las condes ",
+    "SKILLS": [],
+    "REFERENCIAS": ""
 }

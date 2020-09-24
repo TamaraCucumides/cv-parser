@@ -1,45 +1,44 @@
 {
-    "Contacto": {
-        "Nombre": "Rodrigo Andrés Ibarra ",
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": "Rodrigo Andrés Ibarra ",
+        "CORREO": [
             "ibarrarod@gmail.com"
         ],
-        "Celular": "993827257",
-        "Linkedin": null
+        "CELULAR": "993827257",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1570055926805-CV_Rodrigo_Ibarra_Leiva.pdf",
-    "Licencias-Certificaciones": [
-        "CLASE C",
-        "CLASE B"
+    "NOMBRE_ARCHIVO": "1570055926805-CV_Rodrigo_Ibarra_Leiva.pdf",
+    "LICENCIA_CERTIFICACION": [
+        "CLASE B",
+        "CLASE C"
     ],
-    "Palabras Claves": [
+    "PALABRAS_CLAVES": [
         "Liderazgo",
-        "Análisis",
         "Responsabilidad",
         "Gestión",
         "Proactividad",
-        "Negociación"
+        "Negociación",
+        "Análisis"
     ],
-    "Educacion": {
-        "Universidades:": [
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
             "Universidad Católica del Norte"
         ],
-        "Grado_mas_alto": [
+        "GRADO_MAS_ALTO": [
             "Pregrado"
         ]
     },
-    "Lenguajes": [
+    "IDIOMAS": [
         "Inglés"
     ],
-    "Experiencia": "experiencia laboral cleanbike, antofagasta socio gerente empresa asociada marzo 2016 a la fecha orientada al segmento de gama alta ciclismo de competición, organicé las actividades de posicionamiento, promoción, estándares de servicio y cadena de abastecimiento de este emprendimiento. en poco más de 1 año de actividad, se obtuvo crecimientos trimestrales en ventas de 150 en sus inicios y de 30 al final del periodo. hoy es una pequeña empresa reconocida por su calidad de servicio y precios competitivos, con una cartera de clientes fija y crecimiento en ascenso. ripley, antofagasta supervisor comercial febrero 2015 marzo 2016 responsable del departamento de electrodomésticos, línea blanca y belleza en antofagasta, dirigí la fuerza de venta, el control de protocolos de atención al cliente, análisis de los niveles de consumo para la administración de inventarios, entre otros. logros cumplimiento metas de ventas clima laboral varios reconocimientos jefatura del mes meta de hurtos en tienda reducida a casi 0. megasalud s.a, antofagasta jefe centro médico y dental megasalud antofagasta octubre 2013 octubre 2014 reorganicé las áreas de rrhh, infraestructura y contabilidad a fin de concretar la acreditación del ministerio de salud para esta sucursal megasalud, objetivo logrado al final del periodo. a nivel nacional, de un total de 32 sucursales del grupo, la sucursal antofagasta se situaba en el lugar 26 cuando finalicé mi periodo, la sucursal ocupaba el 2do lugar a nivel nacional. parámetros tales como ambiente laboral, cumplimento de metas financieras y optimización de procesos fueron considerados en la evaluación. acredita limitada, sección minera escondida mel asistente técnico laboral. abril 2013 julio 2013. trabajo de control y análisis del movimiento de trabajadores hacia los yacimientos mineros norte y sur de minera escondida, conforme los estándares, políticas y procedimientos de la minera y certificaciones iso y osha. xstrata copper hoy glencore, división altonorte práctica profesional gerencia de abastecimiento marzo 2012 mayo 2012. trabajo con plataformas erp ellipse y quadrem hoy ariba para los procesos de abastecimiento estratégico y compras de multinacional minera, con cartera acreditada por sicep y aia proveedores de las principales empresas mineras y grandes industriales del país. experiencia en la preparación de licitaciones de materiales, equipos y servicios, análisis y evaluación de propuestas, con montos considerables involucrados. universidad católica del norte ayudante clase a ramos de microeconomía, administración y marketing. mi primera ayudantía como clase c comienza en 2007, finalizando el año 2012 como clase a máximo nivel. cursos y licencias licencia clase b al día. inducción bhp billiton metales base, curso cero daño. abril 2013. inducción minas bhp billiton, minera escondida. abril 2013. licencias. ",
-    "Resumen": "resumen laboral ingeniero comercial, licenciado en ciencias de la administración. habilidades de liderazgo, manejo de situaciones bajo presión, comunicación y exposición. experiencia en emprendimiento, industrias de la minería, salud y retail, como miembro y/o responsable de equipos de trabajo en funciones comerciales, negociación colectiva, administración de inventarios, procesos de acreditación de salud. responsable, proactivo, organizado, orientado al cliente y a la consecución de objetivos. inglés intermedio. ",
-    "Skills": [
-        "Erp",
+    "EXPERIENCIA": "experiencia laboral cleanbike, antofagasta socio gerente empresa asociada marzo 2016 a la fecha orientada al segmento de gama alta ciclismo de competición, organicé las actividades de posicionamiento, promoción, estándares de servicio y cadena de abastecimiento de este emprendimiento. en poco más de 1 año de actividad, se obtuvo crecimientos trimestrales en ventas de 150 en sus inicios y de 30 al final del periodo. hoy es una pequeña empresa reconocida por su calidad de servicio y precios competitivos, con una cartera de clientes fija y crecimiento en ascenso. ripley, antofagasta supervisor comercial febrero 2015 marzo 2016 responsable del departamento de electrodomésticos, línea blanca y belleza en antofagasta, dirigí la fuerza de venta, el control de protocolos de atención al cliente, análisis de los niveles de consumo para la administración de inventarios, entre otros. logros cumplimiento metas de ventas clima laboral varios reconocimientos jefatura del mes meta de hurtos en tienda reducida a casi 0. megasalud s.a, antofagasta jefe centro médico y dental megasalud antofagasta octubre 2013 octubre 2014 reorganicé las áreas de rrhh, infraestructura y contabilidad a fin de concretar la acreditación del ministerio de salud para esta sucursal megasalud, objetivo logrado al final del periodo. a nivel nacional, de un total de 32 sucursales del grupo, la sucursal antofagasta se situaba en el lugar 26 cuando finalicé mi periodo, la sucursal ocupaba el 2do lugar a nivel nacional. parámetros tales como ambiente laboral, cumplimento de metas financieras y optimización de procesos fueron considerados en la evaluación. acredita limitada, sección minera escondida mel asistente técnico laboral. abril 2013 julio 2013. trabajo de control y análisis del movimiento de trabajadores hacia los yacimientos mineros norte y sur de minera escondida, conforme los estándares, políticas y procedimientos de la minera y certificaciones iso y osha. xstrata copper hoy glencore, división altonorte práctica profesional gerencia de abastecimiento marzo 2012 mayo 2012. trabajo con plataformas erp ellipse y quadrem hoy ariba para los procesos de abastecimiento estratégico y compras de multinacional minera, con cartera acreditada por sicep y aia proveedores de las principales empresas mineras y grandes industriales del país. experiencia en la preparación de licitaciones de materiales, equipos y servicios, análisis y evaluación de propuestas, con montos considerables involucrados. universidad católica del norte ayudante clase a ramos de microeconomía, administración y marketing. mi primera ayudantía como clase c comienza en 2007, finalizando el año 2012 como clase a máximo nivel. cursos y licencias licencia clase b al día. inducción bhp billiton metales base, curso cero daño. abril 2013. inducción minas bhp billiton, minera escondida. abril 2013. licencias. ",
+    "RESUMEN": "resumen laboral ingeniero comercial, licenciado en ciencias de la administración. habilidades de liderazgo, manejo de situaciones bajo presión, comunicación y exposición. experiencia en emprendimiento, industrias de la minería, salud y retail, como miembro y/o responsable de equipos de trabajo en funciones comerciales, negociación colectiva, administración de inventarios, procesos de acreditación de salud. responsable, proactivo, organizado, orientado al cliente y a la consecución de objetivos. inglés intermedio. ",
+    "SKILLS": [
         "Word",
+        "Erp",
         "Sap",
-        "Excel",
-        "Powerpoint",
-        "Office"
+        "Office",
+        "Excel"
     ],
-    "Referencias": ""
+    "REFERENCIAS": ""
 }

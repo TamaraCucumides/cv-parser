@@ -23,7 +23,7 @@ def show_words(file):
     for key in cv_txt.keys():
         if cv_txt[key] is None:
             cv_txt[key] = []
-    list_words = cv_txt['Palabras Claves']*2 + cv_txt["Licencias-Certificaciones"]*5  + cv_txt["Lenguajes"]*2 + cv_txt["Skills"]*10 + cv_txt["Educacion"]["Grado_mas_alto"]*4
+    list_words = cv_txt['PALABRAS_CLAVES']*2 + cv_txt["LICENCIA_CERTIFICACION"]*5  + cv_txt["IDIOMAS"]*2 + cv_txt["SKILLS"]*10 + cv_txt["EDUCACION"]["GRADO_MAS_ALTO"]*4
     word_could_dict=Counter(list_words)
     wordcloud = WordCloud(background_color='white',width = 500, height = 250, max_words= 50).generate_from_frequencies(word_could_dict)
     plt.figure(figsize=(10,8))
@@ -79,7 +79,7 @@ def file_selector_filter(folder_path, skills_to_filter):
         for filename in filenames:
             #st.write(filename)
             dict_cv = load_dict('/home/erwin/Genoma/cv-parser/parser/Outputs/output_parser', filename)
-            skills_cv = [item.lower() for item in dict_cv['Skills'] + dict_cv['Licencias-Certificaciones']]
+            skills_cv = [item.lower() for item in dict_cv['SKILLS'] + dict_cv['LICENCIA_CERTIFICACION']]
             flag = 0
             if(all(x in skills_cv for x in skills_to_filter)): 
                 flag = 1
@@ -103,7 +103,7 @@ def file_selector_educacion(folder_path, universidades_selected, grado):
         for filename in filenames:
             dict_cv = load_dict('/home/erwin/Genoma/cv-parser/parser/Outputs/output_parser', filename)
             #st.write(dict_cv['Educacion']['Universidades:'])
-            Ues_cv = [u.unidecode(item.lower()) for item in dict_cv['Educacion']['Universidades:']]
+            Ues_cv = [u.unidecode(item.lower()) for item in dict_cv['EDUCACION']['UNIVERSIDADES']]
             flag = 0
             U_dict = [u.unidecode(i.lower()) for i in universidades_selected]
             if( U_dict[0] in Ues_cv): 
@@ -127,7 +127,7 @@ def file_selector_grado(folder_path, universidades_selected, grado):
         for filename in filenames:
             dict_cv = load_dict('/home/erwin/Genoma/cv-parser/parser/Outputs/output_parser', filename)
             #st.write(dict_cv['Educacion']['Universidades:'])
-            Ues_cv = [u.unidecode(item.lower()) for item in dict_cv['Educacion']['Grado_mas_alto']]
+            Ues_cv = [u.unidecode(item.lower()) for item in dict_cv['EDUCACION']['GRADO_MAS_ALTO']]
             flag = 0
             U_dict = [u.unidecode(i.lower()) for i in universidades_selected]
             if( U_dict[0] in Ues_cv): 
@@ -141,12 +141,12 @@ def file_selector_grado(folder_path, universidades_selected, grado):
     selected_filename = st.selectbox('Select a file', files_filtered)
     if selected_filename:
         return os.path.join(folder_path, selected_filename)
-st.subheader("CV a .txt")
+st.subheader("CV en texto plano (.txt)")
 
 filename = file_selector('Outputs/output_text')
 
 
-mostrar_cvtxt = st.checkbox('Mostrar CV_txt')
+mostrar_cvtxt = st.checkbox('Mostrar Texto')
 
 
 #Print csv seleccionado
@@ -156,9 +156,9 @@ if mostrar_cvtxt:
 
 
 
-st.subheader("CV.txt a CV parseado .json")
+st.subheader(" CV parseado (.json)")
 filename_par = file_selector(folder_path='Outputs/output_parser')
-mostrar_cvparseado = st.checkbox('Mostrar CV parseado')
+mostrar_cvparseado = st.checkbox('Mostrar .json')
 if mostrar_cvparseado:
     dict_cv = load_dict('/home/erwin/Genoma/cv-parser/parser', filename_par)
     st.write(dict_cv)
@@ -215,10 +215,10 @@ if selec_grado:
 
     filename_filtered = file_selector_grado('Outputs/output_parser', selec_grado, 'hola')
     #st.write(filename_filtered)
-    mostrar_cvtxt_fil_2 = st.checkbox('Mostrar CV G')
+    mostrar_cvtxt_fil_g = st.checkbox('Mostrar CV G')
 
-    if mostrar_cvtxt_fil_2:
-        mostrar_solo_g = st.checkbox('Mostrar solo Educacion')
+    if mostrar_cvtxt_fil_g:
+        mostrar_solo_g = st.checkbox('Mostrar solo Grado')
         if not mostrar_solo_g:
             dict_cv = load_dict('/home/erwin/Genoma/cv-parser/parser',filename_filtered)
             st.write(dict_cv)
@@ -259,7 +259,7 @@ similares = st.text_input("Similares a:", "")
 
 if similares != "":
     #model = cargar_embedding()
-    n=5
+    n=st.slider('Nmero similares', min_value=2, max_value=10, value=None, step=1, format=None, key=None)
     sim = palabras_cercanas(similares, n, model)
     if sim:
         st.write(sim)
@@ -293,28 +293,35 @@ if stems != "":
 st.subheader('Preprocesamiento (Bye Stopwords)')
 text_to_clean = st.text_input("Texto a limpiar:", "")
 
-newStopWords = cargar_dict(os.getcwd() + '/diccionarios/stop_words_nombres')
-stopwords = nltk.corpus.stopwords.words('spanish')
-stopwords.extend(newStopWords)
-minus = st.checkbox('A Miniscula')
-punt = st.checkbox('Eliminar Puntuacion')
-num = st.checkbox('Eliminar Numeros')
-simb = st.checkbox('Eliminar Todo tipo de simbolos')
+
+minus = st.checkbox('Normalizar en miniscula')
+punt = st.checkbox('Eliminar puntuación')
+num = st.checkbox('Eliminar números')
+simb = st.checkbox('Eliminar símbolos')
+sto = st.checkbox('Eliminar palabras vacías')
 lemm = st.checkbox('Lematizar')
+
+
 if text_to_clean != "":
     st.write(text_to_clean)
-    clean = preprocesar_texto(text_to_clean,stopwords , enminiscula=  minus, puntuacion = not punt, numeros = not num)
+    if sto:
+        newStopWords = cargar_dict(os.getcwd() + '/diccionarios/stop_words_nombres')
+        stopwords = nltk.corpus.stopwords.words('spanish')
+        stopwords.extend(newStopWords)
+    else:
+        stopwords = None
+    clean = preprocesar_texto(text_to_clean,stopwords , enminiscula=  minus, keepPuntuacion = not punt, keepNumeros = not num)
     if clean and not simb:
         if lemm:
             clean = lematizar(clean)
         else:  
-            st.write(clean)
+            st.markdown('**'+clean+'**')
     elif clean and simb:
         if lemm:
             clean = lematizar(clean)
             clean = re.sub(r'[^\w\s]',' ',clean) #eliminar puntuacion
-            st.write(clean)
+            st.markdown('**'+clean+'**')
         else:
             clean = re.sub(r'[^\w\s]',' ',clean) #eliminar puntuacion
-            st.write(clean)
+            st.markdown('**'+clean+'**')
 

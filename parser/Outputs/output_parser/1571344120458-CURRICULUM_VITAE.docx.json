@@ -1,27 +1,27 @@
 {
-    "Contacto": {
-        "Nombre": null,
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": null,
+        "CORREO": [
             "Orion.1974@hotmail.com"
         ],
-        "Celular": "+56996234982",
-        "Linkedin": null
+        "CELULAR": "+56996234982",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1571344120458-CURRICULUM_VITAE.docx",
-    "Licencias-Certificaciones": [
+    "NOMBRE_ARCHIVO": "1571344120458-CURRICULUM_VITAE.docx",
+    "LICENCIA_CERTIFICACION": [
         "OS-10",
         "LICENCIA CONDUCIR"
     ],
-    "Palabras Claves": null,
-    "Educacion": {
-        "Universidades:": [],
-        "Grado_mas_alto": [
+    "PALABRAS_CLAVES": null,
+    "EDUCACION": {
+        "UNIVERSIDADES:": [],
+        "GRADO_MAS_ALTO": [
             "Enseñanza media"
         ]
     },
-    "Lenguajes": [],
-    "Experiencia": "antecedentes laborales trabajo actual 2019 independiente ultimo trabajo 2018 - 2019 guardia lider express miraflores trabajo anteriores 2017 - 2018 su. zonal servisios y seguridad luis eduardo valenzuela valenzuela ",
-    "Resumen": "curriculum vitae ",
-    "Skills": [],
-    "Referencias": ""
+    "IDIOMAS": [],
+    "EXPERIENCIA": "antecedentes laborales trabajo actual 2019 independiente ultimo trabajo 2018 - 2019 guardia lider express miraflores trabajo anteriores 2017 - 2018 su. zonal servisios y seguridad luis eduardo valenzuela valenzuela ",
+    "RESUMEN": "curriculum vitae ",
+    "SKILLS": [],
+    "REFERENCIAS": ""
 }

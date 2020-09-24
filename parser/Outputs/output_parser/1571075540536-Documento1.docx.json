@@ -1,26 +1,26 @@
 {
-    "Contacto": {
-        "Nombre": null,
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": null,
+        "CORREO": [
             "karolina.contrerass@hotmail.com"
         ],
-        "Celular": "+56983583148",
-        "Linkedin": null
+        "CELULAR": "+56983583148",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1571075540536-Documento1.docx",
-    "Licencias-Certificaciones": [],
-    "Palabras Claves": null,
-    "Educacion": {
-        "Universidades:": [
+    "NOMBRE_ARCHIVO": "1571075540536-Documento1.docx",
+    "LICENCIA_CERTIFICACION": [],
+    "PALABRAS_CLAVES": null,
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
             "Instituto Profesional INACAP"
         ],
-        "Grado_mas_alto": [
+        "GRADO_MAS_ALTO": [
             "Técnico"
         ]
     },
-    "Lenguajes": [],
-    "Experiencia": "experiencia laboral bariloche s.a 2010 ayudante de cocina tavelli s.a 2011 ayudante de cocina bar y restaurant liguria2011 ayudante de cocina tavelli s.a 2011-2012 ayudante de cocina. cajera y despacho emporio la rosa 2013-2014 ayudante de cocina restaurnt punto c 2014 ayudante de cocina apettits express. 2015-2016 ayudante de cocina juan y medio restaurant 2017-2019 ayudante de cocina ",
-    "Resumen": "22 de. . . . .mayo de 1989 dirección chiloé 1295 santiago fono 56983583148. mail karolina.contrerass@hotmail.com ",
-    "Skills": [],
-    "Referencias": ""
+    "IDIOMAS": [],
+    "EXPERIENCIA": "experiencia laboral bariloche s.a 2010 ayudante de cocina tavelli s.a 2011 ayudante de cocina bar y restaurant liguria2011 ayudante de cocina tavelli s.a 2011-2012 ayudante de cocina. cajera y despacho emporio la rosa 2013-2014 ayudante de cocina restaurnt punto c 2014 ayudante de cocina apettits express. 2015-2016 ayudante de cocina juan y medio restaurant 2017-2019 ayudante de cocina ",
+    "RESUMEN": "22 de. . . . .mayo de 1989 dirección chiloé 1295 santiago fono 56983583148. mail karolina.contrerass@hotmail.com ",
+    "SKILLS": [],
+    "REFERENCIAS": ""
 }

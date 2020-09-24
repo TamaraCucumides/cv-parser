@@ -1,41 +1,41 @@
 {
-    "Contacto": {
-        "Nombre": "Alejandro Rodriguez Gonzalez ",
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": "Alejandro Rodriguez Gonzalez ",
+        "CORREO": [
             "Alejandrosrodriguezg@gmail.com"
         ],
-        "Celular": "+56942018097",
-        "Linkedin": null
+        "CELULAR": "+56942018097",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1570826760177-Curriculum_11_Alejandro.doc",
-    "Licencias-Certificaciones": [],
-    "Palabras Claves": [
+    "NOMBRE_ARCHIVO": "1570826760177-Curriculum_11_Alejandro.doc",
+    "LICENCIA_CERTIFICACION": [],
+    "PALABRAS_CLAVES": [
         "Liderazgo",
         "Responsabilidad",
-        "Gestión",
         "Liderar",
+        "Gestión",
         "Negociación"
     ],
-    "Educacion": {
-        "Universidades:": [
-            "Universidad Andrés Bello",
-            "Universidad de Tarapacá"
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
+            "Universidad de Tarapacá",
+            "Universidad Andrés Bello"
         ],
-        "Grado_mas_alto": [
+        "GRADO_MAS_ALTO": [
             "Postgrado"
         ]
     },
-    "Lenguajes": [],
-    "Experiencia": "antecedentes laborales 2019 2018-2019. 2017-2018 2014 - 2016 asesor de inversiones trainee, en cuprum afp. otorga servicios de asesoría e intermedian en la venta y comercialización de los seguros previsionales del d.l. n 3.500 para que los afiliados y beneficiarios del sistema de pensiones puedan tomar decisiones informadas de acuerdo a sus necesidades e intereses. key acount manager kam zonal en claro chile s.a, con base en antofagasta, liderando sucursales en arica, iquique, alto hospicio y calama. realizar y coordinar las acciones de soporte en terreno y locales fijos y desarrollo comercial de los canales de ventas en terreno y locales fijos del segmento pyme y sinergia para claro chile y sus filiales del segmento definido, con el fin de aportar al cumplimiento de las metas de ventas e indicadores de gestión definidos, optimización de los costos de la operación, de acuerdo al plan estratégico, kpis, estándares de calidad, presupuestos, plazos y políticas definidas por la compañía. encargado de aseo industrial, empresa newrest chile, en observatorio alma, atacama large millimeter/submillimeter array alma. responsable en el área de aseo dentro de las instalaciones del observatorio alma, realiza las siguientes funciones inventarios de consumos básicos, reportes de necesidades de mantenimiento, mantiene un stock de repuestos e insumos para operar, las funciones se realizan ya sea en turnos de día como de noche 10x10 con una duración de 12 horas diarias, las instalaciones se encuentran a 2900 de altura a nivel del mar, ubicada en el desierto de atacama, segunda región de antofagasta chile. coordinador en ventas en empresa prosepan s.a. responsable en la coordinación en ventas y productos tangibles en salas de ventas de supermercados líder, unimarc y santa isabel en las ciudades de arica e iquique, además desarrollando idea de negocios de competencia de mercado en las regiones, supervisión en las áreas de salas de ventas, logística de materias primas, inspección de calidad, cumplimiento de metas, y supervisión de trabajos en equipos. 1995-1999 funcionario armada de chile, escuela de grumetes, escuela de litoral y faros, escuela de ingeniería naval, gobernación marítima de arica, valparaíso, san antonio y talcahuano. responsable en dirigir grupos de trabajos, orientados a satisfacer las demandas de la jefatura superior. abastecimientos contabilidad e inventarios. responsable en la seguridad marítima, resguardando la seguridad en los balnearios del litoral central, sur y norte de chile. ",
-    "Resumen": "alejandro rodriguez gonzalez ingeniero comercial universidad de tarapacá licenciado en ciencias en la administración de empresas ",
-    "Skills": [
-        "Erp",
-        "Legislación laboral",
-        "Windows",
+    "IDIOMAS": [],
+    "EXPERIENCIA": "antecedentes laborales 2019 2018-2019. 2017-2018 2014 - 2016 asesor de inversiones trainee, en cuprum afp. otorga servicios de asesoría e intermedian en la venta y comercialización de los seguros previsionales del d.l. n 3.500 para que los afiliados y beneficiarios del sistema de pensiones puedan tomar decisiones informadas de acuerdo a sus necesidades e intereses. key acount manager kam zonal en claro chile s.a, con base en antofagasta, liderando sucursales en arica, iquique, alto hospicio y calama. realizar y coordinar las acciones de soporte en terreno y locales fijos y desarrollo comercial de los canales de ventas en terreno y locales fijos del segmento pyme y sinergia para claro chile y sus filiales del segmento definido, con el fin de aportar al cumplimiento de las metas de ventas e indicadores de gestión definidos, optimización de los costos de la operación, de acuerdo al plan estratégico, kpis, estándares de calidad, presupuestos, plazos y políticas definidas por la compañía. encargado de aseo industrial, empresa newrest chile, en observatorio alma, atacama large millimeter/submillimeter array alma. responsable en el área de aseo dentro de las instalaciones del observatorio alma, realiza las siguientes funciones inventarios de consumos básicos, reportes de necesidades de mantenimiento, mantiene un stock de repuestos e insumos para operar, las funciones se realizan ya sea en turnos de día como de noche 10x10 con una duración de 12 horas diarias, las instalaciones se encuentran a 2900 de altura a nivel del mar, ubicada en el desierto de atacama, segunda región de antofagasta chile. coordinador en ventas en empresa prosepan s.a. responsable en la coordinación en ventas y productos tangibles en salas de ventas de supermercados líder, unimarc y santa isabel en las ciudades de arica e iquique, además desarrollando idea de negocios de competencia de mercado en las regiones, supervisión en las áreas de salas de ventas, logística de materias primas, inspección de calidad, cumplimiento de metas, y supervisión de trabajos en equipos. 1995-1999 funcionario armada de chile, escuela de grumetes, escuela de litoral y faros, escuela de ingeniería naval, gobernación marítima de arica, valparaíso, san antonio y talcahuano. responsable en dirigir grupos de trabajos, orientados a satisfacer las demandas de la jefatura superior. abastecimientos contabilidad e inventarios. responsable en la seguridad marítima, resguardando la seguridad en los balnearios del litoral central, sur y norte de chile. ",
+    "RESUMEN": "alejandro rodriguez gonzalez ingeniero comercial universidad de tarapacá licenciado en ciencias en la administración de empresas ",
+    "SKILLS": [
         "Word",
         "Power point",
-        "Excel",
-        "Office"
+        "Windows",
+        "Erp",
+        "Legislación laboral",
+        "Office",
+        "Excel"
     ],
-    "Referencias": ""
+    "REFERENCIAS": ""
 }

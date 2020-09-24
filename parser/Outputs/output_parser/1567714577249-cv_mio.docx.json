@@ -1,27 +1,27 @@
 {
-    "Contacto": {
-        "Nombre": "Claudia G. Navarrete ",
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": "Claudia G. Navarrete ",
+        "CORREO": [
             "claudia.geraldine@hotmail.es"
         ],
-        "Celular": "+56984140217",
-        "Linkedin": null
+        "CELULAR": "+17934590029",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1567714577249-cv_mio.docx",
-    "Licencias-Certificaciones": [],
-    "Palabras Claves": [
-        "Aprender",
-        "Negociación"
+    "NOMBRE_ARCHIVO": "1567714577249-cv_mio.docx",
+    "LICENCIA_CERTIFICACION": [],
+    "PALABRAS_CLAVES": [
+        "Negociación",
+        "Aprender"
     ],
-    "Educacion": {
-        "Universidades:": [],
-        "Grado_mas_alto": [
+    "EDUCACION": {
+        "UNIVERSIDADES:": [],
+        "GRADO_MAS_ALTO": [
             "Técnico"
         ]
     },
-    "Lenguajes": [],
-    "Experiencia": "- experiencia asistente de aztrokidz esporádico marzo 2019 julio 2019 cajera administrativa peluquería ramis chillan enero-2018 - noviembre-2018 mi desempeño fue como secretaria-cajera- bodeguera y recepcionista del salón. entre otros como vendedora de productos capilares. digitadora administrativa prevenseg chillan diciembre-2017 - diciembre-2017 trabaje como digitadora administrativa, para auditoria planificada. digitadora-capacitadora servel-telefónica bulnes-chillan abril-2017 - noviembre-2017 digitadora-capacitadora proyecto elecciones digitadora servel-telefónica bulnes-chillan mayo-2016 - diciembre-2016 desempeño de digitadora-capacitadora, este año tenia gente a cargo vendedora-promotora doral colection chillan abril-2016 - agosto-2016 trabaje como vendedora-promotora en empresa que se dedicaba al rubro de cosméticos y perfumes. trabajo a terreno asesora académica instituto conosur chillan mayo-2015 - diciembre-2015 mi desempeño fue como asesora académica en el área comercial de dicho instituto, atención a público y secretaria vendedora tejidos blanca bulnes abril-2014 - octubre-2014 me desempeñe como ayudante de vendedora y bodeguera. trabajo en el rubro de telas, confecciones de trajes y ventas de ropa. cajera administrativa gelateria y cafetería la plaza bulnes septiembre-2013 - abril-2014 trabaje como cajera administrativa durante un tiempo, en el cual cumplía el desempeño de manipuladora de alimentos, atención al cliente y bodeguera. digitadora-capacitadora servel-telefónica bulnes-chillán octubre-2013 - diciembre-2013 trabaje como digitadora y a la vez como capacitadora en los proyectos de elecciones presidenciales digitadora servel, telefónica bulnes-chillán junio-2013 - julio-2013 trabaje mediante telefónica para el servel, prestando servicios de digitadora en proyectos de elecciones ya sean presidenciales o municipales cajera administrativa ciber fdr bulnes, chile octubre-2011 - diciembre-2011 cajera administrativa ciber fdr bulnes, chile enero-2011 - febrero-2011 atención a clientes, administrar negocio ya sea finanzas stock de mercancía etc. ",
-    "Resumen": "- objetivo seguir creciendo como persona, aprender todos los días algo nuevo y hacerlo de la mejor manera. ",
-    "Skills": [],
-    "Referencias": ""
+    "IDIOMAS": [],
+    "EXPERIENCIA": "- experiencia asistente de aztrokidz esporádico marzo 2019 julio 2019 cajera administrativa peluquería ramis chillan enero-2018 - noviembre-2018 mi desempeño fue como secretaria-cajera- bodeguera y recepcionista del salón. entre otros como vendedora de productos capilares. digitadora administrativa prevenseg chillan diciembre-2017 - diciembre-2017 trabaje como digitadora administrativa, para auditoria planificada. digitadora-capacitadora servel-telefónica bulnes-chillan abril-2017 - noviembre-2017 digitadora-capacitadora proyecto elecciones digitadora servel-telefónica bulnes-chillan mayo-2016 - diciembre-2016 desempeño de digitadora-capacitadora, este año tenia gente a cargo vendedora-promotora doral colection chillan abril-2016 - agosto-2016 trabaje como vendedora-promotora en empresa que se dedicaba al rubro de cosméticos y perfumes. trabajo a terreno asesora académica instituto conosur chillan mayo-2015 - diciembre-2015 mi desempeño fue como asesora académica en el área comercial de dicho instituto, atención a público y secretaria vendedora tejidos blanca bulnes abril-2014 - octubre-2014 me desempeñe como ayudante de vendedora y bodeguera. trabajo en el rubro de telas, confecciones de trajes y ventas de ropa. cajera administrativa gelateria y cafetería la plaza bulnes septiembre-2013 - abril-2014 trabaje como cajera administrativa durante un tiempo, en el cual cumplía el desempeño de manipuladora de alimentos, atención al cliente y bodeguera. digitadora-capacitadora servel-telefónica bulnes-chillán octubre-2013 - diciembre-2013 trabaje como digitadora y a la vez como capacitadora en los proyectos de elecciones presidenciales digitadora servel, telefónica bulnes-chillán junio-2013 - julio-2013 trabaje mediante telefónica para el servel, prestando servicios de digitadora en proyectos de elecciones ya sean presidenciales o municipales cajera administrativa ciber fdr bulnes, chile octubre-2011 - diciembre-2011 cajera administrativa ciber fdr bulnes, chile enero-2011 - febrero-2011 atención a clientes, administrar negocio ya sea finanzas stock de mercancía etc. ",
+    "RESUMEN": "- objetivo seguir creciendo como persona, aprender todos los días algo nuevo y hacerlo de la mejor manera. ",
+    "SKILLS": [],
+    "REFERENCIAS": ""
 }

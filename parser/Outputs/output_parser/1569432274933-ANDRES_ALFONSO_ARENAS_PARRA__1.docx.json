@@ -1,33 +1,33 @@
 {
-    "Contacto": {
-        "Nombre": "Andres Alfonso Ar ",
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": "Andres Alfonso Ar ",
+        "CORREO": [
             "andres11alfonso13@outlook.com"
         ],
-        "Celular": "964442891",
-        "Linkedin": null
+        "CELULAR": "164641333",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1569432274933-ANDRES_ALFONSO_ARENAS_PARRA__1.docx",
-    "Licencias-Certificaciones": [],
-    "Palabras Claves": [
+    "NOMBRE_ARCHIVO": "1569432274933-ANDRES_ALFONSO_ARENAS_PARRA__1.docx",
+    "LICENCIA_CERTIFICACION": [],
+    "PALABRAS_CLAVES": [
         "Proactividad",
-        "Aprender",
         "Responsabilidad",
+        "Aprender",
         "Disposición"
     ],
-    "Educacion": {
-        "Universidades:": [
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
             "Instituto Profesional de Chile"
         ],
-        "Grado_mas_alto": [
+        "GRADO_MAS_ALTO": [
             "Pregrado"
         ]
     },
-    "Lenguajes": [
+    "IDIOMAS": [
         "Alemán"
     ],
-    "Experiencia": "antecedentes laborales 18-01-2013 al 15-05-2015 jumbo maestro panadero alemán pastelero 14-06-2016 al 06-03-2017 manka s.a producción en cocina 23-10-2017 al 01-05-2018 pastelería dulce tentación producción tortas, semifrios, etc 21-08-2018 al 03-04-2019 panaderia pasteleria lo saldes maestro en producción en relleno de tortas, decorado, terminaciones. semifrioscheesecakes, tiramisu, tortas de yogur, etc. producción en diferentes tipos de masa , 123, sable, hojarasca, masa choux, panqueques, bizcochos, todo en grandes volúmenes. cualidades responsable - emprendedor - dedicado - personalidad - buena presencia - proactivo - buena disposición facilidad para aprender ",
-    "Resumen": "andres alfonso arenas parra curriculum vitae rut 16.464.133-3 dirección pasaje leonidas 1543, maipú celular 964442891 fecha de nacimiento 5 de junio de 1986 estado civil soltero nacionalidad chilena mail andres11alfonso13@outlook.com ",
-    "Skills": [],
-    "Referencias": ""
+    "EXPERIENCIA": "antecedentes laborales 18-01-2013 al 15-05-2015 jumbo maestro panadero alemán pastelero 14-06-2016 al 06-03-2017 manka s.a producción en cocina 23-10-2017 al 01-05-2018 pastelería dulce tentación producción tortas, semifrios, etc 21-08-2018 al 03-04-2019 panaderia pasteleria lo saldes maestro en producción en relleno de tortas, decorado, terminaciones. semifrioscheesecakes, tiramisu, tortas de yogur, etc. producción en diferentes tipos de masa , 123, sable, hojarasca, masa choux, panqueques, bizcochos, todo en grandes volúmenes. cualidades responsable - emprendedor - dedicado - personalidad - buena presencia - proactivo - buena disposición facilidad para aprender ",
+    "RESUMEN": "andres alfonso arenas parra curriculum vitae rut 16.464.133-3 dirección pasaje leonidas 1543, maipú celular 964442891 fecha de nacimiento 5 de junio de 1986 estado civil soltero nacionalidad chilena mail andres11alfonso13@outlook.com ",
+    "SKILLS": [],
+    "REFERENCIAS": ""
 }

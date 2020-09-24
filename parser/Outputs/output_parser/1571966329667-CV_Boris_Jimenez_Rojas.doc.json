@@ -1,37 +1,37 @@
 {
-    "Contacto": {
-        "Nombre": "Boris Alan Jiménez ",
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": "Boris Alan Jiménez ",
+        "CORREO": [
             "Boris.jimenez.r@gmail.com"
         ],
-        "Celular": "+56994347565",
-        "Linkedin": "linkedin.com/in/boris-jimenez-rojas"
+        "CELULAR": "+56994347565",
+        "LINKEDIN": "linkedin.com/in/boris-jimenez-rojas"
     },
-    "Nombre archivo": "1571966329667-CV_Boris_Jimenez_Rojas.doc",
-    "Licencias-Certificaciones": [
+    "NOMBRE_ARCHIVO": "1571966329667-CV_Boris_Jimenez_Rojas.doc",
+    "LICENCIA_CERTIFICACION": [
         "CCNA"
     ],
-    "Palabras Claves": [
-        "Comprometido",
-        "Responsabilidad",
-        "Gestión",
-        "Liderar",
+    "PALABRAS_CLAVES": [
         "Perfeccionista",
-        "Colaboración"
+        "Responsabilidad",
+        "Liderar",
+        "Colaboración",
+        "Gestión",
+        "Comprometido"
     ],
-    "Educacion": {
-        "Universidades:": [
-            "Universidad de Chile",
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
             "IP CIISA",
+            "Universidad de Chile",
             "Universidad Andrés Bello"
         ],
-        "Grado_mas_alto": [
+        "GRADO_MAS_ALTO": [
             "Pregrado"
         ]
     },
-    "Lenguajes": [],
-    "Experiencia": "experiencia laboral empresa netcomputer ltda, jefe de proyecto para el dpto. tic - minsal fecha octubre 2018 a la octubre 2019 descripción de funciones en esta posición, he administrado la cartera de proyectos asociados a mi cuenta, controlando el desarrollo de las soluciones tecnológicas, pruebas e implementación de los servicios. también he coordinado la gestión e implementación de proyectos de telecomunicaciones para los más de 2000 establecimientos de salud a lo largo del país. junto con esto, he participado en la elaboración de las bases técnicas y términos de referencia para las soluciones requeridas por minsal, entregando las definiciones pertinentes a los proveedores que participan de manera activa en el despliegue de las soluciones. una de las responsabilidades es detectar los riesgos de la implementación en la parte técnica y presupuestaria de cada uno de los proyectos a cargo. empresa vendenostuauto.com, jefe de operaciones y logística. fecha junio 2017 a septiembre 2018 descripción de funciones en esta compañía pude elaborar los procesos operativos, con el objetivo de las áreas internas podían interactuar y coordinar los trabajos relacionadas desde la compra hasta la venta de automóviles. además, dentro de mi rol, me permitía liderar a las áreas de operaciones y logística, en donde era fundamental seguir el proceso para la compañía y cumplir con los sla comprometidos, como eran estado y gestión documental de cada activo adquirido en los 17 puntos de compra en santiago y regiones al año 2018. en la generación de los procesos y logros de generar esta actividad de forma de excelencia, fue necesario implementar además diversos kpi que permitieron controlar a los funcionarios activos del equipo de trabajo y la logística de trabajo de forma día a día. empresa prosing ltda, ingeniero de implementación y proyectos entel. fecha abril 2013 a junio 2017 descripción de funciones en el periodo en la empresa prosing, pude desenvolver diferentes funciones para dos de los principales clientes, estos fueron entel y minsal. en entel, genere los procesos organizacionales para las áreas de operaciones y de servicios tecnológicos, los cuales ayudaron a generar una estructura de trabajo ordenada para el funcionamiento de estas áreas. además, de coordinar e implementar proyectos de innovación en el área de las telecomunicaciones, los cuales tenían la finalidad de mejorar la conectividad tecnología iwan, servicios paging y la integración de servicios de radio frecuencia con telefonía ip, estos proyectos tenían como clientes finales al mop y minsal. por otra parte, fui parte del proceso de migración tecnológica para minsal, en donde realicé trabajos de coordinación e implementación de la plataforma nuevas plataformas de telecomunicaciones, video conferencias y telefonía ip para más de 1500 establecimientos y 100.000 usuarios a lo largo del país. junto con ello fue necesario validar las nuevas soluciones tecnológicas para los servicios críticos que posee minsal, estos son las líneas de atención 131 y líneas 800. en el mismo marco supervisé y controlé la portabilidad numérica fija y móvil para los servicios de salud, seremis y organismos independientes del país. empresa electrolux chile, ingeniero de comunicaciones y sistemas fecha julio 2012 - abril 2013 descripción de funciones las funciones desempeñadas en esta compañía, fueron velar por el correcto funcionamiento de la red de comunicaciones, la cual incluía servicios de telefonía ip cisco, equipos de video conferencia y red lan de 5 sucursales. con lo anteriormente señalado debí controlar los trabajos realizados por las empresas contratistas la implementación de proyectos tecnológicos. otra de las funciones fue implementar los proyectos tecnológicos para las filiales internacionales de argentina y brasil, la cuales tenían como objetivo integrar con chile y el resto del mundo las soluciones corporativas. ",
-    "Resumen": "perfil profesional ingeniero civil industrial con diez años de experiencia laboral en el área de las telecomunicaciones servicios ti y en el sector automotriz, colaborando en la creación de nuevos proyectos y procesos operacionales con gran orientación a lograr metas y objetivos propuestos en mis roles laborales. se complementan mis estudios con el diplomado de gestión ti que me permite perfeccionar y optimizar los mecanismos de trabajo en las diferentes áreas en las cuales me he desempeñado. me gusta generar instancias de trabajo, en donde mi interés es desarrollar nuevos procesos y mejoras de flujos en las áreas que puedan aumentar la productividad en los equipos de trabajos. ",
-    "Skills": [],
-    "Referencias": ""
+    "IDIOMAS": [],
+    "EXPERIENCIA": "experiencia laboral empresa netcomputer ltda, jefe de proyecto para el dpto. tic - minsal fecha octubre 2018 a la octubre 2019 descripción de funciones en esta posición, he administrado la cartera de proyectos asociados a mi cuenta, controlando el desarrollo de las soluciones tecnológicas, pruebas e implementación de los servicios. también he coordinado la gestión e implementación de proyectos de telecomunicaciones para los más de 2000 establecimientos de salud a lo largo del país. junto con esto, he participado en la elaboración de las bases técnicas y términos de referencia para las soluciones requeridas por minsal, entregando las definiciones pertinentes a los proveedores que participan de manera activa en el despliegue de las soluciones. una de las responsabilidades es detectar los riesgos de la implementación en la parte técnica y presupuestaria de cada uno de los proyectos a cargo. empresa vendenostuauto.com, jefe de operaciones y logística. fecha junio 2017 a septiembre 2018 descripción de funciones en esta compañía pude elaborar los procesos operativos, con el objetivo de las áreas internas podían interactuar y coordinar los trabajos relacionadas desde la compra hasta la venta de automóviles. además, dentro de mi rol, me permitía liderar a las áreas de operaciones y logística, en donde era fundamental seguir el proceso para la compañía y cumplir con los sla comprometidos, como eran estado y gestión documental de cada activo adquirido en los 17 puntos de compra en santiago y regiones al año 2018. en la generación de los procesos y logros de generar esta actividad de forma de excelencia, fue necesario implementar además diversos kpi que permitieron controlar a los funcionarios activos del equipo de trabajo y la logística de trabajo de forma día a día. empresa prosing ltda, ingeniero de implementación y proyectos entel. fecha abril 2013 a junio 2017 descripción de funciones en el periodo en la empresa prosing, pude desenvolver diferentes funciones para dos de los principales clientes, estos fueron entel y minsal. en entel, genere los procesos organizacionales para las áreas de operaciones y de servicios tecnológicos, los cuales ayudaron a generar una estructura de trabajo ordenada para el funcionamiento de estas áreas. además, de coordinar e implementar proyectos de innovación en el área de las telecomunicaciones, los cuales tenían la finalidad de mejorar la conectividad tecnología iwan, servicios paging y la integración de servicios de radio frecuencia con telefonía ip, estos proyectos tenían como clientes finales al mop y minsal. por otra parte, fui parte del proceso de migración tecnológica para minsal, en donde realicé trabajos de coordinación e implementación de la plataforma nuevas plataformas de telecomunicaciones, video conferencias y telefonía ip para más de 1500 establecimientos y 100.000 usuarios a lo largo del país. junto con ello fue necesario validar las nuevas soluciones tecnológicas para los servicios críticos que posee minsal, estos son las líneas de atención 131 y líneas 800. en el mismo marco supervisé y controlé la portabilidad numérica fija y móvil para los servicios de salud, seremis y organismos independientes del país. empresa electrolux chile, ingeniero de comunicaciones y sistemas fecha julio 2012 - abril 2013 descripción de funciones las funciones desempeñadas en esta compañía, fueron velar por el correcto funcionamiento de la red de comunicaciones, la cual incluía servicios de telefonía ip cisco, equipos de video conferencia y red lan de 5 sucursales. con lo anteriormente señalado debí controlar los trabajos realizados por las empresas contratistas la implementación de proyectos tecnológicos. otra de las funciones fue implementar los proyectos tecnológicos para las filiales internacionales de argentina y brasil, la cuales tenían como objetivo integrar con chile y el resto del mundo las soluciones corporativas. ",
+    "RESUMEN": "perfil profesional ingeniero civil industrial con diez años de experiencia laboral en el área de las telecomunicaciones servicios ti y en el sector automotriz, colaborando en la creación de nuevos proyectos y procesos operacionales con gran orientación a lograr metas y objetivos propuestos en mis roles laborales. se complementan mis estudios con el diplomado de gestión ti que me permite perfeccionar y optimizar los mecanismos de trabajo en las diferentes áreas en las cuales me he desempeñado. me gusta generar instancias de trabajo, en donde mi interés es desarrollar nuevos procesos y mejoras de flujos en las áreas que puedan aumentar la productividad en los equipos de trabajos. ",
+    "SKILLS": [],
+    "REFERENCIAS": ""
 }

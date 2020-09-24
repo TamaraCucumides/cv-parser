@@ -1,26 +1,26 @@
 {
-    "Contacto": {
-        "Nombre": null,
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": null,
+        "CORREO": [
             "lesly.estay@hotmail.com"
         ],
-        "Celular": "972613626",
-        "Linkedin": null
+        "CELULAR": "176189002",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1571144188678-Curriculum_vitae_lesly.docx",
-    "Licencias-Certificaciones": [],
-    "Palabras Claves": null,
-    "Educacion": {
-        "Universidades:": [
+    "NOMBRE_ARCHIVO": "1571144188678-Curriculum_vitae_lesly.docx",
+    "LICENCIA_CERTIFICACION": [],
+    "PALABRAS_CLAVES": null,
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
             "Universidad Viña del Mar"
         ],
-        "Grado_mas_alto": [
+        "GRADO_MAS_ALTO": [
             "Pregrado"
         ]
     },
-    "Lenguajes": [],
-    "Experiencia": "Octubre 2014- Enero 2015 Atención público, Falabella Retail S.a. ",
-    "Resumen": "curriculum vitae ",
-    "Skills": [],
-    "Referencias": ""
+    "IDIOMAS": [],
+    "EXPERIENCIA": "Nombre Lesly Daniela Estay Pizarro Antecedentes de Practica Enero 2018- Marzo 2018 Empresa Melón S.a, planta La Calera. Enero 2019 - Marzo 2019 Empresa Melón S.a, planta La Calera. Antecedentes laborales Octubre 2014- Enero 2015 Atención público, Falabella Retail S.a. ",
+    "RESUMEN": "curriculum vitae ",
+    "SKILLS": [],
+    "REFERENCIAS": ""
 }

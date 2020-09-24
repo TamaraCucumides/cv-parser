@@ -1,37 +1,37 @@
 {
-    "Contacto": {
-        "Nombre": "Jorge Hernández Richards ",
-        "Correo": "kokexmn@gmail.com",
-        "Celular": "+56977096049",
-        "Linkedin": null
+    "CONTACTO": {
+        "NOMBRE": "Jorge Hernández Richards ",
+        "CORREO": "kokexmn@gmail.com",
+        "CELULAR": "+56977096049",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1571246777179-CV_Jorge_Hernandez.doc",
-    "Licencias-Certificaciones": [],
-    "Palabras Claves": [
-        "Aprender",
-        "Responsabilidad",
-        "Proactividad",
+    "NOMBRE_ARCHIVO": "1571246777179-CV_Jorge_Hernandez.doc",
+    "LICENCIA_CERTIFICACION": [],
+    "PALABRAS_CLAVES": [
+        "Ética",
         "Disposición",
-        "Motivación",
         "Adaptable",
-        "Ética"
+        "Responsabilidad",
+        "Aprender",
+        "Proactividad",
+        "Motivación"
     ],
-    "Educacion": {
-        "Universidades:": [
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
             "Universidad Mayor"
         ],
-        "Grado_mas_alto": [
+        "GRADO_MAS_ALTO": [
             "Pregrado"
         ]
     },
-    "Lenguajes": [
+    "IDIOMAS": [
         "Inglés"
     ],
-    "Experiencia": "experiencia laboral diciembre 2011 ciudad santiago enero 2014 a marzo 2014 ciudad santiago febrero 2016 a marzo 2018 ciudad santiago agosto 2018 a la fecha junio 2014 mayo 2015 octubre 2015 octubre 2018 monos climbing santiago surtelecom santaigo charlas y seminarios junio 2016 octubre 2018 monos climbing santiago surtelecom santiago ",
-    "Resumen": "perfil ",
-    "Skills": [
+    "EXPERIENCIA": "experiencia laboral diciembre 2011 ciudad santiago enero 2014 a marzo 2014 ciudad santiago febrero 2016 a marzo 2018 ciudad santiago agosto 2018 a la fecha junio 2014 mayo 2015 octubre 2015 octubre 2018 monos climbing santiago surtelecom santaigo charlas y seminarios junio 2016 octubre 2018 monos climbing santiago surtelecom santiago ",
+    "RESUMEN": "perfil ",
+    "SKILLS": [
         "Word",
         "Excel"
     ],
-    "Referencias": "referencias laborales "
+    "REFERENCIAS": "referencias laborales "
 }

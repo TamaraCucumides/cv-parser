@@ -1,44 +1,44 @@
 {
-    "Contacto": {
-        "Nombre": "Paula Andrea Castro ",
-        "Correo": "pcasop@gmail.com",
-        "Celular": "+56979881402",
-        "Linkedin": null
+    "CONTACTO": {
+        "NOMBRE": "Paula Andrea Castro ",
+        "CORREO": "pcasop@gmail.com",
+        "CELULAR": "+56979881402",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1567214474618-CV_PAULA_CASTRO.pdf",
-    "Licencias-Certificaciones": [
+    "NOMBRE_ARCHIVO": "1567214474618-CV_PAULA_CASTRO.pdf",
+    "LICENCIA_CERTIFICACION": [
         "TOEIC",
         "LICENCIA DE CONDUCIR"
     ],
-    "Palabras Claves": [
+    "PALABRAS_CLAVES": [
         "Liderazgo",
-        "Gestión",
         "Liderar",
-        "Negociación",
         "Voluntariado",
-        "Estrategia"
+        "Gestión",
+        "Estrategia",
+        "Negociación"
     ],
-    "Educacion": {
-        "Universidades:": [
-            "Universidad de Chile",
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
             "Universidad Tecnológica Metropolitana",
+            "Universidad de Chile",
             "Universidad Adolfo Ibáñez"
         ],
-        "Grado_mas_alto": [
+        "GRADO_MAS_ALTO": [
             "Postgrado"
         ]
     },
-    "Lenguajes": [
+    "IDIOMAS": [
         "Inglés"
     ],
-    "Experiencia": "experiencia profesional marzo 2019 a la fecha product owner gerencia de transformación digital afp capital noviembre 2015 febrero 2019 subdirectora área informática escuela de informática y telecomunicaciones duoc uc programa de talentos sura chile 2010-2013 programa con foco en entrenamiento de nuevos líderes. marzo 2015 noviembre 2015 jefe calidad área de calidad y experiencia gerencia de clientes sura docente duoc uc/ tutor programa pev escuela de informática y telecomunicaciones duoc uc febrero 2014 marzo 2015 jefe gestión de servicios área de calidad y servicios wm gerencia de clientes sura enero 2013 enero 2014 jefe de proyectos área de estrategia digital vicepresidencia de relacionamiento clientes wm sura abril 2012 diciembre 2012 jefe de proyectos área de servicios operacionales vicepresidencia de it sura septiembre 2010 febrero 2012 líder de proyectos área de desarrollo canales y servicios vicepresidencia de it ing chile abril 2008 septiembre 2010 analista senior de sistemas área de desarrollo comercial y segmentos vicepresidencia de it ing chile agosto 2007 marzo 2008 analista de gestión proceso y tecnología riesgo crédito banco de chile enero 2007 julio 2007 analista de sistemas área desarrollo - click support para bansander afp marzo 2006 diciembre 2006 analista de sistemas subgerencia de sistemas - bansander afp diciembre 2005 febrero 2006 práctica profesional ingeniero civil en computación. subgerencia de sistemas - bansander afp enero 2002 marzo 2002 práctica profesional técnico en programación de computadores banco estado ",
-    "Resumen": "resumen de formación ingeniero civil en computación con mención en informática, con amplia experiencia en la gestión de proyectos ti que apoyan a las diferentes áreas de negocio, principalmente de las industrias de afp, servicios financieros corredora de bolsa, seguros de vida, ffmm, rentas y banca. diplomada en dirección de servicios en uai con experiencia en funciones de calidad y servicio al cliente focalizada en mejoras de procesos de servicio y satisfacción. experiencia dirigiendo la escuela de informática y telecomunicaciones de una prestigiosa institución de educación a cargo del desarrollo de los planes de carrera, vinculación con el medio y procesos de acreditación. actualmente liderando una célula en la gerencia de transformación digital de afp capital. habilidades de liderazgo, foco cliente, innovación, construcción de equipos, educación y en comunicaciones interpersonales. ",
-    "Skills": [
-        "Toeic",
+    "EXPERIENCIA": "experiencia profesional marzo 2019 a la fecha product owner gerencia de transformación digital afp capital noviembre 2015 febrero 2019 subdirectora área informática escuela de informática y telecomunicaciones duoc uc programa de talentos sura chile 2010-2013 programa con foco en entrenamiento de nuevos líderes. marzo 2015 noviembre 2015 jefe calidad área de calidad y experiencia gerencia de clientes sura docente duoc uc/ tutor programa pev escuela de informática y telecomunicaciones duoc uc febrero 2014 marzo 2015 jefe gestión de servicios área de calidad y servicios wm gerencia de clientes sura enero 2013 enero 2014 jefe de proyectos área de estrategia digital vicepresidencia de relacionamiento clientes wm sura abril 2012 diciembre 2012 jefe de proyectos área de servicios operacionales vicepresidencia de it sura septiembre 2010 febrero 2012 líder de proyectos área de desarrollo canales y servicios vicepresidencia de it ing chile abril 2008 septiembre 2010 analista senior de sistemas área de desarrollo comercial y segmentos vicepresidencia de it ing chile agosto 2007 marzo 2008 analista de gestión proceso y tecnología riesgo crédito banco de chile enero 2007 julio 2007 analista de sistemas área desarrollo - click support para bansander afp marzo 2006 diciembre 2006 analista de sistemas subgerencia de sistemas - bansander afp diciembre 2005 febrero 2006 práctica profesional ingeniero civil en computación. subgerencia de sistemas - bansander afp enero 2002 marzo 2002 práctica profesional técnico en programación de computadores banco estado ",
+    "RESUMEN": "resumen de formación ingeniero civil en computación con mención en informática, con amplia experiencia en la gestión de proyectos ti que apoyan a las diferentes áreas de negocio, principalmente de las industrias de afp, servicios financieros corredora de bolsa, seguros de vida, ffmm, rentas y banca. diplomada en dirección de servicios en uai con experiencia en funciones de calidad y servicio al cliente focalizada en mejoras de procesos de servicio y satisfacción. experiencia dirigiendo la escuela de informática y telecomunicaciones de una prestigiosa institución de educación a cargo del desarrollo de los planes de carrera, vinculación con el medio y procesos de acreditación. actualmente liderando una célula en la gerencia de transformación digital de afp capital. habilidades de liderazgo, foco cliente, innovación, construcción de equipos, educación y en comunicaciones interpersonales. ",
+    "SKILLS": [
         "Sap",
-        "Scrum",
+        "Office",
         "Crm",
-        "Office"
+        "Scrum",
+        "Toeic"
     ],
-    "Referencias": "referencias yanina manassa directora customer service y cc - latam teléfono 569 68447425 / mail yanina.manassa@latam.com lorena olate subgerente de gestión comercial - metlife teléfono 569944502654 / mail lolateg@gmail.com cristian barros gerente de tecnología sura chile teléfono 56229152377 /mail cristian.barros@sura.cl "
+    "REFERENCIAS": "referencias yanina manassa directora customer service y cc - latam teléfono 569 68447425 / mail yanina.manassa@latam.com lorena olate subgerente de gestión comercial - metlife teléfono 569944502654 / mail lolateg@gmail.com cristian barros gerente de tecnología sura chile teléfono 56229152377 /mail cristian.barros@sura.cl "
 }

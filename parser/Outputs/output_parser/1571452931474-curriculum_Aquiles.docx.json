@@ -1,29 +1,29 @@
 {
-    "Contacto": {
-        "Nombre": null,
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": null,
+        "CORREO": [
             "aquiles.rojas@cftsa.cl"
         ],
-        "Celular": "+56993112646",
-        "Linkedin": null
+        "CELULAR": "+56993112646",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1571452931474-curriculum_Aquiles.docx",
-    "Licencias-Certificaciones": [
-        "LICENCIA DE CONDUCIR",
-        "CLASE B"
+    "NOMBRE_ARCHIVO": "1571452931474-curriculum_Aquiles.docx",
+    "LICENCIA_CERTIFICACION": [
+        "CLASE B",
+        "LICENCIA DE CONDUCIR"
     ],
-    "Palabras Claves": null,
-    "Educacion": {
-        "Universidades:": [
+    "PALABRAS_CLAVES": null,
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
             "Centro de formación técnica San Agustín"
         ],
-        "Grado_mas_alto": [
+        "GRADO_MAS_ALTO": [
             "Técnico"
         ]
     },
-    "Lenguajes": [],
-    "Experiencia": "datos laborales recolector de morones en empresa familiar paletizador empresas copefrut s.a. atención sala de ventas empresa alfe y nisen bodeguero empresas vital fruit empaque y reponedor supermercado bascuñán practicante en áridos arial ",
-    "Resumen": "curriculum vitae ",
-    "Skills": [],
-    "Referencias": ""
+    "IDIOMAS": [],
+    "EXPERIENCIA": "datos laborales recolector de morones en empresa familiar paletizador empresas copefrut s.a. atención sala de ventas empresa alfe y nisen bodeguero empresas vital fruit empaque y reponedor supermercado bascuñán practicante en áridos arial ",
+    "RESUMEN": "curriculum vitae ",
+    "SKILLS": [],
+    "REFERENCIAS": ""
 }

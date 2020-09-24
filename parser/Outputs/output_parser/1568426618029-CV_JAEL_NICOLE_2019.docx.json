@@ -1,26 +1,26 @@
 {
-    "Contacto": {
-        "Nombre": null,
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": null,
+        "CORREO": [
             "jaelnicole2000@gmail.com"
         ],
-        "Celular": "972824551",
-        "Linkedin": null
+        "CELULAR": "203119984",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1568426618029-CV_JAEL_NICOLE_2019.docx",
-    "Licencias-Certificaciones": [],
-    "Palabras Claves": [
-        "Comprometido",
+    "NOMBRE_ARCHIVO": "1568426618029-CV_JAEL_NICOLE_2019.docx",
+    "LICENCIA_CERTIFICACION": [],
+    "PALABRAS_CLAVES": [
         "Proactividad",
-        "Responsabilidad"
+        "Responsabilidad",
+        "Comprometido"
     ],
-    "Educacion": {
-        "Universidades:": [],
-        "Grado_mas_alto": []
+    "EDUCACION": {
+        "UNIVERSIDADES:": [],
+        "GRADO_MAS_ALTO": []
     },
-    "Lenguajes": [],
-    "Experiencia": "experiencia laboral trabajo operativo en empresa frutos del prado ltda. referencia gerardo tapia soto. teléfono de contacto 991509181 habilidades joven responsable, proactiva, dedicada y comprometida. disponibilidad inmediata. ",
-    "Resumen": "curriculum vitae ",
-    "Skills": [],
-    "Referencias": ""
+    "IDIOMAS": [],
+    "EXPERIENCIA": "experiencia laboral trabajo operativo en empresa frutos del prado ltda. referencia gerardo tapia soto. teléfono de contacto 991509181 habilidades joven responsable, proactiva, dedicada y comprometida. disponibilidad inmediata. ",
+    "RESUMEN": "curriculum vitae ",
+    "SKILLS": [],
+    "REFERENCIAS": ""
 }

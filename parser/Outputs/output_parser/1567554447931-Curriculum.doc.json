@@ -1,31 +1,31 @@
 {
-    "Contacto": {
-        "Nombre": null,
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": null,
+        "CORREO": [
             "Antonieta98@live.cl"
         ],
-        "Celular": "+56933932419",
-        "Linkedin": null
+        "CELULAR": "+56933932419",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1567554447931-Curriculum.doc",
-    "Licencias-Certificaciones": [],
-    "Palabras Claves": [
+    "NOMBRE_ARCHIVO": "1567554447931-Curriculum.doc",
+    "LICENCIA_CERTIFICACION": [],
+    "PALABRAS_CLAVES": [
+        "Responsabilidad",
         "Aprender",
-        "Puntual",
-        "Responsabilidad"
+        "Puntual"
     ],
-    "Educacion": {
-        "Universidades:": [],
-        "Grado_mas_alto": [
+    "EDUCACION": {
+        "UNIVERSIDADES:": [],
+        "GRADO_MAS_ALTO": [
             "Técnico"
         ]
     },
-    "Lenguajes": [],
-    "Experiencia": "experiencia laboral noviembre 2016-febrero 2017 práctica de contabilidad realizada en empresa cyccontadores spa febrero 2017 diciembre 2018 asistente contable en empresa cyccontadores spa diciembre 2018- mayo 2019 asistente contable en empresa puente de triana ii spa junio 2019-actualmente ayudante administrativa en passaro gonzalez leyria spa ",
-    "Resumen": "perfil profesional soy una persona responsable, honesta, organizada, con aspiraciones y deseos de superación y metas basadas en el logro de objetivos aprendo con rapidez y me intereso por cumplir de manera adecuada con la puntualidad, honestidad y responsabilidad en las distintas actividades que realizo. ",
-    "Skills": [
+    "IDIOMAS": [],
+    "EXPERIENCIA": "experiencia laboral noviembre 2016-febrero 2017 práctica de contabilidad realizada en empresa cyccontadores spa febrero 2017 diciembre 2018 asistente contable en empresa cyccontadores spa diciembre 2018- mayo 2019 asistente contable en empresa puente de triana ii spa junio 2019-actualmente ayudante administrativa en passaro gonzalez leyria spa ",
+    "RESUMEN": "perfil profesional soy una persona responsable, honesta, organizada, con aspiraciones y deseos de superación y metas basadas en el logro de objetivos aprendo con rapidez y me intereso por cumplir de manera adecuada con la puntualidad, honestidad y responsabilidad en las distintas actividades que realizo. ",
+    "SKILLS": [
         "Defontana",
         "Office"
     ],
-    "Referencias": ""
+    "REFERENCIAS": ""
 }

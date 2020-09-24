@@ -1,20 +1,20 @@
 {
-    "Contacto": {
-        "Nombre": null,
-        "Correo": [],
-        "Celular": "",
-        "Linkedin": null
+    "CONTACTO": {
+        "NOMBRE": null,
+        "CORREO": [],
+        "CELULAR": "",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1569271742694-CV.pdf",
-    "Licencias-Certificaciones": [],
-    "Palabras Claves": null,
-    "Educacion": {
-        "Universidades:": [],
-        "Grado_mas_alto": []
+    "NOMBRE_ARCHIVO": "1569271742694-CV.pdf",
+    "LICENCIA_CERTIFICACION": [],
+    "PALABRAS_CLAVES": null,
+    "EDUCACION": {
+        "UNIVERSIDADES:": [],
+        "GRADO_MAS_ALTO": []
     },
-    "Lenguajes": [],
-    "Experiencia": "",
-    "Resumen": "",
-    "Skills": [],
-    "Referencias": ""
+    "IDIOMAS": [],
+    "EXPERIENCIA": "",
+    "RESUMEN": "",
+    "SKILLS": [],
+    "REFERENCIAS": ""
 }

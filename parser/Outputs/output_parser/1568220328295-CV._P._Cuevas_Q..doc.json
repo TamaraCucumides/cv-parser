@@ -1,28 +1,28 @@
 {
-    "Contacto": {
-        "Nombre": null,
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": null,
+        "CORREO": [
             "pafracuevas@gmail.com"
         ],
-        "Celular": "027616299",
-        "Linkedin": null
+        "CELULAR": "177713430",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1568220328295-CV._P._Cuevas_Q..doc",
-    "Licencias-Certificaciones": [],
-    "Palabras Claves": null,
-    "Educacion": {
-        "Universidades:": [
+    "NOMBRE_ARCHIVO": "1568220328295-CV._P._Cuevas_Q..doc",
+    "LICENCIA_CERTIFICACION": [],
+    "PALABRAS_CLAVES": null,
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
             "Universidad Alberto Hurtado",
-            "Instituto Profesional AIEP",
-            "Instituto Profesional DUOC UC"
+            "Instituto Profesional DUOC UC",
+            "Instituto Profesional AIEP"
         ],
-        "Grado_mas_alto": [
+        "GRADO_MAS_ALTO": [
             "Pregrado"
         ]
     },
-    "Lenguajes": [],
-    "Experiencia": "antecedentes laborales 2010 diciembre ordenadora falabella apoyo navidad 2011 diciembre ordenadora falabella apoyo navidad 2011 enero telepizza pizera 2011 octubre examinadora simce, empresa ingemas 2011 marzo promotora campaña pascua de resurrección carozzi, agencia bb 2011 marzo promotora jumbo 2012 enero asistente de admisión instituto profesional aiep sa 2012- 2016 empaque ured 2012 agosto cajera punto snack movistar arena 2012 octubre examinadora simce u. técnica federico santa maría 2012 noviembre staff maquinaria 2012 2013 febrero bodeguera en proyecto mineduc 2013 empresa andes s.a. 2013 octubre examinadora simce u. técnica federico santa maría 2013 noviembre staff festival frontera 2013 2013 diciembre gestora de ventas productos somela agencia pro gestión humana 2014 noviembre staff festival frontera 2014 2014 diciembre staff festival rockout 2014 2015 trabajadora social, área becas y créditos instituto profesional duoc uc. 2016-2017 a la fecha educadora educación no formal corporación jesús niño. paulina francisca cuevas quezada santiago, 2019 ",
-    "Resumen": "curriculum vitae ",
-    "Skills": [],
-    "Referencias": ""
+    "IDIOMAS": [],
+    "EXPERIENCIA": "antecedentes laborales 2010 diciembre ordenadora falabella apoyo navidad 2011 diciembre ordenadora falabella apoyo navidad 2011 enero telepizza pizera 2011 octubre examinadora simce, empresa ingemas 2011 marzo promotora campaña pascua de resurrección carozzi, agencia bb 2011 marzo promotora jumbo 2012 enero asistente de admisión instituto profesional aiep sa 2012- 2016 empaque ured 2012 agosto cajera punto snack movistar arena 2012 octubre examinadora simce u. técnica federico santa maría 2012 noviembre staff maquinaria 2012 2013 febrero bodeguera en proyecto mineduc 2013 empresa andes s.a. 2013 octubre examinadora simce u. técnica federico santa maría 2013 noviembre staff festival frontera 2013 2013 diciembre gestora de ventas productos somela agencia pro gestión humana 2014 noviembre staff festival frontera 2014 2014 diciembre staff festival rockout 2014 2015 trabajadora social, área becas y créditos instituto profesional duoc uc. 2016-2017 a la fecha educadora educación no formal corporación jesús niño. paulina francisca cuevas quezada santiago, 2019 ",
+    "RESUMEN": "curriculum vitae ",
+    "SKILLS": [],
+    "REFERENCIAS": ""
 }

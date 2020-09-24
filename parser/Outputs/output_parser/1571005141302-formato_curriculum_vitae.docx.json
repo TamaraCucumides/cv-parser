@@ -1,38 +1,38 @@
 {
-    "Contacto": {
-        "Nombre": null,
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": null,
+        "CORREO": [
             "pdro9494@gmail.com"
         ],
-        "Celular": "+56969197030",
-        "Linkedin": null
+        "CELULAR": "+56969197030",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1571005141302-formato_curriculum_vitae.docx",
-    "Licencias-Certificaciones": [
-        "LICENCIA DE CONDUCIR",
-        "CLASE B"
+    "NOMBRE_ARCHIVO": "1571005141302-formato_curriculum_vitae.docx",
+    "LICENCIA_CERTIFICACION": [
+        "CLASE B",
+        "LICENCIA DE CONDUCIR"
     ],
-    "Palabras Claves": null,
-    "Educacion": {
-        "Universidades:": [
+    "PALABRAS_CLAVES": null,
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
             "Universidad Andrés Bello"
         ],
-        "Grado_mas_alto": [
+        "GRADO_MAS_ALTO": [
             "Pregrado"
         ]
     },
-    "Lenguajes": [
+    "IDIOMAS": [
         "Español",
         "Inglés"
     ],
-    "Experiencia": "experiencia laboral experiencia atendiendo gente, trabajo de verdulería, caja en eventos. informatica nivel medio de uso en programas como microsoft office, excel, power point lenguaje de programación básico python, básico java. idioma español lengua materna ingles medio alto ",
-    "Resumen": "curriculum vitae ",
-    "Skills": [
-        "Python",
-        "Java",
+    "EXPERIENCIA": "experiencia laboral experiencia atendiendo gente, trabajo de verdulería, caja en eventos. informatica nivel medio de uso en programas como microsoft office, excel, power point lenguaje de programación básico python, básico java. idioma español lengua materna ingles medio alto ",
+    "RESUMEN": "curriculum vitae ",
+    "SKILLS": [
         "Power point",
-        "Excel",
-        "Office"
+        "Java",
+        "Python",
+        "Office",
+        "Excel"
     ],
-    "Referencias": ""
+    "REFERENCIAS": ""
 }

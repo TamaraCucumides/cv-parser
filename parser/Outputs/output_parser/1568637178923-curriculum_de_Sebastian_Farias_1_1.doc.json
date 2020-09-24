@@ -1,25 +1,25 @@
 {
-    "Contacto": {
-        "Nombre": null,
-        "Correo": [],
-        "Celular": "",
-        "Linkedin": null
+    "CONTACTO": {
+        "NOMBRE": null,
+        "CORREO": [],
+        "CELULAR": "188261000",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1568637178923-curriculum_de_Sebastian_Farias_1_1.doc",
-    "Licencias-Certificaciones": [
-        "LICENCIA DE CONDUCIR",
-        "CLASE B"
+    "NOMBRE_ARCHIVO": "1568637178923-curriculum_de_Sebastian_Farias_1_1.doc",
+    "LICENCIA_CERTIFICACION": [
+        "CLASE B",
+        "LICENCIA DE CONDUCIR"
     ],
-    "Palabras Claves": null,
-    "Educacion": {
-        "Universidades:": [],
-        "Grado_mas_alto": [
+    "PALABRAS_CLAVES": null,
+    "EDUCACION": {
+        "UNIVERSIDADES:": [],
+        "GRADO_MAS_ALTO": [
             "Pregrado"
         ]
     },
-    "Lenguajes": [],
-    "Experiencia": "antecedentes laborales 2011. alumno en practica empresa de arriendo hertz , calama cargo asistente contable. 2012. alumno en práctica empresa de trasportes cortes-flores cargo asistente contable. 2013. práctica profesional empresa de trasportes cortes-flores cargo administrador contable. 2013 empresas cencosud chile cargo cajero administrativo 2014-2015 empresa de trasportes cortes-flores eirl cargo encargado documentación laboral gestión y control 2016- actualidad empresa cooperativa de ahorro y créditos norte grande. cargo administrativo general ",
-    "Resumen": "curriculum vitae ",
-    "Skills": [],
-    "Referencias": ""
+    "IDIOMAS": [],
+    "EXPERIENCIA": "antecedentes laborales 2011. alumno en practica empresa de arriendo hertz , calama cargo asistente contable. 2012. alumno en práctica empresa de trasportes cortes-flores cargo asistente contable. 2013. práctica profesional empresa de trasportes cortes-flores cargo administrador contable. 2013 empresas cencosud chile cargo cajero administrativo 2014-2015 empresa de trasportes cortes-flores eirl cargo encargado documentación laboral gestión y control 2016- actualidad empresa cooperativa de ahorro y créditos norte grande. cargo administrativo general ",
+    "RESUMEN": "curriculum vitae ",
+    "SKILLS": [],
+    "REFERENCIAS": ""
 }

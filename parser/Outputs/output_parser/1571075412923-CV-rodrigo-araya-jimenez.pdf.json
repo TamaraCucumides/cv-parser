@@ -1,31 +1,33 @@
 {
-    "Contacto": {
-        "Nombre": "Rodrigo Araya Jime ",
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": "Rodrigo Araya Jime ",
+        "CORREO": [
             "raaraya1@miuandes.cl"
         ],
-        "Celular": "+56966627482",
-        "Linkedin": null
+        "CELULAR": "+19078511456",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1571075412923-CV-rodrigo-araya-jimenez.pdf",
-    "Licencias-Certificaciones": [],
-    "Palabras Claves": [
+    "NOMBRE_ARCHIVO": "1571075412923-CV-rodrigo-araya-jimenez.pdf",
+    "LICENCIA_CERTIFICACION": [],
+    "PALABRAS_CLAVES": [
+        "Negociación",
         "Gestión",
-        "Modelamiento",
-        "Negociación"
+        "Modelamiento"
     ],
-    "Educacion": {
-        "Universidades:": [],
-        "Grado_mas_alto": [
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
+            "Universidad de los Andes"
+        ],
+        "GRADO_MAS_ALTO": [
             "Pregrado"
         ]
     },
-    "Lenguajes": [
-        "Italiano",
-        "Inglés"
+    "IDIOMAS": [
+        "Inglés",
+        "Italiano"
     ],
-    "Experiencia": "experiencia laboral ago 2019 - actual ayudante curso modelamiento - universidad de los andes ayudante de moldeamiento, realizando funciones de corrector de evaluaciones y pruebas. ene 2019 - feb 2019 operario - laboratorio eli lilly elanco animal health práctica operario de piscicultura, realizando funciones de pesaje y administración de alimento a peces, y respecto a las medidas de bioseguridad, aseo y ornato de la sala de peces, rotulación de materiales, mantención de barreras sanitarios y orden de bodega de insumos. ",
-    "Resumen": "presentación licenciado en bases de la ingeniería con una formación en operaciones industriales, además de investigación en gestión de servicios. ",
-    "Skills": [],
-    "Referencias": ""
+    "EXPERIENCIA": "experiencia laboral ago 2019 - actual ayudante curso modelamiento - universidad de los andes ayudante de moldeamiento, realizando funciones de corrector de evaluaciones y pruebas. ene 2019 - feb 2019 operario - laboratorio eli lilly elanco animal health práctica operario de piscicultura, realizando funciones de pesaje y administración de alimento a peces, y respecto a las medidas de bioseguridad, aseo y ornato de la sala de peces, rotulación de materiales, mantención de barreras sanitarios y orden de bodega de insumos. ",
+    "RESUMEN": "presentación licenciado en bases de la ingeniería con una formación en operaciones industriales, además de investigación en gestión de servicios. ",
+    "SKILLS": [],
+    "REFERENCIAS": ""
 }

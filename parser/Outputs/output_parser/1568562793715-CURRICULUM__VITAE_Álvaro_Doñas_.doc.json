@@ -1,26 +1,24 @@
 {
-    "Contacto": {
-        "Nombre": null,
-        "Correo": "Alvaro.adu@gmail.com",
-        "Celular": "+56223136421",
-        "Linkedin": null
+    "CONTACTO": {
+        "NOMBRE": null,
+        "CORREO": "Alvaro.adu@gmail.com",
+        "CELULAR": "+56223136421",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1568562793715-CURRICULUM__VITAE_Álvaro_Doñas_.doc",
-    "Licencias-Certificaciones": [],
-    "Palabras Claves": null,
-    "Educacion": {
-        "Universidades:": [
+    "NOMBRE_ARCHIVO": "1568562793715-CURRICULUM__VITAE_Álvaro_Doñas_.doc",
+    "LICENCIA_CERTIFICACION": [],
+    "PALABRAS_CLAVES": null,
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
             "Universidad Central de Chile"
         ],
-        "Grado_mas_alto": [
+        "GRADO_MAS_ALTO": [
             "Pregrado"
         ]
     },
-    "Lenguajes": [],
-    "Experiencia": "experiencia laboral ayudante centro de aprendizaje, ciencias básicas. universidad central de chile. 2015. ayudante centro de aprendizaje, ciencias básicas. universidad central de chile. 2016. ayudante matemáticas iii escuela de contabilidad y auditoría. primer semestre 2016. practica operacional enero - marzo 2017, realizada en asmin industrial. operador de planta piloto de flotación. operador de sector lixiviación. operador sector chancado. practica operacional febrero - marzo 2018, realizada en minera los pelambres. toma de tiempo de perforadora, crear una base de datos y poder regular los tiempos efectivos, pérdidas operacionales y establecer parámetros claves para equipar la nueva flota de perforadoras. ",
-    "Resumen": "curriculum vitae nombre álvaro antonio doñas ulloa fono 56-22-3136421 celular 56-9-92188783 arcángel 1855, pedro aguirre cerda. ",
-    "Skills": [
-        "Base de datos"
-    ],
-    "Referencias": "referencias susan levis. jefe de contratos. profesora de introducción a la minería u. central. 1er semestre 2013. mail slevis@pelambres.cl tel 56-22-7984-192 "
+    "IDIOMAS": [],
+    "EXPERIENCIA": "experiencia laboral ayudante centro de aprendizaje, ciencias básicas. universidad central de chile. 2015. ayudante centro de aprendizaje, ciencias básicas. universidad central de chile. 2016. ayudante matemáticas iii escuela de contabilidad y auditoría. primer semestre 2016. practica operacional enero - marzo 2017, realizada en asmin industrial. operador de planta piloto de flotación. operador de sector lixiviación. operador sector chancado. practica operacional febrero - marzo 2018, realizada en minera los pelambres. toma de tiempo de perforadora, crear una base de datos y poder regular los tiempos efectivos, pérdidas operacionales y establecer parámetros claves para equipar la nueva flota de perforadoras. ",
+    "RESUMEN": "curriculum vitae nombre álvaro antonio doñas ulloa fono 56-22-3136421 celular 56-9-92188783 arcángel 1855, pedro aguirre cerda. ",
+    "SKILLS": [],
+    "REFERENCIAS": "referencias susan levis. jefe de contratos. profesora de introducción a la minería u. central. 1er semestre 2013. mail slevis@pelambres.cl tel 56-22-7984-192 "
 }

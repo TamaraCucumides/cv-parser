@@ -1,28 +1,28 @@
 {
-    "Contacto": {
-        "Nombre": null,
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": null,
+        "CORREO": [
             "n.munoz94@gmail.com"
         ],
-        "Celular": "+56979972328",
-        "Linkedin": null
+        "CELULAR": "+56979972328",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1570732126637-CV_Natalia_M._chile.docx",
-    "Licencias-Certificaciones": [],
-    "Palabras Claves": null,
-    "Educacion": {
-        "Universidades:": [
+    "NOMBRE_ARCHIVO": "1570732126637-CV_Natalia_M._chile.docx",
+    "LICENCIA_CERTIFICACION": [],
+    "PALABRAS_CLAVES": null,
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
             "Universidad Andrés Bello"
         ],
-        "Grado_mas_alto": [
+        "GRADO_MAS_ALTO": [
             "Pregrado"
         ]
     },
-    "Lenguajes": [
+    "IDIOMAS": [
         "Inglés"
     ],
-    "Experiencia": "Expereciencia Laboral Mc banquetes Garzón -Barman. Atender matrimonios y fiestas para empresas, montaje de ambientes, servicio de platos, funciones de Barman, desmontaje y limpieza Calzados Ibiza Tienda de zapatos y carteras españoles. Vendedora y cajera en horarios par-time en la semana, llevar inventario de stock de zapatos y accesorios semanales, cierres de caja diarios, limpiar, ordenar y organizar la tienda. Vuelvo al Sur Empresa de suvenir de diseño y producción chilena. Vendedora y cajera en ferias y eventos, ayudante de producción, trabajos en taller como impresión de diseños, estampados, moldes de calcetines, guantes, bufandas y etiquetados de productos. CachaiPop Tienda de diseño de autor Latinoamericano de vestimenta, accesorios y carteras. Vendedora y cajera en tienda y en ferias en las que la marca tiene participación. Recepción Spa Restaurante y Bar camarera / Barista, registro de reservas del Spa del hotel, inventario de atenciones del Spa, responder mail de consultas y reservas e informes semanales informativos a la dirección, Atención del bar de piscina, camarera de cafetería y restaurante del hotel, montaje de desayunos bufete, montaje y organización de eventos en salones. Manejo y afinidad con niños pequeños. Trabajo como babysitter de manera ocasional en la cual se requiere desarrollo de creatividad. ",
-    "Resumen": "curriculum vitae ",
-    "Skills": [],
-    "Referencias": ""
+    "EXPERIENCIA": "Nombre Natalia Alejandra Muñoz Alday Expereciencia Laboral Mc banquetes Tienda de zapatos y carteras españoles. Vendedora y cajera en horarios par-time en la semana, llevar inventario de stock de zapatos y accesorios semanales, cierres de caja diarios, limpiar, ordenar y organizar la tienda. Vuelvo al Sur Empresa de suvenir de diseño y producción chilena. Vendedora y cajera en ferias y eventos, ayudante de producción, trabajos en taller como impresión de diseños, estampados, moldes de calcetines, guantes, bufandas y etiquetados de productos. CachaiPop Tienda de diseño de autor Latinoamericano de vestimenta, accesorios y carteras. Vendedora y cajera en tienda y en ferias en las que la marca tiene participación. Recepción Spa Restaurante y Bar camarera / Barista, registro de reservas del Spa del hotel, inventario de atenciones del Spa, responder mail de consultas y reservas e informes semanales informativos a la dirección, Atención del bar de piscina, camarera de cafetería y restaurante del hotel, montaje de desayunos bufete, montaje y organización de eventos en salones. Manejo y afinidad con niños pequeños. Trabajo como babysitter de manera ocasional en la cual se requiere desarrollo de creatividad. ",
+    "RESUMEN": "curriculum vitae ",
+    "SKILLS": [],
+    "REFERENCIAS": ""
 }

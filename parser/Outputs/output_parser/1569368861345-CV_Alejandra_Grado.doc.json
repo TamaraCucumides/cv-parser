@@ -1,40 +1,39 @@
 {
-    "Contacto": {
-        "Nombre": "Alejandra Grado Labayru ",
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": "Alejandra Grado Labayru ",
+        "CORREO": [
             "alejandragrado@yahoo.es"
         ],
-        "Celular": "985951763",
-        "Linkedin": null
+        "CELULAR": "985951763",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1569368861345-CV_Alejandra_Grado.doc",
-    "Licencias-Certificaciones": [],
-    "Palabras Claves": [
+    "NOMBRE_ARCHIVO": "1569368861345-CV_Alejandra_Grado.doc",
+    "LICENCIA_CERTIFICACION": [],
+    "PALABRAS_CLAVES": [
         "Responsabilidad",
-        "Gestión",
         "Liderar",
-        "Negociación",
-        "Estrategia"
+        "Gestión",
+        "Estrategia",
+        "Negociación"
     ],
-    "Educacion": {
-        "Universidades:": [
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
             "Universidad de Chile",
-            "Universidad Andrés Bello",
-            "Universidad Adolfo Ibáñez"
+            "Universidad Adolfo Ibáñez",
+            "Universidad Andrés Bello"
         ],
-        "Grado_mas_alto": [
+        "GRADO_MAS_ALTO": [
             "Postgrado"
         ]
     },
-    "Lenguajes": [],
-    "Experiencia": "experiencia laboral cámara regional de comercio valparaiso enero 2017 a la fecha gerente servicios empresariales funciones desarrollar un plan de fidelización y captación de socios. establecer las acciones necesarias para garantizar la satisfacción y captación de nuevos asociados. gestionar y administrar los distintos beneficios que se otorgan a los socios según segmentación. liderar acciones comerciales para velar por la fidelización y satisfacción de los socios y clientes. gestionar la comercialización de productos y servicios asociados a su área, diseñando la estrategia y desarrollando los negocios actuales y potenciales para la institución. desarrollo y ejecucion de cyberegiones. telefónica empresas enero-diciembre 2016 account manager grandes empresas v región. proyecto clientes no tocados funciones directa negociación clientes segmento grandes empresas venta portafolio servicios voz, datos, telefonía fija, servicios privados y digitales. telefónica movistar enero 2011 septiembre 2015 key account manager ggtt retail v región. cargo dependiente de la gerencia de ventas retail de la compañía, con responsabilidad directa sobre 140 vendedores, 5 supervisores y 3 merchán de imagen. funciones elaborar informes de pdv, share regionales y rotación de stock. directa negociación clientes regionales seidemann, javer, casa ximena, cintegral y falabella connect i- v región. liderar correcto desempeño de supervisores y vendedores a cargo, asegurando cumplimientos de metas asignadas y cobertura total de pdv. ",
-    "Resumen": "resumen profesional ingeniero comercial universidad de valparaíso, magister en dirección estratégica uai, con orientación hacia la dirección de equipos comerciales de alto rendimiento y cumplimientos de logros en canal retail, amplio manejo de relaciones interpersonales. ",
-    "Skills": [
-        "Visual basic",
-        "Word",
+    "IDIOMAS": [],
+    "EXPERIENCIA": "experiencia laboral cámara regional de comercio valparaiso enero 2017 a la fecha gerente servicios empresariales funciones desarrollar un plan de fidelización y captación de socios. establecer las acciones necesarias para garantizar la satisfacción y captación de nuevos asociados. gestionar y administrar los distintos beneficios que se otorgan a los socios según segmentación. liderar acciones comerciales para velar por la fidelización y satisfacción de los socios y clientes. gestionar la comercialización de productos y servicios asociados a su área, diseñando la estrategia y desarrollando los negocios actuales y potenciales para la institución. desarrollo y ejecucion de cyberegiones. telefónica empresas enero-diciembre 2016 account manager grandes empresas v región. proyecto clientes no tocados funciones directa negociación clientes segmento grandes empresas venta portafolio servicios voz, datos, telefonía fija, servicios privados y digitales. telefónica movistar enero 2011 septiembre 2015 key account manager ggtt retail v región. cargo dependiente de la gerencia de ventas retail de la compañía, con responsabilidad directa sobre 140 vendedores, 5 supervisores y 3 merchán de imagen. funciones elaborar informes de pdv, share regionales y rotación de stock. directa negociación clientes regionales seidemann, javer, casa ximena, cintegral y falabella connect i- v región. liderar correcto desempeño de supervisores y vendedores a cargo, asegurando cumplimientos de metas asignadas y cobertura total de pdv. ",
+    "RESUMEN": "resumen profesional ingeniero comercial universidad de valparaíso, magister en dirección estratégica uai, con orientación hacia la dirección de equipos comerciales de alto rendimiento y cumplimientos de logros en canal retail, amplio manejo de relaciones interpersonales. ",
+    "SKILLS": [
         "Sap",
+        "Word",
         "Excel",
-        "Powerpoint"
+        "Visual basic"
     ],
-    "Referencias": ""
+    "REFERENCIAS": ""
 }

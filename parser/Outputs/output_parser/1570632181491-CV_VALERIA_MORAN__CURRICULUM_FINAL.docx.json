@@ -1,37 +1,36 @@
 {
-    "Contacto": {
-        "Nombre": "Valeria Moran Trivik ",
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": "Valeria Moran Trivik ",
+        "CORREO": [
             "Valeria.moran.trivik@gmail.com"
         ],
-        "Celular": "971822005",
-        "Linkedin": null
+        "CELULAR": "157524933",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1570632181491-CV_VALERIA_MORAN__CURRICULUM_FINAL.docx",
-    "Licencias-Certificaciones": [
-        "LICENCIA DE CONDUCIR",
-        "CLASE B"
+    "NOMBRE_ARCHIVO": "1570632181491-CV_VALERIA_MORAN__CURRICULUM_FINAL.docx",
+    "LICENCIA_CERTIFICACION": [
+        "CLASE B",
+        "LICENCIA DE CONDUCIR"
     ],
-    "Palabras Claves": [
-        "Análisis",
-        "Gestión",
-        "Proactividad",
+    "PALABRAS_CLAVES": [
         "Adaptable",
-        "Estrategia"
+        "Gestión",
+        "Estrategia",
+        "Proactividad",
+        "Análisis"
     ],
-    "Educacion": {
-        "Universidades:": [],
-        "Grado_mas_alto": []
+    "EDUCACION": {
+        "UNIVERSIDADES:": [],
+        "GRADO_MAS_ALTO": []
     },
-    "Lenguajes": [
+    "IDIOMAS": [
         "Inglés"
     ],
-    "Experiencia": "experiencia yapo.cl field sales executive fechas de empleo 2018 actualidad captación de grandes cuentas . fidelización de clientes venta de servicios clasificados y publicidad a corredoras e inmobiliarias. gestionar la venta de servicios clasificados . participar activamente en la detección de oportunidades de mejora . curso segundo curso de habilidades comerciales , méxico ,segunda mano yapo.cl ejecutiva de cuentas televentas de clasificados 2017 tareas realizadas planificación y gestión de clientes análisis de base de datos estrategia comercial asesoría financiera a clientes venta online. curso habilidades comerciales bogota colombia, finca raíz credihome - asesora financiera en gestión inmobiliaria 2016 -2017 tareas realizadas corretaje de propiedades compra y venta de viviendas asesorías en créditos hipotecarios y subsidios seguimiento de carpetas comerciales venta online en distintas plataformas encargada de redes sociales y publicaciones masivas actualizaciones web jazz plat supervisora de ventas y soporte 2011 2016 tareas realizadas manejo de grupos de trabajo creación de reportes cualitativos y cuantitativos gestión y seguimiento de estrategias comerciales en el punto de venta seguimiento de métricas y metas kids club peluquería infantil - publicista 2009 - 2010 tareas realizadas realización de estrategias comerciales de marketing directo encargada redes sociales diseño corporativo club aéreo de la reina - secretaría ejecutiva 2008 - 2010 tareas realizadas labores administrativas y logísticas creación de reportes e informes coordinación y gestión interna habilidades y anexos idioma inglés nivel intermedio oral y escrito, con examen toic rendido. ",
-    "Resumen": "perfil publicista profesional con grandes habilidades para la creación de estrategias comunicacionales y de posicionamiento de marca. asertiva en la toma de decisiones, proactiva, con muy buenas relaciones interpersonales y una rápida adaptación para los trabajos en equipo. orientada a la obtención de resultados, que no solo significa una ganancia económica inmediata sino también a establecer relaciones comerciales con clientes y empresas . ",
-    "Skills": [
-        "Base de datos",
+    "EXPERIENCIA": "experiencia yapo.cl field sales executive fechas de empleo 2018 actualidad captación de grandes cuentas . fidelización de clientes venta de servicios clasificados y publicidad a corredoras e inmobiliarias. gestionar la venta de servicios clasificados . participar activamente en la detección de oportunidades de mejora . curso segundo curso de habilidades comerciales , méxico ,segunda mano yapo.cl ejecutiva de cuentas televentas de clasificados 2017 tareas realizadas planificación y gestión de clientes análisis de base de datos estrategia comercial asesoría financiera a clientes venta online. curso habilidades comerciales bogota colombia, finca raíz credihome - asesora financiera en gestión inmobiliaria 2016 -2017 tareas realizadas corretaje de propiedades compra y venta de viviendas asesorías en créditos hipotecarios y subsidios seguimiento de carpetas comerciales venta online en distintas plataformas encargada de redes sociales y publicaciones masivas actualizaciones web jazz plat supervisora de ventas y soporte 2011 2016 tareas realizadas manejo de grupos de trabajo creación de reportes cualitativos y cuantitativos gestión y seguimiento de estrategias comerciales en el punto de venta seguimiento de métricas y metas kids club peluquería infantil - publicista 2009 - 2010 tareas realizadas realización de estrategias comerciales de marketing directo encargada redes sociales diseño corporativo club aéreo de la reina - secretaría ejecutiva 2008 - 2010 tareas realizadas labores administrativas y logísticas creación de reportes e informes coordinación y gestión interna habilidades y anexos idioma inglés nivel intermedio oral y escrito, con examen toic rendido. ",
+    "RESUMEN": "perfil publicista profesional con grandes habilidades para la creación de estrategias comunicacionales y de posicionamiento de marca. asertiva en la toma de decisiones, proactiva, con muy buenas relaciones interpersonales y una rápida adaptación para los trabajos en equipo. orientada a la obtención de resultados, que no solo significa una ganancia económica inmediata sino también a establecer relaciones comerciales con clientes y empresas . ",
+    "SKILLS": [
         "Excel",
         "Office"
     ],
-    "Referencias": ""
+    "REFERENCIAS": ""
 }

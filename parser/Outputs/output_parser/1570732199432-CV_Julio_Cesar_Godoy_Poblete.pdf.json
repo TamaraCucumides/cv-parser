@@ -1,30 +1,30 @@
 {
-    "Contacto": {
-        "Nombre": "Julio César Godoy ",
-        "Correo": "jgodoyp@live.com",
-        "Celular": "+56968490591",
-        "Linkedin": null
+    "CONTACTO": {
+        "NOMBRE": "Julio César Godoy ",
+        "CORREO": "jgodoyp@live.com",
+        "CELULAR": "+56968490591",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1570732199432-CV_Julio_Cesar_Godoy_Poblete.pdf",
-    "Licencias-Certificaciones": [],
-    "Palabras Claves": [
-        "Gestión",
+    "NOMBRE_ARCHIVO": "1570732199432-CV_Julio_Cesar_Godoy_Poblete.pdf",
+    "LICENCIA_CERTIFICACION": [],
+    "PALABRAS_CLAVES": [
         "Proactividad",
-        "Responsabilidad"
+        "Responsabilidad",
+        "Gestión"
     ],
-    "Educacion": {
-        "Universidades:": [
-            "Universidad de Los Lagos",
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
+            "Universidad de los Lagos",
             "Universidad de Concepción",
-            "Universidad de los Lagos"
+            "Universidad de Los Lagos"
         ],
-        "Grado_mas_alto": []
+        "GRADO_MAS_ALTO": []
     },
-    "Lenguajes": [],
-    "Experiencia": "antecedentes laborales constructora alcarraz ltda. administrativo de personal y contable abril 2016 junio 2019 confección liquidaciones de sueldo sistema edimatri tramites afp, afc, inspección del trabajo, ips, mutual, sii, bancos y otros. manejo y cuadratura caja chica auditor interno subcontratos ilustre municipalidad de san gregorio encargado de inventario y vehículos febrero 2014 abril 2016 encargado de inventario encargado de vehículos encargado de deporte corporación santo tomás ejecutivo telemarketing admisión 2014 noviembre 2014 febrero 2014 apoyo proceso admisión 2014 afluencia cotizaciones matriculas orientación carreras cft ip - ust mundo cruceros s.a. asistente de ventas - operaciones junio 2013 agosto 2013 cotizaciones cruceros cunard princess cruises recepcionista asistente telefónico cotizaciones en línea apoyo red de agencias de viajes corredora de seguros rubio y cía. ltda. ejecutivo de ventas asesor de seguros mayo 2011 - noviembre 2012 atención y captación de clientes en banco santander mantención y administración de cartera clientes con seguros santander venta de productos corredora de seguros generales, vida y automotriz asesoría en venta y post venta de seguros capacitación a la red. cajeros y ejecutivos banco corpbanca ejecutivo de cuentas febrero 2011 - abril 2011 apertura cuentas corrientes venta de créditos de consumo, hipotecarios captación de clientes atención clientes venta de seguros generar inversiones mantención de cartera retención clientes corredora de seguros rubio y cía. ltda. ejecutivo de ventas asesor de seguros diciembre 2009 - enero 2011 atención y captación de clientes en banco santander mantención y administración de cartera clientes con seguros santander venta de productos corredora de seguros generales, vida y automotriz asesoría en venta y post venta de seguros capacitación a la red. cajeros y ejecutivos ",
-    "Resumen": "julio césar godoy poblete rut 16.019.740-4 nacionalidad chilena fecha de nacimiento 06 de octubre de 1985 móvil 569 68490591 correo electrónico jgodoyp@live.com dirección caupolican 1270, d-21, arica. años de experiencia 10 años. ",
-    "Skills": [
+    "IDIOMAS": [],
+    "EXPERIENCIA": "antecedentes laborales constructora alcarraz ltda. administrativo de personal y contable abril 2016 junio 2019 confección liquidaciones de sueldo sistema edimatri tramites afp, afc, inspección del trabajo, ips, mutual, sii, bancos y otros. manejo y cuadratura caja chica auditor interno subcontratos ilustre municipalidad de san gregorio encargado de inventario y vehículos febrero 2014 abril 2016 encargado de inventario encargado de vehículos encargado de deporte corporación santo tomás ejecutivo telemarketing admisión 2014 noviembre 2014 febrero 2014 apoyo proceso admisión 2014 afluencia cotizaciones matriculas orientación carreras cft ip - ust mundo cruceros s.a. asistente de ventas - operaciones junio 2013 agosto 2013 cotizaciones cruceros cunard princess cruises recepcionista asistente telefónico cotizaciones en línea apoyo red de agencias de viajes corredora de seguros rubio y cía. ltda. ejecutivo de ventas asesor de seguros mayo 2011 - noviembre 2012 atención y captación de clientes en banco santander mantención y administración de cartera clientes con seguros santander venta de productos corredora de seguros generales, vida y automotriz asesoría en venta y post venta de seguros capacitación a la red. cajeros y ejecutivos banco corpbanca ejecutivo de cuentas febrero 2011 - abril 2011 apertura cuentas corrientes venta de créditos de consumo, hipotecarios captación de clientes atención clientes venta de seguros generar inversiones mantención de cartera retención clientes corredora de seguros rubio y cía. ltda. ejecutivo de ventas asesor de seguros diciembre 2009 - enero 2011 atención y captación de clientes en banco santander mantención y administración de cartera clientes con seguros santander venta de productos corredora de seguros generales, vida y automotriz asesoría en venta y post venta de seguros capacitación a la red. cajeros y ejecutivos ",
+    "RESUMEN": "julio césar godoy poblete rut 16.019.740-4 nacionalidad chilena fecha de nacimiento 06 de octubre de 1985 móvil 569 68490591 correo electrónico jgodoyp@live.com dirección caupolican 1270, d-21, arica. años de experiencia 10 años. ",
+    "SKILLS": [
         "Legislación laboral"
     ],
-    "Referencias": "referencias laborales yolanda jara / jefa finanzas / constructora alcarraz ltda / finanza@alcarraz.cl / 569 63500914 mixy navarro / trade marketing santo tomás / mnavarros@santotomas.cl / 569 73993057 fanny mislej / gerente general mundo cruceros s.a. / fmislej@mundocruceros.cl / 56 22351690 paola cisternas / jefe comercial santander seguros / pcisternas@santander.cl / 569 94434203 "
+    "REFERENCIAS": "referencias laborales yolanda jara / jefa finanzas / constructora alcarraz ltda / finanza@alcarraz.cl / 569 63500914 mixy navarro / trade marketing santo tomás / mnavarros@santotomas.cl / 569 73993057 fanny mislej / gerente general mundo cruceros s.a. / fmislej@mundocruceros.cl / 56 22351690 paola cisternas / jefe comercial santander seguros / pcisternas@santander.cl / 569 94434203 "
 }

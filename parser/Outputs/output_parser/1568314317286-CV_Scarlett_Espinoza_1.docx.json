@@ -1,44 +1,44 @@
 {
-    "Contacto": {
-        "Nombre": "Personales Nombre S ",
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": "Personales Nombre S ",
+        "CORREO": [
             "s.olguin320@gmail.com"
         ],
-        "Celular": "+56961115564",
-        "Linkedin": null
+        "CELULAR": "+56961115564",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1568314317286-CV_Scarlett_Espinoza_1.docx",
-    "Licencias-Certificaciones": [
-        "LICENCIA DE CONDUCIR",
-        "CLASE B"
+    "NOMBRE_ARCHIVO": "1568314317286-CV_Scarlett_Espinoza_1.docx",
+    "LICENCIA_CERTIFICACION": [
+        "CLASE B",
+        "LICENCIA DE CONDUCIR"
     ],
-    "Palabras Claves": [
+    "PALABRAS_CLAVES": [
+        "Responsabilidad",
         "Aprender",
         "Gestión",
-        "Puntual",
-        "Responsabilidad"
+        "Puntual"
     ],
-    "Educacion": {
-        "Universidades:": [
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
             "Universidad Nacional Andrés Bello"
         ],
-        "Grado_mas_alto": [
+        "GRADO_MAS_ALTO": [
             "Pregrado"
         ]
     },
-    "Lenguajes": [
+    "IDIOMAS": [
         "Inglés"
     ],
-    "Experiencia": "antecedentes laborales diciembre 2017- enero 2018 atención al cliente, cajera. savory. melipilla, chile. 03 julio 2019 31 de julio 2019 administración y contabilidad emind, melipilla, chile ",
-    "Resumen": "curriculum vitae ",
-    "Skills": [
+    "EXPERIENCIA": "antecedentes laborales diciembre 2017- enero 2018 atención al cliente, cajera. savory. melipilla, chile. 03 julio 2019 31 de julio 2019 administración y contabilidad emind, melipilla, chile ",
+    "RESUMEN": "curriculum vitae ",
+    "SKILLS": [
+        "Word",
         "Visio",
         "Microsoft project",
-        "Windows",
-        "Word",
         "Power point",
-        "Excel",
-        "Autocad"
+        "Windows",
+        "Autocad",
+        "Excel"
     ],
-    "Referencias": ""
+    "REFERENCIAS": ""
 }

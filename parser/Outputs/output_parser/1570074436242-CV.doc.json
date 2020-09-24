@@ -1,33 +1,33 @@
 {
-    "Contacto": {
-        "Nombre": null,
-        "Correo": "pablo.perotic@utem.cl",
-        "Celular": "+56984756005",
-        "Linkedin": null
+    "CONTACTO": {
+        "NOMBRE": null,
+        "CORREO": "pablo.perotic@utem.cl",
+        "CELULAR": "+56984756005",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1570074436242-CV.doc",
-    "Licencias-Certificaciones": [],
-    "Palabras Claves": null,
-    "Educacion": {
-        "Universidades:": [
+    "NOMBRE_ARCHIVO": "1570074436242-CV.doc",
+    "LICENCIA_CERTIFICACION": [],
+    "PALABRAS_CLAVES": null,
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
             "Universidad Tecnológica Metropolitana"
         ],
-        "Grado_mas_alto": [
+        "GRADO_MAS_ALTO": [
             "Pregrado"
         ]
     },
-    "Lenguajes": [
+    "IDIOMAS": [
         "Inglés"
     ],
-    "Experiencia": "experiencia laboral pic fecha 2016 hasta la fecha empresa supermercado líder melipilla actividad desarrollada empaque universitario empresa touch actividad desarrollada captador de clientes empresa forum actividad desarrollada práctica intermedia como ejecutivo comercial datos complementarios pic idiomas inglés intermedio/avanzado software microsoft office excel intermedio programación en macros stata comandos básicos power bi comandos básicos rstudio comandos básicos ",
-    "Resumen": "",
-    "Skills": [
+    "EXPERIENCIA": "experiencia laboral pic fecha 2016 hasta la fecha empresa supermercado líder melipilla actividad desarrollada empaque universitario empresa touch actividad desarrollada captador de clientes empresa forum actividad desarrollada práctica intermedia como ejecutivo comercial datos complementarios pic idiomas inglés intermedio/avanzado software microsoft office excel intermedio programación en macros stata comandos básicos power bi comandos básicos rstudio comandos básicos ",
+    "RESUMEN": "",
+    "SKILLS": [
+        "Stata",
+        "Office",
         "Rstudio",
         "Excel",
-        "Power bi",
         "Macros",
-        "Office",
-        "Stata"
+        "Power bi"
     ],
-    "Referencias": ""
+    "REFERENCIAS": ""
 }

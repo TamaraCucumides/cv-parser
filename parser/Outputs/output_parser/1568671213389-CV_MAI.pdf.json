@@ -1,39 +1,38 @@
 {
-    "Contacto": {
-        "Nombre": "Nella.vip Gmail.com Www.linkedin.com/in/marianella- ",
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": "Nella.vip Gmail.com Www.linkedin.com/in/marianella- ",
+        "CORREO": [
             "nella.vip@gmail.com"
         ],
-        "Celular": "201020145",
-        "Linkedin": "www.linkedin.com/in/marianella-"
+        "CELULAR": "201020145",
+        "LINKEDIN": "www.linkedin.com/in/marianella-"
     },
-    "Nombre archivo": "1568671213389-CV_MAI.pdf",
-    "Licencias-Certificaciones": [],
-    "Palabras Claves": [
-        "Análisis",
+    "NOMBRE_ARCHIVO": "1568671213389-CV_MAI.pdf",
+    "LICENCIA_CERTIFICACION": [],
+    "PALABRAS_CLAVES": [
         "Aprender",
-        "Gestión",
         "Colaboración",
-        "Negociación"
+        "Gestión",
+        "Negociación",
+        "Análisis"
     ],
-    "Educacion": {
-        "Universidades:": [],
-        "Grado_mas_alto": [
+    "EDUCACION": {
+        "UNIVERSIDADES:": [],
+        "GRADO_MAS_ALTO": [
             "Postgrado"
         ]
     },
-    "Lenguajes": [
+    "IDIOMAS": [
         "Español",
         "Inglés"
     ],
-    "Experiencia": "experiencia site chile s.a. jefe de proyecto eficiencia energética para entel chile febrero de 2019 - present chile site chile s.a. coordinador de planificación y logística diciembre de 2017 - present ",
-    "Resumen": "extracto msc. ing. de telecomunicaciones, maestría en gerencia de mantenimiento con 10 años de experiencia en operadoras de telecomunicaciones, sólida formación profesional en gestión de proyectos, manejo de metodologías ágiles, okr, kpi, habilidades blandas para el manejo de equipos, con alta capacidad de comunicación y negociación entre cliente interno y externo. orientado a la excelencia y optimización de procesos. capacidad de integración en proyectos multidisciplinarios y excelente desempeño bajo ambientes de presión. ",
-    "Skills": [
-        "Metodologías ágiles",
+    "EXPERIENCIA": "experiencia site chile s.a. jefe de proyecto eficiencia energética para entel chile febrero de 2019 - present chile site chile s.a. coordinador de planificación y logística diciembre de 2017 - present ",
+    "RESUMEN": "extracto msc. ing. de telecomunicaciones, maestría en gerencia de mantenimiento con 10 años de experiencia en operadoras de telecomunicaciones, sólida formación profesional en gestión de proyectos, manejo de metodologías ágiles, okr, kpi, habilidades blandas para el manejo de equipos, con alta capacidad de comunicación y negociación entre cliente interno y externo. orientado a la excelencia y optimización de procesos. capacidad de integración en proyectos multidisciplinarios y excelente desempeño bajo ambientes de presión. ",
+    "SKILLS": [
         "Scrum",
-        "Base de datos",
+        "Metodologías ágiles",
         "Office",
         "Autocad"
     ],
-    "Referencias": ""
+    "REFERENCIAS": ""
 }
