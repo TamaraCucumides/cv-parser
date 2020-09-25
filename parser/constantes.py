@@ -9,6 +9,7 @@ import json
 def cargar_dict(path):
     '''
     Utilidad para cargar los diccionarios
+    
     '''
     with open(path) as f:  
         array = [x.strip() for x in f]
