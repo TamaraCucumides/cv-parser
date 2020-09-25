@@ -8,8 +8,9 @@ import pprint
 from constantes import cargar_dict
 from utils import similitud, palabras_cercanas, cosine_sim, sent2vec, lematizar, preprocesar_texto, eliminar_palabras_repetidas, stemizar
 import numpy as np
-
+import es_core_news_sm
 import re
+
 
 
 def load_embeddings():
@@ -48,6 +49,7 @@ def load_stopwords_cargo(path):
     return stopwords
 
 def procesar_descripcion_cargo(descripcion_cargo, stopwords):
+    nlp = es_core_news_sm.load()
     #pattern = r'[0-9]'
     # Se eliminan STOPWORDS -Puntuacion -numeros
     print("Descripcion original:")
@@ -58,7 +60,7 @@ def procesar_descripcion_cargo(descripcion_cargo, stopwords):
     print("Descripcion procesada:")
     print(descripcion_cargo + '\n')
     
-    descripcion_cargo = lematizar(descripcion_cargo) #lematizar
+    descripcion_cargo = lematizar(descripcion_cargo, nlp) #lematizar
     print("Descripcion procesada y lematizada")
     print(descripcion_cargo+ '\n' )
     return descripcion_cargo
