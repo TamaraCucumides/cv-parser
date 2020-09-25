@@ -1,29 +1,27 @@
 {
-    "Contacto": {
-        "Nombre": "Jorge Jimenez Ing ",
-        "Correo": "jorgeajch@hotmail.com.com",
-        "Celular": "+56953383515",
-        "Linkedin": null
+    "CONTACTO": {
+        "NOMBRE": "Jorge Jimenez Ing ",
+        "CORREO": "jorgeajch@hotmail.com.com",
+        "CELULAR": "+08051995108",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1569209245565-1566.pdf",
-    "Licencias-Certificaciones": [],
-    "Palabras Claves": null,
-    "Educacion": {
-        "Universidades:": [],
-        "Grado_mas_alto": []
+    "NOMBRE_ARCHIVO": "1569209245565-1566.pdf",
+    "LICENCIA_CERTIFICACION": [],
+    "PALABRAS_CLAVES": null,
+    "EDUCACION": {
+        "UNIVERSIDADES:": [],
+        "GRADO_MAS_ALTO": []
     },
-    "Lenguajes": [
-        "Inglés",
-        "Español nativo",
-        "Inglés avanzado",
-        "Español"
+    "IDIOMAS": [
+        "ESPANOL",
+        "INGLES"
     ],
-    "Experiencia": "considero una persona perseverante mantener relaciones de trabajo cordiales y profesionales con otros compañeros de trabajo, supervisores y clientes. Jorge Jiménez Zañartu 2132, Ñuñoa. Experencia Laboral -Siempre dispuesto aprender cosas nuevas. Idiomas Encargado de Restaurant comida rápida. Santiago de Chile Emely Medina - Abogada ",
-    "Resumen": "acerca de mi joven trabajador con una actitud. me considero una persona perseverante que no se rinde, habilidoso en el trabajo bajo presión y ritmo rápido. capaz de mantener relaciones de trabajo cordiales y profesionales con otros compañeros de trabajo, supervisores y clientes. jorge jiménez 08 05 1995 108998540 zañartu 2132, ñuñoa. región metrop. 56 953383515 jorgeajch@hotmail.com.com ",
-    "Skills": [
-        "Word",
-        "Office",
-        "Excel"
+    "EXPERIENCIA": "Acerca De Mi considero una persona perseverante mantener relaciones de trabajo cordiales y profesionales con otros compañeros de trabajo, supervisores y clientes. Jorge Jiménez Zañartu 2132, Ñuñoa. Experencia Laboral -Siempre dispuesto aprender cosas nuevas. Crew Experto. 2016- Marzo Agosto. 2019 Encargado de Restaurant comida rápida. Santiago de Chile Emely Medina - Abogada ",
+    "RESUMEN": "acerca de mi joven trabajador con una actitud. me considero una persona perseverante que no se rinde, habilidoso en el trabajo bajo presión y ritmo rápido. capaz de mantener relaciones de trabajo cordiales y profesionales con otros compañeros de trabajo, supervisores y clientes. jorge jiménez 08 05 1995 108998540 zañartu 2132, ñuñoa. región metrop. 56 953383515 jorgeajch@hotmail.com.com ",
+    "SKILLS": [
+        "OFFICE",
+        "EXCEL",
+        "WORD"
     ],
-    "Referencias": "referencias personales emely medina - abogada teléfono 56953383515 e-mail medinademely@gmail.com eduin jimenez - contador teléfono 56962187263 e-mail eduinjimenez29@gmail.com "
+    "REFERENCIAS": "referencias personales emely medina - abogada teléfono 56953383515 e-mail medinademely@gmail.com eduin jimenez - contador teléfono 56962187263 e-mail eduinjimenez29@gmail.com "
 }

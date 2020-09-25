@@ -1,33 +1,33 @@
 {
-    "Contacto": {
-        "Nombre": "Rosa Cruz Juan ",
-        "Correo": "elki2007@hotmail.com",
-        "Celular": "+56952121238",
-        "Linkedin": null
+    "CONTACTO": {
+        "NOMBRE": "Rosa Cruz Juan ",
+        "CORREO": "elki2007@hotmail.com",
+        "CELULAR": "+56952121238",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1571411277933-CV.ELKIACT.2019.docx",
-    "Licencias-Certificaciones": [
+    "NOMBRE_ARCHIVO": "1571411277933-CV.ELKIACT.2019.docx",
+    "LICENCIA_CERTIFICACION": [
         "CLASE B",
-        "LICENCIA DE CONDUCIR",
-        "RCP"
+        "RCP",
+        "LICENCIA DE CONDUCIR"
     ],
-    "Palabras Claves": null,
-    "Educacion": {
-        "Universidades:": [
-            "Instituto Profesional Diego Portales"
+    "PALABRAS_CLAVES": null,
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
+            "INSTITUTO PROFESIONAL DIEGO PORTALES"
         ],
-        "Grado_mas_alto": [
-            "Pregrado"
+        "GRADO_MAS_ALTO": [
+            "PREGRADO"
         ]
     },
-    "Lenguajes": [
-        "Inglés",
-        "Alemán",
-        "Francés",
-        "Portugués"
+    "IDIOMAS": [
+        "FRANCES",
+        "INGLES",
+        "PORTUGUES",
+        "ALEMAN"
     ],
-    "Experiencia": "experiencia laboral conserje administrativo/edificio ventisquero hudson/viña del mar 2017- a la fecha me desempeñó como conserje recepcionista con algunos cargos administrativos afines encargado de recepción y maso terapia resort alto mantagua quintero 2013-2015 aquí. en otra etapa de mi vida laboral, desempeñaba el cargo de jefe y administrador de spa, en el cual tenía contacto directo con los huéspedes y personas bajo mi cargo. también, ejercía mi cargo de maso terapeuta por comisión en estas mismas instalaciones. maso terapeuta y encargado de spa spa del bosque hotel conference town reñaca 2010- 2013 al principio me desenvolvía como maso terapeuta. después, con paso de los meses el dueño me pidió que me hiciera cargo de su spa por la forma en que trataba al público. recibí muchas experiencias de cómo tratar al público y a personas bajo mi cargo. sin duda un gran desarrollo personal y profesional recepcionista encargado hotel balia casino viña del mar 2015 - 2016 me desempeñé como recepcionista y responsabilidades afines profesor sustituto de inglés / instituto profesional diego portales / 2008 - 2009 en este trabajo mis primeros meses en chile, sustituía a la profesora de inglés que se había tomado vacaciones. ",
-    "Resumen": "objetivo postular al cargo según las necesidades en su empresa. desarrollarme profesional y empíricamente de todas las experiencias y hacer y/o dar un servicio de calidad correspondiente. ",
-    "Skills": [],
-    "Referencias": "referencias personales jefa de personal mayordomo claudia bernal lópez /56 9 6629 3144 gerente pamela alvares / 9 9440 2521 / spa del bosque, hotel conference town reñaca. gerente daniel erhenfeld / 9 5694 7546 / resort alto mantagua. página 2 "
+    "EXPERIENCIA": "experiencia laboral conserje administrativo/edificio ventisquero hudson/viña del mar 2017- a la fecha me desempeñó como conserje recepcionista con algunos cargos administrativos afines encargado de recepción y maso terapia resort alto mantagua quintero 2013-2015 aquí. en otra etapa de mi vida laboral, desempeñaba el cargo de jefe y administrador de spa, en el cual tenía contacto directo con los huéspedes y personas bajo mi cargo. también, ejercía mi cargo de maso terapeuta por comisión en estas mismas instalaciones. maso terapeuta y encargado de spa spa del bosque hotel conference town reñaca 2010- 2013 al principio me desenvolvía como maso terapeuta. después, con paso de los meses el dueño me pidió que me hiciera cargo de su spa por la forma en que trataba al público. recibí muchas experiencias de cómo tratar al público y a personas bajo mi cargo. sin duda un gran desarrollo personal y profesional recepcionista encargado hotel balia casino viña del mar 2015 - 2016 me desempeñé como recepcionista y responsabilidades afines profesor sustituto de inglés / instituto profesional diego portales / 2008 - 2009 en este trabajo mis primeros meses en chile, sustituía a la profesora de inglés que se había tomado vacaciones. ",
+    "RESUMEN": "objetivo postular al cargo según las necesidades en su empresa. desarrollarme profesional y empíricamente de todas las experiencias y hacer y/o dar un servicio de calidad correspondiente. ",
+    "SKILLS": [],
+    "REFERENCIAS": "referencias personales jefa de personal mayordomo claudia bernal lópez /56 9 6629 3144 gerente pamela alvares / 9 9440 2521 / spa del bosque, hotel conference town reñaca. gerente daniel erhenfeld / 9 5694 7546 / resort alto mantagua. página 2 "
 }

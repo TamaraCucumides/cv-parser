@@ -1,33 +1,27 @@
 {
-    "Contacto": {
-        "Nombre": "Claudio Andrés Araya ",
-        "Correo": "claudio.araya@alumnos.ucn.cl",
-        "Celular": "+56988591274",
-        "Linkedin": null
+    "CONTACTO": {
+        "NOMBRE": "Claudio Andrés Araya ",
+        "CORREO": "claudio.araya@alumnos.ucn.cl",
+        "CELULAR": "+56988591274",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1568736709070-CV_Claudio_A.docx",
-    "Licencias-Certificaciones": [
+    "NOMBRE_ARCHIVO": "1568736709070-CV_Claudio_A.docx",
+    "LICENCIA_CERTIFICACION": [
         "CLASE B",
         "LICENCIA DE CONDUCIR"
     ],
-    "Palabras Claves": [
-        "Comprometido",
-        "Responsabilidad",
-        "Proactividad",
-        "Amigable",
-        "Voluntariado"
-    ],
-    "Educacion": {
-        "Universidades:": [
-            "Universidad Católica del Norte"
+    "PALABRAS_CLAVES": null,
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
+            "UNIVERSIDAD CATOLICA DEL NORTE"
         ],
-        "Grado_mas_alto": [
-            "Pregrado"
+        "GRADO_MAS_ALTO": [
+            "PREGRADO"
         ]
     },
-    "Lenguajes": [],
-    "Experiencia": "experiencia laboral empleo de garzón municipalidad maría elena. profesor particular clases de matemáticas. ",
-    "Resumen": "claudio andrés araya fuentes 19.445.016-8 correo claudio.araya@alumnos.ucn.cl celular 56988591274 claudio andrés araya fuentes 19.445.016-8 correo claudio.araya@alumnos.ucn.cl celular 56988591274 ",
-    "Skills": [],
-    "Referencias": "referencias personales soy una persona responsable, altamente comprometida con el trabajo, con una orientación clara al cumplimiento de metas y a su vez proporcionar un servicio óptimo y de calidad. "
+    "IDIOMAS": [],
+    "EXPERIENCIA": "experiencia laboral empleo de garzón municipalidad maría elena. profesor particular clases de matemáticas. ",
+    "RESUMEN": "claudio andrés araya fuentes 19.445.016-8 correo claudio.araya@alumnos.ucn.cl celular 56988591274 claudio andrés araya fuentes 19.445.016-8 correo claudio.araya@alumnos.ucn.cl celular 56988591274 ",
+    "SKILLS": [],
+    "REFERENCIAS": "referencias personales soy una persona responsable, altamente comprometida con el trabajo, con una orientación clara al cumplimiento de metas y a su vez proporcionar un servicio óptimo y de calidad. "
 }

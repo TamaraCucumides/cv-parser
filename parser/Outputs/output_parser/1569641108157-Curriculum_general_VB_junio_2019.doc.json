@@ -1,43 +1,42 @@
 {
-    "Contacto": {
-        "Nombre": "Victor Bello Apablaza ",
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": "Victor Bello Apablaza ",
+        "CORREO": [
             "vbelloa@yahoo.com"
         ],
-        "Celular": "",
-        "Linkedin": null
+        "CELULAR": "089004695",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1569641108157-Curriculum_general_VB_junio_2019.doc",
-    "Licencias-Certificaciones": [],
-    "Palabras Claves": [
+    "NOMBRE_ARCHIVO": "1569641108157-Curriculum_general_VB_junio_2019.doc",
+    "LICENCIA_CERTIFICACION": [],
+    "PALABRAS_CLAVES": [
         "Liderar",
-        "Motivación",
-        "Responsabilidad",
-        "Modelamiento",
-        "Liderazgo",
-        "Estrategia",
         "Perfeccionista",
+        "Estrategia",
+        "Liderazgo",
+        "Motivación",
+        "Gestión",
         "Negociación",
-        "Gestión"
+        "Responsabilidad"
     ],
-    "Educacion": {
-        "Universidades:": [
-            "Universidad Santo Tomas",
-            "Universidad de Chile",
-            "Universidad de Las Américas"
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
+            "UNIVERSIDAD DE CHILE",
+            "UNIVERSIDAD DE LAS AMERICAS",
+            "UNIVERSIDAD SANTO TOMAS"
         ],
-        "Grado_mas_alto": [
-            "Postgrado"
+        "GRADO_MAS_ALTO": [
+            "POSTGRADO"
         ]
     },
-    "Lenguajes": [
-        "Inglés",
-        "Francés"
+    "IDIOMAS": [
+        "FRANCES",
+        "INGLES"
     ],
-    "Experiencia": "experiencia profesional novar consultores consultor de proyectos marzo de 2009 a julio 2019 levantamiento, diseño e implementación de programas de formación y desarrollo organizacional en diversas industrias nacionales, de variados sectores industriales, como retail, comunicaciones e industriales. asesorias en gestión comercial, manejo de reuniones, identificación de indicadores de gestión. reclutamiento y selección levantamiento de perfiles y búsqueda de cargos ejecutivos para diversas empresas. definición de avisos y administración de buscadores. coordinación de reclutamientos y evaluaciones de cargos a nivel nacional, gestión de red de evaluadores. entrevistas y evaluaciones psicosociales. formación y desarrollo detección de necesidades de formación y desarrollo y estructuración de proyectos de formación transversal, orientados a la disminución de brechas y desarrollo de habilidades. diseño e implementación de planes de definición de perfiles de competencias claves para cargos críticos. programa de liderazgo diseño e implementación de programas de formación de líderes en base a cultura y lineamientos de la organización, integrados por evaluaciones de 360º , desarrollo y práctica de habilidades. programa cambio cultural diseño en impelemtación de acciones orientadas al fortalecimiento, y mejora cultural, que implica diseño e implementa talleres de cambio, administración del tiempo y motivación, orientados a fortalecer nuevas prácticas. programa trabajo en equipo diseño e implementación de programas de autodiagnóstico, levantamiento de buenas prácticas y entrenamiento en habilidades, en base a talleres presenciales y vivenciales. coordinación operativa / administrativa inscripción y obtención de códigos sence, control administrativo de procesos de inscripción y liquidación, así como seguimiento y control presupuestario. gestión del desempeño diseño e implementación de plan de evaluación del desempeño, que implicó la capacitación y acompañamiento, tanto a evaluadores como evaluados. consultor independiente mayo 2005 a abril de 2009 realizó asesorías en procesos de reclutamiento y selección, así como diversas consultorías y relatorías en el ámbito de los recursos humanos, como director de proyectos de formación, gestión por competencias, gestión comercial, desarrollo de estilos de liderazgo y actitud, entre otros, en consultoras como development systems, target, adistra, asimet. banco del desarrollo mayo de 1997 a enero del 2005 jefe de selección y desarrollo julio de 2002 a enero de 2005 responsable del diseño e implementación de estrategias de reclutamiento y selección para todo el personal del banco a nivel nacional. diseña y propone planes de evaluación de potencial de desarrollo profesional, para acceder a cargos de mayor responsabilidad. planifica e implementa plan de reclutamiento y selección fuerza de ventas, nivel nacional. desarrolla e implementa procesos de evaluación del desempeño para cargos ejecutivos y administrativos. encargado de capacitación y desarrollo de recursos humanos banco del desarrollo agosto de 1996 a julio 2002 diseña e implementa planes de apoyo a la gestión comercial, participando como coordinador y relator interno. propone e implementa los planes de formación técnica y de desarrollo personal y profesional, según necesidades de perfeccionamiento para las distintas escalas de personal. diseña e implementa la escuela de formación interna, cuyo objetivo es dar formación técnica básica, especialización y proyectar al personal, según evaluación de potencial y detección de habilidades para ocupar los distintos cargos de la organización. identificación de situaciones críticas en áreas específicas de la organización, relacionadas con estandarización de cargos, posición dentro de la organización, nivelación de rentas, según rendimiento en cursos específicos, en áreas como banca de personas banca pyme actividades docentes coordina y orienta práctica profesional de alumnos de psicología de las universidades diego portales, gabriela mistral, andrés bello y santo tomas. dicta clases en la escuela de formación interna, en temas de liderazgo, supervisión, administración de personal y comunicación profesor invitado por la universidad mariano egaña, para dictar seminario de motivación y paradigmas en programa de apoyo a microempresarios. taller de manejo de estrés y curso técnicas de venta y negociación, para alumnos de la carrera de técnico superior financiero, de la universidad de viña del mar. profesor diplomado de calidad de servicio, universidad de chile, cátedra, gestión del cambio. versión abierta y focalizada al instituto medico legal. profesor universidad de las américas, cátedra taller de especialización laboral. escuela de psicología. ",
-    "Resumen": "resumen profesional con amplia experiencia, en la línea como en consultoría externa, en el diseño, implementación, control y seguimiento de procesos de gestión de recursos humanos, formación y desarrollo profesional, reclutamiento y selección, evaluación psicológica, gestión de talentos y gestión del cambio, su formación está orientada al conocimiento y desarrollo de las personas en la organización, con formación de psicólogo, mba y diplomado en gestión del cambio, que le permiten una amplia visión del negocio. ",
-    "Skills": [
-        "Coaching"
+    "EXPERIENCIA": "experiencia profesional novar consultores consultor de proyectos marzo de 2009 a julio 2019 levantamiento, diseño e implementación de programas de formación y desarrollo organizacional en diversas industrias nacionales, de variados sectores industriales, como retail, comunicaciones e industriales. asesorias en gestión comercial, manejo de reuniones, identificación de indicadores de gestión. reclutamiento y selección levantamiento de perfiles y búsqueda de cargos ejecutivos para diversas empresas. definición de avisos y administración de buscadores. coordinación de reclutamientos y evaluaciones de cargos a nivel nacional, gestión de red de evaluadores. entrevistas y evaluaciones psicosociales. formación y desarrollo detección de necesidades de formación y desarrollo y estructuración de proyectos de formación transversal, orientados a la disminución de brechas y desarrollo de habilidades. diseño e implementación de planes de definición de perfiles de competencias claves para cargos críticos. programa de liderazgo diseño e implementación de programas de formación de líderes en base a cultura y lineamientos de la organización, integrados por evaluaciones de 360º , desarrollo y práctica de habilidades. programa cambio cultural diseño en impelemtación de acciones orientadas al fortalecimiento, y mejora cultural, que implica diseño e implementa talleres de cambio, administración del tiempo y motivación, orientados a fortalecer nuevas prácticas. programa trabajo en equipo diseño e implementación de programas de autodiagnóstico, levantamiento de buenas prácticas y entrenamiento en habilidades, en base a talleres presenciales y vivenciales. coordinación operativa / administrativa inscripción y obtención de códigos sence, control administrativo de procesos de inscripción y liquidación, así como seguimiento y control presupuestario. gestión del desempeño diseño e implementación de plan de evaluación del desempeño, que implicó la capacitación y acompañamiento, tanto a evaluadores como evaluados. consultor independiente mayo 2005 a abril de 2009 realizó asesorías en procesos de reclutamiento y selección, así como diversas consultorías y relatorías en el ámbito de los recursos humanos, como director de proyectos de formación, gestión por competencias, gestión comercial, desarrollo de estilos de liderazgo y actitud, entre otros, en consultoras como development systems, target, adistra, asimet. banco del desarrollo mayo de 1997 a enero del 2005 jefe de selección y desarrollo julio de 2002 a enero de 2005 responsable del diseño e implementación de estrategias de reclutamiento y selección para todo el personal del banco a nivel nacional. diseña y propone planes de evaluación de potencial de desarrollo profesional, para acceder a cargos de mayor responsabilidad. planifica e implementa plan de reclutamiento y selección fuerza de ventas, nivel nacional. desarrolla e implementa procesos de evaluación del desempeño para cargos ejecutivos y administrativos. encargado de capacitación y desarrollo de recursos humanos banco del desarrollo agosto de 1996 a julio 2002 diseña e implementa planes de apoyo a la gestión comercial, participando como coordinador y relator interno. propone e implementa los planes de formación técnica y de desarrollo personal y profesional, según necesidades de perfeccionamiento para las distintas escalas de personal. diseña e implementa la escuela de formación interna, cuyo objetivo es dar formación técnica básica, especialización y proyectar al personal, según evaluación de potencial y detección de habilidades para ocupar los distintos cargos de la organización. identificación de situaciones críticas en áreas específicas de la organización, relacionadas con estandarización de cargos, posición dentro de la organización, nivelación de rentas, según rendimiento en cursos específicos, en áreas como banca de personas banca pyme actividades docentes coordina y orienta práctica profesional de alumnos de psicología de las universidades diego portales, gabriela mistral, andrés bello y santo tomas. dicta clases en la escuela de formación interna, en temas de liderazgo, supervisión, administración de personal y comunicación profesor invitado por la universidad mariano egaña, para dictar seminario de motivación y paradigmas en programa de apoyo a microempresarios. taller de manejo de estrés y curso técnicas de venta y negociación, para alumnos de la carrera de técnico superior financiero, de la universidad de viña del mar. profesor diplomado de calidad de servicio, universidad de chile, cátedra, gestión del cambio. versión abierta y focalizada al instituto medico legal. profesor universidad de las américas, cátedra taller de especialización laboral. escuela de psicología. ",
+    "RESUMEN": "resumen profesional con amplia experiencia, en la línea como en consultoría externa, en el diseño, implementación, control y seguimiento de procesos de gestión de recursos humanos, formación y desarrollo profesional, reclutamiento y selección, evaluación psicológica, gestión de talentos y gestión del cambio, su formación está orientada al conocimiento y desarrollo de las personas en la organización, con formación de psicólogo, mba y diplomado en gestión del cambio, que le permiten una amplia visión del negocio. ",
+    "SKILLS": [
+        "COACHING"
     ],
-    "Referencias": ""
+    "REFERENCIAS": ""
 }

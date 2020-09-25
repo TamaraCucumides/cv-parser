@@ -1,46 +1,43 @@
 {
-    "Contacto": {
-        "Nombre": "Alejandra Wilstermann Echenique ",
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": "Alejandra Wilstermann Echenique ",
+        "CORREO": [
             "alewilster2012@gmail.com"
         ],
-        "Celular": "0996340190",
-        "Linkedin": null
+        "CELULAR": "0996340190",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1570638257405-CV_Alejandra_Wilstermann_Echenique_Ing_Comercial.doc",
-    "Licencias-Certificaciones": [],
-    "Palabras Claves": [
+    "NOMBRE_ARCHIVO": "1570638257405-CV_Alejandra_Wilstermann_Echenique_Ing_Comercial.doc",
+    "LICENCIA_CERTIFICACION": [],
+    "PALABRAS_CLAVES": [
         "Liderar",
         "Análisis",
-        "Responsabilidad",
+        "Gestión",
         "Analizar",
-        "Escuchar",
         "Colaboración",
-        "Negociación",
-        "Gestión"
+        "Responsabilidad"
     ],
-    "Educacion": {
-        "Universidades:": [
-            "Universidad de Chile",
-            "Universidad Arturo Prat",
-            "Universidad Alberto Hurtado"
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
+            "UNIVERSIDAD DE CHILE",
+            "UNIVERSIDAD ALBERTO HURTADO",
+            "UNIVERSIDAD ARTURO PRAT"
         ],
-        "Grado_mas_alto": [
-            "Pregrado"
+        "GRADO_MAS_ALTO": [
+            "PREGRADO"
         ]
     },
-    "Lenguajes": [
-        "Inglés"
+    "IDIOMAS": [
+        "INGLES"
     ],
-    "Experiencia": "experiencia profesional fibra s.a. julio 2018 a la fecha cargo jefe de recursos humanos y calidad de vida. lidera procesos de selección, evaluación de desempeño y detección necesidades de capacitación, actividades de calidad de vida, manteniendo organizada la logística de los despachos de regalos, a nivel nacional con proveedores externos, revisión de comunicados del área con marketing. supervisión proceso de remuneraciones generando informes de gestión y kpis. tramites en inspección de trabajo, entidades previsionales, auditoria de carpetas del personal por sistema integral de gestión y normas iso, leyes sociales. realiza procesos de selección de personal de acuerdo a perfil de cargo, supervisa el proceso de remuneraciones, actividades de clima y cambios organizacionales. ecometales filial de codelco junio 2015 mayo 2018 cargo encargado de rrhh supervisar el correcto funcionamiento de las instalaciones, gestionar el proceso de remuneraciones, calcular pago de bonos por renta accesoria, confeccionar declaraciones juradas, coordinar entrevistas de selección tanto internas como con empresas de head hunting, gestionar cursos de capacitación, confección de kpi de recursos humanos para reunión trimestral de gerencia. responsable de auditorías externas. utliza modulo sap fi, co. komatsu chile sept 2013 abril 2015 cargo jefe de remuneraciones supervisar las labores del área, de empresa al servicio de la minería, con el fin de garantizar un proceso de pago de remuneraciones eficiente y de calidad para una dotación holding de 6.000 colaboradores. confección de kpi y análisis de índice de satisfacción del cliente para efectuar mejoras continuas. responsable de ser oneface en auditorias tanto internas del holding como externas efectuadas por empresas como kpmg, deloitte o corfo en el caso de proyectos de innovación y desarrollo. lider de proyecto de excelencia operacional que busca encontrar en el mapeo del proceso del área los puntos donde se generan permanentemente errores. participación activa en proyecto de confección de manual de políticas y procedimientos de todas las áreas de rrhh. parametrización de sistema payroll en todo lo relativo a sus 95 instrumentos colectivos, con el fin de utilizar la base de datos para la obtención de antecedentes para presupuesto y gestión. enaex s.a. feb 2006 agosto 2013 cargo ingeniero de control de gestión y controller realiza auditorias periódicas a rrhh en las diferentes plantas. mejora parametrización de sistema payroll para centralización a sap fi,co con el fin de disminuir en un 90 errores en la centralización. analiza cuentas contables de rrhh desde 2004 a 2010 en 6 meses aclarando musd 4.400 en los estados financieros. rectifica declaraciones juradas 1887 de 5 años ante sii en dos meses. elabora presupuesto de rrhh consolidado y kpis. control y seguimiento de presupuesto y real. office suport complementos recourse ene 1997- dic 2005 cargo liquidador de remuneraciones. ejecuta y gestiona proceso de remuneraciones y de centralización contable dotación 2000 trabajadores, pago de imposiciones, tramites de licencias, gestión de vacaciones, empresas externas, se utiliza sistema winper, emisión de reportes personalizados para cada clientes. implementación de empresas en sistema, creación de fórmulas para cada haber y descuento y puesta en productivo. ",
-    "Resumen": "resumen laboral egresada de la universidad alberto hurtado de la carrera de ingeniería comercial mis principales competencias son haberme desempeñado 10 años en empresas al servicio de la minería en control de gestión, 8 años en empresas de servicios de outsourcing en recursos humanos y remuneraciones, y proyectos de optimización de área en centralización de rrhh y mejora continua. mis estudios de ingeniería comercial, contabilidad general mención informática y diplomados de la universidad de chile en dirección de personas y compensaciones incrementan mi visión transversal de las unidades de negocio. ",
-    "Skills": [
-        "Access",
-        "Softland",
-        "Base de datos",
-        "Sap",
-        "Excel",
-        "Office"
+    "EXPERIENCIA": "experiencia profesional fibra s.a. julio 2018 a la fecha cargo jefe de recursos humanos y calidad de vida. lidera procesos de selección, evaluación de desempeño y detección necesidades de capacitación, actividades de calidad de vida, manteniendo organizada la logística de los despachos de regalos, a nivel nacional con proveedores externos, revisión de comunicados del área con marketing. supervisión proceso de remuneraciones generando informes de gestión y kpis. tramites en inspección de trabajo, entidades previsionales, auditoria de carpetas del personal por sistema integral de gestión y normas iso, leyes sociales. realiza procesos de selección de personal de acuerdo a perfil de cargo, supervisa el proceso de remuneraciones, actividades de clima y cambios organizacionales. ecometales filial de codelco junio 2015 mayo 2018 cargo encargado de rrhh supervisar el correcto funcionamiento de las instalaciones, gestionar el proceso de remuneraciones, calcular pago de bonos por renta accesoria, confeccionar declaraciones juradas, coordinar entrevistas de selección tanto internas como con empresas de head hunting, gestionar cursos de capacitación, confección de kpi de recursos humanos para reunión trimestral de gerencia. responsable de auditorías externas. utliza modulo sap fi, co. komatsu chile sept 2013 abril 2015 cargo jefe de remuneraciones supervisar las labores del área, de empresa al servicio de la minería, con el fin de garantizar un proceso de pago de remuneraciones eficiente y de calidad para una dotación holding de 6.000 colaboradores. confección de kpi y análisis de índice de satisfacción del cliente para efectuar mejoras continuas. responsable de ser oneface en auditorias tanto internas del holding como externas efectuadas por empresas como kpmg, deloitte o corfo en el caso de proyectos de innovación y desarrollo. lider de proyecto de excelencia operacional que busca encontrar en el mapeo del proceso del área los puntos donde se generan permanentemente errores. participación activa en proyecto de confección de manual de políticas y procedimientos de todas las áreas de rrhh. parametrización de sistema payroll en todo lo relativo a sus 95 instrumentos colectivos, con el fin de utilizar la base de datos para la obtención de antecedentes para presupuesto y gestión. enaex s.a. feb 2006 agosto 2013 cargo ingeniero de control de gestión y controller realiza auditorias periódicas a rrhh en las diferentes plantas. mejora parametrización de sistema payroll para centralización a sap fi,co con el fin de disminuir en un 90 errores en la centralización. analiza cuentas contables de rrhh desde 2004 a 2010 en 6 meses aclarando musd 4.400 en los estados financieros. rectifica declaraciones juradas 1887 de 5 años ante sii en dos meses. elabora presupuesto de rrhh consolidado y kpis. control y seguimiento de presupuesto y real. office suport complementos recourse ene 1997- dic 2005 cargo liquidador de remuneraciones. ejecuta y gestiona proceso de remuneraciones y de centralización contable dotación 2000 trabajadores, pago de imposiciones, tramites de licencias, gestión de vacaciones, empresas externas, se utiliza sistema winper, emisión de reportes personalizados para cada clientes. implementación de empresas en sistema, creación de fórmulas para cada haber y descuento y puesta en productivo. ",
+    "RESUMEN": "resumen laboral egresada de la universidad alberto hurtado de la carrera de ingeniería comercial mis principales competencias son haberme desempeñado 10 años en empresas al servicio de la minería en control de gestión, 8 años en empresas de servicios de outsourcing en recursos humanos y remuneraciones, y proyectos de optimización de área en centralización de rrhh y mejora continua. mis estudios de ingeniería comercial, contabilidad general mención informática y diplomados de la universidad de chile en dirección de personas y compensaciones incrementan mi visión transversal de las unidades de negocio. ",
+    "SKILLS": [
+        "ACCESS",
+        "SAP",
+        "OFFICE",
+        "EXCEL",
+        "SOFTLAND"
     ],
-    "Referencias": ""
+    "REFERENCIAS": ""
 }

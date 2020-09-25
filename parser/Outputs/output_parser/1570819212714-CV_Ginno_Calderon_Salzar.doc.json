@@ -1,32 +1,34 @@
 {
-    "Contacto": {
-        "Nombre": null,
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": null,
+        "CORREO": [
             "ginno.cs86@gmail.com"
         ],
-        "Celular": "+03223182598",
-        "Linkedin": "cl.linkedin.com/in/ginno-calderón-salazar"
+        "CELULAR": "+03223182598",
+        "LINKEDIN": "cl.linkedin.com/in/ginno-calderón-salazar"
     },
-    "Nombre archivo": "1570819212714-CV_Ginno_Calderon_Salzar.doc",
-    "Licencias-Certificaciones": [
-        "CLASE B",
+    "NOMBRE_ARCHIVO": "1570819212714-CV_Ginno_Calderon_Salzar.doc",
+    "LICENCIA_CERTIFICACION": [
         "LICENCIA DE CONDUCIR"
     ],
-    "Palabras Claves": null,
-    "Educacion": {
-        "Universidades:": [
-            "Pontificia Universidad Católica de Valparaíso"
+    "PALABRAS_CLAVES": null,
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
+            "UNIVERSIDAD CATOLICA DE VALPARAISO",
+            "PONTIFICIA UNIVERSIDAD CATOLICA DE VALPARAISO"
         ],
-        "Grado_mas_alto": [
-            "Pregrado"
+        "GRADO_MAS_ALTO": [
+            "PREGRADO"
         ]
     },
-    "Lenguajes": [],
-    "Experiencia": "experiencia profesional spm ingeniería en mantención 2014 2015 meses de verano funciones desarrollo de práctica profesional. apoyo en el desarrollo de informes y reportes de mantenciones. instalación, elección y compra de sensores. ecr group mayo 2017 noviembre 2017 randstan noviembre 2017 julio 2018 funciones operador móvil noc claro, supervisar y ejecutar las rutinas y procedimientos de operación preventiva y correctiva definidos, para lograr las metas de continuidad y calidad de los servicios móviles de la red de claro a nivel nacional. claro chile julio 2018 actualmente funciones ingeniero back office acceso, realizar y coordinar las actividades del proceso de gestión de incidencias de la red en operación para claro chile con el fin de lograr la detección de incidencias, ejecutando acciones correctivas, aportando a la continuidad, disponibilidad operacional, disminución de incidencias y menor afectación de clientes. ",
-    "Resumen": "ginno andres calderón salazar. ingeniero electrónico celular 990970713, fono 032-23182598 ginno.cs86@gmail.com linkedin https//cl.linkedin.com/in/ginno-calderón-salazar extracto profesional profesional apto para trabajar en equipos multidisciplinarios y mantener relaciones sustentables, capaz de aportar en soluciones optimas de los distintos proyectos, teniendo en cuenta las continuas mejoras del ámbito laboral. ",
-    "Skills": [
-        "Matlab",
-        "Office"
+    "IDIOMAS": [
+        "INGLES"
     ],
-    "Referencias": ""
+    "EXPERIENCIA": "experiencia profesional spm ingeniería en mantención 2014 2015 meses de verano funciones desarrollo de práctica profesional. apoyo en el desarrollo de informes y reportes de mantenciones. instalación, elección y compra de sensores. ecr group mayo 2017 noviembre 2017 randstan noviembre 2017 julio 2018 funciones operador móvil noc claro, supervisar y ejecutar las rutinas y procedimientos de operación preventiva y correctiva definidos, para lograr las metas de continuidad y calidad de los servicios móviles de la red de claro a nivel nacional. claro chile julio 2018 actualmente funciones ingeniero back office acceso, realizar y coordinar las actividades del proceso de gestión de incidencias de la red en operación para claro chile con el fin de lograr la detección de incidencias, ejecutando acciones correctivas, aportando a la continuidad, disponibilidad operacional, disminución de incidencias y menor afectación de clientes. ",
+    "RESUMEN": "ginno andres calderón salazar. ingeniero electrónico celular 990970713, fono 032-23182598 ginno.cs86@gmail.com linkedin https//cl.linkedin.com/in/ginno-calderón-salazar extracto profesional profesional apto para trabajar en equipos multidisciplinarios y mantener relaciones sustentables, capaz de aportar en soluciones optimas de los distintos proyectos, teniendo en cuenta las continuas mejoras del ámbito laboral. ",
+    "SKILLS": [
+        "OFFICE",
+        "MATLAB"
+    ],
+    "REFERENCIAS": ""
 }

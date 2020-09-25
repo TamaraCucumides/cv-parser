@@ -1,33 +1,29 @@
 {
-    "Contacto": {
-        "Nombre": null,
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": null,
+        "CORREO": [
             "naravenac97@gmail.com"
         ],
-        "Celular": "+56946713538",
-        "Linkedin": null
+        "CELULAR": "+56946713538",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1569857582157-Curriculum_Vitae_Nicolas_Aravena_2019.doc",
-    "Licencias-Certificaciones": [
-        "CLASE B",
+    "NOMBRE_ARCHIVO": "1569857582157-Curriculum_Vitae_Nicolas_Aravena_2019.doc",
+    "LICENCIA_CERTIFICACION": [
         "LICENCIA DE CONDUCIR"
     ],
-    "Palabras Claves": [
-        "Liderar",
-        "Voluntariado"
-    ],
-    "Educacion": {
-        "Universidades:": [
-            "Universidad Católica de la Santísima Concepción",
-            "Universidad Santo Tomas",
-            "Universidad del Desarrollo",
-            "Universidad de Concepción"
+    "PALABRAS_CLAVES": null,
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
+            "UNIVERSIDAD DEL DESARROLLO",
+            "UNIVERSIDAD DE CONCEPCION",
+            "UNIVERSIDAD SANTO TOMAS",
+            "UNIVERSIDAD CATOLICA DE LA SANTISIMA CONCEPCION"
         ],
-        "Grado_mas_alto": []
+        "GRADO_MAS_ALTO": []
     },
-    "Lenguajes": [],
-    "Experiencia": "Nombre Completo Nicolás Ignacio Aravena Cancino Universidad Universidad del Desarrollo. Abogados de Concepción 2018 Asistencia a Congreso Estudiantil de Derecho Económico, 2014 Presidente Electivo Humanista Colegio San Gabriel Arcángel Los Ángeles. 2014-2015 Presidente Electivo Humanista Colegio San Gabriel Arcángel Los Ángeles. Destacada participación musical en representación del Colegio San Gabriel Arcángel. 2013 Premio Fundación Juan Xxiii al equipo de Debates Colegio San Gabriel Arcángel Los Ángeles. ",
-    "Resumen": "curriculum vitae ",
-    "Skills": [],
-    "Referencias": ""
+    "IDIOMAS": [],
+    "EXPERIENCIA": "Nombre Completo Nicolás Ignacio Aravena Cancino Universidad Universidad del Desarrollo. Abogados de Concepción Co-fundador empresa ByN Soluciones Tecnológicas Ltda. Participación en Programa Incuba Udd de emprendimiento Certificado Participación en Programa de Formación de Lideres Udd 2018 2014 Presidente Electivo Humanista Colegio San Gabriel Arcángel Los Ángeles. 2014-2015 Presidente Electivo Humanista Colegio San Gabriel Arcángel Los Ángeles. Destacada participación musical en representación del Colegio San Gabriel Arcángel. 2013 Premio Fundación Juan Xxiii al equipo de Debates Colegio San Gabriel Arcángel Los Ángeles. ",
+    "RESUMEN": "curriculum vitae ",
+    "SKILLS": [],
+    "REFERENCIAS": ""
 }

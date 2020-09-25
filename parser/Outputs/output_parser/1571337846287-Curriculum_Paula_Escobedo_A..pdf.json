@@ -1,37 +1,34 @@
 {
-    "Contacto": {
-        "Nombre": "Paula Escobedo Arriagada ",
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": "Paula Escobedo Arriagada ",
+        "CORREO": [
             "paula.ea92@gmail.com"
         ],
-        "Celular": "+56981391648",
-        "Linkedin": null
+        "CELULAR": "+72635698139",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1571337846287-Curriculum_Paula_Escobedo_A..pdf",
-    "Licencias-Certificaciones": [],
-    "Palabras Claves": [
-        "Adaptable",
-        "Puntual",
-        "Responsabilidad",
-        "Gestión"
-    ],
-    "Educacion": {
-        "Universidades:": [
-            "Universidad Técnica Federico Santa María"
+    "NOMBRE_ARCHIVO": "1571337846287-Curriculum_Paula_Escobedo_A..pdf",
+    "LICENCIA_CERTIFICACION": [],
+    "PALABRAS_CLAVES": null,
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
+            "UNIVERSIDAD TECNICA FEDERICO SANTA MARIA"
         ],
-        "Grado_mas_alto": [
-            "Pregrado"
+        "GRADO_MAS_ALTO": [
+            "PREGRADO"
         ]
     },
-    "Lenguajes": [
-        "English"
+    "IDIOMAS": [
+        "INGLES",
+        "ENGLISH"
     ],
-    "Experiencia": "experiencia ministerio de energía junio 2019- agosto 2019 profesional de apoyo para el desarrollo del proyecto de partnership for market readiness. se desarrollan cálculos de cuantificación y valorización de medidas de mitigación de gases de efecto invernadero. se asiste en el proceso de desarrollo de plataforma de registro de acciones de mitigación del sector energético. práctica profesional proyecta spa. mayo 2017- octubre 2017 consultor de evaluación del estado de la empresa hortifrut s.a para la obtención de la certificación b. se desarrollan informes de evaluación respecto a las aristas evaluadas, identificando kpis. se generan propuestas de mejoras, tareas y tiempos en las operaciones para la obtención de la certificación. práctica industrial melón s.a enero 2015- febrero 2015 levantamiento de información para el área de marketing del estado del equipo de grandes ventas de la división de hormigón identificando debilidades y fortalezas a nivel individual del equipo. adicionalmente, se realizó la evaluación del nuevo sistema de gestión de información, identificando limitaciones, sugerencias y alternativas para la operación. ",
-    "Resumen": "paula escobedo arriagada nevada 7263 56981391648 paula.ea92@gmail.com ingeniero civil industrial con experiencia en el rubro de consultoría en el área de operaciones y desarrollo de proyectos. poseo una gran capacidad para adaptarme y trabajo muy bien en equipo. me caracterizo por ser una persona ordenada y de rápido aprendizaje. poseo un gran interés en las áreas de sustentabilidad, energética, evaluación de proyectos y operaciones es por lo anterior que durante mi formación profesional curse los programas de especialización de manejo ambiental, gestión de la innovación, calidad industrial y optimización ambiental y ejecución y control de proyectos industriales. ",
-    "Skills": [
-        "Salesforce",
-        "Excel",
-        "Access"
+    "EXPERIENCIA": "experiencia ministerio de energía junio 2019- agosto 2019 profesional de apoyo para el desarrollo del proyecto de partnership for market readiness. se desarrollan cálculos de cuantificación y valorización de medidas de mitigación de gases de efecto invernadero. se asiste en el proceso de desarrollo de plataforma de registro de acciones de mitigación del sector energético. práctica profesional proyecta spa. mayo 2017- octubre 2017 consultor de evaluación del estado de la empresa hortifrut s.a para la obtención de la certificación b. se desarrollan informes de evaluación respecto a las aristas evaluadas, identificando kpis. se generan propuestas de mejoras, tareas y tiempos en las operaciones para la obtención de la certificación. práctica industrial melón s.a enero 2015- febrero 2015 levantamiento de información para el área de marketing del estado del equipo de grandes ventas de la división de hormigón identificando debilidades y fortalezas a nivel individual del equipo. adicionalmente, se realizó la evaluación del nuevo sistema de gestión de información, identificando limitaciones, sugerencias y alternativas para la operación. ",
+    "RESUMEN": "paula escobedo arriagada nevada 7263 56981391648 paula.ea92@gmail.com ingeniero civil industrial con experiencia en el rubro de consultoría en el área de operaciones y desarrollo de proyectos. poseo una gran capacidad para adaptarme y trabajo muy bien en equipo. me caracterizo por ser una persona ordenada y de rápido aprendizaje. poseo un gran interés en las áreas de sustentabilidad, energética, evaluación de proyectos y operaciones es por lo anterior que durante mi formación profesional curse los programas de especialización de manejo ambiental, gestión de la innovación, calidad industrial y optimización ambiental y ejecución y control de proyectos industriales. ",
+    "SKILLS": [
+        "EXCEL",
+        "SALESFORCE",
+        "ACCESS",
+        "SPSS"
     ],
-    "Referencias": ""
+    "REFERENCIAS": ""
 }

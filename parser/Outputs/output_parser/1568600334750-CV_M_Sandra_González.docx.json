@@ -1,31 +1,31 @@
 {
-    "Contacto": {
-        "Nombre": "María Sandra Esperanza ",
-        "Correo": "mariasandragt@gmail.com",
-        "Celular": "+56972167967",
-        "Linkedin": null
+    "CONTACTO": {
+        "NOMBRE": "María Sandra Esperanza ",
+        "CORREO": "mariasandragt@gmail.com",
+        "CELULAR": "+56972167967",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1568600334750-CV_M_Sandra_González.docx",
-    "Licencias-Certificaciones": [],
-    "Palabras Claves": null,
-    "Educacion": {
-        "Universidades:": [
-            "Universidad De La Serena"
+    "NOMBRE_ARCHIVO": "1568600334750-CV_M_Sandra_González.docx",
+    "LICENCIA_CERTIFICACION": [],
+    "PALABRAS_CLAVES": null,
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
+            "UNIVERSIDAD DE LA SERENA"
         ],
-        "Grado_mas_alto": [
-            "Pregrado"
+        "GRADO_MAS_ALTO": [
+            "PREGRADO"
         ]
     },
-    "Lenguajes": [
-        "Inglés"
+    "IDIOMAS": [
+        "INGLES"
     ],
-    "Experiencia": "experiencia profesional experiencia profesional programas manejados programas manejados enero febrero 2018 2018 a la fecha 2018- a la fecha 2019 enero febrero 2018 2018 a la fecha 2018- a la fecha 2019 compañía minera san gerónimo práctica profesional talcuna, mina 21 tareas realizadas recopilación de datos a través de mediciones en terreno del ciclo de carguío de la pala 30 y mediciones en terreno de los tiempos de perforación y del avance efectivo en frentes de desarrollo y preparación de la perforadora boomer 282. análisis de datos y entrega de informes. colegio andrés bello-centro profesora de folclore tareas realizadas creación y enseñanza de coreografías folclóricas a alumnos de kínder a 4to medio - encargada de la parte artística de los actos del colegio. particular clases particulares de matemáticas tareas realizadas clases de matemáticas a alumnos desde 5to básico hasta universitarios. colegio andrés bello-centro profesora reemplazante de matemáticas tareas realizadas reemplazo como profesora de matemáticas, 30 horas, de 8vo básico a 3ro medio. compañía minera san gerónimo práctica profesional talcuna, mina 21 tareas realizadas recopilación de datos a través de mediciones en terreno del ciclo de carguío de la pala 30 y mediciones en terreno de los tiempos de perforación y del avance efectivo en frentes de desarrollo y preparación de la perforadora boomer 282. análisis de datos y entrega de informes. colegio andrés bello-centro profesora de folclore tareas realizadas creación y enseñanza de coreografías folclóricas a alumnos de kínder a 4to medio - encargada de la parte artística de los actos del colegio. particular clases particulares de matemáticas tareas realizadas clases de matemáticas a alumnos desde 5to básico hasta universitarios. colegio andrés bello-centro profesora reemplazante de matemáticas tareas realizadas reemplazo como profesora de matemáticas, 30 horas, de 8vo básico a 3ro medio. excel microsoft project vulcan shotplus autocad excel microsoft project vulcan shotplus autocad ",
-    "Resumen": "maría sandra esperanza gonzález troncoso maría sandra esperanza gonzález troncoso diplomas y hobbies formaciones diplomados, congresos, xxxxxxxxxx xxxxxx xxxxxxxxx xxxxxxxxxxxxxxxxx hobbies xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx diplomas y hobbies formaciones diplomados, congresos, xxxxxxxxxx xxxxxx xxxxxxxxx xxxxxxxxxxxxxxxxx hobbies xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx ingeniera civil en minas ingeniera civil en minas rut 18.631.872-2 mariasandragt@gmail.com - 569 72167967 rut 18.631.872-2 mariasandragt@gmail.com - 569 72167967 ",
-    "Skills": [
-        "Vulcan",
-        "Microsoft project",
-        "Excel",
-        "Autocad"
+    "EXPERIENCIA": "experiencia profesional experiencia profesional programas manejados programas manejados enero febrero 2018 2018 a la fecha 2018- a la fecha 2019 enero febrero 2018 2018 a la fecha 2018- a la fecha 2019 compañía minera san gerónimo práctica profesional talcuna, mina 21 tareas realizadas recopilación de datos a través de mediciones en terreno del ciclo de carguío de la pala 30 y mediciones en terreno de los tiempos de perforación y del avance efectivo en frentes de desarrollo y preparación de la perforadora boomer 282. análisis de datos y entrega de informes. colegio andrés bello-centro profesora de folclore tareas realizadas creación y enseñanza de coreografías folclóricas a alumnos de kínder a 4to medio - encargada de la parte artística de los actos del colegio. particular clases particulares de matemáticas tareas realizadas clases de matemáticas a alumnos desde 5to básico hasta universitarios. colegio andrés bello-centro profesora reemplazante de matemáticas tareas realizadas reemplazo como profesora de matemáticas, 30 horas, de 8vo básico a 3ro medio. compañía minera san gerónimo práctica profesional talcuna, mina 21 tareas realizadas recopilación de datos a través de mediciones en terreno del ciclo de carguío de la pala 30 y mediciones en terreno de los tiempos de perforación y del avance efectivo en frentes de desarrollo y preparación de la perforadora boomer 282. análisis de datos y entrega de informes. colegio andrés bello-centro profesora de folclore tareas realizadas creación y enseñanza de coreografías folclóricas a alumnos de kínder a 4to medio - encargada de la parte artística de los actos del colegio. particular clases particulares de matemáticas tareas realizadas clases de matemáticas a alumnos desde 5to básico hasta universitarios. colegio andrés bello-centro profesora reemplazante de matemáticas tareas realizadas reemplazo como profesora de matemáticas, 30 horas, de 8vo básico a 3ro medio. excel microsoft project vulcan shotplus autocad excel microsoft project vulcan shotplus autocad ",
+    "RESUMEN": "maría sandra esperanza gonzález troncoso maría sandra esperanza gonzález troncoso diplomas y hobbies formaciones diplomados, congresos, xxxxxxxxxx xxxxxx xxxxxxxxx xxxxxxxxxxxxxxxxx hobbies xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx diplomas y hobbies formaciones diplomados, congresos, xxxxxxxxxx xxxxxx xxxxxxxxx xxxxxxxxxxxxxxxxx hobbies xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx ingeniera civil en minas ingeniera civil en minas rut 18.631.872-2 mariasandragt@gmail.com - 569 72167967 rut 18.631.872-2 mariasandragt@gmail.com - 569 72167967 ",
+    "SKILLS": [
+        "EXCEL",
+        "AUTOCAD",
+        "VULCAN",
+        "MICROSOFT PROJECT"
     ],
-    "Referencias": "referencias referencias "
+    "REFERENCIAS": "referencias referencias "
 }

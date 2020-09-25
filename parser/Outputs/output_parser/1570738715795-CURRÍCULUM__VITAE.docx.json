@@ -1,26 +1,26 @@
 {
-    "Contacto": {
-        "Nombre": null,
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": null,
+        "CORREO": [
             "delajara.antonio@gmail.com"
         ],
-        "Celular": "+56961077577",
-        "Linkedin": null
+        "CELULAR": "+56961077577",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1570738715795-CURRÍCULUM__VITAE.docx",
-    "Licencias-Certificaciones": [],
-    "Palabras Claves": null,
-    "Educacion": {
-        "Universidades:": [
-            "Universidad Andrés Bello"
+    "NOMBRE_ARCHIVO": "1570738715795-CURRÍCULUM__VITAE.docx",
+    "LICENCIA_CERTIFICACION": [],
+    "PALABRAS_CLAVES": null,
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
+            "UNIVERSIDAD ANDRES BELLO"
         ],
-        "Grado_mas_alto": [
-            "Pregrado"
+        "GRADO_MAS_ALTO": [
+            "PREGRADO"
         ]
     },
-    "Lenguajes": [],
-    "Experiencia": " Currículum Vitae Nombre Antonio De La Jara Movilización propia no transporte público C. Experiencias y proyecciones laborales Trabajos de verano durante tres años en la empresa Sociedad Agrícola Chorombo. En la recolección de huevos de gallineros y poda de parras. Junior en el Área de Administración y Recursos Humanos Sociedad Agrícola Santa Catalina. ",
-    "Resumen": "currículum vitae cargo al que postula ingeniero comercial a. antecedentes personales nombre antonio de la jara fecha de nacimiento 10 de septiembre de 1994 estado civil soltero lugar de nacimiento clínica alemana nacionalidad chilena r.u.t. 18.933.463-k dirección particular calle luz 2909, depto 702, las condes. teléfono particular 8251972 correo electrónico delajara.antonio@gmail.com movilización propia no transporte público teléfono móvil 56961077577 b.antecedentes académicos educación y formación estudios básicos en colegio san isidro parcela 13, hijuela larga, linderos-buin numero teléfono 28213123 / 28213447 universidad universidad andrés bello campus casona acreditada 5 años el 2014 c. experiencias y proyecciones laborales trabajos de verano durante tres años en la empresa sociedad agrícola chorombo. en la recolección de huevos de gallineros y poda de parras. junior en el área de administración y recursos humanos sociedad agrícola santa catalina. d. mi resumen ",
-    "Skills": [],
-    "Referencias": ""
+    "IDIOMAS": [],
+    "EXPERIENCIA": " Currículum Vitae Nombre Antonio De La Jara C. Experiencias y proyecciones laborales Trabajos de verano durante tres años en la empresa Sociedad Agrícola Chorombo. En la recolección de huevos de gallineros y poda de parras. Junior en el Área de Administración y Recursos Humanos Sociedad Agrícola Santa Catalina. ",
+    "RESUMEN": "currículum vitae cargo al que postula ingeniero comercial a. antecedentes personales nombre antonio de la jara fecha de nacimiento 10 de septiembre de 1994 estado civil soltero lugar de nacimiento clínica alemana nacionalidad chilena r.u.t. 18.933.463-k dirección particular calle luz 2909, depto 702, las condes. teléfono particular 8251972 correo electrónico delajara.antonio@gmail.com movilización propia no transporte público teléfono móvil 56961077577 b.antecedentes académicos educación y formación estudios básicos en colegio san isidro parcela 13, hijuela larga, linderos-buin numero teléfono 28213123 / 28213447 universidad universidad andrés bello campus casona acreditada 5 años el 2014 c. experiencias y proyecciones laborales trabajos de verano durante tres años en la empresa sociedad agrícola chorombo. en la recolección de huevos de gallineros y poda de parras. junior en el área de administración y recursos humanos sociedad agrícola santa catalina. d. mi resumen ",
+    "SKILLS": [],
+    "REFERENCIAS": ""
 }

@@ -1,66 +1,66 @@
-Perfil,Experiencia ,Formación Académica,skills
-Perfil,Experiencia ,Formación Académica,skills
+EXTRAS,EXPERIENCIA,FORMACION_ACADEMICA,SKILLS
+Perfil,Experiencia ,academica,skills
 Resumen,Profesional,Educación,Habilidades
 Biografía,Logros,Formación,Cualificaciones
 Sobre,Experiencia,Estudios,Conocimientos
-Acerca de mi,historial,Formación educativa,Habilidades
+mi,historial,educativo,Habilidades
 personales,trabajo,académico,tecnologías
-detalles,Idiomas,Estudios profesionales,herramientas
-Extracto,docente,Estudios y certificaciones,inglés
-Intereses personales,Director,Formación profesional,francés
-Presentación,práctica,Educación Superior,idiomas
-Datos,internship,Estudios realizados,toefl
-Contacto,ayudante,Estudios y cursos,programación
-actividades,Referencias ,Cursos complementarios,librería
-adicional,metas,Cursos,español
-antecedentes,Referencias,Cursos y seminarios,software
-deportes,encargado,Talleres,python
-Interés,responsable,Seminarios,excel
-Datos de interés,analizar,Exposiciones,sql
-Hobbies,manejo,Educación complementaria,office
-Misceláneo,liderar,Docencia,lenguaje
-extraprogramática,realizar,Publicaciones,ingles
-Otros,función,Certificaciones,informática
-Voluntariados,controlar,universidad,ofimática
-Emprendimientos,ejecutivo,colegio,avanzado
-extracurriculares,organizar,instituto,otras habilidades
-Complementario,asegurar,coursera,
-calle,cliente,edx,
-dpto,desarrollar,magister,
-avenida,coordinar,mba,
-región,kpi,Especialización,
-me,asistente,Bachiller,
-soy,reportes,licenciatura,
-RUT,supervisar,capacitación,
-nacionalidad,redacción,bachillerato,
-nacimiento,comunicar,título,
-mail,apoyo,titulado,
-telefono,coordinación,egresado,
-fono,Atención,estudiante,
-dni,administrar,minor,
-rut,revisión,máster,
-referencias,medición,postgrado,
-ingeniero,seguimiento,diplomado,
-ingeniera,reporte,Especialización,
-nombre,laborales,conocimiento,
-edad,emprendimiento,ciencias,
-soltero,apoyar,secundaria,
-casado,creación,primaria,
-divorciado,desempeñar,workshop,
-proactivo,mantener,intercambio,
-,proponer,pasantía,
-,actualizar,licenciado,
-,desempeñar,mención,
-,asesorar,liceo,
-,visitar,colegio,
-,selección,carrera,
-,business,certificado,
-,asegurar,titulo,
-,evaluación,idiomas,
-,propuesta,estudios universitarios,
-,cotización,diploma,
-,funciones,formacion complementaria,
-,concretar,diplomado,
+detalles,Idiomas,estudios,herramientas
+Extracto,docente,Certificaciones,inglés
+personales,Director,superior,francés
+Presentación,práctica,complementarios,idiomas
+Datos,internship,Cursos,toefl
+Contacto,ayudante,Seminarios,programación
+actividades,Referencias ,Talleres,librería
+adicional,metas,Seminarios,español
+antecedentes,Referencias,Exposiciones,software
+deportes,encargado,Docencia,python
+Interés,responsable,Publicaciones,excel
+interes,analizar,Certificaciones,sql
+Hobbies,manejo,universidad,office
+Misceláneo,liderar,colegio,lenguaje
+extraprogramática,realizar,instituto,ingles
+Otros,función,coursera,informática
+Voluntariados,controlar,edx,ofimática
+Emprendimientos,ejecutivo,mba,avanzado
+extracurriculares,organizar,Especialización,licencia
+Complementario,asegurar,Bachiller,
+calle,cliente,licenciatura,
+dpto,desarrollar,capacitación,
+avenida,coordinar,bachillerato,
+región,kpi,título,
+me,asistente,titulado,
+soy,reportes,egresado,
+RUT,supervisar,estudiante,
+nacionalidad,redacción,minor,
+nacimiento,comunicar,máster,
+mail,apoyo,postgrado,
+telefono,coordinación,diplomado,
+fono,Atención,Especialización,
+dni,administrar,conocimiento,
+rut,revisión,ciencias,
+referencias,medición,secundaria,
+ingeniero,seguimiento,primaria,
+ingeniera,reporte,workshop,
+nombre,laborales,intercambio,
+edad,emprendimiento,pasantía,
+soltero,apoyar,licenciado,
+casado,creación,mención,
+divorciado,desempeñar,liceo,
+proactivo,mantener,colegio,
+dirección,proponer,carrera,
+soy,actualizar,certificado,
+comprometido,desempeñar,titulo,
+trayectoria,asesorar,idiomas,
+domicilio,visitar,universitarios,
+,selección,diploma,
+,business,diplomado,
+,asegurar,datacamp,
+,evaluación,magíster,
+,propuesta,gradudado,
+,cotización,,
+,funciones,,
+,concretar,,
 ,cátedra,,
 ,capturar,,
 ,manager,,
@@ -72,7 +72,6 @@ proactivo,mantener,intercambio,
 ,ofrecer,,
 ,ejecucion,,
 ,confeccion,,
-,dirección,,
 ,consulteria,,
 ,recepción,,
 ,asesoramiento,,
@@ -84,5 +83,17 @@ proactivo,mantener,intercambio,
 ,aseroria,,
 ,liderar,,
 ,consultor,,
-,cargo,,
+,humanos,,
 ,administracion,,
+,especialista,,
+,facilitando,,
+,generación,,
+,negociación,,
+,participando,,
+,potenciar,,
+,área,,
+,cargo,,
+,recursos,,
+,evaluar,,
+,empresa,,
+,realizar,,

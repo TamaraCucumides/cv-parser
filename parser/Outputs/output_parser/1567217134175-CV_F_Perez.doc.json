@@ -1,45 +1,43 @@
 {
-    "Contacto": {
-        "Nombre": "Francisco Augusto Perez ",
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": "Francisco Augusto Perez ",
+        "CORREO": [
             "faperez5@uc.cl"
         ],
-        "Celular": "+56951147356",
-        "Linkedin": null
+        "CELULAR": "+56951147356",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1567217134175-CV_F_Perez.doc",
-    "Licencias-Certificaciones": [
+    "NOMBRE_ARCHIVO": "1567217134175-CV_F_Perez.doc",
+    "LICENCIA_CERTIFICACION": [
         "TOEIC"
     ],
-    "Palabras Claves": [
+    "PALABRAS_CLAVES": [
         "Análisis",
         "Modelamiento"
     ],
-    "Educacion": {
-        "Universidades:": [
-            "Pontificia Universidad Catolica de Chile",
-            "Universidad Católica de Chile"
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
+            "PONTIFICIA UNIVERSIDAD CATOLICA DE CHILE"
         ],
-        "Grado_mas_alto": [
-            "Pregrado"
+        "GRADO_MAS_ALTO": [
+            "PREGRADO"
         ]
     },
-    "Lenguajes": [
-        "Inglés",
-        "Francés"
+    "IDIOMAS": [
+        "FRANCES",
+        "INGLES"
     ],
-    "Experiencia": "formulando modelos estadísticos para predecir todo tipo de fenómenos. Vendedor Agosto 2016 Gastronómica Amalfitano Spa Ayudante de cocina Enero 2017 Homecenter Sodimac Reponedor diurno Diciembre 2018 Marzo 2019 Garces Y Browne Ltda. Barista/Cajero Iii. Competencias Profesionales Investigación del modelo Rusle Profesor Carlos Bonilla Supervisor Gabriel Lobos para el modelo Rusle el cual es usado para predecir el promedio de las pérdidas anuales de suelo debido a la erosión. protector de la obesidad en Chile Profesor Dr. Francisco Mardones Supervisor Ximena Fernández anteriores y posteriormente la redacción de un informe, tuvo como objetivo mostrar empíricamente la relación negativa existente entre la prevalencia del sobrepeso en la población chilena de niños menores a 5 años y el índice de lactancia materna hasta los 6 meses. 2018 Institución Hcm Front Investigación principal de la rotación de empleados como predecirla en el tiempo y por lo tanto como evitarla Dirección Holanda 1212 depto. 91, Providencia Agosto, 2019 ",
-    "Resumen": "francisco augusto perez flores licenciatura en college de ciencias naturales y matemáticas uc major ingeniería matemática minor estética del cine email faperez5@uc.cl , teléfono 56951147356 estoy interesado en la resolución de problemas complejos de diversas áreas mediante el uso de ideas traducidas al lenguaje matemático, especialmente formulando modelos estadísticos para predecir todo tipo de fenómenos. la matemática es el arte de nombrar de la misma manera cosas distintas henri pointcaré i. antecedentes académicos 2013- 2019 pontificia universidad católica de chile programa college. licenciado en college cs. naturales y matemáticas major en ingeniería matemática minor estética del cine 2002-2012 colegio josefino santísima trinidad enseñanza media i a iv medio enseñanza básica 2 a 8 básico ii. antecedentes laborales enero 2013 alltennissports. vendedor agosto 2016 gastronómica amalfitano spa ayudante de cocina enero 2017 homecenter sodimac reponedor diurno diciembre 2018 marzo 2019 garces y browne ltda. barista/cajero abril 2019 presente juan valdez barista iii. competencias profesionales softwares office, excel avanzado, python, latex, r, stata. inglés hablo, leo y escribo nivel avanzado toeic francés hablo, leo y escribo nivel básico nivel a2 iv. actividades extracurriculares 2015 institución pontificia universidad católica de chile investigación del modelo rusle profesor carlos bonilla supervisor gabriel lobos resumen investigación que, haciendo uso de métodos estadísticos y datos generados por el programa wepp, tuvo como fin encontrar una mejor ecuación para el modelo rusle el cual es usado para predecir el promedio de las pérdidas anuales de suelo debido a la erosión. 2017 institución pontificia universidad católica de chile investigación lactancia materna como factor protector de la obesidad en chile profesor dr. francisco mardones supervisor ximena fernández resumen investigación que, por medio de la recopilación de datos registros, bases de datos y entrevistas, metaanálisis de investigaciones anteriores y posteriormente la redacción de un informe, tuvo como objetivo mostrar empíricamente la relación negativa existente entre la prevalencia del sobrepeso en la población chilena de niños menores a 5 años y el índice de lactancia materna hasta los 6 meses. 2018 institución hcm front investigación predicción y análisis de rotación de personal usando machine learning resumen investigación, parte del curso capstone que, mediante el uso de herramientas como python o r, se aplican modelos estadísticos y de machine learning a una base de datos de una empresa real para explicar la razón principal de la rotación de empleados como predecirla en el tiempo y por lo tanto como evitarla v. datos personales nacionalidad chilena r.u.t 18.933.433-8 fecha de nacimiento 19 de septiembre de 1994 estado civil soltero dirección holanda 1212 depto. 91, providencia ",
-    "Skills": [
-        "Machine learning",
-        "Latex",
-        "Toeic",
-        "Bases de datos",
-        "Base de datos",
-        "Excel",
-        "Stata",
-        "Office",
-        "Python"
+    "EXPERIENCIA": "Estoy interesado en la resolución de problemas complejos de diversas áreas formulando modelos estadísticos para predecir todo tipo de fenómenos. Ii. Antecedentes Laborales Enero 2013 Alltennissports. Vendedor Agosto 2016 Gastronómica Amalfitano Spa Ayudante de cocina Enero 2017 Homecenter Sodimac Reponedor diurno Diciembre 2018 Marzo 2019 Garces Y Browne Ltda. Barista/Cajero Iii. Competencias Profesionales Investigación del modelo Rusle Profesor Carlos Bonilla Supervisor Gabriel Lobos para el modelo Rusle el cual es usado para predecir el promedio de las pérdidas anuales de suelo debido a la erosión. protector de la obesidad en Chile Profesor Dr. Francisco Mardones Supervisor Ximena Fernández registros, bases de datos y entrevistas, metaanálisis de investigaciones anteriores y posteriormente la redacción de un informe, tuvo como objetivo mostrar empíricamente la relación negativa existente entre la prevalencia del sobrepeso en la población chilena de niños menores a 5 años y el índice de lactancia materna hasta los 6 meses. 2018 Institución Hcm Front Investigación Predicción y análisis de rotación de learning a una base de datos de una empresa real para explicar la razón principal de la rotación de empleados como predecirla en el tiempo y por lo tanto como evitarla ",
+    "RESUMEN": "francisco augusto perez flores licenciatura en college de ciencias naturales y matemáticas uc major ingeniería matemática minor estética del cine email faperez5@uc.cl , teléfono 56951147356 estoy interesado en la resolución de problemas complejos de diversas áreas mediante el uso de ideas traducidas al lenguaje matemático, especialmente formulando modelos estadísticos para predecir todo tipo de fenómenos. la matemática es el arte de nombrar de la misma manera cosas distintas henri pointcaré i. antecedentes académicos 2013- 2019 pontificia universidad católica de chile programa college. licenciado en college cs. naturales y matemáticas major en ingeniería matemática minor estética del cine 2002-2012 colegio josefino santísima trinidad enseñanza media i a iv medio enseñanza básica 2 a 8 básico ii. antecedentes laborales enero 2013 alltennissports. vendedor agosto 2016 gastronómica amalfitano spa ayudante de cocina enero 2017 homecenter sodimac reponedor diurno diciembre 2018 marzo 2019 garces y browne ltda. barista/cajero abril 2019 presente juan valdez barista iii. competencias profesionales softwares office, excel avanzado, python, latex, r, stata. inglés hablo, leo y escribo nivel avanzado toeic francés hablo, leo y escribo nivel básico nivel a2 iv. actividades extracurriculares 2015 institución pontificia universidad católica de chile investigación del modelo rusle profesor carlos bonilla supervisor gabriel lobos resumen investigación que, haciendo uso de métodos estadísticos y datos generados por el programa wepp, tuvo como fin encontrar una mejor ecuación para el modelo rusle el cual es usado para predecir el promedio de las pérdidas anuales de suelo debido a la erosión. 2017 institución pontificia universidad católica de chile investigación lactancia materna como factor protector de la obesidad en chile profesor dr. francisco mardones supervisor ximena fernández resumen investigación que, por medio de la recopilación de datos registros, bases de datos y entrevistas, metaanálisis de investigaciones anteriores y posteriormente la redacción de un informe, tuvo como objetivo mostrar empíricamente la relación negativa existente entre la prevalencia del sobrepeso en la población chilena de niños menores a 5 años y el índice de lactancia materna hasta los 6 meses. 2018 institución hcm front investigación predicción y análisis de rotación de personal usando machine learning resumen investigación, parte del curso capstone que, mediante el uso de herramientas como python o r, se aplican modelos estadísticos y de machine learning a una base de datos de una empresa real para explicar la razón principal de la rotación de empleados como predecirla en el tiempo y por lo tanto como evitarla v. datos personales nacionalidad chilena r.u.t 18.933.433-8 fecha de nacimiento 19 de septiembre de 1994 estado civil soltero dirección holanda 1212 depto. 91, providencia ",
+    "SKILLS": [
+        "PYTHON",
+        "R",
+        "TOEIC",
+        "MACHINE LEARNING",
+        "STATA",
+        "LATEX",
+        "OFFICE",
+        "EXCEL"
     ],
-    "Referencias": ""
+    "REFERENCIAS": ""
 }

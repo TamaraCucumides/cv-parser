@@ -1,37 +1,36 @@
 {
-    "Contacto": {
-        "Nombre": "Salvador Enrique Núñez ",
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": "Salvador Enrique Núñez ",
+        "CORREO": [
             "salvador.nunez.lopez95@gmail.com"
         ],
-        "Celular": "+56999674972",
-        "Linkedin": null
+        "CELULAR": "+56999674972",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1567220390972-CV_Salvador_Nu�ez_Ingeniero.docx",
-    "Licencias-Certificaciones": [
+    "NOMBRE_ARCHIVO": "1567220390972-CV_Salvador_Nu�ez_Ingeniero.docx",
+    "LICENCIA_CERTIFICACION": [
         "CLASE B",
         "LICENCIA DE CONDUCIR"
     ],
-    "Palabras Claves": null,
-    "Educacion": {
-        "Universidades:": [
-            "Instituto Profesional DUOC UC"
+    "PALABRAS_CLAVES": null,
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
+            "INSTITUTO PROFESIONAL DUOC UC"
         ],
-        "Grado_mas_alto": [
-            "Pregrado"
+        "GRADO_MAS_ALTO": [
+            "PREGRADO"
         ]
     },
-    "Lenguajes": [
-        "Inglés intermedio",
-        "Inglés"
+    "IDIOMAS": [
+        "INGLES"
     ],
-    "Experiencia": "experiencia laboral sotraser sociedad anónima 2019 cargo administrativo departamento de abastecimiento encargado de gestionar de órdenes de compra en el sistema sap. verificación de los valores y montos de cada una de las facturas electrónicas que eran enviadas al área de abastecimiento por parte de los proveedores. gestión de solicitudes de pedido en el link de la página web de la empresa volvo. este trabajo se realiza mediante un digipass que otorga una clave única para realizar cada una de las transacciones. revisión del historial de pedido de cada una de las facturas que eran enviadas al departamento de abastecimiento para verificar si la factura se encuentra o no se encuentra recepcionada. maquinaria real spa 2017 cargo asistente de mantenimiento a los camiónes mercedes benz actros. cambio de aceite motor. cambio de filtros de aire. verificación del estado del nivel de refrigerante del camión. sustitución de cañerías y cajas de cambio. ",
-    "Resumen": "perfil profesional ingeniero en maquinaria y vehículos pesados titulado del instituto profesional duoc uc capacitado para desarrollar, ejecutar y supervisar labores de diagnóstico, mantenimiento en maquinaria y vehículos pesados. ",
-    "Skills": [
-        "Power point",
-        "Word",
-        "Sap",
-        "Excel"
+    "EXPERIENCIA": "experiencia laboral sotraser sociedad anónima 2019 cargo administrativo departamento de abastecimiento encargado de gestionar de órdenes de compra en el sistema sap. verificación de los valores y montos de cada una de las facturas electrónicas que eran enviadas al área de abastecimiento por parte de los proveedores. gestión de solicitudes de pedido en el link de la página web de la empresa volvo. este trabajo se realiza mediante un digipass que otorga una clave única para realizar cada una de las transacciones. revisión del historial de pedido de cada una de las facturas que eran enviadas al departamento de abastecimiento para verificar si la factura se encuentra o no se encuentra recepcionada. maquinaria real spa 2017 cargo asistente de mantenimiento a los camiónes mercedes benz actros. cambio de aceite motor. cambio de filtros de aire. verificación del estado del nivel de refrigerante del camión. sustitución de cañerías y cajas de cambio. ",
+    "RESUMEN": "perfil profesional ingeniero en maquinaria y vehículos pesados titulado del instituto profesional duoc uc capacitado para desarrollar, ejecutar y supervisar labores de diagnóstico, mantenimiento en maquinaria y vehículos pesados. ",
+    "SKILLS": [
+        "EXCEL",
+        "POWER POINT",
+        "WORD",
+        "SAP"
     ],
-    "Referencias": ""
+    "REFERENCIAS": ""
 }

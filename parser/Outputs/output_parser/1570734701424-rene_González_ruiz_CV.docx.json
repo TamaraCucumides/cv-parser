@@ -1,26 +1,26 @@
 {
-    "Contacto": {
-        "Nombre": null,
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": null,
+        "CORREO": [
             "renegonzalezruiz17@gmail.com"
         ],
-        "Celular": "974306724",
-        "Linkedin": null
+        "CELULAR": "169647410",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1570734701424-rene_González_ruiz_CV.docx",
-    "Licencias-Certificaciones": [
+    "NOMBRE_ARCHIVO": "1570734701424-rene_González_ruiz_CV.docx",
+    "LICENCIA_CERTIFICACION": [
         "CLASE B"
     ],
-    "Palabras Claves": null,
-    "Educacion": {
-        "Universidades:": [],
-        "Grado_mas_alto": [
-            "Pregrado"
+    "PALABRAS_CLAVES": null,
+    "EDUCACION": {
+        "UNIVERSIDADES:": [],
+        "GRADO_MAS_ALTO": [
+            "PREGRADO"
         ]
     },
-    "Lenguajes": [],
-    "Experiencia": "experiencia laboral -septiembre 2016 la actualidad automotora guic ltda. servicio al cliente cajero administrativo enero 2013 a septiembre 2016 prosegur cajero. atm operador. clasificador de remesas. encargado de boveda. ",
-    "Resumen": "curriculum vitae nombre rene leonardo gonzález ruiz edad 30 años rut 16.964.741-0 nacionalidad chilena estado civil soltero dirección pasaje alcalde andrade 01209 e-mail renegonzalezruiz17@gmail.com disponibilidad inmediata celular9-74306724 ",
-    "Skills": [],
-    "Referencias": ""
+    "IDIOMAS": [],
+    "EXPERIENCIA": "experiencia laboral -septiembre 2016 la actualidad automotora guic ltda. servicio al cliente cajero administrativo enero 2013 a septiembre 2016 prosegur cajero. atm operador. clasificador de remesas. encargado de boveda. ",
+    "RESUMEN": "curriculum vitae nombre rene leonardo gonzález ruiz edad 30 años rut 16.964.741-0 nacionalidad chilena estado civil soltero dirección pasaje alcalde andrade 01209 e-mail renegonzalezruiz17@gmail.com disponibilidad inmediata celular9-74306724 ",
+    "SKILLS": [],
+    "REFERENCIAS": ""
 }

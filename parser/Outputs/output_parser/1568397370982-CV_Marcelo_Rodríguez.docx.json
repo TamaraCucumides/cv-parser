@@ -1,38 +1,38 @@
 {
-    "Contacto": {
-        "Nombre": "Marcelo Andrés Rodríguez ",
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": "Marcelo Andrés Rodríguez ",
+        "CORREO": [
             "marceloandres.ra@gmail.com"
         ],
-        "Celular": "+56956131013",
-        "Linkedin": null
+        "CELULAR": "+56956131013",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1568397370982-CV_Marcelo_Rodríguez.docx",
-    "Licencias-Certificaciones": [
+    "NOMBRE_ARCHIVO": "1568397370982-CV_Marcelo_Rodríguez.docx",
+    "LICENCIA_CERTIFICACION": [
         "CLASE B",
         "LICENCIA DE CONDUCIR"
     ],
-    "Palabras Claves": null,
-    "Educacion": {
-        "Universidades:": [
-            "Universidad Católica del Norte"
+    "PALABRAS_CLAVES": null,
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
+            "UNIVERSIDAD CATOLICA DEL NORTE"
         ],
-        "Grado_mas_alto": [
-            "Postgrado"
+        "GRADO_MAS_ALTO": [
+            "POSTGRADO"
         ]
     },
-    "Lenguajes": [
-        "Inglés"
+    "IDIOMAS": [
+        "INGLES"
     ],
-    "Experiencia": "experiencia laboral año 2016 empaque supermercado lider s.t.i enort. año 2017 empaque supermercado lider s.t.i enort. año 2018 empaque supermercado lider s.t.i enort. año 2019 empaque supermercado lider s.t.i enort. ",
-    "Resumen": "marcelo andrés rodríguez alfaro avenida antonio rendic 6802, antofagasta, chile. celular 56 956131013 fono 55 2380023 e-mail marceloandres.ra@gmail.com ",
-    "Skills": [
-        "Word",
-        "Power point",
-        "Autocad",
-        "Matlab",
-        "Excel",
-        "Office"
+    "EXPERIENCIA": "experiencia laboral año 2016 empaque supermercado lider s.t.i enort. año 2017 empaque supermercado lider s.t.i enort. año 2018 empaque supermercado lider s.t.i enort. año 2019 empaque supermercado lider s.t.i enort. ",
+    "RESUMEN": "marcelo andrés rodríguez alfaro avenida antonio rendic 6802, antofagasta, chile. celular 56 956131013 fono 55 2380023 e-mail marceloandres.ra@gmail.com ",
+    "SKILLS": [
+        "POWER POINT",
+        "WORD",
+        "MATLAB",
+        "OFFICE",
+        "EXCEL",
+        "AUTOCAD"
     ],
-    "Referencias": ""
+    "REFERENCIAS": ""
 }

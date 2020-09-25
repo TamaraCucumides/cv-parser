@@ -1,30 +1,26 @@
 {
-    "Contacto": {
-        "Nombre": "Diego Javier D ",
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": "Diego Javier D ",
+        "CORREO": [
             "Ddicreuz@gmail.com"
         ],
-        "Celular": "936347358",
-        "Linkedin": "www.linkedin.com/in/dieg"
+        "CELULAR": "936347358",
+        "LINKEDIN": "www.linkedin.com/in/dieg"
     },
-    "Nombre archivo": "1571341797851-Currículum_Diego_Díaz_Creuz.pdf",
-    "Licencias-Certificaciones": [],
-    "Palabras Claves": [
-        "Puntual",
-        "Voluntariado",
-        "Proactividad"
-    ],
-    "Educacion": {
-        "Universidades:": [
-            "Universidad Católica del Norte"
+    "NOMBRE_ARCHIVO": "1571341797851-Currículum_Diego_Díaz_Creuz.pdf",
+    "LICENCIA_CERTIFICACION": [],
+    "PALABRAS_CLAVES": null,
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
+            "UNIVERSIDAD CATOLICA DEL NORTE"
         ],
-        "Grado_mas_alto": [
-            "Pregrado"
+        "GRADO_MAS_ALTO": [
+            "PREGRADO"
         ]
     },
-    "Lenguajes": [],
-    "Experiencia": "experiencia empaque jumbo calama marzo 2018 actualmente observación mis compañeros me postularon como encargado de empaques. referencia andra ramírez 9-88850010 ayudante de servicios exponor 2017 mayo 2017 15 al 19 asistente de charlas técnicas. referencia ximena díaz 9-72946607 ",
-    "Resumen": "objetivo ser un ingeniero destacado por mi trabajo en el área metalurgista y desarrollarme como profesional. ",
-    "Skills": [],
-    "Referencias": ""
+    "IDIOMAS": [],
+    "EXPERIENCIA": "experiencia empaque jumbo calama marzo 2018 actualmente observación mis compañeros me postularon como encargado de empaques. referencia andra ramírez 9-88850010 ayudante de servicios exponor 2017 mayo 2017 15 al 19 asistente de charlas técnicas. referencia ximena díaz 9-72946607 ",
+    "RESUMEN": "objetivo ser un ingeniero destacado por mi trabajo en el área metalurgista y desarrollarme como profesional. ",
+    "SKILLS": [],
+    "REFERENCIAS": ""
 }

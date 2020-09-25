@@ -1,25 +1,27 @@
 {
-    "Contacto": {
-        "Nombre": null,
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": null,
+        "CORREO": [
             "saideeperz@gmail.com"
         ],
-        "Celular": "+56942520795",
-        "Linkedin": null
+        "CELULAR": "+56942520795",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1568614281094-cv_SPA.pdf",
-    "Licencias-Certificaciones": [],
-    "Palabras Claves": [
+    "NOMBRE_ARCHIVO": "1568614281094-cv_SPA.pdf",
+    "LICENCIA_CERTIFICACION": [],
+    "PALABRAS_CLAVES": [
         "Aprender",
         "Disposición"
     ],
-    "Educacion": {
-        "Universidades:": [],
-        "Grado_mas_alto": []
+    "EDUCACION": {
+        "UNIVERSIDADES:": [],
+        "GRADO_MAS_ALTO": []
     },
-    "Lenguajes": [],
-    "Experiencia": "e x p e r i e n c i a sin experiencia pero con disposición para aprender. o b j e t i v o adquirir experiencia para crecer laboralmente y seguir avanzando en mi vida. ",
-    "Resumen": "o b j e t i v o adquirir experiencia para crecer laboralmente y seguir avanzando en mi vida. ",
-    "Skills": [],
-    "Referencias": ""
+    "IDIOMAS": [],
+    "EXPERIENCIA": "e x p e r i e n c i a sin experiencia pero con disposición para aprender. o b j e t i v o adquirir experiencia para crecer laboralmente y seguir avanzando en mi vida. ",
+    "RESUMEN": "o b j e t i v o adquirir experiencia para crecer laboralmente y seguir avanzando en mi vida. ",
+    "SKILLS": [
+        "R"
+    ],
+    "REFERENCIAS": ""
 }

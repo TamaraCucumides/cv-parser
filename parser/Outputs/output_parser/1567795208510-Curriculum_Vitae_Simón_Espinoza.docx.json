@@ -1,32 +1,26 @@
 {
-    "Contacto": {
-        "Nombre": "Simón Ariel Simón ",
-        "Correo": "simon.espinozabe@gmaill.com",
-        "Celular": "+56963753444",
-        "Linkedin": null
+    "CONTACTO": {
+        "NOMBRE": "Simón Ariel Simón ",
+        "CORREO": "simon.espinozabe@gmaill.com",
+        "CELULAR": "+56963753444",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1567795208510-Curriculum_Vitae_Simón_Espinoza.docx",
-    "Licencias-Certificaciones": [],
-    "Palabras Claves": [
-        "Liderar",
-        "Análisis",
-        "Responsabilidad",
-        "Proactividad",
-        "Aprender",
-        "Gestión"
-    ],
-    "Educacion": {
-        "Universidades:": [],
-        "Grado_mas_alto": [
-            "Pregrado"
+    "NOMBRE_ARCHIVO": "1567795208510-Curriculum_Vitae_Simón_Espinoza.docx",
+    "LICENCIA_CERTIFICACION": [],
+    "PALABRAS_CLAVES": null,
+    "EDUCACION": {
+        "UNIVERSIDADES:": [],
+        "GRADO_MAS_ALTO": [
+            "PREGRADO"
         ]
     },
-    "Lenguajes": [],
-    "Experiencia": "experiencia experiencia empresa spa vtr comunicaciones. 2009 mar 2019 analista comercial coordinador pf. 2016 - 2019, analista up-sellig/cross-seling go to market, rentabilizar, diseñar, crear promociones y coordinar campañas de stock para no clientes/clientes vtr producto fijo. 2013, analista comercial, mejorar los distintos kpi de la plataforma de venta remota inbound, outbound, web y móvil. 2011, backoffice filtrado, disminuir los gastos logísticos de la compañía. 2009, asesor técnico call center cable fono, solución de problemas nivel usuario. empresa spa vtr comunicaciones. 2009 mar 2019 analista comercial coordinador pf. 2016 - 2019, analista up-sellig/cross-seling go to market, rentabilizar, diseñar, crear promociones y coordinar campañas de stock para no clientes/clientes vtr producto fijo. 2013, analista comercial, mejorar los distintos kpi de la plataforma de venta remota inbound, outbound, web y móvil. 2011, backoffice filtrado, disminuir los gastos logísticos de la compañía. 2009, asesor técnico call center cable fono, solución de problemas nivel usuario. office avanzado. access. hyperion designer. pyton. herramientas de admin. de datos. office avanzado. access. hyperion designer. pyton. herramientas de admin. de datos. informática empresa molina morel industrial mmi. 2007 - 2009 - supervisor vendedor retail. posicionamiento de productos plásticos en layourt de distintos retail. con la responsabilidad de cubrir las necesidades de 6 reponedoras en sus funciones. marketing, ventas y post-venta de productos en el mercado objetivo. empresa molina morel industrial mmi. 2007 - 2009 - supervisor vendedor retail. posicionamiento de productos plásticos en layourt de distintos retail. con la responsabilidad de cubrir las necesidades de 6 reponedoras en sus funciones. marketing, ventas y post-venta de productos en el mercado objetivo. ",
-    "Resumen": "simón ariel simón ariel espinoza belaunde espinoza belaunde objetivo profesional objetivo profesional buscando oportunidades de crecimiento en el mercado y con hambre de seguir aprendiendo nuevas metodologías de trabajo, siendo capaz de trabajar proactivamente y acoplarme a equipos consolidados, en transición o nuevos. además de aportar con mi amplia experiencia, generando valor a través de la gestión de clientes e identificando oportunidades comerciales en base a análisis de información. aportando en diversas áreas de experiencia de clientes, conocimiento del consumidor, desarrollo de productos, capacitación interna, segmentación, gestión comercial, layout y liderando equipos de trabajo/venta. buscando oportunidades de crecimiento en el mercado y con hambre de seguir aprendiendo nuevas metodologías de trabajo, siendo capaz de trabajar proactivamente y acoplarme a equipos consolidados, en transición o nuevos. además de aportar con mi amplia experiencia, generando valor a través de la gestión de clientes e identificando oportunidades comerciales en base a análisis de información. aportando en diversas áreas de experiencia de clientes, conocimiento del consumidor, desarrollo de productos, capacitación interna, segmentación, gestión comercial, layout y liderando equipos de trabajo/venta. ingeniero en ejecución en computación e informática ingeniero en ejecución en computación e informática ",
-    "Skills": [
-        "Office",
-        "Access"
+    "IDIOMAS": [],
+    "EXPERIENCIA": "experiencia experiencia empresa spa vtr comunicaciones. 2009 mar 2019 analista comercial coordinador pf. 2016 - 2019, analista up-sellig/cross-seling go to market, rentabilizar, diseñar, crear promociones y coordinar campañas de stock para no clientes/clientes vtr producto fijo. 2013, analista comercial, mejorar los distintos kpi de la plataforma de venta remota inbound, outbound, web y móvil. 2011, backoffice filtrado, disminuir los gastos logísticos de la compañía. 2009, asesor técnico call center cable fono, solución de problemas nivel usuario. empresa spa vtr comunicaciones. 2009 mar 2019 analista comercial coordinador pf. 2016 - 2019, analista up-sellig/cross-seling go to market, rentabilizar, diseñar, crear promociones y coordinar campañas de stock para no clientes/clientes vtr producto fijo. 2013, analista comercial, mejorar los distintos kpi de la plataforma de venta remota inbound, outbound, web y móvil. 2011, backoffice filtrado, disminuir los gastos logísticos de la compañía. 2009, asesor técnico call center cable fono, solución de problemas nivel usuario. office avanzado. access. hyperion designer. pyton. herramientas de admin. de datos. office avanzado. access. hyperion designer. pyton. herramientas de admin. de datos. informática empresa molina morel industrial mmi. 2007 - 2009 - supervisor vendedor retail. posicionamiento de productos plásticos en layourt de distintos retail. con la responsabilidad de cubrir las necesidades de 6 reponedoras en sus funciones. marketing, ventas y post-venta de productos en el mercado objetivo. empresa molina morel industrial mmi. 2007 - 2009 - supervisor vendedor retail. posicionamiento de productos plásticos en layourt de distintos retail. con la responsabilidad de cubrir las necesidades de 6 reponedoras en sus funciones. marketing, ventas y post-venta de productos en el mercado objetivo. ",
+    "RESUMEN": "simón ariel simón ariel espinoza belaunde espinoza belaunde objetivo profesional objetivo profesional buscando oportunidades de crecimiento en el mercado y con hambre de seguir aprendiendo nuevas metodologías de trabajo, siendo capaz de trabajar proactivamente y acoplarme a equipos consolidados, en transición o nuevos. además de aportar con mi amplia experiencia, generando valor a través de la gestión de clientes e identificando oportunidades comerciales en base a análisis de información. aportando en diversas áreas de experiencia de clientes, conocimiento del consumidor, desarrollo de productos, capacitación interna, segmentación, gestión comercial, layout y liderando equipos de trabajo/venta. buscando oportunidades de crecimiento en el mercado y con hambre de seguir aprendiendo nuevas metodologías de trabajo, siendo capaz de trabajar proactivamente y acoplarme a equipos consolidados, en transición o nuevos. además de aportar con mi amplia experiencia, generando valor a través de la gestión de clientes e identificando oportunidades comerciales en base a análisis de información. aportando en diversas áreas de experiencia de clientes, conocimiento del consumidor, desarrollo de productos, capacitación interna, segmentación, gestión comercial, layout y liderando equipos de trabajo/venta. ingeniero en ejecución en computación e informática ingeniero en ejecución en computación e informática ",
+    "SKILLS": [
+        "OFFICE",
+        "HYPERION",
+        "ACCESS"
     ],
-    "Referencias": ""
+    "REFERENCIAS": ""
 }

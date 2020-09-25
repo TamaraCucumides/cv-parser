@@ -1,26 +1,26 @@
 {
-    "Contacto": {
-        "Nombre": null,
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": null,
+        "CORREO": [
             "belelimonchi@gmail.com"
         ],
-        "Celular": "965742746",
-        "Linkedin": null
+        "CELULAR": "197306904",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1571000457741-curriculum.vitae.belen.docx",
-    "Licencias-Certificaciones": [],
-    "Palabras Claves": null,
-    "Educacion": {
-        "Universidades:": [
-            "Universidad Católica Silva Henríquez"
+    "NOMBRE_ARCHIVO": "1571000457741-curriculum.vitae.belen.docx",
+    "LICENCIA_CERTIFICACION": [],
+    "PALABRAS_CLAVES": null,
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
+            "UNIVERSIDAD CATOLICA SILVA HENRIQUEZ"
         ],
-        "Grado_mas_alto": [
-            "Enseñanza media"
+        "GRADO_MAS_ALTO": [
+            "ENSEÑANZA MEDIA"
         ]
     },
-    "Lenguajes": [],
-    "Experiencia": "antecedentes laborales 2016 promotora en ripley, agencia pentaproducciones 2016 ayudante en eventos navideños la araucana 2015 operadora en inversiones recreacionales. sa happyland 2014 ayudante en eventos particulares 2013 crew en arcos dorados restaurantes de chile ltda 1 1 ",
-    "Resumen": "currículum vitae ",
-    "Skills": [],
-    "Referencias": ""
+    "IDIOMAS": [],
+    "EXPERIENCIA": "antecedentes laborales 2016 promotora en ripley, agencia pentaproducciones 2016 ayudante en eventos navideños la araucana 2015 operadora en inversiones recreacionales. sa happyland 2014 ayudante en eventos particulares 2013 crew en arcos dorados restaurantes de chile ltda 1 1 ",
+    "RESUMEN": "currículum vitae ",
+    "SKILLS": [],
+    "REFERENCIAS": ""
 }

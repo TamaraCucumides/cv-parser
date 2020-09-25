@@ -1,43 +1,39 @@
 {
-    "Contacto": {
-        "Nombre": null,
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": null,
+        "CORREO": [
             "patricioabelmc@hotmail.com"
         ],
-        "Celular": "+56978971888",
-        "Linkedin": "www.linkedin.com/in/patriciomendezcaneo/"
+        "CELULAR": "+56978971888",
+        "LINKEDIN": "www.linkedin.com/in/patriciomendezcaneo/"
     },
-    "Nombre archivo": "1566746473048-Patricio_Mendez-CV.pdf",
-    "Licencias-Certificaciones": [
+    "NOMBRE_ARCHIVO": "1566746473048-Patricio_Mendez-CV.pdf",
+    "LICENCIA_CERTIFICACION": [
         "CLASE B",
         "LICENCIA DE CONDUCIR"
     ],
-    "Palabras Claves": [
-        "Adaptable",
-        "Responsabilidad",
-        "Modelamiento",
-        "Análisis"
+    "PALABRAS_CLAVES": [
+        "Análisis",
+        "Modelamiento"
     ],
-    "Educacion": {
-        "Universidades:": [
-            "Universidad Católica del Norte"
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
+            "UNIVERSIDAD CATOLICA DEL NORTE"
         ],
-        "Grado_mas_alto": [
-            "Pregrado"
+        "GRADO_MAS_ALTO": [
+            "PREGRADO"
         ]
     },
-    "Lenguajes": [
-        "Inglés"
+    "IDIOMAS": [
+        "INGLES"
     ],
-    "Experiencia": "experiencia laboral de 21/01/2019 a la fecha minera antucoya, superintendencia de geotecnia cargo ocupado practicante 21/01/2019 01/03/2019 actualización continua de base de datos estructurales, mediante mapeos de bancos y datos i-site. creación de script para software vulcan, a fin de realizar actualizaciones a modelos de corto plazo con unidades geotécnicas. creación de plantas del modelo de corto plazo, con unidades geotécnicas y densidades, para área de perforación y tronadura. análisis de potenciales mecanismos de inestabilidad en software tangram de bancos extraídos y bancos por extraer. creación de superficies compuestas diseño de fase avance de mina para análisis de mecanismos de inestabilidad en bancos por extraer. cargo ocupado memorista 01/03/2019 actualidad actualización de estructuras mayores e intermedias, a partir de mapeos de bancos y datos complementarios i-site obtenidos en escaneos de alta resolución modelamiento de superficies de fallas actualizadas en software leapfrog geo. análisis de potenciales mecanismos de inestabilidad en software tangram, para diseños de fases, bancos extraídos y bancos por extraer. elaboración de procedimiento para la identificación de mecanismos de inestabilidad. elaboración de cartilla para mapeo en detalle de estructuras mayores e intermedias en bancos. 5 días de mapeo estructural de bancos asistiendo a consultor john fedorowich ",
-    "Resumen": "resumen profesional estudiante de último año de geología de la universidad católica del norte, egresado etapa tesis, caracterizado por la responsabilidad y la seriedad ante el trabajo adquirido, además de la capacidad de resolver problemas propuestos individualmente o en equipo y buena capacidad para adaptarse a cambios. especial interés en el área geología minera, en la cual se tiene experiencia en geotecnia-estructural. ",
-    "Skills": [
-        "Word",
-        "Base de datos",
-        "Excel",
-        "Vulcan",
-        "Office",
-        "Powerpoint"
+    "EXPERIENCIA": "experiencia laboral de 21/01/2019 a la fecha minera antucoya, superintendencia de geotecnia cargo ocupado practicante 21/01/2019 01/03/2019 actualización continua de base de datos estructurales, mediante mapeos de bancos y datos i-site. creación de script para software vulcan, a fin de realizar actualizaciones a modelos de corto plazo con unidades geotécnicas. creación de plantas del modelo de corto plazo, con unidades geotécnicas y densidades, para área de perforación y tronadura. análisis de potenciales mecanismos de inestabilidad en software tangram de bancos extraídos y bancos por extraer. creación de superficies compuestas diseño de fase avance de mina para análisis de mecanismos de inestabilidad en bancos por extraer. cargo ocupado memorista 01/03/2019 actualidad actualización de estructuras mayores e intermedias, a partir de mapeos de bancos y datos complementarios i-site obtenidos en escaneos de alta resolución modelamiento de superficies de fallas actualizadas en software leapfrog geo. análisis de potenciales mecanismos de inestabilidad en software tangram, para diseños de fases, bancos extraídos y bancos por extraer. elaboración de procedimiento para la identificación de mecanismos de inestabilidad. elaboración de cartilla para mapeo en detalle de estructuras mayores e intermedias en bancos. 5 días de mapeo estructural de bancos asistiendo a consultor john fedorowich ",
+    "RESUMEN": "resumen profesional estudiante de último año de geología de la universidad católica del norte, egresado etapa tesis, caracterizado por la responsabilidad y la seriedad ante el trabajo adquirido, además de la capacidad de resolver problemas propuestos individualmente o en equipo y buena capacidad para adaptarse a cambios. especial interés en el área geología minera, en la cual se tiene experiencia en geotecnia-estructural. ",
+    "SKILLS": [
+        "OFFICE",
+        "WORD",
+        "EXCEL",
+        "VULCAN"
     ],
-    "Referencias": ""
+    "REFERENCIAS": ""
 }

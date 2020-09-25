@@ -134,7 +134,10 @@ dmypy.json
 fasttext-sbwc.vec
 
 parser/CSVs/.~lock.Secciones CVs_similutud.csv#
-Desarrollo/stanford-corenlp
-Desarrollo/stanford-corenlp-latest.zip
-Desarrollo/
+parser/bio_word.vectors.npy
+parser/embeddings/embeddings_pre_load
+parser/embeddings/embeddings_pre_load.vectors.npy
+Desarrollo/Tests_ranking_cv.md
+Desarrollo/Tests_ranking_cv.ipynb
+Desarrollo/test_seccionizar.ipynb
 Desarrollo/Test_docx.ipynb

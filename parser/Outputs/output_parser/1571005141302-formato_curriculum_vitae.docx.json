@@ -1,38 +1,38 @@
 {
-    "Contacto": {
-        "Nombre": null,
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": null,
+        "CORREO": [
             "pdro9494@gmail.com"
         ],
-        "Celular": "+56969197030",
-        "Linkedin": null
+        "CELULAR": "+56969197030",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1571005141302-formato_curriculum_vitae.docx",
-    "Licencias-Certificaciones": [
+    "NOMBRE_ARCHIVO": "1571005141302-formato_curriculum_vitae.docx",
+    "LICENCIA_CERTIFICACION": [
         "CLASE B",
         "LICENCIA DE CONDUCIR"
     ],
-    "Palabras Claves": null,
-    "Educacion": {
-        "Universidades:": [
-            "Universidad Andrés Bello"
+    "PALABRAS_CLAVES": null,
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
+            "UNIVERSIDAD ANDRES BELLO"
         ],
-        "Grado_mas_alto": [
-            "Pregrado"
+        "GRADO_MAS_ALTO": [
+            "PREGRADO"
         ]
     },
-    "Lenguajes": [
-        "Inglés",
-        "Español"
+    "IDIOMAS": [
+        "ESPANOL",
+        "INGLES"
     ],
-    "Experiencia": "experiencia laboral experiencia atendiendo gente, trabajo de verdulería, caja en eventos. informatica nivel medio de uso en programas como microsoft office, excel, power point lenguaje de programación básico python, básico java. idioma español lengua materna ingles medio alto ",
-    "Resumen": "curriculum vitae ",
-    "Skills": [
-        "Office",
-        "Java",
-        "Excel",
-        "Power point",
-        "Python"
+    "EXPERIENCIA": "experiencia laboral experiencia atendiendo gente, trabajo de verdulería, caja en eventos. informatica nivel medio de uso en programas como microsoft office, excel, power point lenguaje de programación básico python, básico java. idioma español lengua materna ingles medio alto ",
+    "RESUMEN": "curriculum vitae ",
+    "SKILLS": [
+        "PYTHON",
+        "POWER POINT",
+        "JAVA",
+        "OFFICE",
+        "EXCEL"
     ],
-    "Referencias": ""
+    "REFERENCIAS": ""
 }

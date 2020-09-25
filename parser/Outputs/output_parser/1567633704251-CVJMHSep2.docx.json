@@ -1,48 +1,50 @@
 {
-    "Contacto": {
-        "Nombre": "Javier Andrés Madrid ",
-        "Correo": "jmhengsol@gmail.com",
-        "Celular": "+56972128607",
-        "Linkedin": null
+    "CONTACTO": {
+        "NOMBRE": "Javier Andrés Madrid ",
+        "CORREO": "jmhengsol@gmail.com",
+        "CELULAR": "+56972128607",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1567633704251-CVJMHSep2.docx",
-    "Licencias-Certificaciones": [
+    "NOMBRE_ARCHIVO": "1567633704251-CVJMHSep2.docx",
+    "LICENCIA_CERTIFICACION": [
         "SERVICIO MILITAR"
     ],
-    "Palabras Claves": [
-        "Análisis",
+    "PALABRAS_CLAVES": [
         "Negociación",
-        "Gestión",
-        "Aprender"
+        "Aprender",
+        "Análisis",
+        "Gestión"
     ],
-    "Educacion": {
-        "Universidades:": [
-            "Universidad Andrés Bello"
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
+            "UNIVERSIDAD DE LOS ANDES"
         ],
-        "Grado_mas_alto": [
-            "Postgrado"
+        "GRADO_MAS_ALTO": [
+            "POSTGRADO"
         ]
     },
-    "Lenguajes": [
-        "Inglés"
+    "IDIOMAS": [
+        "INGLES"
     ],
-    "Experiencia": "Dirección Radezky 9108 , Las Condes. Data Scientist with R- Datacamp 2018 Colegio Henri Becquerel- Quito, Ecuador 2005-2006 Colegio Nuestra Señora del Loreto- Las Condes, Santiago 2005 Iii- Experiencia laboral Geo-Map Analyst Lionbridge-Ireland - Designated online Geographical analyst for Chile - Agosto 2017-Enero 2019 Práctica Profesional I Gestión Proyectos Eléctricos gpe- Práctica Profesional Ii BozzoEnergy, - Evaluación Estadística y financiera de proyecto electromovilidad Agosto-Noviembre 2017 Ayudante Universitario Ingeniería Física, Geología, Astronomía, Ingeniería Civil Industrial y Fonoaudiología Unab Física, Mecánica y Ondas 2014,2015,2016,2017 Diversos Trabajos Promotor Rally Móbil 2011,Cicletada Trek 2011,2012, Melhuish 2015, Community Manager Restaurant Tortilla Factory 2016, Examinador Simce 2016, Profesor Particular Electromagnetismo, Física, Mecánica, Sistemas Dinámicos, Desarrollo Web Wordpress, Joomla, Phpbb, Examinador Fen 2018 Experiencia Cliente/ Organizacional Organizador Congreso E-Movilidad 2017- EngSol Spa - Inacap. Organizador Feria Científica Unab 2015-2016 Atención Cliente Bilingüe Parque Invernal Farellones - 2018 Iv.- Idioma Idiomas desarrollo Web Php, Html Medio Idiomas Python, R, C, C, Latex, Sql Medio Alto Iv.- Otras Experiencias Trabajos sociales Techo para Chile 2010-2011 V.- Aficiones International Conference on Material Science 2017 Desarrollo sustentable de Ernc - Structural and Electronic properties of TiO2 using Dft Valdivia-Chile Xxiii Latin American Symposium on Solid State Physics 2018 Bariloche-Argentina Vii. Recomendaciones ",
-    "Resumen": "javier andrés madrid herrera teléfono 56 9 72128607 email jmhengsol@gmail.com ingeniero físico magíster en gestión de proyectos científicos y tecnológicos i.- datos personales rut 16939776-7 nacionalidad chilena fecha de nacimiento 24/09/1988 estado civil soltero, sin hijos dirección radezky 9108 , las condes. ii.- estudios ingeniería física y magíster gestión de proyectos científicos y tecnológicos- universidad andrés bello- santiago 2010-2018 ingeniería civil industrial universidad de los andes 2008-retiro data scientist with r- datacamp 2018 cultura de negocios con china- corporación cruzando el pacífico - 2016 organic solar cells- universidad técnica dinamarca-online- 2015 colegio alcázar de las condes-las condes, santiago 2006-2007 colegio henri becquerel- quito, ecuador 2005-2006 colegio nuestra señora del loreto- las condes, santiago 2005 iii- experiencia laboral ingeniero mantenimiento en sigma sa. proyecto minero chuquicamata subterraneapmchs 2019- elaboración programa mantenimiento de sistema de enfriamiento de consumidores y motores sincrónicos 5mw gearless abb geo-map analyst lionbridge-ireland - designated online geographical analyst for chile - agosto 2017-enero 2019 práctica profesional i gestión proyectos eléctricos gpe- puesta en marcha y operatibilidad de central hidroeléctrica río colorado, análisis de sistemas scada y sistemas switchgear- enero-febrero 2017 práctica profesional ii bozzoenergy, - evaluación estadística y financiera de proyecto electromovilidad agosto-noviembre 2017 tutor matemático ingeniería comercial unab 2015 ayudante universitario ingeniería física, geología, astronomía, ingeniería civil industrial y fonoaudiología unab física, mecánica y ondas 2014,2015,2016,2017 diversos trabajos promotor rally móbil 2011,cicletada trek 2011,2012, melhuish 2015, community manager restaurant tortilla factory 2016, examinador simce 2016, profesor particular electromagnetismo, física, mecánica, sistemas dinámicos, desarrollo web wordpress, joomla, phpbb, examinador fen 2018 experiencia cliente/ organizacional organizador congreso e-movilidad 2017- engsol spa - inacap. organizador feria científica unab 2015-2016 atención cliente bilingüe parque invernal farellones - 2018 iv.- idioma ingles hablado y escrito alto chino-mandarín hablado básico aprendiendo iv.- informática lenguajes informáticos idiomas desarrollo web php, html medio idiomas python, r, c, c, latex, sql medio alto softwares siesta, gaussian, crystalden, crystalball, adobe indesign,photoshop, vesta, arduino, office medio-avanzado, matlab, odoo erp, rstudio. iv.- otras experiencias vice-presidente centro de alumnos de física 2012-13 servicio militar al día- reservista. trabajos sociales techo para chile 2010-2011 v.- aficiones tenis, ciclismo, actividades outdoor vi.- congresos abstract aceptados international conference on material science 2017 desarrollo sustentable de ernc - structural and electronic properties of tio2 using dft valdivia-chile xxiii latin american symposium on solid state physics 2018 bariloche-argentina vii. recomendaciones ",
-    "Skills": [
-        "Html",
-        "Adobe",
-        "Latex",
-        "Sql",
-        "Photoshop",
-        "Matlab",
-        "Erp",
-        "Rstudio",
-        "Wordpress",
-        "Indesign",
-        "Arduino",
-        "Office",
-        "Php",
-        "Python"
+    "EXPERIENCIA": "Cultura de Negocios con China- Corporación Cruzando el Pacífico - 2016 Iii- Experiencia laboral Geo-Map Analyst Lionbridge-Ireland - Designated online Geographical analyst for Chile - Agosto 2017-Enero 2019 Práctica Profesional I Gestión Proyectos Eléctricos gpe- Puesta en Marcha y Operatibilidad de Central Hidroeléctrica Río Colorado, Análisis de sistemas Scada y Sistemas Switchgear- Enero-Febrero 2017 Práctica Profesional Ii BozzoEnergy, - Evaluación Estadística y financiera de proyecto electromovilidad Agosto-Noviembre 2017 Ayudante Universitario Ingeniería Física, Geología, Astronomía, Ingeniería Civil Industrial y Fonoaudiología Unab Física, Mecánica y Ondas 2014,2015,2016,2017 Diversos Trabajos Promotor Rally Móbil 2011,Cicletada Trek 2011,2012, Melhuish 2015, Community Manager Restaurant Tortilla Factory 2016, Examinador Simce 2016, Profesor Particular Electromagnetismo, Física, Mecánica, Sistemas Dinámicos, Desarrollo Web Wordpress, Joomla, Phpbb, Examinador Fen 2018 Experiencia Cliente/ Organizacional Organizador Congreso E-Movilidad 2017- EngSol Spa - Inacap. Organizador Feria Científica Unab 2015-2016 Atención Cliente Bilingüe Parque Invernal Farellones - 2018 Chino-Mandarín hablado Básico Aprendiendo Idiomas desarrollo Web Php, Html Medio Iv.- Otras Experiencias Trabajos sociales Techo para Chile 2010-2011 V.- Aficiones Vi.- Congresos Abstract Aceptados International Conference on Material Science 2017 Desarrollo sustentable de Ernc - Structural and Electronic properties of TiO2 using Dft Valdivia-Chile Xxiii Latin American Symposium on Solid State Physics 2018 Bariloche-Argentina Vii. Recomendaciones ",
+    "RESUMEN": "javier andrés madrid herrera teléfono 56 9 72128607 email jmhengsol@gmail.com ingeniero físico magíster en gestión de proyectos científicos y tecnológicos i.- datos personales rut 16939776-7 nacionalidad chilena fecha de nacimiento 24/09/1988 estado civil soltero, sin hijos dirección radezky 9108 , las condes. ii.- estudios ingeniería física y magíster gestión de proyectos científicos y tecnológicos- universidad andrés bello- santiago 2010-2018 ingeniería civil industrial universidad de los andes 2008-retiro data scientist with r- datacamp 2018 cultura de negocios con china- corporación cruzando el pacífico - 2016 organic solar cells- universidad técnica dinamarca-online- 2015 colegio alcázar de las condes-las condes, santiago 2006-2007 colegio henri becquerel- quito, ecuador 2005-2006 colegio nuestra señora del loreto- las condes, santiago 2005 iii- experiencia laboral ingeniero mantenimiento en sigma sa. proyecto minero chuquicamata subterraneapmchs 2019- elaboración programa mantenimiento de sistema de enfriamiento de consumidores y motores sincrónicos 5mw gearless abb geo-map analyst lionbridge-ireland - designated online geographical analyst for chile - agosto 2017-enero 2019 práctica profesional i gestión proyectos eléctricos gpe- puesta en marcha y operatibilidad de central hidroeléctrica río colorado, análisis de sistemas scada y sistemas switchgear- enero-febrero 2017 práctica profesional ii bozzoenergy, - evaluación estadística y financiera de proyecto electromovilidad agosto-noviembre 2017 tutor matemático ingeniería comercial unab 2015 ayudante universitario ingeniería física, geología, astronomía, ingeniería civil industrial y fonoaudiología unab física, mecánica y ondas 2014,2015,2016,2017 diversos trabajos promotor rally móbil 2011,cicletada trek 2011,2012, melhuish 2015, community manager restaurant tortilla factory 2016, examinador simce 2016, profesor particular electromagnetismo, física, mecánica, sistemas dinámicos, desarrollo web wordpress, joomla, phpbb, examinador fen 2018 experiencia cliente/ organizacional organizador congreso e-movilidad 2017- engsol spa - inacap. organizador feria científica unab 2015-2016 atención cliente bilingüe parque invernal farellones - 2018 iv.- idioma ingles hablado y escrito alto chino-mandarín hablado básico aprendiendo iv.- informática lenguajes informáticos idiomas desarrollo web php, html medio idiomas python, r, c, c, latex, sql medio alto softwares siesta, gaussian, crystalden, crystalball, adobe indesign,photoshop, vesta, arduino, office medio-avanzado, matlab, odoo erp, rstudio. iv.- otras experiencias vice-presidente centro de alumnos de física 2012-13 servicio militar al día- reservista. trabajos sociales techo para chile 2010-2011 v.- aficiones tenis, ciclismo, actividades outdoor vi.- congresos abstract aceptados international conference on material science 2017 desarrollo sustentable de ernc - structural and electronic properties of tio2 using dft valdivia-chile xxiii latin american symposium on solid state physics 2018 bariloche-argentina vii. recomendaciones ",
+    "SKILLS": [
+        "ERP",
+        "PYTHON",
+        "R",
+        "HTML",
+        "ADOBE",
+        "LATEX",
+        "MATLAB",
+        "OFFICE",
+        "WORDPRESS",
+        "BILINGUE",
+        "PHP",
+        "ARDUINO",
+        "SQL",
+        "PHOTOSHOP",
+        "INDESIGN",
+        "RSTUDIO"
     ],
-    "Referencias": ""
+    "REFERENCIAS": ""
 }

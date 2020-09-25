@@ -1,31 +1,28 @@
 {
-    "Contacto": {
-        "Nombre": "Cristóbal Andrés Manríquez ",
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": "Cristóbal Andrés Manríquez ",
+        "CORREO": [
             "cmm062822@gmail.com"
         ],
-        "Celular": "+56985879112",
-        "Linkedin": null
+        "CELULAR": "+56985879112",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1568151580921-CV._CRISTOBAL_MANRIQUEZ.pdf",
-    "Licencias-Certificaciones": [],
-    "Palabras Claves": [
-        "Adaptable",
-        "Ética"
-    ],
-    "Educacion": {
-        "Universidades:": [
-            "Universidad Andrés Bello"
+    "NOMBRE_ARCHIVO": "1568151580921-CV._CRISTOBAL_MANRIQUEZ.pdf",
+    "LICENCIA_CERTIFICACION": [],
+    "PALABRAS_CLAVES": null,
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
+            "UNIVERSIDAD ANDRES BELLO"
         ],
-        "Grado_mas_alto": [
-            "Postgrado"
+        "GRADO_MAS_ALTO": [
+            "POSTGRADO"
         ]
     },
-    "Lenguajes": [
-        "Italiano"
+    "IDIOMAS": [
+        "ITALIANO"
     ],
-    "Experiencia": "experiencia laboral soprole septiembre/2017 enero/2018 práctica profesional mi rol fue como analista de proyecto, en conjunto a dos compañeros realizamos un proyecto de implementación de máquinas vendomaticas en establecimientos escolares favoreciendo el ingreso de productos libres de sellos. los 20 colegios seleccionados fueron particulares pagados con más de 1000 alumnos, dejando una inversión cercana a los 150 millones. ministerio de educación enero/2016 - febrero/2016 práctica formativa estuve bajo cargo de analista en el área de administración general, los cuales desarrollé la valorización del inventario presente dentro del ministerio correspondiente a la fecha que se realizó la práctica, además de la ejecución de un catastro en conjunto a la administración interna para mejoras de infraestructura dentro del ministerio. la valorización del inventario fue cercana a los 90 millones de pesos. ",
-    "Resumen": "resumen profesional el trabajo en equipo y la perseverancia son elementos que recalco en mi desempeño laboral. mis valores férreos, mi carácter y mi forma positiva de ver la vida me permiten ser una persona apta para integrarme en los equipos de trabajo y de adherir objetivos claros. tengo una gran capacidad de adaptación y lucho por las metas propuestas. ",
-    "Skills": [],
-    "Referencias": ""
+    "EXPERIENCIA": "experiencia laboral soprole septiembre/2017 enero/2018 práctica profesional mi rol fue como analista de proyecto, en conjunto a dos compañeros realizamos un proyecto de implementación de máquinas vendomaticas en establecimientos escolares favoreciendo el ingreso de productos libres de sellos. los 20 colegios seleccionados fueron particulares pagados con más de 1000 alumnos, dejando una inversión cercana a los 150 millones. ministerio de educación enero/2016 - febrero/2016 práctica formativa estuve bajo cargo de analista en el área de administración general, los cuales desarrollé la valorización del inventario presente dentro del ministerio correspondiente a la fecha que se realizó la práctica, además de la ejecución de un catastro en conjunto a la administración interna para mejoras de infraestructura dentro del ministerio. la valorización del inventario fue cercana a los 90 millones de pesos. ",
+    "RESUMEN": "resumen profesional el trabajo en equipo y la perseverancia son elementos que recalco en mi desempeño laboral. mis valores férreos, mi carácter y mi forma positiva de ver la vida me permiten ser una persona apta para integrarme en los equipos de trabajo y de adherir objetivos claros. tengo una gran capacidad de adaptación y lucho por las metas propuestas. ",
+    "SKILLS": [],
+    "REFERENCIAS": ""
 }

@@ -1,46 +1,36 @@
 {
-    "Contacto": {
-        "Nombre": "Gabriela Mistral ",
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": "Gabriela Mistral ",
+        "CORREO": [
             "gigliomadridu@gmail.com"
         ],
-        "Celular": "+56976018648",
-        "Linkedin": null
+        "CELULAR": "+56976018648",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1573855975989-CVitae.pdf",
-    "Licencias-Certificaciones": [],
-    "Palabras Claves": [
-        "Adaptable",
-        "Responsabilidad",
-        "Modelamiento",
-        "Analizar",
-        "Creativo",
-        "Liderazgo",
-        "Estrategia",
-        "Colaboración",
-        "Negociación",
-        "Gestión"
-    ],
-    "Educacion": {
-        "Universidades:": [
-            "Universidad San Sebastián",
-            "Universidad Gabriela Mistral"
+    "NOMBRE_ARCHIVO": "1573855975989-CVitae.pdf",
+    "LICENCIA_CERTIFICACION": [],
+    "PALABRAS_CLAVES": null,
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
+            "UNIVERSIDAD GABRIELA MISTRAL",
+            "UNIVERSIDAD SAN SEBASTIAN"
         ],
-        "Grado_mas_alto": [
-            "Pregrado"
+        "GRADO_MAS_ALTO": [
+            "PREGRADO"
         ]
     },
-    "Lenguajes": [],
-    "Experiencia": "experiencia profesional giglio madrid uribe profesional con fuerte orientación al área comercial, con una vasta experiencia en el rubro de telecomunicaciones y tecnologías de información. dispuesto a integrar equipos de trabajo para el desarrollo y apertura de nuevos negocios y mercados. capacitado para trabajar en medios exigentes altamente competitivos y en una búsqueda constante de crecimiento profesional, técnico y humano. quien soy r.u.t. 12491677-1 nacionalidad chilena fecha de nac. 11 enero 1973 edad. 46 años. estado civil. soltero dirección lord cochrane 181 depto.804. santiago centro nro. telefónico 56 976018648 e-mail gigliomadridu@gmail.com ",
-    "Resumen": "ingeniero comercial universidad gabriela mistral titulado. diplomado dirección comercial y ventas universidad san sebastián titulado. ",
-    "Skills": [
-        "Word",
-        "Power bi",
-        "Azure",
-        "Power point",
-        "Crm",
-        "Excel",
-        "Office"
+    "IDIOMAS": [],
+    "EXPERIENCIA": "experiencia profesional giglio madrid uribe profesional con fuerte orientación al área comercial, con una vasta experiencia en el rubro de telecomunicaciones y tecnologías de información. dispuesto a integrar equipos de trabajo para el desarrollo y apertura de nuevos negocios y mercados. capacitado para trabajar en medios exigentes altamente competitivos y en una búsqueda constante de crecimiento profesional, técnico y humano. quien soy r.u.t. 12491677-1 nacionalidad chilena fecha de nac. 11 enero 1973 edad. 46 años. estado civil. soltero dirección lord cochrane 181 depto.804. santiago centro nro. telefónico 56 976018648 e-mail gigliomadridu@gmail.com ",
+    "RESUMEN": "ingeniero comercial universidad gabriela mistral titulado. diplomado dirección comercial y ventas universidad san sebastián titulado. ",
+    "SKILLS": [
+        "POWER BI",
+        "WORD",
+        "POWER POINT",
+        "AZURE",
+        "OFFICE",
+        "CLOUD",
+        "CRM",
+        "EXCEL"
     ],
-    "Referencias": ""
+    "REFERENCIAS": ""
 }

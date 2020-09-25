@@ -1,38 +1,36 @@
 {
-    "Contacto": {
-        "Nombre": "Leyra Colina Mendoza ",
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": "Leyra Colina Mendoza ",
+        "CORREO": [
             "leyrac@hotmail.com."
         ],
-        "Celular": "940735153",
-        "Linkedin": null
+        "CELULAR": "940735153",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1569898497742-LeyraColinaCV.docx",
-    "Licencias-Certificaciones": [],
-    "Palabras Claves": [
-        "Adaptable",
+    "NOMBRE_ARCHIVO": "1569898497742-LeyraColinaCV.docx",
+    "LICENCIA_CERTIFICACION": [],
+    "PALABRAS_CLAVES": [
         "Negociación",
-        "Gestión",
-        "Estrategia"
+        "Estrategia",
+        "Gestión"
     ],
-    "Educacion": {
-        "Universidades:": [],
-        "Grado_mas_alto": [
-            "Pregrado"
+    "EDUCACION": {
+        "UNIVERSIDADES:": [],
+        "GRADO_MAS_ALTO": [
+            "PREGRADO"
         ]
     },
-    "Lenguajes": [],
-    "Experiencia": "experiencia laboral noviembre 2018- actual. healthatom sector software saas cargo encargado de marketing desarrollo de estrategias para la captación de leads en canales digitales. desarrollo e implementación de estrategia de inbound marketing. gestión de campañas sem. auditoria y optimización seo. manejo de google ads, google analytics. agosto 2017- octubre 2018. connex sector servicios/e-commerce. cargo store manager gestión de tiendas online para marcas de retail, manejo de catálogo de productos, gestión de descuentos y promociones mediante prestashop. envío de campañas de email marketing. analítica web y generación de reportes. junio 2015- agosto 2017 visual knowledge, sector ti/consultoría. cargo ejecutivo de marketing. generación y prospección de leads. desarrollo de bases de datos y manejo de crm. ejecución de campañas de email marketing. manejo de herramientas google analytics y google adwords. apoyo en eventos y demás actividades promocionales. actividades administrativas relacionadas con el cargo. manejo de erp sap. diciembre 2014-febrero 2015. productora josefina pro, sector audiovisual/diseño social media manager. diseñar plan de social media en coherencia con la identidad de la marca y público objetivo. definir contenido, estilo de comunicación. manejar y gestionar los perfiles sociales de la marca. monitorear las tendencias y manejo de las métricas. septiembre 2014- noviembre 2014. tpi chile, sector industrial. cargo asistente comercial. gestión de oportunidades de venta y pedidos en sistema sap bo. apoyar el equipo de venta haciendo seguimientos proyectos. actualizar ofertas. gestión de órdenes de compra. actividades administrativas relacionadas con el cargo. julio 2012- febrero 2014. venezuela. diario el universal, sector medios/editorial. cargo especialista de mercadeo lectores. ejecutar planes estratégicos de marketing y plan de medios. desarrollo de campañas promocionales en todas las plataformas de la marca impreso, web, móvil, tablet. analítica web mediante google analytics. negociar intercambios comerciales y convenios. manejo de agencias publicitarias y proveedores. coordinación de eventos. manejo de presupuesto del departamento. ",
-    "Resumen": "leyra colina mendoza fecha de nacimiento 14/10/1985. nacionalidad venezolana. salvador sur 1035. ñuñoa. email leyrac@hotmail.com. telf. 940735153 profesional en marketing con más de 5 años experiencia laboral en empresas de servicios, medios y ti. destrezas comprobadas en desarrollo de campañas, analítica web y publicidad online. con sólidos conocimientos en marketing digital, inbound marketing y tendencias digitales. ",
-    "Skills": [
-        "Google ads",
-        "Hubspot",
-        "Erp",
-        "Analytics",
-        "Bases de datos",
-        "Sap",
-        "Crm",
-        "E-commerce"
+    "IDIOMAS": [],
+    "EXPERIENCIA": "experiencia laboral noviembre 2018- actual. healthatom sector software saas cargo encargado de marketing desarrollo de estrategias para la captación de leads en canales digitales. desarrollo e implementación de estrategia de inbound marketing. gestión de campañas sem. auditoria y optimización seo. manejo de google ads, google analytics. agosto 2017- octubre 2018. connex sector servicios/e-commerce. cargo store manager gestión de tiendas online para marcas de retail, manejo de catálogo de productos, gestión de descuentos y promociones mediante prestashop. envío de campañas de email marketing. analítica web y generación de reportes. junio 2015- agosto 2017 visual knowledge, sector ti/consultoría. cargo ejecutivo de marketing. generación y prospección de leads. desarrollo de bases de datos y manejo de crm. ejecución de campañas de email marketing. manejo de herramientas google analytics y google adwords. apoyo en eventos y demás actividades promocionales. actividades administrativas relacionadas con el cargo. manejo de erp sap. diciembre 2014-febrero 2015. productora josefina pro, sector audiovisual/diseño social media manager. diseñar plan de social media en coherencia con la identidad de la marca y público objetivo. definir contenido, estilo de comunicación. manejar y gestionar los perfiles sociales de la marca. monitorear las tendencias y manejo de las métricas. septiembre 2014- noviembre 2014. tpi chile, sector industrial. cargo asistente comercial. gestión de oportunidades de venta y pedidos en sistema sap bo. apoyar el equipo de venta haciendo seguimientos proyectos. actualizar ofertas. gestión de órdenes de compra. actividades administrativas relacionadas con el cargo. julio 2012- febrero 2014. venezuela. diario el universal, sector medios/editorial. cargo especialista de mercadeo lectores. ejecutar planes estratégicos de marketing y plan de medios. desarrollo de campañas promocionales en todas las plataformas de la marca impreso, web, móvil, tablet. analítica web mediante google analytics. negociar intercambios comerciales y convenios. manejo de agencias publicitarias y proveedores. coordinación de eventos. manejo de presupuesto del departamento. ",
+    "RESUMEN": "leyra colina mendoza fecha de nacimiento 14/10/1985. nacionalidad venezolana. salvador sur 1035. ñuñoa. email leyrac@hotmail.com. telf. 940735153 profesional en marketing con más de 5 años experiencia laboral en empresas de servicios, medios y ti. destrezas comprobadas en desarrollo de campañas, analítica web y publicidad online. con sólidos conocimientos en marketing digital, inbound marketing y tendencias digitales. ",
+    "SKILLS": [
+        "E-COMMERCE",
+        "ANALYTICS",
+        "GOOGLE ADS",
+        "HUBSPOT",
+        "SAP",
+        "CRM",
+        "ERP"
     ],
-    "Referencias": ""
+    "REFERENCIAS": ""
 }

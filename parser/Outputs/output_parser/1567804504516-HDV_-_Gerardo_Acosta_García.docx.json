@@ -1,39 +1,31 @@
 {
-    "Contacto": {
-        "Nombre": "Gerardo David Acosta ",
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": "Gerardo David Acosta ",
+        "CORREO": [
             "acosta.gerardo.g@gmail.com"
         ],
-        "Celular": "1140872280",
-        "Linkedin": null
+        "CELULAR": "+05022019050",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1567804504516-HDV_-_Gerardo_Acosta_García.docx",
-    "Licencias-Certificaciones": [],
-    "Palabras Claves": [
-        "Analizar",
-        "Liderazgo",
-        "Estrategia",
-        "Amigable",
-        "Gestión"
-    ],
-    "Educacion": {
-        "Universidades:": [],
-        "Grado_mas_alto": [
-            "Pregrado"
+    "NOMBRE_ARCHIVO": "1567804504516-HDV_-_Gerardo_Acosta_García.docx",
+    "LICENCIA_CERTIFICACION": [],
+    "PALABRAS_CLAVES": null,
+    "EDUCACION": {
+        "UNIVERSIDADES:": [],
+        "GRADO_MAS_ALTO": [
+            "PREGRADO"
         ]
     },
-    "Lenguajes": [
-        "Inglés b2",
-        "Inglés"
+    "IDIOMAS": [
+        "INGLES"
     ],
-    "Experiencia": "experiencia laboral. 01/06/2019 - actual nombre de la empresa arnania internacional s.a.s. nombre del cargo abogado asesor. nombre del cliente rodrigo josé solorzano rojas. funciones realizar todos los contratos laborales y civiles/comerciales de la sociedad. diligenciar los procesos disciplinarios con sus respectivos descargos y sanciones. ",
-    "Resumen": "perfil profesional graduado de abogado de la universidad del norte, con experiencia en distintos campos del derecho. cuenta con conocimiento en derecho constitucional, laboral y comercial, capacitado para realizar asesorías jurídicas, analizar casos, proyectar sentencias en juzgados judiciales. asimismo, cuenta con un dominio avanzado de inglés y programas de office, altas habilidades comunicativas, hallar soluciones a controversias jurídicas, y aprendizaje rápido. ha participado activamente en la rama judicial, en buffets de abogados, y organizaciones no gubernamentales. ",
-    "Skills": [
-        "Word",
-        "Office",
-        "Base de datos",
-        "Excel",
-        "Power point"
+    "EXPERIENCIA": "experiencia laboral. 01/06/2019 - actual nombre de la empresa arnania internacional s.a.s. nombre del cargo abogado asesor. nombre del cliente rodrigo josé solorzano rojas. funciones realizar todos los contratos laborales y civiles/comerciales de la sociedad. diligenciar los procesos disciplinarios con sus respectivos descargos y sanciones. ",
+    "RESUMEN": "perfil profesional graduado de abogado de la universidad del norte, con experiencia en distintos campos del derecho. cuenta con conocimiento en derecho constitucional, laboral y comercial, capacitado para realizar asesorías jurídicas, analizar casos, proyectar sentencias en juzgados judiciales. asimismo, cuenta con un dominio avanzado de inglés y programas de office, altas habilidades comunicativas, hallar soluciones a controversias jurídicas, y aprendizaje rápido. ha participado activamente en la rama judicial, en buffets de abogados, y organizaciones no gubernamentales. ",
+    "SKILLS": [
+        "OFFICE",
+        "WORD",
+        "EXCEL",
+        "POWER POINT"
     ],
-    "Referencias": "referencias referencias laborales o académicas adalberto de jesús palacios barrios abogado 3006155773 viridiana molinares hassan docente de pregrado y doctorado de la universidad del norte. 3007572132 referencias personales anderson contreras olmos ingeniero electrónico 30153820 "
+    "REFERENCIAS": "referencias referencias laborales o académicas adalberto de jesús palacios barrios abogado 3006155773 viridiana molinares hassan docente de pregrado y doctorado de la universidad del norte. 3007572132 referencias personales anderson contreras olmos ingeniero electrónico 30153820 "
 }

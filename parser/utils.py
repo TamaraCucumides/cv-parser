@@ -1,5 +1,5 @@
 import re
-from constantes import grados_educativos_orden, educacion, educacionSiglas, idiomas, idiomas_nivel, palabras_claves, licencias, cargar_dict
+from constantes import grados_educativos_orden, educacion, educacionSiglas, idiomas, idiomas_nivel, palabras_claves, licencias, cargar_dict, skills_dic
 import math
 import fitz
 import nltk
@@ -28,7 +28,11 @@ import os
 import json
 import textract
 import nltk
+import re
 from nltk.stem import WordNetLemmatizer
+from seccionar import load_secciones
+import time
+from spacy.matcher import PhraseMatcher
 stemmer = SnowballStemmer('spanish')
 
 #####################################################
@@ -157,9 +161,10 @@ def extraer_fono(text):
     EL texto en que se busca no contiene espacios ni guiones
     En el caso de detectar más de uno, se retorna el primero encontrado
     '''
-    text = text.replace('-','')
+    #text = text.replace('-','')
     regex = re.compile(r"\d{9,11}")
-    text = text.replace('-','') # eliminar guiones, que son necesarios para extraer links pero no aquí
+    #text = text.replace('-','') # eliminar guiones, que son necesarios para extraer links pero no aquí
+    text = preprocesar_texto(text, keepSimbolos = False)
     numbers_list=[]
     number = ''
     text_lines= text.splitlines()
@@ -177,7 +182,7 @@ def extraer_fono(text):
         number = '+'+number
     return number
 
-def extraer_skills(text, nlp_text):
+def extraer_skills(text, nlp):
     
     '''
     Input: String de texto.
@@ -186,82 +191,62 @@ def extraer_skills(text, nlp_text):
     Se buscan tanto skill de 1 token como de varios.
     Hace uso del diccionario skills.txt.
     '''
-    # eliminar stopwords
-    tokens = [token.text for token in nlp_text if not token.is_stop]
-    skills = cargar_dict(os.getcwd() +'/diccionarios/skills')
     skillset = []
+    matcher = PhraseMatcher(nlp.vocab)
+    terms = [unidecode.unidecode(i.lower()) for i in skills_dic]
+    # Only run nlp.make_doc to speed things up
+    patterns = [nlp.make_doc(text.lower()) for text in terms]
+    matcher.add("TerminologyList", None, *patterns)
+    text = preprocesar_texto(text, keepTildes= False)
+    doc = nlp(text)
+    matches = matcher(doc)
+    for match_id, start, end in matches:
+        span = doc[start:end]
+        skillset.append(span.text)
+    return [i.upper() for i in set([i.lower() for i in skillset])]
 
-    # revisar para palabras
-    for token in tokens:
-        token_un = unidecode.unidecode(token) # eliminar tildes
-        if token_un.lower() in skills:
-            skillset.append(token)
-    
-    # Revisar skills de más de una palabra.
-    skills = [skill for skill in skills if len(skill.split())> 1]
-    for item in skills:
-        item_un = unidecode.unidecode(item)
-        text_un = unidecode.unidecode(text.lower().replace('\n', ' '))
-        if item_un.lower() in text_un:
-                skillset.append(item)
-    return [i.capitalize() for i in set([i.lower() for i in skillset])]
-
-def extraer_licencias(text, nlp_text):
+def extraer_licencias(text, nlp):
     '''
     Funcion que busca las licencias que declara
     el postulante
     '''
-    # eliminar stopwords
-    tokens = [token.text for token in nlp_text if not token.is_stop]
-    licencias_dic = licencias
-    licencias_list = [unidecode.unidecode(licencia.lower()) for licencia in licencias_dic]
     licencias_set = []
-    # revisar para palabras
-    for token in tokens:
-        token_un = unidecode.unidecode(token) # eliminar tildes
-        if token_un.lower() in licencias_list:
-            licencias_set.append(token)
-    
-    # revisar frases
-    licencias_list = [licencia for licencia in licencias_list if len(licencia.split())> 1]
-    for item in licencias_list:
-        item_un = unidecode.unidecode(item)
-        text_un = unidecode.unidecode(text.lower().replace('\n', ' '))
-        #este if es mas costoso pero más efectivo, a veces el nltk se come los 'de'
-        if item_un.lower() in text_un:
-                licencias_set.append(item)
-        
+    matcher = PhraseMatcher(nlp.vocab)
+    terms = [unidecode.unidecode(i.lower()) for i in licencias]
+    # Only run nlp.make_doc to speed things up
+    patterns = [nlp.make_doc(text.lower()) for text in terms]
+    matcher.add("TerminologyList", None, *patterns)
+    text = preprocesar_texto(text, keepTildes= False)
+    doc = nlp(text)
+    matches = matcher(doc)
+    for match_id, start, end in matches:
+        span = doc[start:end]
+        licencias_set.append(span.text)
     return [i.upper() for i in set([i.lower() for i in licencias_set])]
 
-def extraer_educacion(text, nlp_text):
-    '''
-    Funcion que recupera las universidad o intituciones mencionadas en el CV
-    Hace uso de 2 diccionarios: universidades.txt y universidades_siglas.txt
-    Input: texto plano
-    Output: Lista de strings unicos
-    '''
-    educacion_list=[]
-    #Dejar solo sustantivos
-    filter_noun = [word for (word, pos) in nltk.pos_tag(nltk.word_tokenize(text)) if pos[0] == 'N' or word == 'de']
-   
-    for item in educacion:
-        #for noun in noun_chunks:
-        item_un = unidecode.unidecode(item)
-        text_un = unidecode.unidecode(text.lower().replace('\n', ' '))
-        #este if es mas costoso pero más efectivo, a veces el nltk se come los 'de'
-        if item_un.lower() in text_un:
-            educacion_list.append(item)
-                   
-    for item in educacionSiglas:
-        if item.upper() in filter_noun:
-            educacion_list.append(item)
+def extraer_educacion(text, nlp):
+    start_time = time.time()
+    matcher = PhraseMatcher(nlp.vocab)
+    educacion_list = []
+    terms = [unidecode.unidecode(i.lower()) for i in educacion]
+    # Only run nlp.make_doc to speed things up
+    patterns = [nlp.make_doc(text.lower()) for text in terms]
+    matcher.add("TerminologyList", None, *patterns)
+    text = preprocesar_texto(text, keepTildes= False)
+    doc = nlp(text)
+    matches = matcher(doc)
+    for match_id, start, end in matches:
+        span = doc[start:end]
+        educacion_list.append(span.text.upper())
+    #print(": %s secon 2 " % (time.time() - start_time))
+    #print(educacion_list)
+    #print('____________________\n')
+    uniques = list(set(educacion_list)) 
+    #print(uniques)
+    return uniques
 
-    # se usar set para crear una lista de elementos únicos
-    unique_values = set(educacion_list)
 
-    return list(unique_values) 
-
-def extraer_idiomas(text, nlp_text):
+def extraer_idiomas(text, nlp):
     '''
     Funcion que recupera los idiomas que declara el postulante.
     Usa dos diccionarios: idiomas.txt e idiomas_nivel.txt
@@ -269,66 +254,52 @@ def extraer_idiomas(text, nlp_text):
     todas las combinaciones. Luego estas combinaciones 
     son buscada en el texto.
     '''
-    nlp = es_core_news_sm.load()
-    # generamos el objeto nlp eliminando cualquier tipo de puntuación en el texto
-    nlp_text = nlp(re.sub(r'[^\w\s]','',text))
     
-    # uso de itertools para generar el cruze de los diccionarios
-    combinaciones = list(itertools.product(idiomas, idiomas_nivel))
-    combinaciones_strings = []
-    for i in range(1, len(combinaciones)):
-        #se concatena cada combinacion: inglés + ' ' + a1 = 'inglés a1' 
-        combinaciones_strings.append(combinaciones[i][0] +' '+ combinaciones[i][1])
-
-    # agregamos los idiomas por si solos : [inglés, francés, etc]
-    combinaciones_strings = combinaciones_strings + idiomas
-    noun_chunks = list(nlp_text.noun_chunks)
-    
-    #Ahora a buscar cada una de las combinaciones en cada frase o chunk
-    # todo esto ignorando tildes
     idiomas_cv = []
-    for item in combinaciones_strings:
-        for noun in noun_chunks:
-            item_un = unidecode.unidecode(item)
-            noun_un = unidecode.unidecode(noun.text)
-            if len(item_un.split())>1:
-                if item_un.lower() in noun_un.lower() :
-                    idiomas_cv.append(item.capitalize())
-            else: 
-                if item_un.lower() in  noun_un.lower().split() :
-                    idiomas_cv.append(item.capitalize())
-    return list(set(idiomas_cv))
+    matcher = PhraseMatcher(nlp.vocab)
+    terms = [unidecode.unidecode(i.lower()) for i in idiomas]
+    # Only run nlp.make_doc to speed things up
+    patterns = [nlp.make_doc(text.lower()) for text in terms]
+    matcher.add("TerminologyList", None, *patterns)
+    text = preprocesar_texto(text, keepTildes= False)
+    doc = nlp(text)
+    matches = matcher(doc)
+    for match_id, start, end in matches:
+        span = doc[start:end]
+        idiomas_cv.append(span.text)
+    return [i.upper() for i in set([i.lower() for i in idiomas_cv])]
  
-def extraer_grado(text):
+def extraer_grado(text, nlp):
     '''
     Funcion que devuelve el grado más alto encontrado, depende de la 
     lista grados_educativos_orden
     Input: Texto Plano
     Output: Lista de strings
     '''
+    start_time = time.time()
     education = []
-    frases = sent_tokenize(text) # frases   
 
+    
+    text = preprocesar_texto(text, keepTildes= False)
+    doc = nlp(text)
+    
     for grado_name in grados_educativos_orden.keys():
-        for grado in grados_educativos_orden[grado_name]:
-            for frase in frases:
-                # Eliminacion de tildes
-                grado_un = unidecode.unidecode(grado)
-                frase_un = unidecode.unidecode(frase)
-                if (len(grado_un.lower().split()) == 1): # Si tenemos grados de 1 palabra
-                    if grado_un.lower() in frase_un.lower().split(): # para que no considere webmaster como un master xd
-                        education.append(grado_name.capitalize())
-
-                elif grado_un.lower() in frase_un.lower(): # grados de varias palabras: administracion de empresas
-                    education.append(grado_name.capitalize())
- 
+        matcher = PhraseMatcher(nlp.vocab)
+        terms = [unidecode.unidecode(i.lower()) for i in grados_educativos_orden[grado_name]]
+        # Only run nlp.make_doc to speed things up
+        patterns = [nlp.make_doc(text.lower()) for text in terms]
+        matcher.add("TerminologyList", None, *patterns)
+        matches = matcher(doc)
+        if matches:
+            education.append(grado_name.upper())
+    #print(education)
     # Como se buscaron en orden, si se detecta más de uno
     # se retorna el grado más alto, que debe estar el último de la lista
     if len(education)>0:
         education = [education[-1]]
     else:
         education = []
-
+    #print(": %s seconfddddddddddds" % (time.time() - start_time))
     return education
 
 def extraer_referencias(cv_txt):
@@ -353,20 +324,20 @@ def extraer_referencias(cv_txt):
         linea = " ".join(linea.split())
 
         for referencia in referencias:
-            linea_np = re.sub(r'[^\w\s]','', linea)
-            referencia_np = re.sub(r'[^\w\s]','', referencia)
-            linea_un = "".join(unidecode.unidecode(linea_np).split())
-            referencia_un = "".join(unidecode.unidecode(referencia_np).split())
-            if referencia_un.lower() == linea_un.lower():
+            linea_np = preprocesar_texto(linea, keepTildes= False, keepSimbolos= False)
+            referencia_np = preprocesar_texto(referencia, keepTildes= False, keepSimbolos= False)
+            linea_un = "".join(linea_np.split())
+            referencia_un = "".join(referencia_np.split())
+            if referencia_un == linea_un:
                 linea_referencia = True
 
         for otro in otros:
-            otro_np = re.sub(r'[^\w\s]','', otro)
-            linea_np = re.sub(r'[^\w\s]','', linea)
-            otro_un = unidecode.unidecode(otro_np)
-            linea_un = unidecode.unidecode(linea_np)
+            #otro_np = re.sub(r'[^\w\s]','', otro)
+            #linea_np = re.sub(r'[^\w\s]','', linea)
+            otro_un = preprocesar_texto(otro, keepTildes= False, keepSimbolos= False)
+            linea_un = preprocesar_texto(linea, keepTildes= False, keepSimbolos= False)
 
-            if linea_un.lower() == otro_un.lower() and linea_referencia:
+            if linea_un == otro_un and linea_referencia:
                 siguiente_seccion = True
                 break
 
@@ -393,11 +364,11 @@ def extraer_perfil(cv_text):
     for line in cv_text.splitlines():
         n += 1
         for resumen in perfil:
-            linea_np = re.sub(r'[^\w\s]','', line)
-            resumen_np = re.sub(r'[^\w\s]','', resumen)
-            linea_un = "".join(unidecode.unidecode(linea_np).split())
-            resumen_un = "".join(unidecode.unidecode(resumen_np).split())
-            if resumen_un.lower() == linea_un.lower():
+            linea_np = preprocesar_texto(line, keepTildes= False, keepSimbolos= False)
+            resumen_np = preprocesar_texto(resumen, keepTildes= False, keepSimbolos= False)
+            linea_un = "".join(linea_np.split())
+            resumen_un = "".join(resumen_np.split())
+            if resumen_un == linea_un:
                 n_linea = n
                 break
  
@@ -409,12 +380,12 @@ def extraer_perfil(cv_text):
 
         linea = " ".join(linea.split())
         for otro in otros:
-            otro_np = re.sub(r'[^\w\s]','', otro)
-            linea_np = re.sub(r'[^\w\s]','', linea)
-            otro_un = "".join(unidecode.unidecode(otro_np).split())
-            linea_un = "".join(unidecode.unidecode(linea_np).split())
+            otro_np = preprocesar_texto(otro, keepTildes= False, keepSimbolos= False)
+            linea_np = preprocesar_texto(linea, keepTildes= False, keepSimbolos= False)
+            otro_un = "".join(otro_np.split())
+            linea_un = "".join(linea_np.split())
 
-            if linea_un.lower() == otro_un.lower() :
+            if linea_un == otro_un :
                 siguiente_seccion = True
                 break
 
@@ -427,11 +398,12 @@ def extraer_perfil(cv_text):
     parrafo = re.sub(r'\s+',' ', parrafo)
     return parrafo
    
-def extraer_experiencia(cv_text, model):
+def extraer_experiencia(cv_text, model, nlp):
     '''
     Utilidad que extrae la experincia laboral del
     postulante.
     '''
+    
     cv_text = cv_text.splitlines()
     otros =  educacion_sec + cursos + habilidades + contacto + referencias + logros+ hobbies
     linea_experiencia = False
@@ -450,20 +422,20 @@ def extraer_experiencia(cv_text, model):
 
         linea = " ".join(linea.split())
         for experiencia in experiencias:
-            linea_np = re.sub(r'[^\w\s]','', linea)
-            experiencia_np = re.sub(r'[^\w\s]','', experiencia)
-            linea_un = "".join(unidecode.unidecode(linea_np).split())
-            experiencia_un = "".join(unidecode.unidecode(experiencia_np).split())
-            if experiencia_un.lower() == linea_un.lower():
+            linea_np = preprocesar_texto(linea, keepTildes= False, keepSimbolos= False)
+            experiencia_np = preprocesar_texto(experiencia, keepTildes= False, keepSimbolos= False)
+            linea_un = "".join(linea_np.split())
+            experiencia_un = "".join(experiencia_np.split())
+            if experiencia_un == linea_un:
                 linea_experiencia = True
 
         for otro in otros:
-            otro_np = re.sub(r'[^\w\s]','', otro)
-            linea_np = re.sub(r'[^\w\s]','', linea)
-            otro_un = "".join(unidecode.unidecode(otro_np).split())
-            linea_un = "".join(unidecode.unidecode(linea_np).split())
+            otro_np = preprocesar_texto(otro, keepTildes= False, keepSimbolos= False)
+            linea_np = preprocesar_texto(linea, keepTildes= False, keepSimbolos= False)
+            otro_un = "".join(otro_np.split())
+            linea_un = "".join(linea_np.split())
 
-            if linea_un.lower() == otro_un.lower() and linea_experiencia:
+            if linea_un== otro_un and linea_experiencia:
                 siguiente_seccion = True
                 break
 
@@ -473,13 +445,15 @@ def extraer_experiencia(cv_text, model):
         if linea_experiencia == True and siguiente_seccion == False:
             parrafo += linea + ' \n'
     if len(parrafo.splitlines())<3:
-        parrafo = seccionar_cv(cv_text, model)['Experiencia']
-        #print(parrafo)
+        #start_time = time.time()
+        lista_secciones, similar_to = load_secciones('/diccionarios/seccionesCV_similitud.csv')
+        parrafo = seccionar_cv(cv_text, model,lista_secciones, similar_to, nlp,threshold = 0.5)['EXPERIENCIA']
+        #print(": %s experiencia similutd seconds" % (time.time() - start_time))
 
     parrafo = re.sub(r'\s+',' ', parrafo)
     return parrafo.replace('\n', ' ')
 
-def extraer_nombre(text, nlp_text):
+def extraer_nombre(text, nlp_text, nlp):
     '''
     Funcion que busca por 3 pronombres seguidos. Se recibe el texto
     plano  palabras que complican el analisis
@@ -487,13 +461,15 @@ def extraer_nombre(text, nlp_text):
     Output: texto plano
     '''
     text = text[0:math.floor(len(text)/16)]
-    nlp = es_core_news_sm.load()
+    #start_time = time.time()
     newStopWords = cargar_dict(os.getcwd() + '/diccionarios/stop_words_nombres')
     stopwords = nltk.corpus.stopwords.words('spanish')
     stopwords.extend(newStopWords)
+    #print(name, end=',')
+    #print(": %s seconfddddddddddds" % (time.time() - start_time))
     # Se procesa el 25% superior del texto. Se asume que el nombre deberia estar arriba
     # De forma empirirca, con mayusculas y con puntuación funciona mejor
-    nlp_text = nlp(preprocesar_texto(text[0:math.floor(len(text)/4)],stopwords ,enminiscula= False,  puntuacion= True))
+    nlp_text = nlp(preprocesar_texto(text[0:math.floor(len(text)/4)],stopwords ,enminiscula= False,  keepPuntuacion= True))
     NAME_PATTERN      = [{'POS': 'PROPN'}, {'POS': 'PROPN'},{'POS': 'PROPN'}]
     
     matcher = Matcher(nlp.vocab)
@@ -549,6 +525,7 @@ def busqueda_palabras_claves(text):
     puntualidad --> puntual
     paciencia --> pacienci
     '''
+
     stemmer = SnowballStemmer('spanish')
 
     word_tokens = word_tokenize(text) 
@@ -563,14 +540,13 @@ def busqueda_palabras_claves(text):
             if stemmer.stem(word).lower() == stemmed_clave.lower():
                 encontradas.append(palabra_clave.capitalize())
     encontradas = list(set(encontradas))
-
     return encontradas if len(encontradas)>1 else None
 
 #####################################################
 ######  UTILIDADES ranking.py  ######################
 #####################################################
-
-def preprocesar_texto(corpus,stopwords , enminiscula= True, puntuacion = False, numeros = True):
+#stopwords_def = nltk.corpus.stopwords.words('spanish') # stopwords_defecto
+def preprocesar_texto(corpus,stopwords = None , enminiscula= True, keepPuntuacion = False, keepNumeros = True, keepTildes= True, keepSimbolos = True):
     '''
     Entrada: texto, stopwords, enminiscula (opcional), puntuacion
     Salida:  texto
@@ -585,27 +561,36 @@ def preprocesar_texto(corpus,stopwords , enminiscula= True, puntuacion = False, 
 
     if enminiscula: # si se quiere normalizar a minuscula
         corpus = corpus.lower()
-    if not puntuacion: # Si no se quiere conservar la puntuación
+
+    if not keepPuntuacion and stopwords is not None: # Si no se quiere conservar la puntuación
         stopset = stopwords+ list(string.punctuation)
-    else:
+    elif not keepPuntuacion and stopwords is None:
+        stopset = list(string.punctuation)
+    elif keepPuntuacion and stopwords is not None:
         stopset = stopwords
+    else:
+        stopset = None
 
-    corpus = " ".join([i for i in word_tokenize(corpus) if i not in stopset])
-    # remove non-ascii characters
-    #corpus = unidecode.unidecode(corpus)
+    
+    if stopset is not None:
+        corpus = " ".join([i for i in word_tokenize(corpus) if i not in stopset])
+    
+    if not keepTildes:
+        corpus = unidecode.unidecode(corpus)
 
-    if not numeros:
+    if not keepNumeros:
         corpus = ''.join([i for i in corpus if not i.isdigit()])
         corpus = " ".join(corpus.split())
+    if not keepSimbolos:
+        corpus = re.sub(r'[^\w\s]',' ',corpus)
 
     return corpus
 
-def lematizar(frase):
+def lematizar(frase, nlp):
     '''
     Esta función recibe un string y le aplica lematización:
     [correr corrido correrá] ---> [correr, correr, correr]
     '''
-    nlp = es_core_news_sm.load()
     doc = nlp(frase)
     lemmas = [tok.lemma_.lower() for tok in doc]
     lematizado = ''

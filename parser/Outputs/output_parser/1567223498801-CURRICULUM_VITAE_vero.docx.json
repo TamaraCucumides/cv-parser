@@ -1,24 +1,24 @@
 {
-    "Contacto": {
-        "Nombre": null,
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": null,
+        "CORREO": [
             "tabatavasquez80@gmail.com"
         ],
-        "Celular": "986182351",
-        "Linkedin": null
+        "CELULAR": "198841528",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1567223498801-CURRICULUM_VITAE_vero.docx",
-    "Licencias-Certificaciones": [],
-    "Palabras Claves": null,
-    "Educacion": {
-        "Universidades:": [],
-        "Grado_mas_alto": [
-            "Enseñanza media"
+    "NOMBRE_ARCHIVO": "1567223498801-CURRICULUM_VITAE_vero.docx",
+    "LICENCIA_CERTIFICACION": [],
+    "PALABRAS_CLAVES": null,
+    "EDUCACION": {
+        "UNIVERSIDADES:": [],
+        "GRADO_MAS_ALTO": [
+            "ENSEÑANZA MEDIA"
         ]
     },
-    "Lenguajes": [],
-    "Experiencia": "antecedentes laborales diciembre 2015- diciembre 2017 cajera/reponedora/vendedora ferretería la carmelita, cerro navia febrero 2018 agosto 2018 cajera/reponedora/atención al cliente supermercado jumbo disponibilidad inmediata. ",
-    "Resumen": "curriculum vitae ",
-    "Skills": [],
-    "Referencias": ""
+    "IDIOMAS": [],
+    "EXPERIENCIA": "antecedentes laborales diciembre 2015- diciembre 2017 cajera/reponedora/vendedora ferretería la carmelita, cerro navia febrero 2018 agosto 2018 cajera/reponedora/atención al cliente supermercado jumbo disponibilidad inmediata. ",
+    "RESUMEN": "curriculum vitae ",
+    "SKILLS": [],
+    "REFERENCIAS": ""
 }

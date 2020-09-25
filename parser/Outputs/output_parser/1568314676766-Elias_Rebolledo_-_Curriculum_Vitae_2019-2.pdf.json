@@ -1,40 +1,40 @@
 {
-    "Contacto": {
-        "Nombre": "Elías Fernando Rebolled ",
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": "Elías Fernando Rebolled ",
+        "CORREO": [
             "elias.rebolledo.rodriguez@gmail.com"
         ],
-        "Celular": "+56942215717",
-        "Linkedin": null
+        "CELULAR": "+20162001201",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1568314676766-Elias_Rebolledo_-_Curriculum_Vitae_2019-2.pdf",
-    "Licencias-Certificaciones": [
+    "NOMBRE_ARCHIVO": "1568314676766-Elias_Rebolledo_-_Curriculum_Vitae_2019-2.pdf",
+    "LICENCIA_CERTIFICACION": [
         "CLASE B",
         "LICENCIA DE CONDUCIR"
     ],
-    "Palabras Claves": null,
-    "Educacion": {
-        "Universidades:": [
-            "Universidad de Antofagasta"
+    "PALABRAS_CLAVES": null,
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
+            "UNIVERSIDAD DE ANTOFAGASTA"
         ],
-        "Grado_mas_alto": [
-            "Pregrado"
+        "GRADO_MAS_ALTO": [
+            "PREGRADO"
         ]
     },
-    "Lenguajes": [
-        "Inglés",
-        "Español"
+    "IDIOMAS": [
+        "ESPANOL",
+        "INGLES"
     ],
-    "Experiencia": "antecedentes laborales ene mar 2018 práctica profesional. distribuidora cummins chile s.a. ene feb 2017 práctica profesional. compañía minera zaldívar spa. 1 semestre 2016 ayudantía de termodinámica 1. universidad de antofagasta. 2 semestre 2015 ayudantía de mecánica 1. universidad de antofagasta. informática software cad solidworks nivel medio, autocad nivel usuario. software microsoft office word, excel y power point nivel medio, visio y project nivel usuario. ",
-    "Resumen": "elías fernando rebolledo rodríguez egresado de ingeniería civil industrial en mecánica, universidad de antofagasta. ",
-    "Skills": [
-        "Word",
-        "Power point",
-        "Autocad",
-        "Solidworks",
-        "Visio",
-        "Excel",
-        "Office"
+    "EXPERIENCIA": "antecedentes laborales ene mar 2018 práctica profesional. distribuidora cummins chile s.a. ene feb 2017 práctica profesional. compañía minera zaldívar spa. 1 semestre 2016 ayudantía de termodinámica 1. universidad de antofagasta. 2 semestre 2015 ayudantía de mecánica 1. universidad de antofagasta. informática software cad solidworks nivel medio, autocad nivel usuario. software microsoft office word, excel y power point nivel medio, visio y project nivel usuario. ",
+    "RESUMEN": "elías fernando rebolledo rodríguez egresado de ingeniería civil industrial en mecánica, universidad de antofagasta. ",
+    "SKILLS": [
+        "SOLIDWORKS",
+        "WORD",
+        "POWER POINT",
+        "OFFICE",
+        "VISIO",
+        "EXCEL",
+        "AUTOCAD"
     ],
-    "Referencias": ""
+    "REFERENCIAS": ""
 }

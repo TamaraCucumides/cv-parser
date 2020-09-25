@@ -1,30 +1,31 @@
 {
-    "Contacto": {
-        "Nombre": null,
-        "Correo": [
+    "CONTACTO": {
+        "NOMBRE": null,
+        "CORREO": [
             "mvilchesgalleguillos@gmail.co"
         ],
-        "Celular": "+56977573041",
-        "Linkedin": null
+        "CELULAR": "+56977573041",
+        "LINKEDIN": null
     },
-    "Nombre archivo": "1567784686155-Monserrat_Vilches_galleguillos.pdf",
-    "Licencias-Certificaciones": [],
-    "Palabras Claves": null,
-    "Educacion": {
-        "Universidades:": [
-            "Pontificia Universidad Católica de Valparaíso"
+    "NOMBRE_ARCHIVO": "1567784686155-Monserrat_Vilches_galleguillos.pdf",
+    "LICENCIA_CERTIFICACION": [],
+    "PALABRAS_CLAVES": null,
+    "EDUCACION": {
+        "UNIVERSIDADES:": [
+            "UNIVERSIDAD CATOLICA DE VALPARAISO",
+            "PONTIFICIA UNIVERSIDAD CATOLICA DE VALPARAISO"
         ],
-        "Grado_mas_alto": [
-            "Pregrado"
+        "GRADO_MAS_ALTO": [
+            "PREGRADO"
         ]
     },
-    "Lenguajes": [],
-    "Experiencia": "e x p e r i e n c i a c o n t a c t i n f o educación media c o l e g i o s a n e s t e b a n , a n t o f a g a s t a . 2 0 1 1 - 2 0 1 4 ",
-    "Resumen": "estudiante ingeniería civil industrial tengo la capacidad de trabajar en equipo y competitividad para enfrentar nuevos desafíos. poseo concimientos de microsoft word, excel y powerpoint, nivel usuario. h a b i l i d a d e s y ",
-    "Skills": [
-        "Word",
-        "Powerpoint",
-        "Excel"
+    "IDIOMAS": [],
+    "EXPERIENCIA": "e x p e r i e n c i a c o n t a c t i n f o educación media c o l e g i o s a n e s t e b a n , a n t o f a g a s t a . 2 0 1 1 - 2 0 1 4 ",
+    "RESUMEN": "estudiante ingeniería civil industrial tengo la capacidad de trabajar en equipo y competitividad para enfrentar nuevos desafíos. poseo concimientos de microsoft word, excel y powerpoint, nivel usuario. h a b i l i d a d e s y ",
+    "SKILLS": [
+        "EXCEL",
+        "R",
+        "WORD"
     ],
-    "Referencias": ""
+    "REFERENCIAS": ""
 }
