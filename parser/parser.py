@@ -9,11 +9,17 @@ import time
 import multiprocessing as mp
 import timeit
 from gensim.models.keyedvectors import KeyedVectors
+import es_core_news_sm
 
+import es_core_news_sm
+
+nlp = es_core_news_sm.load()
+
+#matcher = PhraseMatcher(nlp.vocab)
 #Utilidad para limpiar la consola
 os.system('cls' if os.name == 'nt' else 'clear')
 
-
+nlp = es_core_news_sm.load()
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
 nltk.download('stopwords')
@@ -24,6 +30,11 @@ print("Cargando embeddings")
 #model = KeyedVectors.load_word2vec_format(wordvectors_file_vec, limit=cantidad)
 model = KeyedVectors.load(os.getcwd() + '/embeddings/embeddings_pre_load', mmap='r')
 print("Embeddings cargadas")
+
+
+
+
+
 class CvParser:
     def __init__(self, cv):
         self.parsed = {"CONTACTO": {'NOMBRE': None, 'CORREO': None, "CELULAR" : None, "LINKEDIN": None},
@@ -45,19 +56,19 @@ class CvParser:
 
     def parse(self):
         nombre_archivo = self.cv.replace(direc + dir_cvs, '')
-        nombre = utils.extraer_nombre(self.raw_text, self.nlp)
+        nombre = utils.extraer_nombre(self.raw_text, self.nlp, nlp)
         correo = utils.extraer_mail(self.raw_text)
         celular = utils.extraer_fono(self.raw_text)
-        skills = utils.extraer_skills(self.raw_text, self.nlp)
-        educacion = utils.extraer_educacion(self.raw_text, self.nlp)
-        grado = utils.extraer_grado(self.raw_text)
-        Lenguajes = utils.extraer_idiomas(self.raw_text, self.nlp)
+        skills = utils.extraer_skills(self.raw_text, nlp)
+        educacion = utils.extraer_educacion(self.raw_text, nlp)
+        grado = utils.extraer_grado(self.raw_text, nlp)
+        Lenguajes = utils.extraer_idiomas(self.raw_text,  nlp)
         Linkedin = utils.extraer_linkedin(self.raw_text)
-        palabras_claves = utils.busqueda_palabras_claves(self.raw_text)
-        licencias = utils.extraer_licencias(self.raw_text, self.nlp)
-        experiencia = utils.extraer_experiencia(self.raw_text, model)
+        licencias = utils.extraer_licencias(self.raw_text, nlp)
+        experiencia = utils.extraer_experiencia(self.raw_text, model, nlp)
         resumen = utils.extraer_perfil(self.raw_text)
         referencias = utils.extraer_referencias(self.raw_text)
+        palabras_claves = utils.busqueda_palabras_claves(experiencia)
 
         self.parsed["CONTACTO"] = {'NOMBRE': nombre, 'CORREO': correo, 'CELULAR': celular, "LINKEDIN": Linkedin}
         self.parsed["NOMBRE_ARCHIVO"] = nombre_archivo
@@ -87,6 +98,7 @@ def resume_result_wrapper_local(resume):
     parser = CvParser(resume)
     result = parser.get_parsed_resume()
     name = result["NOMBRE_ARCHIVO"]
+    #start_time = time.time()
     with open(direc + dir_output + name +'.json', 'w',encoding='utf-8') as json_file:
         json.dump(result, json_file,ensure_ascii=False,indent=4)
     print(name, end=',')

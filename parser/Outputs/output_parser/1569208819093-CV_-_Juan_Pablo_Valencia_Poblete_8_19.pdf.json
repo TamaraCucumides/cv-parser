@@ -9,20 +9,14 @@
     },
     "NOMBRE_ARCHIVO": "1569208819093-CV_-_Juan_Pablo_Valencia_Poblete_8_19.pdf",
     "LICENCIA_CERTIFICACION": [],
-    "PALABRAS_CLAVES": [
-        "Compromiso",
-        "Liderar",
-        "Autoaprendizaje",
-        "Negociación",
-        "Motivación"
-    ],
+    "PALABRAS_CLAVES": null,
     "EDUCACION": {
         "UNIVERSIDADES:": [
-            "Universidad Tecnológica Metropolitana",
-            "Universidad Mayor"
+            "UNIVERSIDAD TECNOLOGICA METROPOLITANA",
+            "UNIVERSIDAD MAYOR"
         ],
         "GRADO_MAS_ALTO": [
-            "Postgrado"
+            "POSTGRADO"
         ]
     },
     "IDIOMAS": [],

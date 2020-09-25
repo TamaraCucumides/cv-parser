@@ -14,6 +14,15 @@ from collections import Counter
 from utils import lematizar, stemizar, preprocesar_texto
 from constantes import cargar_dict
 import re
+import unidecode as u
+import es_core_news_sm
+nlp = es_core_news_sm.load()
+
+skills = cargar_dict(os.getcwd() +'/diccionarios/skills')
+
+educacion = [u.unidecode(i.upper()) for i in educacion]
+licencias =[u.unidecode(i.upper()) for i in licencias]
+skills = [u.unidecode(i.upper()) for i in skills]
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 def show_words(file):
@@ -43,7 +52,7 @@ def show_words(file):
 
 model = KeyedVectors.load('bio_word', mmap='r')
 
-st.title("Demo CV_parser")
+st.title("🤔 CV 👨🏼‍💻 ")
 
 cwd = os.getcwd()
 folder_csv = 'Outputs/output_text'
@@ -79,7 +88,7 @@ def file_selector_filter(folder_path, skills_to_filter):
         for filename in filenames:
             #st.write(filename)
             dict_cv = load_dict('/home/erwin/Genoma/cv-parser/parser/Outputs/output_parser', filename)
-            skills_cv = [item.lower() for item in dict_cv['SKILLS'] + dict_cv['LICENCIA_CERTIFICACION']]
+            skills_cv = [item.upper() for item in dict_cv['SKILLS'] + dict_cv['LICENCIA_CERTIFICACION']]
             flag = 0
             if(all(x in skills_cv for x in skills_to_filter)): 
                 flag = 1
@@ -103,9 +112,9 @@ def file_selector_educacion(folder_path, universidades_selected, grado):
         for filename in filenames:
             dict_cv = load_dict('/home/erwin/Genoma/cv-parser/parser/Outputs/output_parser', filename)
             #st.write(dict_cv['Educacion']['Universidades:'])
-            Ues_cv = [u.unidecode(item.lower()) for item in dict_cv['EDUCACION']['UNIVERSIDADES']]
+            Ues_cv = [u.unidecode(item.upper()) for item in dict_cv['EDUCACION']['UNIVERSIDADES:']]
             flag = 0
-            U_dict = [u.unidecode(i.lower()) for i in universidades_selected]
+            U_dict = [u.unidecode(i.upper()) for i in universidades_selected]
             if( U_dict[0] in Ues_cv): 
                 flag = 1
             if flag:
@@ -163,14 +172,13 @@ if mostrar_cvparseado:
     dict_cv = load_dict('/home/erwin/Genoma/cv-parser/parser', filename_par)
     st.write(dict_cv)
 
-if st.checkbox('Mostrar Nube Palabras'):
+if st.checkbox('Mostrar Imagen Palabras'):
     show_words(os.path.join('/home/erwin/Genoma/cv-parser/parser', filename_par))
 
 
 
 st.title("Filtrar")
 
-skills = cargar_dict(os.getcwd() +'/diccionarios/skills')
 
 selec_skills = st.multiselect("Seleccionar skills o licencia", skills + licencias )
 
@@ -187,8 +195,8 @@ if selec_skills:
             st.write(dict_cv)
         else:
             dict_cv = load_dict('/home/erwin/Genoma/cv-parser/parser',filename_filtered)
-            st.write(dict_cv['Skills'])
-            st.write(dict_cv['Licencias-Certificaciones'])
+            st.write(dict_cv['SKILLS'])
+            st.write(dict_cv['LICENCIA_CERTIFICACION'])
 
   
 
@@ -207,37 +215,22 @@ if selec_u:
             st.write(dict_cv)
         else:
             dict_cv = load_dict('/home/erwin/Genoma/cv-parser/parser',filename_filtered)
-            st.write(dict_cv['Educacion'])
+            st.write(dict_cv['EDUCACION'])
 
 
-selec_grado = st.multiselect("Seleccionar Grado", list(grados_educativos_orden.keys()))
-if selec_grado:
 
-    filename_filtered = file_selector_grado('Outputs/output_parser', selec_grado, 'hola')
-    #st.write(filename_filtered)
-    mostrar_cvtxt_fil_g = st.checkbox('Mostrar CV G')
-
-    if mostrar_cvtxt_fil_g:
-        mostrar_solo_g = st.checkbox('Mostrar solo Grado')
-        if not mostrar_solo_g:
-            dict_cv = load_dict('/home/erwin/Genoma/cv-parser/parser',filename_filtered)
-            st.write(dict_cv)
-        else:
-            dict_cv = load_dict('/home/erwin/Genoma/cv-parser/parser',filename_filtered)
-            st.write(dict_cv['Educacion'])
-
-st.title('Prueba de embeddings')
+st.title('Embeddings')
 #cargar_embedding()
 
 
 st.subheader("Ver vector")
-see_vector = st.text_input("Palabra", "")
+see_vector = st.text_input("✍️ Palabra", "")
 if see_vector!="":
     st.write(model[see_vector])
 
 st.subheader('Similitud de palabras')
-user_input_1 = st.text_input("Palabra 1", "")
-user_input_2 = st.text_input("Palabra 2", "")
+user_input_1 = st.text_input("✍️ Palabra 1", "")
+user_input_2 = st.text_input("✍️ Palabra 2", "")
 # st.write("Cargando embeddings")
 #@st.cache
 
@@ -249,13 +242,13 @@ if user_input_1!="" and user_input_2!="":
     sim = model.similarity(user_input_1, user_input_2)
     st.write(sim)
     if sim>0.5:
-        st.write('Las dos palabras pertencen a categorias similares :smile:')
+        st.write('Las dos palabras estan cerca en el espacio 🕵🏼')
     else:
-        st.write('Las dos palabras no son parecidas 😑')
+        st.write('Las dos palabras no son cercanas 🤦‍♂️')
 #        
 # """
 st.subheader('Palabras más similares')
-similares = st.text_input("Similares a:", "")
+similares = st.text_input("✍️ Similares a:", "")
 
 if similares != "":
     #model = cargar_embedding()
@@ -264,34 +257,34 @@ if similares != "":
     if sim:
         st.write(sim)
     else:
-        st.write("La palabra no esta en el vocabulario")
+        st.write("La palabra no esta en el vocabulario 👎🏼")
 
 st.title("Extras")
 st.subheader('Lematizador')
-lemas = st.text_input("Palabra a lematizar:", "")
+lemas = st.text_input("✍️ Palabra a lematizar:", "")
 
 if lemas != "":
     #model = cargar_embedding()
     n=5
-    lematizado = lematizar(lemas)
+    lematizado = lematizar(lemas, nlp)
     if lematizado:
         st.write(lematizado)
     else:
-        st.write("La palabra no esta en el vocabulario")
+        st.write("La palabra no esta en el vocabulario 👎🏼")
 
 
 st.subheader('Stemming')
-stems = st.text_input("Palabra para aplicar stemming:", "")
+stems = st.text_input("✍️ Palabra para aplicar stemming:", "")
 
 if stems != "":
     stem = stemizar(stems)
     if stem:
         st.write(stem)
     else:
-        st.write("La palabra no esta en el vocabulario")
+        st.write("La palabra no esta en el vocabulario 👎🏼")
 
 st.subheader('Preprocesamiento (Bye Stopwords)')
-text_to_clean = st.text_input("Texto a limpiar:", "")
+text_to_clean = st.text_input("✍️ Texto a limpiar:", "")
 
 
 minus = st.checkbox('Normalizar en miniscula')
@@ -313,12 +306,12 @@ if text_to_clean != "":
     clean = preprocesar_texto(text_to_clean,stopwords , enminiscula=  minus, keepPuntuacion = not punt, keepNumeros = not num)
     if clean and not simb:
         if lemm:
-            clean = lematizar(clean)
+            clean = lematizar(clean, nlp)
         else:  
             st.markdown('**'+clean+'**')
     elif clean and simb:
         if lemm:
-            clean = lematizar(clean)
+            clean = lematizar(clean, nlp)
             clean = re.sub(r'[^\w\s]',' ',clean) #eliminar puntuacion
             st.markdown('**'+clean+'**')
         else:

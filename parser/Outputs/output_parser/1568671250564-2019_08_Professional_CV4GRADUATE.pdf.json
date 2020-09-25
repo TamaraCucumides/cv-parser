@@ -10,33 +10,31 @@
     "NOMBRE_ARCHIVO": "1568671250564-2019_08_Professional_CV4GRADUATE.pdf",
     "LICENCIA_CERTIFICACION": [],
     "PALABRAS_CLAVES": [
-        "Responsabilidad",
-        "Disciplina",
-        "Aprender",
-        "Modelamiento"
+        "Modelamiento",
+        "Responsabilidad"
     ],
     "EDUCACION": {
         "UNIVERSIDADES:": [
-            "Universidad de Chile"
+            "UNIVERSIDAD DE CHILE"
         ],
         "GRADO_MAS_ALTO": [
-            "Postgrado"
+            "POSTGRADO"
         ]
     },
     "IDIOMAS": [
-        "Inglés"
+        "INGLES"
     ],
     "EXPERIENCIA": "experiencia laboral jul.2018-ago.2019 engie factory engiefactory es una empresa aceleradora de startups del grupo engie en latam. https//engiefactory.com/. durante mi estadía en este empleo, mi trabajo abarcó diferentes áreas, pudiendo destacar las siguientes participé de un proyecto solar fotovoltaico tipo rooftop. aporté en la etapa de diseño, la memoria de cálculo y posteriormente con la coordinación de la instalación y el seguimiento de la planificación. estuve a cargo del levantamiento del área de captura de imágenes con drones de la empresa, la cual permitió cerrar contrato con tres grandes empresas. desarrollé un modelo de interpolación de datos y mapas interpolados a base de kriging, los que permiten una visualización rápida y detallada de grandes cantidades de datos. ene.-feb.2014 binarybag práctica profesional en empresa de desarrollo electrónico e informático.http //www.binarybag.com. mis principales tareas en esta práctica se enfocaron en realizar pruebas eléctricas y ajustes a uno de los dispositivos que la empresa se encontraba validando. experiencia en docencia a lo largo de mis estudios en la universidad de chile me desenvolví como ayudante en 20 ocasiones, la mayor parte del tiempo en cursos de más de 100 alumnos. mis responsabilidades comprendían la realización de clases, la elaboración de evaluaciones y la coordinación de todo el equipo docente, el que en algunos casos ascendía a 8 personas. adicionalmente, en algunos cursos pude detectar falencias en los procedimientos de evaluación y, con la ayuda de cada equipo docente, desarrollamos pautas y estándares de evaluaciones, protocolos de reclamos, entre otros. esto permitió un mejor proceso de aprendizaje de los alumnos. los cursos en los que participé se muestran a continuación sistemas de energía y equipos eléctricos sep fenómenos dinámicos en redes eléctricas modelamiento y control de sistemas de poten- cia robótica y mectatrónica conversión de la energía y sistemas eléctricos laboratorio de equipos y dispositivos eléctricos electromagnetismo sistemas newtoneanos introducción a la física newtoniana ",
     "RESUMEN": "resumen ingeniero civil eléctrico titulado con distinción máxima y con magíster en ciencias de la ingeniería mención eléctrica en el área de potencia y energía. partícipe de un proyecto solar fotovoltaico rooftop de 2mw y a cargo de levantar área de captura de imágenes con drones. durante mi estadía en la universidad realicé ayudantías para 20 cursos, en los que aporté principalmente haciendo clases y coordinando equipos docentes. mientras terminaba el programa de magíster me desempeñé laboralmente adoptando un alto nivel de responsabilidades. hace tres años comencé a diseñar y construir una impresora 3d a modo de hobby y el día de hoy lo cuento orgullosamente, puesto que muestra algunas de mis grandes cualidades que son gran disciplina, capacidad de aprendizaje y perseverancia. ",
     "SKILLS": [
-        "Word",
-        "Latex",
-        "Python",
-        "Arduino",
-        "Digsilent",
-        "Solidworks",
-        "Matlab",
-        "Excel"
+        "SOLIDWORKS",
+        "PYTHON",
+        "WORD",
+        "LATEX",
+        "DIGSILENT",
+        "MATLAB",
+        "ARDUINO",
+        "EXCEL"
     ],
     "REFERENCIAS": ""
 }

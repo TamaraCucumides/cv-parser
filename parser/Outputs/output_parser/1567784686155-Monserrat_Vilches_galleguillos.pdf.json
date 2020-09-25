@@ -12,19 +12,20 @@
     "PALABRAS_CLAVES": null,
     "EDUCACION": {
         "UNIVERSIDADES:": [
-            "Pontificia Universidad Católica de Valparaíso",
-            "Universidad Católica de Valparaíso"
+            "UNIVERSIDAD CATOLICA DE VALPARAISO",
+            "PONTIFICIA UNIVERSIDAD CATOLICA DE VALPARAISO"
         ],
         "GRADO_MAS_ALTO": [
-            "Pregrado"
+            "PREGRADO"
         ]
     },
     "IDIOMAS": [],
     "EXPERIENCIA": "e x p e r i e n c i a c o n t a c t i n f o educación media c o l e g i o s a n e s t e b a n , a n t o f a g a s t a . 2 0 1 1 - 2 0 1 4 ",
     "RESUMEN": "estudiante ingeniería civil industrial tengo la capacidad de trabajar en equipo y competitividad para enfrentar nuevos desafíos. poseo concimientos de microsoft word, excel y powerpoint, nivel usuario. h a b i l i d a d e s y ",
     "SKILLS": [
-        "Word",
-        "Excel"
+        "EXCEL",
+        "R",
+        "WORD"
     ],
     "REFERENCIAS": ""
 }

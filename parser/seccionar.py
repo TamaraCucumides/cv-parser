@@ -13,6 +13,8 @@ import string
 pp = pprint.PrettyPrinter(indent=4)
 import multiprocessing as mp
 import time
+import unidecode as u
+import unicodedata
 
 #from utils import preprocesar_texto
 stopwords = nltk.corpus.stopwords.words('spanish')
@@ -30,22 +32,26 @@ def load_embeddings():
         model.save(os.getcwd() + '/embeddings/embeddings_pre_load')
     return model
 
+def keep_ene(string):
+    #s1 = string.replace("ñ", "#").replace("Ñ", "%")
+    #return unicodedata.normalize("NFKD", s1).encode("ascii","ignore").decode("ascii").replace("#", "ñ").replace("%", "Ñ")
+    return string.strip()
+
 def load_secciones(path):
     #Se carga la tabla de secciones.
     seccion_csv = os.getcwd() + path
     secciones = pd.read_csv(seccion_csv, header = 0)
 
-
+    
     # Se carga el dccionario de secciones, se considera todas las celdas de seccion_csv que no sean nan.
     secciones_dict = {
-        'EXTRAS' : [str(x.lower()) for x in secciones['EXTRAS'].values if str(x)!= 'nan'],
-        'EXPERIENCIA' : [str(x.lower()) for x in secciones['EXPERIENCIA'].values if str(x)!= 'nan'],
-        'EDUCACION' : [str(x.lower()) for x in secciones['FORMACION_ACADEMICA'].values if str(x)!= 'nan'],
-        'SKILLS' : [str(x.lower()) for x in secciones['SKILLS'].values if str(x)!= 'nan']                   
+        'EXTRAS' : [keep_ene(str(x.lower())) for x in secciones['EXTRAS'].values if str(x)!= 'nan'],
+        'EXPERIENCIA' : [keep_ene(str(x.lower())) for x in secciones['EXPERIENCIA'].values if str(x)!= 'nan'],
+        'EDUCACION' : [keep_ene(str(x.lower())) for x in secciones['FORMACION_ACADEMICA'].values if str(x)!= 'nan'],
+        'SKILLS' : [keep_ene(str(x.lower())) for x in secciones['SKILLS'].values if str(x)!= 'nan']                   
             
     }
     similar_to = secciones_dict
-    #print(similar_to['Experiencia'])
     lista_secciones = secciones_dict.keys()
     # Se carga el modelo español de spacy
     nlp = es_core_news_md.load()
@@ -57,7 +63,7 @@ def load_secciones(path):
             docx = nlp(word)
             new_list.append(docx[0].lemma_)
         
-    #print(secciones_dict)
+
     similar_to[section] = list(set(new_list)) # se retorna lista de elementos unicos
 
     return lista_secciones, similar_to
@@ -84,7 +90,7 @@ def modificar(word, nlp):
     except:
         return None # to handle the odd case of characters like 'x02', etc.
     
-def preprocesar_texto(corpus,stopwords , enminiscula= True, puntuacion = False):
+def preprocesar_texto(corpus,stopwords = None , enminiscula= True, puntuacion = False, keepTildes = False):
     '''
     Entrada: texto, stopwords, enminiscula (opcional), puntuacion
     Salida:  texto
@@ -96,7 +102,8 @@ def preprocesar_texto(corpus,stopwords , enminiscula= True, puntuacion = False):
     Notar que stop_words.txt tiene stopwords en minisculas y capitalizada.
     Esta propiedad de mantener la capitalización es útil en la detección de nombres.
     '''
-
+    if stopwords is None:
+        stopwords = nltk.corpus.stopwords.words('spanish')
     if enminiscula: # si se quiere normalizar a minuscula
         corpus = corpus.lower()
     if not puntuacion: # Si no se quiere conservar la puntuación
@@ -106,7 +113,13 @@ def preprocesar_texto(corpus,stopwords , enminiscula= True, puntuacion = False):
 
     corpus = " ".join([i for i in word_tokenize(corpus) if i not in stopset])
     # remove non-ascii characters
-    #corpus = unidecode.unidecode(corpus)
+    if not keepTildes:
+        s1 = corpus.replace("ñ", "#").replace("Ñ", "%")
+        corpus = unicodedata.normalize("NFKD", s1).encode("ascii","ignore").decode("ascii").replace("#", "ñ").replace("%", "Ñ")
+
+    pattern = r'[0-9]'
+    # Match all digits in the string and replace them by empty string
+    corpus = re.sub(pattern, '', corpus)
 
     return corpus
  
@@ -120,8 +133,7 @@ def esta_vacia(line):
             return False
     return True
 
-def seccionar_cv(path, model, lista_secciones, similar_to, threshold = 0.5):
-    nlp = es_core_news_md.load()
+def seccionar_cv(path, model, lista_secciones, similar_to, nlp,threshold = 0.5):
     # Se crea un diccionario vacio para rellenarlo
     secciones_data = {
         'NOMBRE_ARCHIVO':'',
@@ -140,13 +152,12 @@ def seccionar_cv(path, model, lista_secciones, similar_to, threshold = 0.5):
     seccion_previa  = 'EXTRAS'
 
     for line in cv_txt:
-        #print(line)
         # si la linea esta vacia, entonces saltar
         if (len(line.strip()) == 0 or esta_vacia(line)):
             continue
 
         # procesar la linea
-        palabras_en_linea = re_c.findall(line)
+        palabras_en_linea = preprocesar_texto(line,puntuacion = False, keepTildes = True).split(" ")
         lista_palabras_utiles  = []
         
         # recorrer todas las palabras de linea actual
@@ -155,7 +166,7 @@ def seccionar_cv(path, model, lista_secciones, similar_to, threshold = 0.5):
 
             if (palabra_limpia): 
                 lista_palabras_utiles.append(palabra_limpia)
-        #print(lista_palabras_utiles)
+       
         linea_actual = ' '.join(lista_palabras_utiles) # crear un string a partir de una lista
         
         doc = nlp(linea_actual)
@@ -170,8 +181,13 @@ def seccionar_cv(path, model, lista_secciones, similar_to, threshold = 0.5):
         for token in doc:
             for section in lista_secciones:
                 for word in similar_to[section]:
+                    #print(word)
                     try:
-                        valor_seccion[section] = max(valor_seccion[section], float(model.similarity(token.text, word)))
+                        if token.text == word:
+                            sim = 1
+                        else:
+                            sim = float(model.similarity(token.text, word))
+                        valor_seccion[section] = max(valor_seccion[section], sim)
                     except: 
                         pass # si es que token.text no esta en el vocabulario
                     
@@ -193,12 +209,11 @@ def seccionar_cv(path, model, lista_secciones, similar_to, threshold = 0.5):
         cv_txt.close()
     return secciones_data
 
-def generate_json(cv, model, lista_secciones, similar_to):
+def generate_json(cv, model, lista_secciones, similar_to, nlp):
     start_time = time.time()
     name = cv.replace(direc + dir_txt, '')        
-    secciones_data = seccionar_cv(cv, model,lista_secciones, similar_to)
+    secciones_data = seccionar_cv(cv, model,lista_secciones, similar_to, nlp)
     secciones_data['NOMBRE_ARCHIVO'] = name
-    #print(secciones_data['EXPERIENCIA'])
 
     with open(direc + dir_output + name+'.json', 'w',encoding='utf-8') as json_file:
         json.dump(secciones_data, json_file,ensure_ascii=False, indent=4)
@@ -210,14 +225,11 @@ def generate_json(cv, model, lista_secciones, similar_to):
 
 
 if __name__ == '__main__':
-    pool = mp.Pool(mp.cpu_count())
+    #pool = mp.Pool(mp.cpu_count())
     direc = os.getcwd()
     dir_txt = '/Outputs/output_text/'
     dir_output = '/Outputs/output_seccionado/'
-
-    # Se carga el modelo de embeddings en español
-    model = load_embeddings()
-
+    
     # Se cargan todos los paths a los cv en formato .txt 
     resumes_seccionado = []
     for root, _, filenames in os.walk(direc + dir_txt):
@@ -227,12 +239,15 @@ if __name__ == '__main__':
 
     print("Seccionando CVs: "+str(len(resumes_seccionado)))
 
+
+    nlp = es_core_news_md.load()
+    # Se carga el modelo de embeddings en español
+    model = load_embeddings()
     # Se secciona cada CV
     lista_secciones, similar_to = load_secciones('/diccionarios/seccionesCV_similitud.csv')
-    seccionados = [pool.apply_async(generate_json(cv, model, lista_secciones, similar_to)) for cv in resumes_seccionado]
+    seccionados = [generate_json(cv, model, lista_secciones, similar_to, nlp) for cv in resumes_seccionado]
     
-    pool.close()
-    pool.join()      
+     
 
     print('Finalizado')
 

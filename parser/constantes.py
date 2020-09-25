@@ -35,7 +35,7 @@ def cargar_json(path):
 cwd = os.getcwd() +'/diccionarios/'
 path_secciones_dic = cwd + 'seccionesCV_bruto.csv'
 
-
+skills_dic = cargar_dict(os.getcwd() +'/diccionarios/skills')
 secciones_dic = pd.read_csv(path_secciones_dic)
 
 

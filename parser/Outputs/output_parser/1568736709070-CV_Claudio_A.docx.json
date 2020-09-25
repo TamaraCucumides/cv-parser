@@ -10,19 +10,13 @@
         "CLASE B",
         "LICENCIA DE CONDUCIR"
     ],
-    "PALABRAS_CLAVES": [
-        "Responsabilidad",
-        "Voluntariado",
-        "Amigable",
-        "Proactividad",
-        "Comprometido"
-    ],
+    "PALABRAS_CLAVES": null,
     "EDUCACION": {
         "UNIVERSIDADES:": [
-            "Universidad Católica del Norte"
+            "UNIVERSIDAD CATOLICA DEL NORTE"
         ],
         "GRADO_MAS_ALTO": [
-            "Pregrado"
+            "PREGRADO"
         ]
     },
     "IDIOMAS": [],

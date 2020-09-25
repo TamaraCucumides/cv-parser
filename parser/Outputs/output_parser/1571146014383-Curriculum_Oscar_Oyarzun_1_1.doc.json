@@ -14,21 +14,21 @@
     "PALABRAS_CLAVES": null,
     "EDUCACION": {
         "UNIVERSIDADES:": [
-            "Universidad Arturo Prat"
+            "UNIVERSIDAD ARTURO PRAT"
         ],
         "GRADO_MAS_ALTO": [
-            "Pregrado"
+            "PREGRADO"
         ]
     },
     "IDIOMAS": [
-        "Inglés"
+        "INGLES"
     ],
     "EXPERIENCIA": "experiencia profesional 2019 práctica profesional empresa banco de chile cargo alumno en practica función labores de apoyo en área de operaciones 2017 área de abastecimiento empresa supermercado unimarc los molles cargo reponedor función se desempeña como reponedor interno. 2013 área comercial empresa empresa de telefonía movistar cargo vendedor función se desempeña como vendedor de teléfonos. ",
     "RESUMEN": "oscar camilo oyarzún hernández ",
     "SKILLS": [
-        "Word",
-        "Excel",
-        "Office"
+        "OFFICE",
+        "EXCEL",
+        "WORD"
     ],
     "REFERENCIAS": ""
 }

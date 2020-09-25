@@ -15,24 +15,24 @@
     "PALABRAS_CLAVES": null,
     "EDUCACION": {
         "UNIVERSIDADES:": [
-            "Universidad Católica del Norte"
+            "UNIVERSIDAD CATOLICA DEL NORTE"
         ],
         "GRADO_MAS_ALTO": [
-            "Postgrado"
+            "POSTGRADO"
         ]
     },
     "IDIOMAS": [
-        "Inglés"
+        "INGLES"
     ],
     "EXPERIENCIA": "experiencia laboral año 2016 empaque supermercado lider s.t.i enort. año 2017 empaque supermercado lider s.t.i enort. año 2018 empaque supermercado lider s.t.i enort. año 2019 empaque supermercado lider s.t.i enort. ",
     "RESUMEN": "marcelo andrés rodríguez alfaro avenida antonio rendic 6802, antofagasta, chile. celular 56 956131013 fono 55 2380023 e-mail marceloandres.ra@gmail.com ",
     "SKILLS": [
-        "Word",
-        "Power point",
-        "Autocad",
-        "Matlab",
-        "Office",
-        "Excel"
+        "POWER POINT",
+        "WORD",
+        "MATLAB",
+        "OFFICE",
+        "EXCEL",
+        "AUTOCAD"
     ],
     "REFERENCIAS": ""
 }

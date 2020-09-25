@@ -15,24 +15,24 @@
     "PALABRAS_CLAVES": null,
     "EDUCACION": {
         "UNIVERSIDADES:": [
-            "Universidad Andrés Bello"
+            "UNIVERSIDAD ANDRES BELLO"
         ],
         "GRADO_MAS_ALTO": [
-            "Pregrado"
+            "PREGRADO"
         ]
     },
     "IDIOMAS": [
-        "Español",
-        "Inglés"
+        "ESPANOL",
+        "INGLES"
     ],
     "EXPERIENCIA": "experiencia laboral experiencia atendiendo gente, trabajo de verdulería, caja en eventos. informatica nivel medio de uso en programas como microsoft office, excel, power point lenguaje de programación básico python, básico java. idioma español lengua materna ingles medio alto ",
     "RESUMEN": "curriculum vitae ",
     "SKILLS": [
-        "Power point",
-        "Java",
-        "Python",
-        "Office",
-        "Excel"
+        "PYTHON",
+        "POWER POINT",
+        "JAVA",
+        "OFFICE",
+        "EXCEL"
     ],
     "REFERENCIAS": ""
 }

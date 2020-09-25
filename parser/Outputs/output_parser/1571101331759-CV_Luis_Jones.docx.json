@@ -9,27 +9,25 @@
     },
     "NOMBRE_ARCHIVO": "1571101331759-CV_Luis_Jones.docx",
     "LICENCIA_CERTIFICACION": [],
-    "PALABRAS_CLAVES": [
-        "Proactividad",
-        "Responsabilidad",
-        "Motivación"
-    ],
+    "PALABRAS_CLAVES": null,
     "EDUCACION": {
         "UNIVERSIDADES:": [
-            "Instituto Profesional de Chile"
+            "INSTITUTO PROFESIONAL DE CHILE"
         ],
         "GRADO_MAS_ALTO": [
-            "Técnico"
+            "TÉCNICO"
         ]
     },
-    "IDIOMAS": [],
+    "IDIOMAS": [
+        "LENGUAJE DE SENAS"
+    ],
     "EXPERIENCIA": "experiencia enero-marzo 2014 práctica profesional n2 en la ilustre municipalidad de rancagua. mantención de sistema operativo respaldo de archivos, formateo, limpieza de hardware y programas, etc., instalación de cables de red, instalación de programas y drivers de las impresoras. ",
     "RESUMEN": "perfil profesional técnico analista programador computacional con discapacidad auditiva. personal y profesionalmente me caracterizo por ser responsable, eficiente, y proactivo. presento hipoacusia bilateral perdida auditiva que afecta a ambos oídos, lo que me dificulta una fácil comunicación sin embargo, puedo leer los labios y comunicarme con mis pares de forma escrita o bien a través del lenguaje de señas. a pesar de mis limitaciones estoy altamente motivado a enfrentar nuevos desafíos profesionales y adquirir nuevos conocimientos que me permitan explotar mis habilidades y mejorar mi desempeño profesional. ",
     "SKILLS": [
-        "Linux",
-        "Windows",
-        "Ubuntu",
-        "Office"
+        "OFFICE",
+        "LINUX",
+        "UBUNTU",
+        "WINDOWS"
     ],
     "REFERENCIAS": ""
 }

@@ -9,39 +9,28 @@
     },
     "NOMBRE_ARCHIVO": "1573855975989-CVitae.pdf",
     "LICENCIA_CERTIFICACION": [],
-    "PALABRAS_CLAVES": [
-        "Liderazgo",
-        "Adaptable",
-        "Modelamiento",
-        "Responsabilidad",
-        "Estrategia",
-        "Colaboración",
-        "Gestión",
-        "Creativo",
-        "Negociación",
-        "Analizar"
-    ],
+    "PALABRAS_CLAVES": null,
     "EDUCACION": {
         "UNIVERSIDADES:": [
-            "Universidad Gabriela Mistral",
-            "Universidad San Sebastián"
+            "UNIVERSIDAD GABRIELA MISTRAL",
+            "UNIVERSIDAD SAN SEBASTIAN"
         ],
         "GRADO_MAS_ALTO": [
-            "Pregrado"
+            "PREGRADO"
         ]
     },
     "IDIOMAS": [],
     "EXPERIENCIA": "experiencia profesional giglio madrid uribe profesional con fuerte orientación al área comercial, con una vasta experiencia en el rubro de telecomunicaciones y tecnologías de información. dispuesto a integrar equipos de trabajo para el desarrollo y apertura de nuevos negocios y mercados. capacitado para trabajar en medios exigentes altamente competitivos y en una búsqueda constante de crecimiento profesional, técnico y humano. quien soy r.u.t. 12491677-1 nacionalidad chilena fecha de nac. 11 enero 1973 edad. 46 años. estado civil. soltero dirección lord cochrane 181 depto.804. santiago centro nro. telefónico 56 976018648 e-mail gigliomadridu@gmail.com ",
     "RESUMEN": "ingeniero comercial universidad gabriela mistral titulado. diplomado dirección comercial y ventas universidad san sebastián titulado. ",
     "SKILLS": [
-        "Word",
-        "Power point",
-        "Cloud",
-        "Azure",
-        "Office",
-        "Crm",
-        "Excel",
-        "Power bi"
+        "POWER BI",
+        "WORD",
+        "POWER POINT",
+        "AZURE",
+        "OFFICE",
+        "CLOUD",
+        "CRM",
+        "EXCEL"
     ],
     "REFERENCIAS": ""
 }

@@ -12,11 +12,11 @@
     "PALABRAS_CLAVES": null,
     "EDUCACION": {
         "UNIVERSIDADES:": [
-            "Universidad de Santiago de Chile",
-            "Universidad de los Andes"
+            "UNIVERSIDAD DE SANTIAGO DE CHILE",
+            "UNIVERSIDAD DE LOS ANDES"
         ],
         "GRADO_MAS_ALTO": [
-            "Pregrado"
+            "PREGRADO"
         ]
     },
     "IDIOMAS": [],

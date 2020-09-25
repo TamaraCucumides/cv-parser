@@ -12,33 +12,28 @@
         "CLASE B",
         "LICENCIA DE CONDUCIR"
     ],
-    "PALABRAS_CLAVES": [
-        "Responsabilidad",
-        "Aprender",
-        "Gestión",
-        "Puntual"
-    ],
+    "PALABRAS_CLAVES": null,
     "EDUCACION": {
         "UNIVERSIDADES:": [
-            "Universidad Nacional Andrés Bello"
+            "UNIVERSIDAD NACIONAL ANDRES BELLO"
         ],
         "GRADO_MAS_ALTO": [
-            "Pregrado"
+            "PREGRADO"
         ]
     },
     "IDIOMAS": [
-        "Inglés"
+        "INGLES"
     ],
     "EXPERIENCIA": "antecedentes laborales diciembre 2017- enero 2018 atención al cliente, cajera. savory. melipilla, chile. 03 julio 2019 31 de julio 2019 administración y contabilidad emind, melipilla, chile ",
     "RESUMEN": "curriculum vitae ",
     "SKILLS": [
-        "Word",
-        "Visio",
-        "Microsoft project",
-        "Power point",
-        "Windows",
-        "Autocad",
-        "Excel"
+        "POWER POINT",
+        "WORD",
+        "AUTOCAD",
+        "VISIO",
+        "EXCEL",
+        "WINDOWS",
+        "MICROSOFT PROJECT"
     ],
     "REFERENCIAS": ""
 }

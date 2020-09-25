@@ -12,12 +12,12 @@
     "PALABRAS_CLAVES": null,
     "EDUCACION": {
         "UNIVERSIDADES:": [
-            "Universidad Alberto Hurtado",
-            "Instituto Profesional DUOC UC",
-            "Instituto Profesional AIEP"
+            "UNIVERSIDAD ALBERTO HURTADO",
+            "INSTITUTO PROFESIONAL AIEP",
+            "INSTITUTO PROFESIONAL DUOC UC"
         ],
         "GRADO_MAS_ALTO": [
-            "Pregrado"
+            "PREGRADO"
         ]
     },
     "IDIOMAS": [],
